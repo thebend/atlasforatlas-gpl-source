@@ -1,0 +1,1246 @@
+{
+ "meta": {
+  "verifier": "claude-sonnet, independent pass (part 3 of 3)",
+  "date": "2026-10-24",
+  "method": "Covered items 481-719 (claims na-c-481..497 and events na-e-001..222). For each item I read the statement and structured fields (polity/participants, place, authority/kind, dates) against the cited pages in the fetch cache, locating each quote and its surrounding text and checking uncited details (dates, numbers, names) in the full page text. Cache entries that were empty (eight Wikipedia pages with accented titles) were refetched via the Wikipedia REST API, and about 35 unreadable Canadian Encyclopedia pages via Wayback Machine snapshots; one (CE Innu) remained unreadable. Items are partially-verified when a field (date precision, place anchor, participants, kind, polity, or an extra statement detail) is not supported by the cited text; rejected only for clearly out-of-window events."
+ },
+ "items": {
+  "na-c-481": {
+   "status": "verified",
+   "note": "Muwekma page states aboriginal homeland counties around SF Bay; 'other Ohlone groups' is a mild generalisation but core supported.",
+   "fields_unsupported": []
+  },
+  "na-c-482": {
+   "status": "verified",
+   "note": "Mission founding 29 June 1776 (CMF), 5,000+ deaths by 1832, and Muwekma mission-sphere 1776-1836 all in cited text.",
+   "fields_unsupported": []
+  },
+  "na-c-483": {
+   "status": "verified",
+   "note": "CMF gives 11 June 1797 founding; Muwekma ancestry via Dolores, Santa Clara, San Jose supported.",
+   "fields_unsupported": []
+  },
+  "na-c-484": {
+   "status": "verified",
+   "note": "Wikipedia Yaanga: large village near downtown LA, 'largest and most influential village in the region'; Tongva site gives county/islands homeland. Coords approximate as flagged.",
+   "fields_unsupported": []
+  },
+  "na-c-485": {
+   "status": "verified",
+   "note": "Wikipedia: refugee camp after 1781 pueblo, relocated, razed by LA City Council 1847.",
+   "fields_unsupported": []
+  },
+  "na-c-486": {
+   "status": "verified",
+   "note": "Tongva tribe and Wikipedia both give 1771 San Gabriel founding and forced relocation/virtual enslavement under missions.",
+   "fields_unsupported": []
+  },
+  "na-c-487": {
+   "status": "verified",
+   "note": "Wikipedia: founded 1769-07-16 in area long inhabited by Kumeyaay; infobox gives place name Nipawai. 'to' = founding date, reasonable.",
+   "fields_unsupported": []
+  },
+  "na-c-488": {
+   "status": "verified",
+   "note": "CMF: founded 16 July 1769; violence within weeks; 1775 Tipai attack killed Fr Jayme. Coords are the later mission-valley site, minor.",
+   "fields_unsupported": []
+  },
+  "na-c-489": {
+   "status": "partially-verified",
+   "note": "Wikipedia supports 1822 confiscation of Kumeyaay coastal lands; but this was seizure/grant to Californios, not a cession, so authority 'ceded' overstates.",
+   "fields_unsupported": [
+    "authority"
+   ]
+  },
+  "na-c-490": {
+   "status": "verified",
+   "note": "Wikipedia Pomo territory to Clear Lake; Bloody Island page: Bo-no-po-ti traditional spring fish-spawn gathering place.",
+   "fields_unsupported": []
+  },
+  "na-c-491": {
+   "status": "verified",
+   "note": "Wikipedia Pomo: Kashaya Pomo on coast near Fort Ross, traded with Russians, Fort Ross 1812-1841.",
+   "fields_unsupported": []
+  },
+  "na-c-492": {
+   "status": "partially-verified",
+   "note": "Ahwahneechee lived in Yosemite Valley for centuries, entry 1851 supported; but source says 'primarily Mono', so polity 'miwok' is a loose fit.",
+   "fields_unsupported": [
+    "polity"
+   ]
+  },
+  "na-c-493": {
+   "status": "verified",
+   "note": "Wikipedia: Mariposa Battalion entered Yosemite Valley 25 March 1851, burned villages and food stores, forcibly relocated people; Ahwahneechee page covers Tenaya's capture and the band's removal to Fresno reservation.",
+   "fields_unsupported": []
+  },
+  "na-c-494": {
+   "status": "partially-verified",
+   "note": "Source says Round Valley was originally Yuki land; the Round Valley Tribes confederation did not exist before reservation era, so polity for 1492-1856 is a mismatch.",
+   "fields_unsupported": [
+    "polity"
+   ]
+  },
+  "na-c-495": {
+   "status": "partially-verified",
+   "note": "Nome Cult Farm began 1856 and 1858-60 massacres >500 supported; but Concow march (1863 per image caption) and official designation (1858) are later than 'from 1856'.",
+   "fields_unsupported": [
+    "from.year"
+   ]
+  },
+  "na-c-496": {
+   "status": "verified",
+   "note": "Wikipedia: Grant executive order 30 March 1870; RVIT site describes sovereign confederated tribes.",
+   "fields_unsupported": []
+  },
+  "na-c-497": {
+   "status": "verified",
+   "note": "Wikipedia Ishi: Three Knolls Massacre 1865, Ishi emerged 1911, Ishi Wilderness believed ancestral Yahi grounds; Yana/Yahi range matches. Coords approximate by design.",
+   "fields_unsupported": []
+  },
+  "na-e-001": {
+   "status": "verified",
+   "note": "WHO and Wikipedia infobox give 1428 for the alliance; Wikipedia body text says the treaty was 1430. Year-level date acceptable but slightly contested.",
+   "fields_unsupported": []
+  },
+  "na-e-002": {
+   "status": "verified",
+   "note": "Indigenous Mexico: 31 Aug battle, entered Tlaxcalan capital 18 September, Xicotenga agreed to supply provisions and manpower. Wikipedia confirms alliance.",
+   "fields_unsupported": []
+  },
+  "na-e-003": {
+   "status": "verified",
+   "note": "Wikipedia: Spanish and native allies driven from Tenochtitlan, Tlacopan causeway. Date 30 June (conquest timeline) vs night of 1 July (Noche Triste page): one-day variance, fine.",
+   "fields_unsupported": []
+  },
+  "na-e-004": {
+   "status": "verified",
+   "note": "Wikipedia smallpox page: reached Tenochtitlan by fall 1520; Cuitlahuac died; quarter to half mortality. Year precision matches.",
+   "fields_unsupported": []
+  },
+  "na-e-005": {
+   "status": "verified",
+   "note": "Wikipedia and WHO both give 13 August 1521 for the fall of Tenochtitlan.",
+   "fields_unsupported": []
+  },
+  "na-e-006": {
+   "status": "verified",
+   "note": "Wikipedia: Tangaxuan II executed by Nuno de Guzman 14 Feb 1530. Execution place was Nueva Galicia, not Tzintzuntzan; capital is a symbolic anchor for the end of the state.",
+   "fields_unsupported": []
+  },
+  "na-e-007": {
+   "status": "partially-verified",
+   "note": "1540 start and Caxcan uprising supported (Wikipedia 1540-1542, Mixton hill). Nochistlan as place only supported as Tenamaxtle's home; Wikipedia gives no specific location, Mixton hill is in Zacatecas.",
+   "fields_unsupported": [
+    "place"
+   ]
+  },
+  "na-e-008": {
+   "status": "verified",
+   "note": "Wikipedia: Merida founded 6 January 1542; on 23 January Tutul-Xiu lord of Mani came in peace; submission encouraged western lords.",
+   "fields_unsupported": []
+  },
+  "na-e-009": {
+   "status": "partially-verified",
+   "note": "Death toll and Teposcolula cemetery claims supported, 1545-48 epidemic. But participants include caxcan (unsupported) and a single Tenochtitlan point stands for an empire-wide epidemic.",
+   "fields_unsupported": [
+    "participants",
+    "place.coords"
+   ]
+  },
+  "na-e-010": {
+   "status": "verified",
+   "note": "Wikipedia: Zacatecos attacked late 1550, Guachichile and Guamares joined 1551, longest and most expensive campaign; 1546 Zacatecas silver. Caxcanes listed as combatants.",
+   "fields_unsupported": []
+  },
+  "na-e-011": {
+   "status": "verified",
+   "note": "Wikipedia: 16 Nov 1616 wagon train attacked outside Santa Catarina de Tepehuanes; revolt 1616-1620; Jesuit source confirms 16-20 Nov 1616 killings.",
+   "fields_unsupported": []
+  },
+  "na-e-012": {
+   "status": "verified",
+   "note": "Wikipedia Raramuri: 1648 war, gathered at Fariagic, destroyed San Francisco de Borja mission, two leaders executed.",
+   "fields_unsupported": []
+  },
+  "na-e-013": {
+   "status": "verified",
+   "note": "Wikipedia: Nojpeten fell 13 March 1697; capital of last Maya kingdom; Kan Ek refused conversion and surrender.",
+   "fields_unsupported": []
+  },
+  "na-e-014": {
+   "status": "partially-verified",
+   "note": "Wikipedia and Yucatan Today support Chi/Pat attacking Tepich 30 July 1847 after Ay's execution (26 July), and Chan Santa Cruz as largest Maya state. Participant 'cruzob' did not exist until c.1850.",
+   "fields_unsupported": [
+    "participants"
+   ]
+  },
+  "na-e-015": {
+   "status": "verified",
+   "note": "Wikipedia Yaqui Wars: El Anil, Yaqui fortress near Vicam, captured 12 May 1886; Cajeme founded Yaqui republic 1876.",
+   "fields_unsupported": []
+  },
+  "na-e-016": {
+   "status": "verified",
+   "note": "Wikipedia Zuni: ~600 Zuni warriors met near Hawikuh July 1540, village captured; retreat to Dowa Yalanne is documented for 1680s, not 1540, but statement only loosely asserts it.",
+   "fields_unsupported": []
+  },
+  "na-e-017": {
+   "status": "verified",
+   "note": "Wikipedia: Onate first governor of Santa Fe de Nuevo Mexico 1598-1610, held government at Ohkay Owingeh renamed San Juan de los Caballeros; EBSCO: expedition set out April 1598.",
+   "fields_unsupported": []
+  },
+  "na-e-018": {
+   "status": "verified",
+   "note": "Wikipedia: Acoma massacre January 1599, about 500 captured, servitude and amputations; NPS: Onate demanded servitude and mutilation; EBSCO: Vicente de Zaldivar arrived 11 Jan 1599.",
+   "fields_unsupported": []
+  },
+  "na-e-019": {
+   "status": "verified",
+   "note": "Wikipedia and EBSCO: rising 10 August 1680, Spaniards retreated toward El Paso, returned twelve years later; Zuni and Hopi pledged participation.",
+   "fields_unsupported": []
+  },
+  "na-e-020": {
+   "status": "verified",
+   "note": "Wikipedia Pueblo Revolt: 14 Sept 1692 repossession with sixty soldiers and 100 auxiliaries; 16 Dec 1693 recapture; 1696 revolt. Vargas page gives 12 Sept, minor variance.",
+   "fields_unsupported": []
+  },
+  "na-e-021": {
+   "status": "verified",
+   "note": "Wikipedia and EBSCO: Awatovi destroyed c.1700 by other Hopis, men killed, women and children taken, never reoccupied.",
+   "fields_unsupported": []
+  },
+  "na-e-022": {
+   "status": "partially-verified",
+   "note": "Wikipedia confirms 19 Jan 1847 rising at Taos by Hispanos and Pueblo people against US government; but 'mexico' as participant is unsupported (the rebels were local New Mexicans).",
+   "fields_unsupported": [
+    "participants"
+   ]
+  },
+  "na-e-023": {
+   "status": "verified",
+   "note": "Wikipedia: signed 2 Feb 1848 at Guadalupe Hidalgo, Article XI on Indian raids; Ute page confirms Ute territory passed from Mexico. 'Without consent' is interpretive but not a mapped field.",
+   "fields_unsupported": []
+  },
+  "na-e-024": {
+   "status": "verified",
+   "note": "Wikipedia: 29,640 sq mi purchased, draft signed 31 Dec 1853; Tohono O'odham site: land divided between US and Mexico. Centroid coordinates flagged approximate.",
+   "fields_unsupported": []
+  },
+  "na-e-025": {
+   "status": "verified",
+   "note": "Wikipedia: Bascom tried to hold Cochise and family hostage in a tent, Cochise escaped; NPS confirms Bascom Affair at Apache Pass in 1861.",
+   "fields_unsupported": []
+  },
+  "na-e-026": {
+   "status": "verified",
+   "note": "Wikipedia: 15 July 1862 Roberts detachment attacked by ~500 Apache under Mangas Coloradas and Cochise; NPS estimates ~150; Fort Bowie established after.",
+   "fields_unsupported": []
+  },
+  "na-e-027": {
+   "status": "verified",
+   "note": "Long Walk page: Carson full-scale assault January 1864; Canyon de Chelly page: troops destroyed hogans, orchards, crops, demoralisation led to surrender (it says 1863, minor).",
+   "fields_unsupported": []
+  },
+  "na-e-028": {
+   "status": "verified",
+   "note": "EBSCO: first march March 1864 largest; Wikipedia: 53 marches (it dates them Aug 1864-1866), up to 3,500 deaths. Start month supported by EBSCO.",
+   "fields_unsupported": []
+  },
+  "na-e-029": {
+   "status": "verified",
+   "note": "Wikipedia: signed 1 June 1868, Sherman and Tappan met Barboncito and ten headmen, ended Navajo Wars, return from Fort Sumner.",
+   "fields_unsupported": []
+  },
+  "na-e-030": {
+   "status": "verified",
+   "note": "Wikipedia: 30 April 1871 attack on Pinal and Aravaipa Apache at Camp Grant; O'odham, Mexicans, Americans; ~144 killed, all but eight women and children.",
+   "fields_unsupported": []
+  },
+  "na-e-031": {
+   "status": "verified",
+   "note": "Southern Ute site: Brunot Agreement signed 13 Sept 1873 at Los Pinos Agency, ratified 1874, remembered as fraudulent taking; San Juan Mountains anchor reasonable.",
+   "fields_unsupported": []
+  },
+  "na-e-032": {
+   "status": "verified",
+   "note": "Colorado Newsline: 29 Sept 1879 Utes ambushed army unit and attacked White River agency, killing Meeker; Ute bands subsequently expelled. Wikipedia gives same date.",
+   "fields_unsupported": []
+  },
+  "na-e-033": {
+   "status": "verified",
+   "note": "Wikipedia: Cibecue Creek battle 30 Aug 1881 after arrest of medicine man Nock-ay-det-klinne; part of Geronimo's War.",
+   "fields_unsupported": []
+  },
+  "na-e-034": {
+   "status": "verified",
+   "note": "Wikipedia and NPS: Geronimo surrendered to Miles at Skeleton Canyon 4 Sept 1886.",
+   "fields_unsupported": []
+  },
+  "na-e-035": {
+   "status": "verified",
+   "note": "Wikipedia: Quechan rebelled 17-19 July 1781; NPS: Spanish never again tried to control Quechan or crossing.",
+   "fields_unsupported": []
+  },
+  "na-e-036": {
+   "status": "verified",
+   "note": "Wikipedia: Mohave War 1858-1859; Camp Colorado established 19 April 1859, renamed Fort Mohave; tribal site confirms fort 1859.",
+   "fields_unsupported": []
+  },
+  "na-e-037": {
+   "status": "verified",
+   "note": "Wikipedia Jicarilla Apache: 30 March 1854 ~250 Apache and Ute fought US dragoons near Pilar (Cieneguilla).",
+   "fields_unsupported": []
+  },
+  "na-e-038": {
+   "status": "partially-verified",
+   "note": "Wikipedia: signed 17 Sept 1851 by Cheyenne, Sioux, Arapaho, Crow, Assiniboine, Mandan, Hidatsa, Arikara; territories defined. Coords are Fort Laramie, ~30 miles from the Horse Creek site, not flagged approximate.",
+   "fields_unsupported": [
+    "place.coords"
+   ]
+  },
+  "na-e-039": {
+   "status": "verified",
+   "note": "Wikipedia: Grattan massacre 19 Aug 1854 east of Fort Laramie, Conquering Bear shot, 29 soldiers killed, start of First Sioux War. Point is the fort (camp ~8 miles east).",
+   "fields_unsupported": []
+  },
+  "na-e-040": {
+   "status": "verified",
+   "note": "MNopedia and Wikipedia: four Dakota men killed five settlers at Acton 17 Aug 1862; that night Mdewakanton council persuaded Little Crow; attack on Lower Sioux Agency next morning.",
+   "fields_unsupported": []
+  },
+  "na-e-041": {
+   "status": "verified",
+   "note": "MNHS and MNopedia: 38 Dakota hanged at Mankato 26 Dec 1862, largest mass hanging in US history; Wikipedia: 303 sentenced.",
+   "fields_unsupported": []
+  },
+  "na-e-042": {
+   "status": "verified",
+   "note": "Wikipedia: Sand Creek 29 Nov 1864, Chivington's Colorado cavalry, most sources ~150 killed, two-thirds women and children; NPS: ~750 Cheyenne and Arapaho under Black Kettle on Big Sandy Creek.",
+   "fields_unsupported": []
+  },
+  "na-e-043": {
+   "status": "verified",
+   "note": "Wikipedia: Fetterman Fight 21 Dec 1866, all 81 killed, Lakota/Cheyenne/Arapaho; took place on Crow land guaranteed by 1851 treaty.",
+   "fields_unsupported": []
+  },
+  "na-e-044": {
+   "status": "verified",
+   "note": "OHS encyclopedia: three treaties at Medicine Lodge Creek, October 1867, relocation to western Indian Territory, Senate ratification July 1868.",
+   "fields_unsupported": []
+  },
+  "na-e-045": {
+   "status": "verified",
+   "note": "NARA: signed 29 April 1868, Black Hills part of Great Sioux Reservation; NDStudies: reservation created, unceded hunting lands, army gave up Bozeman Trail forts.",
+   "fields_unsupported": []
+  },
+  "na-e-046": {
+   "status": "verified",
+   "note": "Wikipedia and NPS: 27 Nov 1868, Custer's 7th Cavalry attacked Black Kettle's Cheyenne camp on the Washita.",
+   "fields_unsupported": []
+  },
+  "na-e-047": {
+   "status": "verified",
+   "note": "OHS: Adobe Walls attack official start of Red River War; Quanah Parker's band came into Fort Sill 2 June 1875; TSHA: ~700 warriors on 27 June 1874.",
+   "fields_unsupported": []
+  },
+  "na-e-048": {
+   "status": "verified",
+   "note": "NPS and Wikipedia: 25-26 June 1876, Lakota, Northern Cheyenne, Arapaho vs 7th Cavalry with Crow and Arikara scouts, Little Bighorn River.",
+   "fields_unsupported": []
+  },
+  "na-e-049": {
+   "status": "verified",
+   "note": "Wikipedia and US Supreme Court text: 1877 Act removed Black Hills from Great Sioux Reservation, abrogating Fort Laramie Treaty; 28 Feb 1877 date in Wikipedia.",
+   "fields_unsupported": []
+  },
+  "na-e-050": {
+   "status": "verified",
+   "note": "Wikipedia: 29 Dec 1890 at Wounded Knee Creek, Pine Ridge; History.com 146 killed; encyclopedia quote 250-300 in Wikipedia references.",
+   "fields_unsupported": []
+  },
+  "na-e-051": {
+   "status": "verified",
+   "note": "NPS: 1837 smallpox reduced Mandan to as few as 125; Wikipedia: American Fur Company steamboat carried infected people up Missouri River.",
+   "fields_unsupported": []
+  },
+  "na-e-052": {
+   "status": "verified",
+   "note": "Wikipedia: formal treaty concluded 28 Feb 1786 at Pecos Pueblo after 1783 campaign; TSHA: Spanish-Comanche Treaty of 1785 (Texas).",
+   "fields_unsupported": []
+  },
+  "na-e-053": {
+   "status": "verified",
+   "note": "Wikipedia: 353 fled on 10 Sept 1878 up North Canadian River; Fort Robinson group broke out January 1879, mostly killed or recaptured.",
+   "fields_unsupported": []
+  },
+  "na-e-054": {
+   "status": "verified",
+   "note": "OHS and Wikipedia: Ponca forcibly removed to Indian Territory in 1877 without chiefs' consent; Niobrara mouth was their homeland.",
+   "fields_unsupported": []
+  },
+  "na-e-055": {
+   "status": "verified",
+   "note": "Canadian Encyclopedia (archived copy): Seven Oaks 19 June 1816, Cuthbert Grant's Metis pemmican party met Semple and 28 men; Semple and 20 HBC dead.",
+   "fields_unsupported": []
+  },
+  "na-e-056": {
+   "status": "verified",
+   "note": "DCB Peguis: 18 July 1817 five Saulteaux and Cree chiefs signed with Selkirk, strip two miles each side of Red and Assiniboine; Wikipedia: rent of tobacco.",
+   "fields_unsupported": []
+  },
+  "na-e-057": {
+   "status": "verified",
+   "note": "CE Chipewyan: first great smallpox epidemic 1781-82; Alberta Heritage: winter 1781-82 devastated western Canada via fur-trade posts. Prince of Wales Fort anchor is a loose symbolic location.",
+   "fields_unsupported": []
+  },
+  "na-e-058": {
+   "status": "verified",
+   "note": "Wikipedia Blackfoot Confederacy: St. Peter's steamboat 1837, ~6,000 Niitsitapi died; Alberta Heritage source notes 1837-38 outbreak crossing into Canada.",
+   "fields_unsupported": []
+  },
+  "na-e-059": {
+   "status": "verified",
+   "note": "Wikipedia: Marias Massacre 23 Jan 1870, ~200 killed mostly women, children and elders, Heavy Runner's camp, smallpox-stricken; CE says ~220.",
+   "fields_unsupported": []
+  },
+  "na-e-060": {
+   "status": "verified",
+   "note": "Wikipedia Treaty 1: signed 3 Aug 1871 between the Crown and Anishinaabe and Swampy Cree; eight days of treaty-making.",
+   "fields_unsupported": []
+  },
+  "na-e-061": {
+   "status": "verified",
+   "note": "Wikipedia: 1 June 1873 near Battle Creek; CE: 30+ Assiniboine killed by American wolf hunters, spurred creation of NWMP.",
+   "fields_unsupported": []
+  },
+  "na-e-062": {
+   "status": "verified",
+   "note": "CE Treaty 4: signed 15 Sept 1874 at Fort Qu'Appelle; lands mostly southern Saskatchewan, small portions in western Manitoba and southern Alberta.",
+   "fields_unsupported": []
+  },
+  "na-e-063": {
+   "status": "verified",
+   "note": "CE Treaty 6: signed 23 Aug 1876 at Fort Carlton and 9 Sept at Fort Pitt; Poundmaker resisted terms; Big Bear was away.",
+   "fields_unsupported": []
+  },
+  "na-e-064": {
+   "status": "verified",
+   "note": "CE Treaty 7: signed 22 Sept 1877 by five nations; First Nations understood it primarily as a peace treaty; Siksika site confirms Blackfoot Crossing.",
+   "fields_unsupported": []
+  },
+  "na-e-065": {
+   "status": "verified",
+   "note": "Wikipedia and CE: Wandering Spirit led Cree men, nine killed at Frog Lake on 2 April 1885; Big Bear tried to stop violence.",
+   "fields_unsupported": []
+  },
+  "na-e-066": {
+   "status": "verified",
+   "note": "CE: 2 May 1885, Cree and Assiniboine defeated 300 soldiers under Otter at Cut Knife; Poundmaker convicted of treason.",
+   "fields_unsupported": []
+  },
+  "na-e-067": {
+   "status": "verified",
+   "note": "Wikipedia and CE: Batoche fought 9-12 May 1885, Middleton's force overcame Metis, resistance broken; Riel surrendered, Dumont fled.",
+   "fields_unsupported": []
+  },
+  "na-e-068": {
+   "status": "verified",
+   "note": "CE Louis Riel (archived copy): died 16 November 1885 in Regina; executed for high treason for 1885 resistance.",
+   "fields_unsupported": []
+  },
+  "na-e-069": {
+   "status": "verified",
+   "note": "CE Manitoba Act: royal assent and law 12 May 1870; roughly 1,400,000 acres set aside for Metis.",
+   "fields_unsupported": []
+  },
+  "na-e-070": {
+   "status": "verified",
+   "note": "CE Treaty 8: signed 21 June 1899 by the Crown and First Nations of the Lesser Slave Lake area, first signing there.",
+   "fields_unsupported": []
+  },
+  "na-e-071": {
+   "status": "unverified",
+   "note": "Only cited source (CE Innu) is unreadable: live fetch 403 and archived copies are script stubs. The 1603 Tadoussac alliance is well documented elsewhere, but not checked against a cited text.",
+   "fields_unsupported": []
+  },
+  "na-e-072": {
+   "status": "partially-verified",
+   "note": "Peacemaker/Hiawatha founding at Onondaga is supported, but the sources say the date is unknown or 'time immemorial'; 1142 is only a 1997 proposal (CE says many claim mid-16th century). Also predates the 1492 window.",
+   "fields_unsupported": [
+    "date.year"
+   ]
+  },
+  "na-e-073": {
+   "status": "verified",
+   "note": "CE Six Nations and Iroquois: Tuscarora sought refuge in 1722 after British expansion in the Carolinas, accepted as sixth nation.",
+   "fields_unsupported": []
+  },
+  "na-e-074": {
+   "status": "verified",
+   "note": "Wikipedia Beaver Wars 1609-1701, Haudenosaunee backed by Dutch and English vs Wendat; CE: Huron-Wendat dispersed after villages destroyed in 1649. Montreal is a coarse regional anchor.",
+   "fields_unsupported": []
+  },
+  "na-e-075": {
+   "status": "verified",
+   "note": "Wikipedia: Great Peace of Montreal signed 4 Aug 1701 by Callieres and 1,300 representatives of 39 nations, ending Beaver Wars.",
+   "fields_unsupported": []
+  },
+  "na-e-076": {
+   "status": "verified",
+   "note": "Wikipedia: Albany Congress 19 June-11 July 1754 with delegates of seven colonies; Albany Purchase sale of Pennsylvania land by Haudenosaunee.",
+   "fields_unsupported": []
+  },
+  "na-e-077": {
+   "status": "verified",
+   "note": "Wikipedia: signed 5 Nov 1768; Line of Property along the Ohio; Shawnee and Lenape present but not signatories.",
+   "fields_unsupported": []
+  },
+  "na-e-078": {
+   "status": "verified",
+   "note": "Wikipedia: Sullivan expedition summer 1779, 40 villages razed, just over 5,000 Haudenosaunee fled to Fort Niagara; 18 June is the march start. Newtown battlefield is one site of a wide campaign.",
+   "fields_unsupported": []
+  },
+  "na-e-079": {
+   "status": "verified",
+   "note": "Wikipedia: Treaty of Fort Stanwix finalised 22 Oct 1784; Haudenosaunee ceded Ohio claims and Niagara strip; Buffalo Creek council refused to ratify.",
+   "fields_unsupported": []
+  },
+  "na-e-080": {
+   "status": "verified",
+   "note": "Wikipedia: Haldimand decree 25 Oct 1784 granting Mohawk land six miles deep each side of Grand River. Statement's 'other Five Nations allies' is a CE/other-source extension, not an issue for the map.",
+   "fields_unsupported": []
+  },
+  "na-e-081": {
+   "status": "verified",
+   "note": "Wikipedia: Treaty of Canandaigua signed 11 Nov 1794 by fifty royaner and war chiefs and Timothy Pickering; perpetual peace and friendship.",
+   "fields_unsupported": []
+  },
+  "na-e-082": {
+   "status": "verified",
+   "note": "Wikipedia: Treaty of Big Tree, delegates met 20 Aug-16 Sept 1797 at Geneseo, Seneca relinquished nearly 3.5 million acres.",
+   "fields_unsupported": []
+  },
+  "na-e-083": {
+   "status": "partially-verified",
+   "note": "1838 Treaty of Buffalo Creek, 43 of 80+ chiefs, and 1842 ratified replacement are supported; but sources credit retention of Cattaraugus and Allegany to 1850s legal battles, not directly to the 1842 treaty.",
+   "fields_unsupported": [
+    "statement.detail"
+   ]
+  },
+  "na-e-084": {
+   "status": "verified",
+   "note": "Wikipedia Ganondagan: Denonville's army (832 regulars, 900+ militia, 400 allies) reached the town 14 July 1687 and found it burned by the Seneca; CE lists French attacks in 1687.",
+   "fields_unsupported": []
+  },
+  "na-e-085": {
+   "status": "verified",
+   "note": "Wikipedia and Delaware Nation: Penn-Tamanend treaty of 1682 at Shackamaxon, no surviving paper documents.",
+   "fields_unsupported": []
+  },
+  "na-e-086": {
+   "status": "verified",
+   "note": "Wikipedia: Peach War, one-day occupation of New Amsterdam on 15 Sept 1655 by several hundred Munsee, raids on Staten Island and Pavonia.",
+   "fields_unsupported": []
+  },
+  "na-e-087": {
+   "status": "verified",
+   "note": "Wikipedia Esopus Wars: First Esopus War between Dutch settlers and Esopus, 20 Sept 1659 to 15 July 1660.",
+   "fields_unsupported": []
+  },
+  "na-e-088": {
+   "status": "verified",
+   "note": "Wikipedia: walk of 19 Sept 1737, 1,200,000-acre claim from 1686 deed; Delaware Nation confirms deceptive 1737 treaty. Forks of the Delaware anchor reasonable.",
+   "fields_unsupported": []
+  },
+  "na-e-089": {
+   "status": "verified",
+   "note": "Wikipedia: Treaty of Easton meetings 7-26 Oct 1758; Pennsylvania returned Albany Purchase land west of Alleghenies, removing cause of Lenape raids.",
+   "fields_unsupported": []
+  },
+  "na-e-090": {
+   "status": "verified",
+   "note": "Delaware Nation: White Eyes, Killbuck and Pipe signed Fort Pitt Treaty 17 Sept 1778, first US treaty with and broken with a Native nation; Wikipedia agrees on date.",
+   "fields_unsupported": []
+  },
+  "na-e-091": {
+   "status": "verified",
+   "note": "Wikipedia: 96 pacifist Moravian Indians killed by Pennsylvania militia under Williamson on 8 March 1782 at Gnadenhutten, Ohio.",
+   "fields_unsupported": []
+  },
+  "na-e-092": {
+   "status": "partially-verified",
+   "note": "Wikipedia confirms 1867 agreement to relocate to the Cherokee Nation in Indian Territory; but Bartlesville is the tribe's present-day capital, not an 1867 location named in the source.",
+   "fields_unsupported": [
+    "place.coords"
+   ]
+  },
+  "na-e-093": {
+   "status": "verified",
+   "note": "Wikipedia: Jamestown established May 1607 within Powhatan territory under Wahunsunacawh.",
+   "fields_unsupported": []
+  },
+  "na-e-094": {
+   "status": "verified",
+   "note": "Wikipedia: first war 1609-1614; De La Warr's men attacked Paspahegh town 9 Aug 1610. Jamestown anchor is representative.",
+   "fields_unsupported": []
+  },
+  "na-e-095": {
+   "status": "verified",
+   "note": "Wikipedia: Opechancanough's warriors struck without warning 22 March 1622, killing hundreds; second war 1622-1632.",
+   "fields_unsupported": []
+  },
+  "na-e-096": {
+   "status": "verified",
+   "note": "Wikipedia: another war began 18 April 1644 under Opechancanough; third war ended when he was captured and killed (1646).",
+   "fields_unsupported": []
+  },
+  "na-e-097": {
+   "status": "partially-verified",
+   "note": "Wikipedia and Virginia Places support Oct 1646 peace with Necotowance and vacating of the York-James peninsula; but Middle Plantation is tied to the 1677 treaty, so that place anchor is not supported for 1646.",
+   "fields_unsupported": [
+    "place.name",
+    "place.coords"
+   ]
+  },
+  "na-e-098": {
+   "status": "verified",
+   "note": "Wikipedia: Treaty of 1677 (Middle Plantation) signed in Virginia between the Crown and several tribes, concluded 29 May 1677 (28 May elsewhere); Queen of Pamunkey (Cockacoeske) named; established reservations.",
+   "fields_unsupported": []
+  },
+  "na-e-099": {
+   "status": "verified",
+   "note": "Wikipedia: 1615-1619 epidemic reduced Wampanoag and neighbours; Patuxet wiped out; Encyclopedia.com: Narragansett escaped worst epidemics. Wikipedia names leptospirosis, a disputed cause.",
+   "fields_unsupported": []
+  },
+  "na-e-100": {
+   "status": "verified",
+   "note": "Wikipedia: Wampanoag treaty signed 1 April 1621 (22 March O.S.) between Massasoit and Plymouth under Carver; mutual aid clause; Massasoit sought alliance against Narragansett.",
+   "fields_unsupported": []
+  },
+  "na-e-101": {
+   "status": "verified",
+   "note": "Wikipedia: Pokanokets attacked Swansea homesteads 20 June 1675; 28 June expedition destroyed Mount Hope town; war spread to Nipmuc, Pocumtuc, Narragansett.",
+   "fields_unsupported": []
+  },
+  "na-e-102": {
+   "status": "verified",
+   "note": "Wikipedia: on 12 Aug 1676 Metacom fled to Mount Hope and was killed by militia; Wampanoags left landless.",
+   "fields_unsupported": []
+  },
+  "na-e-103": {
+   "status": "verified",
+   "note": "Wikipedia Narragansett and Encyclopedia.com: in 1636 Williams acquired land from Canonicus and Miantonomi, founding Providence.",
+   "fields_unsupported": []
+  },
+  "na-e-104": {
+   "status": "verified",
+   "note": "Wikipedia: Great Swamp battle 19 Dec 1675 by Plymouth, Connecticut, Mass Bay militia incl. 150 Pequots; NPS: ~700 killed. Encyclopedia.com gives 16 Dec, minor variance.",
+   "fields_unsupported": []
+  },
+  "na-e-105": {
+   "status": "partially-verified",
+   "note": "Wikipedia: Pequot War 1636-1638, trigger was Oldham's killing 20 July 1636 on a Block Island voyage; allies listed. But the point shown is Mystic Fort (1637 battle), not where the dated onset occurred.",
+   "fields_unsupported": [
+    "place.coords"
+   ]
+  },
+  "na-e-106": {
+   "status": "verified",
+   "note": "Wikipedia: Mystic massacre 26 May 1637, Mason's Connecticut force with Narragansett and Mohegan allies, 400-700 Pequots killed; Encyclopedia.com agrees mostly women, children, elderly.",
+   "fields_unsupported": []
+  },
+  "na-e-107": {
+   "status": "verified",
+   "note": "Wikipedia: Treaty of Hartford concluded 21 Sept 1638 between Connecticut, Mohegan and Narragansett; Pequot name outlawed, lands to Connecticut River towns.",
+   "fields_unsupported": []
+  },
+  "na-e-108": {
+   "status": "verified",
+   "note": "Wikipedia Uncas and Encyclopedia.com: Mohegans besieged at Fort Shantok in 1645, relieved by English supplies.",
+   "fields_unsupported": []
+  },
+  "na-e-109": {
+   "status": "verified",
+   "note": "Wikipedia: Eastern Algonquians formed their own confederation at a Caughnawaga Council in the 1680s; Passamaquoddy wampum record tells of it. Location (Mohawk territory) is approximate, as flagged.",
+   "fields_unsupported": []
+  },
+  "na-e-110": {
+   "status": "verified",
+   "note": "Wikipedia: first Treaty of Casco signed 12 April 1678 by New York government and Penobscot representatives under Madockawando; rent in corn and respect for Penobscot land rights; ended First Abenaki War.",
+   "fields_unsupported": []
+  },
+  "na-e-111": {
+   "status": "verified",
+   "note": "Wikipedia: Treaty of Portsmouth signed 13 July 1713 by eight Wabanaki representatives, ending hostilities with Massachusetts and New Hampshire; Wabanaki not consulted on Nova Scotia at Utrecht.",
+   "fields_unsupported": []
+  },
+  "na-e-112": {
+   "status": "verified",
+   "note": "Wikipedia: Dummer's War 1722-25 between New England and Wabanaki over settlement east of Kennebec; Shute declared war on eastern Indians 25 July 1722. Norridgewock anchor is representative.",
+   "fields_unsupported": []
+  },
+  "na-e-113": {
+   "status": "verified",
+   "note": "Wikipedia: 22 Aug 1724 Moulton and Harmon led 200 rangers to Norridgewock, killing Rale and ~80 Abenaki; survivors retreated to Saint-Francois-du-Lac (Odanak) and Becancour.",
+   "fields_unsupported": []
+  },
+  "na-e-114": {
+   "status": "verified",
+   "note": "Parks Canada: 4 June 1726 Mi'kmaw, Wolastoqiyik and Passamaquoddy leaders gathered at Annapolis Royal to ratify a treaty based on the 1725 Boston treaty; CIRNAC confirms.",
+   "fields_unsupported": []
+  },
+  "na-e-115": {
+   "status": "verified",
+   "note": "DCB Membertou: baptised 24 June 1610 by Jesse Flesche with 20 family members; CE: first Indigenous person baptised in New France. Alliance framing is interpretive but standard.",
+   "fields_unsupported": []
+  },
+  "na-e-116": {
+   "status": "verified",
+   "note": "Wikipedia: Cornwallis founded Halifax on 21 June 1749 as the new capital; CIRNAC: Mi'kmaq communities refused treaty in anger over Halifax settlement.",
+   "fields_unsupported": []
+  },
+  "na-e-117": {
+   "status": "verified",
+   "note": "CIRNAC and Wikipedia: Treaty of 1752 signed at Halifax 22 Nov by Hopson and Jean-Baptiste Cope of Shubenacadie; reaffirmed 1726 treaty and formalised commerce.",
+   "fields_unsupported": []
+  },
+  "na-e-118": {
+   "status": "verified",
+   "note": "Wikipedia Susquehannock: abandoned Susquehanna town, palisaded village on Piscataway Creek besieged Sept 1675 by Maryland and Virginia militias; survivors scattered or absorbed by Haudenosaunee. Approximate coords flagged.",
+   "fields_unsupported": []
+  },
+  "na-e-119": {
+   "status": "verified",
+   "note": "Explore PA History and Wikipedia: ~50 Paxton men attacked Conestoga Town at dawn 14 Dec 1763 killing six; on 27 Dec killed fourteen at the Lancaster workhouse.",
+   "fields_unsupported": []
+  },
+  "na-e-120": {
+   "status": "partially-verified",
+   "note": "DCB and CE confirm March 1819 capture of Demasduit and killing of Nonosabasut by Peyton's party at Red Indian Lake. But event kind 'revolt' is wrong: this was a killing/kidnapping of Beothuk, not a Beothuk uprising.",
+   "fields_unsupported": [
+    "kind"
+   ]
+  },
+  "na-e-121": {
+   "status": "verified",
+   "note": "DCB and CE: Shanawdithit, last known Beothuk, died 6 June 1829 in St John's of tuberculosis; DCB notes she was the main source for Beothuk culture.",
+   "fields_unsupported": []
+  },
+  "na-e-122": {
+   "status": "verified",
+   "note": "Wikipedia Nanticoke: in 1778 two hundred moved north to Fort Niagara as British allies, later resettled with Six Nations near Brantford.",
+   "fields_unsupported": []
+  },
+  "na-e-123": {
+   "status": "verified",
+   "note": "CE Huron: reduced from 20-25,000 to ~9,000 between 1634 and 1642 by epidemics (measles, influenza, smallpox); Wikipedia Petun confirms 1634-1640 epidemics.",
+   "fields_unsupported": []
+  },
+  "na-e-124": {
+   "status": "verified",
+   "note": "CE: Haudenosaunee defeated and dispersed the Wendat 1648-49; Wikipedia: Jesuits burned Sainte-Marie among the Hurons on 16 June 1649.",
+   "fields_unsupported": []
+  },
+  "na-e-125": {
+   "status": "verified",
+   "note": "Wikipedia: 7 May 1763 Pontiac entered Fort Detroit with ~300 men with concealed weapons; CE: alliance of Odawa, Wyandot, Potawatomi and Ojibwa, siege of Detroit.",
+   "fields_unsupported": []
+  },
+  "na-e-126": {
+   "status": "verified",
+   "note": "CE Pontiac and Odawa: Royal Proclamation 7 Oct 1763 created Indigenous reserve west of Appalachians and recognised title to lands occupied. Approximate placement flagged.",
+   "fields_unsupported": []
+  },
+  "na-e-127": {
+   "status": "verified",
+   "note": "Wikipedia: Treaty of Camp Charlotte 19 Oct 1774, Shawnee to cease hunting south of Ohio; Camp Charlotte on Scippo Creek near Scioto towns; Point Pleasant 10 Oct.",
+   "fields_unsupported": []
+  },
+  "na-e-128": {
+   "status": "verified",
+   "note": "Wikipedia Northwest Indian War and Kekionga: Hardin reached Kekionga 15 Oct 1790, burned towns and crops; Little Turtle's forces forced retreat.",
+   "fields_unsupported": []
+  },
+  "na-e-129": {
+   "status": "verified",
+   "note": "Wikipedia: St. Clair's Defeat 4 Nov 1791, 1,000+ warriors under Little Turtle, Blue Jacket and Buckongahelas; most substantial Native victory over US.",
+   "fields_unsupported": []
+  },
+  "na-e-130": {
+   "status": "verified",
+   "note": "Wikipedia: Fallen Timbers 20 Aug 1794, final battle of Northwest Indian War; Shawnee under Blue Jacket and Ottawas under Egushawa.",
+   "fields_unsupported": []
+  },
+  "na-e-131": {
+   "status": "verified",
+   "note": "Wikipedia: Treaty of Greenville signed at Fort Greenville 3 Aug 1795 after Fallen Timbers; OHS: land cessions covering much of Ohio and part of Indiana.",
+   "fields_unsupported": []
+  },
+  "na-e-132": {
+   "status": "verified",
+   "note": "Wikipedia: 1809 treaty obtained 29,719,530 acres; Miami, Wea and Kickapoo vehemently opposed. September date from page body.",
+   "fields_unsupported": []
+  },
+  "na-e-133": {
+   "status": "verified",
+   "note": "Wikipedia: Tippecanoe fought 7 Nov 1811; CE: Harrison moved near Prophetstown in Tecumseh's absence, Prophet's warriors fought.",
+   "fields_unsupported": []
+  },
+  "na-e-134": {
+   "status": "verified",
+   "note": "Wikipedia and DCB: Battle of the Thames/Moraviantown 5 Oct 1813; Tecumseh killed and confederacy collapsed.",
+   "fields_unsupported": []
+  },
+  "na-e-135": {
+   "status": "partially-verified",
+   "note": "Wikipedia and OHS support the 1-2 Aug 1832 Bad Axe massacre of Sauk and Meskwaki ending the Black Hawk War, steamboat Warrior present. The Black Hawk Purchase of 6 million acres is not in the cited texts.",
+   "fields_unsupported": [
+    "statement.detail"
+   ]
+  },
+  "na-e-136": {
+   "status": "verified",
+   "note": "Wikipedia: Treaty of Chicago initial version agreed 26 Sept 1833; cession of 5,000,000 acres in Illinois and Michigan Territory by Potawatomi, Ojibwe, Odawa; one of the removal treaties.",
+   "fields_unsupported": []
+  },
+  "na-e-137": {
+   "status": "verified",
+   "note": "Wikipedia: forced removal of about 859 Potawatomi, journey from Twin Lakes began 4 Sept 1838, ~660 miles, 61 days; OHS confirms Tipton and Sept-Nov 1838. Twin Lakes coords approximate as flagged.",
+   "fields_unsupported": []
+  },
+  "na-e-138": {
+   "status": "verified",
+   "note": "Wikipedia Miami people: removal due 1 Oct 1846, began 6 Oct by canal boat, steamer to Kansas Landing, overland, reached by 9 Nov; OHS: forced removal 1846.",
+   "fields_unsupported": []
+  },
+  "na-e-139": {
+   "status": "verified",
+   "note": "Wikipedia: Robinson Superior Treaty 7 Sept 1850 and Robinson Huron Treaty 9 Sept 1850, both at Sault Ste. Marie with Ojibwa chiefs.",
+   "fields_unsupported": []
+  },
+  "na-e-140": {
+   "status": "verified",
+   "note": "Wikipedia: de Soto reached fortified Mabila 18 Oct 1540; estimated 2,000-6,000 Native dead. Site uncertain, as the place name notes.",
+   "fields_unsupported": []
+  },
+  "na-e-141": {
+   "status": "verified",
+   "note": "Wikipedia Apalachee massacre: Moore's force with ~1,000 Muscogee arrived at Ayubale 25 Jan 1704; series of January 1704 raids on Apalachee missions.",
+   "fields_unsupported": []
+  },
+  "na-e-142": {
+   "status": "partially-verified",
+   "note": "Wikipedia: war 10 Sept 1711-11 Feb 1715; NCpedia: Hancock's Lower Towns attacked settlements Sept 1711. But the point shown is Fort Neoheroka (1713 siege site), not where the war began.",
+   "fields_unsupported": [
+    "place.coords"
+   ]
+  },
+  "na-e-143": {
+   "status": "verified",
+   "note": "NCpedia: last great stand at Fort Neoheroka 20-23 March 1713 under James Moore, ended Tuscarora war-making capacity.",
+   "fields_unsupported": []
+  },
+  "na-e-144": {
+   "status": "verified",
+   "note": "Wikipedia and NCpedia: Yamasee War began 15 April 1715 (Pocotaligo killings); NPS confirms uprising over trade abuses; Yamasee driven toward Florida per Wikipedia. Pocotaligo coords approximate.",
+   "fields_unsupported": []
+  },
+  "na-e-145": {
+   "status": "verified",
+   "note": "Wikipedia: Natchez attack 28 Nov 1729 killing ~230 colonists at Fort Rosalie; French and Choctaw reprisals early 1730 forced Natchez to abandon the fort.",
+   "fields_unsupported": []
+  },
+  "na-e-146": {
+   "status": "verified",
+   "note": "Wikipedia: French force from Lower Louisiana attacked Ackia 26 May 1736 with 600 Choctaw, bloodily repulsed.",
+   "fields_unsupported": []
+  },
+  "na-e-147": {
+   "status": "verified",
+   "note": "Wikipedia and Georgia Encyclopedia: open hostilities from 1758; two British incursions into Cherokee homeland 1759-61.",
+   "fields_unsupported": []
+  },
+  "na-e-148": {
+   "status": "verified",
+   "note": "South Carolina Encyclopedia: 1763 Treaty of Augusta gave the Catawba a tract fifteen miles square, ~144,000 acres. Augusta is the treaty congress site; approximate flagged.",
+   "fields_unsupported": []
+  },
+  "na-e-149": {
+   "status": "verified",
+   "note": "Wikipedia: first Treaty of Hopewell signed 28 Nov 1785 with Benjamin Hawkins; boundaries of Cherokee Nation defined.",
+   "fields_unsupported": []
+  },
+  "na-e-150": {
+   "status": "verified",
+   "note": "Wikipedia and NPS: Horseshoe Bend 27 March 1814, Jackson with Native allies defeated Red Sticks; at least 800 of ~1,000 killed.",
+   "fields_unsupported": []
+  },
+  "na-e-151": {
+   "status": "verified",
+   "note": "Wikipedia and NPS: Treaty of Fort Jackson 9 Aug 1814 near Wetumpka, Creeks ceded 23 million acres, ending Creek War.",
+   "fields_unsupported": []
+  },
+  "na-e-152": {
+   "status": "verified",
+   "note": "Wikipedia and Encyclopedia of Alabama: signed 27 Sept 1830, first treaty after Indian Removal Act, Choctaw ceded 10+ million acres; site in SW Noxubee County.",
+   "fields_unsupported": []
+  },
+  "na-e-153": {
+   "status": "verified",
+   "note": "Choctaw Nation: first wave of removals began October 1831; OHS: 6,000+ arrived fall/winter 1831-32. Nanih Waiya is a symbolic homeland anchor, not named in sources.",
+   "fields_unsupported": []
+  },
+  "na-e-154": {
+   "status": "verified",
+   "note": "Chickasaw.tv and Wikipedia: Treaty of Pontotoc Creek signed 20 Oct 1832 at the council house in Pontotoc, ceding remaining lands east of Mississippi.",
+   "fields_unsupported": []
+  },
+  "na-e-155": {
+   "status": "verified",
+   "note": "Wikipedia: signed 29 Dec 1835 at New Echota by a minority faction; Cherokee Nation site: signers lacked authority under Cherokee law.",
+   "fields_unsupported": []
+  },
+  "na-e-156": {
+   "status": "verified",
+   "note": "Wikipedia: Dade battle 28 Dec 1835 south of Bushnell; engagement officially started the Second Seminole War.",
+   "fields_unsupported": []
+  },
+  "na-e-157": {
+   "status": "verified",
+   "note": "Wikipedia: forcible removals began May 1838 under Scott; NPS: ~14,000 held in stockades; OHS: over a quarter died 1838-39. New Echota as anchor is symbolic.",
+   "fields_unsupported": []
+  },
+  "na-e-158": {
+   "status": "verified",
+   "note": "NPS Ocmulgee: Creek War of 1836 ended with march to Montgomery; 14,000+ made the three-month journey 1836-early 1837. Tukabatchee is a representative anchor.",
+   "fields_unsupported": []
+  },
+  "na-e-159": {
+   "status": "verified",
+   "note": "Cherokee Nation history: 1827 written constitution modelled on US; Georgia declared Cherokee government abolished in 1828.",
+   "fields_unsupported": []
+  },
+  "na-e-160": {
+   "status": "verified",
+   "note": "HistoryLink: 26 Dec 1854 at Medicine Creek, Puyallup, Nisqually, Steilacoom, Squaxin Island ceded nearly all lands, three reservations, $32,500.",
+   "fields_unsupported": []
+  },
+  "na-e-161": {
+   "status": "verified",
+   "note": "HistoryLink: 22 Jan 1855 Chief Seattle and 81 other leaders signed with Stevens at Point Elliott (Mukilteo); ratified 1859; Suquamish site confirms.",
+   "fields_unsupported": []
+  },
+  "na-e-162": {
+   "status": "verified",
+   "note": "Wikipedia: Point No Point Treaty signed 26 Jan 1855; S'Klallam, Chimakum, Skokomish ceded land for Hood Canal reservations and $60,000.",
+   "fields_unsupported": []
+  },
+  "na-e-163": {
+   "status": "verified",
+   "note": "Wikipedia: Brother Jonathan reached Victoria 12 March 1862; two-thirds of BC First Nations died; >70% Haida, 60% Tlingit; police burned Northern Encampment.",
+   "fields_unsupported": []
+  },
+  "na-e-164": {
+   "status": "verified",
+   "note": "Smithsonian and Wikipedia: Kiks.adi attack on Redoubt Saint Michael in June 1802 led by Skautlelt and Kotleian, killing nearly all Russians and Aleuts.",
+   "fields_unsupported": []
+  },
+  "na-e-165": {
+   "status": "verified",
+   "note": "Smithsonian: Kiks.adi repelled first assault by Russians and Aleuts, withdrew after six days; Russians then established themselves at Sitka. Month (Oct 1804) is standard.",
+   "fields_unsupported": []
+  },
+  "na-e-166": {
+   "status": "verified",
+   "note": "Wikipedia: treaty agreed 30 March 1867; treaty text Article III excludes 'uncivilized native tribes' from citizenship and subjects them to US laws. Non-party status of Tlingit is inferred.",
+   "fields_unsupported": []
+  },
+  "na-e-167": {
+   "status": "verified",
+   "note": "Wikipedia: sovereignty effective 18 Oct 1867; Sitka was the site of the transfer ceremony.",
+   "fields_unsupported": []
+  },
+  "na-e-168": {
+   "status": "verified",
+   "note": "CE: Martinez seized British ships July 1789; 1794 convention, neither nation could claim exclusive sovereignty; Wikipedia: negotiations hosted by Maquinna.",
+   "fields_unsupported": []
+  },
+  "na-e-169": {
+   "status": "verified",
+   "note": "Wikipedia Nuu-chah-nulth: Maquinna captured the ship Boston March 1803, killed captain and all but two crew; Jewitt held nearly 3 years.",
+   "fields_unsupported": []
+  },
+  "na-e-170": {
+   "status": "verified",
+   "note": "Wikipedia Nuu-chah-nulth: Tonquin attacked in Clayoquot Sound 1811 by Tla-o-qui-aht after insult; magazine explosion killed many warriors.",
+   "fields_unsupported": []
+  },
+  "na-e-171": {
+   "status": "verified",
+   "note": "CE Potlatch: federal ban 1884-1951 via Indian Act amendment, confiscations and charges (CE Kwakiutl says 1885, minor variance).",
+   "fields_unsupported": []
+  },
+  "na-e-172": {
+   "status": "partially-verified",
+   "note": "CE Tsimshian and William Duncan support 1887 founding of New Metlakatla with ~825 people on Annette Island. The 1891 Annette Island Reserve is not in the cited CE texts.",
+   "fields_unsupported": [
+    "statement.detail"
+   ]
+  },
+  "na-e-173": {
+   "status": "verified",
+   "note": "Wikipedia: 33 men disembarked 12 April 1811, NWC bought PFC in 1813 and renamed Fort George; HistoryLink: Comcomly welcomed the Americans.",
+   "fields_unsupported": []
+  },
+  "na-e-174": {
+   "status": "verified",
+   "note": "Wikipedia Comcomly and HistoryLink: intermittent fever epidemic (cold sick, presumed malaria) 1829-1833 in the lower Columbia; Comcomly died 1830.",
+   "fields_unsupported": []
+  },
+  "na-e-175": {
+   "status": "verified",
+   "note": "Wikipedia Unalaska: 1763-1766 conflict, Aleuts destroyed four Russian ships and killed 175 hunters/traders.",
+   "fields_unsupported": []
+  },
+  "na-e-176": {
+   "status": "verified",
+   "note": "NPS Aleutian: Russians colonised the entire island chain by 1760 and reached Kodiak and Southeast Alaska by 1800, devastating Unangax communities. Event kind 'war.campaign' is loose for colonisation.",
+   "fields_unsupported": []
+  },
+  "na-e-177": {
+   "status": "verified",
+   "note": "Seattle Times: Shelikhov sent boats with cannon and 130 armed men to Refuge Rock in 1784; Coastview: at least 300 killed, ~400 hostages, men forced into sea-otter hunting.",
+   "fields_unsupported": []
+  },
+  "na-e-178": {
+   "status": "rejected",
+   "note": "Sources support Thule expansion from Alaska to Greenland around 1200 CE, but the event is dated c.1200, entirely before the 1492 window, so it cannot be drawn in this catalogue's period.",
+   "fields_unsupported": [
+    "date.year"
+   ]
+  },
+  "na-e-179": {
+   "status": "verified",
+   "note": "Wikipedia Frobisher: met Inuit 18 Aug 1576, five men captured; DCB: seized an Inuk in a kayak and took him to England.",
+   "fields_unsupported": []
+  },
+  "na-e-180": {
+   "status": "verified",
+   "note": "Wikipedia Hans Egede: reached Nuup Kangerlua 3 July 1721 with ~40 colonists, founded Hope Colony on Kangeq Island; revitalised Danish-Norwegian interest after ~300 years.",
+   "fields_unsupported": []
+  },
+  "na-e-181": {
+   "status": "verified",
+   "note": "Wikipedia Kenai: Dena'ina attacked Fort St. Nicholas in 1797, over a hundred deaths on all sides.",
+   "fields_unsupported": []
+  },
+  "na-e-182": {
+   "status": "verified",
+   "note": "NPS Wrangell-St. Elias: Serebrennikov and entire party killed by Ahtna near Batzulnetas in summer 1848; Russians made no further efforts. Approximate coords flagged.",
+   "fields_unsupported": []
+  },
+  "na-e-183": {
+   "status": "partially-verified",
+   "note": "NPS: mid-Sept 1805 first contact at Weippe Prairie, Twisted Hair met 22 Sept, Nez Perce accepted them onto their land. But this is a first contact, not a treaty; kind state.treaty overstates.",
+   "fields_unsupported": [
+    "kind"
+   ]
+  },
+  "na-e-184": {
+   "status": "verified",
+   "note": "Tribe site: 1855 Walla Walla negotiations retained ~7.5 million acres; NPS: ratified 1859, right to fish and hunt usual and accustomed places; 1863 treaty text cites 11 June 1855. NPS says 'cede 7.5 million', minor variance.",
+   "fields_unsupported": []
+  },
+  "na-e-185": {
+   "status": "verified",
+   "note": "NPS: 1863 council shrank reservation by 90%, outside bands walked out, 51 headmen signed; treaty text dated 9 June 1863 at Lapwai.",
+   "fields_unsupported": []
+  },
+  "na-e-186": {
+   "status": "verified",
+   "note": "NPS: Nimiipuu scouts and warriors fought Perry's column at White Bird Canyon 17 June 1877, first battle of the Nez Perce War.",
+   "fields_unsupported": []
+  },
+  "na-e-187": {
+   "status": "verified",
+   "note": "NPS Bear Paw: five-day battle and siege, nimiipuu ceased fighting 5 Oct 1877, forty miles short of the Canadian border, some escaped to Canada. Start date 30 Sept not stated precisely in cited text (NPS page also lists 29 Sept).",
+   "fields_unsupported": []
+  },
+  "na-e-188": {
+   "status": "verified",
+   "note": "Wikipedia Nez Perce War: 418 surrendered Nez Perce sent to Fort Leavenworth; NPS: some sent to Indian Territory in Oklahoma, others escaped to Canada.",
+   "fields_unsupported": []
+  },
+  "na-e-189": {
+   "status": "verified",
+   "note": "Yakama Nation: treaty signed 9 June 1855, ratified 1859; HistoryLink: Kamiakin signed under duress. Walla Walla council ground is approximate, as flagged.",
+   "fields_unsupported": []
+  },
+  "na-e-190": {
+   "status": "verified",
+   "note": "HistoryLink: 5 Oct 1855 Kamiakin's ~300 warriors and Haller's 84 men exchanged fire at Toppenish Creek, starting the Yakama War.",
+   "fields_unsupported": []
+  },
+  "na-e-191": {
+   "status": "verified",
+   "note": "Oregon Encyclopedia: Cayuse killed Marcus and Narcissa Whitman and eleven others at Waiilatpu 29 Nov 1847; Wikipedia: Cayuse blamed Whitman for measles epidemic.",
+   "fields_unsupported": []
+  },
+  "na-e-192": {
+   "status": "verified",
+   "note": "Oregon Encyclopedia: five Cayuse tried at Oregon City and sentenced to public hanging on 3 June 1850, ending the Cayuse War.",
+   "fields_unsupported": []
+  },
+  "na-e-193": {
+   "status": "verified",
+   "note": "Treaty text: 9 June 1855 in the Walla Walla Valley with Stevens and Palmer; CTUIR: 6.4 million acres ceded for a 250,000-acre reservation.",
+   "fields_unsupported": []
+  },
+  "na-e-194": {
+   "status": "verified",
+   "note": "Treaty text and New World Encyclopedia: Hellgate Treaty signed 16 July 1855, confederated tribes constituted as the Flathead Nation under Victor. Coordinates approximate as flagged.",
+   "fields_unsupported": []
+  },
+  "na-e-195": {
+   "status": "verified",
+   "note": "New World Encyclopedia: October 1891 Charlot and remaining members left the Bitterroot and marched sixty miles to the Flathead Reservation.",
+   "fields_unsupported": []
+  },
+  "na-e-196": {
+   "status": "verified",
+   "note": "Wikipedia and Coeur d'Alene Tribe: Battle of Tohotonimme/Steptoe 17 May 1858 near Rosalia, tribes victorious.",
+   "fields_unsupported": []
+  },
+  "na-e-197": {
+   "status": "verified",
+   "note": "HistoryLink and Wikipedia: Wright's troops defeated allied tribes at Four Lakes on 1 Sept 1858, then Spokane Plains four days later.",
+   "fields_unsupported": []
+  },
+  "na-e-198": {
+   "status": "verified",
+   "note": "HistoryLink: 5 Sept 1858 Wright's soldiers defeated Native Americans at Spokane Plains, following Four Lakes four days earlier.",
+   "fields_unsupported": []
+  },
+  "na-e-199": {
+   "status": "verified",
+   "note": "HistoryLink: 8 Sept 1858 Wright ordered slaughter of ~800 horses, a Palouse chief's herd, at Liberty Lake. Location approximate as flagged.",
+   "fields_unsupported": []
+  },
+  "na-e-200": {
+   "status": "verified",
+   "note": "HistoryLink: Wright hanged Yakama and Palouse prisoners at the Ned-Whauld (Hangman Creek) beginning 25 Sept 1858; Qualchan hanged 15 minutes after surrendering under a white flag. Location approximate as flagged.",
+   "fields_unsupported": []
+  },
+  "na-e-201": {
+   "status": "verified",
+   "note": "Coeur d'Alene Tribe history: Treaty of Friendship 17 Sept 1858 between tribal nations and the US after the Steptoe battle. Lake location approximate as flagged.",
+   "fields_unsupported": []
+  },
+  "na-e-202": {
+   "status": "verified",
+   "note": "Treaty text: made at Ruby Valley 1 Oct 1863 with Western Bands of the Shoshonee Nation; Wikipedia: twelve chiefs signed, Nye and Doty. Coordinates approximate as flagged.",
+   "fields_unsupported": []
+  },
+  "na-e-203": {
+   "status": "verified",
+   "note": "Wikipedia: Bear River Massacre 29 Jan 1863, Connor's California Volunteers against Bear Hunter's Shoshone, 250 to 493 killed near Preston, Idaho.",
+   "fields_unsupported": []
+  },
+  "na-e-204": {
+   "status": "verified",
+   "note": "Wikipedia: Box Elder Treaty signed 30 July 1863 after Bear River; little effect until 1968 compensation. Cache Valley anchor approximate as flagged.",
+   "fields_unsupported": []
+  },
+  "na-e-205": {
+   "status": "verified",
+   "note": "Treaty text: made at Fort Bridger 3 July 1868; Bannock reservation to include Port Neuf country; Shoshone-Bannock site confirms Fort Bridger Treaty 3 July 1868.",
+   "fields_unsupported": []
+  },
+  "na-e-206": {
+   "status": "verified",
+   "note": "Nevada SHPO: Paiute warriors defeated volunteers 12 May 1860; NPS: Williams Station incident 7 May 1860 set off the war. Location approximate as flagged.",
+   "fields_unsupported": []
+  },
+  "na-e-207": {
+   "status": "verified",
+   "note": "Wikipedia Wovoka: vision during the solar eclipse of 1 Jan 1889, resurrection of dead and removal of whites; spread to Lakota. Yerington location approximate as flagged.",
+   "fields_unsupported": []
+  },
+  "na-e-208": {
+   "status": "verified",
+   "note": "Wikipedia Washoe: Potato War of 1857, last armed conflict between Washoe and non-Indians, hungry Washoe killed or wounded for taking three acres of potatoes.",
+   "fields_unsupported": []
+  },
+  "na-e-209": {
+   "status": "verified",
+   "note": "NPS Lava Beds: war from 29 Nov 1872 to 1 June 1873; Lost River battle caused Modocs to flee to the Stronghold.",
+   "fields_unsupported": []
+  },
+  "na-e-210": {
+   "status": "verified",
+   "note": "NPS: 3 Oct 1873 Captain Jack, Schonchin John, Black Jim, Boston Charley hanged after trial at Fort Klamath; Barncho and Slolux commuted to Alcatraz.",
+   "fields_unsupported": []
+  },
+  "na-e-211": {
+   "status": "verified",
+   "note": "Wikipedia Tongva: 18 treaties 1851-52 promising 8.5 million acres, never ratified; Yurok tribe: Congress did not notify the tribes; McKee's party reached Upper Klamath Sept 1851. Location approximate as flagged.",
+   "fields_unsupported": []
+  },
+  "na-e-212": {
+   "status": "verified",
+   "note": "Wikipedia Chumash Revolt: began 21 Feb 1824 after an incident with a soldier at Santa Ines; Chumash seized La Purisima, forced garrison surrender; CMF confirms 1824 revolt.",
+   "fields_unsupported": []
+  },
+  "na-e-213": {
+   "status": "verified",
+   "note": "CMF: Mission San Francisco de Asis founded 29 June 1776 by Serra; plagued by disease and high mortality among Indians, 5,000+ dead by 1832.",
+   "fields_unsupported": []
+  },
+  "na-e-214": {
+   "status": "verified",
+   "note": "CMF and Wikipedia Kumeyaay: 1775 revolt, hundreds of Tipai/Tiipay attacked and burned Mission San Diego, killing Father Jayme and two others.",
+   "fields_unsupported": []
+  },
+  "na-e-215": {
+   "status": "verified",
+   "note": "CMF: founded by Serra 16 July 1769, first of the 21 missions; moved in 1774; Wikipedia: area long inhabited by the Kumeyaay.",
+   "fields_unsupported": []
+  },
+  "na-e-216": {
+   "status": "verified",
+   "note": "Wikipedia: Bloody Island massacre 15 May 1850, dragoons killed at least 60 Pomo who had rebelled against enslavement by Kelsey and Stone; Major Sherman's report claimed far more.",
+   "fields_unsupported": []
+  },
+  "na-e-217": {
+   "status": "verified",
+   "note": "Wikipedia: Mariposa Battalion formed 1851 to defeat Ahwahnechee and Chowchilla; burned villages and food stores; entry 25 March 1851 and Tenaya's capture in Ahwahneechee page. Exact Dec 1850-June 1851 span not checked.",
+   "fields_unsupported": []
+  },
+  "na-e-218": {
+   "status": "verified",
+   "note": "Wikipedia Ishi: 1865 Three Knolls massacre near Black Rock on Mill Creek, ~40 Yahi killed in retaliation for killings of settlers; Yana/Yahi reduced to ~60. Location approximate as flagged.",
+   "fields_unsupported": []
+  },
+  "na-e-219": {
+   "status": "verified",
+   "note": "NPS Big Hole: surprise dawn attack on sleeping Nimiipuu camp on morning of 9 August 1877; battle 9-10 August.",
+   "fields_unsupported": []
+  },
+  "na-e-220": {
+   "status": "verified",
+   "note": "Wikipedia Sarah Winnemucca: Paiute interned at Yakima after the Bannock War; government discontinued Malheur Reservation in 1879; she lobbied in Washington.",
+   "fields_unsupported": []
+  },
+  "na-e-221": {
+   "status": "verified",
+   "note": "Wikipedia California genocide: 1850 Act for the Government and Protection of Indians legalised enslavement and forced labour. San Jose anchor is the then capital, approximate flagged.",
+   "fields_unsupported": []
+  },
+  "na-e-222": {
+   "status": "verified",
+   "note": "Wikipedia California genocide: 6 Jan 1851 State of the State address, Burnett said a war of extermination would be waged until the Indian race becomes extinct. 'Helping justify' campaigns is interpretive.",
+   "fields_unsupported": []
+  }
+ }
+}

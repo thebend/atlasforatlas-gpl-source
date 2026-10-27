@@ -1,0 +1,219 @@
+{
+ "about": "Hand-curated inputs for etl/fetch/north_america/canada_treaties.py; nothing here can be derived by script. cirnac_dates: signing and adhesion dates read (by a person) from the CIRNAC Treaty Texts pages named in cirnac_pages (fetched to raw/canada_treaties/cirnac_pages/<name>.html, URLs in fetch.CIRNAC_PAGES); the texts give dates in prose, often spelled out, recited in later deeds or in editorial brackets, so they are transcribed rather than parsed. signatories: parties as named in the treaty preamble/title on those pages (federal) or an override of the Morris 1943 label (Ontario); omitted -> parsed from the Morris label. not_on_page: dates deliberately not from a cited page (skipped by the page check). comment: for people only. note: appended to the feature note. drop: feature left out, with the reason (federal and Ontario layers overlap). merges: features with identical geometry combined into one. Keys: ON-<Ontario LIO TREATY_ID>, CA-<CIRNAC TAG_ID>.",
+ "treaties": {
+  "ON-004": {
+   "signatories": "Mississagas (per Morris 1943 label)"
+  },
+  "ON-006": {
+   "cirnac_dates": ["1790-05-19"],
+   "cirnac_pages": ["ucls"]
+  },
+  "ON-007": {
+   "cirnac_dates": ["1784-05-22", "1792-12-07"],
+   "cirnac_pages": ["ucls"],
+   "comment": "No. 3 indenture 7 Dec 1792 recites 22 May 1784 indenture"
+  },
+  "ON-008": {
+   "signatories": "Six Nations (Crown grant to them)"
+  },
+  "ON-009": {
+   "signatories": "Tyendinaga Mohawks (Crown grant to them)"
+  },
+  "ON-010": {
+   "cirnac_dates": ["1795-10-24"],
+   "cirnac_pages": ["ucls"],
+   "signatories": "Mississauga (Brant Tract text: 'Sachems and Chiefs warriors and principal women of the said Mississague nation'); Morris: 'The Crown to Joseph Brant'"
+  },
+  "ON-011": {
+   "cirnac_dates": ["1796-09-07"],
+   "cirnac_pages": ["ucls"]
+  },
+  "ON-012": {
+   "cirnac_dates": ["1796-09-07"],
+   "cirnac_pages": ["ucls"]
+  },
+  "ON-013": {
+   "cirnac_dates": ["1798-05-22"],
+   "cirnac_pages": ["ucls"]
+  },
+  "ON-015": {
+   "cirnac_dates": ["1787-09-23", "1805-08-01"],
+   "cirnac_pages": ["ucls"],
+   "comment": "Toronto Purchase recites 23 Sep 1787 agreement"
+  },
+  "ON-016": {
+   "cirnac_dates": ["1806-09-05", "1806-09-06"],
+   "cirnac_pages": ["ucls"]
+  },
+  "ON-017": {
+   "cirnac_dates": ["1815-11-17", "1815-11-18"],
+   "cirnac_pages": ["ucls"]
+  },
+  "ON-018": {
+   "cirnac_dates": ["1818-10-17"],
+   "cirnac_pages": ["ucls"]
+  },
+  "ON-019": {
+   "cirnac_dates": ["1818-10-28"],
+   "cirnac_pages": ["ucls"]
+  },
+  "ON-020": {
+   "cirnac_dates": ["1818-11-05"],
+   "cirnac_pages": ["ucls"]
+  },
+  "ON-021": {
+   "cirnac_dates": ["1822-07-08"],
+   "cirnac_pages": ["ucls"]
+  },
+  "ON-022": {
+   "cirnac_dates": ["1822-11-28"],
+   "cirnac_pages": ["ucls"]
+  },
+  "ON-023": {
+   "cirnac_dates": ["1827-07-10"],
+   "cirnac_pages": ["ucls"],
+   "note": "LIO DATE_E (1833-08-13) duplicates Treaty 35's date and conflicts with the CIRNAC deed (1827-07-10) and Morris (No. 27 1/2, 1825-04-25)"
+  },
+  "ON-025": {
+   "cirnac_dates": ["1836-08-09"],
+   "cirnac_pages": ["ucls"],
+   "comment": "recited in No. 94",
+   "note": "1836 Treaty 45: Crown sought Manitoulin as a refuge for all Indians; 1862 Treaty 94 surrendered most of the island (Wiikwemkoong unceded)"
+  },
+  "ON-026": {
+   "signatories": "Saugeen (Morris: 'Saugeens Agreed to Leave')"
+  },
+  "ON-028": {
+   "cirnac_dates": ["1850-09-07"],
+   "cirnac_pages": ["robinson_sup"]
+  },
+  "ON-029": {
+   "cirnac_dates": ["1850-09-09"],
+   "cirnac_pages": ["robinson_hur"]
+  },
+  "ON-030": {
+   "cirnac_dates": ["1854-10-13"],
+   "cirnac_pages": ["ucls"]
+  },
+  "ON-031": {
+   "signatories": "Chippewas (Sarawak Township) (per Morris 1943 label)"
+  },
+  "ON-032": {
+   "cirnac_dates": ["1862-10-06"],
+   "cirnac_pages": ["ucls"]
+  },
+  "ON-033": {
+   "drop": "Treaty 3 Ontario part only; federal HT09 (whole treaty incl. Manitoba) used"
+  },
+  "ON-034": {
+   "drop": "Treaty 5 Ontario part only; federal PT0011a (whole treaty incl. 1908-10 adhesion area) used"
+  },
+  "ON-035": {
+   "cirnac_dates": ["1905-07-12", "1905-07-19", "1905-07-25", "1905-08-03", "1905-08-09", "1905-08-21", "1906-06-07", "1906-06-20", "1906-07-07", "1906-07-16", "1906-07-25", "1906-08-09"],
+   "cirnac_pages": ["t9"],
+   "signatories": "Ojibways and Crees (per Morris 1943 label)"
+  },
+  "ON-036": {
+   "cirnac_dates": ["1923-10-31", "1923-11-03", "1923-11-07", "1923-11-15", "1923-11-16", "1923-11-19", "1923-11-21"],
+   "cirnac_pages": ["williams_chip", "williams_miss"],
+   "signatories": "Chippewas (31 Oct 1923); Mississagas (15 Nov 1923) (per Morris 1943 label)",
+   "note": "Polygon overlaps earlier surrenders (Johnson-Butler, Collins, Rice Lake, Robinson-Huron) that the 1923 treaties re-covered"
+  },
+  "ON-037": {
+   "cirnac_dates": ["1929-07-05", "1930-07-18", "1930-07-25", "1930-07-28"],
+   "cirnac_pages": ["t9"],
+   "signatories": "",
+   "ignore_morris_label_dates": true,
+   "comment": "Morris label date (May 30th, 1929) is cited with order in council P.C. 921, not an adhesion signing; not used"
+  },
+  "CA-GP0009b": {
+   "cirnac_dates": ["1725", "1726-06", "1752-11-22", "1760-03", "1779"],
+   "cirnac_pages": ["pf1752", "pf1760"],
+   "not_on_page": ["1779"],
+   "comment": "1779 is the end of the range in the dataset name 'Peace and Friendship Treaties (1725-1779)', not from a page",
+   "signatories": "Penobscot, Norridgewock and St. John's Indians (1725 Boston articles, ratified June 1726 by 'all the Nova Scotia Tribes' at Annapolis Royal); Jean Baptiste Cope (1752); LaHave Tribe and others (1760-61)",
+   "note": "Peace and Friendship Treaties did not cede land; CIRNAC draws an area for them. Dates: Boston articles 1725 and Annapolis Royal ratification June 1726 (recited in the 1752 text), Halifax 22 Nov 1752, LaHave March 1760; 1779 from the dataset name range only"
+  },
+  "CA-GP0010a": {
+   "cirnac_dates": ["1921-06-27", "1921-07-11", "1921-07-13", "1921-07-15", "1921-07-21", "1921-07-26", "1921-07-28", "1921-08-22", "1922-07-17"],
+   "cirnac_pages": ["t11"],
+   "signatories": "Slave, Dogrib, Loucheux, Hare and other Indians"
+  },
+  "CA-HT03": {
+   "drop": "Southern Ontario Treaties (1764-1862) aggregate; replaced by 33 individual Ontario LIO polygons"
+  },
+  "CA-HT05": {
+   "drop": "Robinson-Superior; LIO 028 used"
+  },
+  "CA-HT06": {
+   "cirnac_dates": ["1850-04-29", "1850-04-30", "1850-05-01", "1851-02-08", "1852-02-06", "1852-02-07", "1852-02-11", "1854-12-23"],
+   "cirnac_pages": ["douglas"],
+   "signatories": "Teechamitsa, Kosampsom, Swengwhung, Chilcowitch, Whyomilth, Che-ko-nein, Ka-ky-aakan, Chewhaytsum, Sooke, Saanich (South), Saanich (North), Queackar, Quakeolth, Saalequun (tribe/family names as written in the conveyances to the Hudson's Bay Company)",
+   "note": "14 Douglas conveyances on Vancouver Island merged into one multipolygon by CIRNAC; Saalequun (Nanaimo) date from CIRNAC bracket [December 23, 1854]"
+  },
+  "CA-HT07": {
+   "cirnac_dates": ["1871-08-03", "1875-08-23", "1875-08-28", "1875-09-08"],
+   "cirnac_pages": ["t1_2"],
+   "signatories": "Chippewa and Swampy Cree Tribes of Indians",
+   "note": "1875 dates are the signed amendments ('outside promises') to Treaties 1 and 2"
+  },
+  "CA-HT08": {
+   "cirnac_dates": ["1871-08-21"],
+   "cirnac_pages": ["t1_2"],
+   "signatories": "Chippewa Tribe of Indians"
+  },
+  "CA-HT09": {
+   "cirnac_dates": ["1873-10-03", "1873-10-13", "1874-06-09"],
+   "cirnac_pages": ["t3"],
+   "signatories": "Saulteaux Tribe of the Ojibbeway Indians (adhesions: Halfbreeds of Rainy River and Lake; Lac Seul Indians)"
+  },
+  "CA-HT10": {
+   "cirnac_dates": ["1874-09-15", "1874-09-21", "1875-09-08", "1875-09-09", "1875-09-24", "1876-08-24", "1877-09-25"],
+   "cirnac_pages": ["t4"],
+   "signatories": "Cree, Saulteaux and other Indians"
+  },
+  "CA-HT13": {
+   "cirnac_dates": ["1877-09-22", "1877-12-04"],
+   "cirnac_pages": ["t7"],
+   "signatories": "Blackfeet, Blood, Piegan, Sarcee, Stony and other Indians"
+  },
+  "CA-HT14": {
+   "cirnac_dates": ["1899-06-21", "1899-07-01", "1899-07-06", "1899-07-08", "1899-07-13", "1899-07-17", "1899-07-25", "1899-07-27", "1899-08-04", "1899-08-14", "1900-05-30", "1900-06-08", "1900-06-23", "1900-07-25"],
+   "cirnac_pages": ["t8"],
+   "signatories": "Cree, Beaver, Chipewyan and other Indians (1900 adhesions incl. Beavers of Fort St. John, Slaves of Upper Hay River, Dogribs of Great Slave Lake)"
+  },
+  "CA-HT16": {
+   "cirnac_dates": ["1906-08-28", "1906-09-19", "1907-08-19", "1907-08-22", "1907-09-18"],
+   "cirnac_pages": ["t10"],
+   "signatories": "Chipewyan, Cree and other Indian inhabitants"
+  },
+  "CA-HT18": {
+   "drop": "Williams Treaties; LIO 036 used"
+  },
+  "CA-PT0002a": {
+   "drop": "Robinson-Huron; LIO 029 used"
+  },
+  "CA-PT0011a": {
+   "cirnac_dates": ["1875-09-20", "1875-09-24", "1875-09-27", "1875-09-28", "1876-07-26", "1876-08-04", "1876-09-07", "1908-06-26", "1908-07-08", "1908-07-15", "1908-07-30", "1908-08-24", "1909-07-29", "1910-06-09", "1910-08-01", "1910-08-10"],
+   "cirnac_pages": ["t5"],
+   "signatories": "Saulteaux and Swampy Cree Tribes of Indians (adhesions 1908-10: Split Lake, Nelson House, Norway House, Cross Lake, Fisher River, Oxford House, Deer Lake, Fort Churchill, York Factory bands)",
+   "note": "Polygon includes the 1908-10 adhesion area (to 60 N)"
+  },
+  "CA-PT0012a": {
+   "cirnac_dates": ["1876-08-23", "1876-08-28", "1876-09-09", "1877-09-25", "1878-08-19", "1878-08-29", "1878-09-03", "1879-07-02", "1882-12-08", "1889-02-11"],
+   "cirnac_pages": ["t6"],
+   "signatories": "Plain and Wood Cree and other Tribes of Indians (adhesions incl. Stony Indians)"
+  },
+  "CA-PT0015a": {
+   "drop": "Treaty 9 incl. 1929-30 adhesion as one polygon; LIO 035 + 037 used"
+  }
+ },
+ "merges": [
+  {
+   "ids": ["ON-025", "ON-032"],
+   "why": "Treaty 45 (1836) and Treaty 94 (1862) carry identical geometry in the Ontario layer",
+   "name": "Manitoulin Island Treaties (No. 45, 1836; No. 94, 1862)",
+   "signatories": "Chippewas and Ottawas 'for all Indians to reside thereon' (Morris, No. 45); Ottawa, Chippewa and other Indians (CIRNAC text, No. 94)"
+  }
+ ]
+}

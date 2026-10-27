@@ -1,0 +1,1286 @@
+{
+ "meta": {
+  "verifier": "claude-sonnet, independent pass (part 2 of 3)",
+  "date": "2026-10-24",
+  "method": "For each of the 240 claims in positions 241-480 (na-c-241..na-c-480) I read the statement, place, authority and from/to dates against every cited quote and its quote_check result, then grepped the cached page text in .cache/fetch for surrounding context wherever a date, place or detail was not in the quote itself (e.g. treaty dates, founding years, end bounds, locations). I judged support for the claim's core (polity, place, authority type, dates at stated precision), marking partially-verified when a bound or anchor was inferred from another event/claim rather than the cited text, rejected for items wholly before 1492, and unverified where the only citations were unfetchable (Canadian Encyclopedia pages return 403 to curl and are too large for WebFetch). Window-clamp start dates (1492, circa) for time-immemorial occupation were accepted as disclosed conventions. The catalogue was not edited."
+ },
+ "items": {
+  "na-c-241": {
+   "status": "partially-verified",
+   "note": "Wikipedia supports Mniku as traditional Grand Council meeting place; 1500 start is a stand-in for 'pre-contact' that the cited RCAANC page says historians dispute; CE support unfetchable.",
+   "fields_unsupported": [
+    "from.year"
+   ]
+  },
+  "na-c-242": {
+   "status": "verified",
+   "note": "Wikipedia places a Susquehannock settlement at Washington Boro at Smith's 1608 meeting and says they abandoned their river town and moved to Maryland by the 1670s.",
+   "fields_unsupported": []
+  },
+  "na-c-243": {
+   "status": "verified",
+   "note": "Wikipedia and PA marker support Conestoga town of Susquehannock/Seneca etc. from c.1690 and its destruction 14 Dec 1763; place disclosed as approximate.",
+   "fields_unsupported": []
+  },
+  "na-c-244": {
+   "status": "verified",
+   "note": "Wikipedia states Penn obtained a deed in 1700 and a Manor Township tract was set aside; ceded-area anchor at Conestoga Town is reasonable.",
+   "fields_unsupported": []
+  },
+  "na-c-245": {
+   "status": "verified",
+   "note": "Wikipedia gives Notre Dame/Bonavista Bay range, Exploits wintering, c.1500 culture; DCB gives Shawnadithit d. 6 June 1829 as last known survivor. Endpoint is death of last survivor (disputed, disclosed).",
+   "fields_unsupported": []
+  },
+  "na-c-246": {
+   "status": "verified",
+   "note": "Wikipedia supports Red Indian Lake winter use; DCB Shawnadithit entry (cached, not cited here) gives March 1819 Nonosabasut killing/Demasduit capture there. CE cites unfetchable.",
+   "fields_unsupported": []
+  },
+  "na-c-247": {
+   "status": "verified",
+   "note": "Single Wikipedia sentence supports Bonavista Bay as core Beothuk range; dates inherited from the island-wide span.",
+   "fields_unsupported": []
+  },
+  "na-c-248": {
+   "status": "verified",
+   "note": "Wikipedia: 1707 purchase of 3,000 acres on Broad Creek and 1768 sale of the reservation; location approximate as disclosed.",
+   "fields_unsupported": []
+  },
+  "na-c-249": {
+   "status": "verified",
+   "note": "Wikipedia says they sold the Broad Creek reservation in 1768.",
+   "fields_unsupported": []
+  },
+  "na-c-250": {
+   "status": "partially-verified",
+   "note": "Wikipedia supports c.200 Nanticoke moving to Fort Niagara in 1778, but nothing ties the departure to Broad Creek; place anchor is unsupported.",
+   "fields_unsupported": [
+    "place.name",
+    "place.coords"
+   ]
+  },
+  "na-c-251": {
+   "status": "verified",
+   "note": "Sault Tribe Wikipedia page says Anishinaabe arrived at Bawating before Europeans in the mid-to-late 16th century; circa 1550 start fair.",
+   "fields_unsupported": []
+  },
+  "na-c-252": {
+   "status": "partially-verified",
+   "note": "Bad River source supports Madeline Island as longtime Ojibwe capital/religious centre and mid-1600s French contact, but 1650 as start of capital status is an inference.",
+   "fields_unsupported": [
+    "from.year"
+   ]
+  },
+  "na-c-253": {
+   "status": "partially-verified",
+   "note": "Wikipedia supports 4 Oct 1842 La Pointe cession of land in Wisconsin and Michigan; the Upper Peninsula centroid is only part of the cession and not a source location.",
+   "fields_unsupported": [
+    "place.coords"
+   ]
+  },
+  "na-c-254": {
+   "status": "verified",
+   "note": "Bad River tribal history states the treaty was finalized 30 Sept 1854 at La Pointe and established the Bad River Reservation.",
+   "fields_unsupported": []
+  },
+  "na-c-255": {
+   "status": "unverified",
+   "note": "Both citations are Canadian Encyclopedia pages that could not be fetched (403); nothing readable supports the Michilimackinac settlement or the 1671 return.",
+   "fields_unsupported": []
+  },
+  "na-c-256": {
+   "status": "verified",
+   "note": "Wikipedia says L'Arbre Croche (Waganagisi) was the largest Great Lakes settlement at the time of the 1741 Jesuit mission; circa 1741 is fair.",
+   "fields_unsupported": []
+  },
+  "na-c-257": {
+   "status": "verified",
+   "note": "Wikipedia confirms signing 28 March 1836 and Odawa land cession in the UP and northern Lower Peninsula.",
+   "fields_unsupported": []
+  },
+  "na-c-258": {
+   "status": "unverified",
+   "note": "Only citation is the unfetchable Canadian Encyclopedia Odawa article; no readable source for Manitoulin return or unceded Wiikwemkoong.",
+   "fields_unsupported": []
+  },
+  "na-c-259": {
+   "status": "verified",
+   "note": "Wikipedia and Oklahoma encyclopedia support Menominee's reserve under 1832 Tippecanoe treaty, refusal of removal, and roundup at Twin Lakes in 1838.",
+   "fields_unsupported": []
+  },
+  "na-c-260": {
+   "status": "verified",
+   "note": "Wikipedia gives 4 Sept 1838 start from Twin Lakes; Oklahoma encyclopedia gives Sept-Nov 1838 removal.",
+   "fields_unsupported": []
+  },
+  "na-c-261": {
+   "status": "verified",
+   "note": "Wikipedia: Treaty of Chicago initial version agreed 26 Sept 1833, ceding 5,000,000 acres.",
+   "fields_unsupported": []
+  },
+  "na-c-262": {
+   "status": "verified",
+   "note": "Wikipedia: Pokagon Band only Michigan Potawatomi band not to remove; Leopold Pokagon negotiated to stay in SW Michigan.",
+   "fields_unsupported": []
+  },
+  "na-c-263": {
+   "status": "verified",
+   "note": "Oklahoma encyclopedia: relocation to Indian Territory 1870-71 and reservation covering almost all of Pottawatomie County.",
+   "fields_unsupported": []
+  },
+  "na-c-264": {
+   "status": "partially-verified",
+   "note": "Wikipedia supports Michilimackinac as preferred Three Fires meeting place; the 796 start is a traditional (Midewiwin) date, far outside window and not independently dated.",
+   "fields_unsupported": [
+    "from.year"
+   ]
+  },
+  "na-c-265": {
+   "status": "partially-verified",
+   "note": "Wikipedia says Huronia was Wendat country from prehistoric times until 1649; the 1600 circa start is an inference not stated in readable sources.",
+   "fields_unsupported": [
+    "from.year"
+   ]
+  },
+  "na-c-266": {
+   "status": "verified",
+   "note": "Oklahoma encyclopedia: Wyandotte defeated 1649 and fled west; CE (unfetchable) not needed for core. Christian Island/Quebec detail unchecked.",
+   "fields_unsupported": []
+  },
+  "na-c-267": {
+   "status": "verified",
+   "note": "Wikipedia Wendake: they finally settled for good at Lorette in 1697.",
+   "fields_unsupported": []
+  },
+  "na-c-268": {
+   "status": "verified",
+   "note": "Oklahoma encyclopedia: move to Sandusky area around 1745 and the Wyandotte Reserve at Upper Sandusky; end 1843 from removal text.",
+   "fields_unsupported": []
+  },
+  "na-c-269": {
+   "status": "verified",
+   "note": "Oklahoma encyclopedia: 1842 treaty ceded all Ohio/Michigan land; removed west and bought Delaware reservation land in Kansas in 1843.",
+   "fields_unsupported": []
+  },
+  "na-c-270": {
+   "status": "verified",
+   "note": "Oklahoma encyclopedia: 1867 removal from Kansas to a 20,000-acre reservation in northeastern Indian Territory.",
+   "fields_unsupported": []
+  },
+  "na-c-271": {
+   "status": "verified",
+   "note": "Wikipedia: heartland along the Grand River, 40 villages in 1616, dispersed 1651 after Haudenosaunee attacks; place is a river anchor (disclosed).",
+   "fields_unsupported": []
+  },
+  "na-c-272": {
+   "status": "verified",
+   "note": "Wikipedia: territory southeast of Lake Erie; first reported 1624 via Wendat; by 1656 the Erie Confederacy was no more. County anchor disclosed as approximate.",
+   "fields_unsupported": []
+  },
+  "na-c-273": {
+   "status": "verified",
+   "note": "Wikipedia: homeland south of Georgian Bay; Champlain listed eight villages in 1616; Haudenosaunee virtually destroyed them 1648-49/end of 1649.",
+   "fields_unsupported": []
+  },
+  "na-c-274": {
+   "status": "verified",
+   "note": "Oklahoma encyclopedia and Wikipedia support Kekionga as principal Miami village/capital from early 1700s; end tied to 1795 Greenville.",
+   "fields_unsupported": []
+  },
+  "na-c-275": {
+   "status": "verified",
+   "note": "Wikipedia Kekionga: Legion arrived 17 Sept 1794; Miami lost the portage via the Treaty of Greenville 1795.",
+   "fields_unsupported": []
+  },
+  "na-c-276": {
+   "status": "verified",
+   "note": "Wikipedia Miami timeline: removal began 6 Oct 1846 by canal boat, with some families exempted; Wabash anchor approximate as disclosed.",
+   "fields_unsupported": []
+  },
+  "na-c-277": {
+   "status": "verified",
+   "note": "Oklahoma encyclopedia: Western Miami agreed in 1867 to move to northeastern Indian Territory (Ottawa County).",
+   "fields_unsupported": []
+  },
+  "na-c-278": {
+   "status": "verified",
+   "note": "Wikipedia Chalahgawtha has a Scioto River village 1758-1787 section; Pickaway Plains page confirms Shawnee villages there.",
+   "fields_unsupported": []
+  },
+  "na-c-279": {
+   "status": "verified",
+   "note": "Wikipedia Dunmore's War: Treaty of Camp Charlotte 19 Oct 1774, Shawnee to cease hunting south of the Ohio.",
+   "fields_unsupported": []
+  },
+  "na-c-280": {
+   "status": "verified",
+   "note": "Wikipedia: 1817 Treaty of Fort Meigs gave three reservations incl. Wapakoneta; end c.1831-33 circa flagged in notes.",
+   "fields_unsupported": []
+  },
+  "na-c-281": {
+   "status": "verified",
+   "note": "Wikipedia: remaining ~400 Ohio Shawnee surrendered lands for Kansas; Lewistown group left July 1831; circa date appropriate.",
+   "fields_unsupported": []
+  },
+  "na-c-282": {
+   "status": "verified",
+   "note": "Oklahoma encyclopedia: by 1840 many scattered Shawnee migrated to Indian Territory along the Canadian River; location approximate.",
+   "fields_unsupported": []
+  },
+  "na-c-283": {
+   "status": "verified",
+   "note": "Oklahoma encyclopedia: Marquette visited 1673, 351 dwellings 1677, Grand Kaskaskia Village abandoned 1680; Starved Rock location stated.",
+   "fields_unsupported": []
+  },
+  "na-c-284": {
+   "status": "verified",
+   "note": "Oklahoma encyclopedia states exactly: about 1703 joined Michigamea at mouth of Kaskaskia River and stayed until 1832.",
+   "fields_unsupported": []
+  },
+  "na-c-285": {
+   "status": "verified",
+   "note": "Oklahoma encyclopedia: 1803 federal recognition as representative of remnant tribes and surrender of all but ~1,600 acres.",
+   "fields_unsupported": []
+  },
+  "na-c-286": {
+   "status": "verified",
+   "note": "Oklahoma encyclopedia: 1832 united with Peoria and exchanged remaining lands for Kansas reservation.",
+   "fields_unsupported": []
+  },
+  "na-c-287": {
+   "status": "verified",
+   "note": "Oklahoma encyclopedia: Confederated Peoria assigned northeast Indian Territory (Ottawa County) in 1867.",
+   "fields_unsupported": []
+  },
+  "na-c-288": {
+   "status": "partially-verified",
+   "note": "Wikipedia supports Meskwaki control of the Fox River system and the 9 Sept 1730 battle; 1698 is a population estimate, and the 1730 end bound is inferred (Fox Wars given as 1701-1742).",
+   "fields_unsupported": [
+    "from.year",
+    "to.year",
+    "to.month"
+   ]
+  },
+  "na-c-289": {
+   "status": "verified",
+   "note": "Iowa PBS: land bought along the Iowa River in 1857; Oklahoma encyclopedia notes 1856 residence; 1857 reasonable.",
+   "fields_unsupported": []
+  },
+  "na-c-290": {
+   "status": "verified",
+   "note": "Wikipedia Black Hawk Purchase: Sauk and Meskwaki forced to relinquish ~6 million acres; month-level 1832; Davenport anchor approximate.",
+   "fields_unsupported": []
+  },
+  "na-c-291": {
+   "status": "partially-verified",
+   "note": "Wikipedia: Sauk arrived by 1750 and ~4,800 lived there by 1826; the 1831 end is not in the cited Saukenuk pages (comes from the Black Hawk War item).",
+   "fields_unsupported": [
+    "to.year",
+    "to.month"
+   ]
+  },
+  "na-c-292": {
+   "status": "verified",
+   "note": "Wikipedia Black Hawk War: ~1,500 militia, abandonment and recrossing in June 1831, 30 June agreement to stay west of the Mississippi.",
+   "fields_unsupported": []
+  },
+  "na-c-293": {
+   "status": "verified",
+   "note": "Wikipedia Black Hawk Purchase lists Sauk, Meskwaki and Ho-Chunk as original owners and the 6 million acre cession; same anchor as claim 290.",
+   "fields_unsupported": []
+  },
+  "na-c-294": {
+   "status": "verified",
+   "note": "Oklahoma encyclopedia: Sac and Fox in central Oklahoma since the 1870s; headquarters south of Stroud.",
+   "fields_unsupported": []
+  },
+  "na-c-295": {
+   "status": "partially-verified",
+   "note": "Wikipedia supports Menominee at Green Bay when Nicolet came in 1634; the 1836 Cedars end date appears nowhere in cited text.",
+   "fields_unsupported": [
+    "to.year",
+    "to.month"
+   ]
+  },
+  "na-c-296": {
+   "status": "verified",
+   "note": "Wikipedia: Menominee ceded ~4,000,000 acres for $700,000; signed 3 Sept 1836 at The Cedars on the Fox River below Grand Chute (Kimberly anchor approximate).",
+   "fields_unsupported": []
+  },
+  "na-c-297": {
+   "status": "verified",
+   "note": "Wikipedia Menominee: 12 May 1854 treaty relinquished earlier claims and assigned 432 sq mi on the Wolf River; status restored 1975.",
+   "fields_unsupported": []
+  },
+  "na-c-298": {
+   "status": "verified",
+   "note": "EBSCO: first contact with Ho-Chunk at Green Bay 1634; Wikipedia: lands ceded 1829, 1832, 1837. Green Bay is an anchor, not the whole territory (disclosed).",
+   "fields_unsupported": []
+  },
+  "na-c-299": {
+   "status": "verified",
+   "note": "Wikipedia 1837 Ho-Chunk treaty: signed 1 Nov 1837 ceding the rest of Wisconsin land, eight months to leave; EBSCO concurs. Black River Falls anchor approximate.",
+   "fields_unsupported": []
+  },
+  "na-c-300": {
+   "status": "verified",
+   "note": "Wikipedia Ho-Chunk: Winnebago Reservation in Nebraska founded 1865.",
+   "fields_unsupported": []
+  },
+  "na-c-301": {
+   "status": "verified",
+   "note": "Oklahoma encyclopedia: mid-18th century Prairie Band along the Sangamon River; Wikipedia: 1819 Edwardsville treaty ceded Illinois holdings.",
+   "fields_unsupported": []
+  },
+  "na-c-302": {
+   "status": "verified",
+   "note": "Wikipedia: 1819 Edwardsville cession of Kickapoo holdings in Illinois (nearly half the state) for a tract on the Osage River in Missouri.",
+   "fields_unsupported": []
+  },
+  "na-c-303": {
+   "status": "verified",
+   "note": "Oklahoma encyclopedia: in the 1830s Kennekuk led the Vermillion band to Kansas; Wabash anchor approximate as disclosed.",
+   "fields_unsupported": []
+  },
+  "na-c-304": {
+   "status": "verified",
+   "note": "Oklahoma encyclopedia: reservation assigned in 1883; tribe headquartered at McLoud.",
+   "fields_unsupported": []
+  },
+  "na-c-305": {
+   "status": "verified",
+   "note": "Wikipedia: Glaize towns became confederacy HQ for the duration of the war after the move from Kekionga; dates circa as disclosed.",
+   "fields_unsupported": []
+  },
+  "na-c-306": {
+   "status": "verified",
+   "note": "Wikipedia: St. Clair's Defeat 4 Nov 1791; Wayne's detachment built Fort Recovery on the site 23 Dec 1793. June 1794 attack not checked but not load-bearing.",
+   "fields_unsupported": []
+  },
+  "na-c-307": {
+   "status": "verified",
+   "note": "Wikipedia Treaty of Greenville: signed 3 Aug 1795 at Fort Greenville, tribes ceded large parts of Ohio.",
+   "fields_unsupported": []
+  },
+  "na-c-308": {
+   "status": "verified",
+   "note": "Wikipedia: Prophetstown founded 1808 by Tecumseh and Tenskwatawa as multi-tribal community; demise after the 1811 battle.",
+   "fields_unsupported": []
+  },
+  "na-c-309": {
+   "status": "verified",
+   "note": "Wikipedia Battle of Tippecanoe: fought 7 Nov 1811; Harrison's men burned the abandoned Prophetstown.",
+   "fields_unsupported": []
+  },
+  "na-c-310": {
+   "status": "verified",
+   "note": "Wikipedia: Chota the most important Overhill town from the late 1740s until 1788; circa 1745 start disclosed.",
+   "fields_unsupported": []
+  },
+  "na-c-311": {
+   "status": "verified",
+   "note": "Wikipedia: Cherokee Nation designated New Echota capital 12 Nov 1825; starting point of Trail of Tears; 1838 end reasonable.",
+   "fields_unsupported": []
+  },
+  "na-c-312": {
+   "status": "verified",
+   "note": "Wikipedia and Cherokee Nation: Treaty of New Echota signed 29 Dec 1835 by minority party; Senate ratified by one vote 23 May 1836.",
+   "fields_unsupported": []
+  },
+  "na-c-313": {
+   "status": "verified",
+   "note": "Wikipedia, Cherokee Nation and NPS: May 1838 roundup under Scott, New Echota starting point, 4,000+ deaths.",
+   "fields_unsupported": []
+  },
+  "na-c-314": {
+   "status": "verified",
+   "note": "Oklahoma encyclopedia and Wikipedia: governments united 1839 under the Act of Union; Tahlequah designated capital in 1839.",
+   "fields_unsupported": []
+  },
+  "na-c-315": {
+   "status": "verified",
+   "note": "NCpedia: Thomas began buying land on behalf of Cherokee in 1840; Qualla Boundary is the Eastern Band's home.",
+   "fields_unsupported": []
+  },
+  "na-c-316": {
+   "status": "partially-verified",
+   "note": "Wikipedia says Ustanali served as tribal seat beginning in 1788, but the 1825 end is inferred; the same cited page says government met at New Echota by 1819. Coordinates approximate.",
+   "fields_unsupported": [
+    "to.year"
+   ]
+  },
+  "na-c-317": {
+   "status": "partially-verified",
+   "note": "NPS supports Muscogee towns moving to Ochese Creek near the English and the 1715 burning of Ocmulgee Town; treating 1715 as end of homeland is inferred (NPS notes towns withdrew/reserve kept to 1805).",
+   "fields_unsupported": [
+    "to.year"
+   ]
+  },
+  "na-c-318": {
+   "status": "partially-verified",
+   "note": "Wikipedia: Tukabatchee from at least 1690 until after 1835; mother town per OK encyclopedia. The 1836 end year is inferred from removal, not stated.",
+   "fields_unsupported": [
+    "to.year"
+   ]
+  },
+  "na-c-319": {
+   "status": "verified",
+   "note": "NPS: 21,792 Muscogee in 1832, over 14,000 made the three-month journey, 13,537 remained twenty years later. Tukabatchee is a representative anchor (disclosed).",
+   "fields_unsupported": []
+  },
+  "na-c-320": {
+   "status": "verified",
+   "note": "NPS and Wikipedia: Treaty of Fort Jackson 9 Aug 1814 required cession of 23 million acres.",
+   "fields_unsupported": []
+  },
+  "na-c-321": {
+   "status": "verified",
+   "note": "NPS and Wikipedia: Treaty of Indian Springs 12 Feb 1825 signed by McIntosh ceded Lower Creek land in Georgia; declared illegal by the federal government.",
+   "fields_unsupported": []
+  },
+  "na-c-322": {
+   "status": "verified",
+   "note": "Wikipedia: Treaty of Cusseta signed 24 March 1832 at the town, ceding Creek claims east of the Mississippi.",
+   "fields_unsupported": []
+  },
+  "na-c-323": {
+   "status": "verified",
+   "note": "NPS: Okmulgee established as capital named for the Georgia capital; OK encyclopedia: capitol built 1867.",
+   "fields_unsupported": []
+  },
+  "na-c-324": {
+   "status": "verified",
+   "note": "Wikipedia: Paynes Prairie was the Alachua band's stronghold under Cowkeeper by mid-1700s; Paynes Town destroyed 1813. Circa start disclosed.",
+   "fields_unsupported": []
+  },
+  "na-c-325": {
+   "status": "partially-verified",
+   "note": "Sources support Seminole removal from Florida from 1836 with most gone by 1839 and a few hundred remaining; none ties it to the Alachua Savannah, so the place anchor is a generalisation.",
+   "fields_unsupported": [
+    "place.name",
+    "place.coords"
+   ]
+  },
+  "na-c-326": {
+   "status": "verified",
+   "note": "Wikipedia: Treaty of Payne's Landing signed 9 May 1832 with several Seminole chiefs; Seminole Wars page says they did not feel bound. Oklawaha anchor approximate.",
+   "fields_unsupported": []
+  },
+  "na-c-327": {
+   "status": "verified",
+   "note": "Seminole Nation Museum: post-1866 treaty reservation (1866-1907) incl. present Seminole County and Wewoka as capital; OHS: 1856 Seminole Nation treaty.",
+   "fields_unsupported": []
+  },
+  "na-c-328": {
+   "status": "verified",
+   "note": "Wikipedia: survivors retreated into Everglades and Big Cypress after the wars (ended 1858); FSU: Big Cypress reservation, 1957 constitution, 'Unconquered'.",
+   "fields_unsupported": []
+  },
+  "na-c-329": {
+   "status": "partially-verified",
+   "note": "Wikipedia and 64 Parishes support Nanih Waiya as sacred origin/spiritual centre venerated since the 17th century; the Sept 1830 end month comes from the treaty (another item), the page says only 'during the 1830s'.",
+   "fields_unsupported": [
+    "to.month"
+   ]
+  },
+  "na-c-330": {
+   "status": "verified",
+   "note": "Choctaw Nation: Treaty of Dancing Rabbit Creek signed 27 Sept 1830; Encyclopedia of Alabama: >10 million acres ceded.",
+   "fields_unsupported": []
+  },
+  "na-c-331": {
+   "status": "verified",
+   "note": "Choctaw Nation: first removal wave began October 1831; ~12,000 in 1830-34; OHS: >6,000 arrived in 1831-32.",
+   "fields_unsupported": []
+  },
+  "na-c-332": {
+   "status": "partially-verified",
+   "note": "Choctaw Nation says the council house was named Nanih Waiya, and Wikipedia puts the first capital 'Nanih Waiyah' two miles east of Tuskahoma; the c.1834 start date is not stated.",
+   "fields_unsupported": [
+    "from.year"
+   ]
+  },
+  "na-c-333": {
+   "status": "verified",
+   "note": "Wikipedia: Chickasaw in northeastern Mississippi at contact; de Soto wintered likely near Tupelo; National Council House at Pontotoc Creek; end tied to 20 Oct 1832 treaty.",
+   "fields_unsupported": []
+  },
+  "na-c-334": {
+   "status": "verified",
+   "note": "Chickasaw tribal source and Wikipedia: Treaty of Pontotoc Creek signed 20 Oct 1832 ceded remaining Mississippi land for promise of western land.",
+   "fields_unsupported": []
+  },
+  "na-c-335": {
+   "status": "verified",
+   "note": "Wikipedia: Chickasaw gathered at Memphis 4 July 1837; Choctaw Nation: last of Five Tribes to leave, Doaksville treaty placed them in Choctaw Nation.",
+   "fields_unsupported": []
+  },
+  "na-c-336": {
+   "status": "verified",
+   "note": "Wikipedia Chickasaw Nation Capitols: 1856 Washington treaty gave independence and Tishomingo became capital.",
+   "fields_unsupported": []
+  },
+  "na-c-337": {
+   "status": "verified",
+   "note": "Wikipedia Battle of Ackia: 1736 French-led attacks on Chickasaw villages in the Tupelo area repulsed; coordinates approximate as disclosed.",
+   "fields_unsupported": []
+  },
+  "na-c-338": {
+   "status": "verified",
+   "note": "Wikipedia: Grand Village was Natchez main ceremonial centre 1682-1729, abandoned after 1730 defeat; 64 Parishes: home of Great Sun.",
+   "fields_unsupported": []
+  },
+  "na-c-339": {
+   "status": "verified",
+   "note": "NPS: Fort Rosalie established 1716 among the Natchez; Wikipedia: reprisals in early 1730 forced Natchez to abandon the fort.",
+   "fields_unsupported": []
+  },
+  "na-c-340": {
+   "status": "verified",
+   "note": "Wikipedia and 64 Parishes: Natchez abandoned the site and homeland after the 1730 defeat; people ended as a unified nation by 1731.",
+   "fields_unsupported": []
+  },
+  "na-c-341": {
+   "status": "verified",
+   "note": "NCpedia places the Catawba on the Catawba River valley astride the NC-SC line; SC Encyclopedia gives de Soto contact 1540. Reservation-area coordinate approximate as disclosed.",
+   "fields_unsupported": []
+  },
+  "na-c-342": {
+   "status": "verified",
+   "note": "SC Encyclopedia: 1763 Treaty of Augusta confirmed 15-mile-square (~144,000 acre) tract; NCpedia on reservation; end at 1840 Nation Ford.",
+   "fields_unsupported": []
+  },
+  "na-c-343": {
+   "status": "verified",
+   "note": "NCpedia: meeting at Nation Ford March 1840, lands given up for $5,000 pledge; SCE and Wikipedia confirm 1840 treaty with South Carolina.",
+   "fields_unsupported": []
+  },
+  "na-c-344": {
+   "status": "verified",
+   "note": "SC Encyclopedia: 630 acres near centre of Old Reservation secured 1843; Wikipedia lists Rock Hill headquarters and 1993 recognition.",
+   "fields_unsupported": []
+  },
+  "na-c-345": {
+   "status": "verified",
+   "note": "NCpedia: Tuscarora held inner Coastal Plain in 1580s; Lower Towns under Hancock; last stand at Fort Neoheroka 20-23 March 1713. Fort used as Lower Towns anchor (disclosed).",
+   "fields_unsupported": []
+  },
+  "na-c-346": {
+   "status": "verified",
+   "note": "NCpedia: opposing Tuscarora removed north to join the Five Nations; Wikipedia: accepted as sixth nation 1722. Circa 1713 start is flagged.",
+   "fields_unsupported": []
+  },
+  "na-c-347": {
+   "status": "verified",
+   "note": "NCpedia: lands on the Roanoke in southwestern Bertie County secured 1717 as reward for Upper Town allies; 1831 deed ends it.",
+   "fields_unsupported": []
+  },
+  "na-c-348": {
+   "status": "verified",
+   "note": "NCpedia: Tuscarora executed a deed to the state in 1831 extinguishing title to NC land.",
+   "fields_unsupported": []
+  },
+  "na-c-349": {
+   "status": "verified",
+   "note": "Wikipedia: Yamasee settled near the Savannah River in the 1680s with villages including Pocotaligo in Beaufort County; Yamasee War page names Pocotaligo as main Upper town. Coordinates approximate.",
+   "fields_unsupported": []
+  },
+  "na-c-350": {
+   "status": "verified",
+   "note": "Wikipedia: Yamasee driven across the Savannah into Spanish Florida; NCpedia: by spring 1716 most settled in Florida.",
+   "fields_unsupported": []
+  },
+  "na-c-351": {
+   "status": "verified",
+   "note": "Wikipedia: Yamasee migrated to the St. Augustine and Pensacola region; some remained near St. Augustine until 1763.",
+   "fields_unsupported": []
+  },
+  "na-c-352": {
+   "status": "verified",
+   "note": "Wikipedia: Apalachee Province a powerful chiefdom with capital at the Tallahassee site; first European record Narvaez 1528; end 1704 per next claim.",
+   "fields_unsupported": []
+  },
+  "na-c-353": {
+   "status": "verified",
+   "note": "Wikipedia: San Luis evacuated and destroyed 1704 before Creek/South Carolina militia; Apalachee massacre page on captured, fled, and resettled near Savannah/Ocmulgee.",
+   "fields_unsupported": []
+  },
+  "na-c-354": {
+   "status": "verified",
+   "note": "Wikipedia Timucua: French Fort Caroline in Saturiwa territory 1564; population ~1,000 by 1700. End 1763 is the Cuba removal (separate sentence).",
+   "fields_unsupported": []
+  },
+  "na-c-355": {
+   "status": "partially-verified",
+   "note": "Wikipedia supports the 1763 removal of fewer than 100 Timucua and others to Cuba, but not where from; the Fort Caroline/Saturiwa anchor is one sub-group, as the item admits.",
+   "fields_unsupported": [
+    "place.name",
+    "place.coords"
+   ]
+  },
+  "na-c-356": {
+   "status": "partially-verified",
+   "note": "Wikipedia and Florida State Parks support Mound Key as Calusa capital at early-1500s Spanish contact; 1566 start and 1763 end are inferred from other events, not stated for Mound Key.",
+   "fields_unsupported": [
+    "from.year",
+    "to.year"
+   ]
+  },
+  "na-c-357": {
+   "status": "verified",
+   "note": "Wikipedia Calusa: 1711 evacuation of 270 Indians to Cuba and 1763 relocation of remaining south Florida tribes. Capital used as anchor for the region.",
+   "fields_unsupported": []
+  },
+  "na-c-358": {
+   "status": "verified",
+   "note": "Wikipedia Coosa chiefdom: inhabited from at least 1400 to about 1600, core abandoned by end of 16th century; Murray County coordinate approximate.",
+   "fields_unsupported": []
+  },
+  "na-c-359": {
+   "status": "rejected",
+   "note": "Sources support Cahokia c.1050-c.1350, but the claim ends about 140 years before the 1492 window opens; the item is pre-1492 background only.",
+   "fields_unsupported": []
+  },
+  "na-c-360": {
+   "status": "rejected",
+   "note": "EOA supports founding c.1120 and decline 1300-1450, but the claim ends at c.1450, before 1492; out of the window in substance.",
+   "fields_unsupported": []
+  },
+  "na-c-361": {
+   "status": "verified",
+   "note": "Georgia Encyclopedia: Etowah settled by the twelfth century and occupied, with brief abandonments, into the seventeenth century. Window-overlapping tail only (c.1492-1600).",
+   "fields_unsupported": []
+  },
+  "na-c-362": {
+   "status": "partially-verified",
+   "note": "Wikipedia supports Mabila as Tuskaloosa's fortified town and the October 1540 battle; the site is unknown, so the Marengo County coordinate is a guess.",
+   "fields_unsupported": [
+    "place.coords"
+   ]
+  },
+  "na-c-363": {
+   "status": "verified",
+   "note": "Musqueam tribal site and Wikipedia state occupation of Point Grey/Fraser mouth for thousands of years; from=1492 is a window clamp, not a founding date (disclosed).",
+   "fields_unsupported": []
+  },
+  "na-c-364": {
+   "status": "verified",
+   "note": "Squamish Nation: history spans millennia (8,600-year site); reserves along Howe Sound and Burrard Inlet allotted 1876-1888. 1492 start is a window clamp.",
+   "fields_unsupported": []
+  },
+  "na-c-365": {
+   "status": "verified",
+   "note": "Wikipedia Douglas Treaties: Douglas met Lekwungen leaders April 1850 and made verbal agreements; fourteen purchases. Whether this was cession is disputed (noted).",
+   "fields_unsupported": []
+  },
+  "na-c-366": {
+   "status": "verified",
+   "note": "HistoryLink: Treaty of Medicine Creek signed 26 Dec 1854, ~2.5 million acres ceded, three reservations retained. Nisqually reservation point is a stand-in (disclosed).",
+   "fields_unsupported": []
+  },
+  "na-c-367": {
+   "status": "verified",
+   "note": "HistoryLink: August 1856 Stevens agreed to significantly larger reservations for Puyallup and Nisqually; Wikipedia on Puyallup reservation.",
+   "fields_unsupported": []
+  },
+  "na-c-368": {
+   "status": "verified",
+   "note": "Wikipedia: Treaty of Point Elliott established the Lummi Reservation on the Lummi Peninsula by the Nooksack mouth; January 1855 signing.",
+   "fields_unsupported": []
+  },
+  "na-c-369": {
+   "status": "partially-verified",
+   "note": "HistoryLink and Wikipedia support the 17 villages and Black/Duwamish-river centre; the 1855 end is the treaty cession date, not stated for this claim, and the note says Duwamish stayed on.",
+   "fields_unsupported": [
+    "to.year",
+    "to.month"
+   ]
+  },
+  "na-c-370": {
+   "status": "verified",
+   "note": "HistoryLink: Duwamish incl. Chief Seattle signed Point Elliott treaty 22 Jan 1855, ceding lands for cash, reservations and fishing rights.",
+   "fields_unsupported": []
+  },
+  "na-c-371": {
+   "status": "verified",
+   "note": "Suquamish Tribe history: Duwamish asked for a separate reservation where Black and Cedar rivers join; Muckleshoot Reservation enlarged and many moved there. Renton stand-in disclosed.",
+   "fields_unsupported": []
+  },
+  "na-c-372": {
+   "status": "verified",
+   "note": "Wikipedia: Old Man House largest winter longhouse in Washington, site occupied 2000+ years, burned 1870, village rebuilt; 1492 start is a window clamp.",
+   "fields_unsupported": []
+  },
+  "na-c-373": {
+   "status": "verified",
+   "note": "Suquamish Tribe history and Wikipedia: Point Elliott signed 22 Jan 1855; Port Madison reservation within own territory where most agreed to live.",
+   "fields_unsupported": []
+  },
+  "na-c-374": {
+   "status": "verified",
+   "note": "Suquamish Tribe: gave up title to lands encompassing most of present Kitsap County at Point Elliott; HistoryLink concurs. Port Madison point is a stand-in.",
+   "fields_unsupported": []
+  },
+  "na-c-375": {
+   "status": "partially-verified",
+   "note": "Parks Canada (cached) says at least 20,000 Haida lived on the islands in the late 1700s and gives the 1787-1840 fur trade; the 1778 Cook date and ancestral-homeland wording rest on unfetchable Canadian Encyclopedia.",
+   "fields_unsupported": [
+    "from.year"
+   ]
+  },
+  "na-c-376": {
+   "status": "partially-verified",
+   "note": "Wikipedia and Parks Canada support the 1862 smallpox decline, gathering at SGang Gwaay and the 1878 move to Skidegate; the 1787 start is not in the cited quotes.",
+   "fields_unsupported": [
+    "from.year"
+   ]
+  },
+  "na-c-377": {
+   "status": "partially-verified",
+   "note": "Parks Canada (fuzzy quote) supports slow northward moves and descendants concentrated at Skidegate and Old Massett; the 1878 start date comes from the SGang Gwaay article, not cited here.",
+   "fields_unsupported": [
+    "from.year"
+   ]
+  },
+  "na-c-378": {
+   "status": "verified",
+   "note": "Wikipedia Old Massett: Masset 1 reserve allotted by O'Reilly July 1882; smallpox, especially 1862, drastically reduced population.",
+   "fields_unsupported": []
+  },
+  "na-c-379": {
+   "status": "verified",
+   "note": "Project Jukebox: Kaagwaantaan, Kiks.adi lived along Indian River before the Russians; Wikipedia Battle of Sitka dates the fort battle 1-4 Oct 1804. 1492 start is a window clamp.",
+   "fields_unsupported": []
+  },
+  "na-c-380": {
+   "status": "verified",
+   "note": "Wikipedia: Baranov arrived 7 July 1799 to build the redoubt; Smithsonian: 1802 attack killed nearly all Russians and Aleuts; June month only from Wikipedia.",
+   "fields_unsupported": []
+  },
+  "na-c-381": {
+   "status": "verified",
+   "note": "Smithsonian: after six days the Kiks.adi elders withdrew on a survival march north; Battle of Sitka dated 1-4 Oct 1804. A withdrawal, not an order (noted).",
+   "fields_unsupported": []
+  },
+  "na-c-382": {
+   "status": "partially-verified",
+   "note": "Wikipedia supports Klukwan as a Chilkat village on the Dalton Trail and the only one of five pre-1900 villages remaining; the 1880 start is just a first report date, not in the quotes.",
+   "fields_unsupported": [
+    "from.year"
+   ]
+  },
+  "na-c-383": {
+   "status": "verified",
+   "note": "Wikipedia Kake War: February 1869 destruction of three winter villages and two forts near Kake by USS Saginaw; Kake did not rebuild the small villages.",
+   "fields_unsupported": []
+  },
+  "na-c-384": {
+   "status": "verified",
+   "note": "Wikipedia: Yuquot summer home of Maquinna and Mowachaht for generations; Cook encountered villagers in 1778 (first-record date, disclosed). CE support unfetchable.",
+   "fields_unsupported": []
+  },
+  "na-c-385": {
+   "status": "partially-verified",
+   "note": "Wikipedia: Santa Cruz de Nuca founded 5 May 1789, Spanish control until 1795 then Mowachaht reoccupied; the March 1795 month rests on the unfetchable CE page.",
+   "fields_unsupported": [
+    "to.month"
+   ]
+  },
+  "na-c-386": {
+   "status": "verified",
+   "note": "Wikipedia Nuu-chah-nulth: Tla-o-qui-aht attacked the Tonquin in revenge for the captain's insult (1811); Clayoquot anchor and 1811 start are event-based.",
+   "fields_unsupported": []
+  },
+  "na-c-387": {
+   "status": "verified",
+   "note": "Wikipedia Alert Bay: village is in traditional Kwakwaka'wakw territory; 8,000-year figure rests on unfetchable CE. 1492 start is a window clamp.",
+   "fields_unsupported": []
+  },
+  "na-c-388": {
+   "status": "partially-verified",
+   "note": "Wikipedia supports Kwagu'l as the community at Fort Rupert; the 1849 HBC post date is only in the unfetchable CE page.",
+   "fields_unsupported": [
+    "from.year"
+   ]
+  },
+  "na-c-389": {
+   "status": "unverified",
+   "note": "Both citations are the Canadian Encyclopedia Tsimshian page, which could not be fetched; nothing readable supports the 5,000-year Prince Rupert Harbour villages.",
+   "fields_unsupported": []
+  },
+  "na-c-390": {
+   "status": "verified",
+   "note": "Wikipedia Lax Kw'alaams: HBC set up Fort Simpson in 1834 on the Gispaxlo'ots' camping site and nine allied Ts'msyen tribes were invited.",
+   "fields_unsupported": []
+  },
+  "na-c-391": {
+   "status": "unverified",
+   "note": "All citations are Canadian Encyclopedia pages (William Duncan, Tsimshian) that could not be fetched; no readable source for the 1862 Metlakatla settlement.",
+   "fields_unsupported": []
+  },
+  "na-c-392": {
+   "status": "verified",
+   "note": "Wikipedia Metlakatla, Alaska: group arrived 1887, Congress granted reserve 1891, only remaining reserve in Alaska; 825 figure only in unfetchable CE.",
+   "fields_unsupported": []
+  },
+  "na-c-393": {
+   "status": "unverified",
+   "note": "Every citation is the unfetchable Canadian Encyclopedia Nuxalk page; no readable support for Bella Coola territory or the 1793 contact.",
+   "fields_unsupported": []
+  },
+  "na-c-394": {
+   "status": "unverified",
+   "note": "Sole citation is the unfetchable Canadian Encyclopedia Nuxalk article; the village list cannot be checked.",
+   "fields_unsupported": []
+  },
+  "na-c-395": {
+   "status": "verified",
+   "note": "Wikipedia Kulhulmcilh: after the 1862 smallpox epidemic survivors regrouped at Q'umk'uts (Bella Coola); the 1920s consolidation and 1860s wording rest on unfetchable CE.",
+   "fields_unsupported": []
+  },
+  "na-c-396": {
+   "status": "verified",
+   "note": "HistoryLink: Chinook villages on Baker Bay traded with ships for at least three years before Ruby in October 1795; Comcomly a Lower Chinook leader. Town of Chinook is a stand-in.",
+   "fields_unsupported": []
+  },
+  "na-c-397": {
+   "status": "verified",
+   "note": "Wikipedia Fort Astoria: settlers landed 12 April 1811; HistoryLink: Comcomly regularly visited and traded; British-American competition for the post.",
+   "fields_unsupported": []
+  },
+  "na-c-398": {
+   "status": "verified",
+   "note": "NPS: Chaluka at Nikolski has continuous occupation up to 4,000 years and Anangula (9,000 years) is the oldest Aleutian site. 1492 start is a window clamp.",
+   "fields_unsupported": []
+  },
+  "na-c-399": {
+   "status": "verified",
+   "note": "Wikipedia Unalaska: 24 settlements with 1,000+ Aleut inhabitants in 1759; Glotov arrived 1 Aug 1759.",
+   "fields_unsupported": []
+  },
+  "na-c-400": {
+   "status": "verified",
+   "note": "NPS: Russians colonized the whole island chain by 1760, forced hunting with violence, population fell by nearly 80% from 15-18,000 to 2,500. Unalaska anchor represents the chain.",
+   "fields_unsupported": []
+  },
+  "na-c-401": {
+   "status": "verified",
+   "note": "Alutiiq Museum: 7,800 years of heritage; Wikipedia: Kodiak Archipelago and Alaska Peninsula homelands, 60+ villages on Kodiak in early 1800s. 1492 is a window clamp.",
+   "fields_unsupported": []
+  },
+  "na-c-402": {
+   "status": "verified",
+   "note": "Coastview and Seattle Times: Shelikhov's 130 armed men attacked Refuge Rock, at least 300 killed; Wikipedia: Russian occupation began 1784 after the Awa'uq massacre. Month conflict not used.",
+   "fields_unsupported": []
+  },
+  "na-c-403": {
+   "status": "verified",
+   "note": "Wikipedia Kodiak Island: Shelikhov founded a settlement at Three Saints Bay in 1784 and moved it to present Kodiak in 1792.",
+   "fields_unsupported": []
+  },
+  "na-c-404": {
+   "status": "verified",
+   "note": "Wikipedia Alutiiq: traditional homelands over 7,500 years old, including Prince William Sound and outer Kenai Peninsula (Chugach). 1492 is a window clamp.",
+   "fields_unsupported": []
+  },
+  "na-c-405": {
+   "status": "verified",
+   "note": "Wikipedia Yup'ik: Yukon and Kuskokwim migrations around 1400 CE; Kiatagmiut along the Kuskokwim from Bethel to Crow Village. Bethel point is a disclosed stand-in.",
+   "fields_unsupported": []
+  },
+  "na-c-406": {
+   "status": "verified",
+   "note": "Wikipedia Kolmakov Redoubt: first Russian site 1832, used until 1867 when American traders took over; UAF: major trading centre for 25 years. 1841 redoubt date conflict noted.",
+   "fields_unsupported": []
+  },
+  "na-c-407": {
+   "status": "verified",
+   "note": "Wikipedia Yup'ik: progenitors settled western Alaska coasts by ~3,000 years ago; Yukon-Kuskokwim Delta incl. Nunivak. 1492 is a window clamp.",
+   "fields_unsupported": []
+  },
+  "na-c-408": {
+   "status": "verified",
+   "note": "Wikipedia Utqiagvik: Inupiat there as far back as 500 AD, Birnirk houses c.800 AD; NPS: whaling for a thousand years before Yankee whalers.",
+   "fields_unsupported": []
+  },
+  "na-c-409": {
+   "status": "verified",
+   "note": "Wikipedia Point Hope: one of the oldest continually occupied sites in North America with whalebone-and-driftwood semi-subterranean houses. 1492 is a window clamp.",
+   "fields_unsupported": []
+  },
+  "na-c-410": {
+   "status": "partially-verified",
+   "note": "Wikipedia supports Kotzebue as a regional trading and gathering centre and the 1818 Kotzebue voyage; the 1818 date is a European visit, not when the Inupiat role began.",
+   "fields_unsupported": [
+    "from.year"
+   ]
+  },
+  "na-c-411": {
+   "status": "partially-verified",
+   "note": "Wikipedia supports Frobisher meeting Inuit at Frobisher Bay on 18 Aug 1576; the 1200 CE arrival and 15th-century spread rest on the unfetchable CE Thule page.",
+   "fields_unsupported": [
+    "from.year"
+   ]
+  },
+  "na-c-412": {
+   "status": "verified",
+   "note": "Wikipedia Nain: Moravian mission established 1771, among the oldest permanent Inuit settlements in Canada.",
+   "fields_unsupported": []
+  },
+  "na-c-413": {
+   "status": "verified",
+   "note": "Wikipedia John Rae: Inuit informants in the Gulf of Boothia in 1846-47 and 1854 on Franklin's fate; Inuit group unnamed (disclosed). 1846 start is first recorded contact.",
+   "fields_unsupported": []
+  },
+  "na-c-414": {
+   "status": "verified",
+   "note": "Wikipedia Hans Egede: arrival 3 July 1721, Hope Colony on Kangeq Island, only Kalaallit found; Visit Greenland concurs on 1721. 1728 move supported by next claim.",
+   "fields_unsupported": []
+  },
+  "na-c-415": {
+   "status": "verified",
+   "note": "Wikipedia Nuuk: Godt-Haab founded 1728 by Paarss at the Inuit settlement of Nuk.",
+   "fields_unsupported": []
+  },
+  "na-c-416": {
+   "status": "verified",
+   "note": "Wikipedia Ilulissat: Dutch whalers traded extensively in 17th-18th centuries; trading post 1741; last Sermermiut resident moved 1850.",
+   "fields_unsupported": []
+  },
+  "na-c-417": {
+   "status": "verified",
+   "note": "NPS Wrangell-St Elias: Taghaelden (Taral) one of two larger Ahtna villages; Tarkhanov wintered there in 1796 and took a census. Chitina point approximate.",
+   "fields_unsupported": []
+  },
+  "na-c-418": {
+   "status": "verified",
+   "note": "NPS: Nataelde (Batzulnetas) on Tanada Creek; Serebrennikov party killed near it in summer 1848; no further Russian exploration. Tanada Lake point approximate.",
+   "fields_unsupported": []
+  },
+  "na-c-419": {
+   "status": "verified",
+   "note": "DNR and Wikipedia: Shk'ituk't large Dena'ina village at the Kenai River mouth, ~1,000 residents; Dena'ina displaced Kachemak around 1000 AD.",
+   "fields_unsupported": []
+  },
+  "na-c-420": {
+   "status": "verified",
+   "note": "DNR Alaska: Fort St. Nicholas built 1791 staffed by ~40 Russians and Creoles; Wikipedia: Dena'ina attack and 1838 smallpox killing half. 1786 date conflict noted.",
+   "fields_unsupported": []
+  },
+  "na-c-421": {
+   "status": "verified",
+   "note": "Knik Tribe and Wikipedia: Kenaht'ana of Knik Arm, Dena'ina in Upper Cook Inlet for ~1,000 years; mid-1800s smallpox killed half.",
+   "fields_unsupported": []
+  },
+  "na-c-422": {
+   "status": "verified",
+   "note": "Nez Perce Tribe and Wikipedia: Nimiipuu homeland across Idaho, Oregon, Washington; main village Kamiah at Clearwater. 1492 is a window clamp.",
+   "fields_unsupported": []
+  },
+  "na-c-423": {
+   "status": "verified",
+   "note": "NPS: Young Joseph left the Wallowas in spring 1877 under threat of eviction; Wikipedia: region occupied 11,500+ years. 1492 is a window clamp; lake anchor approximate.",
+   "fields_unsupported": []
+  },
+  "na-c-424": {
+   "status": "verified",
+   "note": "NPS: after the 1863 treaty Wallowa Valley left outside reservation, 90% reduction; treaty text dated 9 June 1863; Old Joseph refused to sign.",
+   "fields_unsupported": []
+  },
+  "na-c-425": {
+   "status": "verified",
+   "note": "NPS Dug Bar: Chief Joseph's band forded the Snake on 31 May 1877 complying with demand to leave Wallowa homeland.",
+   "fields_unsupported": []
+  },
+  "na-c-426": {
+   "status": "verified",
+   "note": "Nez Perce Tribe: 1863 treaty reduced reservation to ~750,000 acres; Wikipedia: government headquartered at Lapwai.",
+   "fields_unsupported": []
+  },
+  "na-c-427": {
+   "status": "verified",
+   "note": "NPS: Weippe Prairie a summer root, berry and hunting ground; Lewis and Clark first contact mid-September 1805. Seasonal-range authority fits.",
+   "fields_unsupported": []
+  },
+  "na-c-428": {
+   "status": "verified",
+   "note": "Yakama Nation: peoples lived in the area since the beginning of time; Union Gap in Ahtanum Ridge. 1492 is a window clamp; Union Gap point approximate.",
+   "fields_unsupported": []
+  },
+  "na-c-429": {
+   "status": "verified",
+   "note": "Yakama Nation and HistoryLink: 9 June 1855 treaty cession, ratified 8 March 1859; acreage conflict (12M vs 6M) noted. Yakima city anchor approximate.",
+   "fields_unsupported": []
+  },
+  "na-c-430": {
+   "status": "verified",
+   "note": "HistoryLink: 9 Nov 1855 Rains marched on Kamiakin at Union Gap; by 1858 Yakama lost 90% of traditional lands and were confined to a reservation.",
+   "fields_unsupported": []
+  },
+  "na-c-431": {
+   "status": "verified",
+   "note": "Yakama Nation: the Yakama accepted their reservation after the war and still live there; rights reserved in the 1855 treaty. Toppenish-area point approximate.",
+   "fields_unsupported": []
+  },
+  "na-c-432": {
+   "status": "verified",
+   "note": "CTUIR: Cayuse people in Columbia region 10,000+ years; Wikipedia: Whitman mission at Waiilatpu among the Cayuse. 1855 end is the treaty cession (claim 433). 1492 is a window clamp.",
+   "fields_unsupported": []
+  },
+  "na-c-433": {
+   "status": "verified",
+   "note": "CTUIR and CRITFC: 6.4 million acres ceded for a reservation in the 1855 treaty; Cayuse ceded most traditional territory per Wikipedia.",
+   "fields_unsupported": []
+  },
+  "na-c-434": {
+   "status": "verified",
+   "note": "Wikipedia: Cayuse share reservation and government with Umatilla and Walla Walla; CTUIR reserved off-reservation fishing rights.",
+   "fields_unsupported": []
+  },
+  "na-c-435": {
+   "status": "verified",
+   "note": "Wikipedia and CTUIR: Umatilla along Umatilla and Columbia rivers with seasonal rounds from river lowlands to Blue Mountains. Town of Umatilla point approximate.",
+   "fields_unsupported": []
+  },
+  "na-c-436": {
+   "status": "verified",
+   "note": "CTUIR and CRITFC: reservation from the 1855 treaty, now 172,000 acres, seat of the Confederated Tribes at Mission; acreage figures vary (disclosed).",
+   "fields_unsupported": []
+  },
+  "na-c-437": {
+   "status": "verified",
+   "note": "Wikipedia: Walla Walla people along the Walla Walla River; CTUIR: 10,000+ years in the region. 1855 end is the treaty cession; 1492 is a window clamp.",
+   "fields_unsupported": []
+  },
+  "na-c-438": {
+   "status": "verified",
+   "note": "Treaty text: signed at Camp Stevens in the Walla Walla Valley 9 June 1855; CTUIR: 6.4 million acres ceded for a reservation.",
+   "fields_unsupported": []
+  },
+  "na-c-439": {
+   "status": "verified",
+   "note": "Wikipedia and CRITFC: Walla Walla share the reservation and government with Cayuse and Umatilla.",
+   "fields_unsupported": []
+  },
+  "na-c-440": {
+   "status": "verified",
+   "note": "Wikipedia Bitterroot Salish: occupied Bitterroot Valley from the 1700s, mission built 1841 by request, forcibly moved 1891; NWE gives the October 1891 removal.",
+   "fields_unsupported": []
+  },
+  "na-c-441": {
+   "status": "verified",
+   "note": "Treaty text and NWE: Hellgate treaty 16 July 1855 ceded ~20 million acres, Bitterroot Valley a conditional reservation. Hell Gate point approximate.",
+   "fields_unsupported": []
+  },
+  "na-c-442": {
+   "status": "verified",
+   "note": "NWE: October 1891 Chief Charlot and remaining members marched sixty miles to the Flathead Reservation; Wikipedia: forcibly moved 1891.",
+   "fields_unsupported": []
+  },
+  "na-c-443": {
+   "status": "verified",
+   "note": "CSKT and Wikipedia: Flathead Reservation established by Hellgate Treaty and home to the three tribes.",
+   "fields_unsupported": []
+  },
+  "na-c-444": {
+   "status": "verified",
+   "note": "Coeur d'Alene Tribe: people on the lake shores for thousands of years; Wikipedia: reservation includes lower third of the lake. 1492 is a window clamp.",
+   "fields_unsupported": []
+  },
+  "na-c-445": {
+   "status": "partially-verified",
+   "note": "Wikipedia supports Rosalia/Steptoe Butte as Coeur d'Alene territory and Steptoe's May 1858 Pine Creek defeat; nothing says the area ceased to be theirs in 1858, so the end year is an event date.",
+   "fields_unsupported": [
+    "to.year"
+   ]
+  },
+  "na-c-446": {
+   "status": "verified",
+   "note": "Tribe: 8 Nov 1873 executive order established the reservation; Wikipedia: later reduced to 345,000 acres near Plummer (fuzzy quote). Acreage at establishment differs by source.",
+   "fields_unsupported": []
+  },
+  "na-c-447": {
+   "status": "verified",
+   "note": "Spokane Tribe and Wikipedia: ancestral lands of ~3 million acres in NE Washington along Spokane and Columbia rivers, Spokane Falls area; 1881 end per reservation (claim 448).",
+   "fields_unsupported": []
+  },
+  "na-c-448": {
+   "status": "verified",
+   "note": "Spokane Tribe: no treaty, defended country in 1858, 1881 reservation, 1887 agreement; Wikipedia: ceded most territory on accepting the reservation established 1881.",
+   "fields_unsupported": []
+  },
+  "na-c-449": {
+   "status": "verified",
+   "note": "Spokane Tribe: President Hayes established the reservation in 1881; Wellpinit seat not in quotes but not load-bearing.",
+   "fields_unsupported": []
+  },
+  "na-c-450": {
+   "status": "verified",
+   "note": "Wikipedia Palouse people: main village Palus at the Palouse-Snake junction below Palouse Falls; Lewis and Clark met the tribe October 1805 (first documentation).",
+   "fields_unsupported": []
+  },
+  "na-c-451": {
+   "status": "verified",
+   "note": "NPS lists Palouse at the 1855 Walla Walla council and Wikipedia names them signatories of the 1855 treaty; post-1858 Yakama enrolment is not in the quotes but not load-bearing.",
+   "fields_unsupported": []
+  },
+  "na-c-452": {
+   "status": "verified",
+   "note": "Wikipedia Western Shoshone: indigenous to the Great Basin, lands in the 1863 Ruby Valley treaty, Watatikka band at Ruby Valley. 1492 is a window clamp.",
+   "fields_unsupported": []
+  },
+  "na-c-453": {
+   "status": "verified",
+   "note": "Wikipedia and digitreaties: Treaty of Ruby Valley concluded 1 Oct 1863; Shoshone allowed passage and posts but did not cede land; claims settlement later refused.",
+   "fields_unsupported": []
+  },
+  "na-c-454": {
+   "status": "partially-verified",
+   "note": "Wikipedia supports Cache Valley as traditional hunting ground and base of the Cache Valley Shoshone; the 1863 end is inferred from the massacre/treaty and some Shoshone remained.",
+   "fields_unsupported": [
+    "to.year"
+   ]
+  },
+  "na-c-455": {
+   "status": "verified",
+   "note": "Wikipedia: Cache Valley Shoshone practically wiped out at Bear River on 29 Jan 1863; Wyohistory gives at least 250 killed.",
+   "fields_unsupported": []
+  },
+  "na-c-456": {
+   "status": "verified",
+   "note": "Shoshone-Bannock Tribes: reservation established by executive order 14 June 1867 as permanent home; Wikipedia: survivors settled at Fort Hall.",
+   "fields_unsupported": []
+  },
+  "na-c-457": {
+   "status": "verified",
+   "note": "WyoHistory: 1863 Fort Bridger treaty specified ~44 million acre Eastern Shoshone homeland; Wikipedia Washakie concurs. End 1868 is the later treaty.",
+   "fields_unsupported": []
+  },
+  "na-c-458": {
+   "status": "verified",
+   "note": "WyoHistory: 1868 treaty shrank the homeland to ~3.2 million acres centred on Wind River Valley; SBT lists the 1868 treaty.",
+   "fields_unsupported": []
+  },
+  "na-c-459": {
+   "status": "verified",
+   "note": "Wikipedia and treaty text: Wind River Valley set apart in 1868, Shoshone longest precontact presence, Fort Washakie renamed 1878, shared with Arapaho.",
+   "fields_unsupported": []
+  },
+  "na-c-460": {
+   "status": "verified",
+   "note": "Wikipedia: in 1872 the Shoshone agreed to sell part of the reservation to the U.S.",
+   "fields_unsupported": []
+  },
+  "na-c-461": {
+   "status": "verified",
+   "note": "Wikipedia: Pyramid Lake people known as Kuyui Dukadu; reservation first set aside 1859; NPS notes Paiute living in the area. 1492 is a window clamp.",
+   "fields_unsupported": []
+  },
+  "na-c-462": {
+   "status": "verified",
+   "note": "NPS, Nevada SHPO and Wikipedia: 1860 Pyramid Lake War over encroachment, ceasefire August 1860 with no treaty; NPS dates start 7 May 1860.",
+   "fields_unsupported": []
+  },
+  "na-c-463": {
+   "status": "partially-verified",
+   "note": "Wikipedia places the reservation along the Walker River and Northern Paiute in the Great Basin, but nothing readable dates the Agaidokado at Walker River back to 1492; Wovoka detail unchecked.",
+   "fields_unsupported": [
+    "from.year"
+   ]
+  },
+  "na-c-464": {
+   "status": "partially-verified",
+   "note": "EBSCO and Wikipedia support Southern Paiute bands in the region incl. Nevada and a Las Vegas band; neither places the band at Las Vegas Springs, so the anchor is inferred.",
+   "fields_unsupported": [
+    "place.name",
+    "place.coords"
+   ]
+  },
+  "na-c-465": {
+   "status": "verified",
+   "note": "EBSCO: 1873 Powell commission recommended consolidation on Uintah or the Moapa River Reservation, which was already established; Mormon settlement from 1850.",
+   "fields_unsupported": []
+  },
+  "na-c-466": {
+   "status": "verified",
+   "note": "Forest Service and Wikipedia: Washoe at Lake Tahoe for at least 2,000 years, territory centred on the lake. 1492 is a window clamp.",
+   "fields_unsupported": []
+  },
+  "na-c-467": {
+   "status": "verified",
+   "note": "Forest Service: 1859 Virginia City silver strike brought massive resource extraction, the first major disruption to Washoe life at the lake.",
+   "fields_unsupported": []
+  },
+  "na-c-468": {
+   "status": "verified",
+   "note": "NPS and Klamath Tribes: Tule Lake, Lost River, Clear Lake, Butte Valley were Modoc homeland; end 1873 is war's end. 1492 is a window clamp.",
+   "fields_unsupported": []
+  },
+  "na-c-469": {
+   "status": "verified",
+   "note": "Treaty text, Klamath Tribes and Wikipedia: 14 Oct 1864 treaty, 23 million acres, Modoc to give up Lost River/Tule Lake lands.",
+   "fields_unsupported": []
+  },
+  "na-c-470": {
+   "status": "partially-verified",
+   "note": "NPS gives the Modoc War as 29 Nov 1872 to 1 June 1873 and 150 people in the Stronghold for five months; those are war dates, not the dates the Stronghold was held, which are shorter.",
+   "fields_unsupported": [
+    "from.day",
+    "to.day"
+   ]
+  },
+  "na-c-471": {
+   "status": "verified",
+   "note": "NPS Lava Beds: twelve days after the 3 Oct 1873 hanging, 163 Modoc sent as prisoners to the Quapaw Agency; some returned to the Klamath Reservation in 1909.",
+   "fields_unsupported": []
+  },
+  "na-c-472": {
+   "status": "verified",
+   "note": "Klamath Tribes: lived in the Klamath Basin from time beyond memory, six tribes; end 1864 is the treaty cession (claim 473). 1492 is a window clamp; basin point approximate.",
+   "fields_unsupported": []
+  },
+  "na-c-473": {
+   "status": "verified",
+   "note": "Klamath Tribes: ceded more than 23 million acres in 1864 and entered the reservation era; treaty text concluded at Klamath Lake 14 Oct 1864.",
+   "fields_unsupported": []
+  },
+  "na-c-474": {
+   "status": "verified",
+   "note": "Klamath Tribes history mentions the Agency and Fort Klamath, cattle ranching, and lumber sales under the reservation program; Wikipedia: 1864 treaty cession in return for the reservation.",
+   "fields_unsupported": []
+  },
+  "na-c-475": {
+   "status": "verified",
+   "note": "Yurok Tribe: lived in over fifty villages across ancestral territory, Klamath-Trinity River lifeline. Requa anchor and 1492 clamp disclosed.",
+   "fields_unsupported": []
+  },
+  "na-c-476": {
+   "status": "partially-verified",
+   "note": "Yurok Tribe supports 1849 arrival of gold seekers and at least 75% dying by the end of the gold rush era; the 1855 end year is inferred from the reservation's creation.",
+   "fields_unsupported": [
+    "to.year"
+   ]
+  },
+  "na-c-477": {
+   "status": "verified",
+   "note": "Yurok Tribe: Federal Government established the Yurok Reservation in 1855, considerably smaller than ancestral territory.",
+   "fields_unsupported": []
+  },
+  "na-c-478": {
+   "status": "verified",
+   "note": "Wikipedia: over 150 independent Chumash villages before the mission period; Santa Ynez Band reservation in the Santa Ynez Valley. Mission Santa Barbara is only a region anchor.",
+   "fields_unsupported": []
+  },
+  "na-c-479": {
+   "status": "verified",
+   "note": "California Missions Foundation: Mission Santa Barbara founded 4 Dec 1786, ~4,000 Chumash buried; Wikipedia: Chumash moved to missions 1772-1817.",
+   "fields_unsupported": []
+  },
+  "na-c-480": {
+   "status": "verified",
+   "note": "Wikipedia Chumash Revolt of 1824: La Purisima occupied until a Mexican unit forced surrender on 16 March; CMF Santa Ines page corroborates the revolt.",
+   "fields_unsupported": []
+  }
+ }
+}

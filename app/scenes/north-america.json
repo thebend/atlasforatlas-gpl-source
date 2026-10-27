@@ -1,0 +1,136 @@
+{
+  "id": "north-america",
+  "order": 20,
+  "title": "North America",
+  "subtitle": "North America, 1492–1900",
+  "bbox": [-170, 7, -50, 75],
+  "years": [1492, 1900],
+  "view": [[-135, 12], [-55, 62]],
+  "startYear": 1700,
+  "rate": "10 years/s",
+  "minZoom": 2.2,
+  "sound": "colonial",
+  "trails": ["trail-lewis-clark.json"],
+  "research": ["north-america-1492-1900"],
+  "researchLabel": "Native nations 1492–1900",
+  "bordersNote": "Crisp: US states & territories (Newberry AHCB), colonies and republics (OpenHistoricalMap), each nation's land until its cession to the US (Royce 1899, USFS 2018). Soft: snapshot claims and Indigenous homelands (historical-basemaps, GPL; approximate). Paper claims are weaker than held land, so overlaps read as frontier or contested.",
+  "card": {
+    "name": "The Colonisation of North America",
+    "region": "North America",
+    "eras": ["Early modern", "Long 19th century"],
+    "themes": ["Colonisation", "Empire", "Indigenous nations", "Revolution", "War"],
+    "significance": "Four centuries of contact, conquest and dispossession: Spanish, French, British, Dutch and Russian empires amid hundreds of Native nations, and the rise of the United States, Canada and Mexico across a continent.",
+    "keyPlaces": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "New France",
+      "New Spain",
+      "Rupert's Land",
+      "Louisiana",
+      "Texas",
+      "Cherokee",
+      "Sioux",
+      "Lewis and Clark"
+    ]
+  },
+  "chapters": [
+    {
+      "title": "Contact and conquest",
+      "from": 1492,
+      "to": 1607.4,
+      "blurb": "Columbus to Jamestown: Spanish conquest of Mexico and the Caribbean, early French and English voyages."
+    },
+    {
+      "title": "Colonial empires",
+      "from": 1607.4,
+      "to": 1754.4,
+      "blurb": "Jamestown, Quebec and New Amsterdam; English, French, Dutch and Spanish colonies amid Native nations."
+    },
+    {
+      "title": "Seven Years' War",
+      "from": 1754.4,
+      "to": 1763.2,
+      "blurb": "The French and Indian War; France leaves the mainland in the Treaty of Paris (1763)."
+    },
+    {
+      "title": "Revolution",
+      "from": 1763.2,
+      "to": 1783.7,
+      "blurb": "Royal Proclamation, Pontiac's War, the American Revolution and the second Treaty of Paris."
+    },
+    {
+      "title": "New republics",
+      "from": 1783.7,
+      "to": 1821.7,
+      "blurb": "The early United States, the Louisiana Purchase, the War of 1812, independence movements in New Spain."
+    },
+    {
+      "title": "Expansion and removal",
+      "from": 1821.7,
+      "to": 1861.3,
+      "blurb": "Mexican independence, Indian Removal, Texas, Oregon and the Mexican–American War."
+    },
+    {
+      "title": "Civil War",
+      "from": 1861.3,
+      "to": 1865.4,
+      "blurb": "The Confederate States and the Union."
+    },
+    {
+      "title": "Confederation and the Plains",
+      "from": 1865.4,
+      "to": 1901,
+      "blurb": "Reconstruction, Canadian Confederation, the Numbered Treaties and the Plains wars."
+    }
+  ],
+  "sources": {
+    "borders": ["newberry", "royce", "ohm", "canada", "hb", "wikidata"],
+    "divisions": ["newberry", "ohm"],
+    "labels": ["newberry", "ohm", "hb"]
+  },
+  "thumb": {
+    "year": 1850.5,
+    "center": [-100, 40],
+    "zoom": 2.9,
+    "projection": "mercator"
+  },
+  "etl": {
+    "dem_z": 6,
+    "field_step": 0.25,
+    "slice_gap": 0.45,
+    "soft_coast": true,
+    "terrain_step": 0.05,
+    "borders": ["north-america"],
+    "era_names": {
+      "britain": [[1707.33, "England"], [99999, "Great Britain"]],
+      "denmark": [[1814.04, "Denmark–Norway"], [99999, "Denmark"]],
+      "netherlands": [[1795.05, "Dutch Republic"], [99999, "Netherlands"]],
+      "russia": [[99999, "Russian Empire"]]
+    },
+    "min_sitelinks": 3,
+    "field_format": "topk",
+    "claim_below": 0.5,
+    "research_kind": "nation",
+    "wildlife": [
+      {"id": "bison", "name": "American bison", "taxon": "Bison bison", "note": "Tens of millions on the plains; hunted to a few hundred by 1890."},
+      {"id": "beaver", "name": "North American beaver", "taxon": "Castor canadensis", "note": "The fur trade's quarry, behind many of the posts and much of the inland exploration."},
+      {"id": "pigeon", "name": "Passenger pigeon", "taxon": "Ectopistes migratorius", "note": "Perhaps once the most numerous bird on Earth; the last wild birds were seen around 1900."}
+    ]
+  },
+  "pipeline": [
+    {
+      "step": "sources",
+      "module": "fetch.north_america"
+    },
+    "base",
+    "events",
+    "event-dates",
+    "settlements",
+    "research",
+    "fields",
+    "wildlife",
+    "labels", "travellers",
+    "divisions"
+  ]
+}

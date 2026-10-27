@@ -1,0 +1,60 @@
+{
+  "about": "Build profiles: which sources a build may ship. Set ATLAS_PROFILE (default open) for both the data build (npm run data) and the app build (npm run build). A profile blocks licence classes (sources/catalogue.json `cls`); every source of a blocked class is left out of the built data itself, not just hidden in the UI, and each is swapped for its replacement. Read by etl/profile.py and src/lib/profile.ts; the step global:licences checks the built data against it. See docs/design/licensing.md.",
+  "profiles": {
+    "open": {
+      "name": "Open (non-commercial site)",
+      "blocks": []
+    },
+    "commercial": {
+      "name": "Commercial",
+      "blocks": ["noncommercial", "unverified"],
+      "replace": {"cshapes": "cliopatria"},
+      "media_blocks": ["share-alike"],
+      "quotes": {"max_words": 50, "per_url_words": 300, "open_hosts": ["wikipedia.org", "wikisource.org", "gutenberg.org"]},
+      "drops": {
+        "cshapes": "Borders: Cliopatria (CC BY 4.0) instead, at year resolution; OpenHistoricalMap where a period already names relations.",
+        "gufm1": "Magnetic north on the compass: off (sky/gufm1.json is not built).",
+        "gbif": "Wildlife records: only CC0 and CC BY records are kept; CC BY-NC and unlicensed records are left out of wildlife.json.",
+        "commons": "Media: any portrait or recording whose licence is non-commercial, unstated or share-alike is left out. Today that is the rain and insect beds (CC BY-SA 4.0): the browser synthesises those two instead.",
+        "quotes": "Research citations: every link stays; a quote is withheld when it runs over 50 words, or when 300 words are already quoted from the same page, except from Wikipedia, Wikisource and Project Gutenberg."
+      },
+      "scenes": {
+        "europe": {
+          "etl": {"borders": ["cliopatria"]},
+          "pipeline_swap": {"sources": "borders"},
+          "sources": {"borders": ["cliopatria"], "labels": ["cliopatria"]},
+          "bordersNote": "Polity outlines from Cliopatria (Seshat, CC BY 4.0), one outline per polity per year, drawn soft."
+        },
+        "israel-gaza-war": {
+          "etl": {"borders": [{"source": "cliopatria", "carry_to": 2026, "drop": ["State of Israel", "Gaza/Hamas"]}, {"keep": "ohm"}]},
+          "sources": {"borders": ["cliopatria", "ohm"], "labels": ["cliopatria", "ohm"]},
+          "bordersNote": "Israel and Palestine (the Gaza Strip and the West Bank) from OpenHistoricalMap; other states from Cliopatria (Seshat, CC BY 4.0), whose 2024 outlines are carried forward unchanged. No dataset here has the areas of Gaza each side controlled during the war, so none is drawn."
+        },
+        "meiji-japan": {
+          "etl": {"borders": ["cliopatria"]},
+          "bordersNote": "Polity outlines from Cliopatria (Seshat, CC BY 4.0), one outline per polity per year, drawn soft; colonies drawn as part of their empire."
+        },
+        "pacific-war": {
+          "etl": {"borders": ["cliopatria"]},
+          "bordersNote": "Polity outlines from Cliopatria (Seshat, CC BY 4.0), one outline per polity per year, drawn soft; colonies drawn as part of their empire. Pearl Harbor and Midway lie east of the 180° edge of this window."
+        },
+        "partition-of-india": {
+          "etl": {"borders": ["cliopatria"]},
+          "bordersNote": "Polity outlines from Cliopatria (Seshat, CC BY 4.0), one outline per polity per year, drawn soft. The Kashmir ceasefire line of 1949 and the migrations are not in it."
+        },
+        "russia-ukraine-war": {
+          "etl": {"borders": [{"source": "cliopatria", "carry_to": 2026}, {"keep": "ohm"}]},
+          "bordersNote": "Polity outlines from Cliopatria (Seshat, CC BY 4.0), yearly to 2024 and carried forward unchanged after it. From 30 September 2022 the four oblasts Russia claims to have annexed (Donetsk, Luhansk, Zaporizhzhia and Kherson, their boundaries from OpenHistoricalMap) are drawn as contested between Russia and Ukraine: this is the claim's extent (each oblast's full boundary), not the ground either side held."
+        },
+        "russian-revolution": {
+          "etl": {"borders": ["cliopatria"]},
+          "bordersNote": "Polity outlines from Cliopatria (Seshat, CC BY 4.0), one outline per polity per year, drawn soft: the Civil War's moving fronts are not in it."
+        },
+        "scramble-for-africa": {
+          "etl": {"borders": ["cliopatria"]},
+          "bordersNote": "Polity outlines from Cliopatria (Seshat, CC BY 4.0), drawn soft: colonies as part of their empire, and African states. Where an African state and a colony overlap, the ground reads as contested: a paper claim is not held land."
+        }
+      }
+    }
+  }
+}

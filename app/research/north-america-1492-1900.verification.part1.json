@@ -1,0 +1,1335 @@
+{
+ "meta": {
+  "verifier": "claude-sonnet, independent pass (part 1 of 3)",
+  "date": "2026-10-24",
+  "method": "Judged all 240 claims (na-c-001 to na-c-240; all are claims, no events in this range) against their cited sources, not just quote existence. For each item I read the statement, notes, dates, authority and coordinates, then read the quoted text in context in the cached pages (.cache/fetch) and grepped the cached full pages for date bounds, month/day precision and conflicting statements. The 94 citations marked unfetchable (Wikipedia pages with accented titles, The Canadian Encyclopedia, mptn-nsn.gov) were re-fetched myself via the Wikipedia API and Wayback copies and checked the same way. Items were marked partially-verified when a date bound or month/day was inferred or absent from the cited text, a placeholder start (not the window-start convention for pre-contact homelands) or a general date was applied to a specific place, sources conflict, authority is stronger than the text, or the coordinate is an admitted centroid or anchor for a region. No item had a core claim contradicted, so none was rejected; no item was left unverified."
+ },
+ "items": {
+  "na-c-001": {
+   "status": "verified",
+   "note": "Wikipedia gives 1325 founding; WHE gives fall 13 Aug 1521; capital/homeland of the Mexica Triple Alliance supported.",
+   "fields_unsupported": []
+  },
+  "na-c-002": {
+   "status": "verified",
+   "note": "Wikipedia: Texcoco second-most important, two-fifths tribute; alliance 1428-1521 supported.",
+   "fields_unsupported": []
+  },
+  "na-c-003": {
+   "status": "verified",
+   "note": "Tlacopan junior partner, allied 1428 supported; Tacuba coordinate matches Wikipedia identification.",
+   "fields_unsupported": []
+  },
+  "na-c-004": {
+   "status": "verified",
+   "note": "Arrival 8 Nov 1519 and surrender 13 Aug 1521 both quoted; contested span is a fair summary.",
+   "fields_unsupported": []
+  },
+  "na-c-005": {
+   "status": "verified",
+   "note": "Source says Tlaxcalans drove out Chichimecas c.1350 and set up autonomous state; survival after conquest from Wikipedia. Open end acceptable.",
+   "fields_unsupported": []
+  },
+  "na-c-006": {
+   "status": "partially-verified",
+   "note": "Four seats incl. Tizatlan supported (Wikipedia, Schmal). 1545 end is the Spanish reorganisation date, not an end of the confederation structure; 'from' c.1519 is source's 'by 1519' only.",
+   "fields_unsupported": [
+    "to.year"
+   ]
+  },
+  "na-c-007": {
+   "status": "partially-verified",
+   "note": "Flower wars/embargo under Motecuhzoma I, never conquered, 18 Sep 1519 entry supported; start 'decade 1440' is inferred from reign dates, not stated in sources.",
+   "fields_unsupported": [
+    "from.year"
+   ]
+  },
+  "na-c-008": {
+   "status": "verified",
+   "note": "WHE: Tariakuri established first capital at Patzcuaro c.1325; Wikipedia: lost independence 1530, centred on Patzcuaro basin.",
+   "fields_unsupported": []
+  },
+  "na-c-009": {
+   "status": "partially-verified",
+   "note": "Tzintzuntzan as capital c.1350 (WHE) and independence lost 1530 supported; the day 14 Feb 1530 is Tangaxuan's execution, not stated for end of the state in cited quotes.",
+   "fields_unsupported": [
+    "to.day"
+   ]
+  },
+  "na-c-010": {
+   "status": "verified",
+   "note": "Wikipedia Tangaxuan II: dual-rule arrangement after Olid's 1522 expedition; execution 14 Feb 1530 quoted.",
+   "fields_unsupported": []
+  },
+  "na-c-011": {
+   "status": "verified",
+   "note": "Wikipedia: Mayapan capital from 1220s until 1440s; 1441 Xiu revolt, sacked and abandoned.",
+   "fields_unsupported": []
+  },
+  "na-c-012": {
+   "status": "verified",
+   "note": "Wikipedia (re-fetched): Xiu moved capital to Mani in 13th century, dominant after 1441, allied with Spanish; continuous occupation. 1542 year not in quote but not a field.",
+   "fields_unsupported": []
+  },
+  "na-c-013": {
+   "status": "verified",
+   "note": "Wikipedia: Sotuta Cocom implacable enemies; 1546 eastern uprising incl. Sotuta, described as final conquest of northern Yucatan.",
+   "fields_unsupported": []
+  },
+  "na-c-014": {
+   "status": "verified",
+   "note": "Re-fetched Wikipedia: Nojpeten founded c.1441-1446 per ethnohistory; fell 13 March 1697.",
+   "fields_unsupported": []
+  },
+  "na-c-015": {
+   "status": "verified",
+   "note": "Re-fetched Wikipedia: Franciscan mission 1618, 1622 expedition massacred by Itza; fell 1697.",
+   "fields_unsupported": []
+  },
+  "na-c-016": {
+   "status": "verified",
+   "note": "Re-fetched Wikipedia: bombardment forced Itza defenders to abandon Nojpeten; fell 13 March 1697 (last Maya kingdom).",
+   "fields_unsupported": []
+  },
+  "na-c-017": {
+   "status": "verified",
+   "note": "Wikipedia (re-fetched): Chi and Pat attacked Tepich 30 July 1847; by spring 1848 Maya held most of Yucatan except Campeche and Merida.",
+   "fields_unsupported": []
+  },
+  "na-c-018": {
+   "status": "verified",
+   "note": "Yucatan Today: capital from Oct 1850 to end of war; troops took it 3 May 1901; Wikipedia 1901 occupation. Month precision fits.",
+   "fields_unsupported": []
+  },
+  "na-c-019": {
+   "status": "partially-verified",
+   "note": "Mitla as most important Zapotec city and inhabited to Spanish conquest are quoted. 'From 900' is just the end of a c.700-900 range; '1521' end is not stated for Mitla (author's own caveat).",
+   "fields_unsupported": [
+    "from.year",
+    "to.year"
+   ]
+  },
+  "na-c-020": {
+   "status": "partially-verified",
+   "note": "Wikipedia: final Zapotec capital, conquered by Ahuitzotl 1495. Start c.1400 only inferred from the namesake ruler's era; Wikipedia says founding/flourishing dates unclear and Mixtecs later held it.",
+   "fields_unsupported": [
+    "from.year"
+   ]
+  },
+  "na-c-021": {
+   "status": "verified",
+   "note": "Wikipedia: last Aztec-Zapotec battle at Guiengola 1497-1502 under Ahuitzotl. Date range is the source's; a single battle drawn as a span.",
+   "fields_unsupported": []
+  },
+  "na-c-022": {
+   "status": "partially-verified",
+   "note": "Quote only calls Tilantongo an 'ancient capital'; 1521 subjugation is quoted. 1492 start is a window placeholder (author admits) and no source shows Tilantongo governing La Mixteca in 1492.",
+   "fields_unsupported": [
+    "from.year",
+    "authority"
+   ]
+  },
+  "na-c-023": {
+   "status": "verified",
+   "note": "Wikipedia: Aztec defeat of Mixtecs 1458, fort at Huaxyacac 1486 for tribute, Orozco reached Oaxaca valley 25 Nov 1521.",
+   "fields_unsupported": []
+  },
+  "na-c-024": {
+   "status": "verified",
+   "note": "Wikipedia (re-fetched) gives Caxcan lands and 9 Nov 1541 capture of Nochistlan; Schmal via Indigenous Mexico gives 12th-century expulsion of Tecuexes.",
+   "fields_unsupported": []
+  },
+  "na-c-025": {
+   "status": "verified",
+   "note": "Wikipedia (re-fetched): Mixton War 1540-1542, Tenamaztle of Nochistlan, Alvarado repulsed June 1541, stronghold fell early 1542.",
+   "fields_unsupported": []
+  },
+  "na-c-026": {
+   "status": "verified",
+   "note": "Wikipedia and Indigenous Mexico: survivors of Mixton enslaved and transported from Apozol and Juchipila to Guadalajara and haciendas.",
+   "fields_unsupported": []
+  },
+  "na-c-027": {
+   "status": "verified",
+   "note": "Wikipedia: Guachichil occupied most extensive Chichimeca territory pre-contact, centred on future San Luis Potosi; nomadic. 1492 start is a pre-contact placeholder; end is war start.",
+   "fields_unsupported": []
+  },
+  "na-c-028": {
+   "status": "partially-verified",
+   "note": "Quotes give Guachichil population and silver-road raiding, not the dates. Wikipedia Chichimeca War says 1550-1600, so the 1590 end is not supported by the cited text.",
+   "fields_unsupported": [
+    "to.year"
+   ]
+  },
+  "na-c-029": {
+   "status": "partially-verified",
+   "note": "1546 silver find and Chichimeca resentment quoted, but the war began c.1550. Wikipedia places Zacatecos (not Guachichiles) in Zacatecas, so polity/place pairing is a stretch.",
+   "fields_unsupported": [
+    "from.year",
+    "place.coords"
+   ]
+  },
+  "na-c-030": {
+   "status": "verified",
+   "note": "Encyclopedia.com: distinct united tribe by 1414, ~80 rancherias on lower Rio Yaqui; Wikipedia lists Vicam among eight towns.",
+   "fields_unsupported": []
+  },
+  "na-c-031": {
+   "status": "verified",
+   "note": "Indigenous Mexico: Jesuits welcomed 1617; Wikipedia lists eight towns incl. Cocorit. Circa 1617 fits.",
+   "fields_unsupported": []
+  },
+  "na-c-032": {
+   "status": "verified",
+   "note": "Wikipedia Yaqui Wars: Cajeme's republic 1876, El Anil near Vicam captured 12 May 1886, Cajeme executed 23 April 1887.",
+   "fields_unsupported": []
+  },
+  "na-c-033": {
+   "status": "verified",
+   "note": "Wikipedia (re-fetched): Tepehuan on Sierra Madre Occidental slopes, mainly Durango; Jesuit missions 1596 at Santiago Papasquiaro and Santa Catarina. 1492 is a pre-contact placeholder.",
+   "fields_unsupported": []
+  },
+  "na-c-034": {
+   "status": "verified",
+   "note": "Wikipedia (re-fetched): revolt began 16 Nov 1616 at Santa Catarina, crushed/ended 1620; ~100 killed at Santiago Papasquiaro and at El Zape.",
+   "fields_unsupported": []
+  },
+  "na-c-035": {
+   "status": "partially-verified",
+   "note": "Quotes say Raramuri lived across central and western Chihuahua at contact and retreated to the sierra, never conquered. Guachochi is a single proxy point for a region (author admits); 1492 is a placeholder.",
+   "fields_unsupported": [
+    "place.coords"
+   ]
+  },
+  "na-c-036": {
+   "status": "verified",
+   "note": "Wikipedia: 1648 war destroyed San Francisco de Borja; Teporaca's upper-sierra war; 1696-98 war. Span 1648-1698 is continuous on the map though Jesuits returned in 1670s.",
+   "fields_unsupported": []
+  },
+  "na-c-037": {
+   "status": "verified",
+   "note": "Wikipedia Totonac: Aztec incursions and fortifications from mid-15th c.; Cempoala Totonacs joined Cortes. 'Tribute' in statement not in text but authority is 'contested'.",
+   "fields_unsupported": []
+  },
+  "na-c-038": {
+   "status": "verified",
+   "note": "Wikipedia: Papantla major Totonac centre, ~60,000 in 1519; 19th-century land conflicts. 1519 start is the population-estimate year.",
+   "fields_unsupported": []
+  },
+  "na-c-039": {
+   "status": "verified",
+   "note": "Wikipedia Huastec: defeated c.1450 by Moctezuma I, tribute but local self-government; Spanish conquest 1519-1530s. Panuco is a river-town proxy for the region.",
+   "fields_unsupported": []
+  },
+  "na-c-040": {
+   "status": "verified",
+   "note": "Wikipedia and taospueblo.com: oldest building c.1000, continuously inhabited.",
+   "fields_unsupported": []
+  },
+  "na-c-041": {
+   "status": "verified",
+   "note": "Wikipedia Pecos: pueblo built c.AD 1100; last 17-20 inhabitants left 1838 for Jemez.",
+   "fields_unsupported": []
+  },
+  "na-c-042": {
+   "status": "verified",
+   "note": "Wikipedia Santa Fe: Pueblo people ran New Mexico from the Palace of the Governors 1680-1692; EBSCO supports expulsion. Month precision from other sources, plausible.",
+   "fields_unsupported": []
+  },
+  "na-c-043": {
+   "status": "verified",
+   "note": "Wikipedia Pueblo Revolt: Vargas's formal repossession 14 Sept 1692; bloody recapture ending 30 Dec 1693. 'Contested' label is the author's synthesis but fits.",
+   "fields_unsupported": []
+  },
+  "na-c-044": {
+   "status": "verified",
+   "note": "Wikipedia: Oraibi founded around 1100 CE, among oldest continuously inhabited settlements.",
+   "fields_unsupported": []
+  },
+  "na-c-045": {
+   "status": "partially-verified",
+   "note": "Wikipedia says Walpi established around AD 900, but the author notes later (mid-12th c.) dates elsewhere; present mesa-top village is far later. Single-source start is shaky.",
+   "fields_unsupported": [
+    "from.year"
+   ]
+  },
+  "na-c-046": {
+   "status": "verified",
+   "note": "Wikipedia: Awatovi founded after 1300; destroyed by other Hopi villages by end of 1700 (EBSCO).",
+   "fields_unsupported": []
+  },
+  "na-c-047": {
+   "status": "verified",
+   "note": "Wikipedia: Hawikuh founded c.1400; Zuni permanently abandoned it after 1680 revolt.",
+   "fields_unsupported": []
+  },
+  "na-c-048": {
+   "status": "verified",
+   "note": "Wikipedia Zuni: after revolt until 1692 refuge atop Dowa Yalanne.",
+   "fields_unsupported": []
+  },
+  "na-c-049": {
+   "status": "verified",
+   "note": "Encyclopedia.com: mission at Halona:wa by 1632; Wikipedia: Middle Place homeland. 1632 is earliest mention, not founding (disclosed).",
+   "fields_unsupported": []
+  },
+  "na-c-050": {
+   "status": "verified",
+   "note": "NPS: oldest remains c.1100 CE; EBSCO: origins 1075-1200; continuously inhabited.",
+   "fields_unsupported": []
+  },
+  "na-c-051": {
+   "status": "verified",
+   "note": "Wikipedia and NPS: ~500 prisoners sentenced by Onate after Jan 1599 storming; pueblo rebuilt from Dec 1599. Exact January dates differ by source; month precision used.",
+   "fields_unsupported": []
+  },
+  "na-c-052": {
+   "status": "partially-verified",
+   "note": "Wikipedia supports Navajo presence in Dinetah as early as 1500 and traditional homeland. Point (-109,37) is an area centroid, flagged approximate by the author, for a canyon-country region.",
+   "fields_unsupported": [
+    "place.coords"
+   ]
+  },
+  "na-c-053": {
+   "status": "partially-verified",
+   "note": "Wikipedia supports Navajo moving into the canyon in the early 1700s, but dates Carson's campaign to 1863, not January 1864; the end bound is inferred from other knowledge.",
+   "fields_unsupported": [
+    "to.year",
+    "to.month"
+   ]
+  },
+  "na-c-054": {
+   "status": "partially-verified",
+   "note": "Carson devastation, surrender and Bosque Redondo return under the 1 June 1868 treaty are supported. The cited page dates Carson's canyon campaign 1863, so the January 1864 start is not in the text.",
+   "fields_unsupported": [
+    "from.month"
+   ]
+  },
+  "na-c-055": {
+   "status": "verified",
+   "note": "EBSCO: series of Long Walks, first and largest March 1864; Wikipedia: 8,000-9,000 settled at Bosque Redondo; treaty ended internment 1868.",
+   "fields_unsupported": []
+  },
+  "na-c-056": {
+   "status": "verified",
+   "note": "Wikipedia: reservation established 1868 within Navajo homeland, treaty effectively recognised sovereign nation; Window Rock capital.",
+   "fields_unsupported": []
+  },
+  "na-c-057": {
+   "status": "partially-verified",
+   "note": "15 million acres 'at European contact' and Fort Sill source support territory and c.1540 start. The 1886 end is not in these quotes, and Chiricahua control had been curtailed by reservations well before; 'governed' overstates.",
+   "fields_unsupported": [
+    "to.year",
+    "authority"
+   ]
+  },
+  "na-c-058": {
+   "status": "verified",
+   "note": "Wikipedia Cochise: uprising from 1861 to treaty negotiated 12 Oct 1872; NPS: Cochise led Chokonen at Apache Pass.",
+   "fields_unsupported": []
+  },
+  "na-c-059": {
+   "status": "verified",
+   "note": "NPS: Chiricahua POWs held at Fort Bowie then sent to Florida; Wikipedia: Sept 1886 surrender, entrained at Bowie Station.",
+   "fields_unsupported": []
+  },
+  "na-c-060": {
+   "status": "verified",
+   "note": "Wikipedia Fort Sill and tribal site: Geronimo and 341 others brought to Fort Sill 1894; release c.1913-1914.",
+   "fields_unsupported": []
+  },
+  "na-c-061": {
+   "status": "partially-verified",
+   "note": "Western Apache traditional area and Fort Apache founded 1870 at White Mountain leaders' suggestion are quoted. The 1870 'from' is only the post date, not the start of homeland (author admits no start in source).",
+   "fields_unsupported": [
+    "from.year"
+   ]
+  },
+  "na-c-062": {
+   "status": "verified",
+   "note": "Wikipedia: San Carlos reservation established 1872 for Chiricahua and Yavapai and Apache bands removed from original homelands.",
+   "fields_unsupported": []
+  },
+  "na-c-063": {
+   "status": "verified",
+   "note": "Wikipedia Camp Grant massacre: Aravaipa/Pinal refuge on Aravaipa Creek under Eskiminzin, refused White Mountains; survivors fled north. Open end is loose.",
+   "fields_unsupported": []
+  },
+  "na-c-064": {
+   "status": "partially-verified",
+   "note": "Tribal site says region belonged to Mescalero long before; Wikipedia gives mountain refuge. The 1700s start (Comanche pressure) is not in the cited quotes; Sierra Blanca is a regional proxy.",
+   "fields_unsupported": [
+    "from.year"
+   ]
+  },
+  "na-c-065": {
+   "status": "verified",
+   "note": "Tribal site 29 May 1873 and Wikipedia 27 May 1873 for Grant's executive order; month precision fits.",
+   "fields_unsupported": []
+  },
+  "na-c-066": {
+   "status": "verified",
+   "note": "Wikipedia Bosque Redondo: all Mescalero relocated by end 1862; breakout 3 Nov 1863.",
+   "fields_unsupported": []
+  },
+  "na-c-067": {
+   "status": "partially-verified",
+   "note": "Wikipedia: by the 1600s Jicarilla inhabited the Chama Valley. Chama is the nearest Wikidata point (author admits), a proxy for a valley and surrounding country.",
+   "fields_unsupported": [
+    "place.coords"
+   ]
+  },
+  "na-c-068": {
+   "status": "partially-verified",
+   "note": "Wikipedia: Jicarilla driven into Sangre de Cristo north of Taos after 1724 Comanche attacks; heart of the world near Taos. Taos town is a proxy; open end is only 'remains important'.",
+   "fields_unsupported": [
+    "place.coords",
+    "to.year"
+   ]
+  },
+  "na-c-069": {
+   "status": "verified",
+   "note": "Tentribes and Wikipedia: Jicarilla reservation by executive order 11 Feb 1887.",
+   "fields_unsupported": []
+  },
+  "na-c-070": {
+   "status": "partially-verified",
+   "note": "Lipan tribe site: by 1600s on North Texas plains, Plains Lipan on upper Colorado and Concho, Comanche in Texas by 1700. Paint Rock only attests pictographs; point is a proxy, and the Concho valley was shared.",
+   "fields_unsupported": [
+    "place.coords"
+   ]
+  },
+  "na-c-071": {
+   "status": "partially-verified",
+   "note": "Tribal history: bands settled around San Antonio, scattered by 1880. The 1700s start is when Comanche reached Texas, not a dated San Antonio settlement; 'seasonal-range' also fits poorly with settled bands.",
+   "fields_unsupported": [
+    "from.year"
+   ]
+  },
+  "na-c-072": {
+   "status": "verified",
+   "note": "Southern Ute site: Tabeguache near Uncompahgre, Gunnison, Elk rivers near Montrose; Wikipedia: Utes occupied much of Colorado by 1600s; expelled 1881.",
+   "fields_unsupported": []
+  },
+  "na-c-073": {
+   "status": "verified",
+   "note": "Wikipedia Meeker Massacre: Uncompahgre Utes forced out of homeland to Utah in 1881.",
+   "fields_unsupported": []
+  },
+  "na-c-074": {
+   "status": "verified",
+   "note": "Newsline: 1868 treaty reserved nearly the whole Western Slope; digitreaties: concluded 2 March 1868; White River bands ordered out 1881.",
+   "fields_unsupported": []
+  },
+  "na-c-075": {
+   "status": "verified",
+   "note": "Newsline and Wikipedia: White River bands ordered/agreed to relocate to Uintah in 1881.",
+   "fields_unsupported": []
+  },
+  "na-c-076": {
+   "status": "partially-verified",
+   "note": "Southern Ute site: Brunot Agreement negotiated 13 Sept 1873 at Los Pinos, remembered as fraudulent land taking. Point is a mountain-range centroid for a large cession (author states it).",
+   "fields_unsupported": [
+    "place.coords"
+   ]
+  },
+  "na-c-077": {
+   "status": "partially-verified",
+   "note": "Newsline says Utah bands 'grouped' on Uintah since 1861; Wikipedia (per author) gives the 1864 Uinta Valley act. Start year disputed and 'grouped' is not a reservation date.",
+   "fields_unsupported": [
+    "from.year"
+   ]
+  },
+  "na-c-078": {
+   "status": "verified",
+   "note": "Wikipedia: Kino founded San Xavier mission 1700; Nation says home to O'odham for thousands of years. 1700 is a documentation date, disclosed.",
+   "fields_unsupported": []
+  },
+  "na-c-079": {
+   "status": "partially-verified",
+   "note": "Tribal history supports the 1853 Gadsden division of O'odham land and not being informed. Point is a Wikidata centroid of the purchase area (flagged approximate) rather than the Papagueria; 'contested' fits loosely.",
+   "fields_unsupported": [
+    "place.coords"
+   ]
+  },
+  "na-c-080": {
+   "status": "verified",
+   "note": "Wikipedia: Kino's first visit to Pima villages 1694; Manje census 1697/1699 counted 1118 in five Gila villages; NPS Pima Villages.",
+   "fields_unsupported": []
+  },
+  "na-c-081": {
+   "status": "verified",
+   "note": "NPS: Gila River Indian Reservation established 1859; Wikipedia: administrative offices in Sacaton.",
+   "fields_unsupported": []
+  },
+  "na-c-082": {
+   "status": "verified",
+   "note": "Encyclopedia.com: Pima economy collapsed 1871 after Gila diversion; 1879 settlement became Salt River Reservation.",
+   "fields_unsupported": []
+  },
+  "na-c-083": {
+   "status": "partially-verified",
+   "note": "NPS: Quechans controlled the crossing (Anza 1774) and thriving communities there. The 1540 start rests on communities seen then, which NPS does not name as Quechan (author admits).",
+   "fields_unsupported": [
+    "from.year"
+   ]
+  },
+  "na-c-084": {
+   "status": "verified",
+   "note": "Wikipedia Quechan: engaged in the Yuma War 1850 to 1853.",
+   "fields_unsupported": []
+  },
+  "na-c-085": {
+   "status": "verified",
+   "note": "Wikipedia Quechan: reservation established 1884, part of traditional lands.",
+   "fields_unsupported": []
+  },
+  "na-c-086": {
+   "status": "verified",
+   "note": "NPS and Fort Mojave tribe: land stretched Black Canyon to Picacho Mountains; largest concentration in the Southwest in 16th century.",
+   "fields_unsupported": []
+  },
+  "na-c-087": {
+   "status": "verified",
+   "note": "Wikipedia: Mohave War 1858-1859; Hoffman ordered Mojave to assemble 23 April 1859; Fort Mojave outpost 1859.",
+   "fields_unsupported": []
+  },
+  "na-c-088": {
+   "status": "verified",
+   "note": "Wikipedia Mohave: Colorado River reservation 1865, Fort Mojave 1870; lands from Hoover Dam to ~100 miles below Parker Dam.",
+   "fields_unsupported": []
+  },
+  "na-c-089": {
+   "status": "partially-verified",
+   "note": "TSHA: Quahadis roamed the Llano Estacado. The 1700 start is the Comanche's general arrival on the plains, not a dated Kwahada range; the June 1875 end month is not in the cited sources (OHS gives only 1875).",
+   "fields_unsupported": [
+    "from.year",
+    "to.month"
+   ]
+  },
+  "na-c-090": {
+   "status": "verified",
+   "note": "Oklahoma Historical Society: by 1780s Eastern Comanche villages on Red River and Wichita Mountains; same page dates most Comanches on reservation from 1875.",
+   "fields_unsupported": []
+  },
+  "na-c-091": {
+   "status": "partially-verified",
+   "note": "OHS: reservation under the 1867 Medicine Lodge treaty, centred on Fort Sill, most Comanche there after 1875. Month October 1867 is not in the cited text, only the year.",
+   "fields_unsupported": [
+    "from.month"
+   ]
+  },
+  "na-c-092": {
+   "status": "verified",
+   "note": "OHS Red River War entry: Quanah Parker's band came into Fort Sill 2 June 1875; TSHA Parker: moved to the Kiowa-Comanche reservation.",
+   "fields_unsupported": []
+  },
+  "na-c-093": {
+   "status": "verified",
+   "note": "OHS Kiowa: reached the Black Hills by 1775; pushed south of the Platte to the Arkansas by Lakota and Cheyenne in early 19th c.",
+   "fields_unsupported": []
+  },
+  "na-c-094": {
+   "status": "partially-verified",
+   "note": "OHS: Kiowa homeland adjacent to Arkansas River, Kiowa/Comanche battles on North Canadian in the Panhandle. Panhandle is an admitted representative point for a wide range; October 1867 end month not in the cited text.",
+   "fields_unsupported": [
+    "place.coords",
+    "to.month"
+   ]
+  },
+  "na-c-095": {
+   "status": "partially-verified",
+   "note": "OHS Kiowa: 1867 Medicine Lodge Treaty established 2.8 million acre reservation; towns near Anadarko, Fort Cobb, Carnegie. October 1867 month is not in the cited text.",
+   "fields_unsupported": [
+    "from.month"
+   ]
+  },
+  "na-c-096": {
+   "status": "verified",
+   "note": "Wikipedia Biesterfeldt: Cheyenne group believed to have occupied it c.1724-1780; OHS: best-known Cheyenne earth-lodge site.",
+   "fields_unsupported": []
+  },
+  "na-c-097": {
+   "status": "partially-verified",
+   "note": "OHS and Wikipedia support a hunting territory between the North Platte and Arkansas and a 1851 Fort Laramie treaty (year only). September 1851 month is not in cited text; Platte River point is a loose centre.",
+   "fields_unsupported": [
+    "from.month"
+   ]
+  },
+  "na-c-098": {
+   "status": "verified",
+   "note": "Wikipedia Fort Wise: signed 18 Feb 1861 by six Southern Cheyenne chiefs, reserve under one-thirteenth of 1851 territory; Dog Soldiers opposed.",
+   "fields_unsupported": []
+  },
+  "na-c-099": {
+   "status": "verified",
+   "note": "OHS Cheyenne: after 1869 Southern Cheyenne bands assembled on assigned reservation; Fort Reno soldiers guarded them.",
+   "fields_unsupported": []
+  },
+  "na-c-100": {
+   "status": "verified",
+   "note": "Wikipedia: Tongue River reservation by executive order of Arthur, 16 Nov 1884.",
+   "fields_unsupported": []
+  },
+  "na-c-101": {
+   "status": "partially-verified",
+   "note": "OHS Arapaho: 1851 Fort Laramie treaty guaranteed range from the Rockies east into Nebraska, Kansas, Wyoming; Wikipedia territory. September 1851 month is not in cited text.",
+   "fields_unsupported": [
+    "from.month"
+   ]
+  },
+  "na-c-102": {
+   "status": "verified",
+   "note": "OHS Arapaho: exchanged territory for Sand Creek reservation in 1861; Wikipedia: Treaty of Fort Wise signed; Sand Creek November 1864.",
+   "fields_unsupported": []
+  },
+  "na-c-103": {
+   "status": "verified",
+   "note": "OHS Arapaho: accepted reservation in 1869 on the Canadian River; agent at Darlington near El Reno.",
+   "fields_unsupported": []
+  },
+  "na-c-104": {
+   "status": "verified",
+   "note": "Wikipedia Arapaho: Northern Arapaho on Wind River with Eastern Shoshone since 1878 (single source).",
+   "fields_unsupported": []
+  },
+  "na-c-105": {
+   "status": "partially-verified",
+   "note": "TSHA: one Wichita band on the Red River north of Nocona from 1750s to 1810, fortified villages. Point is the town of Nocona, with sites north of it (author admits).",
+   "fields_unsupported": [
+    "place.coords"
+   ]
+  },
+  "na-c-106": {
+   "status": "partially-verified",
+   "note": "OHS and TSHA: reservation 1859 in Leased District, Washita Valley villages; refuge in Kansas when the Civil War began. The 1861 year is inferred from the war's start; 'Fort Cobb' is an anchor.",
+   "fields_unsupported": [
+    "to.year"
+   ]
+  },
+  "na-c-107": {
+   "status": "verified",
+   "note": "OHS Wichita: returned from Kansas to Indian Territory in 1867; headquarters at Anadarko.",
+   "fields_unsupported": []
+  },
+  "na-c-108": {
+   "status": "verified",
+   "note": "Wikipedia Lakota: established in the Black Hills by the 1770s; NDStudies: 1868 Fort Laramie created Great Sioux Reservation including Black Hills; 1877 taking in c-109.",
+   "fields_unsupported": []
+  },
+  "na-c-109": {
+   "status": "verified",
+   "note": "Wikipedia and Supreme Court (US v. Sioux 1980): Act of 28 Feb 1877 removed Black Hills; agreement signed by about 10% of adult male Sioux.",
+   "fields_unsupported": []
+  },
+  "na-c-110": {
+   "status": "partially-verified",
+   "note": "Wikipedia: by 1860 Lakota controlled the Crow hunting ground; NDStudies: 1868 treaty left unceded hunting territory. The Feb 1877 end is not stated for the Powder River country in cited text.",
+   "fields_unsupported": [
+    "to.month"
+   ]
+  },
+  "na-c-111": {
+   "status": "verified",
+   "note": "Wikipedia: Pine Ridge created by Act of 2 March 1889, partitioning the Great Sioux Reservation.",
+   "fields_unsupported": []
+  },
+  "na-c-112": {
+   "status": "verified",
+   "note": "NDStudies: Sept 1876 unceded northern Dakota lands became part of the Sioux Reservation with agency at Fort Yates.",
+   "fields_unsupported": []
+  },
+  "na-c-113": {
+   "status": "partially-verified",
+   "note": "MNopedia and MNHS support Mni Sota Makoce homeland and seasonal village moves for hundreds of years. The 1650 start is the author's estimate of 'hundreds of years'; neither quote names Mendota/Bdote or gives the Aug 1851 end.",
+   "fields_unsupported": [
+    "from.year"
+   ]
+  },
+  "na-c-114": {
+   "status": "verified",
+   "note": "MNopedia: Dakota signed Traverse des Sioux on 23 July 1851, ceding much of southern and western Minnesota for about 7.5 cents an acre.",
+   "fields_unsupported": []
+  },
+  "na-c-115": {
+   "status": "verified",
+   "note": "Wikipedia and MNopedia: Treaty of Mendota signed 5 Aug 1851 by Mdewakanton and Wekpekute, land transfer.",
+   "fields_unsupported": []
+  },
+  "na-c-116": {
+   "status": "verified",
+   "note": "MNopedia: reservation on both sides of Minnesota River, reduced to south bank in 1858 Treaty of Washington; ended by 1862 war/1863 exile.",
+   "fields_unsupported": []
+  },
+  "na-c-117": {
+   "status": "verified",
+   "note": "MNHS: Acts of Feb and March 1863 abrogated treaties; May 1863 about 1,300 Dakota sent by steamboat to Crow Creek.",
+   "fields_unsupported": []
+  },
+  "na-c-118": {
+   "status": "partially-verified",
+   "note": "MNHS and Wikipedia: Dakota sent to Crow Creek in 1863, over 200 died in six months; Wikipedia says some moved on by 1864. Crow Creek began as forced exile, so 'homeland' authority is stronger than the sources show.",
+   "fields_unsupported": [
+    "authority"
+   ]
+  },
+  "na-c-119": {
+   "status": "verified",
+   "note": "Wikipedia Santee Sioux Nation: reservation recognised by Executive Order of 27 Feb 1866; Dakota exiles settled there.",
+   "fields_unsupported": []
+  },
+  "na-c-120": {
+   "status": "verified",
+   "note": "Supreme Court (Yankton Sioux v. South Dakota): at start of 19th c. Yankton held exclusive dominion over 13 million acres between Des Moines and Missouri. Yankton SD is an anchor, not a village site.",
+   "fields_unsupported": []
+  },
+  "na-c-121": {
+   "status": "verified",
+   "note": "Wikipedia Yankton Treaty: signed April 1858, ratified 16 Feb 1859, ceded 11 million acres; Supreme Court agrees on 11 million acres. 19 April day not verified but month is.",
+   "fields_unsupported": []
+  },
+  "na-c-122": {
+   "status": "partially-verified",
+   "note": "Wikipedia: 1858 treaty reserved one mile square at the Pipestone quarry; Yankton are protectors. A quarry access reserve is not a Yankton 'homeland' and the open end is only inferred.",
+   "fields_unsupported": [
+    "authority"
+   ]
+  },
+  "na-c-123": {
+   "status": "verified",
+   "note": "Supreme Court: reservation established under the 1858 treaty; Wikipedia: most of tribe moved on in the 1860s; treaty ratified Feb 1859.",
+   "fields_unsupported": []
+  },
+  "na-c-124": {
+   "status": "verified",
+   "note": "Wikipedia: Crow dominant in established area through 18th-19th c.; New World Encyclopedia: 1851 treaty confirmed area centred on Bighorn Mountains. Start c.1700 is approximate.",
+   "fields_unsupported": []
+  },
+  "na-c-125": {
+   "status": "verified",
+   "note": "Wikipedia Fetterman Fight: 1851 treaty designated Crow land, Lakota/Cheyenne/Arapaho held it by 1860, fight on guaranteed Crow land. End at 1868 treaty.",
+   "fields_unsupported": []
+  },
+  "na-c-126": {
+   "status": "verified",
+   "note": "Wikipedia and Montana Historical Society: Crow sold about 30 million acres in the 7 May 1868 Fort Laramie treaty.",
+   "fields_unsupported": []
+  },
+  "na-c-127": {
+   "status": "verified",
+   "note": "Wikipedia: Crow reservation is the Crow homeland; MHS: agency moved to present Little Bighorn site in 1884; 1868 treaty.",
+   "fields_unsupported": []
+  },
+  "na-c-128": {
+   "status": "verified",
+   "note": "NPS: by about 1550 the Mandan consolidated into 7-9 fortified villages at Heart-Missouri confluence; 1781 smallpox forced survivors north.",
+   "fields_unsupported": []
+  },
+  "na-c-129": {
+   "status": "verified",
+   "note": "NPS: Hidatsa established Big Hidatsa village around 1600 CE and abandoned it in 1845 for Like-a-Fishhook.",
+   "fields_unsupported": []
+  },
+  "na-c-130": {
+   "status": "verified",
+   "note": "NPS: remaining Mandan moved to Like-a-Fishhook; Arikara joined in 1862; village on the present Fort Berthold Reservation.",
+   "fields_unsupported": []
+  },
+  "na-c-131": {
+   "status": "verified",
+   "note": "Wikipedia Fort Berthold: created 1870, small part of 1851 lands; tribes agreed 14 Dec 1886 to cede land outside the rectangular area.",
+   "fields_unsupported": []
+  },
+  "na-c-132": {
+   "status": "verified",
+   "note": "OHS Pawnee: villages on Missouri tributaries in central Nebraska; Skiri on north bank of Loup. Start c.1750 approximate; 1857 end is treaty year (c-134). Loup River is an anchor.",
+   "fields_unsupported": []
+  },
+  "na-c-133": {
+   "status": "verified",
+   "note": "OHS: Pawnee ceded land south of the Platte; Wikipedia lists 1833 treaty.",
+   "fields_unsupported": []
+  },
+  "na-c-134": {
+   "status": "verified",
+   "note": "OHS Pawnee: 1857 Table Creek treaty, small reservation on Loup Fork.",
+   "fields_unsupported": []
+  },
+  "na-c-135": {
+   "status": "verified",
+   "note": "Wikipedia: settled on Pawnee Reservation on Loup River in Nance County in 1857; agency at Genoa; removed 1874-75.",
+   "fields_unsupported": []
+  },
+  "na-c-136": {
+   "status": "verified",
+   "note": "OHS: two-year removal to Indian Territory began 1874; Sioux attacks; Wikipedia: most moved 1875.",
+   "fields_unsupported": []
+  },
+  "na-c-137": {
+   "status": "verified",
+   "note": "Wikipedia and OHS: Pawnee Nation of Oklahoma headquartered at Pawnee; new lives after removal.",
+   "fields_unsupported": []
+  },
+  "na-c-138": {
+   "status": "partially-verified",
+   "note": "Quotes support Osage on the Osage River (1777 consolidation, 1804 Great Osage). Point (-91.9, 38.6) is the lower river near its mouth, far from the Osage villages upstream in western Missouri.",
+   "fields_unsupported": [
+    "place.coords"
+   ]
+  },
+  "na-c-139": {
+   "status": "verified",
+   "note": "Wikipedia: first treaty signed 10 Nov 1808; Kansapedia: cessions across most of Missouri and NE Arkansas.",
+   "fields_unsupported": []
+  },
+  "na-c-140": {
+   "status": "verified",
+   "note": "OHS Osage: Black Dog moved to Claremore 1803; core Oklahoma bands at Three Forks earlier; 1839 removal.",
+   "fields_unsupported": []
+  },
+  "na-c-141": {
+   "status": "verified",
+   "note": "OHS and Kansapedia: Osage forced out of Arkansas and Oklahoma in 1839 to Kansas.",
+   "fields_unsupported": []
+  },
+  "na-c-142": {
+   "status": "verified",
+   "note": "OHS and Kansapedia: Osage relocated to Verdigris River in Kansas 1839, diminished strip across southern Kansas; 1871 move out.",
+   "fields_unsupported": []
+  },
+  "na-c-143": {
+   "status": "verified",
+   "note": "OHS: removal from Kansas to Oklahoma in 1871 was third displacement in 46 years. Kansapedia says 1870 cession (disclosed).",
+   "fields_unsupported": []
+  },
+  "na-c-144": {
+   "status": "partially-verified",
+   "note": "Wikipedia says the Osage reservation was purchased in 1872 (author's own caveat; quote fuzzy), and Kansapedia confirms purchase, but the 1871 start is the move date. Pawhuska is an anchor for a county-sized reservation.",
+   "fields_unsupported": [
+    "from.year"
+   ]
+  },
+  "na-c-145": {
+   "status": "verified",
+   "note": "OHS Ponca: villages along Niobrara and Ponca Creek; Wikipedia: 1701 Le Sueur map, ~800 Poncas in 1789; 1877 removal.",
+   "fields_unsupported": []
+  },
+  "na-c-146": {
+   "status": "verified",
+   "note": "Wikipedia and OHS: Ponca ceded land in 1858 treaty; further cession 1865.",
+   "fields_unsupported": []
+  },
+  "na-c-147": {
+   "status": "verified",
+   "note": "OHS Ponca: removed to Indian Territory 1877 without chiefs' consent; Standing Bear ruling.",
+   "fields_unsupported": []
+  },
+  "na-c-148": {
+   "status": "partially-verified",
+   "note": "Siksika Nation: time immemorial; TCE (re-fetched): Blackfoot Crossing a site on their territory and 18th-century population. The 1700 start is a placeholder, and TCE places 18th-century Siksika around the Battle, North Saskatchewan and Red Deer rivers, not Bow River.",
+   "fields_unsupported": [
+    "from.year"
+   ]
+  },
+  "na-c-149": {
+   "status": "verified",
+   "note": "TCE (archived): Treaty 7 signed 22 Sept 1877 by five nations; none thought it a land surrender. Statement correctly flags the cession-vs-peace-treaty difference.",
+   "fields_unsupported": []
+  },
+  "na-c-150": {
+   "status": "verified",
+   "note": "Wikipedia Kainai: at the time of Treaty 7 situated on Oldman, Belly and St. Mary rivers; Blood 148 largest reserve. 1877 start is the treaty year.",
+   "fields_unsupported": []
+  },
+  "na-c-151": {
+   "status": "verified",
+   "note": "Alberta Source: after Treaty 7 northern Piikani moved to Oldman River/Porcupine Hills reserve, settlement 1879; Wikipedia: HQ Brocket.",
+   "fields_unsupported": []
+  },
+  "na-c-152": {
+   "status": "partially-verified",
+   "note": "Wikipedia (Blackfoot Confederacy): distinct reservation in 'Sweetgrass Hills Treaty of 1887'; Browning is seat. Author notes Wikipedia's Blackfeet Nation article gives a different treaty date, and the point is a reservation centroid.",
+   "fields_unsupported": [
+    "from.year",
+    "place.coords"
+   ]
+  },
+  "na-c-153": {
+   "status": "partially-verified",
+   "note": "Wikipedia (fuzzy quote): 17 million acres ceded in 1887, single source. Sweet Grass Hills is an admitted anchor standing for a very large ceded area.",
+   "fields_unsupported": [
+    "place.coords"
+   ]
+  },
+  "na-c-154": {
+   "status": "partially-verified",
+   "note": "TCE Treaty 6: Carlton Cree chiefs Mistawasis and Ahtahkakoop met Morris at Fort Carlton, Aug 1876. Alberta Source gives Cree on plains by early 1700s generally; the 1700 start is not Carlton-specific.",
+   "fields_unsupported": [
+    "from.year"
+   ]
+  },
+  "na-c-155": {
+   "status": "verified",
+   "note": "TCE (archived): Treaty 6 signed 23 Aug 1876 at Fort Carlton and 9 Sept at Fort Pitt; Morris never explicitly discussed land cession (disclosed in statement).",
+   "fields_unsupported": []
+  },
+  "na-c-156": {
+   "status": "verified",
+   "note": "TCE (archived): Poundmaker signed Treaty 6, 'two years later' moved onto reserve on Battle River; Cut Knife battlefield on the reserve. 1878 is derived (circa).",
+   "fields_unsupported": []
+  },
+  "na-c-157": {
+   "status": "verified",
+   "note": "Wikipedia Frog Lake: Big Bear's band settled near Frog Lake late 1884; he had signed Treaty 6 in 1882.",
+   "fields_unsupported": []
+  },
+  "na-c-158": {
+   "status": "verified",
+   "note": "Wikipedia Moose Factory: settled 1673, fort on traditional Moose Cree lands. Start year is the HBC post date, conservative.",
+   "fields_unsupported": []
+  },
+  "na-c-159": {
+   "status": "verified",
+   "note": "Wikipedia Waskaganish: Rupert House first post 1668; Eeyou Istchee is Cree traditional territory. Start year is post date, conservative.",
+   "fields_unsupported": []
+  },
+  "na-c-160": {
+   "status": "verified",
+   "note": "Wikipedia Carry the Kettle: Cypress Hills traditional Nakoda territory; 1859 Palliser expedition called it Assiniboine country.",
+   "fields_unsupported": []
+  },
+  "na-c-161": {
+   "status": "verified",
+   "note": "Wikipedia Fort Walsh: Assiniboine chiefs signed adhesion to Treaty 4 at the fort on 25 Sept 1877.",
+   "fields_unsupported": []
+  },
+  "na-c-162": {
+   "status": "verified",
+   "note": "TCE Treaty 7 (archived): Stoney-Nakoda granted reserve near the Methodist mission at Morleyville; Wikipedia: traditional territory on eastern slopes. 1877 is treaty year.",
+   "fields_unsupported": []
+  },
+  "na-c-163": {
+   "status": "partially-verified",
+   "note": "Biographi.ca (DCB): Peguis's Saulteaux migrated west in the late 1790s settling on Netley Creek. Point is Selkirk, an admitted anchor (flagged approximate) since Netley Creek has no coordinate.",
+   "fields_unsupported": [
+    "place.coords"
+   ]
+  },
+  "na-c-164": {
+   "status": "verified",
+   "note": "Wikipedia Treaty 1: agreement of 3 Aug 1871 between Crown and Anishinaabe and Swampy Cree; Mis-koo-kinew signed; USask: ceded land of southern Manitoba.",
+   "fields_unsupported": []
+  },
+  "na-c-165": {
+   "status": "verified",
+   "note": "TCE (archived) and Wikipedia: Treaty 4 (Qu'Appelle Treaty) signed 15 Sept 1874 at Fort Qu'Appelle with Cree, Saulteaux, Ojibwe, Assiniboine; Chief Mimiy (Gabriel Cote) signed.",
+   "fields_unsupported": []
+  },
+  "na-c-166": {
+   "status": "verified",
+   "note": "TCE (archived) Seven Oaks: by 1812 the Forks were home to Ojibwe newcomers, Cree traders and Metis buffalo hunters (Assiniboine had earlier controlled access); Red River colony of many Metis.",
+   "fields_unsupported": []
+  },
+  "na-c-167": {
+   "status": "verified",
+   "note": "TCE: Metis opposition blocked Canadian takeover 1 Dec 1869, Upper Fort Garry seized; Wikipedia: Riel fled 24 Aug 1870 when troops arrived.",
+   "fields_unsupported": []
+  },
+  "na-c-168": {
+   "status": "partially-verified",
+   "note": "TCE (archived): Metis landholders harassed, two-thirds of ~10,000 left within a few years. This is displacement by pressure, not a removal order (author admits), so 'removed' overstates.",
+   "fields_unsupported": [
+    "authority"
+   ]
+  },
+  "na-c-169": {
+   "status": "verified",
+   "note": "Wikipedia Batoche: Metis settlement established 1872.",
+   "fields_unsupported": []
+  },
+  "na-c-170": {
+   "status": "verified",
+   "note": "TCE (archived): 18-19 March 1885 armed Metis formed a provisional government and seized the church at Batoche; Batoche captured by federal forces on 12 May.",
+   "fields_unsupported": []
+  },
+  "na-c-171": {
+   "status": "partially-verified",
+   "note": "TCE (archived): HBC built Prince of Wales Fort in 1717 for the Denesuline fur trade; territory is the northern prairie provinces. No seasonal range at Churchill shown; author says the fort lay at their range's edge.",
+   "fields_unsupported": [
+    "authority",
+    "place.coords"
+   ]
+  },
+  "na-c-172": {
+   "status": "verified",
+   "note": "Wikipedia Fort Chipewyan: named after Chipewyan living in the area, NWC post 1788. Start year is the post date, conservative.",
+   "fields_unsupported": []
+  },
+  "na-c-173": {
+   "status": "verified",
+   "note": "Wikipedia Treaty 8: 1899 signing at Fort Chipewyan on 13 July; TCE confirms arrival on 13 July. Cession framing is Canada's.",
+   "fields_unsupported": []
+  },
+  "na-c-174": {
+   "status": "verified",
+   "note": "TCE (archived): Fort Rae (1852) first trading post on Tlicho lands; Behchoko most populous settlement. Start year is the post.",
+   "fields_unsupported": []
+  },
+  "na-c-175": {
+   "status": "verified",
+   "note": "TCE (archived): Yellowknives briefly occupied the Yellowknife River region, displacing Tlicho until 1823 retaliation. 'Early 19th century' rendered as decade 1800.",
+   "fields_unsupported": []
+  },
+  "na-c-176": {
+   "status": "verified",
+   "note": "Wikipedia Tlicho and Treaty 8: Yellowknives and Tlicho under Drygeese signed at Fort Resolution in 1900 (adhesion 25 July 1900).",
+   "fields_unsupported": []
+  },
+  "na-c-177": {
+   "status": "verified",
+   "note": "TCE (archived) Chipewyan and Yellowknives: occupied Yellowknife River region in early 19th c., Tlicho retaliated 1823.",
+   "fields_unsupported": []
+  },
+  "na-c-178": {
+   "status": "verified",
+   "note": "TCE (archived): Drygeese met Treaty Commissioner 1900; Wikipedia Treaty 8: adhesion 25 July 1900 at Fort Resolution.",
+   "fields_unsupported": []
+  },
+  "na-c-179": {
+   "status": "verified",
+   "note": "TCE (archived): Peel's River Post founded 1840 to trade with Gwich'in; moved 1848-49 on Red Leggings's recommendation.",
+   "fields_unsupported": []
+  },
+  "na-c-180": {
+   "status": "verified",
+   "note": "TCE Gwich'in: HBC established Fort Yukon in 1847; Gwich'yaa Gwich'in at Fort Yukon. Start year is the post.",
+   "fields_unsupported": []
+  },
+  "na-c-181": {
+   "status": "verified",
+   "note": "Wikipedia Tadoussac: Cartier in 1535 found Innu using it as a base for seal hunting.",
+   "fields_unsupported": []
+  },
+  "na-c-182": {
+   "status": "verified",
+   "note": "Wikipedia Mashteuiatsh: home of Pekuakamiulnuatsh; became an Indian Act reserve in 1856. Start year is reserve creation.",
+   "fields_unsupported": []
+  },
+  "na-c-183": {
+   "status": "verified",
+   "note": "Wikipedia Sheshatshiu: HBC post at North West River 1836; earlier used by Innu as coastal settlement and trading place. Start year is the post.",
+   "fields_unsupported": []
+  },
+  "na-c-184": {
+   "status": "partially-verified",
+   "note": "Haudenosaunee site and Onondaga Nation support Onondaga as Keepers of the Fire and main meeting place. The 1142 date is not in any cited quote and the author concedes the founding date is contested (time immemorial vs mid-16th c.).",
+   "fields_unsupported": [
+    "from.year"
+   ]
+  },
+  "na-c-185": {
+   "status": "partially-verified",
+   "note": "Wikipedia: Cayuga lived between Owasco and Cayuga lakes; TCE: Haudenosaunee in New York by c.500-600 CE. That date is not Cayuga-specific, and the 1789 end is not in these quotes (and Cayuga kept land afterwards).",
+   "fields_unsupported": [
+    "from.year",
+    "to.year"
+   ]
+  },
+  "na-c-186": {
+   "status": "verified",
+   "note": "Wikipedia Sullivan Expedition: after the 1788 Phelps-Gorham purchase, 'the following year' Cayuga ceded most territory except ~64,000 acres. Cayuga Nation article ties reservation to 1794, disclosed.",
+   "fields_unsupported": []
+  },
+  "na-c-187": {
+   "status": "verified",
+   "note": "Wikipedia Ganondagan: largest Seneca village of the 17th century; Seneca Nation: Finger Lakes and Genesee Valley. 1687 burning ends it.",
+   "fields_unsupported": []
+  },
+  "na-c-188": {
+   "status": "partially-verified",
+   "note": "Wikipedia: Denonville's army reached Ganondagan 13-14 July 1687 and found it burned by the Seneca. This is a temporary flight and the Seneca stayed in the region, so 'removed' with an open end overstates.",
+   "fields_unsupported": [
+    "authority",
+    "to.year"
+   ]
+  },
+  "na-c-189": {
+   "status": "verified",
+   "note": "Wikipedia Treaty of Big Tree: negotiated 20 Aug-16 Sept 1797, Seneca relinquished nearly all of western New York except twelve reservations.",
+   "fields_unsupported": []
+  },
+  "na-c-190": {
+   "status": "verified",
+   "note": "Wikipedia Buffalo Creek Reservation: Sayenqueraghta settled Seneca, Cayuga and Onondaga there after 1779; reservation dissolved after 1842 treaty.",
+   "fields_unsupported": []
+  },
+  "na-c-191": {
+   "status": "verified",
+   "note": "Wikipedia Buffalo Creek Reservation: 1838 treaty required cession and removal west; Senate ratified replacement treaty 1842; only reservation dissolved, Seneca kept four others.",
+   "fields_unsupported": []
+  },
+  "na-c-192": {
+   "status": "partially-verified",
+   "note": "Wikipedia: most NY Mohawks lived at Canajoharie (Upper Castle) in the Mohawk Valley. The 600 CE start is a general Haudenosaunee-in-New-York archaeological date, not Mohawk or Canajoharie specific.",
+   "fields_unsupported": [
+    "from.year"
+   ]
+  },
+  "na-c-193": {
+   "status": "verified",
+   "note": "Wikipedia Mohawk: Upper Castle Mohawks fled to Fort Niagara, Lower Castle to near Montreal; Americans forced cession of NY territories. Decade precision fits.",
+   "fields_unsupported": []
+  },
+  "na-c-194": {
+   "status": "verified",
+   "note": "Wikipedia Haldimand Proclamation: issued 25 Oct 1784; TCE (archived): six miles each side of the Grand River, relocation 1784.",
+   "fields_unsupported": []
+  },
+  "na-c-195": {
+   "status": "verified",
+   "note": "TCE (archived): Six Nations territory shrank through leases and sales; final reduction in 1847 left 5 per cent of Haldimand lands.",
+   "fields_unsupported": []
+  },
+  "na-c-196": {
+   "status": "partially-verified",
+   "note": "Wikipedia: Oneida around Oneida Lake held ~6 million acres in early 17th c., reduced to 32 acres by 1830s. Oneida Lake point is flagged approximate for a county-scale homeland.",
+   "fields_unsupported": [
+    "place.coords"
+   ]
+  },
+  "na-c-197": {
+   "status": "partially-verified",
+   "note": "Wikipedia: early 1800s NY State and speculators forced Oneida land sales. Point is the approximate Oneida Lake anchor for a region-wide cession.",
+   "fields_unsupported": [
+    "place.coords"
+   ]
+  },
+  "na-c-198": {
+   "status": "partially-verified",
+   "note": "Wikipedia Oneida: many Oneida relocated to Wisconsin in the 1820s-30s under removal pressure. Point is an approximate lake anchor.",
+   "fields_unsupported": [
+    "place.coords"
+   ]
+  },
+  "na-c-199": {
+   "status": "verified",
+   "note": "Wikipedia Oneida Nation: relocated to NE Wisconsin from the 1820s; 1838 treaty reservation; stayed when asked in 1845 to move.",
+   "fields_unsupported": []
+  },
+  "na-c-200": {
+   "status": "verified",
+   "note": "Delaware Nation and Wikipedia: Lenapehoking encompassed the Delaware and Lehigh valleys; 1492 is a placeholder start; ends with 1737 Walking Purchase.",
+   "fields_unsupported": []
+  },
+  "na-c-201": {
+   "status": "verified",
+   "note": "Wikipedia and Delaware Nation: Walking Purchase walk on 19 Sept 1737, deed claiming 1,200,000 acres, 'a little over a million acres' taken.",
+   "fields_unsupported": []
+  },
+  "na-c-202": {
+   "status": "verified",
+   "note": "Wikipedia Coshocton: Lenape village established late 1770s, destroyed by Brodhead April 1781.",
+   "fields_unsupported": []
+  },
+  "na-c-203": {
+   "status": "partially-verified",
+   "note": "Delaware Nation: moved from Ohio to Indiana, Missouri, Kansas, Arkansas, Texas, Oklahoma between 1778 and 1830. The 1781 start is the author's approximation for a decades-long series of treaties.",
+   "fields_unsupported": [
+    "from.year"
+   ]
+  },
+  "na-c-204": {
+   "status": "verified",
+   "note": "Wikipedia Gnadenhutten: founded Oct 1772 as Moravian Lenape settlement; Delaware Nation: 96 killed 8 March 1782.",
+   "fields_unsupported": []
+  },
+  "na-c-205": {
+   "status": "verified",
+   "note": "Wikipedia: Delaware ancestors agreed in 1867 to relocate to Cherokee Nation in Indian Territory; tribe based at Bartlesville (present seat is an anchor).",
+   "fields_unsupported": []
+  },
+  "na-c-206": {
+   "status": "verified",
+   "note": "Delaware Nation: Absentee Delaware finally moved to Wichita allotments at Anadarko around 1873.",
+   "fields_unsupported": []
+  },
+  "na-c-207": {
+   "status": "verified",
+   "note": "Virginia Places and Wikipedia: Powhatan seat at Werowocomoco when English arrived 1607; Orapax capital by Nov 1609.",
+   "fields_unsupported": []
+  },
+  "na-c-208": {
+   "status": "verified",
+   "note": "Wikipedia Anglo-Powhatan Wars: Jamestown May 1607 in Powhatan territory; peace treaty with Necotowance October 1646 ended the third war.",
+   "fields_unsupported": []
+  },
+  "na-c-209": {
+   "status": "verified",
+   "note": "Wikipedia and Virginia Places: Oct 1646 treaty, Necotowance vacated the peninsula between York and James and stayed north of the York.",
+   "fields_unsupported": []
+  },
+  "na-c-210": {
+   "status": "verified",
+   "note": "Pamunkey Tribe: living on the reservation land at least 15,000 years (tribal claim); reservation established 1646; never ceded.",
+   "fields_unsupported": []
+  },
+  "na-c-211": {
+   "status": "verified",
+   "note": "Mashpee site, Wikipedia: Massasoit lived at Sowams (Pokanoket); Wampanoag effectively landless after King Philip's War; Metacom killed 12 Aug 1676.",
+   "fields_unsupported": []
+  },
+  "na-c-212": {
+   "status": "verified",
+   "note": "Wikipedia: Pokanoket at Bristol/Warren; Plymouth/Massachusetts troops destroyed the Mount Hope town 28 June 1675; Mashpee site on long habitation.",
+   "fields_unsupported": []
+  },
+  "na-c-213": {
+   "status": "verified",
+   "note": "Wikipedia Patuxet: Wampanoag band; all but Tisquantum died before Pilgrims landed 1620.",
+   "fields_unsupported": []
+  },
+  "na-c-214": {
+   "status": "verified",
+   "note": "Mashpee Wampanoag site: inhabited area 12,000+ years; re-acknowledged 2007; reservation 2015. 1492 is a placeholder start.",
+   "fields_unsupported": []
+  },
+  "na-c-215": {
+   "status": "verified",
+   "note": "Aquinnah tribal site: continuous connection to homelands for thousands of years; Wampanoag Nation covered SE Massachusetts and E Rhode Island.",
+   "fields_unsupported": []
+  },
+  "na-c-216": {
+   "status": "verified",
+   "note": "Wikipedia: Narragansett controlled the land west of Narragansett Bay; Encyclopedia.com: about 11,000 years, as few as 200 left by summer 1676. 1492 is a placeholder start.",
+   "fields_unsupported": []
+  },
+  "na-c-217": {
+   "status": "verified",
+   "note": "Wikipedia Great Swamp Fight: battle 19 Dec 1675 in South Kingstown; survivors sold into slavery, executed or fled. NPS corroborates December 1675.",
+   "fields_unsupported": []
+  },
+  "na-c-218": {
+   "status": "verified",
+   "note": "Encyclopedia.com: small independent unit on a reservation in southern New England for 200+ years before 1880; Wikipedia: Charlestown is reservation location. Start circa 1676.",
+   "fields_unsupported": []
+  },
+  "na-c-219": {
+   "status": "verified",
+   "note": "Encyclopedia.com and Wikipedia: Rhode Island purchased the reservation in 1880, detribalization 1880-84; 1,800 acres transferred 1978.",
+   "fields_unsupported": []
+  },
+  "na-c-220": {
+   "status": "verified",
+   "note": "Encyclopedia.com: Pequot lands covered SE Connecticut; Wikipedia: Mystic attack 26 May 1637. 1492 is a placeholder start.",
+   "fields_unsupported": []
+  },
+  "na-c-221": {
+   "status": "verified",
+   "note": "Wikipedia: 400-700 killed at Mystic, survivors captured as slaves/servants; Treaty of Hartford forbade Pequot towns.",
+   "fields_unsupported": []
+  },
+  "na-c-222": {
+   "status": "partially-verified",
+   "note": "Wikipedia Treaty of Hartford: 21 Sept 1638 treaty barred Pequots from their lands and name. The 1666 end uses Wikipedia's Mashantucket reservation date, which the same article contradicts (1683); author flags this.",
+   "fields_unsupported": [
+    "to.year"
+   ]
+  },
+  "na-c-223": {
+   "status": "partially-verified",
+   "note": "Wikipedia lead gives Mashantucket reservation 1666 but the same article says Connecticut established the two reservations in 1683. Start year is internally contested; federal recognition 1983 is quoted.",
+   "fields_unsupported": [
+    "from.year"
+   ]
+  },
+  "na-c-224": {
+   "status": "verified",
+   "note": "Wikipedia Fort Shantok: principal Mohegan settlement 1636-1682; Encyclopedia.com: Mohegans allied with English in the 1637 Pequot War.",
+   "fields_unsupported": []
+  },
+  "na-c-225": {
+   "status": "verified",
+   "note": "Wikipedia Mohegan: Land Controversy in British courts from 1704; Encyclopedia.com: Mason land case decided against the Mohegan in 1767.",
+   "fields_unsupported": []
+  },
+  "na-c-226": {
+   "status": "verified",
+   "note": "Encyclopedia.com: individual allotments began 1790; Mohegan Church founded 1831. Start year is the allotment date, not residence start (disclosed).",
+   "fields_unsupported": []
+  },
+  "na-c-227": {
+   "status": "partially-verified",
+   "note": "Wikipedia dates Confederacy formation to the 1680s; TCE (archived): politically active at least from contact. Point is an admitted approximate centre of Dawnland, not a seat (confederacy has no capital).",
+   "fields_unsupported": [
+    "place.coords"
+   ]
+  },
+  "na-c-228": {
+   "status": "verified",
+   "note": "Wikipedia Norridgewock: Rale's Jesuit mission from 1694; village raided Aug 1724 (Battle of Norridgewock).",
+   "fields_unsupported": []
+  },
+  "na-c-229": {
+   "status": "verified",
+   "note": "Wikipedia Battle of Norridgewock: escapees forced to abandon village and moved north to Odanak; New Englanders settled the lower Kennebec.",
+   "fields_unsupported": []
+  },
+  "na-c-230": {
+   "status": "verified",
+   "note": "Wikipedia Odanak: new settlement established 1700; Abenaki settled Odanak early 18th c.; Norridgewock survivors moved there.",
+   "fields_unsupported": []
+  },
+  "na-c-231": {
+   "status": "verified",
+   "note": "Wabanaki Alliance: Penobscot ancestral homeland in the Penobscot River drainage; seat of government on Indian Island above Old Town Falls. 1492 is a placeholder start.",
+   "fields_unsupported": []
+  },
+  "na-c-232": {
+   "status": "verified",
+   "note": "Wabanaki Alliance: Penobscot cessions in 1796, 1818, 1833; retained only the river and islands from Indian Island north.",
+   "fields_unsupported": []
+  },
+  "na-c-233": {
+   "status": "verified",
+   "note": "Canada (RCAANC): Passamaquoddy along the St. Croix River; occupation at least 2,500-3,000 years. 1492 is a placeholder start.",
+   "fields_unsupported": []
+  },
+  "na-c-234": {
+   "status": "partially-verified",
+   "note": "Wabanaki Alliance: Passamaquoddy cessions in 1794 to Massachusetts. Point is an approximate anchor on the bay (flagged by author) for a large cession area.",
+   "fields_unsupported": [
+    "place.coords"
+   ]
+  },
+  "na-c-235": {
+   "status": "verified",
+   "note": "RCAANC: Maliseet along the St. John River valley; Wikipedia: Meductic largest Wolastoqiyik settlement until 18th century; 1720s church. 1492 is a placeholder start.",
+   "fields_unsupported": []
+  },
+  "na-c-236": {
+   "status": "verified",
+   "note": "TCE (archived) and RCAANC: Mi'kmaq in Mi'gma'gi 10,000+ years, seven districts incl. Unama'ki; Cape Breton main community before 1500. Eskasoni is an anchor.",
+   "fields_unsupported": []
+  },
+  "na-c-237": {
+   "status": "verified",
+   "note": "RCAANC: Jean-Baptiste Cope chief sakamow of Shubenacadie; Wikipedia Dummer's War: Saint Anne's mission at Shubenacadie. 1492 is a placeholder start.",
+   "fields_unsupported": []
+  },
+  "na-c-238": {
+   "status": "verified",
+   "note": "DCB Membertou: settled near Port-Royal probably as early as mid-16th c.; took charge of Port-Royal; died there 18 Sept 1611. 'Perhaps in St Marys Bay' is a caveat.",
+   "fields_unsupported": []
+  },
+  "na-c-239": {
+   "status": "verified",
+   "note": "TCE (archived): Mi'kmaq inhabited Gaspe and Maritimes, seven districts incl. Gespe'gewa'gi, 10,000+ years. 1492 is a placeholder start.",
+   "fields_unsupported": []
+  },
+  "na-c-240": {
+   "status": "verified",
+   "note": "RCAANC: Mi'kmaq anger at Halifax settlement of June 1749, intermittent warfare until 1751; Wikipedia: Cornwallis founded Halifax 21 June 1749.",
+   "fields_unsupported": []
+  }
+ }
+}

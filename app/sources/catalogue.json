@@ -1,0 +1,427 @@
+{
+  "about": "Every dataset the atlas uses: licence, licence class (public, attribution, share-alike, copyleft, project, noncommercial, unverified; the last two block commercial use), coverage, the build step that fetches or reads it, and caveats. blocks_commercial: an openly licensed source treated as non-commercial anyway, and why. markers: strings that appear only in data built from the source (etl/licences.py scans for them). Read by the Layers & sources panel (src/lib/provenance.ts) and the build profiles (etl/profile.py; docs/design/licensing.md).",
+  "checked": "2026-10-26",
+  "rejected": {
+    "aiatsis": {
+      "name": "AIATSIS Map of Indigenous Australia (David Horton, 1996)",
+      "why": "Not usable as boundaries: AIATSIS states the map shows only the general location of larger groupings, is not suitable for native title or land claims, and is not to be reproduced without permission. The Australia scene draws no Aboriginal nation boundaries."
+    },
+    "lcie-dryad": {
+      "name": "Large carnivore distribution maps for Europe 2012-16 and 2017-22/23 (Kaczensky et al., LCIE; Dryad)",
+      "why": "The best Europe-wide source for wolf, bear, lynx and wolverine (CC0), but Dryad now serves files only to signed-in API clients or behind a proof-of-work bot check, which the build does not pass. Use it if someone downloads the zips by hand (doi:10.5061/dryad.pc866t1p3, doi:10.5061/dryad.3xsj3txrc)."
+    },
+    "iucn-ranges": {
+      "name": "IUCN Red List spatial data (species ranges)",
+      "why": "Its terms forbid redistribution and derived products without permission, and it gives one current range per species, not ranges by date."
+    },
+    "ebird-st": {
+      "name": "eBird Status and Trends (Cornell Lab)",
+      "why": "Modelled abundance under a non-commercial licence, and only for recent years, so no 20th-century recovery."
+    },
+    "gbif-density": {
+      "name": "GBIF occurrence density by decade",
+      "why": "Mostly maps where people looked: record counts track collectors and apps, not animals. The dated records stay as a hidden reference layer (Wildlife records)."
+    },
+    "coldat": {
+      "name": "Colonial Dates Dataset (COLDAT, Becker 2019)",
+      "why": "Not needed: CShapes 2.0's own owner field names each colony's sovereign. Its licence was not confirmed (the paper is CC BY-NC-SA)."
+    }
+  },
+  "sources": {
+    "spratt2016": {
+      "name": "Late Pleistocene sea level stack (Spratt & Lisiecki 2016, NOAA NCEI)",
+      "licence": "NOAA World Data Service for Paleoclimatology: free to use, cite the study",
+      "cls": "public",
+      "url": "https://www.ncei.noaa.gov/access/paleo-search/study/19982",
+      "coverage": "Global mean sea level 0-798 ka every 1,000 years, from benthic and planktic oxygen-isotope records: the first principal component of seven reconstructions (0-430 ka) and of five (0-798 ka), each with a bootstrapped 95% band.",
+      "steps": ["base.paleo (the sea level the terrain shader floods or drains to, and its 95% band, hatched)"],
+      "caveats": [
+        "Not meant for the Holocene: the stack reads several metres above today for the last 5,000 years; the topic ends at 8,000 years ago.",
+        "A global mean: the local relative sea level differed where ice loaded or unloaded the crust (glacial isostasy), which is not modelled.",
+        "Ages are on the LR04 timescale, with its own uncertainty of a few thousand years."
+      ]
+    },
+    "bintanja2008": {
+      "name": "Global 3 Ma temperature, sea level and ice volume reconstructions (Bintanja & van de Wal 2008, NOAA NCEI)",
+      "licence": "NOAA World Data Service for Paleoclimatology: free to use, cite the study",
+      "cls": "public",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/contributions_by_author/bintanja2008/",
+      "coverage": "Modelled from the LR04 benthic isotope stack every 100 years, 0-3 Ma: sea level, and North American and Eurasian ice volume in metres of sea-level equivalent.",
+      "steps": ["base.paleo (sea level before 798 ka; each ice sheet's volume, which picks its analogue extent before 80 ka)"],
+      "caveats": [
+        "An ice-sheet model driven by one isotope record: no uncertainty band is published with the series, so none is drawn.",
+        "Before 3 million years ago there is no curve: the map keeps today's coasts and ice."
+      ]
+    },
+    "paleomist": {
+      "name": "PaleoMIST 1.0 global ice sheet reconstruction, 80 ka to present (Gowan et al. 2021, PANGAEA)",
+      "licence": "CC BY 4.0",
+      "cls": "attribution",
+      "url": "https://doi.org/10.1594/PANGAEA.905800",
+      "coverage": "Ice-sheet margins every 2,500 years from 80,000 years ago to today for North America with Greenland, Eurasia, Patagonia and Antarctica, built on dated geological limits and an ice-flow model (Nature Communications 12, 1199).",
+      "steps": ["base.paleo (only the margin files, read by HTTP range requests from the 3.7 GB archive; signed-distance rasters at 0.25 degrees, blended between slices)"],
+      "caveats": [
+        "One best estimate per slice: no minimum or maximum outside the Eurasian DATED-1 years.",
+        "Before 80,000 years ago each sheet is drawn at the extent it had on the way out of the last glacial maximum at the same ice volume (Bintanja & van de Wal 2008): an analogue, not a reconstruction. Earlier glaciations lay differently (the Eurasian ice of about 140,000 years ago reached further than at 20,000)."
+      ]
+    },
+    "glacimontis": {
+      "name": "GLACIMONTIS: mountain glacier extents at the Last Glacial Maximum (Lima et al. 2026, Zenodo)",
+      "licence": "CC BY 4.0",
+      "cls": "attribution",
+      "url": "https://doi.org/10.5281/zenodo.15600659",
+      "coverage": "More than 16,000 reconstructed mountain paleoglaciers from 213 studies in 271 ranges worldwide, at their local last glacial maximum (about 57 to 14 ka), compiled in Scientific Data (2026); read as its 1 km raster.",
+      "steps": ["base.paleo (coverage on a 0.05-degree grid, as signed distance on 0.1 degrees; drawn at full extent at the glacial maximum and drawn back towards each glacier's core as the sea rises)"],
+      "caveats": [
+        "Each range's own maximum, not one date: some reached it well before or after 21 ka.",
+        "At other times the extent is scaled by the global sea level, not reconstructed: an index, not a dated margin.",
+        "Valley glaciers narrower than a few kilometres vanish at this grid."
+      ]
+    },
+    "dated1": {
+      "name": "DATED-1: the last Eurasian ice sheets, time-slice reconstruction (Hughes et al. 2016, PANGAEA)",
+      "licence": "CC BY 3.0",
+      "cls": "attribution",
+      "url": "https://doi.org/10.1594/PANGAEA.848117",
+      "coverage": "British-Irish, Scandinavian and Svalbard-Barents-Kara ice margins every 1,000 years from 25,000 to 10,000 years ago, each as a minimum, most-credible and maximum line (Boreas 45, 1-45).",
+      "steps": ["base.paleo (the minimum and maximum margins, drawn as the hatched band of the ice edge's doubt)"],
+      "caveats": ["Census date 1 January 2013: later dating is not included."]
+    },
+    "cshapes": {
+      "name": "CShapes 2.0 (Schvitz, Girardin, Rüegger et al., ETH Zürich)",
+      "licence": "CC BY-NC-SA 4.0",
+      "cls": "noncommercial",
+      "url": "https://icr.ethz.ch/data/cshapes/",
+      "markers": ["\"cshapes2\"", "CShapes 2.0", "cshapes-europe"],
+      "coverage": "Worldwide, 1886-01-01 to 2019-12-31 (CShapes-Europe from 1816). Independent states and dependent territories (colony, protectorate, mandate, occupied) with day-dated periods.",
+      "steps": [
+        "fetch.borders (any scene, from the R package's TopoJSON, which keeps status and owner)",
+        "fetch.europe.borders (Europe, CSV + GeoJSON)"
+      ],
+      "caveats": [
+        "Non-commercial licence: a commercial product could not use these borders.",
+        "Codes de jure changes only: wartime occupations that were reversed (Japan in China and Southeast Asia 1937-45, Germany in Europe 1939-45) and unrecognised states (Manchukuo) are not encoded.",
+        "Changes under 10,000 km2 are not coded; where borders were undefined the dataset backdates later lines (b_def = 0 marks them; drawn soft).",
+        "Dependent units are named after their modern successor state (Ghana for the Gold Coast)."
+      ]
+    },
+    "cliopatria": {
+      "name": "Cliopatria v0.2.1 (Seshat Global History Databank)",
+      "licence": "CC BY 4.0",
+      "cls": "attribution",
+      "url": "https://github.com/Seshat-Global-History-Databank/cliopatria",
+      "coverage": "Worldwide, 3400 BCE to 2024 CE; about 13,800 polity rows with year-resolution periods, Wikidata ids and composite-empire membership.",
+      "steps": ["fetch.borders (pinned release, SHA-256 checked)"],
+      "caveats": [
+        "Coarse: one version of each polity's territory, at year resolution; drawn soft and at lower weight than CShapes.",
+        "Polities only: stateless peoples, Indigenous nations without a state and frontier zones are absent (empty land is not unclaimed land).",
+        "Outlines of early and nomadic empires are generalised envelopes, not held ground."
+      ]
+    },
+    "ohm": {
+      "name": "OpenHistoricalMap",
+      "licence": "CC0 1.0",
+      "cls": "public",
+      "url": "https://www.openhistoricalmap.org/",
+      "coverage": "Worldwide in principle; coverage is volunteer-driven and very uneven.",
+      "steps": ["fetch.north_america (ohm_fetch)", "fetch.europe.divisions", "fetch.ohm (named relations)", "root pipeline fetch_borders (South Asia)", "runtime: live borders, vector tiles through the project's tile cache (src/lib/live/borders.ts)"],
+      "caveats": ["A live database: a fresh download differs wherever relations were edited."]
+    },
+    "newberry": {
+      "name": "Newberry Library, Atlas of Historical County Boundaries (states & territories)",
+      "licence": "Reuse for any purpose (CC0 since 2019)",
+      "cls": "public",
+      "url": "https://digital.newberry.org/ahcb/",
+      "coverage": "United States states and territories, 1783-2000, day-dated.",
+      "steps": ["fetch.north_america"],
+      "caveats": []
+    },
+    "royce": {
+      "name": "Royce, Indian Land Cessions (1899), US Forest Service digitisation (2018)",
+      "licence": "CC BY 4.0",
+      "cls": "attribution",
+      "url": "https://catalog.data.gov/dataset/indian-land-cessions-in-the-united-states",
+      "coverage": "United States, cessions 1784-1894.",
+      "steps": ["fetch.north_america"],
+      "caveats": ["A record of cessions to the United States: the colonial government's view of Native land."]
+    },
+    "hb": {
+      "name": "historical-basemaps (André Ourednik)",
+      "licence": "GPL-3.0",
+      "cls": "copyleft",
+      "url": "https://github.com/aourednik/historical-basemaps",
+      "markers": ["\"historical-basemaps\""],
+      "coverage": "Worldwide snapshots (about 50 years from 123000 BCE to 2010).",
+      "steps": ["fetch.north_america", "fetch.europe.borders"],
+      "caveats": ["Approximate snapshot outlines; drawn soft.", "Copyleft: derived data must stay GPL.", "Our reading (docs/design/licensing.md): commercial use is allowed; what we distribute that derives from it (North America's territory fields and labels) is GPL-3.0, with its processing source (the ETL) available, so it cannot be exclusive paid content; it is never merged into one dataset with an incompatible licence (CShapes); separate layers side by side are fine.", "The owner refused one commercial request (issue #76, 2026-09-10: \"Sorry, no commercial use\"); the GPL itself does not forbid it.", "North America pins a commit (da7a4b7); Europe reads master, and only for a coverage check that is not served."],
+      "note": "Approximate snapshot outlines; drawn soft."
+    },
+    "canada": {
+      "name": "Historic treaties (Crown-Indigenous Relations Canada; Ontario)",
+      "licence": "Open Government Licence (Canada, Ontario)",
+      "cls": "attribution",
+      "url": "https://open.canada.ca/en/open-government-licence-canada",
+      "coverage": "Canada, historic and numbered treaties.",
+      "steps": ["fetch.north_america"],
+      "caveats": []
+    },
+    "heidata": {
+      "name": "Transcultural Empire GIS: Russian governorates, 1897 (heiDATA)",
+      "licence": "CC BY 4.0",
+      "cls": "attribution",
+      "url": "https://doi.org/10.11588/data/10064",
+      "coverage": "Russian Empire 1897 and USSR 1926 census units.",
+      "steps": ["fetch.europe.divisions"],
+      "caveats": ["Snapshots, not dated series."]
+    },
+    "wikidata": {
+      "name": "Wikidata",
+      "licence": "CC0 1.0",
+      "cls": "public",
+      "url": "https://www.wikidata.org/",
+      "coverage": "Worldwide events (battles, sieges, treaties, massacres, rebellions) and settlements with coordinates and dates.",
+      "steps": ["history.events_from_wikidata", "history.event_dates", "history.settlements", "base.veg (river discharge: base/river_flow.py)", "names (labels in other languages)", "fetch.live_events (the live world's events, built at each deploy for src/lib/live/events.ts)", "root pipeline: S0/S1 extract; sa_control_points through the QLever mirror (qlever.dev)"],
+      "caveats": [
+        "Coverage follows Wikipedia's interests: European and North American events are far denser than African, Asian or Indigenous ones.",
+        "Settlement founding dates (P571) are sparse and sometimes the date of a charter, not of first settlement."
+      ]
+    },
+    "wikipedia": {
+      "name": "Wikipedia (dates from infoboxes; article leads in cards)",
+      "licence": "CC BY-SA 4.0",
+      "cls": "share-alike",
+      "url": "https://en.wikipedia.org/",
+      "coverage": "Dates parsed from English Wikipedia infoboxes where Wikidata lacks a day; article leads in event cards, fetched by the browser; short quotes in research citations.",
+      "steps": ["history.event_dates", "runtime: article leads in event cards (src/lib/wiki.ts)", "research quotes (the cited pages)"],
+      "caveats": ["Share-alike."]
+    },
+    "terrain": {
+      "name": "AWS Terrain Tiles (SRTM, GMTED2010, ETOPO1 and others, via Mapzen)",
+      "licence": "Open; attribution to Mapzen and the listed sources",
+      "cls": "attribution",
+      "url": "https://registry.opendata.aws/terrain-tiles/",
+      "coverage": "Worldwide to 85 degrees; poles from ETOPO1.",
+      "steps": ["base.terrain"],
+      "caveats": ["Modern elevation and coastlines.", "The poles (beyond 85 degrees) come from ETOPO1 through NOAA's ERDDAP server: see etopo1."]
+    },
+    "etopo1": {
+      "name": "ETOPO1 Ice Surface (NOAA NCEI), through NOAA CoastWatch ERDDAP",
+      "licence": "US Government work: public domain; cite NOAA NCEI",
+      "cls": "public",
+      "url": "https://www.ncei.noaa.gov/products/etopo-global-relief-model",
+      "coverage": "Worldwide relief at 1 arc-minute; used only for the polar caps above 85 degrees, where the Terrarium tiles stop.",
+      "steps": ["base.terrain (coastwatch.pfeg.noaa.gov/erddap/griddap/etopo180)"],
+      "caveats": []
+    },
+    "naturalearth": {
+      "name": "Natural Earth (land, rivers, Natural Earth I land cover)",
+      "licence": "Public domain",
+      "cls": "public",
+      "url": "https://www.naturalearthdata.com/",
+      "coverage": "Worldwide.",
+      "steps": ["fetch.natural_earth", "base.veg", "base.coast", "base.world_land", "history.wildlife (admin-1 label points)", "presence.art17, presence.bbs, presence.farming (land and admin-0 masks)"],
+      "caveats": ["Modern coastlines and river courses."]
+    },
+    "hyde": {
+      "name": "HYDE 3.3 (Klein Goldewijk et al., Utrecht University / PBL)",
+      "licence": "CC BY 4.0 (DataCite record for doi:10.24416/UU01-67UHB4)",
+      "cls": "attribution",
+      "url": "https://doi.org/10.24416/UU01-67UHB4",
+      "coverage": "Worldwide, 5' grid; every century 0-1700 CE, every decade 1700-2020.",
+      "steps": ["base.population", "base.landuse"],
+      "caveats": [
+        "A model: country totals allocated over a grid, not a count.",
+        "Licence confirmed as CC BY 4.0 from its DataCite record (2026-10-26): attribution required."
+      ],
+      "note": "Cite Klein Goldewijk et al. 2017 (doi:10.5194/essd-9-927-2017)."
+    },
+    "c20": {
+      "name": "NOAA-CIRES-DOE 20th Century Reanalysis V3 (Slivinski et al. 2019), NOAA PSL",
+      "licence": "Freely available from NOAA PSL; cite the dataset",
+      "cls": "attribution",
+      "url": "https://psl.noaa.gov/data/20thC_Rean/",
+      "coverage": "Worldwide, 3-hourly, 1 degree, 1836-2015.",
+      "steps": ["base.weather"],
+      "caveats": ["Before about 1900 and away from dense observations, a plausible smoothed state, not the day's weather."]
+    },
+    "anthromes": {
+      "name": "Anthromes 12K (Ellis, Beusen and Klein Goldewijk 2020)",
+      "licence": "CC0 1.0 (Harvard Dataverse, doi:10.7910/DVN/G0QDNQ)",
+      "cls": "public",
+      "url": "https://doi.org/10.7910/DVN/G0QDNQ",
+      "coverage": "Worldwide, 5' grid; every 1000 years 10,000 BCE-1 CE, every century to 1700, every decade to 2000, yearly to 2015.",
+      "steps": ["base.anthromes"],
+      "caveats": ["Derived from HYDE 3.2 population and land use plus potential natural vegetation: a reconstruction, not observed land cover.", "Folded from about 20 classes into four groups and averaged to 0.25 degrees for display."],
+      "note": "Cite Ellis, Beusen and Klein Goldewijk 2020, Anthropogenic biomes: 10,000 BCE to 2015 CE, Land 9(5):129, doi:10.3390/land9050129."
+    },
+    "oldmaps": {
+      "name": "Historical world maps (Wikimedia Commons scans)",
+      "licence": "Public domain (the maps are centuries old; the scans are faithful reproductions)",
+      "cls": "public",
+      "url": "https://commons.wikimedia.org/wiki/Category:Old_maps_of_the_world",
+      "coverage": "Sixteen world maps, 1154-1785, by group: Europe (the Catalan Atlas 1375, Fra Mauro 1459, Martellus 1490, Waldseemüller 1507, Ortelius 1570, Rumold Mercator 1587, the Atlas Minor 1621, Hondius 1630, Delisle 1700, Roberts' Cook chart 1784), East Asia (the Kangnido 1402 in its Honkō-ji copy, Ricci 1602, Nagakubo Sekisui c.1785), the Islamic world (al-Idrisi 1154 in a later manuscript copy, Piri Reis 1513, Kâtip Çelebi 1729).",
+      "steps": ["base.oldmaps"],
+      "caveats": ["Placed by the map's own projection, measured on the scan; one longitude offset fitted on a few control points.", "Control points were read from the scan by AI (Claude) and are unreviewed."],
+      "note": "Each map's source file is in sources/oldmaps/, with its projection and control points."
+    },
+    "gbif": {
+      "name": "GBIF occurrence records (museum specimens and observations)",
+      "licence": "Per dataset: CC0, CC BY 4.0 or CC BY-NC 4.0; each record keeps its own",
+      "cls": "attribution",
+      "url": "https://www.gbif.org/",
+      "coverage": "Worldwide; dated records of species. For North America before 1900, densest from 1850.",
+      "steps": ["history.wildlife"],
+      "caveats": ["Presence only: few records means few collectors as much as few animals.", "Most records before 1900 have no coordinates; those naming a state or province are placed at its Natural Earth label point and drawn as rings.", "Records under CC BY-NC drop out when the commercial-use filter is on. Each record links to its GBIF page, which cites its dataset."]
+    },
+    "bbs": {
+      "name": "North American Breeding Bird Survey 1966-2023 (USGS and ECCC; Ziolkowski et al. 2024)",
+      "licence": "No use restrictions (US Government data release, with Environment and Climate Change Canada); cite doi:10.5066/P136CRBV",
+      "cls": "public",
+      "url": "https://doi.org/10.5066/P136CRBV",
+      "evidence": "observed",
+      "coverage": "About 5,300 roadside routes in the US and southern Canada (none in Mexico in this release), surveyed each June since 1966.",
+      "steps": ["presence.bbs"],
+      "caveats": ["Counts from the roadside in June: a measure of where birds are detected, not of numbers or nests.",
+      "Smoothed between routes with a 75 km kernel over 5 years per slice: local detail is not real.",
+      "Only runs that met the survey's standards (RunType 1, primary observer)."],
+      "note": "Ziolkowski, D.J. Jr., Lutmerding, M., English, W.B. and Hudson, M-A.R. 2024, North American Breeding Bird Survey Dataset 1966-2023, U.S. Geological Survey data release."
+    },
+    "eea-art17": {
+      "name": "Habitats Directive Article 17 species distributions, 2007-12, 2013-18, 2019-24 (EEA)",
+      "licence": "CC BY 4.0 (EEA; stated on the 2007-12 and 2013-18 public datasets, and the EEA's default for its content)",
+      "cls": "attribution",
+      "url": "https://bio.discomap.eea.europa.eu/arcgis/rest/services/Article17",
+      "evidence": "observed",
+      "coverage": "EU member states (and the UK to 2018), 10 km grid, one map per six-year reporting period.",
+      "steps": ["presence.art17"],
+      "caveats": ["Reported by each member state with its own methods; public versions leave out sensitive records.",
+      "No data outside the EU: Switzerland, Norway, the Balkans and the east are blank, not empty of animals.",
+      "Spain and some others had no public 2019-24 distribution for some species at build time: no data there, not absence.",
+      "The 2019-24 service names no licence of its own; the EEA legal notice puts its content under CC BY 4.0 unless stated otherwise."],
+      "note": "European Environment Agency, Conservation status of habitat types and species: datasets from Article 17, Habitats Directive 92/43/EEC reporting (public versions)."
+    },
+    "cradles-research": {
+      "name": "First farmers and cities: dated sites (AI research catalogue cradles-12500-500-bce)",
+      "licence": "Quotes from the cited pages (Wikipedia CC BY-SA 4.0, open-access papers, UNESCO); the catalogue's own text is the project's",
+      "cls": "attribution",
+      "url": "https://github.com/thebend/openworld/blob/main/app/research/cradles-12500-500-bce.raw.json",
+      "evidence": "reconstructed",
+      "coverage": "Worldwide, 12,500-500 BCE: sites where farming or herding is first attested, per independent centre of domestication, each with a calibrated radiocarbon range.",
+      "steps": ["research.verify_quotes", "research.merge", "presence.farming"],
+      "caveats": ["AI research, unreviewed: every quote is checked against its page and two verifier passes read the sources, but no specialist has reviewed it.",
+      "A site's date is its earliest evidence found so far; the field fades in across the radiocarbon range.",
+      "Drawn only near dated sites: elsewhere the map does not know."],
+      "note": "app/research/cradles-12500-500-bce.raw.json and its verification parts."
+    },
+    "guth": {
+      "name": "12th Army Group daily situation maps (Guth, Zenodo)",
+      "licence": "CC BY 4.0",
+      "cls": "attribution",
+      "url": "https://doi.org/10.5281/zenodo.22997143",
+      "coverage": "Normandy and the Bulge, 1944-45.",
+      "steps": ["fetch.europe.fronts"],
+      "caveats": []
+    },
+    "wardept": {
+      "name": "US War Department, Atlas of the World Battle Fronts (1945)",
+      "licence": "Public domain (US Government work)",
+      "cls": "public",
+      "url": "https://commons.wikimedia.org/wiki/Category:WW2_Battlefront_Atlas",
+      "coverage": "Europe and the Pacific, 1943-45 (scanned maps).",
+      "steps": ["fetch.europe.fronts", "history.war_dept_atlas"],
+      "caveats": ["Lines traced from scans by computer vision; check against the scan."]
+    },
+    "claims": {
+      "name": "Antarctic claim instruments (letters patent, orders in council, decrees), compiled with citations",
+      "licence": "Public legal records; compiled by this project",
+      "cls": "project",
+      "url": "",
+      "coverage": "Antarctica, 1908-1991.",
+      "steps": ["(Antarctica scene)"],
+      "caveats": []
+    },
+    "research": {
+      "name": "Atlas for Atlas AI research catalogue",
+      "licence": "This project; every claim cites its sources",
+      "cls": "project",
+      "url": "",
+      "coverage": "Per scene: dated control claims and events with quoted citations.",
+      "steps": ["research.verify_quotes", "research.merge"],
+      "caveats": ["Compiled by AI research agents; not yet reviewed by a person.", "verify_quotes fetches every cited page (about 250 hosts: Wikipedia, archive.org, Project Gutenberg, Europe PMC and others) to check each quote; the quotes ship with the catalogue."],
+      "note": "Compiled by AI research agents; each quote checked against its source and each item judged by a second agent. Not yet reviewed by a person."
+    },
+    "project": {
+      "name": "Atlas for Atlas curation (control points, routes, tours)",
+      "licence": "This project",
+      "cls": "project",
+      "url": "",
+      "coverage": "Per scene.",
+      "steps": ["(committed curated inputs)"],
+      "caveats": []
+    },
+    "bsc": {
+      "name": "Yale Bright Star Catalogue, 5th ed. (Hoffleit & Warren 1991), via CDS VizieR V/50",
+      "licence": "Free use with acknowledgement",
+      "cls": "attribution",
+      "url": "https://cdsarc.cds.unistra.fr/viz-bin/cat/V/50",
+      "coverage": "Whole sky, stars to magnitude 6.5.",
+      "steps": ["fetch.sky"],
+      "caveats": []
+    },
+    "moon": {
+      "name": "NASA Scientific Visualization Studio, CGI Moon Kit (LRO colour map)",
+      "licence": "NASA media: not copyrighted in the US; credit NASA's Scientific Visualization Studio",
+      "cls": "public",
+      "url": "https://svs.gsfc.nasa.gov/4720",
+      "coverage": "The Moon's colour map, equirectangular.",
+      "steps": ["fetch.sky (public/data/sky/moon.jpg)"],
+      "caveats": []
+    },
+    "ephemeris": {
+      "name": "Astronomy Engine (Don Cross): Sun, Moon and planet positions",
+      "licence": "MIT",
+      "cls": "attribution",
+      "url": "https://github.com/cosinekitty/astronomy",
+      "coverage": "Any date.",
+      "steps": ["(npm dependency)"],
+      "caveats": []
+    },
+    "gufm1": {
+      "name": "gufm1 geomagnetic field model (Jackson, Jonkers & Walker 2000)",
+      "licence": "Published with the author's permission; no licence stated",
+      "cls": "unverified",
+      "url": "https://geomag.colorado.edu/node/669",
+      "markers": ["gufm1 (Jackson"],
+      "coverage": "1590-1990.",
+      "steps": ["fetch.sky (public/data/sky/gufm1.json, read by src/lib/geomag.ts for the compass)"],
+      "caveats": ["No licence stated."]
+    },
+    "geonames": {
+      "name": "GeoNames",
+      "licence": "CC BY 4.0",
+      "cls": "attribution",
+      "url": "https://www.geonames.org/",
+      "coverage": "Worldwide populated places over 1,000 people.",
+      "steps": ["fetch.gazetteer"],
+      "caveats": []
+    },
+    "commons": {
+      "name": "Wikimedia Commons (portraits and ambience recordings, per-file licences)",
+      "licence": "Per file (public domain, CC BY, CC BY-SA); recorded in credits.json and recordings.json",
+      "cls": "attribution",
+      "url": "https://commons.wikimedia.org/",
+      "coverage": "Tour portraits and sound beds.",
+      "steps": ["fetch.portraits", "fetch.audio", "base.oldmaps", "runtime: article lead images, tour images and tour thumbnails (upload.wikimedia.org)"],
+      "caveats": ["Each file carries its own licence and credit line."]
+    },
+    "nps-sounds": {
+      "name": "Yellowstone National Park Sound Library (US National Park Service), archive.org mirror",
+      "licence": "US Government work: public domain",
+      "cls": "public",
+      "url": "https://www.nps.gov/yell/learn/photosmultimedia/soundlibrary.htm",
+      "coverage": "One wind recording (the wind sound bed).",
+      "steps": ["fetch.audio", "media.ambience"],
+      "caveats": ["Fetched from the archive.org mirror (archive.org/download/nps-yell-sounds-soundscapes)."]
+    }
+  }
+}

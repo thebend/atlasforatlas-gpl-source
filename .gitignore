@@ -1,0 +1,4 @@
+app/.cache/
+app/public/
+__pycache__/
+.venv/

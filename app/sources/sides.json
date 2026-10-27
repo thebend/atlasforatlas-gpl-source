@@ -1,0 +1,291 @@
+{
+  "about": "Canonical sides (states and polities) shared by every scene: which CShapes 2.0 GW codes and Cliopatria rows (Name or MemberOf) are the same power, and the ids research catalogues may use for it. Identity mapping only: no geometry. Unlisted powers get an id from their name.",
+  "sides": {
+    "britain": {
+      "name": "United Kingdom",
+      "cshapes": [200],
+      "cliopatria": [
+        "British Empire",
+        "Kingdom of Great Britain",
+        "United Kingdom of Great Britain and Ireland",
+        "British Colonial Empire",
+        "Kingdom of England",
+        "British Raj",
+        "British Africa",
+        "British Gold Coast"
+      ],
+      "aliases": ["uk", "great-britain", "british-empire", "united-kingdom"]
+    },
+    "france": {
+      "name": "France",
+      "cshapes": [220],
+      "cliopatria": [
+        "French Third Republic",
+        "French Second Empire",
+        "French Fourth Republic",
+        "French Second Republic",
+        "French First Empire",
+        "French First Republic",
+        "Kingdom of France",
+        "French Colonial Empire",
+        "French Africa",
+        "July Monarchy",
+        "Bourbon Restoration",
+        "Bourbon Kingdom of France",
+        "Kingdom of France (Bourbon)",
+        "French Indochina",
+        "First French Empire",
+        "French Consulate"
+      ],
+      "aliases": ["french-empire"]
+    },
+    "germany": {
+      "name": "Germany",
+      "cshapes": [255],
+      "cliopatria": ["German Empire", "German Reich", "Weimar Republic", "Nazi Germany", "German Africa"],
+      "aliases": ["german-empire", "nazi-germany"]
+    },
+    "italy": {
+      "name": "Italy",
+      "cshapes": [325],
+      "cliopatria": ["Kingdom of Italy", "Italian Africa", "Italian Empire"],
+      "aliases": []
+    },
+    "spain": {
+      "name": "Spain",
+      "cshapes": [230],
+      "cliopatria": ["Spanish Empire", "Kingdom of Spain", "Crown of Castile"],
+      "aliases": ["spanish-empire", "castile"]
+    },
+    "portugal": {
+      "name": "Portugal",
+      "cshapes": [235],
+      "cliopatria": [
+        "Portuguese Empire",
+        "Kingdom of Portugal",
+        "Portuguese Colonies",
+        "Portuguese Africa",
+        "Portuguese Republic"
+      ],
+      "aliases": ["portuguese-empire"]
+    },
+    "netherlands": {
+      "name": "Netherlands",
+      "cshapes": [210],
+      "cliopatria": [
+        "Netherlands",
+        "Dutch Republic",
+        "Batavian Republic",
+        "Kingdom of the Netherlands",
+        "Dutch East Indies",
+        "Dutch Empire",
+        "Netherlands Antilles"
+      ],
+      "aliases": ["dutch"]
+    },
+    "belgium": {
+      "name": "Belgium",
+      "cshapes": [211],
+      "cliopatria": ["Belgium", "Belgian Congo", "Congo Free State", "Kingdom of Belgium"],
+      "aliases": []
+    },
+    "usa": {
+      "name": "United States",
+      "cshapes": [2],
+      "cliopatria": ["United States of America", "United States"],
+      "aliases": ["us", "united-states"]
+    },
+    "russia": {
+      "name": "Russia / Soviet Union",
+      "cshapes": [365],
+      "cliopatria": [
+        "Russian Empire",
+        "Tsardom of Russia",
+        "Soviet Union",
+        "Russian Soviet Federative Socialist Republic",
+        "Russian Republic",
+        "Russian SFSR",
+        "Union of Soviet Socialist Republics",
+        "Russian Federation"
+      ],
+      "aliases": ["ussr", "soviet-union", "russian-empire"]
+    },
+    "austria-hungary": {
+      "name": "Austria-Hungary",
+      "cshapes": [300],
+      "cliopatria": ["Austria-Hungary", "Austrian Empire", "Habsburg Monarchy"],
+      "aliases": ["austria"]
+    },
+    "japan": {
+      "name": "Japan",
+      "cshapes": [740],
+      "cliopatria": [
+        "Empire of Japan",
+        "Tokugawa Shogunate",
+        "Meiji Japan",
+        "Japanese Empire",
+        "Empire of Japan (Meiji)",
+        "Taisho Japan",
+        "Showa Japan"
+      ],
+      "aliases": ["empire-of-japan"]
+    },
+    "china": {
+      "name": "China",
+      "cshapes": [710],
+      "cliopatria": [
+        "Qing Dynasty",
+        "Republic of China",
+        "Republic of China (Beiyang)",
+        "Nationalist China",
+        "Kuomintang",
+        "Beiyang Government"
+      ],
+      "aliases": ["qing", "roc"]
+    },
+    "ottoman": {
+      "name": "Ottoman Empire / Turkey",
+      "cshapes": [640],
+      "cliopatria": ["Ottoman Empire", "Republic of Turkey"],
+      "aliases": ["turkey"]
+    },
+    "iran": {
+      "name": "Persia / Iran",
+      "cshapes": [630],
+      "cliopatria": ["Qajar Dynasty", "Pahlavi Dynasty"],
+      "aliases": ["persia"]
+    },
+    "ethiopia": {
+      "name": "Ethiopia",
+      "cshapes": [530],
+      "cliopatria": ["Ethiopian Empire"],
+      "aliases": ["abyssinia"]
+    },
+    "south-africa": {
+      "name": "South Africa",
+      "cshapes": [560],
+      "cliopatria": ["Union of South Africa"],
+      "aliases": []
+    },
+    "australia": {
+      "name": "Australia",
+      "cshapes": [900],
+      "cliopatria": ["Commonwealth of Australia"],
+      "aliases": []
+    },
+    "denmark": {
+      "name": "Denmark",
+      "cshapes": [390],
+      "cliopatria": ["Denmark", "Denmark-Norway"],
+      "aliases": []
+    },
+    "mexico": {
+      "name": "Mexico",
+      "cshapes": [70],
+      "cliopatria": ["Mexico", "First Mexican Empire", "Second Mexican Empire", "Federated Republic of Mexico", "Mexican Empire"],
+      "aliases": []
+    },
+    "thailand": {
+      "name": "Siam / Thailand",
+      "cshapes": [800],
+      "cliopatria": ["Rattanakosin Kingdom", "Kingdom of Siam", "Kingdom of Thailand"],
+      "aliases": ["siam"]
+    },
+    "mongolia": {
+      "name": "Mongolia",
+      "cshapes": [712],
+      "cliopatria": ["Great Mongol State", "Mongolian People's Republic"],
+      "aliases": []
+    },
+    "mongol-empire": {
+      "name": "Mongol Empire",
+      "cshapes": [],
+      "cliopatria": ["Mongol Empire"],
+      "aliases": ["mongols"]
+    },
+    "brazil": {
+      "name": "Brazil",
+      "cshapes": [140],
+      "cliopatria": ["Empire of Brazil", "First Brazilian Republic", "Brazil"],
+      "aliases": []
+    },
+    "korea": {
+      "name": "Korea",
+      "cshapes": [730],
+      "cliopatria": ["Joseon", "Korean Empire"],
+      "aliases": ["joseon"]
+    },
+    "csa": {
+      "name": "Confederate States",
+      "cshapes": [],
+      "cliopatria": ["Confederate States of America"],
+      "aliases": ["confederacy", "confederate-states"]
+    },
+    "haiti": {
+      "name": "Haiti",
+      "cshapes": [41],
+      "cliopatria": ["Haiti", "Empire of Haiti", "State of Haiti", "Kingdom of Haiti"],
+      "aliases": []
+    },
+    "sweden": {
+      "name": "Sweden",
+      "cshapes": [380],
+      "cliopatria": ["Swedish Empire", "Sweden"],
+      "aliases": []
+    },
+    "prussia": {
+      "name": "Prussia",
+      "cshapes": [],
+      "cliopatria": ["Kingdom of Prussia"],
+      "aliases": []
+    },
+    "liberia": {
+      "name": "Liberia",
+      "cshapes": [450],
+      "cliopatria": ["Republic of Liberia", "Liberia"],
+      "aliases": []
+    },
+    "transvaal": {
+      "name": "Transvaal (South African Republic)",
+      "cshapes": [563],
+      "cliopatria": ["South African Republic", "Transvaal"],
+      "aliases": ["south-african-republic"]
+    },
+    "orange-free-state": {
+      "name": "Orange Free State",
+      "cshapes": [564],
+      "cliopatria": ["Free Orange State", "Orange Free State"],
+      "aliases": []
+    },
+    "egypt": {
+      "name": "Egypt",
+      "cshapes": [651],
+      "cliopatria": ["Khedivate of Egypt", "Sultanate of Egypt", "Kingdom of Egypt"],
+      "aliases": []
+    },
+    "zanzibar": {
+      "name": "Zanzibar",
+      "cshapes": [511],
+      "cliopatria": ["Sultanate of Zanzibar"],
+      "aliases": []
+    },
+    "oman": {
+      "name": "Oman",
+      "cshapes": [698],
+      "cliopatria": ["Sultanate of Muscat and Oman", "Sultanate of Oman", "Oman"],
+      "aliases": []
+    },
+    "madagascar": {
+      "name": "Madagascar",
+      "cshapes": [580],
+      "cliopatria": ["Merina Kingdom"],
+      "aliases": ["merina"]
+    },
+    "greece": {
+      "name": "Greece",
+      "cshapes": [350],
+      "cliopatria": ["Kingdom of Greece", "First Hellenic Republic", "Second Hellenic Republic"],
+      "aliases": []
+    }
+  }
+}
