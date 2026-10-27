@@ -4,7 +4,7 @@
 
 Everything here is licensed under the GPL-3.0 (see `LICENSE`), except the inputs listed under "Other inputs", which keep their own licences.
 
-Exported from the atlas's main repository at commit `778d480` by `app/scripts/gpl_export.py`. The rest of the atlas is not GPL-licensed and is not in this repository.
+Exported from the atlas's main repository at commit `3e9b39f` by `app/scripts/gpl_export.py`. The rest of the atlas is not GPL-licensed and is not in this repository.
 
 ## Build
 

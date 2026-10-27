@@ -1,5 +1,5 @@
 {
-  "about": "Every dataset the atlas uses: licence, licence class (public, attribution, share-alike, copyleft, project, noncommercial, unverified; the last two block commercial use), coverage, the build step that fetches or reads it, and caveats. blocks_commercial: an openly licensed source treated as non-commercial anyway, and why. markers: strings that appear only in data built from the source (etl/licences.py scans for them). Read by the Layers & sources panel (src/lib/provenance.ts) and the build profiles (etl/profile.py; docs/design/licensing.md).",
+  "about": "Every dataset the atlas uses: licence, licence class (public, attribution, share-alike, copyleft, project, noncommercial, unverified; the last two block commercial use), coverage, the build step that fetches or reads it, and caveats. blocks_commercial: an openly licensed source treated as non-commercial anyway, and why. gpl_source: where the source of the layers we build from a GPL source is published (app/scripts/gpl_export.py). markers: strings that appear only in data built from the source (etl/licences.py scans for them). Read by the Layers & sources panel (src/lib/provenance.ts) and the build profiles (etl/profile.py; docs/design/licensing.md).",
   "checked": "2026-10-26",
   "rejected": {
     "aiatsis": {
@@ -151,6 +151,7 @@
       "cls": "copyleft",
       "url": "https://github.com/aourednik/historical-basemaps",
       "markers": ["\"historical-basemaps\""],
+      "gpl_source": "https://github.com/thebend/atlasforatlas-gpl-source",
       "coverage": "Worldwide snapshots (about 50 years from 123000 BCE to 2010).",
       "steps": ["fetch.north_america", "fetch.europe.borders"],
       "caveats": ["Approximate snapshot outlines; drawn soft.", "Copyleft: derived data must stay GPL.", "Our reading (docs/design/licensing.md): commercial use is allowed; what we distribute that derives from it (North America's territory fields and labels) is GPL-3.0, with its processing source (the ETL) available, so it cannot be exclusive paid content; it is never merged into one dataset with an incompatible licence (CShapes); separate layers side by side are fine.", "The owner refused one commercial request (issue #76, 2026-09-10: \"Sorry, no commercial use\"); the GPL itself does not forbid it.", "North America pins a commit (da7a4b7); Europe reads master, and only for a coverage check that is not served."],
