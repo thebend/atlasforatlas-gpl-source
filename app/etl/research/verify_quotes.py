@@ -115,6 +115,9 @@ def check(quote: str, text: str) -> str:
         return "missing"
     if q in t:
         return "found"
+    # a link inside Japanese or Chinese text leaves a space where the language has none
+    if re.search(r"[぀-ヿ一-鿿]", q) and q.replace(" ", "") in t.replace(" ", ""):
+        return "found"
     qt = q.split()
     if len(qt) < 4:
         return "missing"

@@ -52,6 +52,7 @@ def main() -> None:
             "status": v.get("status", "unverified"),
             "note": v.get("note", ""),
             "fields_unsupported": v.get("fields_unsupported", []),
+            **({"held_to_end": v["held_to_end"]} if "held_to_end" in v else {}),   # an open-ended control claim (fronts.py)
             "quotes_found": sum(1 for c in checks if c in ("found", "fuzzy")),
             "quotes_total": len(checks),
         }

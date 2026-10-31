@@ -1,0 +1,446 @@
+{
+ "meta": {
+  "method": "Independent check of the first 68 listed ids. Each cited page fetched fresh, one at a time, with an https://atlasforatlas.com User-Agent; each quote located in the page's text and read past its end; every fact, title, date, place and kind checked against those pages, with Wikipedia's footnotes read where a named work is credited through one. PMC2730237 was read through Europe PMC. Figures: a casualty count, force size or death toll needs a named giver; an exact count in a small incident where the sources agree is noted, not marked down. Places flagged approximate with the stand-in disclosed are accepted unless the point contradicts the place's own name.",
+  "date": "2026-10-31"
+ },
+ "items": {
+  "na-e-002": {
+   "status": "partially-verified",
+   "note": "Quotes found. Dates, the three days of fighting, the twenty-day stay and the Tlaxcalans' loyalty after the expulsion all hold. But the statement has Maxixcatzin and Xicotencatl the Elder promising provisions and manpower; Schmal has only 'Xicotenga' agreeing, and Wikipedia's passage on the two leaders says friendship and loyalty, no promise.",
+   "fields_unsupported": [
+    "statement"
+   ],
+   "fix": "'...won over leaders including Maxixcatzin and Xicotencatl the Elder. In Schmal's account Xicotenga promised provisions and manpower against the Mexica.'"
+  },
+  "na-e-006": {
+   "status": "verified",
+   "note": "All facts on the Tangaxuan II page. No source read puts the execution at Tzintzuntzan (infobox: Nueva Galicia), but the place is flagged approximate and the notes disclose the stand-in.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-007": {
+   "status": "verified",
+   "note": "Spring 1540, Alvarado (June 1541), Nochistlán (9 Nov 1541), Mixtón (early 1542) all on the page. The page's footnote credits 'Peter Gerhard quoted in Schmal'; the card attributes the words without claiming the book was read. The source adds that Tenamaztle later escaped, which the card omits but does not contradict.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-008": {
+   "status": "verified",
+   "note": "Dates, baptism, two months, western lords and Cocom enmity all found; T'ho comes from the conquest article. The founder (Younger, against the conquest article's cousin) is a disclosed judgement between two pages. One quote has a stray space before a comma (a fuzzy match, not a changed word); remove it.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-009": {
+   "status": "verified",
+   "note": "Wikipedia's 800,000 carries the Warinner 2012 footnote, so the attribution holds and nothing claims the paper was read. PMC2730237 served scripts no usable page; both quotes confirmed verbatim in Europe PMC's full text. Teposcolula, Paratyphi C and 1576 found.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-014": {
+   "status": "verified",
+   "note": "Ay's execution, the burning of Tepich, 30 July, the two accounts of the killing, spring 1848 all found, and the differing accounts are attributed. Yucatán Today calls Ay a cacique of Chichimilá.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-015": {
+   "status": "verified",
+   "note": "El Añil's moat, the 5 and 12 May split, Buatachive's 200 dead and Cajemé's escape and execution all found and attributed.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-016": {
+   "status": "verified",
+   "note": "July 1540 near Hawikuh, search for gold, Niza's claim, Dowa Yalanne, no gold: all found.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-017": {
+   "status": "verified",
+   "note": "March 1598, 30 April claim, 11 and 12 July, first capital, 1610 move, tribute: all found. Tewa pueblo per the Ohkay Owingeh lead.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-018": {
+   "status": "partially-verified",
+   "note": "Quotes and events hold: 4 December 1598 arrival, 22 January, 500 prisoners, the sentence and 24 amputations. But 'him and eleven others' names no giver, though it is set against the Park Service's fourteen, and 'other estimates run lower' hides Wikipedia's 500 men and 300 women and children.",
+   "fields_unsupported": [
+    "statement"
+   ],
+   "fix": "'...killed him and eleven others in Wikipedia's account; the National Park Service says fourteen' and 'The Park Service puts the Acoma dead at about 1,500; Wikipedia's article has about 800.'"
+  },
+  "na-e-019": {
+   "status": "verified",
+   "note": "Knotted cords, 13 and 10 August, 400 settlers and 21 of 33 by EBSCO, the siege, 21 August, 29 September all found. 'Franciscan' is from Wikipedia's infobox. Po'pay's Ohkay Owingeh link sits beside a citation-needed tag, though 'a local man' itself is not tagged.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-020": {
+   "status": "partially-verified",
+   "note": "13 September, seven cannons, clemency, repossession, December 1693, 1696 all found. The sentence runs Lamadrid's 70 into the 400 women and children, which are not his: they come from Wikipedia's Pueblo Revolt article, which names no one. 'Next day' follows that article's 14 September; the Vargas article's 12 September is only in the notes. One quote has a stray space before a comma (a fuzzy match, not a changed word); remove it.",
+   "fields_unsupported": [
+    "statement"
+   ],
+   "fix": "'...by the historian Enrique Lamadrid's account 70 participants in the revolt were executed; Wikipedia's Pueblo Revolt article adds about 400 women and children sentenced to ten years' servitude.'"
+  },
+  "na-e-021": {
+   "status": "verified",
+   "note": "Mission rebuilt after 1692, tension and destruction by end of 1700, men killed, women and children scattered, never reoccupied. 'Hopi tradition' rests on the Malotki footnote, as the notes say, and is not claimed as read.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-022": {
+   "status": "partially-verified",
+   "note": "19 January, Montoya, Romero, Bent, the church, 150 and 400 all found; the Garrard footnote (pp. 214-215) closes that passage, so the attribution holds. But 'some 1,500 insurgents' and 'at least 28' hanged name no giver.",
+   "fields_unsupported": [
+    "statement"
+   ],
+   "fix": "'...beat back some 1,500 insurgents, in Wikipedia's account...' and '...and by the same account the US hanged at least 28.'"
+  },
+  "na-e-024": {
+   "status": "partially-verified",
+   "note": "Quotes found, but they are joined wrongly: the same page says Santa Anna opted for the $15 million package for about 38,000 sq mi, and that the Senate later cut the land by over 10,000 sq mi to 29,640 and the price to $10 million. The first draft of December 1853 was not a sale of 29,640 sq mi for $10 million. O'odham material and 8 June 1854 hold.",
+   "fields_unsupported": [
+    "statement"
+   ],
+   "fix": "'At the close of 1853 James Gadsden and Santa Anna signed the first draft of a sale at $15 million, wanted for a southern railroad route; the US Senate cut it to 29,640 square miles of southern Arizona and southwestern New Mexico for US$10 million.' Add a citation for the reduction."
+  },
+  "na-e-025": {
+   "status": "verified",
+   "note": "Sequence, the hanging on 19 February, the Apache Wars and the Coyotero attribution all found. The nine Mexican teamsters name no giver: an exact count in a small incident, sources not in conflict, so noted rather than marked down.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-026": {
+   "status": "verified",
+   "note": "NPS's 150 and Mangas Coloradas, the water, the howitzers, Bascom motive, Fort Bowie found. Wikipedia writes 'According to Capt. Cremony' before the 63, so the attribution holds; his book is not claimed as read. 'Other counts run higher' names no one (Wikipedia: 500, 200) but gives no figure.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-028": {
+   "status": "verified",
+   "note": "EBSCO's 6,000 and 300 miles, the Library of Congress blog's 10,000, 500 and one in four or 20%, oral tradition, 1868 all found and attributed. The sources say Forts Canby and Wingate, not Fort Defiance; Fort Canby was Fort Defiance renamed, but no cited page says so. One quote has a stray space before a comma (a fuzzy match, not a changed word); remove it.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-029": {
+   "status": "verified",
+   "note": "28 May, Barboncito, Indian Territory, 29 marks, 1 June all found. The page says 'according to historian Jennifer Nez Denetdale', so she is attributed and not claimed as read. One quote has a stray space before a comma (a fuzzy match, not a changed word); remove it.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-030": {
+   "status": "partially-verified",
+   "note": "All facts are on Wikipedia's page: nearly 500, 10 April, 30 April, 27 sold, 19 minutes. But the force sizes (6, 48, 92) and 'all but eight' are massacre figures with no giver, though the notes dropped the 144 because the page does not make clear who counted. Same source, same doubt.",
+   "fields_unsupported": [
+    "statement"
+   ],
+   "fix": "'In Wikipedia's account six Americans, 48 Mexican Americans and 92 Tohono O'odham...' and carry that attribution to 'All but eight of the dead'."
+  },
+  "na-e-031": {
+   "status": "verified",
+   "note": "1868 refusal, Los Pinos on 13 September 1873, what Utes were led to believe, 2009 memorandum all on the Southern Ute page and attributed. Place flagged approximate.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-032": {
+   "status": "verified",
+   "note": "Supplies, plowing, telegrams, the promise, Marsh (named a historian there), 29 September, the two dozen dead all found. Milk Creek from Wikipedia.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-033": {
+   "status": "verified",
+   "note": "All on one Wikipedia page: the dances, the arrest, the ambush, 23 scouts, Fort Apache, Geronimo. The arrest is in scare quotes in the lead and stated plainly later.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-038": {
+   "status": "partially-verified",
+   "note": "Facts hold: 17 September, the 30 miles, $50,000 for fifty years, the Senate's ten, the Crow. But the place is named Mouth of Horse Creek while its coordinates are Fort Laramie's, by the card's own notes about 30 miles from the treaty ground; the approximate flag discloses it, yet the pin contradicts the name and the statement.",
+   "fields_unsupported": [
+    "place"
+   ],
+   "fix": "Move the point to the mouth of Horse Creek about 30 miles downriver (near Morrill, Nebraska; take the coordinates from a source), or rename the place Fort Laramie."
+  },
+  "na-e-039": {
+   "status": "partially-verified",
+   "note": "Events found: High Forehead, the cow, the camp, the shot at Conquering Bear, First Sioux War. But 'about 4,000' and 'about 30' name no giver, and 'about 30' is the writer's rounding of 29 in the lead and 31 in the infobox, as the notes admit.",
+   "fields_unsupported": [
+    "statement"
+   ],
+   "fix": "'...about 4,000 Sichangu and Oglala, by Wikipedia's account...' and '...killing 29 to 31 by that article's figures, including Grattan and an interpreter.'"
+  },
+  "na-e-040": {
+   "status": "verified",
+   "note": "Summer 1862, annuities, Acton, the night persuasion, the next day's attack, five and six weeks all found. 'Five settlers' names no giver: an exact count, sources not in conflict.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-041": {
+   "status": "verified",
+   "note": "5 November, 392 and 303, the review, two rape convictions, 39 names, the reprieve, 26 December, largest mass hanging all found. Record counts; the 'estimated 4,000' spectators are MNHS's and unnamed, but that is not a toll.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-042": {
+   "status": "verified",
+   "note": "Black Kettle, 750 and 230 (NPS), Soule and Cramer, Chivington's claim, Brinkley 133 and 105, Smith 70 to 80, the investigations: all found and attributed. Wikipedia's figures are as it reports them, and not claimed as read.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-044": {
+   "status": "verified",
+   "note": "All on the Oklahoma Historical Society entry. The card sensibly gives no year for Lone Wolf, which the source misdates.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-048": {
+   "status": "verified",
+   "note": "NPS and Wikipedia carry all of it. The tolls are left off, so there is no unattributed figure.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-049": {
+   "status": "verified",
+   "note": "Gold and miners, the 1876 bill, 10% against three-fourths, 28 February 1877, 1980, the refusal all found. The Court's syllabus gives the 10%.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-050": {
+   "status": "verified",
+   "note": "Ghost Dance, the disarming, the unclear first shot, HISTORY.com's almost 150, Miles's 90 and 200, 19 medals found and attributed. Miles's letter is known through a Wikipedia note and not claimed as read. The 25 soldiers name no giver, but HISTORY.com and Wikipedia agree.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-051": {
+   "status": "verified",
+   "note": "St. Peter's, the Commissioner's 17,200, NPS's 125, Chardon's two figures (both his on the page) and the merging all found and attributed.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-052": {
+   "status": "verified",
+   "note": "1779 campaign, Greenhorn Creek, 1783, 1784, 28 February 1786 at Pecos, Comanchero trade found. TSHA's 1785 treaty is the San Antonio one, so 'In Texas' is right.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-053": {
+   "status": "verified",
+   "note": "10 September, the split, Fort Robinson, January 1879, survivors all found; Darlington Agency near Fort Reno on the page. 'About 300' names no giver and the page itself varies (297, 353), but it is the size of a migrating people, not a toll, and the notes explain.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-054": {
+   "status": "verified",
+   "note": "All on the Oklahoma Historical Society entry, the toll attributed there and here. Niobrara mouth is on the Ponca page.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-056": {
+   "status": "verified",
+   "note": "18 July, five chiefs, the strip, tobacco, the 1860 protest found in DCB and Wikipedia. Place is flagged approximate. 'The Company' is never introduced in the card: 'Hudson's Bay Company' would read better.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-057": {
+   "status": "verified",
+   "note": "Payne and Hearne found, attributed as the source does; Hearne is known through Payne's remark and the wording does not claim the journals were read. Churchill is in the source's bracket.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-058": {
+   "status": "verified",
+   "note": "Steamboat, smaller vessel, end of dominance, Payne's 1837-38 passage all found; the page names Payne. Wikipedia's unattributed 6,000 is rightly left off.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-059": {
+   "status": "verified",
+   "note": "Second Cavalry, 'strike them hard', Heavy Runner, 23 January, 173, Kipp's 217, Peace Policy all found and attributed.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-061": {
+   "status": "partially-verified",
+   "note": "Route, party, Hammond, Graham's 13 and OTC's 20 and 300 found and attributed. But 'he fired first' is stated flatly in a contested killing; the page has only 'Farwell saw Hammond fire his rifle', and the notes say Farwell's testimony is the source.",
+   "fields_unsupported": [
+    "statement"
+   ],
+   "fix": "'...over a missing horse; by Abe Farwell's account he fired first, and the party shot from a riverbank.'"
+  },
+  "na-e-062": {
+   "status": "verified",
+   "note": "15 September 1874, the area, adhesions to September 1877, Fort Walsh, the pictograph all on Wikipedia's page.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-064": {
+   "status": "verified",
+   "note": "22 September, 4 December, the five nations, the buffalo, the written and oral traditions, the Canadian Encyclopedia's passage (archived copy) all found and attributed.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-065": {
+   "status": "verified",
+   "note": "Duck Lake, the rumour, Quinn as obstacle and rations, 2 April, eight more (named on the page), no counsel, the hangings all found. The dead are a named list, not an estimate.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-066": {
+   "status": "partially-verified",
+   "note": "Middleton's orders, 'punish Poundmaker', 2 May, the retreat, 26 May, the trial and three years all found. '350 to 392 men' is a force size with no giver, and it joins the infobox to the text of one page.",
+   "fields_unsupported": [
+    "statement"
+   ],
+   "fix": "'...led a flying column (350 men in Wikipedia's infobox, 392 in its text) against...'"
+  },
+  "na-e-069": {
+   "status": "verified",
+   "note": "Assent, 15 July, fifth province, rights, 1.4 million acres, cheated of land, the move west all on the page. Place flagged approximate and disclosed: the Act was passed in Ottawa.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-070": {
+   "status": "verified",
+   "note": "Klondike, Geological Survey, 21 June, Grouard, 841,000 km2, thirty-nine communities found. The page says 'According to the official Treaty 8 web page', so the attribution holds.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-071": {
+   "status": "verified",
+   "note": "24 May plus three days, 80 or 100 people, the pipe, DCB's 'first recorded meeting' found and attributed. DCB's alliance names Algonkins and Etchemins too; the card's Montagnais focus is a narrowing, not an error, and the title says 'proposed'.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-072": {
+   "status": "verified",
+   "note": "Each date is attributed: Confederacy, Onondaga Nation, archaeologists at 1450, proposals of 1142 and 1190. Tradition is labelled. Wikipedia's Great Law article also has circa 1102 in its lead, unmentioned. Onondaga Lake is the Onondaga Nation's account; the same article has ratification near Victor.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-073": {
+   "status": "verified",
+   "note": "Bloodiest war, 1711 to 1715 (war article; people article 1711 to 1713, disclosed), 90 years, Oneida, 1722 all found.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-074": {
+   "status": "verified",
+   "note": "1609 to 1701, the sides, the three theories, 1648 and 1649, the Great Peace all found. Place flagged approximate and disclosed.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-078": {
+   "status": "partially-verified",
+   "note": "June to October, four nations, Washington's order, Newtown, 40 villages, 5,036, the genocide dispute all found. But 'Winter deaths are put at... up to about 5,000 by Rhiannon Koehler': the page has her 5,000 as the overall death toll, and calls it based on an assumption; only Taylor's several hundred are winter deaths. A quote also ends in a period where the page has a comma.",
+   "fields_unsupported": [
+    "statement"
+   ],
+   "fix": "'Deaths that winter are put at several hundred by Alan Taylor; Rhiannon Koehler suggests about 5,000 overall; some scholars' term genocide is disputed.' End the quote at 'individuals' with no period."
+  },
+  "na-e-080": {
+   "status": "verified",
+   "note": "25 October, Fort Stanwix, the six miles, Brant's choice, May purchase, Elora, 674,910 acres, John Brant 1819 all found. Place flagged approximate.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-082": {
+   "status": "verified",
+   "note": "20 August to 16 September, 3.5 million acres, twelve tracts, $100,000, bank stock, settlement all on the page.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-084": {
+   "status": "verified",
+   "note": "13 June, 13 July, Denonville's 800, the British 450, Belmont, burning by the British report, four villages all found and attributed. 1.2 million bushels is footnoted to O'Callaghan's French papers, so 'by French reckoning' holds and is not claimed as read.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-089": {
+   "status": "verified",
+   "note": "7 to 26 October, Denny, Bernard, 20 October, the Albany Purchase, Fort Duquesne, Pontiac's War all on the page.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-094": {
+   "status": "verified",
+   "note": "1609, November ambush, 9 August 1610, the children, ceasefire, 1614 all on the page. 'Ratcliffe and 32 others' names no giver: an exact count, sources not in conflict. The unattributed 15 to 75 is rightly dropped.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-095": {
+   "status": "partially-verified",
+   "note": "22 March, both shores, warnings, the ten summers, the poisoning, 1632 all found. But 'by the usual count' and 'another reckoning' name no giver for the main toll; the source for 347 names the historian Betty Wood, and the 'third' is footnoted to J. D. Rice (per the notes).",
+   "fields_unsupported": [
+    "statement"
+   ],
+   "fix": "'...killing 347 by the historian Betty Wood's figure, a quarter of the colony; Wikipedia's article also has about 400, a third.'"
+  },
+  "na-e-096": {
+   "status": "verified",
+   "note": "Footnote 18 on 'Several hundred colonists were killed' is Frank citing Mercurius Civicus, so 'a London newsbook' holds and is not claimed as read. 18 April, the forts, August 1646, Tangier Island, the shooting all found.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-097": {
+   "status": "verified",
+   "note": "October 1646, tribute, the pass, the peninsula text (quoted from the statute on virginiaplaces.org), north of the York, encroachment all found. Place flagged approximate and disclosed.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-099": {
+   "status": "verified",
+   "note": "Crosby's 90%, Patuxet and Tisquantum (abroad on the page), 'long thought to be smallpox', Marr and Cathey (read), Narragansett, colonization all found and attributed.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-103": {
+   "status": "verified",
+   "note": "October 1635, January 1636, Canonicus and Miantonomi, NPS on Williams's diplomacy, December 1675 all found. 'Let him settle' is a fair middle of 'acquired' and 'gave', disclosed. 'For decades' fits Encyclopedia.com's forty years.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-104": {
+   "status": "partially-verified",
+   "note": "19 December, the refusal, the burning, NPS, Drake (footnote 3 on that sentence, not claimed as read) and the participant all found and attributed. Only 'Colonists lost about 70' names no giver, in a card that names every other toll.",
+   "fields_unsupported": [
+    "statement"
+   ],
+   "fix": "'Colonists lost about 70, in Wikipedia's account.'"
+  },
+  "na-e-105": {
+   "status": "partially-verified",
+   "note": "Fur rivalry, 20 July 1636, both accounts of Oldham attributed, Block Island, the Pequot village, the combatants all found. 'Roughly 90 men' is a force size with no giver.",
+   "fields_unsupported": [
+    "statement"
+   ],
+   "fix": "'In August John Endecott's roughly 90 men, by Wikipedia's account, burned...'"
+  },
+  "na-e-106": {
+   "status": "verified",
+   "note": "26 May, Mason, the allies, Sassacus, stiff resistance, the two exits, Underhill's four hundred and Encyclopedia.com's 300 to 700 all found and attributed. The Sassacus sentence carries a citation-needed tag on Wikipedia.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-108": {
+   "status": "partially-verified",
+   "note": "Capture, Wawequa, June 1644, the siege, Confederation troops, the thirty-year peace all found. But 'by local tradition' is not in any source read: Wikipedia states Tracy and Leffingwell flatly, footnoted to Russell Mahan's 2018 book on Leffingwell, and Encyclopedia.com says only 'the English'.",
+   "fields_unsupported": [
+    "statement"
+   ],
+   "fix": "Replace 'by local tradition led by' with 'in Wikipedia's account led by'."
+  },
+  "na-e-109": {
+   "status": "verified",
+   "note": "The record, three-yearly councils, Ottawa sakom, 1680s, brothers, the union's two purposes all found and tied to Wikipedia's reading, as the notes say. Place flagged approximate. Date precision 'decade' differs from the playbook's range rule, but the catalogue uses it 27 times.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-111": {
+   "status": "verified",
+   "note": "13 July, eight sachems, the two provinces, the articles, the later claims, Utrecht all found. The 'policy of deception' claim is rightly left off.",
+   "fields_unsupported": [],
+   "fix": ""
+  }
+ }
+}

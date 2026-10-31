@@ -6,7 +6,7 @@ the "commercial" profile blocks noncommercial and unverified. Under it:
     overrides first, then its `replace` map on the manifest's per-layer source lists, and every
     border source the manifest still names must be allowed, or the build stops;
   - steps that read a blocked source skip it and remove what an earlier build left (fetch.sky's
-    gufm1.json), and per-record licences are filtered (GBIF records; Commons media, where the
+    gufm1.json), and per-record licences are filtered (Commons media, where the
     profile's `media_blocks` can block more classes);
   - the served research catalogues keep every citation's link, but quotes past the profile's
     `quotes` caps are withheld (trim_quotes, from etl/catalogue.py);

@@ -1,0 +1,459 @@
+{
+ "meta": {
+  "verifier": "claude-opus-5-5 (independent agent)",
+  "date": "2026-10-31",
+  "method": "Scripted fetch of all 130 cited pages (Wikipedia via REST HTML, others direct; User-Agent names atlasforatlas.com, 2 s between requests). Every quote located and read with surrounding text; pages grepped for dates, figures and credits; PDF chronology read with pdftotext. Web searches on contested credits, dates and places. Search-derived points are labelled and of lower weight than cited pages. Rule applied: casualty figures, army sizes and tolls need a named source."
+ },
+ "items": {
+  "na-e-151": {
+   "status": "verified",
+   "note": "All facts on Encyclopedia of Alabama and NPS, including Wetumpka and 21 v 23 million. Date and place hold.",
+   "fields_unsupported": []
+  },
+  "na-e-152": {
+   "status": "verified",
+   "note": "Date, negotiators, acreages and Article 14 on the cited pages. Wikipedia also names Nittucachee; omission harmless. Encyclopedia of Alabama adds that the chiefs twice rejected terms and that Eaton and Coffee then met them secretly: a stronger card could say so.",
+   "fields_unsupported": []
+  },
+  "na-e-153": {
+   "status": "partially-verified",
+   "note": "Statement verified on Choctaw Nation and Oklahoma Historical Society pages. Nanih Waiya only stands for the homeland (the note says so), so place.approximate should be true under the playbook.",
+   "fields_unsupported": [
+    "place.approximate"
+   ]
+  },
+  "na-e-154": {
+   "status": "verified",
+   "note": "Date, signers, acreage and sequence hold. Gibson's words are a quotation in Wikipedia's body (The Chickasaws, pp. 175-176), not checked in the book: a weak credit. Acreage has no named author; the figure rule covers tolls and armies, so left.",
+   "fields_unsupported": []
+  },
+  "na-e-155": {
+   "status": "verified",
+   "note": "Holds. May 1836 is right for the Senate vote; Wikipedia's lead 'March 1836' is contradicted by its own infobox (effective 23 May) and body.",
+   "fields_unsupported": []
+  },
+  "na-e-156": {
+   "status": "partially-verified",
+   "note": "Date, route, survivors, Payne's Landing and 1842 hold. 'About 180' warriors is stated flat with no one named; Wikipedia gives no authority. Fix: 'about 180 by one count', or give Alligator's account. The card also gives no totals; Wikipedia's infobox has 108 US and 3 Seminole killed, unattributed.",
+   "fields_unsupported": [
+    "statement: warrior count unattributed"
+   ]
+  },
+  "na-e-157": {
+   "status": "verified",
+   "note": "Holds; NPS and Oklahoma Historical Society tolls are attributed. Quote 'approximately 4,000' in Wikipedia matches. Ostler's point (most deaths in camps and after arrival) was not checked outside Wikipedia's footnote; the card's 'on the six-month march' is credited to NPS, so it stands, but this is a contested toll: Wikipedia's table runs to 8,000 and the notes could carry that.",
+   "fields_unsupported": []
+  },
+  "na-e-158": {
+   "status": "partially-verified",
+   "note": "Statement verified on the NPS page, read past the quotes. Tukabatchee is a stand-in (the note says so), so place.approximate should be true.",
+   "fields_unsupported": [
+    "place.approximate"
+   ]
+  },
+  "na-e-159": {
+   "status": "partially-verified",
+   "note": "Cherokee Nation page supports all facts, but 'The Cherokee sued: ... but in Worcester v. Georgia' reads as the Nation's own suit. The same page says Worcester was a missionary imprisoned under Georgia law. Fix: 'but in Worcester v. Georgia (1832), a missionary's case, the Supreme Court held...'.",
+   "fields_unsupported": [
+    "statement: Worcester framed as a Cherokee suit"
+   ]
+  },
+  "na-e-160": {
+   "status": "verified",
+   "note": "HistoryLink 5254 supports everything, read past the quotes.",
+   "fields_unsupported": []
+  },
+  "na-e-161": {
+   "status": "partially-verified",
+   "note": "Signing facts hold. 'Fighting continued in the region until ratification in 1859' strengthens Wikipedia's 'between the signing ... and the ratification, fighting continued', a single uncited sentence, and implies four years of war. Fix: 'Fighting broke out in the region before ratification in 1859.'",
+   "fields_unsupported": [
+    "statement: fighting until 1859"
+   ]
+  },
+  "na-e-162": {
+   "status": "verified",
+   "note": "HistoryLink names Hool-hol-tan as a Skokomish leader; $60,000 and the slavery and trade clauses are on Wikipedia. Date and place hold.",
+   "fields_unsupported": []
+  },
+  "na-e-163": {
+   "status": "partially-verified",
+   "note": "Date, ship, spread and Boyd's 14,000 hold. Two problems. (1) 'Officials vaccinated as many whites as possible and very few Indians' is HistoryLink's wording, stated flat, and the cited Wikipedia article reports about 500 Songhees vaccinated by Helmcken in April and 3,400 on the lower Fraser in May. Fix: credit it to HistoryLink and add those figures. (2) 'Another reckoning' of two-thirds, around 20,000, names no one; the footnote is Boyd 1999 p. 172 (the chapter's first page), and a search did not find the figures there. Fix: drop it, or keep it as Wikipedia-only in notes.",
+   "fields_unsupported": [
+    "statement: vaccination claim one-sided",
+    "statement: two-thirds figure unattributed"
+   ]
+  },
+  "na-e-164": {
+   "status": "partially-verified",
+   "note": "Facts all on Wikipedia and Smithsonian (the checker's miss is only the special characters in the name). Framing: 'massacred' and kind war.massacre are Wikipedia's word for an attack on a colonial post that Smithsonian calls an attack to oust colonizers, 'killing nearly all'. No Tlingit account is given. Fix: kind war.attack and 'killed many of'. June is Wikipedia only.",
+   "fields_unsupported": [
+    "kind",
+    "statement: massacred"
+   ]
+  },
+  "na-e-165": {
+   "status": "partially-verified",
+   "note": "Sequence, both withdrawal dates and Herb Hope (a Kiks.adi elder per Smithsonian) hold. The strength of 150 and 400-500 is flat and rests on Wikipedia alone. Fix: 'by one count', or name Lisyansky if a source for him is read.",
+   "fields_unsupported": [
+    "statement: force size unattributed"
+   ]
+  },
+  "na-e-166": {
+   "status": "verified",
+   "note": "Holds; signatories in Wikipedia's infobox, Article III in the treaty text. Participants list tlingit while the card says only two parties: consistent if participants means those affected.",
+   "fields_unsupported": []
+  },
+  "na-e-167": {
+   "status": "verified",
+   "note": "Holds. The order of events follows Wikipedia's two articles.",
+   "fields_unsupported": []
+  },
+  "na-e-168": {
+   "status": "verified",
+   "note": "Holds; Santa Cruz de Nuca, both ships (2 July arrival, seized that month) and the 1794 convention are on the cited pages.",
+   "fields_unsupported": []
+  },
+  "na-e-169": {
+   "status": "partially-verified",
+   "note": "FIELD confirmed: Wikipedia's Jewitt article has Boston at Woody Point, 'a few miles from any habitation', so the title's 'at Yuquot' and the exact pin aren't supported. Fix: title 'Capture of the trading ship Boston in Nootka Sound', place.approximate true (Jewitt's Narrative not read). Date field can take day 22 March since the card uses it. War.massacre is one-sided for a sole-survivor narrative: use war.attack. The card omits Salter's insult over the musket, the proximate cause in the same article.",
+   "fields_unsupported": [
+    "title",
+    "place",
+    "kind"
+   ]
+  },
+  "na-e-170": {
+   "status": "verified",
+   "note": "Holds on Wikipedia, including Nookamis as elder and Joseachal as sole source. Single page. Date field could become 15 June 1811, day precision, since the card and page give it.",
+   "fields_unsupported": []
+  },
+  "na-e-171": {
+   "status": "verified",
+   "note": "Holds. Read past the quote: 45 charged, 22 suspended, 20 sent to Oakalla, as the card says.",
+   "fields_unsupported": []
+  },
+  "na-e-172": {
+   "status": "verified",
+   "note": "Holds. Wikipedia's Duncan article has permission before the voyage and Metlakatla's has the reserve in 1891; the card follows the second, correctly.",
+   "fields_unsupported": []
+  },
+  "na-e-173": {
+   "status": "verified",
+   "note": "Holds. 'Eleven of them' assumes Wikipedia's 'among the PFC men' means the 33; reasonable.",
+   "fields_unsupported": []
+  },
+  "na-e-174": {
+   "status": "verified",
+   "note": "Holds. Omitting the 150,000 is right: unattributed on the page.",
+   "fields_unsupported": []
+  },
+  "na-e-175": {
+   "status": "partially-verified",
+   "note": "Quotes hold, and a search confirms Glotov's destruction of southern Umnak as well as Solovief's campaign. But 'by one count' hides who gives 175, and other counts run from 188 to over 375 (found in web sources of low weight). Title says Unalaska while the fighting covered the Fox Islands. Fix: say counts vary widely instead of giving one number, or find Black's Russians in Alaska. NLM dates its entry 1766 and gives no source.",
+   "fields_unsupported": [
+    "statement: 175 figure unattributed"
+   ]
+  },
+  "na-e-176": {
+   "status": "partially-verified",
+   "note": "NPS parts hold, attributed. 'Another account' of 25,000 to under a tenth names no one on Wikipedia. Fix: drop it; NPS's range and its 'nearly 80%' are enough. 'By 1760' is NPS's wording, but the Unalaska card and Wikipedia have a permanent post only in 1774: keep it credited. Kind war.campaign is loose for a colonization.",
+   "fields_unsupported": [
+    "statement: 25,000 unattributed"
+   ]
+  },
+  "na-e-177": {
+   "status": "verified",
+   "note": "Holds on Seattle Times, read past the quote: Black also says Shelikhov overstated the threat and Britiukov understated it, which fits. The same article gives about 2,000 at the refuge. CoastView's at least 300 is in the notes. 130 men is the paper's figure, stated flat: minor.",
+   "fields_unsupported": []
+  },
+  "na-e-178": {
+   "status": "partially-verified",
+   "note": "Statement holds on Wikipedia. FIELD confirmed: Qaanaaq is not the find site; the old Thule site is Pituffik (Q1991632), and Qaanaaq is the relocated settlement. Since a migration has no one place, set place.approximate true; move the pin to Pituffik if it should match the card's last sentence.",
+   "fields_unsupported": [
+    "place"
+   ]
+  },
+  "na-e-179": {
+   "status": "verified",
+   "note": "Holds; DCB read past the quotes. Month precision is right given 18 August v 'late August'.",
+   "fields_unsupported": []
+  },
+  "na-e-180": {
+   "status": "verified",
+   "note": "Holds on Wikipedia alone. 'Later' covers a smallpox epidemic of the 1730s; a date would read better. The page calls Egede a Norwegian Lutheran priest; the card's 'Dano-Norwegian' is not its word, though fair for a subject of Denmark-Norway. Use 'Norwegian' to match.",
+   "fields_unsupported": []
+  },
+  "na-e-181": {
+   "status": "verified",
+   "note": "PDF chronology, Clarion and Wikipedia all confirm. 1791 v 1786 founding isn't on the card. The Clarion is a reporter's summary of Boraas's talk, and the card credits Boraas: acceptable, but no Russian account was read.",
+   "fields_unsupported": []
+  },
+  "na-e-182": {
+   "status": "partially-verified",
+   "note": "Facts hold on NPS and Wikipedia. Kind war.massacre isn't supported: NPS only says the party 'was killed', with no cause or circumstances. Fix: kind war.attack or war.incident.",
+   "fields_unsupported": [
+    "kind"
+   ]
+  },
+  "na-e-183": {
+   "status": "partially-verified",
+   "note": "Statement verified on NPS. FIELD confirmed: no treaty was made. Fix: kind 'contact'.",
+   "fields_unsupported": [
+    "kind"
+   ]
+  },
+  "na-e-184": {
+   "status": "partially-verified",
+   "note": "Date and council hold. 'Accounts frame it differently' presents a likely error as a framing dispute. NPS's 'cede 7.5 million' clashes with NPS's own next lines, which cut the 1855 reservation by 90%, and with the Tribe's 750,000 after 1863: that arithmetic needs about 7.5 million retained. An Idaho state source also gives a reservation of some 7.5 million (a Tribe page gives 5.5 million). Fix: 'keeping a reservation of about 7.5 million acres by the Tribe's account'; move the NPS wording to notes.",
+   "fields_unsupported": [
+    "statement: 7.5 million ceded"
+   ]
+  },
+  "na-e-185": {
+   "status": "verified",
+   "note": "Holds. Date and place on the treaty text.",
+   "fields_unsupported": []
+  },
+  "na-e-186": {
+   "status": "partially-verified",
+   "note": "Sequence holds; NPS names Chapman. 'By one count' can name its source: the NPS page itself gives thirty-four dead and three Nez Perce wounded. Strengths are Wikipedia's, unattributed, and leave out 13 Nez Perce scouts. Fix: 'by the National Park Service's count', and 'about 70 warriors, by one count'. Place has no qid: fill it. The researcher left off Wikipedia's claim that many warriors were drunk, untraced; a reasonable call.",
+   "fields_unsupported": [
+    "statement: figures unattributed",
+    "place.qid"
+   ]
+  },
+  "na-e-187": {
+   "status": "partially-verified",
+   "note": "Sequence holds. NPS's 800 describes the people fleeing over the summer; Wikipedia supports about 800 by late September but its infobox has 700. Fix: credit the 800 and the 431 (Wikipedia's footnote to Greene, unchecked). The speech is quoted flat; Wikipedia says Ad Chapman translated it and notes Lt. Wood's account. Fix: 'in the words recorded by the army'. NPS has 30 to 50 with White Bird against Wikipedia's about 50.",
+   "fields_unsupported": [
+    "statement: figures unattributed",
+    "statement: speech wording"
+   ]
+  },
+  "na-e-188": {
+   "status": "verified",
+   "note": "Holds on Wikipedia's Nez Perce War. 268 has no named author; not a toll or an army, so left.",
+   "fields_unsupported": []
+  },
+  "na-e-189": {
+   "status": "verified",
+   "note": "Holds on the Yakama Nation and HistoryLink.",
+   "fields_unsupported": []
+  },
+  "na-e-190": {
+   "status": "verified",
+   "note": "Holds on HistoryLink; 'September 1955' there is a typo for 1855, as the note says. The 300 and 84 are stated flat in the opening: add 'by HistoryLink's count' at the start to cover them.",
+   "fields_unsupported": []
+  },
+  "na-e-191": {
+   "status": "verified",
+   "note": "Holds. No Cayuse account of the day was read, but the card gives their reasoning and defence.",
+   "fields_unsupported": []
+  },
+  "na-e-192": {
+   "status": "partially-verified",
+   "note": "Quote stops short: 'its only fight being with Palouse' comes from a passage on Gilliam's later pursuit. Earlier on the same Oregon Encyclopedia page the column was 'slowed by two brief fights with Cayuse'. Fix: 'its last pursuit found only Palouse with no connection to the killings'. The rest holds. The title's 'ends' follows the Encyclopedia's narrative; Wikipedia runs the war to 1855.",
+   "fields_unsupported": [
+    "statement: only fight"
+   ]
+  },
+  "na-e-193": {
+   "status": "verified",
+   "note": "Holds on CTUIR and the treaty text.",
+   "fields_unsupported": []
+  },
+  "na-e-194": {
+   "status": "verified",
+   "note": "Holds. Hoecken's words are known only through Wikipedia; naming him on the card ('the Jesuit Adrian Hoecken') would be better.",
+   "fields_unsupported": []
+  },
+  "na-e-195": {
+   "status": "verified",
+   "note": "Holds on Wikipedia; New World Encyclopedia corroborates October 1891.",
+   "fields_unsupported": []
+  },
+  "na-e-196": {
+   "status": "partially-verified",
+   "note": "Stevens's promise covers only Spokane land, and only 'as long as the tribe agreed to remain peaceful'; the card extends it to Coeur d'Alene land and drops the condition. Fix: 'after entering Spokane land against Governor Stevens's promise to respect it while the tribe stayed peaceful'. The rest holds. HistoryLink gives 17-18 May against the Tribe's and Wikipedia's 17 May; date stays.",
+   "fields_unsupported": [
+    "statement: scope of promise"
+   ]
+  },
+  "na-e-197": {
+   "status": "partially-verified",
+   "note": "'More than 700 troops' and 'fewer than 500' are HistoryLink's, stated flat; Wikipedia counts about 700 including 200 civilian drovers, and another page 601 men. Fix: credit HistoryLink. 'Five times the range' is Wikipedia's uncited claim: credit or drop. FIELD: the statement and sources have Yakama; add yakama to participants.",
+   "fields_unsupported": [
+    "statement: figures unattributed",
+    "participants"
+   ]
+  },
+  "na-e-198": {
+   "status": "verified",
+   "note": "Holds on HistoryLink and Wikipedia. Place has no qid: fill it.",
+   "fields_unsupported": []
+  },
+  "na-e-199": {
+   "status": "partially-verified",
+   "note": "FIELD confirmed: Q7578862 is Spokane Falls, a waterfall. Fix: Liberty Lake Q916956, approximate true. Quote stops short: Wright goes on to call the chastisement 'severe but well merited', so 'deeply regretted' alone flatters him. Fix: add it. The title's flat 800 conflicts with the card's 600-900: drop the number. Wikipedia's herd was guarded by elders and children, a detail worth having. Date: 8 v 9-10 September, on the card.",
+   "fields_unsupported": [
+    "place",
+    "title",
+    "statement: Wright quotation"
+   ]
+  },
+  "na-e-200": {
+   "status": "partially-verified",
+   "note": "Statement holds on HistoryLink. Place carries Spokane Falls Q7578862, but the hangings were on Latah (Hangman) Creek: use Q3218434, approximate true. Wikipedia's 'seventeen Palouse' goes on to count Qualchan, a Yakama, among them, so 'seventeen hanged' is safer. HistoryLink's summary and body differ on the day for the six.",
+   "fields_unsupported": [
+    "place",
+    "statement: seventeen Palouse"
+   ]
+  },
+  "na-e-201": {
+   "status": "partially-verified",
+   "note": "Terms hold on Wikipedia. The note's 'date rests on the Tribe's page alone' is out of date: Wikipedia's Battle of Spokane Plains (cited on na-e-199) also gives 17 September, and calls it a 'document of surrender', so a contested framing goes unstated. A search also found Wright's own title, 'Preliminary Articles of a Treaty of Peace and Friendship'. Fix: add that other accounts call it a surrender. FIELD: web sources put the signing at the Coeur d'Alene (Sacred Heart) Mission, Cataldo, reached 15 September: move the place there (no qid found by search). Spokane seem to have met Wright separately later, at Latah Creek, so check the spokane participant.",
+   "fields_unsupported": [
+    "place",
+    "participants",
+    "statement: framing"
+   ]
+  },
+  "na-e-202": {
+   "status": "verified",
+   "note": "Holds on the treaty text and Wikipedia. Mines rests on Article IV, as noted.",
+   "fields_unsupported": []
+  },
+  "na-e-203": {
+   "status": "partially-verified",
+   "note": "Figures hold, but the page goes on to a Shoshone count the card omits: Sagwitch's son Frank Timbimboo Warner said in 1918 that 156 were killed. On a toll this contested, that belongs on the card. 'Modern estimates' is not the page's wording; its footnote gives 250 (Madsen), 350, 400 and 493, and 493 is Jasperson's own count from 1911. Fix: name Madsen's 250 and Warner's 156. Place has no qid.",
+   "fields_unsupported": [
+    "statement: Shoshone count omitted",
+    "place.qid"
+   ]
+  },
+  "na-e-204": {
+   "status": "partially-verified",
+   "note": "Statement holds. FIELD confirmed: the treaty text says Box Elder; Q49784552 is Cache Valley. Fix: Brigham City Q482976 (Box Elder), name 'Box Elder (Brigham City), Utah'. Wikipedia's 'this killing' may mean Bear Hunter's death rather than the massacre: minor.",
+   "fields_unsupported": [
+    "place"
+   ]
+  },
+  "na-e-205": {
+   "status": "verified",
+   "note": "Holds. 3.2 of 44 million is under a tenth. The Tribes' claim is credited against the treaty's conditional wording.",
+   "fields_unsupported": []
+  },
+  "na-e-206": {
+   "status": "verified",
+   "note": "Holds. Each account of Williams Station is on its cited page.",
+   "fields_unsupported": []
+  },
+  "na-e-207": {
+   "status": "verified",
+   "note": "FIELD: keep the date. The card's vision is the one during the 1 January 1889 eclipse, a fixed date, and it says the date is disputed. The 1887 date is Thatcher's for a 'first vision'. The checker's miss on the quote is real: Wikipedia now reads 'Wovoka said he had a prophetic vision after falling into a coma'. Update the quote.",
+   "fields_unsupported": []
+  },
+  "na-e-208": {
+   "status": "partially-verified",
+   "note": "Card is honest about its one page, but better sources exist. Local histories (Lassen Historical Society, Purdy; Wikipedia's own Potato War article) have Washoe at Morehead's potato patch in October 1857 and settlers then attacking their camp, so FIELD: keep washoe. The Pit River attribution belongs to the old history's account of Weatherlow's company. Fix: cite one of these, and set kind to war.campaign or war.incident. Counts there vary (7 to 11 killed).",
+   "fields_unsupported": [
+    "kind",
+    "citations"
+   ]
+  },
+  "na-e-209": {
+   "status": "partially-verified",
+   "note": "Dates and Jackson's march hold. 'Civilians burned Jack's village, killing a woman and child' overreads NPS: civilians made an unauthorized attack on a village across the river, and 'these skirmishes' resulted in the burning and deaths. Fix: 'Civilians attacked a village across the river; the skirmishes burned Jack's village and left a Modoc woman and child dead.' 40 troops is Wikipedia's. FIELD conflict Green v Jackson resolved correctly.",
+   "fields_unsupported": [
+    "statement: who burned the village"
+   ]
+  },
+  "na-e-210": {
+   "status": "partially-verified",
+   "note": "Statement holds. FIELD confirmed: kind should be state.execution, which already exists in the catalogue. Tried and convicted of murder per NPS.",
+   "fields_unsupported": [
+    "kind"
+   ]
+  },
+  "na-e-211": {
+   "status": "verified",
+   "note": "Holds. Yurok page speaks of McKee's treaties, and 'Congress' where others say the Senate; credited to the Tribe.",
+   "fields_unsupported": []
+  },
+  "na-e-212": {
+   "status": "verified",
+   "note": "Holds on Wikipedia, read past the quotes.",
+   "fields_unsupported": []
+  },
+  "na-e-213": {
+   "status": "partially-verified",
+   "note": "FIELD: 'under Father Serra' on 29 June is not what the better accounts say; Palou is consistently named for the first Mass on 29 June, and 9 October is the formal founding. Wikipedia's infobox credits Palou and Serra as founders. Fix: 'Palou said the first Mass on 29 June 1776; the mission was formally founded on 9 October', keeping the date field. The 6,000 burials are an infobox figure with no name, while the Foundation says more than 5,000 had died by 1832: use and credit that.",
+   "fields_unsupported": [
+    "date (attribution to Serra)",
+    "statement: 6,000 unattributed"
+   ]
+  },
+  "na-e-214": {
+   "status": "verified",
+   "note": "Holds. 'Rules and regulations' and the abuse account are both credited, a fair handling of a contested cause.",
+   "fields_unsupported": []
+  },
+  "na-e-215": {
+   "status": "partially-verified",
+   "note": "Statement holds. FIELD confirmed: the 1769 site was the hill, about six miles from the present mission, per the same sources. Fix: place on Presidio Hill; a search returned Q49064059, which must be checked as the San Diego hill before use.",
+   "fields_unsupported": [
+    "place"
+   ]
+  },
+  "na-e-216": {
+   "status": "partially-verified",
+   "note": "Everything is on Wikipedia, but the toll's chief credit is second-hand: no NPS page could be found by search. 'Others say 200' names no one. Fix: 'one estimate has 60 of 400' unless the NPS source is found. Sherman's 800 is correctly framed as his claim.",
+   "fields_unsupported": [
+    "statement: NPS credit unconfirmed"
+   ]
+  },
+  "na-e-217": {
+   "status": "partially-verified",
+   "note": "FIELD confirmed: no cited page gives 25 March. Wikipedia and an archived NPS page give 27 March; other web sources give 21 or 25. Fix: date 27 March 1851. 'The first non-Indigenous force' breaks the wording rule: use 'the earliest known'. The rest holds.",
+   "fields_unsupported": [
+    "date",
+    "statement: first"
+   ]
+  },
+  "na-e-218": {
+   "status": "partially-verified",
+   "note": "Holds as Burrill via Wikipedia, with Anderson's words second-hand too. 'It is estimated' for the sixty names no one, and the 33 escaping has no author. Fix: leave the sixty off, or find it in Kroeber or Burrill directly. Date: Wikipedia's Yahi article has 6 August 1865; precision stays year.",
+   "fields_unsupported": [
+    "statement: sixty unattributed"
+   ]
+  },
+  "na-e-219": {
+   "status": "partially-verified",
+   "note": "'Against 31 soldiers' is wrong by the same article: 29 dead were 23 soldiers and six civilian volunteers, and two wounded died later. Fix: '31 of Gibbon's men'. Read past the infobox: the body says no precise estimate exists, and 'most were women and children'; the card says only 'perhaps thirty warriors'. Fix: say it. 'About 180' is Gibbon's report per NPS (183), Wikipedia's infobox 206: credit Gibbon. War.massacre against a title saying Battle is a framing choice for the user; the NPS testimonies support the massacre reading.",
+   "fields_unsupported": [
+    "statement: 31 soldiers",
+    "statement: figures unattributed"
+   ]
+  },
+  "na-e-220": {
+   "status": "partially-verified",
+   "note": "Chronology is wrong. Wikipedia's Sarah Winnemucca article puts the Washington visit in winter 1879-80, after Rinehart's August 1879 report and the Commissioner's discontinuing the agency in October 1879, so 'Instead ... that year' reverses them. Fix: 'Rinehart's report of August 1879 and settlers' pressure brought the agency's closure that October; that winter Sarah Winnemucca lobbied in Washington, and Schurz allowed a return at their own expense.' The same article quotes an official saying the Secretary soon revoked the permission: worth adding.",
+   "fields_unsupported": [
+    "statement: order of events"
+   ]
+  },
+  "na-e-221": {
+   "status": "partially-verified",
+   "note": "Statement holds. FIELD confirmed: Chapter 133, Cal. Stats., is dated 22 April 1850. Fix: date day precision. 'Passed' should be 'enacted', given the Assembly vote on 19 April in the note.",
+   "fields_unsupported": [
+    "date.precision",
+    "statement: passed"
+   ]
+  },
+  "na-e-222": {
+   "status": "verified",
+   "note": "Wording confirmed against the California State Library's text of the address (governors.library.ca.gov/addresses/s_01-Burnett2.html), which also says delivered 6 January; add it as a citation. Some historians (Nokes; the California Research Bureau essay) date it 7 January: add to notes. Then 'three days later' holds. Replaces Wikipedia's '[page needed]' sourcing.",
+   "fields_unsupported": []
+  }
+ }
+}

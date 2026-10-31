@@ -6,10 +6,6 @@
       "name": "AIATSIS Map of Indigenous Australia (David Horton, 1996)",
       "why": "Not usable as boundaries: AIATSIS states the map shows only the general location of larger groupings, is not suitable for native title or land claims, and is not to be reproduced without permission. The Australia scene draws no Aboriginal nation boundaries."
     },
-    "lcie-dryad": {
-      "name": "Large carnivore distribution maps for Europe 2012-16 and 2017-22/23 (Kaczensky et al., LCIE; Dryad)",
-      "why": "The best Europe-wide source for wolf, bear, lynx and wolverine (CC0), but Dryad now serves files only to signed-in API clients or behind a proof-of-work bot check, which the build does not pass. Use it if someone downloads the zips by hand (doi:10.5061/dryad.pc866t1p3, doi:10.5061/dryad.3xsj3txrc)."
-    },
     "iucn-ranges": {
       "name": "IUCN Red List spatial data (species ranges)",
       "why": "Its terms forbid redistribution and derived products without permission, and it gives one current range per species, not ranges by date."
@@ -18,9 +14,13 @@
       "name": "eBird Status and Trends (Cornell Lab)",
       "why": "Modelled abundance under a non-commercial licence, and only for recent years, so no 20th-century recovery."
     },
+    "gbif": {
+      "name": "GBIF occurrence records (the dated Wildlife records layer, removed 2026-10-31)",
+      "why": "Records rise as animals vanish: bison records peak in the 1880s, as the herds were destroyed, because collectors raced to get specimens. The layer showed collecting, not population. See docs/design/policy.md."
+    },
     "gbif-density": {
       "name": "GBIF occurrence density by decade",
-      "why": "Mostly maps where people looked: record counts track collectors and apps, not animals. The dated records stay as a hidden reference layer (Wildlife records)."
+      "why": "Mostly maps where people looked: record counts track collectors and apps, not animals."
     },
     "coldat": {
       "name": "Colonial Dates Dataset (COLDAT, Becker 2019)",
@@ -341,7 +341,7 @@
       "url": "https://www.naturalearthdata.com/",
       "review": {"kind": "community", "evidence": "Natural Earth, made by volunteer cartographers", "url": "https://www.naturalearthdata.com/about/", "quote": "Making Natural Earth is a collaboration involving many volunteer NACIS members and cartographers around the globe.", "checked": "2026-10-27", "note": "Full citation: Natural Earth, made by volunteer NACIS members (led by Nathaniel Vaughn Kelso and Tom Patterson). Community, not none: it is made by named volunteer professional cartographers rather than crowd-edited, but it has no methods paper or documented expert review, and NACIS is a society, not an agency."},
       "coverage": "Worldwide.",
-      "steps": ["fetch.natural_earth", "base.veg", "base.coast", "base.world_land", "history.wildlife (admin-1 label points)", "presence.art17, presence.bbs, presence.farming (land and admin-0 masks)"],
+      "steps": ["fetch.natural_earth", "base.veg", "base.coast", "base.world_land", "presence.art17, presence.bbs, presence.farming (land and admin-0 masks)"],
       "caveats": ["Modern coastlines and river courses."]
     },
     "hyde": {
@@ -417,6 +417,7 @@
       "note": "Cite: United Nations, DESA, Population Division (2024), World Population Prospects 2024."
     },
     "maddison": {
+      "papers": "https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2023",
       "name": "Maddison Project Database 2023, Bolt & van Zanden 2024",
       "licence": "CC BY 4.0",
       "cls": "attribution",
@@ -431,7 +432,7 @@
       },
       "coverage": "GDP per head (2011 international dollars) and population: 169 countries and aggregate regions, some from 1 CE, most at scattered dates before 1820.",
       "steps": ["base.indicators (income before 1800, and the population weights before 1800)"],
-      "caveats": ["Licence confirmed 2026-10-30 from its DataverseNL record: CC-BY-4.0.", "Before 1820 the figures are few, and are estimates; each stands for up to 50 years on the map, and the card names its year.", "In 2011 dollars where the later series are in 2021 dollars: not rebased.", "Its record asks that all original papers be cited when the data is shown in graphical form. The list is the database's own Sources sheet (mpd2023_web.xlsx); the atlas cites the database paper and links the record, and does not reproduce that list."],
+      "caveats": ["Licence confirmed 2026-10-30 from its DataverseNL record: CC-BY-4.0.", "Before 1820 the figures are few, and are estimates; each stands for up to 50 years on the map, and the card names its year.", "In 2011 dollars where the later series are in 2021 dollars: not rebased.", "Its release page asks that all original papers be cited when the data is shown in graphical form, and says their list is the database's own source sheet (mpd2023_web.xlsx, linked from that page). The atlas cites the database paper and links that page (papers), and does not reproduce the list."],
       "note": "Cite Bolt & van Zanden 2024."
     },
     "owid": {
@@ -506,15 +507,17 @@
       "caveats": ["Placed by the map's own projection, measured on the scan; one longitude offset fitted on a few control points.", "Control points were read from the scan by AI (Claude) and are not yet verified."],
       "note": "Each map's source file is in sources/oldmaps/, with its projection and control points."
     },
-    "gbif": {
-      "name": "GBIF occurrence records (museum specimens and observations)",
-      "licence": "Per dataset: CC0, CC BY 4.0 or CC BY-NC 4.0; each record keeps its own",
+    "aowl": {
+      "name": "American Offshore Whaling Logbook Data (New Bedford Whaling Museum, Nantucket Historical Association, Mystic Seaport Museum)",
+      "licence": "CC BY 4.0: the readme in the download says \"licensed under a Creative Commons Attribution 4.0 International License\"",
       "cls": "attribution",
-      "url": "https://www.gbif.org/",
-      "review": {"kind": "community", "evidence": "GBIF, records from many publishers, unreviewed", "url": "https://training.gbif.org/en/intro-to-gbif/about-gbif", "quote": "GBIF operates as a federated system of distributed data publishing efforts, coordinated through a global informatics infrastructure and collaborative network.", "checked": "2026-10-27", "note": "Full citation: GBIF, federated network of data-publishing institutions (intergovernmental secretariat, no record-level review). GBIF itself is funded by governments, but it aggregates records from museums and citizen-science publishers without reviewing them; the same page says 'we do not resolve data heterogeneity for you'. Quality varies per dataset (museum specimens are curated, observations often are not). gbif.org/what-is-gbif blocked automated fetching, so the GBIF training page is quoted."},
-      "coverage": "Worldwide; dated records of species. For North America before 1900, densest from 1850.",
-      "steps": ["history.wildlife"],
-      "caveats": ["Presence only: few records means few collectors as much as few animals.", "Most records before 1900 have no coordinates; those naming a state or province are placed at its Natural Earth label point and drawn as rings.", "Records under CC BY-NC drop out when the commercial-use filter is on. Each record links to its GBIF page, which cites its dataset."]
+      "url": "https://whalinghistory.org/av/logs/aowl/",
+      "review": {"kind": "none", "evidence": "Museum consortium's database, built from abstracts of logbooks", "url": "https://whalinghistory.org/av/logs/aowl/about/", "quote": "Latitude and longitude readings can be subject to error in the region of 2 to 3 degrees in any direction", "checked": "2026-10-31", "note": "Full citation: About Consolidated Logbook Data, whalinghistory.org. None, not peer-reviewed: the CoML part has a peer-reviewed methods paper (Smith, Reeves, Josephson and Lund 2012, PLoS ONE 7(4): e34905, doi:10.1371/journal.pone.0034905), but most of the rows this layer uses are Maury's abstracts of the 1850s, which it does not cover."},
+      "evidence": "observed",
+      "coverage": "About 1,500 logbooks of American and a few British offshore whaling voyages, 1784-1920; 468,249 rows. The layer uses the 446,337 rows of the two sources that log every day (Maury, CoML).",
+      "steps": ["history.whaling"],
+      "caveats": ["Encounters per logged day measure the hunt as well as the whale: ships went where they expected whales and chased them. It is not abundance.", "Positions are off by about 2-3 degrees: noon was usually the only reading.", "Many entries say only \"Whale\"; they are not counted, so rates are floors. Whaling History says in about 1 in 3 of Maury's abstracts \"whale\" should be read as right whale.", "In and north of Bering Strait, logged \"right whales\" were more likely bowheads (Smith et al. 2012).", "Maury's abstracts often leave out enclosed seas such as the Okhotsk and early North Atlantic legs.", "After 1860 the logs are few and from one source (CoML): 37 voyages in the 1860s, 14 in the 1870s, 12 in the 1880s, 13 in the 1890s. A cell under 100 logged days or 3 voyages in a decade is no data, never zero. 76% of logged days fall in a cell shown.", "Townsend (strike days only), IOSRW (right whale strikes added for one study), BSWF and Chatwin (mostly encounter days) are left out, since their days would count only encounters. On a day both Maury and CoML abstracted, CoML's row is used."],
+      "note": "Readme of the 2025-09-16 release, saved at docs/design/licences/aowl-readme-20250916.txt. Preferred citation: American Offshore Whaling Logbook Data, https://whalinghistory.org, New Bedford Whaling Museum, Nantucket Historical Association, and Mystic Seaport Museum, Inc. The site's data pages also say \"For research purposes, the complete database may be downloaded\"; see licensing.md."
     },
     "bbs": {
       "name": "North American Breeding Bird Survey 1966-2023 (USGS and ECCC; Ziolkowski et al. 2024)",
@@ -544,6 +547,34 @@
       "Spain and some others had no public 2019-24 distribution for some species at build time: no data there, not absence.",
       "The 2019-24 service names no licence of its own; the EEA legal notice puts its content under CC BY 4.0 unless stated otherwise."],
       "note": "European Environment Agency, Conservation status of habitat types and species: datasets from Article 17, Habitats Directive 92/43/EEC reporting (public versions)."
+    },
+    "hornaday-1889": {
+      "name": "Map illustrating the extermination of the American bison (William T. Hornaday, 1889; Library of Congress g3301d.ct000308)",
+      "licence": "US public domain: a US Government publication of 1889 (Government Printing Office). The Library of Congress is not aware of any US copyright protection.",
+      "cls": "public",
+      "url": "https://www.loc.gov/item/2002628195/",
+      "review": {"kind": "none", "evidence": "Hornaday 1889, Report of the National Museum 1886-87", "url": "https://www.gutenberg.org/files/17748/17748.txt", "quote": "the whole number of individuals of _Bison americanus_ now living is 1,091.", "checked": "2026-10-31", "note": "A museum curator's reconstruction from correspondents and his own expedition, published by the government in 1889, long before any review practice this scale means. Rights read from the Library of Congress item page at the Wayback Machine's capture of 23 Dec 2024, because loc.gov refuses automated readers; the scan is the copy on Wikimedia Commons, pinned by sha1."},
+      "evidence": "reconstructed",
+      "coverage": "North America, with ranges for 1870, 1875, 1880 and 1884, wild herds on 1 January 1889, and years the bison was gone by locality, from about 1720.",
+      "steps": ["presence.hornaday"],
+      "caveats": ["Hornaday's own reconstruction, from reports he gathered: neither a survey nor a modern estimate.", "Lines are lifted from the map's inks through its printed graticule: control points typically about 11 km off when left out of the fit, and the map's towns about 25 km from where its graticule puts them.", "The area once inhabited is undated, and mainly after J. A. Allen."],
+      "note": "Hornaday, W. T. 1889, The Extermination of the American Bison, Report of the National Museum 1886-87, pp. 369-548. Method and proof: docs/design/hornaday-bison.md."
+    },
+    "lcie-dryad": {
+      "name": "Large carnivore distribution maps for Europe, 2012-16 and 2017-22/23 (Kaczensky et al.; Ranc et al.; LCIE; Dryad)",
+      "licence": "CC0 1.0 on both Dryad records (doi:10.5061/dryad.pc866t1p3, doi:10.5061/dryad.3xsj3txrc); no licence is stated in the files themselves",
+      "cls": "public",
+      "url": "https://doi.org/10.5061/dryad.3xsj3txrc",
+      "review": {"kind": "none", "evidence": "Kaczensky et al. 2024, report to the European Commission (IUCN/SSC LCIE)", "url": "https://doi.org/10.5061/dryad.3xsj3txrc", "quote": "The mapping approach generally follows the methods described in (Chapron et al. 2014)", "checked": "2026-10-31", "note": "Compiled from national experts' maps by an IUCN specialist group. The README says the approach 'generally follows' Chapron et al. 2014 (Science) and Kaczensky et al. 2013, but that is not a methods paper for these maps, and no review of the maps themselves was found, so this is recorded as none."},
+      "evidence": "observed",
+      "coverage": "Continental EU, Norway, Switzerland, the Balkans, Ukraine to a straight line in its west, European Turkey; 10 km grid; 2012-16 and 2017-22/23. Wolf, lynx, brown bear, wolverine in both, golden jackal in the later.",
+      "steps": ["presence.lcie (the zips can't be fetched by script: Dryad blocks it. Press Download dataset on doi:10.5061/dryad.pc866t1p3 and doi:10.5061/dryad.3xsj3txrc, unzip the first into .cache/lcie/v2021 and the second into .cache/lcie/v2024, leaving the inner zips zipped. Without them the build skips this set with a message and keeps its last entry; etl/presence/lcie.py has the file list.)"],
+      "caveats": ["Hungary, Montenegro and Turkey were not fully mapped in 2012-16, so the later map can't be compared with it there: no data for 2012-16, even for the cells it has.",
+      "Golden jackal: the 2012-16 dataset used here has no jackal, so no data for that period, not absence. A separate map exists (Ranc et al. 2022, doi:10.5281/zenodo.6382215, CC BY 4.0, not used).",
+      "Ukraine is cut at a straight line and only European Turkey is included. The source gives no coordinates for the line, so coverage stops at the easternmost Ukrainian cell mapped.",
+      "PRESENCE has no status for much of the later map (58% of the jackal's cells, most of Italy's wolf cells, all of Finland's wolverine cells): status changes between the periods are not trends.",
+      "2012-16 has no country or data-quality fields. In 2017-22/23 the wolf file labels all 264 of its Bosnian cells Lynx lynx: read as wolf, from the file and the population named."],
+      "note": "Kaczensky, P. et al. 2021, Distribution of large carnivores in Europe 2012-2016: distribution maps for brown bear, Eurasian lynx, grey wolf and wolverine, Dryad, doi:10.5061/dryad.pc866t1p3; Ranc, N. et al. 2022, the same period's golden jackal map, credited by the later dataset as part of the layers it updates, doi:10.5281/zenodo.6382215; Kaczensky, P., Ranc, N., Hatlauf, J., Payne, J.C. et al. 2024, Large carnivore distribution maps and population updates 2017-2022/23, report to the European Commission, IUCN/SSC LCIE and IEA, Dryad, doi:10.5061/dryad.3xsj3txrc."
     },
     "cradles-research": {
       "name": "First farmers and cities: dated sites (AI research catalogue cradles-12500-500-bce)",

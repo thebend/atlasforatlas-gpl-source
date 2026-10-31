@@ -20,7 +20,7 @@ import numpy as np
 from PIL import Image
 
 from etl import net
-from etl.common import CACHE, CFG, LAT0, LAT1, LON0, LON1, OUT, ROOT, SCACHE, grid, tile_xy, write_json
+from etl.common import CACHE, CFG, CROSSES, LAT0, LAT1, LON0, LON1, OUT, ROOT, SCACHE, grid, tile_xy, write_json
 
 Z = CFG['dem_z']
 STEP = CFG['terrain_step']
@@ -73,12 +73,16 @@ def main() -> None:
     gx, gy = tile_xy(LON1, LAT0, Z)
     tiles = {}
     last = 2 ** Z - 1                          # lon 180 / lat -85 fall one tile past the grid's edge
-    for tx in range(int(fx), min(int(gx), last) + 1):
+    n = 2 ** Z
+    # past the date line the tile columns start again from the first
+    columns = sorted({x % n for x in range(int(fx), int(gx) + 1)}) if CROSSES else range(int(fx), min(int(gx), last) + 1)
+    for tx in columns:
         for ty in range(int(fy), min(int(gy), last) + 1):
             tiles[(tx, ty)] = load_tile(tx, ty)
     print("tiles", len(tiles))
-    n = 2 ** Z
     px = (lons + 180) / 360 * n
+    if CROSSES:
+        px %= n
     r = np.radians(lats)
     py = (1 - np.log(np.tan(r) + 1 / np.cos(r)) / np.pi) / 2 * n
     H = np.zeros(lons.shape)

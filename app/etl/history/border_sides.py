@@ -81,6 +81,12 @@ def cshapes_sources(opt: dict) -> list[dict]:
     return feats
 
 
+def clio_name(top: str) -> str:
+    """The name of a row's composite. A row in two composites has both, "A);(B" once etl.fetch.borders has
+    stripped the outer brackets ("(Kingdom of the Franks);(Merovingian Empire)"): B is the narrower."""
+    return top.split(");(")[-1]
+
+
 def cliopatria_sources(opt: dict) -> list[dict]:
     until = opt.get("until")
     # from CShapes' start, a power CShapes maps (sides.json "cshapes") is drawn from CShapes alone
@@ -103,7 +109,7 @@ def cliopatria_sources(opt: dict) -> list[dict]:
             if y0 >= CSHAPES_START:
                 continue
             y1 = min(y1, CSHAPES_START)
-        name = SIDES[sid]["name"] if sid in SIDES else top
+        name = SIDES[sid]["name"] if sid in SIDES else clio_name(top)
         # {"weights": {"Warring States Japan": 0.3}}: a row drawn faintly, under the research claims that divide it
         w = opt.get("weights", {}).get(top, opt.get("weight", 0.8))
         feats.append({"side": sid, "name": name, "names": {sid: name}, "y0": y0, "y1": y1, "geom": shape(f["geometry"]),

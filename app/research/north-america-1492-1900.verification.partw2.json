@@ -1,0 +1,473 @@
+{
+ "meta": {
+  "method": "Events from position 69 to the end of the recheck list (67 items, na-e-112 to na-e-222). Fetched all 126 cited pages afresh by script, slowly, identifying by https://atlasforatlas.com, kept outside the repo. Located every quote in the page text, ignoring only whitespace around punctuation, and read past its end. Checked statement, title, date, place (against Wikidata labels and coordinates), kind and participants against the pages. Resolved Wikipedia footnotes by following each citation link in the HTML to test every credited author. Rules: casualty figures, tolls, army sizes and figures with a real conflict need a named giver; 'one account' or 'another account' counts as unnamed; a footnote credit is fine if notes say it was not read. Only the cited pages were read: no printed book, and no outside search for what they don't cover.",
+  "date": "2026-10-31"
+ },
+ "items": {
+  "na-e-112": {
+   "status": "verified",
+   "note": "All quotes on the page, read past each. Dates, Brunswick burning, hostages, Shute's 25 July declaration, Rale's death and the New England takeover hold. Title's alternate names are on the page. Norridgewock as point is a flagged stand-in.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-113": {
+   "status": "partially-verified",
+   "note": "Facts and quotes hold, but three tolls and sizes have no named giver: 'about 200' rangers, 'nearly two dozen women and children' and 'most record about eighty' (a vague 'most'). The page footnotes the two dozen to John Grenier, The Far Reaches of Empire (2008), p. 84; the 200 and 80 sentences have no footnote I could tie to a name.",
+   "fields_unsupported": [
+    "statement"
+   ],
+   "fix": "Write 'the rangers massacred, by John Grenier's account, nearly two dozen women and children', and give the 200 and the eighty with a giver or drop the numbers."
+  },
+  "na-e-117": {
+   "status": "verified",
+   "note": "CIRNAC and Wikipedia quotes hold; the Cope burning, Patterson's testimony and R. v. Simon are as the pages say. Wikipedia places the treaty during Le Loutre's War where CIRNAC ends the fighting in 1751; the notes record this and the card follows the government page.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-118": {
+   "status": "verified",
+   "note": "Single source, read past each quote. Both explanations for the move are attributed. The unnamed thousand-man figure is properly left off. Six-week siege and early November escape hold.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-120": {
+   "status": "verified",
+   "note": "Fall 1818 theft, Hamilton's authorisation, eight men, the killing, son's death, tuberculosis on 8 January 1820 and 2020 repatriation all on the pages; DCB confirms Peyton's party killed Nonosbawsut. Month date fits; statement explains 1 March as setting out.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-123": {
+   "status": "partially-verified",
+   "note": "Figures hold and the footnote behind them is indeed McMillan and Yellowhorn (Petun article, note 2, p. 78); notes say not read. Problem is the participants field: the Neutral are listed and 'neighbours' is in the title, but no cited passage or the statement says the epidemics struck them. The cited pages mention the Neutral only as related peoples.",
+   "fields_unsupported": [
+    "participants"
+   ],
+   "fix": "Remove 'neutral' from participants, or add a source for epidemics among the Neutral."
+  },
+  "na-e-124": {
+   "status": "partially-verified",
+   "note": "Sequence and dates hold on both pages. 'About 10,000 ... where most starved' is in effect a toll with no giver; the Huron people article gives no footnote on those sentences. The notes dropped the unnamed '1,000' force for the same reason, but kept this one.",
+   "fields_unsupported": [
+    "statement"
+   ],
+   "fix": "Say 'many fled to Gahoendoe (Christian Island), where most starved that winter', or name a giver for the 10,000."
+  },
+  "na-e-125": {
+   "status": "verified",
+   "note": "Quotes hold. The footnote on the 300 sentence is Nester 2000, pp. 77-78, as the card says and the notes disclose; siege lifted 31 October. Date is the failed surprise, siege two days later; statement reads correctly.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-127": {
+   "status": "verified",
+   "note": "Treaty terms, date, Scippo Creek camp, Stanwix cession and Logan's refusal all on the pages. Statement compresses Lewis's and Dunmore's forces into 'the Virginians under Lord Dunmore', acceptable for a governor commanding both.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-128": {
+   "status": "verified",
+   "note": "Quotes hold. Footnote on the 200 casualties is Calloway 2018, p. 384, as stated and disclosed as not read. 15 October, 19-22 October and the hasty retreat hold; unnamed force sizes are left off.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-129": {
+   "status": "verified",
+   "note": "Calloway piece is genuinely his (Smithsonian text reprinted on Brewminate, read here). 'Most decisive defeat' sits on footnote 4, Landon Y. Jones 2005, p. 41, known only through it and said so. Leaders, resignation and investigation hold.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-132": {
+   "status": "verified",
+   "note": "Treaty text dated 30 September confirmed; Wikipedia's body has 29 September, noted. Harrison's approach, opposition, Shawnee exclusion and Tecumseh's War hold. Acreage is the article's body figure; the lead's slip is properly avoided.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-133": {
+   "status": "verified",
+   "note": "Quotes hold; the attack, burning, nickname and blow to the confederacy are as the page says. 'Under his brother Tenskwatawa' fits 'in charge' and sidesteps who ordered it. Housekeeping only: coord_source cites Q379346 while qid is Q7808867.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-136": {
+   "status": "partially-verified",
+   "note": "Dates, cession, terms and ratification hold. 'In what is now southwest Iowa' is on no cited page: the treaty text gives only rivers, and Wikipedia says Kansas Territory. The text runs from Boyer's River down to the mouth of the Nodaway, which is in Missouri, then east to Missouri's then west line, so the tract also takes in what is now northwest Missouri.",
+   "fields_unsupported": [
+    "statement"
+   ],
+   "fix": "Replace 'in what is now southwest Iowa' with 'between the Boyer and Nodaway rivers'."
+  },
+  "na-e-137": {
+   "status": "partially-verified",
+   "note": "Sequence and numbers are on the page; 859 is on the rolls as stated. But the toll has no giver: 756, 42 and 28 are stated flat. The page footnotes them to Arville Funk (Sketchbook of Indiana History, pp. 45-47) and James H. Madison (Hoosiers, p. 122).",
+   "fields_unsupported": [
+    "statement"
+   ],
+   "fix": "Write '756 arrived, 42 were recorded dead, 28 of them children, by Arville Funk's count, and the rest escaped'."
+  },
+  "na-e-138": {
+   "status": "verified",
+   "note": "All four counts carry their givers and are on their pages. Myaamia Center confirms 6 October and the loading, and has over 320. Route and 9 November come from Wikipedia's timeline, as the notes say.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-139": {
+   "status": "verified",
+   "note": "Treaty dates, chiefs, cession, augmentation clause, $4 cap and the unanimous 2024 ruling hold. Odawa in participants is not stated on the cited pages; Wiikwemkoong's claim makes it arguable, so left as a remark.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-140": {
+   "status": "partially-verified",
+   "note": "Elvas's 2,500 and Horwitz's 2,000-6,000 hold (footnote 68 is Horwitz 2009, disclosed). But 'All the figures rest on Spanish accounts' has no supporting quote and overreaches: the page says Spanish accounts at the time estimated 2,500-3,000, and says nothing of what Horwitz's range rests on.",
+   "fields_unsupported": [
+    "statement"
+   ],
+   "fix": "Write 'Spanish accounts at the time put it at 2,500 to 3,000; the chronicler Elvas has about 2,500...' and add the page's sentence as a quote."
+  },
+  "na-e-142": {
+   "status": "verified",
+   "note": "NCpedia and Wikipedia hold. Contested framing is attributed to NCpedia. 22 September is the date in both. Lawson's fate differs between the two pages and the notes record it.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-143": {
+   "status": "partially-verified",
+   "note": "Footnote on the 1,000 allies is Shamlin, as the card says; Graffenried's figures are quoted in NCpedia. Moore's '47 killed' has no giver and sits right after Graffenried, so it reads as his; the page gives it in NCpedia's own voice.",
+   "fields_unsupported": [
+    "statement"
+   ],
+   "fix": "Write 'NCpedia has Moore losing 47 killed'."
+  },
+  "na-e-145": {
+   "status": "partially-verified",
+   "note": "Events and the tally hold, 29 November in the other article is noted. 'By a count made a year later' names no one. The footnote on that sentence is Barnett 2007, p. 105.",
+   "fields_unsupported": [
+    "statement"
+   ],
+   "fix": "Write 'by a tally made a year later, reported by James Barnett'."
+  },
+  "na-e-146": {
+   "status": "verified",
+   "note": "Footnote on the 200 is Brown and Pickett's school history, p. 60, as stated and disclosed as not read. Mantelets, 'a shower of balls', March defeat and retreat hold.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-147": {
+   "status": "partially-verified",
+   "note": "Two problems. 'The garrison' that killed the 16 hostages was Fort Prince George's, but the sentence goes straight to Fort Loudoun, so it reads as Loudoun's. And 'more than two dozen' killed and the 16 have no giver. War dates differ by source, noted.",
+   "fields_unsupported": [
+    "statement"
+   ],
+   "fix": "Write 'After the garrison of Fort Prince George killed 16 Cherokee hostages', and give the tolls a giver or say 'many'."
+  },
+  "na-e-148": {
+   "status": "verified",
+   "note": "Encyclopedia and Wikipedia hold, read past the quotes. The card avoids the King-or-colony disagreement by naming neither, as the notes record. 15 miles square is 225 square miles, 144,000 acres.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-153": {
+   "status": "verified",
+   "note": "Waves, arrival counts and losses hold, each with its giver. Unsourced death tolls properly left off. Place is a flagged stand-in for the homeland.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-156": {
+   "status": "partially-verified",
+   "note": "Facts hold. 'By one account' is a vague giver on the survivor count. The page's own body says three soldiers 'were reported' to have survived and that eyewitnesses were Ransom Clark, Edward Decourcey's companion, and Pacheco. It also has Decourcey killed by a pursuing Seminole next day, where the lead has him dying of wounds; 'dying the next day' covers both.",
+   "fields_unsupported": [
+    "statement"
+   ],
+   "fix": "Replace 'By one account only' with 'Only', adding 'were reported to have survived', or name Ransom Clark's account."
+  },
+  "na-e-158": {
+   "status": "verified",
+   "note": "NPS page holds throughout, read past each quote; numbers carry NPS's name. Tukabatchee is a flagged stand-in.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-159": {
+   "status": "verified",
+   "note": "Cherokee Nation page and Wikipedia hold; the missionary is Samuel Worcester on the same page. Careful wording on New Echota matches the notes.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-161": {
+   "status": "verified",
+   "note": "HistoryLink and Wikipedia hold. Two quotes carry stray spaces before punctuation from text extraction (a fuzzy match, not changed wording). Statement's 'Fighting broke out' is a little stronger than the page's 'fighting continued', not enough to mark down.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-163": {
+   "status": "verified",
+   "note": "HistoryLink named for its claim, Wikipedia's vaccination numbers and Boyd's estimate hold; Boyd is credited through HistoryLink, not claimed as read. Note: 'reportedly' on the 3,400 is lost, minor.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-164": {
+   "status": "partially-verified",
+   "note": "Events hold. The garrison numbers, 29 Russians, three deserters and 200 Aleuts, are stated flat with no giver though they carry the toll's meaning; notes admit a page-cited footnote not read. Also the Smithsonian says nearly all were killed, the card says many.",
+   "fields_unsupported": [
+    "statement"
+   ],
+   "fix": "Write 'They killed many of the Russians, British deserters and Aleuts there', or name the giver of the 29, 3 and 200."
+  },
+  "na-e-165": {
+   "status": "verified",
+   "note": "Dates, fort, volleys, bombardment, withdrawal and Hope's words hold; Smithsonian calls him a Kiks.adi elder. Six days and 4 October are both given. Quote 'manned by 150 ...' has spaces around the dash, an extraction artefact: the page has 400-500.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-169": {
+   "status": "verified",
+   "note": "Wikipedia pages hold; the card ends by saying Jewitt published the account, and notes say all rests on him. One quote has stray spaces before punctuation (extraction). Place flagged approximate.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-170": {
+   "status": "partially-verified",
+   "note": "Events hold and Joseachal as sole account is on the page. 'May have killed over 100' is hedged but still has no giver, and the final sentence wrongly implies Joseachal gave it; no footnote on that sentence names anyone.",
+   "fields_unsupported": [
+    "statement"
+   ],
+   "fix": "Write 'the blast killed many, by some accounts over 100' only with a named source; otherwise 'the blast killed many of them'."
+  },
+  "na-e-175": {
+   "status": "partially-verified",
+   "note": "Hostages, tribute, Glotov, Solovief and NLM attribution hold. 'Though counts vary widely' has no cited support: the notes say it comes from low-weight search results, none cited. The cited pages give only 4 ships and 175 killed.",
+   "fields_unsupported": [
+    "statement"
+   ],
+   "fix": "Delete 'though counts vary widely', or cite a page that says so."
+  },
+  "na-e-176": {
+   "status": "verified",
+   "note": "All on the NPS page, named at the start and with 'It estimates'. Date circa 1760 is NPS's wording; notes say colonising continued.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-178": {
+   "status": "verified",
+   "note": "Thule and Dorset pages hold. 'One genetic reading' softens the page's 'some modern genetic studies', without a name, on a non-figure claim. Date is the 13th-century arrival, flagged in notes.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-180": {
+   "status": "verified",
+   "note": "All on the Hans Egede page, read past each quote. Colony, scurvy, 300-year gap and smallpox ship hold. Two quotes have stray spaces (extraction).",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-182": {
+   "status": "verified",
+   "note": "NPS named for the killing and holds; Ahtna page holds for the earlier push-backs and the 1819 post. Notes correctly avoid saying who destroyed it.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-183": {
+   "status": "verified",
+   "note": "Single NPS page, all on it. Date mid-September fits month precision. No figures in dispute.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-184": {
+   "status": "verified",
+   "note": "Council dates and 1863 text's 11 June hold; Wikipedia's 9 June is recorded in notes. 7.5 million kept is attributed to the Tribe, and NPS's 'cede' is rightly treated as an error in notes.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-186": {
+   "status": "partially-verified",
+   "note": "Chapman's shot, Perry, Ollokot and White Bird, and NPS's 34 dead and 3 wounded hold. 'At least 18 settlers' has no giver: stated flat on Wikipedia with no footnote on that sentence.",
+   "fields_unsupported": [
+    "statement"
+   ],
+   "fix": "Write 'revenge raids killed settlers on the Salmon River', or name a giver for the 18."
+  },
+  "na-e-187": {
+   "status": "partially-verified",
+   "note": "NPS facts hold: 30 September, Looking Glass, cannon on the shelters, 5 October, rifle to Miles and Howard, about 800; Chapman as translator is on Wikipedia. But the giver of the 431 is wrong. The footnote on that sentence is Brown, p. 410 (Mark H. Brown, The Flight of the Nez Perce, 1967), not Greene; the notes repeat the error. Housekeeping: coord_source cites Q4870436 while qid is Q81351860.",
+   "fields_unsupported": [
+    "statement"
+   ],
+   "fix": "Replace 'Jerome Greene counts 431' with 'Mark Brown counts 431', and correct the notes."
+  },
+  "na-e-190": {
+   "status": "verified",
+   "note": "HistoryLink holds throughout, read past each quote, with its numbers and Saluskin's account named. The page's 'September 1955' misprint is outside the quote and noted. War's end date from Wikipedia.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-192": {
+   "status": "partially-verified",
+   "note": "Lane, the five names, trial, hanging date and closing line hold. 'Its last pursuit finding only Palouse' is wrong in order: the page puts that in Gilliam's pursuit before late March 1848, then five more months of militia effort. 'The killings' also has no antecedent on the card; the page says the Whitman killings.",
+   "fields_unsupported": [
+    "statement"
+   ],
+   "fix": "Write 'its pursuit that March fought only Palouse with no connection to the Whitman killings'."
+  },
+  "na-e-194": {
+   "status": "partially-verified",
+   "note": "Statement holds: date, insults, Article 11, Victor's signing and Hoecken's words as Wikipedia quotes him, disclosed. The point does not: it is the Wikidata coordinate for Hellgate Canyon, about 38 km east-southeast of Council Grove, the treaty site the cited page's monument caption names, though approximate is set.",
+   "fields_unsupported": [
+    "place"
+   ],
+   "fix": "Set the place to Council Grove State Park, qid Q16890670, lon -114.155, lat 46.913."
+  },
+  "na-e-196": {
+   "status": "verified",
+   "note": "Tribe's page, Wikipedia and HistoryLink hold. Ammunition, Stevens's promise, all-day fight and Tribe's name for it are as stated. Tribe's account is attributed. Unattributed warrior numbers and losses left off.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-197": {
+   "status": "verified",
+   "note": "HistoryLink named for both forces. Lure plan and rifle range on Wikipedia. Other strengths and a differing 'skirmish' label are in notes. Nations listed match HistoryLink 5144, cited on the next card rather than this one.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-198": {
+   "status": "partially-verified",
+   "note": "HistoryLink's fire, combined arms, 14 miles and one wounded hold. The outcome is contested and 'another account' names no one: it is Wikipedia's Coeur d'Alene War article.",
+   "fields_unsupported": [
+    "statement"
+   ],
+   "fix": "Replace 'another account says' with 'Wikipedia's Coeur d'Alene War article says'."
+  },
+  "na-e-199": {
+   "status": "partially-verified",
+   "note": "HistoryLink's 800, purpose, lodges and grain hold, and Wright's words are as Wikipedia quotes. 'Another account' with its dates and 600-900 of nearly 1,000 is a set of figures with no named giver: Wikipedia's Battle of Spokane Plains article.",
+   "fields_unsupported": [
+    "statement"
+   ],
+   "fix": "Replace 'Another account dates it' with 'Wikipedia's Battle of Spokane Plains article dates it'."
+  },
+  "na-e-200": {
+   "status": "partially-verified",
+   "note": "HistoryLink holds, including its claim on Bolon, named. 'Another count has seventeen hanged there' is a toll with no giver: Wikipedia's Coeur d'Alene War article. HistoryLink's internal date muddle is in the notes.",
+   "fields_unsupported": [
+    "statement"
+   ],
+   "fix": "Replace 'Another count has' with 'Wikipedia's Coeur d'Alene War article has'."
+  },
+  "na-e-201": {
+   "status": "partially-verified",
+   "note": "Tribe's date, Wright's text and the terms hold. Whether this was a treaty or a surrender is the contested point, and 'another account' names no one: Wikipedia's Battle of Spokane Plains article. Terms too are from Wikipedia, stated as Wright's; the primary text was read but only its dating is quoted.",
+   "fields_unsupported": [
+    "statement"
+   ],
+   "fix": "Replace 'another account calls it' with 'Wikipedia's Battle of Spokane Plains article calls it'."
+  },
+  "na-e-203": {
+   "status": "partially-verified",
+   "note": "All four tolls carry givers and are on the page, disclosed as known through Wikipedia. The contested framing has only 'Some sources'. The page footnotes that sentence to Marley Madsen (Utah State Today, 2020) and Dana Hedgpeth (Washington Post, 2021).",
+   "fields_unsupported": [
+    "statement"
+   ],
+   "fix": "Replace 'Some sources call it' with 'Dana Hedgpeth in the Washington Post and others call it', after confirming her wording; otherwise drop the sentence."
+  },
+  "na-e-204": {
+   "status": "verified",
+   "note": "Single Wikipedia page, including the treaty text, holds. 'Led by Pocatello' follows 'lead negotiator'. Sum and rate are terms, not tolls.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-207": {
+   "status": "partially-verified",
+   "note": "Facts hold, and the page does have pacifism though no quote covers 'non-violence'. Date conflict is declared, but 'one placing a first vision in 1887' leaves the scholar unnamed; the page names Tom Thatcher, citing James Mooney.",
+   "fields_unsupported": [
+    "statement"
+   ],
+   "fix": "Replace 'one placing' with 'Tom Thatcher placing'."
+  },
+  "na-e-208": {
+   "status": "partially-verified",
+   "note": "Quotes hold. Who the Natives were is the disputed point, and two of the three givers are vague. The 'older account' is Fariss & Smith's Illustrated History of Plumas, Lassen & Sierra Counties (1882), footnoted on the page; 'one account' is Wikipedia's Washoe article.",
+   "fields_unsupported": [
+    "statement"
+   ],
+   "fix": "Replace 'An older account' with 'Fariss and Smith's county history of 1882', and 'by one account' with 'by Wikipedia's Washoe article'."
+  },
+  "na-e-209": {
+   "status": "partially-verified",
+   "note": "Sequence holds across NPS and Wikipedia; NPS's Major Green is reconciled in notes. '14 settlers' and the woman and child are tolls stated flat; they are NPS's. Participants list 'klamath', but no cited passage has the Klamath in this fight.",
+   "fields_unsupported": [
+    "statement",
+    "participants"
+   ],
+   "fix": "Write 'by the National Park Service's account, enraged Modocs killed 14 settlers', and drop 'klamath' from participants."
+  },
+  "na-e-210": {
+   "status": "partially-verified",
+   "note": "Names, date, attendance, Alcatraz and the decapitations hold. '163 Modocs' and 'nearly 2,000' have no giver, and the notes record a real conflict: Wikipedia's war article has 153 sent.",
+   "fields_unsupported": [
+    "statement"
+   ],
+   "fix": "Write 'Twelve days later, by the National Park Service's count, 163 Modocs went...'."
+  },
+  "na-e-213": {
+   "status": "verified",
+   "note": "First Mass, 9 October small chapel, 1785, 36,000 bricks and 1791 all on the pages; the 5,000 is credited. FoundSF's URL failed unencoded in a script (non-ASCII) but opens encoded, and the quote is there. Remark: its 'government' kind is a private landmarks site.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-215": {
+   "status": "verified",
+   "note": "Foundation and Wikipedia hold. The reason for the move is given as Jayme's request, and the Foundation's drought is in notes. 'Beginning of the mission chain' follows the Foundation.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-216": {
+   "status": "partially-verified",
+   "note": "Events and Sherman's claim hold. 'One estimate has 60 of 400; others 200' has no giver. Wikipedia credits the National Park Service for the first, and the notes could not find that NPS page, so the honest giver is Wikipedia.",
+   "fields_unsupported": [
+    "statement"
+   ],
+   "fix": "Write 'Wikipedia, crediting the National Park Service, has 60 of 400 killed; it notes other accounts of 200'."
+  },
+  "na-e-217": {
+   "status": "partially-verified",
+   "note": "Dates, burning, removal, Tenaya's son hold; 'earliest known' follows the playbook's wording for the page's 'first'. 'About 200' is an army size with no giver, and the page's figure is an authorisation, not a count.",
+   "fields_unsupported": [
+    "statement"
+   ],
+   "fix": "Write 'a state militia battalion, authorised at two hundred men'."
+  },
+  "na-e-218": {
+   "status": "partially-verified",
+   "note": "Burrill's forty and retaliation, and Anderson's words, hold and are disclosed as through Wikipedia. But 'Of 33 who escaped, Burrill says' is misattributed: the 33 sentence is outside the Burrill passage, in the article's lead, footnoted to a Mohican Press web article.",
+   "fields_unsupported": [
+    "statement"
+   ],
+   "fix": "Replace 'Burrill says' with 'a Mohican Press account says', or drop the sentence's figures."
+  },
+  "na-e-219": {
+   "status": "partially-verified",
+   "note": "Gibbon's report sums to 183, as stated, and Red Wolf's words hold. '70 to 90' is stated flat, though the page footnotes it to Greene's Nez Perce Summer, ch. 6, and the notes wrongly say there is no giver. 'Gibbon lost 31' is a sum of Wikipedia's 29 and two later deaths, also with no giver.",
+   "fields_unsupported": [
+    "statement"
+   ],
+   "fix": "Write 'by Jerome Greene's estimate probably 70 to 90', and 'Gibbon lost 31 by the same account' after checking the footnote covers it."
+  },
+  "na-e-220": {
+   "status": "partially-verified",
+   "note": "Wikipedia's two pages hold, and the sequence problem is in notes. 543 is prisoners, not a toll. 'An official' is needlessly vague on who says the permission was revoked: the block quote on the page is signed James H. Wilbur, Yakama Agent, Annual Report of the Commissioner of Indian Affairs for 1881, and he is the man who says he refused them leave.",
+   "fields_unsupported": [
+    "statement"
+   ],
+   "fix": "Replace 'an official later said' with 'the Yakama agent James Wilbur later said'."
+  },
+  "na-e-221": {
+   "status": "verified",
+   "note": "All on the Act's page and California genocide, read past each quote. Bond, 'strolling about', four months, gangs, repeals and Newsom hold. 'Enslave' is softened to 'take their labour'. No tolls on the card.",
+   "fields_unsupported": [],
+   "fix": ""
+  },
+  "na-e-222": {
+   "status": "verified",
+   "note": "Address read at the State Library: wording matches. Left office 9 January per Wikipedia's infobox, three days on. Legislature's payments on California genocide; the card sets them side by side without causation, as the notes say. 7 January alternative in notes.",
+   "fields_unsupported": [],
+   "fix": ""
+  }
+ }
+}

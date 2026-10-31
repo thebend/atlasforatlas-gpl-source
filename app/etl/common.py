@@ -88,6 +88,53 @@ def grid(step: float) -> tuple[np.ndarray, np.ndarray]:
     return np.meshgrid(xs, ys)
 
 
+# A window can cross the date line: its bbox runs on past 180 ([90, -12, 210, 55]), and its grids and
+# anything drawn on them count longitude on eastward (Pearl Harbor at 202.05). What the sources give,
+# the catalogue keeps and the map's GeoJSON layers read stays in -180..180.
+CROSSES = LON1 > 180
+
+
+def in_bbox(bbox, lon: float, lat: float) -> bool:
+    lon0, lat0, lon1, lat1 = bbox
+    return lat0 <= lat <= lat1 and (lon0 <= lon <= lon1 or (lon1 > 180 and lon0 <= lon + 360 <= lon1))
+
+
+def in_window(lon: float, lat: float) -> bool:
+    return in_bbox((LON0, LAT0, LON1, LAT1), lon, lat)
+
+
+def east(lon: float) -> float:
+    """A longitude as this window counts it."""
+    return lon + 360 if CROSSES and lon < LON0 else lon
+
+
+def lon_shifts() -> tuple[int, ...]:
+    """What to add to a source's longitudes to get everything the window can show of it."""
+    return (0, 360) if CROSSES else (0,)
+
+
+def shifted(geom, dx: float):
+    import shapely
+    return shapely.transform(geom, lambda c: c + [dx, 0]) if dx else geom
+
+
+def window_clip(geom, box):
+    """A source geometry (-180..180) cut to a box in the window's longitudes."""
+    if not CROSSES:
+        return geom.intersection(box)
+    import shapely
+    return shapely.union_all([shifted(geom, dx).intersection(box) for dx in lon_shifts()])
+
+
+def from_window(geom):
+    """A geometry in the window's longitudes back in -180..180, cut at the date line (GeoJSON for the map)."""
+    if not CROSSES:
+        return geom
+    import shapely
+    far = geom.intersection(shapely.box(180, -90, 720, 90))
+    return shapely.union_all([geom.intersection(shapely.box(-180, -90, 180, 90)), shifted(far, -360)])
+
+
 def tile_xy(lon: float, lat: float, z: int) -> tuple[float, float]:
     n = 2 ** z
     lat = max(-85.0, min(85.0, lat))

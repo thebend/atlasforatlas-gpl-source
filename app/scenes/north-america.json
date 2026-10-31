@@ -14,7 +14,7 @@
   "researchLabel": "Native nations 1492–1900",
   "bordersNote": "Crisp: US states & territories (Newberry AHCB), colonies and republics (OpenHistoricalMap), each nation's land until its cession to the US (Royce 1899, USFS 2018). Soft: snapshot claims and Indigenous homelands (historical-basemaps, GPL; approximate). Paper claims are weaker than held land, so overlaps read as frontier or contested.",
   "card": {
-    "name": "The Colonisation of North America",
+    "name": "The colonisation of North America",
     "region": "North America",
     "eras": ["Early modern", "Long 19th century"],
     "themes": ["Colonisation", "Empire", "Indigenous nations", "Revolution", "War"],
@@ -110,12 +110,7 @@
     "min_sitelinks": 3,
     "field_format": "topk",
     "claim_below": 0.5,
-    "research_kind": "nation",
-    "wildlife": [
-      {"id": "bison", "name": "American bison", "taxon": "Bison bison", "note": "Tens of millions on the plains; hunted to a few hundred by 1890."},
-      {"id": "beaver", "name": "North American beaver", "taxon": "Castor canadensis", "note": "The fur trade's quarry, behind many of the posts and much of the inland exploration."},
-      {"id": "pigeon", "name": "Passenger pigeon", "taxon": "Ectopistes migratorius", "note": "Perhaps once the most numerous bird on Earth; the last wild birds were seen around 1900."}
-    ]
+    "research_kind": "nation"
   },
   "pipeline": [
     {
@@ -128,7 +123,6 @@
     "settlements",
     "research",
     "fields",
-    "wildlife",
     "labels", "travellers",
     "divisions"
   ]

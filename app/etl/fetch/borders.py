@@ -43,7 +43,7 @@ import shapely
 from shapely.geometry import box, mapping, shape
 
 from etl import net, profile
-from etl.common import CACHE, CFG, LAT0, LAT1, LON0, LON1, SCACHE, SCENE, write_json
+from etl.common import CACHE, CFG, LAT0, LAT1, LON0, LON1, SCACHE, SCENE, window_clip, write_json
 
 warnings.filterwarnings("ignore", category=RuntimeWarning)
 
@@ -122,9 +122,7 @@ def cshapes() -> list[dict]:
         if p["end"] < lo or p["start"] > hi:
             continue
         g = shapely.make_valid(shape(f["geometry"]))
-        if not g.intersects(WINDOW):
-            continue
-        g = polys(g.intersection(WINDOW).simplify(TOL))
+        g = polys(window_clip(g, WINDOW).simplify(TOL))
         if g.is_empty:
             continue
         out.append({"type": "Feature", "geometry": mapping(shapely.set_precision(g, 1e-4)), "properties": {
@@ -156,9 +154,7 @@ def cliopatria() -> list[dict]:
         if p["ToYear"] < Y0 or p["FromYear"] > Y1:
             continue
         g = shapely.make_valid(shape(f["geometry"]))
-        if not g.intersects(WINDOW):
-            continue
-        g = polys(g.intersection(WINDOW).simplify(TOL))
+        g = polys(window_clip(g, WINDOW).simplify(TOL))
         if g.is_empty:
             continue
         out.append({"type": "Feature", "geometry": mapping(shapely.set_precision(g, 1e-4)), "properties": {

@@ -15,7 +15,7 @@ import json
 import sys
 
 from etl import net
-from etl.common import CFG, LAT0, LAT1, LON0, LON1, SCACHE, SCENE, SCENE_EVENTS, write_json
+from etl.common import CFG, LAT0, LAT1, LON0, LON1, SCACHE, SCENE, SCENE_EVENTS, in_window, write_json
 
 ENDPOINT = "https://query.wikidata.org/sparql"
 Y0, Y1 = CFG["years"]
@@ -65,7 +65,7 @@ def parse_date(v: str) -> tuple[int, int | None, int | None]:
 
 
 def inside(lon: float, lat: float) -> bool:
-    return LON0 <= lon <= LON1 and LAT0 <= lat <= LAT1
+    return in_window(lon, lat)
 
 
 def events() -> list[dict]:

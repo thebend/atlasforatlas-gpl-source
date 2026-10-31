@@ -1,0 +1,466 @@
+{
+ "meta": {
+  "verifier": "claude-opus-5-5 (independent agent)",
+  "date": "2026-10-31",
+  "method": "Events at indices 75-149 (na-e-076 to na-e-150). Fetched all 109 cited pages (the Delaware Nation page from a Wayback copy of 8 October 2026 after HTTP 508 live) and read each quote in its surrounding text, past its end. Footnotes behind figures were read in the live Wikipedia HTML; footnoted works themselves mostly were not, which notes say. Side checks outside the citations: Kappler treaty texts at treaties.okstate.edu (Chicago 1833, Fort Wayne 1809), Marr and Cathey 2010 in PMC, Wikipedia's Roger Williams, Fort Loudoun, Jean-Baptiste Cope, Indian massacre of 1622 and Robinson Huron Treaty, wabanaki.com/wampum, and search results for the 1846 Miami removal. Items are partial when a casualty, army-size or death-toll figure names no one (the playbook's rule), even if the fact is on the page; vague words like 'several hundred' on non-tolls pass. No research language was found in any statement. Not independently confirmed: places' Wikidata coordinates, except where noted."
+ },
+ "items": {
+  "na-e-076": {
+   "status": "verified",
+   "note": "Dates, seven colonies, mission, plan approved and rejected, and the sale without consulting the western Lenape all read in context on Albany Congress and Treaty of Easton. 'Helped bring raids' is fair: the source pairs the anger with Braddock's defeat.",
+   "fields_unsupported": []
+  },
+  "na-e-077": {
+   "status": "verified",
+   "note": "All facts read in context on Treaty of Fort Stanwix: 5 November, one signatory per nation, line to the Tennessee, Shawnee and Lenape present but not signing, 'set the stage' for Dunmore's War.",
+   "fields_unsupported": []
+  },
+  "na-e-078": {
+   "status": "partially-verified",
+   "note": "Campaign, 40 villages, Newtown, Washington's order and the disputed genocide label are supported. 'By one count just over 5,000' names no one, though the same article does: 5,036 refugees at Fort Niagara in September 1779, the figure Rhiannon Koehler (2018) builds on. The toll is also contested there: Alan Taylor and Rachel Herrmann report 'several hundred' winter deaths, Koehler up to about 5,000; 'many starved or froze' hides that. Minor: date is the march from Easton (18 June) but the place is Newtown (29 August). Fix: 'A count of 5,036 refugees reached Fort Niagara by September 1779; winter deaths are put at several hundred (Alan Taylor) to about 5,000 (Rhiannon Koehler).'",
+   "fields_unsupported": [
+    "statement: 'by one count' 5,000 unattributed"
+   ]
+  },
+  "na-e-079": {
+   "status": "verified",
+   "note": "All facts read in context on Treaty of Fort Stanwix (1784), including Brant's words and early departure, and the Buffalo Creek council's refusal.",
+   "fields_unsupported": []
+  },
+  "na-e-080": {
+   "status": "verified",
+   "note": "Date, 'three days after', six miles deep, Five Nations wording (proclamation text), May 1784 purchase, Elora limit, 674,910 acres and John Brant 1819 all read in context. Note: the decree was given at Quebec; the place is the land granted, and could be marked approximate.",
+   "fields_unsupported": []
+  },
+  "na-e-081": {
+   "status": "verified",
+   "note": "Fifty and fifty-nine signers both on the page, $4,500, cloth, Article Two dishonoured and the fear of the Ohio war all read in context.",
+   "fields_unsupported": []
+  },
+  "na-e-082": {
+   "status": "verified",
+   "note": "All facts read in context on Treaty of Big Tree. Date field could move to day precision: 16 September 1797 is the signing and the card gives it.",
+   "fields_unsupported": []
+  },
+  "na-e-083": {
+   "status": "verified",
+   "note": "Supported by Buffalo Creek Reservation; Treaty of Buffalo Creek is only a set index and gives just the year. The bribery sentence has no footnote, so 'by one account' is honest but leaves a well-documented fraud on a single uncredited Wikipedia sentence; a named historian would be stronger. Not a defect of the card's facts.",
+   "fields_unsupported": []
+  },
+  "na-e-084": {
+   "status": "partially-verified",
+   "note": "Date, army's aim, Denonville's 800, British report's 450, and 'found it burned' are supported. Title 'destroys Seneca towns' overreaches for Ganondagan: the card and source have it already burned, the British report and Belmont saying the Seneca fired it themselves; the page's own French destruction is of corn and Totiakton. 'Attacked and withdrew' is told flat but is Denonville's version; Belmont has them come to reconnoitre. '1.2 million bushels by one account': the footnote is O'Callaghan's Documentary History of New York, which prints the French expedition papers, so it is a French reckoning, not checked further. Fix: title 'French expedition against the Seneca (Denonville, 1687)'; 'Denonville says a Seneca force attacked...'; add 'the Seneca burned it themselves, by the British report'; 'by French reckoning' for the corn.",
+   "fields_unsupported": [
+    "title",
+    "statement: corn figure unattributed; attack told from Denonville's side"
+   ]
+  },
+  "na-e-085": {
+   "status": "verified",
+   "note": "Tradition wording, late October 1682, elm and Jennings read on Treaty of Shackamaxon; the Delaware Nation points checked on a Wayback copy of 8 October 2026, since the live page returned HTTP 508. Jennings is credited through Wikipedia only (The Invasion of America, 1975). Tamanend's 1683 dating noted by the researcher is not on the card.",
+   "fields_unsupported": []
+  },
+  "na-e-086": {
+   "status": "verified",
+   "note": "Supported by Peach War, including Stuyvesant's 40 and 100, three dead each side and both causes. 'Several hundred' is the lead's wording; the body says about 500 in 64 canoes, unattributed; left vague, acceptable. 'Picking peaches' softens the source's 'stealing', without changing the sense.",
+   "fields_unsupported": []
+  },
+  "na-e-087": {
+   "status": "verified",
+   "note": "Every clause read in context on Esopus Wars. Single source.",
+   "fields_unsupported": []
+  },
+  "na-e-088": {
+   "status": "verified",
+   "note": "Deed of 1686, Delaware Nation's 'illegitimate', 19 September, Marshall alone, 70 miles, 1.2 million acres and the Haudenosaunee refusal all read in context. The Delaware Nation says 'a little over a million acres'; not on the card.",
+   "fields_unsupported": []
+  },
+  "na-e-089": {
+   "status": "verified",
+   "note": "Dates, Denny, Bernard, 20 October and Fort Duquesne read in context. Note: the source says the conference 'did not conclude with the formal signing of a written treaty'; the card avoids saying it did, but the title keeps the common name. Date field has day 7 with month precision; should be day or a range to 26 October.",
+   "fields_unsupported": []
+  },
+  "na-e-090": {
+   "status": "verified",
+   "note": "Signers, first formal treaty, sovereignty, proposed state and both accounts of White Eyes's death read in context. 'Giving US troops passage against Detroit' rests on the page's account of Congress seeking free passage for an expedition against Detroit; Richter's point that the Lenape understood it as passage only is in the notes.",
+   "fields_unsupported": []
+  },
+  "na-e-091": {
+   "status": "verified",
+   "note": "96, Williamson, Captive Town, false promises, two killing houses, mallets, refusals and Crawford all read in context. Delaware Nation's 96 confirmed on the Wayback copy.",
+   "fields_unsupported": []
+  },
+  "na-e-092": {
+   "status": "verified",
+   "note": "Oklahoma encyclopedia, Delaware Tribe and Delaware Nation pages support each clause, including $438,000 (no author named there; a price, not a toll) and the 2008 agreement. Bartlesville is the Tribe's capital today, so the place stands for the later community.",
+   "fields_unsupported": []
+  },
+  "na-e-093": {
+   "status": "verified",
+   "note": "All facts read in context across the three pages. Powhatan's offer of Capahosick comes from later dealings with Smith, but the card doesn't tie it to May.",
+   "fields_unsupported": []
+  },
+  "na-e-094": {
+   "status": "partially-verified",
+   "note": "Narrative supported on Anglo-Powhatan Wars. 'By differing counts' invents more than the page shows: it gives one range, 'between 15 and 75', with footnotes to Alfred Cave, Lethal Encounters (2013), and Howard Zinn (2003); neither read. Fix: read Cave and write 'killing between 15 and 75 by Alfred Cave's account', or say 'killing villagers' with no number.",
+   "fields_unsupported": [
+    "statement: 15-75 death toll unattributed"
+   ]
+  },
+  "na-e-095": {
+   "status": "partially-verified",
+   "note": "Attack, Christian Indians' warnings, militia marches, poisoned wine and 1632 supported. The toll is weak: 'a third' is footnoted to J. D. Rice in Encyclopedia Virginia and stated by Opechancanough, but Wikipedia's Indian massacre of 1622 gives 347 settlers, a quarter of the colony. The notes' 'not on the pages read' is true only because that page wasn't opened. Fix: 'killed 347 settlers by the usual count, a quarter of the colony, though J. D. Rice has a third', citing that article. Place: Jamestown is an anchor for attacks along the James, so mark approximate.",
+   "fields_unsupported": [
+    "statement: toll unattributed, omits the 347 and quarter",
+    "place.approximate"
+   ]
+  },
+  "na-e-096": {
+   "status": "partially-verified",
+   "note": "Date, forts, Berkeley, Tangier Island and the shooting supported. 'By one account several hundred' can name its source: the footnote is Joseph Frank, 'News from Virginny, 1644' (VMHB 1957), citing the London newsbook Mercurius Civicus of May 1645. Fix: 'a London newsbook reported several hundred colonists killed'. Jamestown is an anchor; mark approximate.",
+   "fields_unsupported": [
+    "statement: toll unattributed",
+    "place.approximate"
+   ]
+  },
+  "na-e-097": {
+   "status": "partially-verified",
+   "note": "FIELD point upheld: nothing cited, or found, places the treaty at Middle Plantation. It was an act of the General Assembly (text at Encyclopedia Virginia, from Hening). The Assembly's usual seat was Jamestown, but I could not confirm the 1646 session's location. Fix: move to Jamestown, approximate, after checking Hening vol. 1, or keep the point, mark it approximate and rename it for the ceded peninsula. Statement is supported.",
+   "fields_unsupported": [
+    "place"
+   ]
+  },
+  "na-e-098": {
+   "status": "verified",
+   "note": "29 May, first signatory, John West, Article 12, Chickahominy and Rappahannock resistance and 18,000 acres read in context. Source's lead says 28 May, as noted.",
+   "fields_unsupported": []
+  },
+  "na-e-099": {
+   "status": "partially-verified",
+   "note": "Facts supported, but the title's '(1616-1619)' disagrees with the card's 1614-1620; the date field is circa 1616. '2010 study' can be named: Marr and Cathey, Emerging Infectious Diseases 2010 (PMC2957993), read directly; they 'suggest an additional candidate' and the card's 'suggested' is right. The Crosby figure's footnote is Neal Salisbury, Manitou and Providence (1982), p. 105, so it is second-hand. The '100%' has an unreliable-source neighbour on Patuxet and no name. Fix: title '(c. 1614-1620)'; name Marr and Cathey; 'Crosby, as cited by Salisbury'; drop or attribute 100%.",
+   "fields_unsupported": [
+    "title",
+    "statement: 100% mortality unattributed"
+   ]
+  },
+  "na-e-100": {
+   "status": "verified",
+   "note": "Date in both styles, Carver, tribute, alliance, terms and the collapse after 1661 read in context. 'Helped Plymouth survive' is the Massasoit article's claim.",
+   "fields_unsupported": []
+  },
+  "na-e-101": {
+   "status": "verified",
+   "note": "Church's account, 'likely against Phillip's approval', 24 and 28 June and the coalition read in context. Dates are Old Style there.",
+   "fields_unsupported": []
+  },
+  "na-e-102": {
+   "status": "verified",
+   "note": "All facts read in context. Kind treats a pursuit and killing as a land battle, as the notes say. 'An Indian named John Alderman' repeats the source's phrasing.",
+   "fields_unsupported": []
+  },
+  "na-e-103": {
+   "status": "partially-verified",
+   "note": "'In 1636 Massachusetts Bay banished' follows Encyclopedia.com but is wrong on date: Wikipedia's Roger Williams has the General Court convict and order banishment in October 1635, with the sheriff coming in January 1636. Fix: 'Ordered banished by Massachusetts Bay in October 1635, Roger Williams left in early 1636...'. The rest is supported. The title's 'grant' follows Encyclopedia.com; Wikipedia says 'acquired'; the card's 'let him settle' is the safer word.",
+   "fields_unsupported": [
+    "statement: date of banishment"
+   ]
+  },
+  "na-e-104": {
+   "status": "partially-verified",
+   "note": "Date, militia, allies, refusal, NPS count and participant's claim supported. 'Another estimate' can name its author: the footnote is James D. Drake, King Philip's War (1999), p. 119. 'About 70 colonists' is footnoted to Axelrod, p. 104. Fix: 'James D. Drake has at least 97 warriors and 300 to 1,000 non-combatants'; 'about 70 colonists died, by Axelrod's count' or leave with that credit in the citation. Drake is known here through the footnote only. Encyclopedia.com's 16 December is a known outlier.",
+   "fields_unsupported": [
+    "statement: unnamed estimate and colonial toll"
+   ]
+  },
+  "na-e-105": {
+   "status": "partially-verified",
+   "note": "FIELD point upheld: Mystic Fort is the 1637 massacre site; the dated event was on a voyage to Block Island, and Endecott's first attacks were on the island. Fix: Block Island, approximate. Statement supported, including burned Niantic villages and the Pequot village; both accounts of Oldham's killers are on the two cited pages. Title 'Pequot War begins' is fair for the proximate cause; Encyclopedia.com's start of 1637 is noted.",
+   "fields_unsupported": [
+    "place"
+   ]
+  },
+  "na-e-106": {
+   "status": "partially-verified",
+   "note": "Attack, Mason's order, exits and Narragansett killings supported. 'Its warriors were away with Sassacus' overstates and sits oddly with 'stiff resistance': Mystic massacre has Sassacus taking 'a few hundred warriors' and Encyclopedia.com's sentence also speaks of warriors from the village being away on a raid, while the defenders fought. It also dangles at the end. The estimates can be better credited: Encyclopedia.com for 300-700; Underhill, quoted on the page, wrote of 'about foure hundred soules' and 'not above five' escaping. '400 to 700' has no footnote. Fix: 'Several hundred of its warriors were away with Sassacus'; 'John Underhill, who was there, wrote of about four hundred in the fort; Encyclopedia.com's estimate is 300 to 700'.",
+   "fields_unsupported": [
+    "statement: 'its warriors were away'; 400-700 unattributed"
+   ]
+  },
+  "na-e-107": {
+   "status": "verified",
+   "note": "All facts read in context, including 14-5 committee vote (card's wording fair) and Massachusetts's dispute.",
+   "fields_unsupported": []
+  },
+  "na-e-108": {
+   "status": "verified",
+   "note": "Supported by Uncas and Narragansett Indian Tribe; Encyclopedia.com confirms the secret supply of Shantok. Tracy and Leffingwell's relief is local tradition; a word such as 'by tradition' would be safer, though the source states it flat.",
+   "fields_unsupported": []
+  },
+  "na-e-109": {
+   "status": "partially-verified",
+   "note": "FIELD point upheld and goes further: the place is probably wrong. The Council's site in Wabanaki records is Kahnawake on the St Lawrence: wabanaki.com/wampum, quoting The Wampum Chronicles, calls Kahnawake 'the site of the Great Council Fire', and the cited article's own stress on the St Lawrence and on the Penobscot being nearest fit that. The point at the Mohawk's mouth near Cohoes has no support. Fix: move to Kahnawake, approximate, name 'Caughnawaga (Kahnawake)', after checking Leavitt and Francis's edition of Wapapi Akonutomakonol. The statement should also label this as tradition: 'By the Passamaquoddy wampum record...'; the 1680s date rests on Wikipedia's reading only.",
+   "fields_unsupported": [
+    "place",
+    "statement: tradition not labelled as such"
+   ]
+  },
+  "na-e-110": {
+   "status": "verified",
+   "note": "All facts read in context on Treaty of Casco (1678), including Belknap and the refusal to abide. The page doesn't state the signing place beyond the treaty's name; the place is safe.",
+   "fields_unsupported": []
+  },
+  "na-e-111": {
+   "status": "partially-verified",
+   "note": "Date, eight sachems, pictographs and terms supported. 'Historians have found... policy of deception' is thinner than it sounds: the one footnote is David L. Ghere, 'Mistranslations and Misinformation: Diplomacy on the Maine Frontier, 1725 to 1755' (1984), an article whose title covers later decades, not 1713. Fix: 'The historian David Ghere describes a policy of deception by New England politicians and translators in treaties on this frontier', after checking that Ghere covers 1713, or drop it to the Wabanaki claim alone.",
+   "fields_unsupported": [
+    "statement: 'Historians have found'"
+   ]
+  },
+  "na-e-112": {
+   "status": "partially-verified",
+   "note": "War, nations, Canso, 25 July 1722 and retreat supported. One-sided by omission: 'After Native raids, including the burning of Brunswick' leaves out the cited Norridgewock article's sequence, in which rangers raided Norridgewock in winter 1722 and destroyed its church and mission house, and Brunswick's burners took hostages to exchange for their own people held in Boston. Fix: 'After rangers raided Norridgewock and Wabanaki answered, burning Brunswick and taking hostages to trade for their own held at Boston, Massachusetts declared war'. Place: the declaration was by Shute (at Boston, not stated); Norridgewock is an anchor, so mark approximate.",
+   "fields_unsupported": [
+    "statement: one-sided cause of war",
+    "place.approximate"
+   ]
+  },
+  "na-e-113": {
+   "status": "verified",
+   "note": "22-23 August, about 200, £100 bounty, Râle and Mog, nearly two dozen and most accounts' eighty all read in context. Date field could move to day. Note the same page also carries 26 warriors dead in another strand; the card's 'accounts vary' covers it.",
+   "fields_unsupported": []
+  },
+  "na-e-114": {
+   "status": "verified",
+   "note": "All facts read in context on Parks Canada and CIRNAC, including 77 delegates, Armstrong and Doucett, and the first-treaty claim, credited to Parks Canada.",
+   "fields_unsupported": []
+  },
+  "na-e-115": {
+   "status": "verified",
+   "note": "Read in context on the Dictionary of Canadian Biography, including 'scarcely a few weeks', 24 June, 20 kin and both suggested motives. Credited to the Dictionary as it should be.",
+   "fields_unsupported": []
+  },
+  "na-e-116": {
+   "status": "verified",
+   "note": "Supported, including 13 transports, 1,176 settlers and the 1727 treaty grievance. 'Most of their communities refused' fairly reads CIRNAC's 'one Mi'kmaq community' signed.",
+   "fields_unsupported": []
+  },
+  "na-e-117": {
+   "status": "partially-verified",
+   "note": "Date, signers, 1726 reaffirmation, commerce, scholars' disagreement and R. v. Simon supported. The Patterson credit is wrong: his testimony is that the treaty didn't reach beyond Shubenacadie and was ended by hostilities; the renunciation is the article's own bracketed aside, as the notes half admit. Wikipedia's Jean-Baptiste Cope has him burn the treaty on 23 May 1753. Fix: 'Cope burned it in May 1753; at the Marshall trial the Crown's historian Stephen Patterson testified it had been ended by hostilities', citing Jean-Baptiste Cope. Treaty of 1752 places it 'during' the war CIRNAC says ended in 1751; left to CIRNAC, fine.",
+   "fields_unsupported": [
+    "statement: renunciation credited to Patterson"
+   ]
+  },
+  "na-e-118": {
+   "status": "partially-verified",
+   "note": "Causes, Jennings, the killing, parley and escape all supported. 'A militia of a thousand' is an army size with no name and no footnote on the page, as the notes say; Jennings (1968) is the article's main source here but I can't tie the number to him. Fix: 'about a thousand' with the source checked, or 'a large militia'.",
+   "fields_unsupported": [
+    "statement: army size unattributed"
+   ]
+  },
+  "na-e-119": {
+   "status": "verified",
+   "note": "All facts read in context on ExplorePAHistory, which says 'murdered'. Franklin's turning them back agrees with Paxton Boys. Attribution of the six and fourteen isn't given, but the toll is uncontested.",
+   "fields_unsupported": []
+  },
+  "na-e-120": {
+   "status": "partially-verified",
+   "note": "Facts follow Demasduit. FIELD not raised by researcher: kind 'revolt' doesn't fit a settlers' armed party seizing a woman and killing her husband; the Dictionary of Canadian Biography calls it kidnapping and killing. Fix: kind to a raid or massacre value. The card's 'was killed' hides who did it: 'killed by Peyton's party' is the Dictionary's wording. 'A grand jury absolved Peyton' carries a citation-needed tag; the source's quotation of the judge doesn't help. The 1 March date is when the party set out; the seizure's day isn't given on these pages, and month precision is right. The Dictionary's Demasduwit entry was not retrievable.",
+   "fields_unsupported": [
+    "kind",
+    "statement: passive on the killing; grand jury uncited"
+   ]
+  },
+  "na-e-121": {
+   "status": "verified",
+   "note": "All facts read in context on the Dictionary of Canadian Biography; oral histories on Beothuk. 'Last known' is the right wording.",
+   "fields_unsupported": []
+  },
+  "na-e-122": {
+   "status": "verified",
+   "note": "Read in context on Nanticoke people. Source's slip placing Fort Niagara in Canada is rightly not repeated.",
+   "fields_unsupported": []
+  },
+  "na-e-123": {
+   "status": "partially-verified",
+   "note": "Title's '(1634-1642)' has no support now: the 1642 came from a dropped page and both cited pages say 1634-1640. Fix: '(1634-1640)'. McMillan and Yellowhorn confirmed as the book behind the Petun figures (p. 78), footnote only. 'Another estimate' for half to two-thirds and 12,000 is unnamed, with no footnote I could tie to it. 'Historians trace' is a shade stronger than the source's 'have been linked'.",
+   "fields_unsupported": [
+    "title",
+    "statement: 'another estimate' unattributed"
+   ]
+  },
+  "na-e-124": {
+   "status": "partially-verified",
+   "note": "Sequence, 16 March events, 1 May, 10,000 and 16 June supported. 'About 1,000' is a war party size with no name on Huron people. Fix: credit it or say 'a large war party'. Brébeuf and Lalemant are placed at St Louis by Sainte-Marie among the Hurons; 'where' covering both villages is loose: say 'at St Louis'. Omits that most on Gahoendoe starved, which the source says in the next sentence and which is what the flight meant.",
+   "fields_unsupported": [
+    "statement: war-party size unattributed"
+   ]
+  },
+  "na-e-125": {
+   "status": "partially-verified",
+   "note": "All facts read in context. 'About 300 men' has a footnote to Nester 2000, pp. 77-78. Fix: 'with about 300 men by William Nester's account', with Nester not read directly. Siege began two days later; 'he began a siege' is fine.",
+   "fields_unsupported": [
+    "statement: force size unattributed"
+   ]
+  },
+  "na-e-126": {
+   "status": "verified",
+   "note": "All facts read in context, including 'at least temporarily', the public meeting and 'first legal recognition'. Place is a representative point, marked approximate.",
+   "fields_unsupported": []
+  },
+  "na-e-127": {
+   "status": "verified",
+   "note": "All facts read in context across the three pages. Camp Charlotte lay on Scippo Creek, within eight miles of the Pickaway towns, so the place could be marked approximate.",
+   "fields_unsupported": []
+  },
+  "na-e-128": {
+   "status": "partially-verified",
+   "note": "'In October 1790... marched from Fort Washington' is contradicted by a page the card cites: Northwest Indian War has the army leave on 30 September; St. Clair's Defeat says 7 October. The two also give the force as 1,100 + 320 and 1,453. Figures: more than 200 casualties is Calloway 2018, p. 384; 120-150 has no footnote; about 600 none in view. Fix: 'In autumn 1790'; 'Colin Calloway puts his losses at more than 200'.",
+   "fields_unsupported": [
+    "statement: departure date; figures unattributed"
+   ]
+  },
+  "na-e-129": {
+   "status": "partially-verified",
+   "note": "Facts supported; Jones confirmed as footnote 4 (p. 41), footnote only. 'Only twenty-four escaped unharmed' and the force sizes name no one: the footnote closing that passage is Matthew Waxman, Lawfare, 2018, a law blog, and it may support only the investigation sentence. Calloway's Smithsonian piece, footnote 5, is open and should be read for the toll. Fix: credit or drop the twenty-four; add the American dead with a name.",
+   "fields_unsupported": [
+    "statement: 'twenty-four' and force sizes unattributed"
+   ]
+  },
+  "na-e-130": {
+   "status": "verified",
+   "note": "All facts read in context; 33, 30-40 and McKee's 19 are credited as the page credits them.",
+   "fields_unsupported": []
+  },
+  "na-e-131": {
+   "status": "verified",
+   "note": "All facts read in context. Infobox quote matches once the footnote mark is removed.",
+   "fields_unsupported": []
+  },
+  "na-e-132": {
+   "status": "partially-verified",
+   "note": "FIELD: the '29,719,530 acres' should go, not stand as a rival count. It exceeds any plausible cession; Potawatomi Nation, NLM Native Voices and others give about 3 million, some 2.5 million. Date: the treaty text in Kappler (treaties.okstate.edu) is signed 'this thirtieth of September' and headed Sept. 30, 1809. Wikipedia's infobox also says 30 September, so the notes' 'isn't supported here' is mistaken; 29 is the slip. Fix: 'Signed on 30 September, the treaty sold about 3 million acres mostly along the Wabash', with Kappler cited, and date day 30. Participants list tecumseh-confederacy, who were excluded.",
+   "fields_unsupported": [
+    "statement: acreage, signing day",
+    "participants"
+   ]
+  },
+  "na-e-133": {
+   "status": "partially-verified",
+   "note": "Facts supported, but the framing leans: 'attacked... the army of Governor Harrison, camped nearby' drops the cited sentence that Harrison 'marched with an army of about 1,000 men to attack the confederacy's headquarters at Prophetstown'. Fix: 'attacked before dawn the army Governor Harrison had marched against the town'. Source says he had also arranged to meet Tenskwatawa next day, which the card may keep out.",
+   "fields_unsupported": [
+    "statement: one-sided lead-up"
+   ]
+  },
+  "na-e-134": {
+   "status": "verified",
+   "note": "All facts read in context on Battle of the Thames; DCB confirms the date and place.",
+   "fields_unsupported": []
+  },
+  "na-e-135": {
+   "status": "verified",
+   "note": "All facts read in context, including the 1850s label and 6 million acres. Toll rightly left off.",
+   "fields_unsupported": []
+  },
+  "na-e-136": {
+   "status": "partially-verified",
+   "note": "'An equal tract in Kansas' follows the Wikipedia sentence but is wrong: the treaty text (Kappler, treaties.okstate.edu) assigns five million acres on the Missouri from the mouth of Boyer's River, in today's southwest Iowa, with the northern Missouri line as a boundary; Kansas Territory did not exist until 1854. Fix: 'an equal tract west of the Mississippi, on the Missouri in what is now Iowa'. All else supported, with 'ratified 1835' from the infobox.",
+   "fields_unsupported": [
+    "statement: location of the western tract"
+   ]
+  },
+  "na-e-137": {
+   "status": "partially-verified",
+   "note": "'About 859 by one count and more than 756 by the Oklahoma encyclopedia's' sets up a false conflict. Trail of Death explains both: 859 on the tribal registration rolls began, 756 survived to arrive, 42 were recorded dead, the rest escaped. Fix: 'marching the 859 on the rolls to Kansas... 756 arrived; 42 were recorded dead, most of them children, and others escaped'. Everything else supported.",
+   "fields_unsupported": [
+    "statement: 859 vs 756"
+   ]
+  },
+  "na-e-138": {
+   "status": "partially-verified",
+   "note": "Dates follow an unfootnoted timeline on Miami people, confirmed by the Myaamia Center (aacimotaatiiyankwi.org): boats loaded near Peru, 6 October, finished near Fort Wayne next day. Place: the point (40.35, -84.77) is on the Ohio line, nowhere near the reservation or the departure. Fix: Peru, Indiana. Figure: 'about five hundred went to Kansas' is the Oklahoma encyclopedia's, credited, but other accounts put those loaded at about 300-350 (327 in a Miami Partnership timeline; about 300 on the Peru marker). Fix: give the 300-350 with the Myaamia sources and keep or drop the 500.",
+   "fields_unsupported": [
+    "place",
+    "statement: number removed"
+   ]
+  },
+  "na-e-139": {
+   "status": "partially-verified",
+   "note": "1850 facts supported. 'Litigation continues' repeats a stale sentence: the Supreme Court of Canada ruled unanimously on 26 July 2024 (per Wikipedia's Robinson Huron Treaty) that the Crown must raise the annuity, and a $10 billion Robinson Huron settlement was announced in June 2023 (Globe and Mail, cited there). Fix: 'In 2024 the Supreme Court of Canada held the Crown had failed its duty to raise them, after a $10 billion Robinson Huron settlement in 2023.' Cite that article; Superior's position should be checked.",
+   "fields_unsupported": [
+    "statement: 'litigation continues'"
+   ]
+  },
+  "na-e-140": {
+   "status": "partially-verified",
+   "note": "Date, Tuskaloosa, 2021 finds and the fight supported. Figures: 'One estimate' is Tony Horwitz, A Voyage Long and Strange (2009), a popular book, footnote 68. The Battle of Mabila page the card cites has the primary claim the card omits: Elvas's 2,500 'a few more or less', and Spanish accounts of 2,500 to 3,000. 2,500 warriors is footnoted to an NPS webpage. All rest on the Spanish; no Native account survives. Fix: 'Spanish chroniclers put the Native dead at 2,500 to 3,000, Elvas at about 2,500; the writer Tony Horwitz gives 2,000-6,000.'",
+   "fields_unsupported": [
+    "statement: figures uncredited, Spanish sourcing not stated"
+   ]
+  },
+  "na-e-141": {
+   "status": "verified",
+   "note": "All facts read in context; Hann and Bienville named as the page names them. Hann's 2,000 runs to the raids of 1706, as the notes say. The page's next sentence has Miranda executed by one Spanish account; not on the card, no defect. Place is marked approximate; the page puts Ayubale eight leagues (about 24 miles) north of San Luis, so the point is not the town.",
+   "fields_unsupported": []
+  },
+  "na-e-142": {
+   "status": "partially-verified",
+   "note": "FIELD point upheld: Fort Neoheroka was built after the war opened. Fix: place on the settlements attacked, New Bern or Bath, or Hancock's Catechna, approximate. Date: 10 September is only the lead's; both sources date the attacks to 22 September. Fix: 22 September, or September month precision. Lawson: 'killed hundreds, including John Lawson' follows Wikipedia, but NCpedia, also cited, has him taken hostage with Graffenried and put to death, the 'flash point' before the raids, as the notes say. The card chose the weaker reading. Fix: 'after John Lawson, taken hostage, was put to death, they attacked on 22 September, by one account killing hundreds.' 'Hundreds' has no name.",
+   "fields_unsupported": [
+    "place",
+    "date",
+    "statement: Lawson's death; toll unattributed"
+   ]
+  },
+  "na-e-143": {
+   "status": "partially-verified",
+   "note": "Date, tunnel, von Graffenried's 200 and 900, 47 killed read in context. 'By one count' is Jim Shamlin, 'The Tuscarora War', North Carolina Literary Review (1992), footnote only; the page has 33 colonists arriving in December 1712. Fix: name Shamlin. NCpedia's 151 casualties could be added. Moore's 47 has NCpedia behind it.",
+   "fields_unsupported": [
+    "statement: allied force size unattributed"
+   ]
+  },
+  "na-e-144": {
+   "status": "verified",
+   "note": "All facts read in context. Pocotaligo section is flagged as lacking citations, as noted. 'Drew in... Cherokee' is the lead's list; the same page says they turned against the Creek in 1716; the notes record it, and a clause would be better.",
+   "fields_unsupported": []
+  },
+  "na-e-145": {
+   "status": "partially-verified",
+   "note": "Date, Chépart and retaliation supported. 'About 230' can be credited: Barnett 2007, p. 105, gives 138 men, 35 women and 56 children, per Natchez revolt, footnote only. That breakdown also complicates 'sparing most women', as does Fort Rosalie's 'capturing hundreds of women and children'. Fix: 'about 230 colonists by James Barnett's count, among them 35 women and 56 children, and taking hundreds of women and children captive'.",
+   "fields_unsupported": [
+    "statement: toll unattributed; 'sparing' omits captivity"
+   ]
+  },
+  "na-e-146": {
+   "status": "partially-verified",
+   "note": "Battle facts supported. 'By one account' for about 200 is an old schoolbook: footnote is William Garrott Brown and Albert James Pickett, A History of Alabama, for Use in Schools. 1,200 has no footnote. 'In disgrace' is citation-needed. Fix: name that source or say 'heavy losses'; say 'Bienville retreated' rather than 'in disgrace'. Atkinson (2004) is on the page and should be read.",
+   "fields_unsupported": [
+    "statement: figures weakly sourced; 'disgrace' uncited"
+   ]
+  },
+  "na-e-147": {
+   "status": "partially-verified",
+   "note": "War narrative follows Anglo-Cherokee War, but 'massacred its garrison' overstates and is one-sided: Fort Loudoun (Tennessee) has the garrison surrender in August 1760 after a siege, then be attacked on the march home, 'killing more than two dozen and taking most of the survivors prisoner', many ransomed. Fix: 'Cherokee forces besieged Fort Loudoun until it surrendered in August 1760, then attacked the departing garrison, killing more than two dozen and capturing most of the rest.' Add that the Moytoy attack followed an alleged horse theft. 2,800 and 5,000 name no one, no footnote. Georgia Encyclopedia has 1759-61.",
+   "fields_unsupported": [
+    "statement: Fort Loudoun; figures unattributed"
+   ]
+  },
+  "na-e-148": {
+   "status": "partially-verified",
+   "note": "Read past the quote: the cited sentence on the Treaty of Nation Ford is followed at once by 'The treaty was invalid ab initio because the state did not have the right to make it, which was reserved for the federal government, and never gained Senate ratification.' The card stops short and leaves a sale standing. Fix: add 'though only the federal government had that power and the Senate never ratified it'. 'Gave' covers the South Carolina Encyclopedia's King and Wikipedia's colonial government, as the notes say. Rest supported.",
+   "fields_unsupported": [
+    "statement: 1840 sale omits invalidity"
+   ]
+  },
+  "na-e-149": {
+   "status": "verified",
+   "note": "All facts read in context. Hawkins is named as the source names him; other US commissioners exist. 'Yet to be fulfilled' is time-dependent, sourced as of October 2026.",
+   "fields_unsupported": []
+  },
+  "na-e-150": {
+   "status": "verified",
+   "note": "NPS figures, 49 killed, 23 million and Creek War's 'more than 21 million' read in context, with NPS named. NPS's own 557 + 200-300 sums to at least 757, not 800, but the card cites it faithfully.",
+   "fields_unsupported": []
+  }
+ }
+}

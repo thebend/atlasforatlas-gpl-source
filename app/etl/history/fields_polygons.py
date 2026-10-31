@@ -37,7 +37,7 @@ import shapely
 from PIL import Image
 from shapely.geometry import shape
 
-from etl.common import CFG, LAT0, LAT1, LON0, LON1, OUT, PROTO, RCACHE, RESEARCH_NAMES, SCACHE, SCENE, grid, write_json
+from etl.common import CFG, LAT0, LAT1, LON0, LON1, OUT, PROTO, RCACHE, RESEARCH_NAMES, SCACHE, SCENE, east, grid, in_window, write_json
 
 STEP = CFG["field_step"]
 Y0, Y1 = CFG["years"]
@@ -195,13 +195,13 @@ def research_seeds(alias: dict[str, str], states: list[dict]) -> tuple[list[dict
         if c.get("authority") in ("ceded", "removed"):
             continue
         pl = c.get("place") or {}
-        if pl.get("lon") is None or not (LON0 <= pl["lon"] <= LON1 and LAT0 <= pl["lat"] <= LAT1):
+        if pl.get("lon") is None or not in_window(pl["lon"], pl["lat"]):
             continue                                           # outside the window: would seed at its edge
         f, t = c.get("from") or {}, c.get("to") or {}
         y0 = dec_year(f"{f.get('year')}-{int(f.get('month') or 1):02d}-{int(f.get('day') or 1):02d}") if f.get("year") else Y0
         y1 = dec_year(f"{t.get('year')}-{int(t.get('month') or 12):02d}-{int(t.get('day') or 28):02d}") if t and t.get("year") else None
         conf = {"high": 1.0, "medium": 0.9, "low": 0.75}.get(c.get("confidence"), 0.85)
-        sd = {"side": alias.get(c["polity"], c["polity"]), "lon": pl["lon"], "lat": pl["lat"],
+        sd = {"side": alias.get(c["polity"], c["polity"]), "lon": east(pl["lon"]), "lat": pl["lat"],
               "w": conf * AUTH_W.get(c.get("authority"), 0.85), "y0": y0, "y1": y1, "id": c["id"]}
         # a dated range (radiocarbon): the claim fades in across its start range and out across its end range
         if (f.get("end") or {}).get("year") is not None and f["end"]["year"] > f["year"]:
@@ -372,7 +372,10 @@ def topk_image(S: dict[int, np.ndarray], meta_r, meta_g, ny: int, nx: int) -> np
 
 
 def active(y0, y1, y: float) -> bool:
-    return (y0 is None or y0 <= y + 1e-6) and (y1 is None or y < y1)
+    # a slice's year is rounded to 3 places, so it can fall just before the row it starts: within half a
+    # day of a change, the new row is on and the old one off, or a border moves a whole slice late
+    tol = 6e-4
+    return (y0 is None or y0 <= y + tol) and (y1 is None or y < y1 - tol)
 
 
 def ramp(sd: dict, y: float) -> float:
@@ -396,7 +399,8 @@ def main() -> None:
         for y in (s["y0"], s["y1"], *s.get("in", ()), *s.get("out", ())):
             if y is not None and Y0 < y < Y1 + 1:
                 years.append(round(y, 3))
-    years = sorted(set(years))
+    # dates a label changes with no border moving (manifest etl.slice_years: "Kuwait (annexed by Iraq)")
+    years = sorted(set(years) | set(CFG.get("slice_years", [])))
     # merge slices closer than ~45 days: they would only flicker
     merged: list[float] = []
     gap = CFG.get("slice_gap", 0.12)
