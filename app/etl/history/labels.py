@@ -17,6 +17,7 @@ import sys
 import numpy as np
 from PIL import Image
 
+from etl import polity_qids
 from etl.common import CFG, LAT1, LON0, OUT, ROOT, SCACHE, SCENE, write_json
 
 sys.path.insert(0, str(ROOT))
@@ -79,6 +80,19 @@ def era_name(side: str, y: float) -> str | None:
             return name
     rows = [n for y0, y1, n in SOURCE_NAMES.get(side, []) if y0 <= y < y1]
     return max(set(rows), key=rows.count) if rows else None
+
+
+def border_source(meta: dict, side: str, y: float) -> str | None:
+    """Where a side's borders on the map come from in year y: the source row drawing it then
+    (fields.json "ohm", the firmly held rows), else the period's one observed source."""
+    rows = [o.get("source", "ohm") for o in meta.get("ohm", []) if o["side"] == side and o["y0"] <= y < o["y1"]]
+    if rows:
+        return max(set(rows), key=rows.count)
+    obs = meta.get("provenance", {}).get("observed") or []
+    obs = [obs] if isinstance(obs, str) else obs
+    if "cliopatria" in obs and (len(obs) == 1 or set(obs) <= {"cliopatria", "cshapes2"}):
+        return "cliopatria"
+    return obs[0] if len(obs) == 1 else None
 
 
 def depth(mask: np.ndarray) -> np.ndarray:
@@ -166,6 +180,9 @@ def main() -> None:
     # (research nations can split a state's region and push its deepest point somewhere odd)
     variants = sorted(variants, key=lambda v: 0 if v == "obs" else 1)
     research_only = {s["id"] for s in meta["sides"] if s.get("research")}
+    # the Wikidata item each name stands for at its date (etl/polity_qids.py); a label without one stays unclickable
+    qids = polity_qids.load()
+    side_name = {s["id"]: s["name"] for s in meta["sides"]}
     for variant in variants:
         labels[variant] = {}
         for y in meta["slices"]:
@@ -191,9 +208,11 @@ def main() -> None:
                 d = depth(m)
                 iy, ix = np.unravel_index(int(d.argmax()), d.shape)
                 nm = era_name(side["id"], y)
+                q = polity_qids.lookup(qids, side["id"], nm or side_name[side["id"]], float(y))
+                src = None if side["id"] in research_only else border_source(meta, side["id"], float(y))
                 out.append({"side": side["id"], **({"name": nm} if nm else {}), "lon": round(LON0 + (ix + 0.5) * step, 3),
                             "lat": round(LAT1 - (iy + 0.5) * step, 3), "cells": n,
-                            "depth": int(d.max())})
+                            "depth": int(d.max()), **({"qid": q} if q else {}), **({"src": src} if src else {})})
             key = str(int(y)) if float(y).is_integer() else repr(float(y))  # JS String(year)
             if variant == "air" and "obs" in labels and key in labels["obs"]:
                 obs_anchor = {a["side"]: a for a in labels["obs"][key]}

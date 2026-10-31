@@ -8,9 +8,6 @@ from __future__ import annotations
 
 import json
 import os
-import shutil
-import time
-import urllib.request
 import zipfile
 from pathlib import Path
 
@@ -18,7 +15,7 @@ from shapely import set_precision
 from shapely.geometry import GeometryCollection, MultiPolygon, Polygon, box, mapping
 from shapely.validation import make_valid
 
-from etl import common
+from etl import common, net
 from etl import shp  # noqa: F401  etl/shp.py, re-exported for the converters
 
 BASE = common.CACHE / "scenes" / "north-america"
@@ -26,7 +23,6 @@ RAW = BASE / "raw"
 GEO = BASE / "geo"
 CURATED = common.PROTO / "sources" / "north-america"
 WINDOW = box(-170, 7, -50, 75)  # lon/lat window
-UA = common.UA
 
 
 def log(*a):
@@ -40,23 +36,11 @@ def download(url: str, dest: Path, *, headers: dict | None = None, pause: float 
     """Fetch url to dest unless dest already exists (atomic: written to .part, then renamed)."""
     if dest.exists():
         return dest
-    dest.parent.mkdir(parents=True, exist_ok=True)
-    tmp = dest.with_name(dest.name + ".part")
-    hdrs = {"User-Agent": UA, **(headers or {})}
-    for attempt in range(retries):
-        try:
-            req = urllib.request.Request(url, headers=hdrs)
-            with urllib.request.urlopen(req, timeout=timeout) as r, open(tmp, "wb") as f:
-                shutil.copyfileobj(r, f, 1 << 20)
-            break
-        except Exception as ex:  # noqa: BLE001 - network errors of every kind get a retry
-            log("  retry", attempt + 1, url, ex)
-            time.sleep(5 * (attempt + 1))
-    else:
-        raise SystemExit(f"download failed: {url}")
-    os.replace(tmp, dest)
+    try:
+        net.download(url, dest, headers=headers, timeout=timeout, delay=pause, tries=retries, log=log)
+    except Exception as ex:  # noqa: BLE001
+        raise SystemExit(f"download failed: {url}: {ex}") from ex
     log("  got", dest.relative_to(BASE), dest.stat().st_size, "bytes")
-    time.sleep(pause)
     return dest
 
 

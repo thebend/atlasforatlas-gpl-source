@@ -28,8 +28,10 @@ def load_manifests() -> dict[str, dict]:
     etl/profile.py) builds them. Each holds the window, years, sources, pipeline and the app's
     chapters and card; the frontend reads the same files, through the same profile."""
     from etl import profile                        # the build profile rewrites what it may not ship
-    ms = [profile.apply(json.loads(p.read_text())) for p in SCENE_DIR.glob("*.json")]
-    return {m["id"]: m for m in sorted(ms, key=lambda m: (m.get("order", 999), m["id"]))}
+    ms = {m["id"]: m for m in (profile.apply(json.loads(p.read_text())) for p in SCENE_DIR.glob("*.json"))}
+    # a topic on another period's built data ("base": etl/rebuild.py builds nothing for it) has the rest of that manifest
+    ms = {sid: {**ms[m["base"]], "hidden": False, **m} if m.get("base") else m for sid, m in ms.items()}
+    return dict(sorted(ms.items(), key=lambda kv: (kv[1].get("order", 999), kv[0])))
 
 
 MANIFESTS = load_manifests()
@@ -57,7 +59,25 @@ CATALOGUE = PUBLIC / "data" / "catalogue"
 SCENE_EVENTS = SCACHE / "events.json"
 TOURS = PROTO / "tours"                            # committed: tours/<id>.json, stops that reference the catalogue
 
-UA = "OpenWorld-prototype/0.1 (https://github.com/thebend/openworld)"
+
+def load_tours() -> dict[str, dict]:
+    """Tours (tours/*.json) by id. A tour on a period inherits the period's title, card (region and
+    themes) and research unless it gives its own; src/lib/tour.ts reads them the same way."""
+    out = {}
+    for p in sorted(TOURS.glob("*.json")):
+        t = json.loads(p.read_text())
+        m = MANIFESTS.get(t.get("scene"))
+        if m:
+            t.setdefault("title", m["title"])
+            t.setdefault("research", list(m.get("research", [])))
+            if "card" not in t and m.get("card"):
+                t["card"] = {"region": m["card"]["region"], "themes": list(m["card"]["themes"])}
+        out[p.stem] = t
+    return out
+
+
+# every request the build makes says who is asking by the project's address, never a person's (etl/net.py)
+UA = "AtlasForAtlas/0.1 (https://atlasforatlas.com; data build)"
 
 
 def grid(step: float) -> tuple[np.ndarray, np.ndarray]:

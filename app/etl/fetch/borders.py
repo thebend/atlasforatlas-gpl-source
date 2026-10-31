@@ -36,15 +36,14 @@ import hashlib
 import json
 import lzma
 import tarfile
-import urllib.request
 import warnings
 import zipfile
 
 import shapely
 from shapely.geometry import box, mapping, shape
 
-from etl import profile
-from etl.common import CACHE, CFG, LAT0, LAT1, LON0, LON1, SCACHE, SCENE, UA, write_json
+from etl import net, profile
+from etl.common import CACHE, CFG, LAT0, LAT1, LON0, LON1, SCACHE, SCENE, write_json
 
 warnings.filterwarnings("ignore", category=RuntimeWarning)
 
@@ -63,10 +62,7 @@ def download(url: str, dest, sha: str | None = None) -> None:
     if not dest.exists():
         dest.parent.mkdir(parents=True, exist_ok=True)
         print("download", url, flush=True)
-        req = urllib.request.Request(url, headers={"User-Agent": UA})
-        tmp = dest.with_suffix(dest.suffix + ".part")
-        tmp.write_bytes(urllib.request.urlopen(req, timeout=600).read())
-        tmp.replace(dest)
+        net.download(url, dest, timeout=600)
     if sha and hashlib.sha256(dest.read_bytes()).hexdigest() != sha:
         raise SystemExit(f"{dest.name}: SHA-256 does not match the pinned release; check the source before re-pinning")
 

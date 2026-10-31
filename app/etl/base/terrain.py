@@ -16,12 +16,11 @@ v = elevation_m + 12000 split as R=v>>8, G=v&255. B = 255 where elevation>0
 """
 from __future__ import annotations
 
-import urllib.request
-
 import numpy as np
 from PIL import Image
 
-from etl.common import CACHE, CFG, LAT0, LAT1, LON0, LON1, OUT, ROOT, SCACHE, UA, grid, tile_xy, write_json
+from etl import net
+from etl.common import CACHE, CFG, LAT0, LAT1, LON0, LON1, OUT, ROOT, SCACHE, grid, tile_xy, write_json
 
 Z = CFG['dem_z']
 STEP = CFG['terrain_step']
@@ -36,11 +35,7 @@ def etopo_cap(lat_a: float, lat_b: float, stride: int) -> tuple[np.ndarray, np.n
     """ETOPO1 (1 arc-minute) between two latitudes at `stride` minutes: lats, lons, heights."""
     dst = CACHE / "etopo" / f"cap_{lat_a:+.1f}_{lat_b:+.1f}_s{stride}.csv"
     if not dst.exists():
-        dst.parent.mkdir(parents=True, exist_ok=True)
-        req = urllib.request.Request(ETOPO_URL.format(a=lat_a, b=lat_b, s=stride), headers={"User-Agent": UA})
-        tmp = dst.with_suffix(".part")
-        tmp.write_bytes(urllib.request.urlopen(req, timeout=600).read())
-        tmp.replace(dst)
+        net.download(ETOPO_URL.format(a=lat_a, b=lat_b, s=stride), dst, timeout=600)
     d = np.loadtxt(dst, delimiter=",", skiprows=2)
     lats, lons = np.unique(d[:, 0]), np.unique(d[:, 1])
     z = d[:, 2].reshape(len(lats), len(lons))   # ERDDAP rows: latitude outer, longitude inner
@@ -65,9 +60,8 @@ def load_tile(x: int, y: int) -> np.ndarray:
         p = local
     else:
         if not cached.exists():
-            cached.parent.mkdir(parents=True, exist_ok=True)
-            req = urllib.request.Request(TILE_URL.format(z=Z, x=x, y=y), headers={"User-Agent": UA})
-            cached.write_bytes(urllib.request.urlopen(req, timeout=60).read())
+            # map tiles from a CDN: no pause between them
+            net.download(TILE_URL.format(z=Z, x=x, y=y), cached, timeout=60, delay=0)
         p = cached
     a = np.asarray(Image.open(p).convert("RGB")).astype(np.float64)
     return a[:, :, 0] * 256 + a[:, :, 1] + a[:, :, 2] / 256 - 32768

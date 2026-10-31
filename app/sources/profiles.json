@@ -13,7 +13,7 @@
       "quotes": {"max_words": 50, "per_url_words": 300, "open_hosts": ["wikipedia.org", "wikisource.org", "gutenberg.org"]},
       "drops": {
         "cshapes": "Borders: Cliopatria (CC BY 4.0) instead, at year resolution; OpenHistoricalMap where a period already names relations.",
-        "gufm1": "Magnetic north on the compass: off (sky/gufm1.json is not built).",
+        "gufm1": "Magnetic north before 1900: off (sky/gufm1.json is not built); from 1900 it comes from IGRF-14 (CC BY 4.0).",
         "gbif": "Wildlife records: only CC0 and CC BY records are kept; CC BY-NC and unlicensed records are left out of wildlife.json.",
         "commons": "Media: any portrait or recording whose licence is non-commercial, unstated or share-alike is left out. Today that is the rain and insect beds (CC BY-SA 4.0): the browser synthesises those two instead.",
         "quotes": "Research citations: every link stays; a quote is withheld when it runs over 50 words, or when 300 words are already quoted from the same page, except from Wikipedia, Wikisource and Project Gutenberg."
@@ -45,6 +45,11 @@
         "russia-ukraine-war": {
           "etl": {"borders": [{"source": "cliopatria", "carry_to": 2026}, {"keep": "ohm"}]},
           "bordersNote": "Polity outlines from Cliopatria (Seshat, CC BY 4.0), yearly to 2024 and carried forward unchanged after it. From 30 September 2022 the four oblasts Russia claims to have annexed (Donetsk, Luhansk, Zaporizhzhia and Kherson, their boundaries from OpenHistoricalMap) are drawn as contested between Russia and Ukraine: this is the claim's extent (each oblast's full boundary), not the ground either side held."
+        },
+        "us-iran-war": {
+          "etl": {"borders": [{"source": "cliopatria", "carry_to": 2026, "drop": ["State of Israel", "Gaza/Hamas"]}, {"keep": "ohm"}]},
+          "sources": {"borders": ["cliopatria", "ohm"], "labels": ["cliopatria", "ohm"]},
+          "bordersNote": "Israel and Palestine from OpenHistoricalMap; other states from Cliopatria (Seshat, CC BY 4.0), whose 2024 outlines are carried forward unchanged. The borders do not change in this story. No dataset here has front lines, areas of control, the extent of the blockades or the mined waters, so none is drawn."
         },
         "russian-revolution": {
           "etl": {"borders": ["cliopatria"]},

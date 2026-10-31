@@ -8,7 +8,6 @@
   "view": [[-135, 12], [-55, 62]],
   "startYear": 1700,
   "rate": "10 years/s",
-  "minZoom": 2.2,
   "sound": "colonial",
   "trails": ["trail-lewis-clark.json"],
   "research": ["north-america-1492-1900"],

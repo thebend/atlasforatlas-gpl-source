@@ -12,15 +12,16 @@ Run: uv run python -m etl.research.verify_quotes <catalogue-name>   (reads resea
 from __future__ import annotations
 
 import html
+import http.client
 import json
 import re
-import time
+import subprocess
 import unicodedata
 import urllib.error
 import urllib.parse
-import urllib.request
 
-from etl.common import CACHE, RCACHE, RESEARCH, UA, write_json
+from etl import net
+from etl.common import CACHE, RCACHE, RESEARCH, write_json
 
 import sys
 NAME = sys.argv[1] if len(sys.argv) > 1 else "northeast-1790-1820"
@@ -34,7 +35,7 @@ def norm(s: str) -> str:
     s = "".join(c for c in s if not unicodedata.combining(c))
     s = s.replace("’", "'").replace("‘", "'").replace("“", '"').replace("”", '"')
     s = s.replace("-\n", "").lower()
-    s = re.sub(r"[^a-z0-9]+", " ", s)
+    s = re.sub(r"[\W_]+", " ", s)       # letters of any script: a Russian quote is checked as words, not reduced to its digits
     return re.sub(r"\s+", " ", s).strip()
 
 
@@ -49,12 +50,22 @@ def to_text(raw: str) -> str:
 
 
 def source_url(url: str) -> str:
-    m = re.match(r"https?://archive\.org/(?:details|stream)/([^/?#]+)", url)
+    # (a citation that names the item's text file itself, whose name needn't be the item's, is read as cited)
+    m = re.match(r"https?://archive\.org/(?:details|stream)/([^/?#]+)/?(?:[?#].*)?$", url)
     if m:
         ident = m.group(1)
         return f"https://archive.org/stream/{ident}/{ident}_djvu.txt"
     # non-ASCII titles (Starčevo, Ötzi) must be percent-encoded for urllib
     return urllib.parse.quote(url, safe=":/?#[]@!$&'()*+,;=%~")
+
+
+def pdf_text(raw: bytes) -> str:
+    """A PDF's text (an arXiv paper, a scanned article), by poppler's pdftotext where it is installed;
+    without it the PDF counts as unfetchable rather than as a page its quotes are missing from."""
+    try:
+        return subprocess.run(["pdftotext", "-q", "-", "-"], input=raw, capture_output=True, timeout=120).stdout.decode("utf-8", "replace")
+    except (OSError, subprocess.SubprocessError):
+        return ""
 
 
 def fetch(url: str) -> str | None:
@@ -63,23 +74,15 @@ def fetch(url: str) -> str | None:
     p = FETCH / key
     if p.exists():
         return p.read_text(errors="replace") or None
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "text/html,text/plain,*/*"})
-    for attempt in range(3):
-        try:
-            body = urllib.request.urlopen(req, timeout=60).read().decode("utf-8", "replace")
-            p.write_text(body)
-            time.sleep(0.4)
-            return body
-        except urllib.error.HTTPError as e:
-            if e.code in (429, 503):
-                time.sleep(3 * (attempt + 1))
-                continue
-            p.write_text("")
-            return None
-        except Exception:
-            time.sleep(2)
-    p.write_text("")
-    return None
+    try:
+        raw = net.fetch(url, headers={"Accept": "text/html,text/plain,*/*"}, delay=0.4, tries=3, backoff=3)
+        body = pdf_text(raw) if raw[:5] == b"%PDF-" else raw.decode("utf-8", "replace")
+    except net.Blocked:
+        return None                 # a bot check, not the page: not kept, so a later run asks again
+    except (urllib.error.URLError, OSError, ValueError, http.client.HTTPException):
+        body = ""                   # gone, refused or unreachable after retries: kept as nothing
+    p.write_text(body)
+    return body or None
 
 
 PMC = re.compile(r"https?://(?:pmc\.ncbi\.nlm\.nih\.gov/articles|www\.ncbi\.nlm\.nih\.gov/pmc/articles)/(PMC\d+)")

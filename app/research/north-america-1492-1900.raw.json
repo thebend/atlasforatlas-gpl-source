@@ -7728,7 +7728,7 @@
    "type": "control",
    "place": {
     "name": "Cypress Hills (Battle Creek massacre site)",
-    "qid": "Q5200341",
+    "qid": "Q22666635",
     "lon": -109.88916667,
     "lat": 49.54972222,
     "coord_source": "https://www.wikidata.org/wiki/Q5200341",
@@ -10125,7 +10125,7 @@
    "type": "control",
    "place": {
     "name": "Great Swamp (South Kingstown, Rhode Island)",
-    "qid": "Q5600061",
+    "qid": "Q163507",
     "lon": -71.59555555555555,
     "lat": 41.46861111111111,
     "coord_source": "https://www.wikidata.org/wiki/Q5600061",
@@ -10256,7 +10256,6 @@
    "type": "control",
    "place": {
     "name": "Mystic Fort (Pequot fort near the Mystic River)",
-    "qid": "Q6948987",
     "lon": -71.978,
     "lat": 41.3627,
     "coord_source": "https://www.wikidata.org/wiki/Q6948987",
@@ -10304,7 +10303,6 @@
    "type": "control",
    "place": {
     "name": "Mystic Fort (Pequot fort near the Mystic River)",
-    "qid": "Q6948987",
     "lon": -71.978,
     "lat": 41.3627,
     "coord_source": "https://www.wikidata.org/wiki/Q6948987",
@@ -10348,7 +10346,6 @@
    "type": "control",
    "place": {
     "name": "Mystic Fort (Pequot fort near the Mystic River)",
-    "qid": "Q6948987",
     "lon": -71.978,
     "lat": 41.3627,
     "coord_source": "https://www.wikidata.org/wiki/Q6948987",
@@ -19351,7 +19348,7 @@
    "type": "control",
    "place": {
     "name": "Pine Creek (Tohotonimme) battlefield near Rosalia, Washington",
-    "qid": "Q4872042",
+    "qid": "Q1507139",
     "lon": -117.36527778,
     "lat": 47.22861111,
     "coord_source": "https://www.wikidata.org/wiki/Q4872042",
@@ -19742,7 +19739,6 @@
    "type": "control",
    "place": {
     "name": "Bear River Massacre site near Preston, Idaho",
-    "qid": "Q657024",
     "lon": -111.91416666666667,
     "lat": 42.14611111111111,
     "coord_source": "https://www.wikidata.org/wiki/Q657024",
@@ -21135,7 +21131,7 @@
    "type": "control",
    "place": {
     "name": "Clear Lake, Lake County (Bloody Island), California",
-    "qid": "Q4928070",
+    "qid": "Q1099503",
     "lon": -122.888,
     "lat": 39.149,
     "coord_source": "https://www.wikidata.org/wiki/Q4928070",
@@ -22741,7 +22737,6 @@
    },
    "place": {
     "name": "Camp Grant massacre site (San Pedro River)",
-    "qid": "Q3019344",
     "lon": -110.704654,
     "lat": 32.848305,
     "coord_source": "https://www.wikidata.org/wiki/Q3019344",
@@ -23799,7 +23794,7 @@
    },
    "place": {
     "name": "Seven Oaks (Winnipeg)",
-    "qid": "Q1757487",
+    "qid": "Q19593649",
     "lon": -97.121,
     "lat": 49.932,
     "coord_source": "https://www.wikidata.org/wiki/Q1757487",
@@ -23962,7 +23957,7 @@
    },
    "place": {
     "name": "Marias River massacre site (Montana)",
-    "qid": "Q4120018",
+    "qid": "Q595366",
     "lon": -111.65527777777778,
     "lat": 48.39472222222222,
     "coord_source": "https://www.wikidata.org/wiki/Q4120018",
@@ -24051,7 +24046,7 @@
    },
    "place": {
     "name": "Cypress Hills (Battle Creek massacre site)",
-    "qid": "Q5200341",
+    "qid": "Q22666635",
     "lon": -109.88916667,
     "lat": 49.54972222,
     "coord_source": "https://www.wikidata.org/wiki/Q5200341",
@@ -24225,7 +24220,7 @@
    },
    "place": {
     "name": "Frog Lake (massacre site)",
-    "qid": "Q5406414",
+    "qid": "Q5505194",
     "lon": -110.358696,
     "lat": 53.831186,
     "coord_source": "https://www.wikidata.org/wiki/Q5406414",
@@ -24266,7 +24261,7 @@
    },
    "place": {
     "name": "Cut Knife Hill battlefield",
-    "qid": "Q963444",
+    "qid": "Q18343138",
     "lon": -109.02776111,
     "lat": 52.74530833,
     "coord_source": "https://www.wikidata.org/wiki/Q963444",
@@ -25137,7 +25132,6 @@
    },
    "place": {
     "name": "Shackamaxon (Kensington, Philadelphia)",
-    "qid": "Q171374",
     "lon": -75.129,
     "lat": 39.966,
     "coord_source": "https://www.wikidata.org/wiki/Q171374",
@@ -25953,7 +25947,7 @@
    },
    "place": {
     "name": "Great Swamp (South Kingstown, Rhode Island)",
-    "qid": "Q5600061",
+    "qid": "Q163507",
     "lon": -71.59555555555555,
     "lat": 41.46861111111111,
     "coord_source": "https://www.wikidata.org/wiki/Q5600061",
@@ -26008,7 +26002,6 @@
    },
    "place": {
     "name": "Mystic Fort (Pequot fort near the Mystic River)",
-    "qid": "Q6948987",
     "lon": -71.978,
     "lat": 41.3627,
     "coord_source": "https://www.wikidata.org/wiki/Q6948987",
@@ -26058,7 +26051,6 @@
    },
    "place": {
     "name": "Mystic Fort (Pequot fort near the Mystic River)",
-    "qid": "Q6948987",
     "lon": -71.978,
     "lat": 41.3627,
     "coord_source": "https://www.wikidata.org/wiki/Q6948987",
@@ -27155,7 +27147,7 @@
    },
    "place": {
     "name": "Fallen Timbers, Maumee, Ohio",
-    "qid": "Q2237537",
+    "qid": "Q5432259",
     "lon": -83.6975,
     "lat": 41.544166666667,
     "coord_source": "https://www.wikidata.org/wiki/Q2237537",
@@ -27291,7 +27283,7 @@
    },
    "place": {
     "name": "Tippecanoe Battlefield, Battle Ground, Indiana",
-    "qid": "Q379346",
+    "qid": "Q7808867",
     "lon": -86.845467,
     "lat": 40.505092,
     "coord_source": "https://www.wikidata.org/wiki/Q379346",
@@ -27335,7 +27327,6 @@
    },
    "place": {
     "name": "Battle of the Thames (Moraviantown), Ontario",
-    "qid": "Q645288",
     "lon": -81.931388888889,
     "lat": 42.5625,
     "coord_source": "https://www.wikidata.org/wiki/Q645288",
@@ -27378,7 +27369,7 @@
    },
    "place": {
     "name": "Bad Axe, Wisconsin (Mississippi River)",
-    "qid": "Q4870377",
+    "qid": "Q4840161",
     "lon": -91.21805556,
     "lat": 43.45916667,
     "coord_source": "https://www.wikidata.org/wiki/Q4870377",
@@ -28015,7 +28006,6 @@
    },
    "place": {
     "name": "Horseshoe Bend (Tohopeka), Tallapoosa River, Alabama",
-    "qid": "Q1785910",
     "lon": -85.735278,
     "lat": 32.982222,
     "coord_source": "https://www.wikidata.org/wiki/Q1785910",
@@ -29665,7 +29655,6 @@
    },
    "place": {
     "name": "White Bird Canyon, Idaho",
-    "qid": "Q2890384",
     "lon": -116.27972222,
     "lat": 45.79166667,
     "coord_source": "https://www.wikidata.org/wiki/Q2890384",
@@ -29706,7 +29695,7 @@
    },
    "place": {
     "name": "Bear Paw Battlefield (C'aynnim Alikinwaaspa), Montana",
-    "qid": "Q4870436",
+    "qid": "Q81351860",
     "lon": -109.207222,
     "lat": 48.3775,
     "coord_source": "https://www.wikidata.org/wiki/Q4870436",
@@ -29746,7 +29735,7 @@
    },
    "place": {
     "name": "Bear Paw Battlefield (C'aynnim Alikinwaaspa), Montana",
-    "qid": "Q4870436",
+    "qid": "Q81351860",
     "lon": -109.207222,
     "lat": 48.3775,
     "coord_source": "https://www.wikidata.org/wiki/Q4870436",
@@ -30070,7 +30059,7 @@
    },
    "place": {
     "name": "Pine Creek (Tohotonimme) battlefield near Rosalia, Washington",
-    "qid": "Q4872042",
+    "qid": "Q1507139",
     "lon": -117.36527778,
     "lat": 47.22861111,
     "coord_source": "https://www.wikidata.org/wiki/Q4872042",
@@ -30113,7 +30102,7 @@
    },
    "place": {
     "name": "Four Lakes battlefield, Washington",
-    "qid": "Q4871061",
+    "qid": "Q5475276",
     "lon": -117.609874,
     "lat": 47.550664,
     "coord_source": "https://www.wikidata.org/wiki/Q4871061",
@@ -30156,7 +30145,6 @@
    },
    "place": {
     "name": "Spokane Plains battlefield, Washington",
-    "qid": "Q4872422",
     "lon": -117.475915,
     "lat": 47.677867,
     "coord_source": "https://www.wikidata.org/wiki/Q4872422",
@@ -30354,7 +30342,6 @@
    },
    "place": {
     "name": "Bear River Massacre site near Preston, Idaho",
-    "qid": "Q657024",
     "lon": -111.91416666666667,
     "lat": 42.14611111111111,
     "coord_source": "https://www.wikidata.org/wiki/Q657024",
@@ -30600,7 +30587,7 @@
    },
    "place": {
     "name": "Lost River battlefield, California-Oregon border",
-    "qid": "Q4438364",
+    "qid": "Q3259830",
     "lon": -121.524,
     "lat": 41.996,
     "coord_source": "https://www.wikidata.org/wiki/Q4438364",
@@ -30889,7 +30876,7 @@
    },
    "place": {
     "name": "Clear Lake, Lake County (Bloody Island), California",
-    "qid": "Q4928070",
+    "qid": "Q1099503",
     "lon": -122.888,
     "lat": 39.149,
     "coord_source": "https://www.wikidata.org/wiki/Q4928070",

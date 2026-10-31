@@ -4,7 +4,7 @@
 
 Everything here is licensed under the GPL-3.0 (see `LICENSE`), except the inputs listed under "Other inputs", which keep their own licences.
 
-Exported from the atlas's main repository at commit `3e9b39f` by `app/scripts/gpl_export.py`. The rest of the atlas is not GPL-licensed and is not in this repository.
+Exported from the atlas's main repository at commit `8e78b43` by `app/scripts/gpl_export.py`. The rest of the atlas is not GPL-licensed and is not in this repository.
 
 ## Build
 
@@ -69,9 +69,12 @@ The build downloads these; none is copied into this repository except where note
 - `app/etl/history/na_sides.py`
 - `app/etl/history/settlements.py`
 - `app/etl/history/wars.py`
+- `app/etl/net.py`
+- `app/etl/polity_qids.py`
 - `app/etl/profile.py`
 - `app/etl/research/__init__.py`
 - `app/etl/research/merge.py`
+- `app/etl/research/review.py`
 - `app/etl/research/verify_quotes.py`
 - `app/etl/shp.py`
 - `pipeline/__init__.py`

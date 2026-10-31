@@ -1,5 +1,5 @@
 {
-  "about": "Every dataset the atlas uses: licence, licence class (public, attribution, share-alike, copyleft, project, noncommercial, unverified; the last two block commercial use), coverage, the build step that fetches or reads it, and caveats. blocks_commercial: an openly licensed source treated as non-commercial anyway, and why. gpl_source: where the source of the layers we build from a GPL source is published (app/scripts/gpl_export.py). markers: strings that appear only in data built from the source (etl/licences.py scans for them). Read by the Layers & sources panel (src/lib/provenance.ts) and the build profiles (etl/profile.py; docs/design/licensing.md).",
+  "about": "Every dataset the atlas uses: licence, licence class (public, attribution, share-alike, copyleft, project, noncommercial, unverified; the last two block commercial use), coverage, the build step that fetches or reads it, and caveats. blocks_commercial: an openly licensed source treated as non-commercial anyway, and why. gpl_source: where the source of the layers we build from a GPL source is published (app/scripts/gpl_export.py). markers: strings that appear only in data built from the source (etl/licences.py scans for them). Read by the Layers & sources panel (src/lib/provenance.ts) and the build profiles (etl/profile.py; docs/design/licensing.md) review: who stands behind the dataset, from an outside look (kind peer-reviewed, agency, community or none, with the citation, its link and a short quote showing the review; docs/design/evidence.md); the Layers panel derives each layer's badge from it.",
   "checked": "2026-10-26",
   "rejected": {
     "aiatsis": {
@@ -33,6 +33,7 @@
       "licence": "NOAA World Data Service for Paleoclimatology: free to use, cite the study",
       "cls": "public",
       "url": "https://www.ncei.noaa.gov/access/paleo-search/study/19982",
+      "review": {"kind": "peer-reviewed", "evidence": "Spratt & Lisiecki 2016, Climate of the Past", "url": "https://doi.org/10.5194/cp-12-1079-2016", "quote": "a full peer-review process in the traditional sense, albeit in a more transparent way, is assured before publication of a paper in CP", "quote_url": "https://www.climate-of-the-past.net/peer_review/interactive_review_process.html", "checked": "2026-10-27", "note": "Full citation: Spratt & Lisiecki 2016, Climate of the Past 12, 1079-1092. The article page shows its review history (Received 07 Jul 2015, Discussion started 13 Aug 2015, Revised 26 Feb 2016, Accepted 18 Mar 2016). The NOAA NCEI study holds that paper's sea-level stack."},
       "coverage": "Global mean sea level 0-798 ka every 1,000 years, from benthic and planktic oxygen-isotope records: the first principal component of seven reconstructions (0-430 ka) and of five (0-798 ka), each with a bootstrapped 95% band.",
       "steps": ["base.paleo (the sea level the terrain shader floods or drains to, and its 95% band, hatched)"],
       "caveats": [
@@ -46,6 +47,7 @@
       "licence": "NOAA World Data Service for Paleoclimatology: free to use, cite the study",
       "cls": "public",
       "url": "https://www.ncei.noaa.gov/pub/data/paleo/contributions_by_author/bintanja2008/",
+      "review": {"kind": "peer-reviewed", "evidence": "Bintanja & van de Wal 2008, Nature", "url": "https://doi.org/10.1038/nature07158", "quote": "The following types of contribution to Nature Portfolio journals are peer-reviewed: Articles, Letters", "quote_url": "https://www.nature.com/nature/editorial-policies/peer-review", "checked": "2026-10-27", "note": "Full citation: Bintanja & van de Wal 2008, Nature 454, 869-872. The NOAA file (bintanja2008-noaa.txt) names this Nature paper as its publication; the article page shows Received 13 April 2008, Accepted 27 May 2008. The paper is a Letter that describes the model; the series itself carries no uncertainty band."},
       "coverage": "Modelled from the LR04 benthic isotope stack every 100 years, 0-3 Ma: sea level, and North American and Eurasian ice volume in metres of sea-level equivalent.",
       "steps": ["base.paleo (sea level before 798 ka; each ice sheet's volume, which picks its analogue extent before 80 ka)"],
       "caveats": [
@@ -58,6 +60,7 @@
       "licence": "CC BY 4.0",
       "cls": "attribution",
       "url": "https://doi.org/10.1594/PANGAEA.905800",
+      "review": {"kind": "peer-reviewed", "evidence": "Gowan et al. 2021, Nature Communications", "url": "https://doi.org/10.1038/s41467-021-21469-w", "quote": "Nature Communications thanks Martin Margold and the other, anonymous, reviewer(s) for their contribution to the peer review of this work.", "checked": "2026-10-27", "note": "Full citation: Gowan et al. 2021, Nature Communications 12, 1199. The paper's Data availability statement points to the PANGAEA record we use (doi:10.1594/PANGAEA.905800). Received 04 March 2020, Accepted 22 January 2021."},
       "coverage": "Ice-sheet margins every 2,500 years from 80,000 years ago to today for North America with Greenland, Eurasia, Patagonia and Antarctica, built on dated geological limits and an ice-flow model (Nature Communications 12, 1199).",
       "steps": ["base.paleo (only the margin files, read by HTTP range requests from the 3.7 GB archive; signed-distance rasters at 0.25 degrees, blended between slices)"],
       "caveats": [
@@ -70,7 +73,8 @@
       "licence": "CC BY 4.0",
       "cls": "attribution",
       "url": "https://doi.org/10.5281/zenodo.15600659",
-      "coverage": "More than 16,000 reconstructed mountain paleoglaciers from 213 studies in 271 ranges worldwide, at their local last glacial maximum (about 57 to 14 ka), compiled in Scientific Data (2026); read as its 1 km raster.",
+      "review": {"kind": "peer-reviewed", "evidence": "Lima et al. 2026, Scientific Data", "url": "https://doi.org/10.1038/s41597-026-06841-z", "quote": "Scientific Data is a peer-reviewed open-access journal for descriptions of datasets", "quote_url": "https://www.nature.com/sdata/policies/for-referees", "checked": "2026-10-27", "note": "Full citation: Lima et al. 2026, Scientific Data 13, 629. The Data Descriptor ('Mountain glacier extents at the Last Glacial Maximum') points to the Zenodo record we use (doi:10.5281/zenodo.15600659). Received 16 June 2025, Accepted 05 February 2026. The paper's own abstract gives 209 studies, not the 213 in our coverage text, which is worth checking."},
+      "coverage": "More than 16,000 reconstructed mountain paleoglaciers from 209 studies in 271 ranges worldwide, at their local last glacial maximum (about 57 to 14 ka), compiled in Scientific Data (2026); read as its 1 km raster.",
       "steps": ["base.paleo (coverage on a 0.05-degree grid, as signed distance on 0.1 degrees; drawn at full extent at the glacial maximum and drawn back towards each glacier's core as the sea rises)"],
       "caveats": [
         "Each range's own maximum, not one date: some reached it well before or after 21 ka.",
@@ -83,15 +87,47 @@
       "licence": "CC BY 3.0",
       "cls": "attribution",
       "url": "https://doi.org/10.1594/PANGAEA.848117",
+      "review": {"kind": "peer-reviewed", "evidence": "Hughes et al. 2016, Boreas", "url": "https://doi.org/10.1111/bor.12142", "quote": "Research output: Contribution to journal › Article › peer-review", "quote_url": "https://research.manchester.ac.uk/en/publications/54e1b554-cd43-4d70-b510-20d9f734cdcd", "checked": "2026-10-27", "note": "Full citation: Hughes et al. 2016, Boreas 45, 1-45. Wiley's pages (the article and Boreas's policies) refuse automated access (HTTP 403), so the peer-review statement is from the University of Manchester's research record for the paper. That record links the PANGAEA dataset (doi:10.1594/PANGAEA.848117). The DOI resolves to the Boreas article (Crossref: Boreas 45, 1-45)."},
       "coverage": "British-Irish, Scandinavian and Svalbard-Barents-Kara ice margins every 1,000 years from 25,000 to 10,000 years ago, each as a minimum, most-credible and maximum line (Boreas 45, 1-45).",
       "steps": ["base.paleo (the minimum and maximum margins, drawn as the hatched band of the ice edge's doubt)"],
       "caveats": ["Census date 1 January 2013: later dating is not included."]
+    },
+    "muller2019": {
+      "name": "Global plate model with deforming zones since the Triassic (Müller et al. 2019, plate motion model v3.0, Zenodo)",
+      "licence": "CC BY 4.0",
+      "cls": "attribution",
+      "url": "https://doi.org/10.5281/zenodo.11601026",
+      "review": {"kind": "peer-reviewed", "evidence": "Müller et al. 2019, Tectonics", "url": "https://doi.org/10.1029/2018TC005462", "quote": "Received 21 DEC 2018; Accepted 23 APR 2019; Accepted article online 5 MAY 2019; Published online 17 JUN 2019.", "quote_url": "https://authors.library.caltech.edu/95264/", "checked": "2026-10-27", "note": "Full citation: Müller et al. 2019, Tectonics 38, 1884-1907. The Zenodo v3.0 record (doi:10.5281/zenodo.11601026, version 3.0) is marked isSupplementTo this paper. The AGU/Wiley pages and AGU's policy page refused automated access (HTTP 403), so the Received/Accepted history comes from Caltech's repository copy; Crossref gives the same dates."},
+      "coverage": "Rotations of every plate and static plate polygons from 250 million years ago to today in a mantle reference frame (Tectonics 38, 1884-1907); the rotations and polygons read from GPlates' model repository (repo.gplates.org, the v3.0 files) and reconstructed with pyGPlates (GPL-2, a build tool: none of it ships).",
+      "steps": ["base.plates (each plate's rotation every 250,000 years to 7 million years ago, and which plate covers each point of a 0.5-degree grid today and at each of those ages; the app slerps between them and moves the terrain, sea, ice, sites and routes)"],
+      "caveats": [
+        "Rigid plates only: the model's deforming zones (the East African Rift, the Himalaya, the Andes) are not deformed; where plates meet the map is blended over a few hundred kilometres (grid points one to four degrees apart, the wider where small blocks crowd: Wallacea, Tibet, Iran) and its relief softened in proportion to the stretch, most in Tibet and Iran, which the model builds from many small blocks.",
+        "Crust that existed then and is gone today is not reconstructed: sea floor since subducted (off the Andes, Central America, Java, Japan, the Aegean) is drawn as open sea at 4,000 m, and continental crust shortened in a collision (the Himalaya, the Zagros) as a smear of today's land along the suture.",
+        "Where small plates crowd together (Wallacea and the Banda arc, Melanesia) their motions differ by hundreds of kilometres within a few grid cells, and before about 3 Ma the map there folds and stretches rather than showing a clean coast.",
+        "Absolute motion depends on the reference frame: in a palaeomagnetic frame the plates' latitudes agree but their longitudes are unconstrained.",
+        "Today's relief and coasts are moved, not reconstructed: the Isthmus of Panama is today's (no openly licensed palaeo-elevation grid shows a seaway after 7 Ma; PALEOMAP's PaleoDEMs show it whole at 10 and 5 Ma, and the closing's date is disputed: about 2.8 Ma in O'Dea et al. 2016, a deep seaway closed by 13-15 Ma in Montes et al. 2015). The Messinian crisis is drawn from the literature under msc-literature.",
+        "The EarthByte page for v2.0 of the same model gives CC BY-SA 4.0; the v3.0 record used here is CC BY 4.0 (its License.txt)."
+      ]
+    },
+    "msc-literature": {
+      "name": "The Messinian salinity crisis: the dates and the debated drawdown from the literature (Krijgsman et al. 2018; Manzi et al. 2018; Garcia-Castellanos et al. 2009, 2020)",
+      "licence": "Numbers cited from published papers; the review they are read from (Garcia-Castellanos et al. 2020, Earth-Science Reviews 201, 103061) is CC BY 4.0",
+      "cls": "attribution",
+      "url": "https://doi.org/10.1016/j.earscirev.2019.103061",
+      "coverage": "The Mediterranean cut off from the Atlantic 5.97-5.33 Ma (Krijgsman et al. 2018, Marine Geology 403); deep-basin halite from 5.60 Ma (Manzi et al. 2018, Terra Nova 30); a drawdown of the level by a kilometre or more debated, palaeoshorelines on the Malta Escarpment restored to 1,800-2,000 m below today's sea level against a deep-basin model with none (Garcia-Castellanos et al. 2020); refilled within about two years at 5.33 Ma in the megaflood model (Garcia-Castellanos et al. 2009, Nature 462).",
+      "steps": ["base.paleo (paleo.json's messinian window; the Mediterranean east of Gibraltar marked in ocean.png; the terrain shader hatches its floor down to 2,000 m as perhaps dry from 5.60 to 5.33 Ma)"],
+      "caveats": [
+        "A doubt, not a reconstruction: no level is drawn as land, because the drawdown is not agreed.",
+        "Today's bathymetry, moved with the plates: the basin floor then lay below the salt (about 2 km in the deep basins) and the Pliocene and later sediment that fill it today, so the drawn depths are too shallow there.",
+        "One basin: the eastern and western Mediterranean may have stood at different levels behind the Sicily sill."
+      ]
     },
     "cshapes": {
       "name": "CShapes 2.0 (Schvitz, Girardin, Rüegger et al., ETH Zürich)",
       "licence": "CC BY-NC-SA 4.0",
       "cls": "noncommercial",
       "url": "https://icr.ethz.ch/data/cshapes/",
+      "review": {"kind": "peer-reviewed", "evidence": "Schvitz et al. 2022, JCR", "url": "https://doi.org/10.1177/00220027211013563", "quote": "Journal of Conflict Resolution adheres to a rigorous double-anonymized reviewing policy", "quote_url": "https://www.sagepub.com/docs/default-source/msg/JCR", "checked": "2026-10-27", "note": "Full citation: Schvitz, Girardin, Rüegger, Weidmann, Cederman & Gleditsch 2022 (online 2021), Journal of Conflict Resolution 66(1). DOI resolves to journals.sagepub.com (SAGE blocks the article page with 403; title 'Mapping the International System, 1886-2019: The CShapes 2.0 Dataset' and authors confirmed via Crossref). Quote is from the journal's submission guidelines (Peer review policy section)."},
       "markers": ["\"cshapes2\"", "CShapes 2.0", "cshapes-europe"],
       "coverage": "Worldwide, 1886-01-01 to 2019-12-31 (CShapes-Europe from 1816). Independent states and dependent territories (colony, protectorate, mandate, occupied) with day-dated periods.",
       "steps": [
@@ -110,8 +146,9 @@
       "licence": "CC BY 4.0",
       "cls": "attribution",
       "url": "https://github.com/Seshat-Global-History-Databank/cliopatria",
+      "review": {"kind": "peer-reviewed", "evidence": "Bennett et al. 2025, Scientific Data", "url": "https://doi.org/10.1038/s41597-025-04516-9", "quote": "Most Data Descriptors will be reviewed by two or more referees", "quote_url": "https://www.nature.com/sdata/policies/editorial-and-publishing-policies", "checked": "2026-10-27", "note": "Full citation: Bennett, Mutch, Tollefson, ... Hoyer & Turchin 2025, Scientific Data 12, 247. Article page shows 'Received: 03 September 2024 Accepted: 23 January 2025'. The paper describes the initial release (Zenodo 10.5281/zenodo.14714684, v0.1.3); we use v0.2.1, which keeps the same construction method, and the paper says later versions follow Seshat's own review procedures. DOAJ lists the journal as single-anonymous peer review."},
       "coverage": "Worldwide, 3400 BCE to 2024 CE; about 13,800 polity rows with year-resolution periods, Wikidata ids and composite-empire membership.",
-      "steps": ["fetch.borders (pinned release, SHA-256 checked)"],
+      "steps": ["fetch.borders (pinned release, SHA-256 checked)", "base.indicators (the dated shapes the country indicators fill)"],
       "caveats": [
         "Coarse: one version of each polity's territory, at year resolution; drawn soft and at lower weight than CShapes.",
         "Polities only: stateless peoples, Indigenous nations without a state and frontier zones are absent (empty land is not unclaimed land).",
@@ -123,6 +160,7 @@
       "licence": "CC0 1.0",
       "cls": "public",
       "url": "https://www.openhistoricalmap.org/",
+      "review": {"kind": "community", "evidence": "OpenHistoricalMap, edited by volunteers", "url": "https://www.openhistoricalmap.org/about", "quote": "Our growing community of volunteer contributors includes amateur and professional historians, OpenStreetMap and Wikipedia contributors, GIS specialists", "checked": "2026-10-27", "note": "Full citation: OpenHistoricalMap, volunteer-edited database. Anyone with a free account can edit; no editorial review before changes go live."},
       "coverage": "Worldwide in principle; coverage is volunteer-driven and very uneven.",
       "steps": ["fetch.north_america (ohm_fetch)", "fetch.europe.divisions", "fetch.ohm (named relations)", "root pipeline fetch_borders (South Asia)", "runtime: live borders, vector tiles through the project's tile cache (src/lib/live/borders.ts)"],
       "caveats": ["A live database: a fresh download differs wherever relations were edited."]
@@ -132,6 +170,7 @@
       "licence": "Reuse for any purpose (CC0 since 2019)",
       "cls": "public",
       "url": "https://digital.newberry.org/ahcb/",
+      "review": {"kind": "none", "evidence": "Newberry Library, compiled by Long, Sinko et al.", "url": "https://publications.newberry.org/ahcb/about", "quote": "The principal sources are the official session laws of colonies, territories, and states.", "checked": "2026-10-27", "note": "Full citation: Long, Sinko et al., Atlas of Historical County Boundaries, Newberry Library (NEH-funded). A scholarly research-library project compiled by named historians from primary legal sources with FGDC metadata, but no documented peer review, and the Newberry is a private research library, not a scientific agency; strongest of the 'none' sources."},
       "coverage": "United States states and territories, 1783-2000, day-dated.",
       "steps": ["fetch.north_america"],
       "caveats": []
@@ -140,7 +179,8 @@
       "name": "Royce, Indian Land Cessions (1899), US Forest Service digitisation (2018)",
       "licence": "CC BY 4.0",
       "cls": "attribution",
-      "url": "https://catalog.data.gov/dataset/indian-land-cessions-in-the-united-states",
+      "url": "https://catalog.data.gov/dataset/tribal-lands-ceded-to-the-united-states-feature-layer",
+      "review": {"kind": "none", "evidence": "US Forest Service 2018, digitising Royce 1899", "url": "https://catalog.data.gov/dataset/tribal-lands-ceded-to-the-united-states-feature-layer", "quote": "Changes made by the OTR have not been reviewed or approved by the National NAGPRA Program.", "checked": "2026-10-27", "note": "Full citation: US Forest Service Office of Tribal Relations 2018 (with C. Saunt), digitising Royce 1899, Bureau of American Ethnology 18th Annual Report. Methods are documented (maps georeferenced against USGS National Atlas layers) but the assembler is the Forest Service's Office of Tribal Relations, a policy office rather than a scientific body, and no review is stated; the 1899 original was a Smithsonian Bureau of American Ethnology publication. Borderline with 'agency'. The repo's catalogue URL (catalog.data.gov/dataset/indian-land-cessions-in-the-united-states) now returns 404; the live listing is the one above."},
       "coverage": "United States, cessions 1784-1894.",
       "steps": ["fetch.north_america"],
       "caveats": ["A record of cessions to the United States: the colonial government's view of Native land."]
@@ -150,6 +190,7 @@
       "licence": "GPL-3.0",
       "cls": "copyleft",
       "url": "https://github.com/aourednik/historical-basemaps",
+      "review": {"kind": "none", "evidence": "Ourednik, a personal project", "url": "https://github.com/aourednik/historical-basemaps", "quote": "It is work in progress: verify the maps by comparison to other sources before using in academic work.", "checked": "2026-10-27", "note": "Full citation: Ourednik, historical-basemaps (GitHub). An individual's open project with issue-tracker corrections; no methods paper or review."},
       "markers": ["\"historical-basemaps\""],
       "gpl_source": "https://github.com/thebend/atlasforatlas-gpl-source",
       "coverage": "Worldwide snapshots (about 50 years from 123000 BCE to 2010).",
@@ -162,6 +203,7 @@
       "licence": "Open Government Licence (Canada, Ontario)",
       "cls": "attribution",
       "url": "https://open.canada.ca/en/open-government-licence-canada",
+      "review": {"kind": "none", "evidence": "Crown-Indigenous Relations Canada and Ontario", "url": "https://open.canada.ca/data/en/dataset/f281b150-0645-48e4-9c30-01f55f93f78e", "quote": "These boundaries are estimated based on written descriptions and should be used for informational and representational purposes only.", "checked": "2026-10-27", "note": "Full citation: Crown-Indigenous Relations and Northern Affairs Canada, Historic treaties dataset; Ontario Ministry of Indigenous Affairs treaty areas. Government departments, not scientific bodies (the brief's ministry-treaty-map case); no review statement on the record."},
       "coverage": "Canada, historic and numbered treaties.",
       "steps": ["fetch.north_america"],
       "caveats": []
@@ -171,17 +213,92 @@
       "licence": "CC BY 4.0",
       "cls": "attribution",
       "url": "https://doi.org/10.11588/data/10064",
+      "review": {"kind": "none", "evidence": "Sablin et al. 2015, a repository deposit", "url": "https://doi.org/10.11588/data/10064", "quote": "The GIS features vector data (shapefiles) of allprovinces of the two states.", "checked": "2026-10-27", "note": "Full citation: Sablin, Kuchinskiy, Korobeinikov et al. 2015, heiDATA (Heidelberg University repository), v3. DOI resolves to the heiDATA dataset page. A university research-group deposit (HSE St Petersburg, Heidelberg Asia and Europe cluster); repository deposit is not peer review and no methods paper was found."},
       "coverage": "Russian Empire 1897 and USSR 1926 census units.",
       "steps": ["fetch.europe.divisions"],
       "caveats": ["Snapshots, not dated series."]
+    },
+    "reba": {
+      "name": "Historical urban population, 3700 BCE-2000 CE (Reba, Reitsma & Seto 2016, figshare)",
+      "licence": "CC BY 4.0",
+      "cls": "attribution",
+      "url": "https://doi.org/10.6084/m9.figshare.2059494",
+      "review": {"kind": "peer-reviewed", "evidence": "Reba et al. 2016, Scientific Data", "url": "https://doi.org/10.1038/sdata.2016.34", "quote": "Most Data Descriptors will be reviewed by two or more referees", "quote_url": "https://www.nature.com/sdata/policies/editorial-and-publishing-policies", "checked": "2026-10-27", "note": "Full citation: Reba, Reitsma & Seto 2016, 'Spatializing 6,000 years of global urbanization from 3700 BC to AD 2000', Scientific Data 3, 160034. Received 4 June 2015, Accepted 15 April 2016. The Data Descriptor digitises and geocodes Chandler 1987 (Four Thousand Years of Urban Growth) and Modelski 2003 (World Cities: -3000 to 2000); the populations are those two compilers' estimates, not new research, and the review covers the digitising and geocoding. The three files (chandler, modelskiAncient, modelskiModern; we use the V2 files) are figshare articles 2059494, 2059497 and 2059500, each CC BY 4.0."},
+      "coverage": "1,712 cities worldwide (2,044 rows in the three files, joined where one city is in two; the paper counts 1,741), each a point with its population at the dates Chandler or Modelski give: 10,352 values from 3700 BCE to 2000 CE, densest from 1300 to 1975. A city is listed only while among the largest of its time.",
+      "steps": ["history.cities (download, join the files, match to Wikidata by name, distance and country)", "catalogue (cities in each period, sized by population)"],
+      "caveats": [
+        "A city's first and last listing is when the compilers counted it among the largest, not its founding or end: the atlas shows a city from its first listing, and ends it at its last only where Wikidata calls it ruins or dissolved.",
+        "Chandler's and Modelski's figures are estimates, many from sparse sources; between their dates the atlas interpolates on a log scale.",
+        "Coordinates are the paper's geocoding, ranked 1 (three geocoders agree) to 3 (doubtful); 12% are rank 3.",
+        "Coverage follows the compilers' sources: the paper finds data points sparse for South Asian, South American, North American and African cities."
+      ],
+      "note": "Cite Reba, Reitsma & Seto 2016 (doi:10.1038/sdata.2016.34), and Chandler 1987 and Modelski 2003 for the figures."
+    },
+    "buringh": {
+      "name": "European urban population, 700-2000 (Buringh 2021, DANS)",
+      "licence": "CC0 1.0",
+      "cls": "public",
+      "url": "https://doi.org/10.17026/DANS-XZY-U62Q",
+      "review": {"kind": "peer-reviewed", "evidence": "Buringh 2021, Research Data Journal for the Humanities and Social Sciences", "url": "https://doi.org/10.1163/24523666-06010003", "quote": "is a peer-reviewed journal, which is designed to comprehensively document and publish deposited datasets", "quote_url": "https://web.archive.org/web/20210916194406/https://brill.com/view/journals/rdj/rdj-overview.xml", "checked": "2026-10-28", "note": "Full citation: Buringh 2021, 'The Population of European Cities from 700 to 2000', Research Data Journal for the Humanities and Social Sciences 6, 1-18 (published 3 September 2021, then by Brill and DANS; since 2025 the journal is the International Institute of Social History's, on Openjournals, ). The article page gives no Received or Accepted dates. The data paper describes the DANS dataset we use (version 1.0, 2020; the current 1.1 only updates metadata). It builds on Bairoch, Batou & Chèvre 1988 and fills the dates they lack with imputed values (interpolated at a constant growth rate between that city's own neighbouring dated figures, with 1400 set at two thirds of 1300 where unknown) and proxies (from a town's area at about 100 people per hectare, or the date it is first recorded); the file marks each figure as such. The quote is from Brill's journal page as archived in September 2021, when the paper appeared; the journal's current page (openjournals.nl) also calls it peer-reviewed, and DOAJ lists double anonymous peer review."},
+      "coverage": "2,262 European towns and cities (2,261 with a figure above 0), across Europe as far east as Yekaterinburg, each at 19 dates from 700 to 2000 CE (every century to 1500, then every 50 years), in thousands; 0 for a place below about a thousand people.",
+      "steps": ["history.cities (download, join with Reba et al. where a city is in both, match to Wikidata)", "catalogue (towns in each period, sized by population)"],
+      "caveats": [
+        "About 58% of the figures it lists are imputed or proxied rather than taken from a source (our sum of Table 1 of the paper); the file says which.",
+        "Figures are in thousands, so small towns are coarse; the atlas interpolates on a log scale between dates a century or half a century apart.",
+        "Recent figures follow each city's own boundaries as Wikipedia or censuses give them, not one definition of the urban area."
+      ],
+      "note": "Cite Buringh 2021 (doi:10.1163/24523666-06010003) and the dataset (doi:10.17026/DANS-XZY-U62Q)."
+    },
+    "pleiades": {
+      "name": "Pleiades: a gazetteer of past places (ISAW, New York University; Ancient World Mapping Center, UNC)",
+      "licence": "CC BY 3.0",
+      "cls": "attribution",
+      "url": "https://pleiades.stoa.org/downloads",
+      "review": {"kind": "community", "evidence": "Pleiades, edited by its community and editors", "url": "https://pleiades.stoa.org/", "quote": "Pleiades is a community-built gazetteer and graph of ancient places.", "checked": "2026-10-29", "note": "Pleiades began from the compilation materials of the Barrington Atlas of the Greek and Roman World (Talbert, ed., Princeton, 2000). It is run jointly by NYU's Institute for the Study of the Ancient World, which hosts it, and the Ancient World Mapping Center at UNC Chapel Hill. Its editors and reviewers check each contribution before it is published (https://pleiades.stoa.org/help/workflow), and its home page speaks of 'pervasive peer review'. The one paper in a peer-reviewed journal that presents the project, Elliott & Gillies 2009, 'Digital Geography and Classics', Digital Humanities Quarterly 3.1 (doi:10.63744/2nf9ch5e468z), is a survey whose last section describes Pleiades as planned in 2007-08, before public contribution opened and before its present data model; it does not describe the dating by attested periods. No methods paper describes the gazetteer or its dating as they now are, so under evidence.md it is community data, shown as Published. The dates we use are its attestations: the earliest year after which and latest year before which each place's locations and names are attested, by the time periods its contributors assign."},
+      "coverage": "The ancient world from the Atlantic to India, mostly 750 BCE to 640 CE, with fewer Bronze Age, Byzantine and early Islamic places: 13,236 places typed settlement, of which 3,498 with attested years are linked to a Wikidata item (P1584) with three or more sitelinks.",
+      "steps": ["history.pleiades (the GIS package; attested years, linked to Wikidata by P1584)", "catalogue (towns in the periods they are attested in, under Other towns)"],
+      "caveats": [
+        "A town's years are when its sources attest it, by broad periods (Classical, Hellenistic, Roman, Late Antique), not its founding and end: Late Antiquity ends at 640, so many towns' last year is 640.",
+        "Only the towns linked to Wikidata are shown; Pleiades' many unlinked settlements are left out.",
+        "Its modern locations (OpenStreetMap's, attested 1700-2100) are left out of the dates."
+      ],
+      "note": "Cite as: Pleiades, ed. Bagnall et al., https://pleiades.stoa.org/, with each place's own page."
+    },
+    "usgs-comcat": {
+      "name": "ANSS Comprehensive Earthquake Catalog (ComCat), USGS",
+      "licence": "US public domain (USGS-authored data); credit the U.S. Geological Survey",
+      "cls": "public",
+      "url": "https://earthquake.usgs.gov/data/comcat/",
+      "review": {"kind": "none", "evidence": "USGS ComCat, events a person has looked at", "url": "https://web.archive.org/web/20210101020713/https://earthquake.usgs.gov/data/comcat/data-eventterms.php", "quote": "The level of review can range from a quick validity check to a careful reanalysis of the event.", "checked": "2026-10-30", "note": "USGS is a scientific agency, but no documented quality process for the catalogue as a whole could be confirmed: the definition of 'status' survives only in archived copies of ComCat's documentation (the live page lists the field without defining it), and the catalogues it merges differ. Second-checked by a separate pass. Could rise to agency if a USGS methods page is found. We keep reviewed events only."},
+      "coverage": "Earthquakes of magnitude 6.5 and up, 1900 to the build date, tectonic only (eventtype=earthquake) and reviewed only: 4,718 of 4,731 at the last build. ComCat holds earthquakes alone, so tsunamis and eruptions come from NCEI.",
+      "steps": ["fetch.hazards"],
+      "caveats": [
+        "Not uniform over the century: early decades rest on historical catalogues, and small magnitudes there are missing, so more dots after about 1960 partly mean better instruments.",
+        "Its contributing catalogues use different magnitude types; the value shown is ComCat's preferred one."
+      ]
+    },
+    "ncei-hazards": {
+      "name": "NCEI/WDS Global Significant Earthquake, Historical Tsunami and Significant Volcanic Eruptions Databases (NOAA NCEI)",
+      "licence": "US Government work (17 USC 105): access unrestricted, per NCEI's records, and CC0 in their data.gov metadata; NCEI's own pages state no licence; cite doi:10.7289/V5TD9V7K, doi:10.7289/V5PN93H7, doi:10.7289/V5JW8BSH",
+      "cls": "public",
+      "url": "https://doi.org/10.7289/V5TD9V7K",
+      "review": {"kind": "none", "evidence": "NOAA NCEI, compiled from catalogues and reports", "url": "https://www.ncei.noaa.gov/products/natural-hazards/tsunamis-earthquakes-volcanoes/tsunamis/global-historical-data", "quote": "Earthquake epicenters and tsunami source locations may have been assigned to the wrong places.", "checked": "2026-10-30", "note": "NOAA is a scientific agency, but its landing pages give lineage and selection criteria and no quality process, so this isn't recorded as agency. Second-checked by a separate pass; Arcos et al. 2019, Pure Appl. Geophys., doi:10.1007/s00024-019-02191-7, may describe one and could not be read."},
+      "coverage": "Significant earthquakes from 2150 BCE, tsunamis from about 2000 BCE, eruptions from 4360 BCE, through the HazEL API. Tsunamis of validity 2 and up (questionable to definite); erroneous entries, seiches and very doubtful ones are left out.",
+      "steps": ["fetch.hazards"],
+      "caveats": [
+        "A record of what was written down: the older the date, the more it follows who was writing and where. Empty stretches are not quiet ones.",
+        "Selected for impact (deaths, damage, size, a tsunami), so it isn't a complete catalogue of events.",
+        "Eruptions are drawn largely from the Smithsonian's Volcanoes of the World, which has terms of its own; we use NCEI's published database."
+      ]
     },
     "wikidata": {
       "name": "Wikidata",
       "licence": "CC0 1.0",
       "cls": "public",
       "url": "https://www.wikidata.org/",
+      "review": {"kind": "community", "evidence": "Wikidata, edited by volunteers and bots", "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page", "quote": "Wikidata is a free and open knowledge base that can be read and edited by both humans and machines.", "checked": "2026-10-27", "note": "Full citation: Wikidata, Wikimedia Foundation. Open editing by volunteers and bots; statements may carry references but are not reviewed."},
       "coverage": "Worldwide events (battles, sieges, treaties, massacres, rebellions) and settlements with coordinates and dates.",
-      "steps": ["history.events_from_wikidata", "history.event_dates", "history.settlements", "base.veg (river discharge: base/river_flow.py)", "names (labels in other languages)", "fetch.live_events (the live world's events, built at each deploy for src/lib/live/events.ts)", "root pipeline: S0/S1 extract; sa_control_points through the QLever mirror (qlever.dev)"],
+      "steps": ["history.events_from_wikidata", "history.event_dates", "history.settlements", "history.cities (the historical city populations' items: names, cards and articles, and the years before the datasets count a city)", "base.veg (river discharge: base/river_flow.py)", "names (labels in other languages)", "fetch.live_events (the live world's events, built at each deploy for src/lib/live/events.ts)", "root pipeline: S0/S1 extract; sa_control_points through the QLever mirror (qlever.dev)"],
       "caveats": [
         "Coverage follows Wikipedia's interests: European and North American events are far denser than African, Asian or Indigenous ones.",
         "Settlement founding dates (P571) are sparse and sometimes the date of a charter, not of first settlement."
@@ -192,6 +309,7 @@
       "licence": "CC BY-SA 4.0",
       "cls": "share-alike",
       "url": "https://en.wikipedia.org/",
+      "review": {"kind": "community", "evidence": "Wikipedia, written by volunteers", "url": "https://en.wikipedia.org/wiki/Wikipedia:About", "quote": "Wikipedia is written by human volunteers known as Wikipedians", "checked": "2026-10-27", "note": "Full citation: English Wikipedia, Wikimedia Foundation. The same page says articles 'can be edited by anyone with Internet access'."},
       "coverage": "Dates parsed from English Wikipedia infoboxes where Wikidata lacks a day; article leads in event cards, fetched by the browser; short quotes in research citations.",
       "steps": ["history.event_dates", "runtime: article leads in event cards (src/lib/wiki.ts)", "research quotes (the cited pages)"],
       "caveats": ["Share-alike."]
@@ -201,6 +319,7 @@
       "licence": "Open; attribution to Mapzen and the listed sources",
       "cls": "attribution",
       "url": "https://registry.opendata.aws/terrain-tiles/",
+      "review": {"kind": "none", "evidence": "Mapzen Terrain Tiles, a company composite", "url": "https://registry.opendata.aws/terrain-tiles/", "quote": "A global dataset providing bare-earth terrain heights, tiled for easy usage and provided on S3.", "checked": "2026-10-27", "note": "Full citation: Mapzen Terrain Tiles (Tilezen Joerd), AWS Open Data Registry. Assembled by Mapzen (a company, later a Linux Foundation project) from agency DEMs (SRTM, GMTED2010, ETOPO1, national lidar and others). The inputs have agency or peer review, but we found no documented expert review of the composite itself."},
       "coverage": "Worldwide to 85 degrees; poles from ETOPO1.",
       "steps": ["base.terrain"],
       "caveats": ["Modern elevation and coastlines.", "The poles (beyond 85 degrees) come from ETOPO1 through NOAA's ERDDAP server: see etopo1."]
@@ -210,6 +329,7 @@
       "licence": "US Government work: public domain; cite NOAA NCEI",
       "cls": "public",
       "url": "https://www.ncei.noaa.gov/products/etopo-global-relief-model",
+      "review": {"kind": "agency", "evidence": "NOAA NCEI, Amante & Eakins 2009", "url": "https://doi.org/10.7289/V5C8276M", "quote": "shifted to common horizontal and vertical datums, and then evaluated and edited as needed", "quote_url": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ngdc.mgg.dem:316", "checked": "2026-10-27", "note": "Full citation: Amante & Eakins 2009, NOAA NGDC (NCEI) ETOPO1 1 Arc-Minute Global Relief Model. The DOI resolves to NCEI's ETOPO1 metadata landing page. ETOPO1 is documented in NOAA Technical Memorandum NESDIS NGDC-24, which is not a journal paper. NCEI has since replaced it with ETOPO 2022, which is what the catalogue url now shows."},
       "coverage": "Worldwide relief at 1 arc-minute; used only for the polar caps above 85 degrees, where the Terrarium tiles stop.",
       "steps": ["base.terrain (coastwatch.pfeg.noaa.gov/erddap/griddap/etopo180)"],
       "caveats": []
@@ -219,6 +339,7 @@
       "licence": "Public domain",
       "cls": "public",
       "url": "https://www.naturalearthdata.com/",
+      "review": {"kind": "community", "evidence": "Natural Earth, made by volunteer cartographers", "url": "https://www.naturalearthdata.com/about/", "quote": "Making Natural Earth is a collaboration involving many volunteer NACIS members and cartographers around the globe.", "checked": "2026-10-27", "note": "Full citation: Natural Earth, made by volunteer NACIS members (led by Nathaniel Vaughn Kelso and Tom Patterson). Community, not none: it is made by named volunteer professional cartographers rather than crowd-edited, but it has no methods paper or documented expert review, and NACIS is a society, not an agency."},
       "coverage": "Worldwide.",
       "steps": ["fetch.natural_earth", "base.veg", "base.coast", "base.world_land", "history.wildlife (admin-1 label points)", "presence.art17, presence.bbs, presence.farming (land and admin-0 masks)"],
       "caveats": ["Modern coastlines and river courses."]
@@ -228,6 +349,7 @@
       "licence": "CC BY 4.0 (DataCite record for doi:10.24416/UU01-67UHB4)",
       "cls": "attribution",
       "url": "https://doi.org/10.24416/UU01-67UHB4",
+      "review": {"kind": "peer-reviewed", "evidence": "Klein Goldewijk et al. 2017, ESSD", "url": "https://doi.org/10.5194/essd-9-927-2017", "quote": "a full peer-review process in the traditional sense, albeit in a more transparent way, is assured before publication of a paper in ESSD", "quote_url": "https://www.earth-system-science-data.net/peer_review/interactive_review_process.html", "checked": "2026-10-27", "note": "Full citation: Klein Goldewijk et al. 2017, Earth System Science Data 9, 927-953. The paper describes HYDE 3.2. HYDE 3.3, the version we use, is an update of that method with no paper of its own: its DataCite record calls it 'an update and expansion' that replaces 3.2. The ESSD article shows Received 21 Nov 2016, Accepted 10 Oct 2017."},
       "coverage": "Worldwide, 5' grid; every century 0-1700 CE, every decade 1700-2020.",
       "steps": ["base.population", "base.landuse"],
       "caveats": [
@@ -236,20 +358,138 @@
       ],
       "note": "Cite Klein Goldewijk et al. 2017 (doi:10.5194/essd-9-927-2017)."
     },
+    "gapminder": {
+      "name": "Based on free material from GAPMINDER.ORG",
+      "licence": "CC BY 4.0",
+      "cls": "attribution",
+      "url": "https://www.gapminder.org/",
+      "review": {
+        "kind": "none",
+        "evidence": "Gapminder Foundation documentation",
+        "url": "https://www.gapminder.org/data/documentation/",
+        "quote": "",
+        "checked": "2026-10-30",
+        "note": "A foundation's compilation with documented methods and no independent review on record, so Published. Its figures before about 1950 are modelled back-estimates, which the layers' own evidence says."
+      },
+      "coverage": "Today's countries, yearly from 1800: life expectancy, GDP per head, under-5 mortality, population. Runs on into projections, which we cut at 2024.",
+      "steps": ["base.indicators (life expectancy before 1950; income 1800-1989; child mortality before 1960, and where the World Bank has none; population before 1950)"],
+      "caveats": [
+        "Licence confirmed 2026-10-30: gapminder.org/free-material says its material is 'freely available under the Creative Commons Attribution 4.0 International license', including in commercial products. Its citation for changed material is used as this source's name; the same page asks that the word not be used in a product except in that citation, and the layers' explanations name it only to say whose figures they are.",
+        "Early years are flat or smoothed estimates: a change between two years before 1900 is rarely a measurement.",
+        "Figures are for today's borders; etl/base/indicators.py fits them to the borders of the date."
+      ],
+      "note": "Cite: Based on free material from GAPMINDER.ORG, CC-BY LICENSE (Gapminder Fast Track). Its GitHub repository states no licence of its own; the licence is the free-material page."
+    },
+    "worldbank": {
+      "name": "World Development Indicators (World Bank)",
+      "licence": "CC BY 4.0",
+      "cls": "attribution",
+      "url": "https://datacatalog.worldbank.org/search/dataset/0037712/World-Development-Indicators",
+      "review": {
+        "kind": "none",
+        "evidence": "World Bank WDI metadata",
+        "url": "https://datacatalog.worldbank.org/search/dataset/0037712/World-Development-Indicators",
+        "quote": "",
+        "checked": "2026-10-30",
+        "note": "A development bank's compilation of other agencies' series, not a scientific body's product, so Published under docs/design/evidence.md. Under-5 mortality comes from the UN Inter-agency Group (UN IGME); GDP per head PPP from national accounts and the ICP."
+      },
+      "coverage": "Countries, yearly from 1960: under-5 mortality (SH.DYN.MORT) and, from 1990, GDP per head PPP in constant 2021 international dollars (NY.GDP.PCAP.PP.KD).",
+      "steps": ["base.indicators (child mortality from 1960, income from 1990)"],
+      "caveats": ["Licence confirmed 2026-10-30 from the Data Catalog record: Creative Commons Attribution 4.0.", "Cite the indicator's originating agency as well as the World Bank."],
+      "note": "Cite: World Bank, World Development Indicators."
+    },
+    "wpp": {
+      "name": "World Population Prospects 2024 (UN DESA, Population Division)",
+      "licence": "CC BY 3.0 IGO",
+      "cls": "attribution",
+      "url": "https://population.un.org/wpp/",
+      "review": {
+        "kind": "agency",
+        "evidence": "UN DESA, World Population Prospects 2024: Methodology",
+        "url": "https://www.un.org/development/desa/pd/node/4326",
+        "quote": "",
+        "checked": "2026-10-30",
+        "note": "An intergovernmental statistical programme with a published methodology report: the nearest fit under evidence.md, whose agency examples are scientific bodies."
+      },
+      "coverage": "Countries, yearly: estimates 1950-2023 (life expectancy at birth, population on 1 July). Its projections from 2024 are not used.",
+      "steps": ["base.indicators (life expectancy and population from 1950)"],
+      "caveats": ["Licence from the UN's Summary of Results (2026-10-30): 'Figures and tables in this publication can be reproduced without prior permission, made available under a Creative Commons license (CC BY 3.0 IGO)'. That sentence covers the publication; the download pages state no licence of their own, and other publishers' records of the data give the same CC BY 3.0 IGO.", "The figures are estimates: the UN's model reconciles censuses, surveys and registers."],
+      "note": "Cite: United Nations, DESA, Population Division (2024), World Population Prospects 2024."
+    },
+    "maddison": {
+      "name": "Maddison Project Database 2023, Bolt & van Zanden 2024",
+      "licence": "CC BY 4.0",
+      "cls": "attribution",
+      "url": "https://doi.org/10.34894/INZBF2",
+      "review": {
+        "kind": "none",
+        "evidence": "Bolt & van Zanden 2024, Journal of Economic Surveys",
+        "url": "https://doi.org/10.1111/joes.12618",
+        "quote": "",
+        "checked": "2026-10-30",
+        "note": "Bolt, J. and van Zanden, J. L. (2024), Maddison style estimates of the evolution of the world economy: A new 2023 update, 39(2), 631-671. The DOI and paper are confirmed, but the journal's review policy could not be opened (Wiley refuses scripts), so it stays none until someone checks it: evidence.md asks for that page. The layer is unaffected, since every figure from this source is a modelled back-estimate."
+      },
+      "coverage": "GDP per head (2011 international dollars) and population: 169 countries and aggregate regions, some from 1 CE, most at scattered dates before 1820.",
+      "steps": ["base.indicators (income before 1800, and the population weights before 1800)"],
+      "caveats": ["Licence confirmed 2026-10-30 from its DataverseNL record: CC-BY-4.0.", "Before 1820 the figures are few, and are estimates; each stands for up to 50 years on the map, and the card names its year.", "In 2011 dollars where the later series are in 2021 dollars: not rebased.", "Its record asks that all original papers be cited when the data is shown in graphical form. The list is the database's own Sources sheet (mpd2023_web.xlsx); the atlas cites the database paper and links the record, and does not reproduce that list."],
+      "note": "Cite Bolt & van Zanden 2024."
+    },
+    "owid": {
+      "name": "Our World in Data, literacy rate (from UNESCO, Buringh & van Zanden, van Zanden et al.)",
+      "licence": "CC BY 4.0",
+      "cls": "attribution",
+      "url": "https://ourworldindata.org/grapher/cross-country-literacy-rates",
+      "review": {
+        "kind": "none",
+        "evidence": "Our World in Data, indicator metadata",
+        "url": "https://api.ourworldindata.org/v1/indicators/1271900.metadata.json",
+        "quote": "",
+        "checked": "2026-10-30",
+        "note": "A publisher's compilation with 'major processing'; its origins have their own reviews, the series as combined has none."
+      },
+      "coverage": "Countries at scattered dates, 1475-2024: ten European countries before 1800, more from 1820, most from 1950.",
+      "steps": ["base.indicators (literacy)"],
+      "caveats": [
+        "Licence confirmed 2026-10-30: Our World in Data's own work is CC BY 4.0 and third-party data keeps its providers' terms. Its metadata gives the origins as CC BY 3.0 IGO (UNESCO, UIS) and CC BY 4.0 (Buringh & van Zanden; OECD's How Was Life?): all attribution only.",
+        "Before 1800 inferred from manuscript and book production; definitions of literacy change over time."
+      ],
+      "note": "Cite: UNESCO (1957, 1953); Buringh & van Zanden (2009); van Zanden et al. (2014); UIS (2026), with major processing by Our World in Data."
+    },
     "c20": {
-      "name": "NOAA-CIRES-DOE 20th Century Reanalysis V3 (Slivinski et al. 2019), NOAA PSL",
-      "licence": "Freely available from NOAA PSL; cite the dataset",
+      "name": "20CRv3 via NOAA PSL (NOAA-CIRES-DOE 20th Century Reanalysis V3, Slivinski et al. 2019)",
+      "licence": "CC BY 4.0",
       "cls": "attribution",
       "url": "https://psl.noaa.gov/data/20thC_Rean/",
+      "review": {"kind": "peer-reviewed", "evidence": "Slivinski et al. 2019, QJRMS", "url": "https://doi.org/10.1002/qj.3598", "quote": "Received: 28 February 2019 Revised: 05 June 2019 Accepted: 21 June 2019", "quote_url": "https://nora.nerc.ac.uk/id/eprint/527105/1/qj.3598.pdf", "checked": "2026-10-27", "note": "Full citation: Slivinski et al. 2019, Quarterly Journal of the Royal Meteorological Society 145, 2876-2908. The paper is marked 'INVITED MANUSCRIPT', but the Received/Revised/Accepted history shows it was reviewed. Wiley's page refuses automated access (HTTP 403), so the dates come from the journal-layout PDF in NERC's repository. The dataset is also a NOAA/CIRES/DOE product, so 'agency' would fit too."},
       "coverage": "Worldwide, 3-hourly, 1 degree, 1836-2015.",
-      "steps": ["base.weather"],
-      "caveats": ["Before about 1900 and away from dense observations, a plausible smoothed state, not the day's weather."]
+      "steps": ["base.weather", "runtime: live weather, day bundles through the project's tile cache Worker (src/lib/live/weather20cr.ts)"],
+      "caveats": [
+        "Before about 1900 and away from dense observations, a plausible smoothed state, not the day's weather.",
+        "Licence confirmed as CC BY 4.0 from its DataCite record, doi:10.5065/H93G-WS83 (2026-10-27): attribution required.",
+        "Outside the periods with prebuilt frames, fetched on demand from PSL's OPeNDAP server through our Worker (infra/tiles-worker), every 1 to 6 degrees by the area in view."
+      ],
+      "note": "Cite Slivinski et al. 2019 (doi:10.1002/qj.3598); data provided by the NOAA PSL, Boulder, Colorado, USA, from https://psl.noaa.gov."
+    },
+    "era5-om": {
+      "name": "ERA5 hourly (Copernicus C3S), via Open-Meteo's open data on AWS",
+      "licence": "CC BY 4.0",
+      "cls": "attribution",
+      "url": "https://openmeteo.s3.amazonaws.com/index.html#data/copernicus_era5/",
+      "review": {"kind": "agency", "evidence": "ECMWF for Copernicus C3S, Hersbach et al. 2020", "url": "https://doi.org/10.24381/cds.adbb2d47", "quote": "Reanalysis combines model data with observations from across the world into a globally complete and consistent dataset using the laws of physics.", "quote_url": "https://cds.climate.copernicus.eu/api/catalogue/v1/collections/reanalysis-era5-single-levels", "checked": "2026-10-27", "note": "ECMWF is an intergovernmental organisation; ERA5 is the Copernicus Climate Change Service reanalysis, its method published in Hersbach et al. 2020, The ERA5 global reanalysis, QJRMS 146, 1999-2049 (doi:10.1002/qj.3803; received 2019-09-03, accepted 2020-03-30 per Crossref; Wiley blocks automated access, so the journal's own review statement was not quoted). Open-Meteo repackages the values into its OM format without changing the analysis."},
+      "coverage": "Worldwide, hourly, 0.25 degree, 1940 to about five days ago: cloud cover, precipitation, 2 m temperature, 10 m wind, mean sea-level pressure.",
+      "steps": ["runtime: point weather, read in the browser by HTTP range requests from https://openmeteo.s3.amazonaws.com/data/copernicus_era5/ (src/lib/live/era5om.ts)"],
+      "caveats": [
+        "A reanalysis: a model's best estimate of the hour on a 0.25 degree grid, not a station record; thinner observations before about 1950 make it smoother.",
+        "Read with our own clean-room reader of the OM format, not Open-Meteo's GPL-2.0 libraries. The files for the last few weeks are rewritten daily."
+      ],
+      "note": "Cite Hersbach et al. 2023, ERA5 hourly data on single levels from 1940 to present, Copernicus Climate Change Service (C3S) Climate Data Store, doi:10.24381/cds.adbb2d47; data distributed by Open-Meteo (https://open-meteo.com) through the AWS Open Data programme (https://registry.opendata.aws/open-meteo/)."
     },
     "anthromes": {
       "name": "Anthromes 12K (Ellis, Beusen and Klein Goldewijk 2020)",
       "licence": "CC0 1.0 (Harvard Dataverse, doi:10.7910/DVN/G0QDNQ)",
       "cls": "public",
       "url": "https://doi.org/10.7910/DVN/G0QDNQ",
+      "review": {"kind": "peer-reviewed", "evidence": "Ellis et al. 2020, Land", "url": "https://doi.org/10.3390/land9050129", "quote": "Single anonymous peer review", "quote_url": "https://doaj.org/api/search/journals/issn:2073-445X", "checked": "2026-10-27", "note": "Full citation: Ellis, Beusen & Klein Goldewijk 2020, Land 9(5), 129. MDPI's pages refuse automated access (HTTP 403), so the review process is from DOAJ's journal record for Land (ISSN 2073-445X). The DOI resolves to the MDPI article. Land is an MDPI journal; reviewers sometimes see MDPI journals as less selective."},
       "coverage": "Worldwide, 5' grid; every 1000 years 10,000 BCE-1 CE, every century to 1700, every decade to 2000, yearly to 2015.",
       "steps": ["base.anthromes"],
       "caveats": ["Derived from HYDE 3.2 population and land use plus potential natural vegetation: a reconstruction, not observed land cover.", "Folded from about 20 classes into four groups and averaged to 0.25 degrees for display."],
@@ -260,9 +500,10 @@
       "licence": "Public domain (the maps are centuries old; the scans are faithful reproductions)",
       "cls": "public",
       "url": "https://commons.wikimedia.org/wiki/Category:Old_maps_of_the_world",
+      "review": {"kind": "none", "evidence": "Scanned historical maps", "url": "https://commons.wikimedia.org/wiki/Category:Old_maps_of_the_world", "quote": "“Old maps” means maps authored over 70 years ago, that is, in 1955 or earlier.", "checked": "2026-10-27", "note": "Full citation: Historical world maps 1154-1785, scans hosted on Wikimedia Commons. Scanned historical documents; the georeferencing (projection, control points) is ours and AI-read, not reviewed."},
       "coverage": "Sixteen world maps, 1154-1785, by group: Europe (the Catalan Atlas 1375, Fra Mauro 1459, Martellus 1490, Waldseemüller 1507, Ortelius 1570, Rumold Mercator 1587, the Atlas Minor 1621, Hondius 1630, Delisle 1700, Roberts' Cook chart 1784), East Asia (the Kangnido 1402 in its Honkō-ji copy, Ricci 1602, Nagakubo Sekisui c.1785), the Islamic world (al-Idrisi 1154 in a later manuscript copy, Piri Reis 1513, Kâtip Çelebi 1729).",
       "steps": ["base.oldmaps"],
-      "caveats": ["Placed by the map's own projection, measured on the scan; one longitude offset fitted on a few control points.", "Control points were read from the scan by AI (Claude) and are unreviewed."],
+      "caveats": ["Placed by the map's own projection, measured on the scan; one longitude offset fitted on a few control points.", "Control points were read from the scan by AI (Claude) and are not yet verified."],
       "note": "Each map's source file is in sources/oldmaps/, with its projection and control points."
     },
     "gbif": {
@@ -270,6 +511,7 @@
       "licence": "Per dataset: CC0, CC BY 4.0 or CC BY-NC 4.0; each record keeps its own",
       "cls": "attribution",
       "url": "https://www.gbif.org/",
+      "review": {"kind": "community", "evidence": "GBIF, records from many publishers, unreviewed", "url": "https://training.gbif.org/en/intro-to-gbif/about-gbif", "quote": "GBIF operates as a federated system of distributed data publishing efforts, coordinated through a global informatics infrastructure and collaborative network.", "checked": "2026-10-27", "note": "Full citation: GBIF, federated network of data-publishing institutions (intergovernmental secretariat, no record-level review). GBIF itself is funded by governments, but it aggregates records from museums and citizen-science publishers without reviewing them; the same page says 'we do not resolve data heterogeneity for you'. Quality varies per dataset (museum specimens are curated, observations often are not). gbif.org/what-is-gbif blocked automated fetching, so the GBIF training page is quoted."},
       "coverage": "Worldwide; dated records of species. For North America before 1900, densest from 1850.",
       "steps": ["history.wildlife"],
       "caveats": ["Presence only: few records means few collectors as much as few animals.", "Most records before 1900 have no coordinates; those naming a state or province are placed at its Natural Earth label point and drawn as rings.", "Records under CC BY-NC drop out when the commercial-use filter is on. Each record links to its GBIF page, which cites its dataset."]
@@ -279,6 +521,7 @@
       "licence": "No use restrictions (US Government data release, with Environment and Climate Change Canada); cite doi:10.5066/P136CRBV",
       "cls": "public",
       "url": "https://doi.org/10.5066/P136CRBV",
+      "review": {"kind": "agency", "evidence": "USGS data release, Ziolkowski et al. 2024", "url": "https://doi.org/10.5066/P136CRBV", "quote": "one data review and one metadata review, reconciliation, and Bureau approval.", "quote_url": "https://www.usgs.gov/office-of-science-quality-and-integrity/fundamental-science-practices/faq/120-data-release-review-approval-requirements", "checked": "2026-10-27", "note": "Full citation: Ziolkowski, Lutmerding, English & Hudson 2024, U.S. Geological Survey data release (with Environment and Climate Change Canada). The DOI resolves to the ScienceBase item '2024 Release - North American Breeding Bird Survey Dataset (1966 - 2023)', which now says it 'has been superseded by a more recent release'. The quote is the USGS Fundamental Science Practices requirement for every USGS data release; the item page itself states no review. Counts are made by skilled volunteers under a fixed protocol."},
       "evidence": "observed",
       "coverage": "About 5,300 roadside routes in the US and southern Canada (none in Mexico in this release), surveyed each June since 1966.",
       "steps": ["presence.bbs"],
@@ -292,6 +535,7 @@
       "licence": "CC BY 4.0 (EEA; stated on the 2007-12 and 2013-18 public datasets, and the EEA's default for its content)",
       "cls": "attribution",
       "url": "https://bio.discomap.eea.europa.eu/arcgis/rest/services/Article17",
+      "review": {"kind": "agency", "evidence": "European Environment Agency, Article 17 reporting", "url": "https://cdr.eionet.europa.eu/help/habitats_art17/Reporting2019/Delivery_manual_for_tabular_and_spatial_data_Article17.pdf", "quote": "various stages of quality control have been built into the CDR data upload process", "checked": "2026-10-27", "note": "Full citation: European Environment Agency / European Topic Centre, Article 17 Habitats Directive reporting (Member State reports, EEA QA/QC). The quote is from the EEA's 'Delivery manual for Article 17 data' (14 March 2019, for the 2013-18 reports); it describes automated validation and QA/QC of format and consistency, not field checking. The distributions themselves are compiled by each Member State with its own methods; EU-level assessments are done by the EEA, ETCs and contractors (nature-art17.eionet.europa.eu). I did not find the equivalent manual for 2019-24."},
       "evidence": "observed",
       "coverage": "EU member states (and the UK to 2018), 10 km grid, one map per six-year reporting period.",
       "steps": ["presence.art17"],
@@ -306,10 +550,11 @@
       "licence": "Quotes from the cited pages (Wikipedia CC BY-SA 4.0, open-access papers, UNESCO); the catalogue's own text is the project's",
       "cls": "attribution",
       "url": "https://github.com/thebend/openworld/blob/main/app/research/cradles-12500-500-bce.raw.json",
+      "review": {"kind": "none", "evidence": "This project: AI research catalogue", "url": "https://github.com/thebend/openworld/blob/main/app/research/cradles-12500-500-bce.raw.json", "quote": "", "checked": "2026-10-27", "note": "Our own work, so no outside review: its badge comes from the layer (AI-verified research, Modelled), not from this record."},
       "evidence": "reconstructed",
       "coverage": "Worldwide, 12,500-500 BCE: sites where farming or herding is first attested, per independent centre of domestication, each with a calibrated radiocarbon range.",
       "steps": ["research.verify_quotes", "research.merge", "presence.farming"],
-      "caveats": ["AI research, unreviewed: every quote is checked against its page and two verifier passes read the sources, but no specialist has reviewed it.",
+      "caveats": ["AI-verified: every quote is checked against its page and two verifier passes read the sources; no person has reviewed it yet.",
       "A site's date is its earliest evidence found so far; the field fades in across the radiocarbon range.",
       "Drawn only near dated sites: elsewhere the map does not know."],
       "note": "app/research/cradles-12500-500-bce.raw.json and its verification parts."
@@ -319,6 +564,7 @@
       "licence": "CC BY 4.0",
       "cls": "attribution",
       "url": "https://doi.org/10.5281/zenodo.22997143",
+      "review": {"kind": "none", "evidence": "Guth 2026, a Zenodo deposit", "url": "https://doi.org/10.5281/zenodo.22997143", "quote": "Digitization was done by introductory course GIS students, with some edits by the professor.", "checked": "2026-10-27", "note": "Full citation: Guth 2026, Zenodo dataset (KMZ files for Normandy Invasion and Battle of the Bulge). Zenodo deposit by one author, digitised from Library of Congress 12th Army Group situation maps. The record cites two related chapters (Guth 2011 in an Elsevier edited volume; Guth & Jacks 2011 conference proceedings) for two of the sets; their review status and whether they cover the Bulge data were not confirmed."},
       "coverage": "Normandy and the Bulge, 1944-45.",
       "steps": ["fetch.europe.fronts"],
       "caveats": []
@@ -328,6 +574,7 @@
       "licence": "Public domain (US Government work)",
       "cls": "public",
       "url": "https://commons.wikimedia.org/wiki/Category:WW2_Battlefront_Atlas",
+      "review": {"kind": "none", "evidence": "US Army Map Service atlas, 1945, scanned", "url": "https://commons.wikimedia.org/wiki/Category:WW2_Battlefront_Atlas", "quote": "This category contains images taken from the Public Domain US Army Map Services \"Atlas of World War 2 Battle Fronts in Semimonthly Phases to Aug 15 1945\".", "checked": "2026-10-27", "note": "Full citation: US War Department / Army Map Service, Atlas of the World Battle Fronts in Semimonthly Phases to August 15 1945. A scanned wartime government document; the lines we use are traced from the scans by our own computer vision."},
       "coverage": "Europe and the Pacific, 1943-45 (scanned maps).",
       "steps": ["fetch.europe.fronts", "history.war_dept_atlas"],
       "caveats": ["Lines traced from scans by computer vision; check against the scan."]
@@ -337,6 +584,7 @@
       "licence": "Public legal records; compiled by this project",
       "cls": "project",
       "url": "",
+      "review": {"kind": "none", "evidence": "This project: compiled claim instruments", "url": "", "quote": "", "checked": "2026-10-27", "note": "Our own work, so no outside review: its badge comes from the layer (AI-verified research, Modelled), not from this record."},
       "coverage": "Antarctica, 1908-1991.",
       "steps": ["(Antarctica scene)"],
       "caveats": []
@@ -346,6 +594,7 @@
       "licence": "This project; every claim cites its sources",
       "cls": "project",
       "url": "",
+      "review": {"kind": "none", "evidence": "This project: AI research catalogue", "url": "", "quote": "", "checked": "2026-10-27", "note": "Our own work, so no outside review: its badge comes from the layer (AI-verified research, Modelled), not from this record."},
       "coverage": "Per scene: dated control claims and events with quoted citations.",
       "steps": ["research.verify_quotes", "research.merge"],
       "caveats": ["Compiled by AI research agents; not yet reviewed by a person.", "verify_quotes fetches every cited page (about 250 hosts: Wikipedia, archive.org, Project Gutenberg, Europe PMC and others) to check each quote; the quotes ship with the catalogue."],
@@ -356,6 +605,7 @@
       "licence": "This project",
       "cls": "project",
       "url": "",
+      "review": {"kind": "none", "evidence": "This project: curated inputs", "url": "", "quote": "", "checked": "2026-10-27", "note": "Our own work, so no outside review: its badge comes from the layer (AI-verified research, Modelled), not from this record."},
       "coverage": "Per scene.",
       "steps": ["(committed curated inputs)"],
       "caveats": []
@@ -365,6 +615,7 @@
       "licence": "Free use with acknowledgement",
       "cls": "attribution",
       "url": "https://cdsarc.cds.unistra.fr/viz-bin/cat/V/50",
+      "review": {"kind": "agency", "evidence": "Hoffleit & Warren 1991, Yale University Observatory; NASA ADC and CDS", "url": "https://cdsarc.cds.unistra.fr/viz-bin/cat/V/50", "quote": "The Bright Star Catalogue (BSC) is widely used as a source of basic astronomical and astrophysical data for stars brighter than magnitude 6.5.", "quote_url": "https://vizier.cfa.harvard.edu/ftp/cats/V/50/ReadMe", "checked": "2026-10-27", "note": "Full citation: Hoffleit D. & Warren W. H. Jr. 1991, The Bright Star Catalogue, 5th Revised Ed. (Preliminary Version), Yale University Observatory; distributed by NASA's Astronomical Data Center (NSSDC/ADC) and by CDS Strasbourg as catalogue V/50. Recorded as 'agency': the institutional standard reference for the naked-eye stars, compiled at Yale Observatory and issued and kept by NASA's ADC and CDS (owner's decision, 2026-10-27). The url is the CDS catalogue page; CDS (cdsarc.cds.unistra.fr) refused connections from here, so the quote was checked against the same ReadMe on the CfA VizieR mirror (quote_url)."},
       "coverage": "Whole sky, stars to magnitude 6.5.",
       "steps": ["fetch.sky"],
       "caveats": []
@@ -374,6 +625,7 @@
       "licence": "NASA media: not copyrighted in the US; credit NASA's Scientific Visualization Studio",
       "cls": "public",
       "url": "https://svs.gsfc.nasa.gov/4720",
+      "review": {"kind": "agency", "evidence": "NASA Scientific Visualization Studio, from LRO data", "url": "https://svs.gsfc.nasa.gov/4720", "quote": "The color maps were adapted from the Hapke Normalized WAC Mosaic, a composite built by the camera team from over 100,000 WAC (Wide Angle Camera) images.", "checked": "2026-10-27", "note": "Full citation: NASA Goddard Scientific Visualization Studio, CGI Moon Kit (from LRO LROC WAC and LOLA data). This is NASA's visualization product, not a science data release: SVS 'adjusted to more closely match human vision' the exposure and white balance, and inpainted dropouts. The underlying LROC mosaic is NASA mission data. If a visual derivative should not count as 'agency', record 'none'."},
       "coverage": "The Moon's colour map, equirectangular.",
       "steps": ["fetch.sky (public/data/sky/moon.jpg)"],
       "caveats": []
@@ -383,25 +635,159 @@
       "licence": "MIT",
       "cls": "attribution",
       "url": "https://github.com/cosinekitty/astronomy",
+      "review": {"kind": "peer-reviewed", "evidence": "Bretagnon & Francou 1988, A&A", "url": "https://vizier.cfa.harvard.edu/ftp/cats/VI/81/ReadMe", "quote": "Astronomy & Astrophysics (A&A) is an international, peer-reviewed journal that publishes original research in astronomy and astrophysics.", "quote_url": "https://nestor.aanda.org/", "checked": "2026-10-27", "note": "Full citation: Bretagnon & Francou 1988, Astronomy & Astrophysics 202, 309 (VSOP87). Covers the Sun and planets Mercury to Neptune only: Astronomy Engine uses a truncated VSOP87 (README: accurate to about 1 arcminute, tested against NOVAS C 3.1 and JPL Horizons). The Moon is adapted from Montenbruck & Pfleger's version of the 1954 Improved Lunar Ephemeris (Brown's theory), and Pluto comes from the author's own gravitation simulation of the outer planets, verified against TOP2013; neither is covered by this paper. The 1988 A&A paper has no DOI (bibcode 1988A&A...202..309B), so the VizieR VSOP87 ReadMe giving the citation is the url."},
       "coverage": "Any date.",
       "steps": ["(npm dependency)"],
       "caveats": []
     },
+    "d3-celestial": {
+      "name": "d3-celestial (Olaf Frohn): IAU constellation lines, names and label positions; Hipparcos star positions (XHIP)",
+      "licence": "BSD-3-Clause",
+      "cls": "attribution",
+      "url": "https://github.com/ofrohn/d3-celestial",
+      "review": {"kind": "none", "evidence": "Frohn, a personal project", "url": "https://github.com/ofrohn/d3-celestial", "quote": "name positions and some line modifications by me", "checked": "2026-10-27", "note": "Full citation: Olaf Frohn, d3-celestial (software library; lines after the IAU charts, star data from XHIP, Anderson & Francis 2012). A person's open-source library. Its inputs have expert standing (IAU constellation figures; XHIP, a published Hipparcos compilation; Davenhall & Leggett 1989 boundaries), but the figure lines and label positions we use are the author's own, with no review."},
+      "coverage": "The 88 IAU constellations; stars to magnitude 8 (for the positions of other cultures' figures).",
+      "steps": ["fetch.skycultures (public/data/sky/cultures/iau.json, and the star places in every culture file)"],
+      "caveats": ["Figure lines are the author's, after the IAU's charts; Ptolemy's 48 are drawn with these modern figures."]
+    },
+    "stellarium-skycultures": {
+      "name": "Stellarium sky cultures: Chinese, Indian, Mongolian, Norse, Hawaiian, Māori, Tongan and Boorong figures",
+      "licence": "CC BY-SA 4.0 (per culture; each file carries its own credit)",
+      "cls": "share-alike",
+      "url": "https://github.com/Stellarium/stellarium-skycultures",
+      "review": {"kind": "community", "evidence": "Stellarium, contributed by volunteers", "url": "https://stellarium.org/doc/head/classStelSkyCulture.html", "quote": "A rough classification scheme that may allow filtering and at least some rough idea of quality control.", "checked": "2026-10-27", "note": "Full citation: Stellarium project, sky cultures contributed via GitHub (each compiled and credited by its own author). Volunteer open-source project: contributions go through the maintainers, who ask for references 'optimally: peer-reviewed' and classify cultures, and the same page says 'external reviewers can probably provide more quality control' in future, so no expert review is documented. Individual cultures may rest on scholarly sources (listed in each description.md), but the line figures are each compiler's reading."},
+      "coverage": "Only the cultures whose description states CC BY-SA. The Arabic cultures (CC BY-ND 4.0) and the Aztec, Egyptian and Korean ones (GPL-2.0) are not used.",
+      "steps": ["fetch.skycultures (public/data/sky/cultures/<culture>.json, one file per culture)"],
+      "caveats": ["Each culture is one compiler's reading of its sources; stars fainter than magnitude 8 are left out of the lines."]
+    },
+    "arabic-star-names": {
+      "name": "Arabic star names (this project's research catalogue arabic-star-names)",
+      "licence": "Quotes from the cited pages (Wikipedia CC BY-SA 4.0); the catalogue's own text is the project's",
+      "cls": "attribution",
+      "url": "https://github.com/thebend/openworld/blob/main/app/research/arabic-star-names.raw.json",
+      "review": {
+        "kind": "none",
+        "evidence": "This project: AI research catalogue",
+        "url": "https://github.com/thebend/openworld/blob/main/app/research/arabic-star-names.raw.json",
+        "quote": "",
+        "checked": "2026-10-29",
+        "note": "Our own work, so no outside review. The cited pages draw on Kunitzsch & Smart (A Dictionary of Modern Star Names) and Allen; Kunitzsch's own works are not openly online, so are not cited directly."
+      },
+      "evidence": "reconstructed",
+      "coverage": "The Arabic names behind about 75 bright stars' modern names: Arabic script where the source gives it, transliteration and meaning.",
+      "steps": [
+        "research.verify_quotes",
+        "fetch.skycultures (public/data/sky/cultures/arabic-names.json)"
+      ],
+      "caveats": [
+        "AI-verified: every quote is checked against its page and a verifier pass reads the sources; no person has reviewed it yet.",
+        "Shown in the sky from the ground for the medieval Islamic world; some names are older Bedouin star names, some translate Ptolemy's descriptions."
+      ],
+      "note": "app/research/arabic-star-names.raw.json and its verification parts."
+    },
+    "egyptian-sky-names": {
+      "name": "Ancient Egyptian star names (this project's research catalogue egyptian-sky-names)",
+      "licence": "Quotes from the cited pages (Wikipedia CC BY-SA 4.0, open-access papers); the catalogue's own text is the project's",
+      "cls": "attribution",
+      "url": "https://github.com/thebend/openworld/blob/main/app/research/egyptian-sky-names.raw.json",
+      "review": {
+        "kind": "none",
+        "evidence": "This project: AI research catalogue",
+        "url": "https://github.com/thebend/openworld/blob/main/app/research/egyptian-sky-names.raw.json",
+        "quote": "",
+        "checked": "2026-10-30",
+        "note": "Our own work, so no outside review: its badge comes from the layer, not from this record."
+      },
+      "evidence": "reconstructed",
+      "coverage": "Sopdet (Sirius), Sah (in Orion) and Meskhetyu (the Big Dipper), for the sky from the ground in Egypt before Alexander.",
+      "steps": [
+        "research.verify_quotes",
+        "fetch.skycultures (public/data/sky/cultures/egyptian-names.json)"
+      ],
+      "caveats": [
+        "AI-verified: every quote is checked against its page and a verifier pass reads the sources; no person has reviewed it yet.",
+        "Names only, no figures. Identifications the sources hedge (the Hippopotamus, the decans, the Ikhemu-sek) are recorded in the catalogue and not shown."
+      ],
+      "note": "app/research/egyptian-sky-names.raw.json and its verification parts."
+    },
+    "aztec-sky-names": {
+      "name": "Nahua (Aztec) star names (this project's research catalogue aztec-sky-names)",
+      "licence": "Quotes from the cited pages (Wikipedia CC BY-SA 4.0, open-access papers); the catalogue's own text is the project's",
+      "cls": "attribution",
+      "url": "https://github.com/thebend/openworld/blob/main/app/research/aztec-sky-names.raw.json",
+      "review": {
+        "kind": "none",
+        "evidence": "This project: AI research catalogue",
+        "url": "https://github.com/thebend/openworld/blob/main/app/research/aztec-sky-names.raw.json",
+        "quote": "",
+        "checked": "2026-10-30",
+        "note": "Our own work, so no outside review: its badge comes from the layer, not from this record."
+      },
+      "evidence": "reconstructed",
+      "coverage": "The Pleiades as Tianquiztli and Miec, for the sky from the ground in central Mexico before 1521.",
+      "steps": [
+        "research.verify_quotes",
+        "fetch.skycultures (public/data/sky/cultures/aztec-names.json)"
+      ],
+      "caveats": [
+        "AI-verified: every quote is checked against its page and a verifier pass reads the sources; no person has reviewed it yet.",
+        "Names only, no figures. The other star groups in Sahagún (Mamalhuaztli, Citlalxonecuilli, Citlalcolotl and others) are read differently by different scholars: recorded in the catalogue, not shown.",
+        "Miec rests on one source, Galindo Trejo 1991."
+      ],
+      "note": "app/research/aztec-sky-names.raw.json and its verification parts."
+    },
+    "korean-sky-note": {
+      "name": "Korean star charts (this project's research note korean-sky-note)",
+      "licence": "Quotes from the cited pages (Wikipedia CC BY-SA 4.0, open-access papers); the catalogue's own text is the project's",
+      "cls": "attribution",
+      "url": "https://github.com/thebend/openworld/blob/main/app/research/korean-sky-note.raw.json",
+      "review": {
+        "kind": "none",
+        "evidence": "This project: AI research catalogue",
+        "url": "https://github.com/thebend/openworld/blob/main/app/research/korean-sky-note.raw.json",
+        "quote": "",
+        "checked": "2026-10-30",
+        "note": "Our own work, so no outside review: its badge comes from the layer, not from this record."
+      },
+      "evidence": "reconstructed",
+      "coverage": "The Cheonsang Yeolcha Bunyajido (1395) and its Goguryeo model: the label on the Chinese figures shown for Korea.",
+      "steps": [
+        "research.verify_quotes",
+        "src/lib/skyCultures.ts (the label)"
+      ],
+      "caveats": [
+        "AI-verified: every quote is checked against its page and a verifier pass reads the sources; no person has reviewed it yet.",
+        "No Korean figures are drawn: the chart's own differ in part from the Chinese ones shown."
+      ],
+      "note": "app/research/korean-sky-note.raw.json and its verification parts."
+    },
     "gufm1": {
       "name": "gufm1 geomagnetic field model (Jackson, Jonkers & Walker 2000)",
-      "licence": "Published with the author's permission; no licence stated",
-      "cls": "unverified",
+      "licence": "Free download and use with the author's permission (CIRES); redistributed under CC BY 4.0 by GFZ's pymagglobal",
+      "cls": "attribution",
       "url": "https://geomag.colorado.edu/node/669",
+      "review": {"kind": "peer-reviewed", "evidence": "Jackson et al. 2000, Phil. Trans. R. Soc. A", "url": "https://doi.org/10.1098/rsta.2000.0569", "quote": "Most papers submitted to Royal Society research journals are peer reviewed in a single-anonymized fashion", "quote_url": "https://royalsociety.org/journals/ethics-policies/editorial-standards/", "checked": "2026-10-27", "note": "Full citation: Jackson, Jonkers & Walker 2000, Philosophical Transactions of the Royal Society A 358, 957-990. DOI resolves to 'Four centuries of geomagnetic secular variation from historical records' (confirmed on the publisher page and via Crossref). The publisher page shows no received/accepted dates, and the quoted Royal Society policy is the current one for the Philosophical Transactions journals, not necessarily the 2000 procedure. The coefficient file we use is the model that paper describes."},
       "markers": ["gufm1 (Jackson"],
-      "coverage": "1590-1990.",
+      "coverage": "1590-1990; the compass uses it for 1590-1899 only (IGRF-14 from 1900).",
       "steps": ["fetch.sky (public/data/sky/gufm1.json, read by src/lib/geomag.ts for the compass)"],
-      "caveats": ["No licence stated."]
+      "caveats": ["The author has published no licence. CIRES hosts it \"with permission from the model owner, Prof. Dr. Andrew Jackson\" for \"download and use\"; GFZ's pymagglobal ships it under CC BY 4.0 (git.gfz-potsdam.de/sec23/korte/pymagglobal, dat/gufm1.license). Credit Jackson, Jonkers & Walker (2000)."]
+    },
+    "igrf14": {
+      "name": "IGRF-14, International Geomagnetic Reference Field, 14th generation (IAGA Working Group V-MOD, 2024)",
+      "licence": "CC BY 4.0",
+      "cls": "attribution",
+      "url": "https://doi.org/10.5281/zenodo.14218973",
+      "review": {"kind": "peer-reviewed", "evidence": "Beggan et al. 2026, Earth, Planets and Space", "url": "https://doi.org/10.1186/s40623-025-02360-0", "quote": "It facilitates the rapid dissemination of high-quality research results through a peer-reviewed, open-access e-journal.", "quote_url": "https://link.springer.com/journal/40623/aims-and-scope", "checked": "2026-10-27", "note": "Full citation: Beggan et al. 2026, Earth, Planets and Space 78, 127 (IAGA Working Group V-MOD). The article page shows Received 14 October 2025, Accepted 21 December 2025, Published 29 June 2026. The model is also an IAGA (intergovernmental scientific union) product, so it would qualify as agency too; peer-reviewed is the stronger claim. The coefficients we use come from the Zenodo record (doi:10.5281/zenodo.14218973) that the paper describes."},
+      "coverage": "1900-2030: main-field Gauss coefficients every five years to 2025 (degree 10 to 1995, 13 from 2000), and the predicted secular variation 2025-2030.",
+      "steps": ["fetch.sky (public/data/sky/igrf14.json, read by src/lib/geomag.ts for the compass and the sky view's magnetic north)"],
+      "caveats": ["Cite as Beggan et al., International geomagnetic reference field: the fourteenth generation, Earth Planets Space 78, 127 (2026), doi:10.1186/s40623-025-02360-0.", "Before 1945 the coefficients are non-definitive (IGRF, not DGRF); after 2025 the field is a five-year forecast. The main field only: local crustal anomalies can turn a real compass by a degree or more."]
     },
     "geonames": {
       "name": "GeoNames",
       "licence": "CC BY 4.0",
       "cls": "attribution",
       "url": "https://www.geonames.org/",
+      "review": {"kind": "community", "evidence": "GeoNames, open to user edits", "url": "https://www.geonames.org/about.html", "quote": "Users may manually edit, correct and add new names using a user friendly wiki interface.", "checked": "2026-10-27", "note": "Full citation: GeoNames gazetteer (unxos GmbH), aggregated from agency gazetteers plus user wiki edits. Built from agency sources (NGA GNS, USGS GNIS, national gazetteers; see geonames.org/data-sources.html) but assembled by a company and open to user edits, so community rather than agency; could also be read as 'none' (company project)."},
       "coverage": "Worldwide populated places over 1,000 people.",
       "steps": ["fetch.gazetteer"],
       "caveats": []
@@ -411,6 +797,7 @@
       "licence": "Per file (public domain, CC BY, CC BY-SA); recorded in credits.json and recordings.json",
       "cls": "attribution",
       "url": "https://commons.wikimedia.org/",
+      "review": {"kind": "community", "evidence": "Wikimedia Commons, contributed by volunteers", "url": "https://commons.wikimedia.org/wiki/Main_Page", "quote": "freely usable media files to which anyone can contribute", "checked": "2026-10-27", "note": "Full citation: Wikimedia Commons, Wikimedia Foundation. Volunteer-uploaded and -curated media; licence and description are per file, and file content is not expertly reviewed."},
       "coverage": "Tour portraits and sound beds.",
       "steps": ["fetch.portraits", "fetch.audio", "base.oldmaps", "runtime: article lead images, tour images and tour thumbnails (upload.wikimedia.org)"],
       "caveats": ["Each file carries its own licence and credit line."]
@@ -420,6 +807,7 @@
       "licence": "US Government work: public domain",
       "cls": "public",
       "url": "https://www.nps.gov/yell/learn/photosmultimedia/soundlibrary.htm",
+      "review": {"kind": "none", "evidence": "US National Park Service sound library", "url": "https://www.nps.gov/yell/learn/photosmultimedia/soundlibrary.htm", "quote": "The files available here were recorded in the park and are in the public domain.", "checked": "2026-10-27", "note": "Full citation: US National Park Service, Yellowstone National Park Sound Library (field recordings). The NPS is a federal agency, but this is an outreach sound library with no documented recording method or quality review (the page credits technical help from Colorado State University's Sound and Light Ecology Team), and a wind recording makes no factual claim to review."},
       "coverage": "One wind recording (the wind sound bed).",
       "steps": ["fetch.audio", "media.ambience"],
       "caveats": ["Fetched from the archive.org mirror (archive.org/download/nps-yell-sounds-soundscapes)."]

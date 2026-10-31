@@ -10,9 +10,10 @@ Output:
 Only items the second pass verified or partially verified are kept: unverified and rejected ones stay
 in research/<name>.raw.json and its verification parts as the audit record, and are never served.
 
-Every item is labelled `label: "AI research — unreviewed"`. A human review
-later flips `review.status` (unreviewed -> accepted/rejected) without touching
-the evidence, so what the map shows is always traceable to who checked what.
+Every served item is labelled `label: "AI-verified"`. A person's review, recorded in
+research/<name>.reviews.json (etl/research/review.py), is folded into its `review` block (status,
+verdict, tier: human or expert, by, date) without touching the evidence, so what the map shows is
+always traceable to who checked what; an item the reviewer rejected is left out like an unverified one.
 """
 from __future__ import annotations
 
@@ -22,6 +23,7 @@ from collections import Counter
 import sys
 
 from etl.common import CATALOGUE, RCACHE, RESEARCH, write_json
+from etl.research import review
 
 NAME = sys.argv[1] if len(sys.argv) > 1 else "northeast-1790-1820"
 
@@ -53,23 +55,24 @@ def main() -> None:
             "quotes_found": sum(1 for c in checks if c in ("found", "fuzzy")),
             "quotes_total": len(checks),
         }
-        item["label"] = "AI research — unreviewed"
-        item["review"] = {"status": "unreviewed", "by": None, "date": None}
+        item["label"] = "AI-verified"
         stats[(item["type"], item["verification"]["status"])] += 1
     kept = ("verified", "partially-verified")
     for k in ("claims", "events"):
         if k in cat:
             cat[k] = [it for it in cat[k] if it["verification"]["status"] in kept]
+    reviewed = review.fold(NAME, cat)
     cat["meta"]["verification"] = {
         "pass1": "deterministic: every quote located in the fetched source text (exact or ≥80% token window)",
         "pass2": ver.get("meta", {}),
         "counts": {f"{k[0]}:{k[1]}": n for k, n in sorted(stats.items()) if k[1] in kept},
     }
-    cat["meta"]["label"] = "AI research — unreviewed by a human"
+    cat["meta"]["label"] = "AI-verified; a historian's review, where there is one, on each item"
     write_json(RCACHE / f"{NAME}.json", cat)
     write_json(CATALOGUE / "research" / f"{NAME}.json", cat)
     left = sum(n for k, n in stats.items() if k[1] not in kept)
-    print(dict(stats), f"({left} left out: kept in the raw catalogue only)" if left else "")
+    print(dict(stats), f"({left} left out: kept in the raw catalogue only)" if left else "",
+          f"review: {reviewed['human']} human-reviewed, {reviewed['expert']} expert-verified, {reviewed['rejected']} rejected" if any(reviewed.values()) else "")
 
 
 if __name__ == "__main__":

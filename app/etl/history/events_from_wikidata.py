@@ -12,11 +12,10 @@ from __future__ import annotations
 
 import hashlib
 import json
-import time
-import urllib.parse
-import urllib.request
+import sys
 
-from etl.common import CFG, LAT0, LAT1, LON0, LON1, SCACHE, SCENE, SCENE_EVENTS, UA, write_json
+from etl import net
+from etl.common import CFG, LAT0, LAT1, LON0, LON1, SCACHE, SCENE, SCENE_EVENTS, write_json
 
 ENDPOINT = "https://query.wikidata.org/sparql"
 Y0, Y1 = CFG["years"]
@@ -38,19 +37,13 @@ def sparql(q: str) -> list[dict]:
     p = SCACHE / "sparql" / f"{key}.json"
     if p.exists():
         return json.loads(p.read_text())
-    url = ENDPOINT + "?" + urllib.parse.urlencode({"query": q, "format": "json"})
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/sparql-results+json"})
-    for attempt in range(4):
-        try:
-            rows = json.loads(urllib.request.urlopen(req, timeout=120).read())["results"]["bindings"]
-            p.parent.mkdir(parents=True, exist_ok=True)
-            p.write_text(json.dumps(rows))
-            time.sleep(1.0)
-            return rows
-        except Exception as e:  # noqa: BLE001 — retry then surface
-            print("  retry", attempt, e)
-            time.sleep(5 * (attempt + 1))
-    raise SystemExit("SPARQL failed repeatedly")
+    try:
+        rows = net.sparql(q, endpoint=ENDPOINT)
+    except Exception as e:  # noqa: BLE001 — retried, then surface
+        raise SystemExit(f"SPARQL failed repeatedly: {e}") from e
+    p.parent.mkdir(parents=True, exist_ok=True)
+    p.write_text(json.dumps(rows))
+    return rows
 
 
 def box() -> str:
@@ -130,7 +123,20 @@ def settlements() -> list[dict]:
   OPTIONAL { ?place wdt:P571 ?inc . }
   OPTIONAL { ?place rdfs:label ?label FILTER(LANG(?label) = "en") }
 }"""
-    rows = sparql(q)
+    # capitals and the largest cities, however Wikidata types them (Paris is a commune of France, Berlin
+    # a city-state, so the classes above miss them): capitals of countries, sovereign and former states,
+    # and cities of a million or more. A separate query: as a UNION above it runs past WDQS's minute.
+    capitals = """SELECT ?place ?label ?inc ?coord ?sl ?ruin WHERE {
+  { VALUES ?k { wd:Q6256 wd:Q3624078 wd:Q3024240 wd:Q7275 } ?place wdt:P1376 ?of . ?of wdt:P31 ?k . }
+  UNION { VALUES ?cls { wd:Q1637706 wd:Q200250 } ?place wdt:P31 ?cls . }
+  ?place wikibase:sitelinks ?sl . FILTER(?sl >= 60)
+  ?place wdt:P625 ?coord .
+  OPTIONAL { ?place wdt:P571 ?inc . }
+  OPTIONAL { VALUES ?ruin { wd:Q839954 wd:Q15661340 wd:Q109607 } ?place wdt:P31 ?ruin . }
+  OPTIONAL { ?place rdfs:label ?label FILTER(LANG(?label) = "en") }
+}"""
+    # a former state's capital that is now ruins (Persepolis, Babylon) belongs to ancient periods only
+    rows = sparql(q) + [r for r in sparql(capitals) if "ruin" not in r or Y0 < 1000]
     best: dict[str, dict] = {}
     for r in rows:
         qid = r["place"]["value"].rsplit("/", 1)[-1]
@@ -158,8 +164,14 @@ def settlements() -> list[dict]:
 
 
 def main() -> None:
-    ev = events()
     cities = settlements()
+    # --cities: refresh only the settlements in the working list (its events, already dated, stay)
+    if "--cities" in sys.argv and SCENE_EVENTS.exists():
+        d = json.loads(SCENE_EVENTS.read_text())
+        write_json(SCENE_EVENTS, {**d, "cities": cities})
+        print(SCENE, "cities", len(cities))
+        return
+    ev = events()
     write_json(SCENE_EVENTS, {"events": ev, "cities": cities,
                                      "source": "Wikidata SPARQL; classes " + ", ".join(EVENT_CLASSES)})
     print(SCENE, "events", len(ev), "cities", len(cities))

@@ -11,13 +11,12 @@ import json
 import os
 import time
 import urllib.error
-import urllib.parse
-import urllib.request
+
+from etl import net
 
 from .helpers import RAW, log
 
 URL = "https://overpass-api.openhistoricalmap.org/api/interpreter"
-UA = "openworld-atlas-prototype/0.1 (+https://github.com/thebend/openworld; low-volume research queries)"
 # timestamp_osm_base of the original tag query
 OHM_DATE = os.environ.get("ATLAS_OHM_DATE", "2026-10-24T15:24:57Z")
 OHM = RAW / "ohm"
@@ -33,25 +32,18 @@ def _settings(timeout: int) -> str:
 
 
 def post(q: str) -> bytes:
-    data = urllib.parse.urlencode({"data": q}).encode()
-    for attempt in range(5):
-        try:
-            req = urllib.request.Request(URL, data=data, headers={"User-Agent": UA})
-            with urllib.request.urlopen(req, timeout=180) as r:
-                body = r.read()
-            d = json.loads(body)
-            if d.get("remark") and "error" in d["remark"].lower():
-                raise RuntimeError(d["remark"][:300])
-            return body
-        except urllib.error.HTTPError as ex:
-            if ex.code == 400:  # malformed query: retrying will not help
-                raise SystemExit(f"Overpass rejected the query: {ex.read()[:500]!r}") from ex
-            log("  retry", attempt, ex)
-            time.sleep(10 * (attempt + 1))
-        except Exception as ex:  # noqa: BLE001
-            log("  retry", attempt, ex)
-            time.sleep(10 * (attempt + 1))
-    raise SystemExit("Overpass query failed")
+    def ok(body: bytes) -> None:
+        d = json.loads(body)
+        if d.get("remark") and "error" in d["remark"].lower():
+            raise ValueError(d["remark"][:300])          # a query that timed out on the server: again
+    try:
+        return net.fetch(URL, data={"data": q}, timeout=180, tries=5, backoff=10, check=ok, log=log)
+    except urllib.error.HTTPError as ex:
+        if ex.code == 400:  # malformed query: retrying will not help
+            raise SystemExit(f"Overpass rejected the query: {ex.read()[:500]!r}") from ex
+        raise SystemExit(f"Overpass query failed: {ex}") from ex
+    except Exception as ex:  # noqa: BLE001
+        raise SystemExit(f"Overpass query failed: {ex}") from ex
 
 
 def tags():
