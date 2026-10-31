@@ -4,7 +4,7 @@
 
 Everything here is licensed under the GPL-3.0 (see `LICENSE`), except the inputs listed under "Other inputs", which keep their own licences.
 
-Exported from the atlas's main repository at commit `21fb71e` by `app/scripts/gpl_export.py`. The rest of the atlas is not GPL-licensed and is not in this repository.
+Exported from the atlas's main repository at commit `938e9be` by `app/scripts/gpl_export.py`. The rest of the atlas is not GPL-licensed and is not in this repository.
 
 ## Build
 
@@ -75,6 +75,7 @@ The build downloads these; none is copied into this repository except where note
 - `app/etl/research/__init__.py`
 - `app/etl/research/merge.py`
 - `app/etl/research/review.py`
+- `app/etl/research/stamp.py`
 - `app/etl/research/verify_quotes.py`
 - `app/etl/shp.py`
 - `pipeline/__init__.py`
@@ -95,4 +96,5 @@ The build downloads these; none is copied into this repository except where note
 - `app/research/north-america-1492-1900.verification.partw2.json`
 - `app/research/north-america-1492-1900.verification.partx1.json`
 - `app/research/north-america-1492-1900.verification.partz1.json`
+- `app/research/north-america-1492-1900.verification.partzz1.json`
 - `app/src/lib/themes.ts`

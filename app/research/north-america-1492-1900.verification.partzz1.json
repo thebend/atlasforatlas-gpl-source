@@ -1,0 +1,310 @@
+{
+ "meta": {
+  "method": "Independent verification of the editor's pass on the north-america tour (editor-brief.md, Verifier's brief). For every id in meta.edited_ids: old and new title/statement compared against the editor's saved copy, every fact in the new text checked in the cited pages (etl.research.source from the fetch cache) in context past the quote, transitions checked against the sources, computed figures against notes, confidence and standing checked, then the whole tour read in stop order. verify_quotes: missing 0 on both catalogues; voice: no hit on an edited card; copying: no 15-word run, nothing over 80 words; no id/date/place/kind/qid/participants field changed; no unlisted change. Convention: partially-verified means the fix should be applied; verified with a fix means the fix is optional, for flow or clarity, and the card is sound as it stands. A fix that adds a fact names the verbatim quote to add to the citations.",
+  "date": "2026-10-31",
+  "model": "claude-fable-5-1"
+ },
+ "items": {
+  "na-e-002": {
+   "status": "verified",
+   "note": "Battles from 31 August, entry in September (18th/23rd folded, per notes), twenty days, Maxixcatzin and Xicotencatl the Elder, provisions and manpower, loyalty after the expulsion: all in the two cited pages. 'Moving inland in August' matches Schmal's 16 August departure from Cempoala. 80 words, at the limit.",
+   "fields_unsupported": [],
+   "sha": "d9901383afcb50c7"
+  },
+  "na-e-003": {
+   "status": "verified",
+   "note": "'City in arms against them' is supported by the conquest timeline's 'Uprising in Tenochtitlan' and the Noche Triste article. Range 150-450 Spaniards and 1,000-4,000 allies correctly spans Cortés, Díaz del Castillo and López de Gómara, who are kept in notes. 'The Night of Sorrows' and 'Victorious Night' both on the page.",
+   "fields_unsupported": [],
+   "sha": "1af35afff36d8e56"
+  },
+  "na-e-005": {
+   "status": "verified",
+   "note": "Dates, Tlaxcalan majority, Cuauhtémoc's capture and torture all in Fall_of_Tenochtitlan. 100,000-240,000 is the infobox's own range for the campaign overall; the Schmal 240,000 is attributed in notes. Confidence medium->high is right: the event is established, only the toll is rough.",
+   "fields_unsupported": [],
+   "sha": "5c9da4bda0619883"
+  },
+  "na-e-018": {
+   "status": "verified",
+   "note": "Zaldívar as Oñate's nephew, demand for food and shelter, rebuff then taking maize by force, 11 (Wikipedia) to 14 (NPS) dead, 22 January, 800-1,500 Acoma dead, 500 prisoners, foot and twenty years, 24 amputations: all verified in context. 'Eleven to fourteen' is fair; notes record the other counts.",
+   "fields_unsupported": [],
+   "sha": "a262119cde39fe73"
+  },
+  "na-e-019": {
+   "status": "verified",
+   "note": "Acoma as a cause is in the Pueblo Revolt article's quoted sentence. Knotted cords, 13th/10th, 400 settlers and 21 of 33 priests, 21 August exodus, El Paso 29 September: all in EBSCO. The 'twelve years' line moved to the next card, where it is cited.",
+   "fields_unsupported": [],
+   "sha": "a7ed28c76b46dfc6"
+  },
+  "na-e-020": {
+   "status": "verified",
+   "note": "'Retook it by force' matches the article's 'quick and bloody recapture'. The 70 executed is Lamadrid via Wikipedia; also the article's '70 Pueblo warriors' executed 30 December, so no longer attributed in text is fine under the standard. 1696 fourteen pueblos verified. Confidence high is right; the 12/13/14 September discrepancy stays in notes.",
+   "fields_unsupported": [],
+   "sha": "8e97adf9f2c2e694"
+  },
+  "na-e-023": {
+   "status": "verified",
+   "note": "All facts in the Guadalupe Hidalgo and Ute pages; Article XI, 366 claims, 1853 annulment verified. 'Mexicans believed they had encouraged' keeps the belief attributed. Confidence high is right.",
+   "fields_unsupported": [],
+   "sha": "d242709b8c30eeba"
+  },
+  "na-e-024": {
+   "status": "verified",
+   "note": "Railroad motive, $15 million first draft, cut to 29,640 sq mi for $10 million, 8 June 1854, O'odham land split and not informed: all verified. The Tohono O'odham framing stays attributed to the Nation.",
+   "fields_unsupported": [],
+   "sha": "b62e30aaa0e80d27"
+  },
+  "na-e-027": {
+   "status": "verified",
+   "note": "Scorched earth to starve the Navajo out, January 1864 parties, 23 killed, sheep, hogans and orchards, ledges safe but crops and herds not, surrender at Fort Canby: all in the three cited pages.",
+   "fields_unsupported": [],
+   "sha": "3ef2ffe4c3b0bba9"
+  },
+  "na-e-028": {
+   "status": "verified",
+   "note": "6,000 by March 1864, up to 300 miles, 10,000 Navajo and 500 Mescalero (Library of Congress), one in four or 20 percent rendered as 'between one in five and one in four', oral tradition on shootings, return in 1868: all verified.",
+   "fields_unsupported": [],
+   "sha": "e150dc5fdcc96806"
+  },
+  "na-e-029": {
+   "status": "verified",
+   "note": "28 May arrival, Barboncito and ten headmen, Indian Territory proposal refused, 29 marks on 1 June, end of the Navajo Wars, 'effectively established' sovereignty and Denetdale's contrary reading, both attributed as the page has them. 'General William Sherman' supported by the added quote.",
+   "fields_unsupported": [],
+   "sha": "b3f9c150b828983b"
+  },
+  "na-e-038": {
+   "status": "verified",
+   "note": "Horse Creek 30 miles below the fort for want of horse feed, the eight nations, roads and forts for $50,000 for fifty years, Senate cut to ten with only the Crow refusing, promised goods never received: all verified.",
+   "fields_unsupported": [],
+   "sha": "9fc241f75d2c46c1"
+  },
+  "na-e-042": {
+   "status": "verified",
+   "note": "Facts verified: NPS 'at the command of the American military', around 750, Soule and Cramer, Chivington's 500-600, 70 (Smith) to 230 (NPS) with Brinkley's 133 between, mostly women, children and elderly (NPS), the Joint Committee's words. One typo: a stray comma after 'Cramer' splits subject from verb. Fix applied exactly as proposed.",
+   "fields_unsupported": [],
+   "fix": "At the army's command Black Kettle settled his people, around 750 Cheyenne and Arapaho, at Big Sandy Creek. On 29 November 1864 Colonel John Chivington's Colorado troops attacked; Captain Silas Soule and Lieutenant Joseph Cramer told their men to hold fire. Chivington claimed 500 to 600 warriors killed, but estimates of the dead run from about 70 to 230, mostly women, children and the elderly. A congressional committee later said it could hardly find fitting terms to describe his conduct.",
+   "sha": "0a9a48905c688ae9"
+  },
+  "na-e-044": {
+   "status": "verified",
+   "note": "All six facts in the Oklahoma Historical Society entry; the source's wrong 1901 for Lone Wolf is rightly left off. Reordering puts the broken articles before the three-fourths rule, which reads better.",
+   "fields_unsupported": [],
+   "sha": "d342626cc6aa53ee"
+  },
+  "na-e-045": {
+   "status": "verified",
+   "note": "Facts verified: signatories (archives.gov), Black Hills in the Great Sioux Reservation, unceded hunting lands and Bozeman forts (ND Studies), 'effectively ended Red Cloud's War' (Wikipedia), three-fourths rule (Supreme Court syllabus), Custer 1874. Flow: 'A second treaty' points back ten stops and Red Cloud's War is never explained. Optional fix adds one line from the ND Studies page; add the quote 'Red Cloud, an Oglala Lakota, declared that he would continue to make war on travelers and Army posts until the government closed the road and removed the Army.' (ndstudies.gov/gr8/node/137). It drops 'for exclusive Sioux use' and 'reserved unceded hunting lands' to stay at 80 words. Optional fix applied exactly as proposed.",
+   "fields_unsupported": [],
+   "fix": "Red Cloud's Lakota had fought the army over the Bozeman Trail forts on Sioux treaty land. The treaty signed from 29 April 1868 by Lakota, Yanktonai, Santee and Arapaho leaders ended that war: it recognized the Black Hills as part of the Great Sioux Reservation, and the government promised to close the trail and its forts. No later cession would be valid unless three-fourths of adult Sioux men signed. In 1874 Custer's expedition found gold there, and miners moved in.",
+   "sha": "562184eb3eae6216"
+  },
+  "na-e-046": {
+   "status": "verified",
+   "note": "Sheridan's winter campaign after Medicine Lodge failed, 27 November, 7th Cavalry, camp of about 250 (Wikipedia's estimate, 'perhaps' is right), Black Kettle as Sand Creek survivor killed crossing the river, 13-150 range with military higher than Cheyenne, 53 captured: all verified.",
+   "fields_unsupported": [],
+   "sha": "f5c8eaeea55ac624"
+  },
+  "na-e-048": {
+   "status": "verified",
+   "note": "All facts in the NPS battle story and Wikipedia; Greasy Grass name verified. 'Forced Major Reno to retreat' is the NPS wording. No toll given, rightly.",
+   "fields_unsupported": [],
+   "sha": "77e50e2d898413ab"
+  },
+  "na-e-049": {
+   "status": "verified",
+   "note": "Annuities denied, 10 percent signatures against three-fourths, Act of 28 February 1877, 1980 ruling, award refused and the Nation's stated goal: all in Black_Hills_Land_Claim and the Court syllabus.",
+   "fields_unsupported": [],
+   "sha": "e978c07a0e69fd94"
+  },
+  "na-e-050": {
+   "status": "verified",
+   "note": "Ghost Dance alarm, 7th Cavalry, surrender of weapons, fight and shot of unclear origin, 25 soldiers dead, 19 Medals of Honor: verified. Range 'about 150 to about 300' spans HISTORY.com's 150, Miles's 90+200 and Wikipedia's 250-300; 'Lakota' is HISTORY.com's own headline word.",
+   "fields_unsupported": [],
+   "sha": "29a91b5fbf4283a1"
+  },
+  "na-e-060": {
+   "status": "verified",
+   "note": "3 August 1871, Crown with Anishinaabe and Swampy Cree, eight days, cession in the text, annuities and goods, delegates intended no cession, Outside Promises, 1875 order: all verified. The contested reading stays balanced.",
+   "fields_unsupported": [],
+   "sha": "9e39ba49858b27de"
+  },
+  "na-e-067": {
+   "status": "verified",
+   "note": "Dates, 916 men, Dumont's trenches and rifle pits, numbers and firepower, 16 (Vegreville) to 51 (Middleton), Riel's surrender 15 May and collapse of the Provisional Government: all verified; Poundmaker rightly dropped. The page calls it the North-West Rebellion; 'North-West Resistance' is the term Métis and Canadian institutions now use, and the owner may prefer it or the page's. Optional flow fix, since 1885 arrives with no link to the 1870 cards. Owner's request: keep 'North-West Resistance'. The reworded card went to a second independent verifier, which corrected the Métis dead (the page has 12 as commonly accepted by modern historians) and verified the rest; its wording was applied exactly.",
+   "fields_unsupported": [],
+   "fix": "Fifteen years after Red River, Louis Riel led a second rising, the North-West Resistance or Rebellion, decided at Batoche, the capital of his Provisional Government of Saskatchewan. From 9 to 12 May 1885 General Frederick Middleton's 916 regulars and militia attacked its trenches and rifle pits, held under Gabriel Dumont, until greater numbers and firepower overwhelmed the Métis. Middleton reported 51 Métis dead, a priest 16, and historians commonly accept 12. Riel surrendered on 15 May, and his government collapsed.",
+   "sha": "27f187c75ddaa230"
+  },
+  "na-e-069": {
+   "status": "verified",
+   "note": "Negotiations with the provisional government, royal assent 12 May, commenced 15 July, fifth province, language and school rights, 1.4 million acres, Métis cheated and leaving: all in the Manitoba Act article. 'While the fort was held' is right: Wolseley arrived 24 August 1870.",
+   "fields_unsupported": [],
+   "sha": "2a8480d01872a947"
+  },
+  "na-e-075": {
+   "status": "verified",
+   "note": "Facts verified: 4 August 1701, Callière, 1,300 from 39 nations, French brokering, all-out war not returning, the Odawa attack and the Huron club. Flow: the Beaver Wars are never explained on the tour. Optional fix; add the quotes 'The Beaver Wars saw the Hurons and Algonquins, supported by the French, pitted against the Haudenosaunee of the powerful League of Five Nations' and 'Control over the fur trade became a high-stakes game among the Native American tribes' (Great_Peace_of_Montreal). It drops 'near a French fort' to stay at 80 words. Optional fix applied exactly as proposed.",
+   "fields_unsupported": [],
+   "fix": "In the north, the Beaver Wars, the fight over the fur trade between the Haudenosaunee and the French with their Huron and Algonquin allies, ended on 4 August 1701, when Louis-Hector de Callière, governor of New France, and 1,300 representatives of 39 Indigenous nations signed a peace at Montreal. All-out war did not return, though within three years Odawa warriors attacked a Haudenosaunee village near present-day Kingston and planted a Huron club on a dead warrior to provoke new fighting.",
+   "sha": "1650f6da07bbf2f9"
+  },
+  "na-e-077": {
+   "status": "verified",
+   "note": "Johnson and the Haudenosaunee, Line of Property down the Ohio to the Tennessee, 5 November with one signatory per nation, Kentucky and most of West Virginia, Shawnee and Lenape present but not signing, Dunmore's War: all verified. 'The line moved within five years' is a fair transition from 1763.",
+   "fields_unsupported": [],
+   "sha": "95253638630e1952"
+  },
+  "na-e-078": {
+   "status": "verified",
+   "note": "1778 raids, Washington's directive, June-October 1779, Sullivan and Clinton, one major battle at Newtown, 40 villages, 5,036 refugees at Niagara, Calloway's and Taylor's 'several hundred' that winter, genocide term disputed: all verified. Koehler's 5,000 and its questioned basis rightly moved to notes.",
+   "fields_unsupported": [],
+   "sha": "2f5e56c330465c1d"
+  },
+  "na-e-090": {
+   "status": "verified",
+   "note": "March on Detroit through Lenape country, 17 September 1778, three signers, first formal treaty, passage and aid including warriors, sovereignty and a state with representation never fulfilled, White Eyes' death with both accounts attributed, collapse: all verified.",
+   "fields_unsupported": [],
+   "sha": "0849a5b389bca9f8"
+  },
+  "na-e-091": {
+   "status": "verified",
+   "note": "February 1782 return to harvest, Williamson's militia, false promise of protection at Fort Pitt, 96 killed 8 March including infants (Delaware Nation), mallets and scalping cuts, two killing houses, some refusing, Crawford not present but killed in retaliation: all verified.",
+   "fields_unsupported": [],
+   "sha": "0050e4c646925daa"
+  },
+  "na-e-093": {
+   "status": "verified",
+   "note": "May 1607, Virginia Company, river island chosen to evade Spanish patrols and used by the Paspahegh, Wahunsenacawh over 30 nations, deaths within two weeks, wish to move them to Capahosick: all verified.",
+   "fields_unsupported": [],
+   "sha": "d619b377ae2a5cf6"
+  },
+  "na-e-104": {
+   "status": "verified",
+   "note": "Boston's demand and refusal (NPS), 19 December, three colonies with Pequot and Mohegan, fierce fight and burning, about 70 colonists, 'about 400 to over 1,000' spanning Drake's 97+300 to 97+1,000 and the participant's 600-1,000 warriors; NPS's 700 inside it. Figures kept in notes. Confidence high is right.",
+   "fields_unsupported": [],
+   "sha": "391a1de270107cdd"
+  },
+  "na-e-106": {
+   "status": "verified",
+   "note": "Pequot War, 26 May 1637, Mason with Mohegan and Narragansett, Sassacus away with a few hundred warriors, fire and blocked exits, escapers shot or killed by Narragansett fighters, 300-700 mostly women, children and elderly (Encyclopedia.com): all verified. Underhill moved to notes.",
+   "fields_unsupported": [],
+   "sha": "4258979ef4520ffa"
+  },
+  "na-e-125": {
+   "status": "verified",
+   "note": "Great Lakes nations alarmed by Amherst, 7 May with about 300 men and concealed weapons, British ready, siege, war spreading, lifted 31 October: all verified. Nester's 300 is no longer attributed in text, correctly.",
+   "fields_unsupported": [],
+   "sha": "114bfe7115e49bdd"
+  },
+  "na-e-126": {
+   "status": "verified",
+   "note": "7 October 1763 during the siege, line along the Appalachians as Indian Reserve, Crown-only purchases at public meetings, line meant to move west in an orderly way, legal importance to First Nations: all verified.",
+   "fields_unsupported": [],
+   "sha": "712f5e7f24eb7f54"
+  },
+  "na-e-129": {
+   "status": "verified",
+   "note": "About 1,000 warriors at dawn, encirclement (Wikipedia: crescent surrounding the camp, fully encircled), under three hours, 630 killed and almost 300 wounded, about 25 Native dead, 'biggest military disaster' with Calloway named as the brewminate author (Dartmouth professor of Native American Studies), resignation and inquiry: all verified. Confidence high is right. The card opens on the attack with no word on why the Ohio nations and the United States were at war; the cited pages offer no quotable line on the Ohio boundary, so no fix.",
+   "fields_unsupported": [],
+   "sha": "4ac01b0160bc9bcc"
+  },
+  "na-e-130": {
+   "status": "verified",
+   "note": "20 August 1794, Wayne's Legion and Kentucky militia, Blue Jacket and Egushawa, little over an hour, Fort Miami's gates shut, 33 Americans, 19 (McKee) to 30-40 (Americans), last battle of the Northwest Indian War: all verified.",
+   "fields_unsupported": [],
+   "sha": "c1ac28f8de81ca31"
+  },
+  "na-e-131": {
+   "status": "verified",
+   "note": "3 August 1795, $20,000 in goods and annuities, Western Confederacy, large parts of Ohio, posts including Fort Dearborn's site, Blue Jacket for and Little Turtle against, encroachment, Tecumseh's charge: all verified.",
+   "fields_unsupported": [],
+   "sha": "fae951b54eacec3b"
+  },
+  "na-e-133": {
+   "status": "verified",
+   "note": "Confederacy opposed to settlement based at Prophetstown, Harrison's march with about 1,000 men, Tecumseh away, pre-dawn attack ordered by Tenskwatawa, over two hours, town and winter food burned, confederacy never fully recovered, nickname: all verified.",
+   "fields_unsupported": [],
+   "sha": "45b70380603f5bcb"
+  },
+  "na-e-134": {
+   "status": "verified",
+   "note": "Procter's abandonment of Detroit and Amherstburg, Tecumseh's reluctant retreat, stand west of Moraviantown, Harrison's mounted infantry, warriors retreating after Tecumseh's death, confederacy's collapse, Detroit regained, court-martial, 5 October 1813 (DCB): all verified.",
+   "fields_unsupported": [],
+   "sha": "16dae58aae7583f7"
+  },
+  "na-e-150": {
+   "status": "verified",
+   "note": "Creek War as a conflict between Creek factions (added Creek_War quote), Red Sticks opposing expansion, 27 March 1814, Cherokee crossing to strike from the rear and Jackson's charge over the barricade, at least 800 of 1,000 dead, 49 of Jackson's: all verified. Acreage rightly moved to the next card.",
+   "fields_unsupported": [],
+   "sha": "dace86836bc2d301"
+  },
+  "na-e-151": {
+   "status": "verified",
+   "note": "9 August 1814, Fort Jackson near Wetumpka, end of the Creek War, 21 (Encyclopedia of Alabama) to 23 (NPS) million acres, central and south Alabama, Hawkins's objection and the eight million from allies: all verified.",
+   "fields_unsupported": [],
+   "sha": "7ab2ae5696224e10"
+  },
+  "na-e-152": {
+   "status": "verified",
+   "note": "Removal Act's purpose (added Encyclopedia of Alabama quote), 27 September 1830, LeFlore and Mosholatubbee with Eaton and Coffee, remaining homeland of 10-11 million acres, first treaty carried into effect under the Act, Article 14: all verified.",
+   "fields_unsupported": [],
+   "sha": "f402ba78f4f23164"
+  },
+  "na-e-155": {
+   "status": "verified",
+   "note": "Minority Treaty Party, 29 December 1835, Council's non-approval and Ross not signing, Cherokee Nation's position on authority (kept attributed), Ross and Council 'begged' the Senate, May 1836 by one vote: all verified.",
+   "fields_unsupported": [],
+   "sha": "c45e947b8eea32df"
+  },
+  "na-e-157": {
+   "status": "verified",
+   "note": "Legal basis (added quote), May 1838 and Scott's order, 2,000 already west, nearly 14,000 in stockades then to Oklahoma and Arkansas, over 4,000 dead of cold, disease and hunger (NPS), more than a quarter (Oklahoma Historical Society), Cherokee name: all verified. Dropping 'on the march' is the right response to Ostler.",
+   "fields_unsupported": [],
+   "sha": "750160d6b53c3532"
+  },
+  "na-e-165": {
+   "status": "verified",
+   "note": "1802 attack and burning (added quotes), late September 1804 with Neva, traders and Aleuts, assault on the fort repulsed by gunfire, days of bombardment (Wikipedia days 1-4) with supplies dwindling (Smithsonian), withdrawal and Herb Hope's survival march, Russian fortification: all verified.",
+   "fields_unsupported": [],
+   "sha": "2ae241046880d746"
+  },
+  "na-e-166": {
+   "status": "verified",
+   "note": "All-night session and 4 a.m. 30 March, $7.2 million, Senate 9 April, bilateral, Article III wording, Seward's 60,000 of whom about 50,000 lived outside Russian jurisdiction: all verified.",
+   "fields_unsupported": [],
+   "sha": "02fc7ce081742f35"
+  },
+  "na-e-167": {
+   "status": "verified",
+   "note": "18/6 October 1867, 250 troops, Castle Hill, flags, Peshchurov and Rousseau, soldiers at the Tlingit village gates, sovereignty effective that day: all verified. A position-type card, left properly short.",
+   "fields_unsupported": [],
+   "sha": "b5e6de9cdc04b8cc"
+  },
+  "na-e-168": {
+   "status": "verified",
+   "note": "Argonaut seized 2 July and Princess Royal 12 July (both July), Colnett arrested, Callicum's death 13 July with sources differing, British outcry and the Navy, third convention of 1794: all verified. 'Went to confront him' fits the page's 'angry calls'.",
+   "fields_unsupported": [],
+   "sha": "d8e56a55a5c61ea4"
+  },
+  "na-e-183": {
+   "status": "verified",
+   "note": "Facts verified in the NPS page. One date compression: the page says the leaders spoke with Twisted Hair after the expedition reunited on 22 September, not on that day. Fix restores 'after', trimming elsewhere to stay under 80 words. Fix applied exactly as proposed.",
+   "fields_unsupported": [],
+   "fix": "In mid-September 1805, crossing the Bitterroots, William Clark went ahead with a few hunters for food and came out on Weippe Prairie, where the Nez Perce gathered in summer for roots, berries and game. They met three frightened boys hiding in the grass and gave them small presents. The Nez Perce, nervous of these strangers, accepted them, and after the expedition reunited on 22 September its leaders traded gifts and passed the pipe with the head man Twisted Hair.",
+   "sha": "8fe04f0250bc26d8"
+  },
+  "na-e-187": {
+   "status": "verified",
+   "note": "War in Idaho and about 800 in flight, siege from 30 September forty miles short of Canada, Looking Glass killed, cannon fire on the families, promise of return to Idaho, rifle handed over 5 October, White Bird to Canada, promise overruled by Sherman and exile to Kansas and Indian Territory, 431: all verified. Dropping the speech is defensible; the owner may want 'I will fight no more forever' back, since it is in the NPS page. Owner's request: restore 'I will fight no more forever', worded as what is recorded. The reworded card went to a second independent verifier, which corrected 'go home' to 'return to Idaho' and '431' to 'over 400' and verified the rest; its wording was applied exactly.",
+   "fields_unsupported": [],
+   "fix": "War in Idaho sent about 800 Nez Perce fleeing the US Army in summer 1877. From 30 September Colonel Nelson Miles besieged them forty miles short of Canada, and cannon fire targeted the families' shelters. On 5 October, told they would return to Idaho, Joseph surrendered; the words recorded as his, in translation, end 'I will fight no more forever'. The promise was overruled, and those who surrendered or were captured, over 400, were sent to Kansas and Indian Territory.",
+   "sha": "b0794bb101a32dcf"
+  },
+  "na-e-203": {
+   "status": "verified",
+   "note": "Facts verified: Montana Trail attack as the 'final catalyst', 29 January 1863, Bear Hunter's winter camp, 21 soldiers, 156 (Warner) to 493 (Jasperson, a Danish immigrant: 'settler' is fair), 'some sources' on the largest mass murder. Framing: the card now opens with the Shoshone attack as the sole cause of a massacre, which the page itself presents as the last of a chain beginning with settlers taking over Cache Valley's food sources and Shoshone starvation; the old card had no cause at all. Fix adds the background in the page's own terms; add the quote 'the settlers were consuming significant food resources and taking over areas that pushed the Shoshone increasingly into areas of marginal food production' (Bear_River_Massacre). 78 words. Fix applied exactly as proposed.",
+   "fields_unsupported": [],
+   "fix": "Settlers had taken over Cache Valley's food sources; the final catalyst for Colonel Patrick Connor's expedition was a Shoshone attack on miners on the Montana Trail. On 29 January 1863 his California Volunteers struck Bear Hunter's winter encampment. Some 21 soldiers died. Estimates of the Shoshone dead run from 156, from the chief Sagwitch's son, to 493, counted by a settler among the bodies. Some call it the largest mass murder of Native Americans by the US military.",
+   "sha": "56b03c43a59c7a27"
+  }
+ }
+}

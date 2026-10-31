@@ -24,6 +24,7 @@ import sys
 
 from etl.common import CATALOGUE, RCACHE, RESEARCH, write_json
 from etl.research import review
+from etl.research.stamp import text_sha
 
 NAME = sys.argv[1] if len(sys.argv) > 1 else "northeast-1790-1820"
 
@@ -45,9 +46,13 @@ def main() -> None:
     ver = json.loads(vp.read_text())
     verdicts = ver.get("items", {})
     stats: Counter = Counter()
+    edited = set(cat.get("meta", {}).get("edited_ids", []))
     for item in cat.get("claims", []) + cat.get("events", []):
         checks = [c.get("quote_check") for c in item.get("citations", [])]
         v = verdicts.get(item["id"], {"status": "unverified", "note": "no verdict from second pass"})
+        # a rewritten card keeps no verdict from before its rewrite (etl/research/stamp.py)
+        if (item["id"] in edited or v.get("sha")) and v.get("sha") != text_sha(item):
+            v = {"status": "unverified", "note": "its text has changed since the verdict"}
         item["verification"] = {
             "status": v.get("status", "unverified"),
             "note": v.get("note", ""),

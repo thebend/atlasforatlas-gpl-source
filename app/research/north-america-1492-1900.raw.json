@@ -485,6 +485,57 @@
         "date": "2026-10-31",
         "note": "39 items rewritten to the card-depth bar (short statements researched, long quotes trimmed, close paraphrases reworded), re-verified in verification.partz1"
       }
+    ],
+    "edited_ids": [
+      "na-e-002",
+      "na-e-003",
+      "na-e-005",
+      "na-e-018",
+      "na-e-019",
+      "na-e-020",
+      "na-e-023",
+      "na-e-024",
+      "na-e-027",
+      "na-e-028",
+      "na-e-029",
+      "na-e-038",
+      "na-e-042",
+      "na-e-044",
+      "na-e-045",
+      "na-e-046",
+      "na-e-048",
+      "na-e-049",
+      "na-e-050",
+      "na-e-060",
+      "na-e-067",
+      "na-e-069",
+      "na-e-075",
+      "na-e-077",
+      "na-e-078",
+      "na-e-090",
+      "na-e-091",
+      "na-e-093",
+      "na-e-104",
+      "na-e-106",
+      "na-e-125",
+      "na-e-126",
+      "na-e-129",
+      "na-e-130",
+      "na-e-131",
+      "na-e-133",
+      "na-e-134",
+      "na-e-150",
+      "na-e-151",
+      "na-e-152",
+      "na-e-155",
+      "na-e-157",
+      "na-e-165",
+      "na-e-166",
+      "na-e-167",
+      "na-e-168",
+      "na-e-183",
+      "na-e-187",
+      "na-e-203"
     ]
   },
   "polities": [
@@ -21569,7 +21620,7 @@
       "id": "na-e-002",
       "type": "event",
       "kind": "state.treaty",
-      "title": "Tlaxcallan allies with Cortés",
+      "title": "Tlaxcala allies with Cortés",
       "date": {
         "year": 1519,
         "month": 9,
@@ -21588,7 +21639,7 @@
         "spain",
         "mexica-triple-alliance"
       ],
-      "statement": "Cortés's army met a Tlaxcalan force in Tlaxcalan territory on 31 August 1519 and fought it over several days. It entered the capital in September: on the 18th in John Schmal's account, the 23rd in another. In about twenty days there it won over leaders including Maxixcatzin and Xicotencatl the Elder. In Schmal's account Xicotenga promised provisions and manpower against the Mexica. The Tlaxcalans, long at war with the Aztecs, stayed with the Spanish even after the expulsion from Tenochtitlan.",
+      "statement": "Moving inland in August 1519, Cortés's army met a Tlaxcalan force on the 31st and fought a run of battles against it. The Tlaxcalans, long at war with the Aztecs and eager for revenge, soon became allies instead, and in September they welcomed the Spanish into their capital. During twenty days there, senior leaders including Maxixcatzin and Xicotencatl the Elder were won over, and provisions and men were promised. They stayed loyal even after the Spanish were driven from Tenochtitlan.",
       "citations": [
         {
           "url": "https://indigenousmexico.org/tlaxcala/indigenous-tlaxcala-the-allies-of-the-spaniards/",
@@ -21631,16 +21682,28 @@
           "title": "Spanish conquest of the Aztec Empire (Wikipedia)",
           "quote": "Cortés seems to have won the true friendship and loyalty of the senior leaders of Tlaxcala, among them Maxixcatzin and Xicotencatl the Elder",
           "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Spanish_conquest_of_the_Aztec_Empire",
+          "title": "Spanish conquest of the Aztec Empire (Wikipedia)",
+          "quote": "Cortés stayed twenty days in Tlaxcala",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://indigenousmexico.org/tlaxcala/indigenous-tlaxcala-the-allies-of-the-spaniards/",
+          "title": "Indigenous Tlaxcala: The Allies of the Spaniards (John Schmal, Indigenous Mexico)",
+          "quote": "In the next battle, Cortés claimed that he faced a Tlaxcalan army",
+          "kind": "reference"
         }
       ],
       "confidence": "high",
-      "notes": "Dated to the month: sources give the entry into the capital as 18 September (Schmal) and 23 September (Wikipedia), and the alliance was negotiated over the following twenty days. Schmal calls Xicotenga a king; Wikipedia's Tlaxcallan article has a confederation with several rulers, so the card names senior leaders. Schmal's 'at least 30,000' is left off as a single author's figure with no stated origin."
+      "notes": "Dated to the month: sources give the entry into the capital as 18 September (Schmal) and 23 September (Wikipedia), and the alliance was negotiated over the following twenty days. Schmal calls Xicotenga a king; Wikipedia's Tlaxcallan article has a confederation with several rulers, so the card names senior leaders. Schmal's 'at least 30,000' is left off as a single author's figure with no stated origin. Editor's pass: the two dates for the entry (18 and 23 September) are folded into 'in September'; Schmal's Xicotenga is not named separately."
     },
     {
       "id": "na-e-003",
       "type": "event",
       "kind": "war.battle.land",
-      "title": "La Noche Triste: Spanish and Tlaxcalan forces driven from Tenochtitlan",
+      "title": "La Noche Triste",
       "date": {
         "year": 1520,
         "month": 6,
@@ -21660,7 +21723,7 @@
         "tlaxcala",
         "spain"
       ],
-      "statement": "Cortés's army and its Tlaxcaltec allies were driven out of Tenochtitlan by the Mexica, leaving at night along the western causeway to Tlacopan. All the artillery and most of the horses were lost. The accounts disagree on the dead: Cortés claimed 154 Spaniards and over 2,000 allies, Díaz del Castillo around 450 and 1,000, and López de Gómara 450 and 4,000. Known as the Night of Sorrows, it is officially called the Victorious Night in Mexico.",
+      "statement": "With the city in arms against them, Cortés's army and its Tlaxcalan allies were driven out of Tenochtitlan by the Mexica, leaving at night along the western causeway to Tlacopan. All the artillery and most of the horses were lost. Estimates of the dead run from about 150 to 450 Spaniards and from 1,000 to 4,000 allies. The Spanish name means the Night of Sorrows; in Mexico it is officially the Victorious Night.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Noche_Triste",
@@ -21718,7 +21781,7 @@
         }
       ],
       "confidence": "high",
-      "notes": "Date conflict: Wikipedia's conquest timeline gives 30 June; the Noche Triste article's narrative says the army left on the night of 1 July, and its infobox gives 30 June to 1 July 1520. A further figure (Thoan Cano, 1,170 Spaniards) is judged probably too high by the same article and is left off. Casualty figures are known here through Wikipedia's summary of the chroniclers."
+      "notes": "Date conflict: Wikipedia's conquest timeline gives 30 June; the Noche Triste article's narrative says the army left on the night of 1 July, and its infobox gives 30 June to 1 July 1520. A further figure (Thoan Cano, 1,170 Spaniards) is judged probably too high by the same article and is left off. Casualty figures are known here through Wikipedia's summary of the chroniclers. Figures moved from the card: Cortés 154 Spaniards and over 2,000 allies; Díaz del Castillo (eyewitness) around 450 and 1,000; López de Gómara 450 and 4,000."
     },
     {
       "id": "na-e-004",
@@ -21782,7 +21845,7 @@
       "id": "na-e-005",
       "type": "event",
       "kind": "war.campaign",
-      "title": "Fall of Tenochtitlan",
+      "title": "The fall of Tenochtitlan",
       "date": {
         "year": 1521,
         "month": 8,
@@ -21802,7 +21865,7 @@
         "tlaxcala",
         "spain"
       ],
-      "statement": "Cortés's coalition, composed mainly of Tlaxcaltec men, besieged Tenochtitlan from 26 May 1521. The Mexica surrendered on 13 August after over two months of fighting. Cuauhtémoc, seized as he fled by water with his family and treasure, was tortured over the gold lost on the Noche Triste. Death tolls vary widely: Björnson and Jonassohn give 100,000, while John Schmal reports Aztec historians later stating 240,000 for the siege. The fall brought the Aztec empire to an end.",
+      "statement": "Cortés came back with a coalition made up mainly of Tlaxcalan men and besieged Tenochtitlan from 26 May 1521. The Mexica surrendered on 13 August, after more than two months of fighting. Cuauhtémoc, caught fleeing by water with his family and treasure, was tortured over the gold lost on the Noche Triste. Estimates of the dead run from 100,000 to 240,000, and with the city's fall the Aztec Empire came to an end.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Fall_of_Tenochtitlan",
@@ -21853,8 +21916,8 @@
           "kind": "reference"
         }
       ],
-      "confidence": "medium",
-      "notes": "Björnson and Jonassohn are known only through a Wikipedia infobox footnote for the 100,000; that infobox also footnotes Paulkovich for at least 40,000 civilians killed and captured, and a website, Victimario Histórico Militar, for 240,000. Hassig (by footnote) gives 50,000 to 200,000 Native allies, left off the card. 'Julian Date' is the source's note on the calendar."
+      "confidence": "high",
+      "notes": "Björnson and Jonassohn are known only through a Wikipedia infobox footnote for the 100,000; that infobox also footnotes Paulkovich for at least 40,000 civilians killed and captured, and a website, Victimario Histórico Militar, for 240,000. Hassig (by footnote) gives 50,000 to 200,000 Native allies, left off the card. 'Julian Date' is the source's note on the calendar. Confidence set to high under the 2026-10-31 definition: the fall is established, only its toll is rough. Figures: Björnson and Jonassohn 100,000 (by footnote); Schmal's 'Aztec historians' 240,000."
     },
     {
       "id": "na-e-006",
@@ -22690,7 +22753,7 @@
         "acoma",
         "spain"
       ],
-      "statement": "In December 1598 Juan de Zaldívar's men, refused food, reportedly took it by force at Acoma, and the Acoma killed him and eleven others in Wikipedia's account; the National Park Service says fourteen, lured into the pueblo. Battle began on 22 January 1599. The Park Service puts the Acoma dead at about 1,500; Wikipedia's article has about 800. Oñate sentenced some 500 prisoners, ordering men over twenty-five to lose a foot and serve twenty years; twenty-four suffered amputation.",
+      "statement": "In December 1598 Juan de Zaldívar, nephew of New Mexico's colonizer Juan de Oñate, demanded food at Acoma; refused, his men reportedly took it by force. The Acoma killed him and eleven to fourteen others. The Spanish reprisal began on 22 January 1599, and estimates of the Acoma dead run from about 800 to 1,500. Oñate sentenced some 500 prisoners: men over twenty-five were to be enslaved for twenty years and lose a foot, and twenty-four suffered the amputation.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/1599_Acoma_massacre",
@@ -22739,10 +22802,22 @@
           "title": "Acoma Massacre (Wikipedia)",
           "quote": "Oñate ordered that every male above the age of twenty-five would have his right foot cut off and be enslaved for a period of twenty years. Twenty-four men suffered amputation.",
           "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1599_Acoma_massacre",
+          "title": "Acoma Massacre (Wikipedia)",
+          "quote": "Juan de Zaldívar , Oñate's nephew and soldier, was sent to the pueblo",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1599_Acoma_massacre",
+          "title": "Acoma Massacre (Wikipedia)",
+          "quote": "the conquistador Don Juan de Oñate was granted permission by King Philip II to colonize Santa Fe de Nuevo México",
+          "kind": "wikipedia"
         }
       ],
       "confidence": "high",
-      "notes": "Sources differ on: the first clash (Wikipedia's Oñate article: October 1598; massacre article and NPS: December 1598); Spanish dead (12, 13 or 15); and the day Vicente de Zaldívar arrived (EBSCO: 11 January; Wikipedia: 21 January). Wikipedia's estimate of 500 men and 300 women and children names no giver, so the card credits Wikipedia with its 800. EBSCO says only 'more than five hundred' prisoners. Men twelve to twenty-five and women over twelve were also sentenced to twenty years. No Acoma account was read; the detail looks to come from the Spanish side."
+      "notes": "Sources differ on: the first clash (Wikipedia's Oñate article: October 1598; massacre article and NPS: December 1598); Spanish dead (12, 13 or 15); and the day Vicente de Zaldívar arrived (EBSCO: 11 January; Wikipedia: 21 January). Wikipedia's estimate of 500 men and 300 women and children names no giver, so the card credits Wikipedia with its 800. EBSCO says only 'more than five hundred' prisoners. Men twelve to twenty-five and women over twelve were also sentenced to twenty years. No Acoma account was read; the detail looks to come from the Spanish side. Moved from the card: the National Park Service has fourteen men killed, 'lured' into the pueblo, and about 1,500 Acoma dead; Wikipedia has eleven and about 800."
     },
     {
       "id": "na-e-019",
@@ -22770,7 +22845,7 @@
         "acoma",
         "spain"
       ],
-      "statement": "Runners carried knotted maguey cords to set the day of a rising planned by Popé, of Ohkay Owingeh. Governor Otermín's informants said 13 August 1680, but Popé advanced it to the 10th. The Pueblos killed four hundred settlers, by EBSCO's history, and 21 of the 33 Franciscan missionaries, and besieged Santa Fe. On 21 August Otermín led over a thousand settlers south, reaching El Paso on 29 September. The Spanish did not return for twelve years.",
+      "statement": "Spanish rule, and cruelties such as Acoma, had stoked Pueblo anger. Popé of Ohkay Owingeh planned a rising, and runners carried knotted maguey cords to count down the days. Informants told Governor Otermín it would come on 13 August 1680, but Popé moved it up to the 10th. The Pueblos killed about 400 settlers and 21 of 33 priests and besieged Santa Fe. On 21 August Otermín led over a thousand settlers south, reaching El Paso on 29 September.",
       "citations": [
         {
           "url": "https://www.ebsco.com/research-starters/history/pueblo-revolt",
@@ -22807,6 +22882,12 @@
           "title": "Pueblo Revolt (EBSCO Research Starters)",
           "quote": "Four hundred civilian settlers and twenty-one of thirty-three priests had been killed.",
           "kind": "reference"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Pueblo_Revolt",
+          "title": "Pueblo Revolt (Wikipedia)",
+          "quote": "Persistent Spanish policies, coupled with incidents of brutality and cruelty such as those that occurred in 1599 and resulted in the Ácoma Massacre , stoked animosity",
+          "kind": "wikipedia"
         }
       ],
       "confidence": "high",
@@ -22835,7 +22916,7 @@
         "spain",
         "pueblo-peoples"
       ],
-      "statement": "Diego de Vargas reached Santa Fe on 13 September 1692 with soldiers, native auxiliaries and seven cannons, and promised clemency. Next day he proclaimed repossession, often called a bloodless reconquest. When he returned with settlers in December 1693 the town opposed him. He retook it; by Enrique Lamadrid's account 70 participants in the revolt were executed; Wikipedia's Pueblo Revolt article adds about 400 women and children sentenced to ten years' servitude. Revolt returned in 1696.",
+      "statement": "The Spanish came back twelve years later. Diego de Vargas reached Santa Fe on 13 September 1692 with soldiers, native auxiliaries and seven cannons, promised clemency, and next day proclaimed repossession, often called a bloodless reconquest. When he returned with settlers in December 1693 the town opposed him, and he retook it by force. Seventy participants in the revolt were executed and about 400 women and children sentenced to ten years' servitude. Fourteen pueblos attempted another revolt in 1696.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Pueblo_Revolt",
@@ -22872,10 +22953,28 @@
           "title": "Diego de Vargas (Wikipedia)",
           "quote": "according to historian Enrique Lamadrid, once Spanish law was reestablished in the region by 1693, 70 participants in the revolt were executed on the Santa Fe Plaza",
           "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Pueblo_Revolt",
+          "title": "Pueblo Revolt (Wikipedia)",
+          "quote": "The Spaniards returned to New Mexico twelve years later.",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Pueblo_Revolt",
+          "title": "Pueblo Revolt (Wikipedia)",
+          "quote": "He promised the 1,000 Pueblo people assembled there clemency and protection",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Pueblo_Revolt",
+          "title": "Pueblo Revolt (Wikipedia)",
+          "quote": "This time, however, 70 Pueblo warriors and 400 family members within the town opposed his entry.",
+          "kind": "wikipedia"
         }
       ],
-      "confidence": "medium",
-      "notes": "Date conflict: Wikipedia's Pueblo Revolt article says 14 September 1692; its Vargas article says 12 September. Force sizes differ (Pueblo Revolt: sixty soldiers; Vargas: 150 soldiers and pro-Spanish Pueblo warriors; about 100 soldiers on the return of 1693), with no named giver, so they are left off. Lamadrid is known only through Wikipedia; not read directly."
+      "confidence": "high",
+      "notes": "Date conflict: Wikipedia's Pueblo Revolt article says 14 September 1692; its Vargas article says 12 September. Force sizes differ (Pueblo Revolt: sixty soldiers; Vargas: 150 soldiers and pro-Spanish Pueblo warriors; about 100 soldiers on the return of 1693), with no named giver, so they are left off. Lamadrid is known only through Wikipedia; not read directly. Confidence set to high: the event is established; only one of its dates differs by a day or two."
     },
     {
       "id": "na-e-021",
@@ -23004,7 +23103,7 @@
       "id": "na-e-023",
       "type": "event",
       "kind": "state.treaty",
-      "title": "Treaty of Guadalupe Hidalgo",
+      "title": "The Treaty of Guadalupe Hidalgo",
       "date": {
         "year": 1848,
         "month": 2,
@@ -23025,7 +23124,7 @@
         "apache-chiricahua",
         "apache-mescalero"
       ],
-      "statement": "Signed on 2 February 1848, the treaty ended the Mexican-American War and transferred northern Mexico to the United States for $15 million, Ute territory among it. Article XI bound the United States to prevent and punish raids by Indians into Mexico, reflecting a Mexican belief that Americans had encouraged the Comanche and Apache raids that devastated the north. Mexico filed 366 claims for raid damage between 1848 and 1853; Article XI proved unenforceable and was annulled in 1853.",
+      "statement": "The Mexican–American War ended with the treaty signed on 2 February 1848, which transferred northern Mexico, Ute territory among it, to the United States for $15 million. Article XI bound the Americans to prevent and punish Indian raids into Mexico, since Mexicans believed they had encouraged the Comanche and Apache raids that devastated the north. It proved unenforceable: Mexico filed 366 claims for raid damage by 1853, when Article XI was annulled.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Treaty_of_Guadalupe_Hidalgo",
@@ -23074,16 +23173,22 @@
           "title": "Treaty of Guadalupe Hidalgo (Wikipedia)",
           "quote": "In 1853, in the Treaty of Mesilla concluding the Gadsden Purchase, Article XI was annulled.",
           "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Treaty_of_Guadalupe_Hidalgo",
+          "title": "Treaty of Guadalupe Hidalgo (Wikipedia)",
+          "quote": "This article promised relief to them.",
+          "kind": "wikipedia"
         }
       ],
-      "confidence": "medium",
-      "notes": "Earlier wording that the nations lost land 'without their consent' was dropped: no page read says so directly, though no Native nation appears among the treaty's parties in them. Article XI's annulment is dated 1853 by the source although the Mesilla treaty took effect in 1854."
+      "confidence": "high",
+      "notes": "Earlier wording that the nations lost land 'without their consent' was dropped: no page read says so directly, though no Native nation appears among the treaty's parties in them. Article XI's annulment is dated 1853 by the source although the Mesilla treaty took effect in 1854. Confidence set to high: the treaty and its terms are established."
     },
     {
       "id": "na-e-024",
       "type": "event",
       "kind": "state.treaty",
-      "title": "Gadsden Purchase (Treaty of La Mesilla)",
+      "title": "The Gadsden Purchase (Treaty of La Mesilla)",
       "date": {
         "year": 1853,
         "month": 12,
@@ -23104,7 +23209,7 @@
         "akimel-oodham",
         "apache-chiricahua"
       ],
-      "statement": "At the close of 1853 James Gadsden and Santa Anna signed the first draft of a sale at $15 million, for a railroad route; the Senate cut it to 29,640 square miles of southern Arizona and southwestern New Mexico for US$10 million. The Tohono O'odham Nation records that this divided O'odham land almost in half and that they were not told, though the terms were to honour Mexican citizens' land rights, theirs included. It took effect on 8 June 1854.",
+      "statement": "The United States wanted one more strip of Mexico, for a southern transcontinental railroad. At the close of 1853 James Gadsden and Santa Anna signed a first draft at $15 million; it was cut to 29,640 square miles of southern Arizona and southwestern New Mexico for $10 million and took effect on 8 June 1854. The Tohono O'odham Nation records that this split O'odham land almost in half and that they were never told of the sale.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Gadsden_Purchase",
@@ -23351,7 +23456,7 @@
         "dine",
         "usa"
       ],
-      "statement": "Under General Carleton's orders, Col. Kit Carson used a scorched-earth policy to force the Diné to surrender. In January 1864 parties led by Carson and Captain Albert Pfeiffer went through the Canyon de Chelly area from Fort Canby, killing 23 people, seizing sheep, and destroying hogans and peach orchards. The canyon's ledges stayed relatively safe, but the troops could destroy crops and seize livestock. Starving, freezing Diné came to Fort Canby in great numbers to surrender.",
+      "statement": "Under General Carleton's orders, Colonel Kit Carson used a scorched-earth policy to starve the Diné out of their homeland. In January 1864 parties under Carson and Captain Albert Pfeiffer went through the Canyon de Chelly area from Fort Canby, killing 23 people, seizing sheep and destroying hogans and peach orchards. The canyon's ledges stayed relatively safe, but the crops and herds did not. Starving and freezing, Diné followed the troops back to Fort Canby in great numbers to surrender.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Long_Walk_of_the_Navajo",
@@ -23410,7 +23515,7 @@
         "usa",
         "apache-mescalero"
       ],
-      "statement": "By March 1864 six thousand Diné had gathered at the forts, by EBSCO's history, and the US Army marched them up to 300 miles to Bosque Redondo in eastern New Mexico. The Library of Congress's law blog counts about 10,000 Navajo and 500 Mescalero Apache driven there, one in four or 20% of the Navajo dying on the journey. Navajo oral tradition recounts soldiers shooting those who could not keep up. They returned home in 1868.",
+      "statement": "By March 1864 six thousand Diné had gathered at the forts, and the US Army began marching them to Bosque Redondo in eastern New Mexico, some as far as 300 miles. In all about 10,000 Navajo and 500 Mescalero Apache were driven there. Between one in five and one in four of the Navajo died on the journey, and their oral tradition recounts soldiers shooting those who could not keep up. They would not go home until 1868.",
       "citations": [
         {
           "url": "https://www.ebsco.com/research-starters/history/long-walk-navajos/",
@@ -23462,7 +23567,7 @@
       "id": "na-e-029",
       "type": "event",
       "kind": "state.treaty",
-      "title": "Treaty of Bosque Redondo (Navajo Treaty of 1868)",
+      "title": "The Treaty of Bosque Redondo",
       "date": {
         "year": 1868,
         "month": 6,
@@ -23481,7 +23586,7 @@
         "dine",
         "usa"
       ],
-      "statement": "Sherman and Samuel Tappan reached Fort Sumner on 28 May 1868 and met Barboncito and ten headmen. Sherman first proposed moving the Diné to Indian Territory; Barboncito refused. Twenty-nine made their mark on 1 June. The treaty ended the Navajo Wars and let those interned return home. One reading has it effectively establishing Navajo sovereignty; the historian Jennifer Nez Denetdale also calls it the point at which the Navajo lost their freedom and autonomy and came under American colonial rule.",
+      "statement": "Four years after the Long Walk, General William Sherman and Samuel Tappan reached Fort Sumner on 28 May 1868 to meet Barboncito and ten headmen. Sherman first proposed moving the Diné to Indian Territory; Barboncito refused. Twenty-nine made their mark on 1 June, on a treaty that ended the Navajo Wars and let those interned go home. It effectively established Navajo sovereignty, yet to the historian Jennifer Nez Denetdale it marks the loss of their freedom and autonomy.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Treaty_of_Bosque_Redondo",
@@ -23529,6 +23634,12 @@
           "url": "https://en.wikipedia.org/wiki/Treaty_of_Bosque_Redondo",
           "title": "Treaty of Bosque Redondo (Wikipedia)",
           "quote": "according to historian Jennifer Nez Denetdale , the treaty was also \"the point at which the Navajo people lost their freedom and autonomy, and came under American colonial rule.\"",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Treaty_of_Bosque_Redondo",
+          "title": "Treaty of Bosque Redondo (Wikipedia)",
+          "quote": "General William T. Sherman wrote to General James Carleton",
           "kind": "wikipedia"
         }
       ],
@@ -24119,7 +24230,7 @@
       "id": "na-e-038",
       "type": "event",
       "kind": "state.treaty",
-      "title": "Fort Laramie (Horse Creek) Treaty of 1851",
+      "title": "The Fort Laramie (Horse Creek) Treaty of 1851",
       "date": {
         "year": 1851,
         "month": 9,
@@ -24143,7 +24254,7 @@
         "mandan-hidatsa-arikara",
         "usa"
       ],
-      "statement": "Held at the mouth of Horse Creek, 30 miles downriver from Fort Laramie because the fort lacked food for horses, the council drew thousands. The treaty signed on 17 September 1851 set out territorial claims of the Cheyenne, Sioux, Arapaho, Crow, Assiniboine, Mandan, Hidatsa and Arikara, and allowed roads and forts in exchange for $50,000 a year for fifty years. The Senate cut this to ten years, the Crow alone refusing, and several tribes never received what was promised.",
+      "statement": "In September 1851 thousands gathered at the mouth of Horse Creek, 30 miles below Fort Laramie, whose own surroundings lacked food for the horses. The treaty signed there on the 17th set out territories for the Cheyenne, Sioux, Arapaho, Crow, Assiniboine, Mandan, Hidatsa and Arikara and allowed roads and forts in exchange for $50,000 a year for fifty years. The Senate cut that to ten years, only the Crow refusing, and several nations never received what was promised.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Treaty_of_Fort_Laramie_(1851)",
@@ -24384,7 +24495,7 @@
       "id": "na-e-042",
       "type": "event",
       "kind": "war.massacre",
-      "title": "Sand Creek massacre",
+      "title": "The Sand Creek massacre",
       "date": {
         "year": 1864,
         "month": 11,
@@ -24404,7 +24515,7 @@
         "arapaho",
         "usa"
       ],
-      "statement": "At the army's command Black Kettle settled around 750 Cheyenne and Arapaho at Big Sandy Creek, hoping for peace. On 29 November 1864 Col. John Chivington's Colorado force attacked; Captain Silas Soule and Lt. Joseph Cramer told their men to hold fire. Chivington claimed 500 to 600 warriors killed. The historian Alan Brinkley gives 133, 105 of them women and children; the eyewitness John Smith 70 to 80; the National Park Service around 230. Congress and the army investigated.",
+      "statement": "At the army's command Black Kettle settled his people, around 750 Cheyenne and Arapaho, at Big Sandy Creek. On 29 November 1864 Colonel John Chivington's Colorado troops attacked; Captain Silas Soule and Lieutenant Joseph Cramer told their men to hold fire. Chivington claimed 500 to 600 warriors killed, but estimates of the dead run from about 70 to 230, mostly women, children and the elderly. A congressional committee later said it could hardly find fitting terms to describe his conduct.",
       "citations": [
         {
           "url": "https://www.nps.gov/sand/learn/historyculture/index.htm",
@@ -24459,10 +24570,16 @@
           "title": "History and Culture (Sand Creek Massacre, National Park Service)",
           "quote": "the American troops killed around 230 Cheyenne and Arapaho people composed mostly of women, children, and the elderly.",
           "kind": "government"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Sand_Creek_massacre",
+          "title": "Sand Creek massacre (Wikipedia)",
+          "quote": "As to Colonel Chivington, your committee can hardly find fitting terms to describe his conduct.",
+          "kind": "wikipedia"
         }
       ],
       "confidence": "high",
-      "notes": "Wikipedia's range is 70 to over 600 and its summary 'around 150'; Brinkley and Smith are known as Wikipedia reports them. Its infobox gives Native fighters as 70 to 200. NPS says the campers were at Big Sandy at the army's command, after a proclamation by Governor Evans; 'around 750' comes from NPS."
+      "notes": "Wikipedia's range is 70 to over 600 and its summary 'around 150'; Brinkley and Smith are known as Wikipedia reports them. Its infobox gives Native fighters as 70 to 200. NPS says the campers were at Big Sandy at the army's command, after a proclamation by Governor Evans; 'around 750' comes from NPS. Moved from the card: Brinkley 133 (105 women and children), John Smith 70 to 80, National Park Service around 230."
     },
     {
       "id": "na-e-043",
@@ -24535,7 +24652,7 @@
       "id": "na-e-044",
       "type": "event",
       "kind": "state.treaty",
-      "title": "Medicine Lodge treaties",
+      "title": "The Medicine Lodge treaties",
       "date": {
         "year": 1867,
         "month": 10,
@@ -24557,7 +24674,7 @@
         "arapaho",
         "usa"
       ],
-      "statement": "In October 1867 a US Indian Peace Commission signed three treaties at Medicine Lodge Creek, Kansas: with the Kiowa and Comanche, with the Plains Apache, and with the Arapaho and Cheyenne. The United States promised peace and protection for relocation to reservations in western Indian Territory. Article Twelve required three-fourths of adult men to approve later cessions, and a 1900 allotment without such consent led to Lone Wolf v. Hitchcock. Neither side honoured all the articles.",
+      "statement": "In October 1867 a US Indian Peace Commission signed three treaties at Medicine Lodge Creek, Kansas: with the Kiowa and Comanche, with the Plains Apache, and with the Arapaho and Cheyenne. The United States promised peace and protection in return for relocation to reservations in western Indian Territory, and neither side honoured all the articles. Article Twelve required three-fourths of adult men to approve later cessions; a 1900 allotment without such consent led to Lone Wolf v. Hitchcock.",
       "citations": [
         {
           "url": "https://www.okhistory.org/publications/enc/entry?entry=ME005",
@@ -24603,7 +24720,7 @@
       "id": "na-e-045",
       "type": "event",
       "kind": "state.treaty",
-      "title": "Fort Laramie Treaty of 1868 (Great Sioux Reservation)",
+      "title": "The Fort Laramie Treaty of 1868",
       "date": {
         "year": 1868,
         "month": 4,
@@ -24625,7 +24742,7 @@
         "arapaho",
         "usa"
       ],
-      "statement": "Signed from 29 April 1868 by Lakota, Yanktonai, Santee and Arapaho leaders, the treaty recognised the Black Hills as part of the Great Sioux Reservation, set aside for exclusive Sioux use, and reserved unceded hunting lands. The government promised to close the Bozeman Trail and its forts, which effectively ended Red Cloud's War. No later cession would be valid unless signed by three-fourths of adult Sioux men. Custer's 1874 expedition found gold in the Hills, and miners moved in.",
+      "statement": "Red Cloud's Lakota had fought the army over the Bozeman Trail forts on Sioux treaty land. The treaty signed from 29 April 1868 by Lakota, Yanktonai, Santee and Arapaho leaders ended that war: it recognized the Black Hills as part of the Great Sioux Reservation, and the government promised to close the trail and its forts. No later cession would be valid unless three-fourths of adult Sioux men signed. In 1874 Custer's expedition found gold there, and miners moved in.",
       "citations": [
         {
           "url": "https://www.archives.gov/milestone-documents/fort-laramie-treaty",
@@ -24668,6 +24785,12 @@
           "title": "Fort Laramie Treaty (National Archives)",
           "quote": "in 1874 Gen. George A. Custer led an expedition into the Black Hills, accompanied by miners who were seeking gold. Once gold was found in the Black Hills, miners were soon moving onto the Sioux hunting grounds",
           "kind": "official"
+        },
+        {
+          "url": "https://www.ndstudies.gov/gr8/node/137",
+          "title": "Fort Laramie treaties (North Dakota Studies)",
+          "quote": "Red Cloud, an Oglala Lakota, declared that he would continue to make war on travelers and Army posts until the government closed the road and removed the Army.",
+          "kind": "official"
         }
       ],
       "confidence": "high",
@@ -24677,7 +24800,7 @@
       "id": "na-e-046",
       "type": "event",
       "kind": "war.massacre",
-      "title": "Battle of the Washita River (Washita massacre)",
+      "title": "The Battle of the Washita River (Washita massacre)",
       "date": {
         "year": 1868,
         "month": 11,
@@ -24696,7 +24819,7 @@
         "cheyenne",
         "usa"
       ],
-      "statement": "When the Medicine Lodge treaty failed to end raids, General Sheridan planned a winter campaign. On 27 November 1868 Lt. Col. George Custer's 7th Cavalry attacked the Southern Cheyenne camp, of about 250 people by one estimate, under Peace Chief Black Kettle, a survivor of Sand Creek, who was killed trying to cross the river. Estimates of the dead range from 13 to 150, military figures running higher than Cheyenne ones, and 53 women and children were captured.",
+      "statement": "When the Medicine Lodge treaty failed to end raids, General Philip Sheridan planned a winter campaign. On 27 November 1868 Lieutenant Colonel George Custer's 7th Cavalry attacked a Southern Cheyenne camp of perhaps 250 people on the Washita, under the Peace Chief Black Kettle, the survivor of Sand Creek. He was killed trying to cross the river. Estimates of the dead range from 13 to 150, military figures running higher than Cheyenne ones, and 53 women and children were captured.",
       "citations": [
         {
           "url": "https://www.nps.gov/waba/learn/historyculture/index.htm",
@@ -24810,7 +24933,7 @@
       "id": "na-e-048",
       "type": "event",
       "kind": "war.battle.land",
-      "title": "Battle of the Little Bighorn (Greasy Grass)",
+      "title": "The Battle of the Little Bighorn (Greasy Grass)",
       "date": {
         "year": 1876,
         "month": 6,
@@ -24833,7 +24956,7 @@
         "crow",
         "mandan-hidatsa-arikara"
       ],
-      "statement": "Lakota leaders such as Sitting Bull and Crazy Horse rejected the reservation system, and the army's campaign of 1876 aimed to force nonreservation Lakota and Cheyenne to capitulate. On 25-26 June Lakota, Northern Cheyenne and Arapaho warriors fought the US 7th Cavalry and its Crow and Arikara scouts along the Little Bighorn. They drove back Major Reno's attack and converged on Custer's command, whose last men were cornered and killed. The Lakota know it as the Greasy Grass.",
+      "statement": "Lakota leaders such as Sitting Bull and Crazy Horse rejected the reservation system, and the army's 1876 campaign aimed to force the nonreservation Lakota and Cheyenne to capitulate. On 25 and 26 June, along the river the Lakota know as the Greasy Grass, Lakota, Northern Cheyenne and Arapaho warriors fought the 7th Cavalry and its Crow and Arikara scouts. They forced Major Reno to retreat, then converged on Custer's command, whose last men were cornered and killed.",
       "citations": [
         {
           "url": "https://www.nps.gov/libi/learn/historyculture/battle-story.htm",
@@ -24885,7 +25008,7 @@
       "id": "na-e-049",
       "type": "event",
       "kind": "state.policy",
-      "title": "Black Hills taken by the Act of 28 February 1877",
+      "title": "The Black Hills taken",
       "date": {
         "year": 1877,
         "month": 2,
@@ -24904,7 +25027,7 @@
         "lakota",
         "usa"
       ],
-      "statement": "After gold brought miners to the Black Hills, Congress's 1876 appropriations bill denied the Sioux treaty annuities until they gave up the Hills. A commission's 1876 \"agreement\" was signed by only 10% of adult Sioux men, against the 1868 treaty's three-fourths rule, and on 28 February 1877 Congress enacted it. In 1980 the Supreme Court held the Sioux never received just compensation. The award stands unclaimed, the Sioux Nation stating that its goal is the land's return.",
+      "statement": "In 1876 Congress denied the Sioux their treaty annuities until they gave up the Black Hills. A commission's \"agreement\" was signed by only 10% of adult Sioux men, far short of the 1868 treaty's three-fourths, and on 28 February 1877 Congress enacted it. In 1980 the Supreme Court held that the Sioux had never received just compensation. They refused the award, the Sioux Nation stating that its goal was the land's return.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Black_Hills_Land_Claim",
@@ -24956,7 +25079,7 @@
       "id": "na-e-050",
       "type": "event",
       "kind": "war.massacre",
-      "title": "Wounded Knee massacre",
+      "title": "The Wounded Knee massacre",
       "date": {
         "year": 1890,
         "month": 12,
@@ -24975,7 +25098,7 @@
         "lakota",
         "usa"
       ],
-      "statement": "Alarm over the Ghost Dance at Pine Ridge led the 7th Cavalry to surround Chief Spotted Elk's (Big Foot's) band near Wounded Knee Creek on 29 December 1890 and demand their weapons. A shot was fired; which side fired it is unclear. HISTORY.com counts almost 150 Native dead, nearly half women and children; General Nelson Miles wrote that official reports made it 90 warriors and about 200 women and children. Twenty-five soldiers died; nineteen received the Medal of Honor.",
+      "statement": "Alarm over the Ghost Dance at Pine Ridge brought the 7th Cavalry to Chief Spotted Elk's (Big Foot's) band near Wounded Knee Creek. On 29 December 1890 the soldiers surrounded them and demanded their weapons. A fight broke out and a shot was fired, from which side is unclear. Estimates of the Lakota dead run from about 150 to about 300, many of them women and children. Twenty-five soldiers died, and nineteen soldiers were awarded the Medal of Honor.",
       "citations": [
         {
           "url": "https://www.history.com/this-day-in-history/december-29/u-s-army-massacres-indians-at-wounded-knee",
@@ -25021,7 +25144,7 @@
         }
       ],
       "confidence": "high",
-      "notes": "HISTORY.com also gives 146 in its opening line and notes some historians double its figure. Wikipedia's lead has 250 to 300, derived in its note from Miles's report of some 300 snow-covered forms; Miles's letter of 13 March 1917 is known only through that note, not read directly. Sitting Bull had been killed at Standing Rock earlier that month."
+      "notes": "HISTORY.com also gives 146 in its opening line and notes some historians double its figure. Wikipedia's lead has 250 to 300, derived in its note from Miles's report of some 300 snow-covered forms; Miles's letter of 13 March 1917 is known only through that note, not read directly. Sitting Bull had been killed at Standing Rock earlier that month. Moved from the card: Miles wrote that official reports made it 90 warriors and about 200 women and children; HISTORY.com has almost 150, nearly half women and children."
     },
     {
       "id": "na-e-051",
@@ -25618,7 +25741,7 @@
       "id": "na-e-060",
       "type": "event",
       "kind": "state.treaty",
-      "title": "Treaty 1 (Stone Fort Treaty) signed at Lower Fort Garry",
+      "title": "Treaty 1 signed at Lower Fort Garry",
       "date": {
         "year": 1871,
         "month": 8,
@@ -25638,7 +25761,7 @@
         "cree",
         "canada"
       ],
-      "statement": "Treaty 1, the first of the Numbered Treaties, was concluded on 3 August 1871 between the Crown and the Anishinaabe and Swampy Cree after eight days of treaty-making. Its text has them cede all the land in southern Manitoba for annuities and goods, though Indigenous delegates and leaders did not intend any cession. Within a year they complained of unfulfilled \"Outside Promises\", which a federal order of 1875 made part of the treaty.",
+      "statement": "A year later came the first of the Numbered Treaties. After eight days of treaty-making, Treaty 1 was concluded on 3 August 1871 between the Crown and the Anishinaabe and Swampy Cree. Its text has them cede all the land in southern Manitoba for annuities and goods, though Indigenous delegates and leaders did not intend any cession. Within a year they were complaining of unfulfilled \"Outside Promises\", which a federal order of 1875 made part of the treaty.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Treaty_1",
@@ -26121,7 +26244,7 @@
       "id": "na-e-067",
       "type": "event",
       "kind": "war.battle.land",
-      "title": "Battle of Batoche",
+      "title": "The Battle of Batoche",
       "date": {
         "year": 1885,
         "month": 5,
@@ -26141,7 +26264,7 @@
         "cree",
         "canada"
       ],
-      "statement": "From 9 to 12 May 1885 General Frederick Middleton's 916 regulars and militia attacked Batoche, the capital of Louis Riel's Provisional Government of Saskatchewan, defended by trenches and rifle pits under Gabriel Dumont. Greater numbers and firepower eventually overwhelmed the Métis. Middleton reported 51 Métis dead; Vegreville counted 16. Riel surrendered on 15 May and the Provisional Government collapsed; Poundmaker gave up on 26 May.",
+      "statement": "Fifteen years after Red River, Louis Riel led a second rising, the North-West Resistance or Rebellion, decided at Batoche, the capital of his Provisional Government of Saskatchewan. From 9 to 12 May 1885 General Frederick Middleton's 916 regulars and militia attacked its trenches and rifle pits, held under Gabriel Dumont, until greater numbers and firepower overwhelmed the Métis. Middleton reported 51 Métis dead, a priest 16, and historians commonly accept 12. Riel surrendered on 15 May, and his government collapsed.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Battle_of_Batoche",
@@ -26190,10 +26313,22 @@
           "title": "Battle of Batoche (Wikipedia)",
           "quote": "Poundmaker surrendered on May 26 at Battleford after a long siege.",
           "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Batoche",
+          "title": "Battle of Batoche (Wikipedia)",
+          "quote": "The Battle of Batoche was the decisive battle of the North-West Resistance",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Batoche",
+          "title": "Battle of Batoche (Wikipedia)",
+          "quote": "the one commonly accepted by modern historians, which is 12 dead and 20 wounded",
+          "kind": "wikipedia"
         }
       ],
       "confidence": "high",
-      "notes": "The 51 and 16 are Wikipedia infobox entries credited to Middleton and to Vegreville; his footnotes run to the Panet report (1886), Mulvaney (1885) and Le Chevallier (1941), none read. The Canadian Encyclopedia's Batoche page refused the fetch (403)."
+      "notes": "The 51 and 16 are Wikipedia infobox entries credited to Middleton and to Vegreville; his footnotes run to the Panet report (1886), Mulvaney (1885) and Le Chevallier (1941), none read. The Canadian Encyclopedia's Batoche page refused the fetch (403). 51 is Middleton's figure, 16 Vegreville's, 12 the one the page says modern historians commonly accept. A plaque quoted on the same page says 800 attackers against the infobox's 916. Poundmaker's surrender (26 May, Battleford) moved off the card: he is not explained on this tour."
     },
     {
       "id": "na-e-068",
@@ -26258,7 +26393,7 @@
       "id": "na-e-069",
       "type": "event",
       "kind": "state.founding",
-      "title": "Manitoba Act receives royal assent",
+      "title": "The Manitoba Act",
       "date": {
         "year": 1870,
         "month": 5,
@@ -26277,7 +26412,7 @@
         "metis",
         "canada"
       ],
-      "statement": "Negotiated between representatives of Red River's provisional government and the federal government, the Manitoba Act received royal assent on 12 May 1870 and, taking effect on 15 July, admitted Manitoba as Canada's fifth province. It set out language and school rights, with roughly 1.4 million acres set aside for the Métis. Those protections were not fully realised: many Métis were cheated out of the land meant for them and left for the North-West Territories.",
+      "statement": "While the fort was held, representatives of Red River's provisional government negotiated with the federal government. The resulting Manitoba Act received royal assent on 12 May 1870 and, from 15 July, made Manitoba Canada's fifth province. It set out language and school rights and set aside roughly 1.4 million acres for the Métis. Those protections were not fully realized: many Métis were cheated out of the land meant for them and left for the North-West Territories.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Manitoba_Act",
@@ -26705,7 +26840,7 @@
         "wendat",
         "odawa"
       ],
-      "statement": "On 4 August 1701 Louis-Hector de Callière, governor of New France, and 1,300 representatives of 39 Indigenous nations signed the peace that ended the Beaver Wars. The French brokered it between their Huron and Algonquin allies and the Haudenosaunee. The peace was fragile: within three years the Odawa attacked a Haudenosaunee village near a French fort at present-day Kingston, planting a Huron club on a dead warrior to provoke new fighting.",
+      "statement": "In the north, the Beaver Wars, the fight over the fur trade between the Haudenosaunee and the French with their Huron and Algonquin allies, ended on 4 August 1701, when Louis-Hector de Callière, governor of New France, and 1,300 representatives of 39 Indigenous nations signed a peace at Montreal. All-out war did not return, though within three years Odawa warriors attacked a Haudenosaunee village near present-day Kingston and planted a Huron club on a dead warrior to provoke new fighting.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Great_Peace_of_Montreal",
@@ -26729,6 +26864,18 @@
           "url": "https://en.wikipedia.org/wiki/Great_Peace_of_Montreal",
           "title": "Great Peace of Montreal (Wikipedia)",
           "quote": "The warriors planted a Huron club on a dead Haudenosaunee warrior to try to provoke new fighting.",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Great_Peace_of_Montreal",
+          "title": "Great Peace of Montreal (Wikipedia)",
+          "quote": "The Beaver Wars saw the Hurons and Algonquins, supported by the French, pitted against the Haudenosaunee of the powerful League of Five Nations",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Great_Peace_of_Montreal",
+          "title": "Great Peace of Montreal (Wikipedia)",
+          "quote": "Control over the fur trade became a high-stakes game among the Native American tribes",
           "kind": "wikipedia"
         }
       ],
@@ -26816,7 +26963,7 @@
       "id": "na-e-077",
       "type": "event",
       "kind": "state.treaty",
-      "title": "Treaty of Fort Stanwix (1768)",
+      "title": "The Treaty of Fort Stanwix",
       "date": {
         "year": 1768,
         "month": 11,
@@ -26837,7 +26984,7 @@
         "shawnee",
         "lenape"
       ],
-      "statement": "On 5 November 1768 one signatory for each of the Six Nations signed the treaty negotiated at Fort Stanwix with Sir William Johnson. Its Line of Property ran down the Ohio to the Tennessee River, ceding Kentucky and most of what is now West Virginia, lands occupied mainly by the Shawnee and Lenape, who attended but did not sign. Meant to end frontier violence, it instead helped set the stage for Dunmore's War.",
+      "statement": "The line moved within five years. At Fort Stanwix the British negotiator Sir William Johnson and the Haudenosaunee agreed a Line of Property down the Ohio to the Tennessee River, signed on 5 November 1768 with one signatory for each of the Six Nations. It ceded Kentucky and most of present-day West Virginia, lands occupied mainly by the Shawnee and Lenape, who attended but did not sign. Rather than ending frontier violence, it helped set the stage for Dunmore's War.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Treaty_of_Fort_Stanwix",
@@ -26889,7 +27036,7 @@
       "id": "na-e-078",
       "type": "event",
       "kind": "war.campaign",
-      "title": "Sullivan Expedition (Sullivan-Clinton Campaign)",
+      "title": "The Sullivan Expedition",
       "date": {
         "year": 1779,
         "month": 6,
@@ -26909,7 +27056,7 @@
         "usa",
         "britain"
       ],
-      "statement": "From June to October 1779 a Continental Army campaign under John Sullivan and James Clinton moved against the four British-allied Haudenosaunee nations after the raids of 1778, on Washington's order to destroy their settlements. It fought one major battle, at Newtown, and razed 40 villages with their crops. Refugees at Fort Niagara numbered 5,036. Colin Calloway and Alan Taylor report several hundred deaths; Rhiannon Koehler's roughly 5,000 rests on a questioned assumption. Some scholars' term genocide is disputed.",
+      "statement": "After Haudenosaunee and Loyalist raids in 1778, Washington ordered the destruction of the settlements of the four British-allied Haudenosaunee nations. From June to October 1779 a Continental force under John Sullivan and James Clinton fought one major battle, at Newtown, and razed 40 villages with their crops. Over 5,000 refugees reached Fort Niagara, and several hundred are thought to have died that winter. Some scholars call the campaign a genocide, a term that is disputed.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Sullivan_Expedition",
@@ -26997,7 +27144,7 @@
         }
       ],
       "confidence": "high",
-      "notes": "Taylor and Koehler are known as Wikipedia reports them, not read directly; the page calls Koehler's assumption questionable. Rachel Herrmann also reports several hundred. The Buffalo Creek Reservation article says the British 'were reported to be feeding and housing over 5000 refugees'. Date is the march from Easton, 18 June; the battle of Newtown was 29 August 1779, and the point is Newtown. Calloway's several hundred comes first on the page; Taylor follows him. Koehler's doubt moved into the statement."
+      "notes": "Taylor and Koehler are known as Wikipedia reports them, not read directly; the page calls Koehler's assumption questionable. Rachel Herrmann also reports several hundred. The Buffalo Creek Reservation article says the British 'were reported to be feeding and housing over 5000 refugees'. Date is the march from Easton, 18 June; the battle of Newtown was 29 August 1779, and the point is Newtown. Calloway's several hundred comes first on the page; Taylor follows him. Koehler's doubt moved into the statement. Rhiannon Koehler's roughly 5,000 rests on an assumption the page calls questionable; Calloway and Taylor have several hundred."
     },
     {
       "id": "na-e-079",
@@ -27792,7 +27939,7 @@
       "id": "na-e-090",
       "type": "event",
       "kind": "state.treaty",
-      "title": "Treaty of Fort Pitt (1778)",
+      "title": "The Treaty of Fort Pitt",
       "date": {
         "year": 1778,
         "month": 9,
@@ -27811,7 +27958,7 @@
         "lenape",
         "usa"
       ],
-      "statement": "On 17 September 1778 the Lenape leaders White Eyes, Captain Pipe and John Killbuck signed at Fort Pitt the first formal treaty between the United States and a Native nation, a military alliance giving US troops passage against Detroit. It recognized the Lenape as sovereign and raised a Native state with representation in Congress, but was never fulfilled. White Eyes died within months, by one report of smallpox, by the Delaware Nation's account murdered by militiamen, and the alliance collapsed.",
+      "statement": "An American march on British Detroit had to cross Lenape country. On 17 September 1778 White Eyes, Captain Pipe and John Killbuck signed at Fort Pitt the first formal treaty between the United States and any Native nation, securing passage and military aid. It recognized Lenape sovereignty and held out a state with representation in Congress, never fulfilled. White Eyes soon died, allegedly of smallpox; the Delaware Nation holds that American militiamen murdered him. The alliance collapsed.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Treaty_of_Fort_Pitt",
@@ -27854,6 +28001,24 @@
           "title": "Treaty of Fort Pitt (Wikipedia)",
           "quote": "the peaceful relations between the United States and the Lenape Nation collapsed and the tribe soon joined the British in the war",
           "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Treaty_of_Fort_Pitt",
+          "title": "Treaty of Fort Pitt (Wikipedia)",
+          "quote": "For that end the patriots had to march through the Ohio Valley where Lenape tribes resided.",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Treaty_of_Fort_Pitt",
+          "title": "Treaty of Fort Pitt (Wikipedia)",
+          "quote": "Continental Congress decided to negotiate a formal treaty to secure free passage.",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Treaty_of_Fort_Pitt",
+          "title": "Treaty of Fort Pitt (Wikipedia)",
+          "quote": "The United States was planning to attack the British fort at Detroit, and Lenape assistance was essential for success.",
+          "kind": "wikipedia"
         }
       ],
       "confidence": "high",
@@ -27863,7 +28028,7 @@
       "id": "na-e-091",
       "type": "event",
       "kind": "war.massacre",
-      "title": "Gnadenhutten massacre",
+      "title": "The Gnadenhutten massacre",
       "date": {
         "year": 1782,
         "month": 3,
@@ -27882,7 +28047,7 @@
         "lenape",
         "usa"
       ],
-      "statement": "On 8 March 1782 Pennsylvania militiamen under David Williamson killed 96 pacifist Moravian Christian Indians, primarily Lenape and Mohican, at Gnadenhutten, a figure the Delaware Nation also gives. The people had returned from Captive Town to harvest their crops; the militia gained their trust with false promises of protection, then took them to two 'killing houses' and killed them with mallets and scalping cuts. Some militiamen refused to take part. William Crawford was later killed in retaliation.",
+      "statement": "The killing went on in the Ohio country after Yorktown. In February 1782 Moravian Christian Indians, pacifists, primarily Lenape and Mohican, returned from Captive Town to harvest their old villages' crops. Pennsylvania militia under David Williamson falsely promised them protection, then on 8 March killed 96 at Gnadenhutten, infants among them, with mallet blows and scalping cuts in two 'killing houses'. Some militiamen refused to take part. William Crawford, who had not been there, was later killed in retaliation.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Gnadenhutten_massacre",
@@ -27924,6 +28089,18 @@
           "url": "https://en.wikipedia.org/wiki/Gnadenhutten_massacre",
           "title": "Gnadenhutten massacre (Wikipedia)",
           "quote": "to a new village called Captive Town on the Sandusky River.",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Gnadenhutten_massacre",
+          "title": "Gnadenhutten massacre (Wikipedia)",
+          "quote": "the militia brought the Christian Indians to one of two \"killing houses\"",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Gnadenhutten_massacre",
+          "title": "Gnadenhutten massacre (Wikipedia)",
+          "quote": "Refusing to take part, some of the militiamen",
           "kind": "wikipedia"
         }
       ],
@@ -28019,7 +28196,7 @@
         "powhatan",
         "britain"
       ],
-      "statement": "In May 1607 the Virginia Company's colonists established James Fort on a swampy river island within the territory of the Powhatan, led by Wahunsenacawh, known to the colonists as Chief Powhatan, who by then governed more than 30 nations. The site was used by the Paspahegh. Conflict began at once, with deaths within two weeks of the English arrival, and Wahunsenacawh wanted the colonists to leave the swamp for one of his towns.",
+      "statement": "In May 1607 the Virginia Company's colonists built James Fort on a swampy river island, chosen to evade Spanish patrols, inside the territory of the Powhatan. Their leader Wahunsenacawh, whom the English called Chief Powhatan, by then governed more than 30 nations, and the island was used by the Paspahegh. Conflict began at once, with deaths inside two weeks. Wahunsenacawh wanted the colonists out of the swamp and living in one of his towns.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Anglo-Powhatan_Wars",
@@ -28055,6 +28232,12 @@
           "url": "https://en.wikipedia.org/wiki/Anglo-Powhatan_Wars",
           "title": "Anglo-Powhatan Wars (Wikipedia)",
           "quote": "Powhatan wanted Captain John Smith and the colonists to forsake the swamp and live in one of his satellite towns called Capahosick",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Powhatan",
+          "title": "Powhatan (Wikipedia)",
+          "quote": "the colonists fired shots as soon as they arrived",
           "kind": "wikipedia"
         }
       ],
@@ -28811,7 +28994,7 @@
         "pequot",
         "wampanoag"
       ],
-      "statement": "On 19 December 1675 militia from Plymouth, Connecticut and Massachusetts Bay, with Pequot and Mohegan allies, attacked the Narragansett's main settlement, after the Narragansett refused to hand over Wampanoag refugees. The fort was overrun and burned. The National Park Service counts three hundred men and almost four hundred women and children dead; James Drake at least 97 warriors and 300 to 1,000 non-combatants; a participant claimed 600 to 1,000 warriors. Colonists lost about 70, in Wikipedia's account.",
+      "statement": "In King Philip's War, Boston demanded that the Narragansett hand over Wampanoag refugees, and they would not. On 19 December 1675 militia from Plymouth, Connecticut and Massachusetts Bay, with Pequot and Mohegan allies, attacked their main settlement, overran it after a fierce fight and burned it. About 70 of the militia were killed. Estimates of the Narragansett dead run from about 400 to over 1,000, many of them women and children.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Great_Swamp_Fight",
@@ -28874,8 +29057,8 @@
           "kind": "wikipedia"
         }
       ],
-      "confidence": "medium",
-      "notes": "Date: 19 December (Wikipedia) against 16 December (Encyclopedia.com). Drake's estimate (King Philip's War, 1999, p. 119) is known only through Wikipedia's footnote in the infobox; not read directly. The colonial 70 has a footnote nearby to Axelrod, p. 104, not read directly. Wikipedia's lead says 150 Pequots; its body says about 150 Pequot and Mohegan."
+      "confidence": "high",
+      "notes": "Date: 19 December (Wikipedia) against 16 December (Encyclopedia.com). Drake's estimate (King Philip's War, 1999, p. 119) is known only through Wikipedia's footnote in the infobox; not read directly. The colonial 70 has a footnote nearby to Axelrod, p. 104, not read directly. Wikipedia's lead says 150 Pequots; its body says about 150 Pequot and Mohegan. Confidence set to high: the attack is established, only its toll is rough. Figures moved from the card: National Park Service 300 men and almost 400 women and children; James Drake at least 97 warriors and 300 to 1,000 non-combatants; a participant 600 to 1,000 warriors."
     },
     {
       "id": "na-e-105",
@@ -28973,7 +29156,7 @@
       "id": "na-e-106",
       "type": "event",
       "kind": "war.massacre",
-      "title": "Mystic massacre (Battle of Mystic Fort)",
+      "title": "The Mystic massacre",
       "date": {
         "year": 1637,
         "month": 5,
@@ -28993,7 +29176,7 @@
         "mohegan",
         "narragansett"
       ],
-      "statement": "On 26 May 1637 a force from Connecticut under Captain John Mason, with Mohegan and Narragansett allies, reached the palisaded Pequot village near the Mystic River, while several hundred warriors were away with Sassacus. After stiff resistance Mason ordered it set ablaze and its two exits blocked; those escaping were shot or killed by Narragansett fighters. John Underhill, who was there, wrote of about four hundred in the fort; Encyclopedia.com estimates 300 to 700, mostly women, children and the elderly.",
+      "statement": "During the Pequot War, on 26 May 1637, a Connecticut force under Captain John Mason, with Mohegan and Narragansett allies, reached the palisaded Pequot village near the Mystic River while the sachem Sassacus was away with several hundred warriors. After stiff resistance Mason ordered it set ablaze and its two exits blocked. Those who ran were shot or killed by Narragansett fighters. Between 300 and 700 Pequot, mostly women, children and the elderly, were trapped inside.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Mystic_massacre",
@@ -29042,10 +29225,16 @@
           "title": "Mystic massacre (Wikipedia)",
           "quote": "it is reported by themselves, that there were about foure hundred soules in this Fort, and not above five of them escaped out of our hands.",
           "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Mystic_massacre",
+          "title": "Mystic massacre (Wikipedia)",
+          "quote": "many trapped Pequots were shot as they attempted to escape by climbing over the palisade",
+          "kind": "wikipedia"
         }
       ],
       "confidence": "high",
-      "notes": "Underhill's eyewitness account is as Wikipedia quotes it. Wikipedia has 400 to 700 dead, without a footnote. Encyclopedia.com reports the Plymouth governor calling the massacre a 'sweet sacrifice'. The earlier citation to mptn-nsn.gov is dropped because that page could not be fetched (empty in the cache and 403 live)."
+      "notes": "Underhill's eyewitness account is as Wikipedia quotes it. Wikipedia has 400 to 700 dead, without a footnote. Encyclopedia.com reports the Plymouth governor calling the massacre a 'sweet sacrifice'. The earlier citation to mptn-nsn.gov is dropped because that page could not be fetched (empty in the cache and 403 live). Moved from the card: John Underhill, who was there, wrote of about four hundred in the fort."
     },
     {
       "id": "na-e-107",
@@ -30470,7 +30659,7 @@
       "id": "na-e-125",
       "type": "event",
       "kind": "war.siege",
-      "title": "Pontiac's War: Odawa-led attack on Fort Detroit",
+      "title": "Pontiac's attempt on Fort Detroit",
       "date": {
         "year": 1763,
         "month": 5,
@@ -30492,7 +30681,7 @@
         "anishinaabe-ojibwe",
         "britain"
       ],
-      "statement": "On 7 May 1763 the Odawa leader Pontiac entered Fort Detroit, with about 300 men by William Nester's account, carrying concealed weapons and hoping to take it by surprise, but the British had learned of the plan and were ready. He began a siege, and the war spread across a region where Odawa, Ojibwe, Potawatomi and Wyandot were alarmed by General Amherst's policies. Pontiac lifted the siege of Detroit on 31 October, convinced the French would not come.",
+      "statement": "The nations of the Great Lakes, among them the Odawa, Ojibwe, Potawatomi and Wyandot, were alarmed by the policies of the British general Jeffery Amherst. On 7 May 1763 the Odawa leader Pontiac entered Fort Detroit with about 300 men carrying concealed weapons, hoping to take it by surprise, but the British were ready. He laid siege instead as war spread across the region, and lifted it on 31 October, convinced the French would not come.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Pontiac's_War",
@@ -30538,7 +30727,7 @@
       "id": "na-e-126",
       "type": "event",
       "kind": "state.treaty",
-      "title": "Royal Proclamation of 1763",
+      "title": "The Royal Proclamation of 1763",
       "date": {
         "year": 1763,
         "month": 10,
@@ -30560,7 +30749,7 @@
         "anishinaabe-ojibwe",
         "shawnee"
       ],
-      "statement": "King George III issued the Royal Proclamation on 7 October 1763, after the Treaty of Paris and during Pontiac's War. It at least temporarily forbade new settlement west of a line along the Appalachians, marked as an Indian Reserve, and allowed land purchases only by Crown officials at a public meeting. The line was meant to be movable, not permanent. The proclamation remains important to First Nations in Canada as the first legal recognition of Aboriginal title.",
+      "statement": "With the siege still on, George III issued the Royal Proclamation on 7 October 1763. It forbade new settlement, at least for the time being, west of a line along the Appalachians, marked as an Indian Reserve, and allowed land purchases only by Crown officials at a public meeting. The line was meant to move west in an orderly way. The proclamation remains legally important to First Nations in Canada as the first legal recognition of Aboriginal title.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Royal_Proclamation_of_1763",
@@ -30756,7 +30945,7 @@
       "id": "na-e-129",
       "type": "event",
       "kind": "war.battle.land",
-      "title": "St. Clair's Defeat (Battle of the Wabash)",
+      "title": "St. Clair's Defeat",
       "date": {
         "year": 1791,
         "month": 11,
@@ -30778,7 +30967,7 @@
         "potawatomi",
         "usa"
       ],
-      "statement": "On 4 November 1791 warriors under Little Turtle of the Miami, Blue Jacket of the Shawnee and Buckongahelas of the Lenape, with many Potawatomi, attacked General Arthur St. Clair's force in the Northwest Territory. By the historian Colin Calloway's count, the Americans lost 630 killed and almost 300 wounded, against about 25 killed and perhaps 50 wounded. Landon Jones calls it the most decisive defeat in American military history. Washington forced St. Clair to resign, and Congress investigated.",
+      "statement": "At dawn on 4 November 1791, in the Northwest Territory, about 1,000 warriors under Little Turtle of the Miami, Blue Jacket of the Shawnee and Buckongahelas of the Lenape encircled General Arthur St. Clair's camp. In under three hours the Americans lost 630 killed and almost 300 wounded, against about 25 Native dead. Proportionately, the historian Colin Calloway writes, it was the biggest US military disaster ever. Washington forced St. Clair to resign, and Congress investigated.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/St._Clair's_Defeat",
@@ -30809,16 +30998,34 @@
           "title": "Colin Calloway, Along the Wabash: The Forgotten Native Victory of 1791 (Brewminate)",
           "quote": "The Americans suffered 630 killed and almost 300 wounded; on the Indian side, there were about 25 killed and perhaps 50 wounded.",
           "kind": "reference"
+        },
+        {
+          "url": "https://brewminate.com/along-the-wabash-the-forgotten-native-victory-of-1791/",
+          "title": "Colin Calloway, Along the Wabash: The Forgotten Native Victory of 1791 (Brewminate)",
+          "quote": "At dawn on November 4, about 1,000 warriors from a coalition of Indian nations",
+          "kind": "reference"
+        },
+        {
+          "url": "https://brewminate.com/along-the-wabash-the-forgotten-native-victory-of-1791/",
+          "title": "Colin Calloway, Along the Wabash: The Forgotten Native Victory of 1791 (Brewminate)",
+          "quote": "Proportionately it was the biggest military disaster the United States ever suffered.",
+          "kind": "reference"
+        },
+        {
+          "url": "https://brewminate.com/along-the-wabash-the-forgotten-native-victory-of-1791/",
+          "title": "Colin Calloway, Along the Wabash: The Forgotten Native Victory of 1791 (Brewminate)",
+          "quote": "In less than three hours on November 4, 1791",
+          "kind": "reference"
         }
       ],
-      "confidence": "medium",
-      "notes": "Calloway was read directly. Landon Y. Jones (William Clark and the Shaping of the West, 2005) is known here only through Wikipedia's footnote 4; not read directly. Wikipedia's 'over 1,000 warriors', 'about 1,000' Americans and 'only twenty-four escaped unharmed' are left off, with no clear giver. The infobox gives 656 Americans killed or captured and 21 Native dead."
+      "confidence": "high",
+      "notes": "Calloway was read directly. Landon Y. Jones (William Clark and the Shaping of the West, 2005) is known here only through Wikipedia's footnote 4; not read directly. Wikipedia's 'over 1,000 warriors', 'about 1,000' Americans and 'only twenty-four escaped unharmed' are left off, with no clear giver. The infobox gives 656 Americans killed or captured and 21 Native dead. Confidence set to high: the battle is established. Moved from the card: Landon Jones's 'most decisive defeat' (through a Wikipedia footnote)."
     },
     {
       "id": "na-e-130",
       "type": "event",
       "kind": "war.battle.land",
-      "title": "Battle of Fallen Timbers",
+      "title": "The Battle of Fallen Timbers",
       "date": {
         "year": 1794,
         "month": 8,
@@ -30839,7 +31046,7 @@
         "odawa",
         "usa"
       ],
-      "statement": "On 20 August 1794 General Anthony Wayne's Legion, supported by Charles Scott's Kentucky militia, defeated Shawnee under Blue Jacket, Ottawa under Egushawa and others near the Maumee in little over an hour. Fleeing warriors found the gates of the British Fort Miami closed against them by Major William Campbell. Wayne's army lost 33 killed and reported 30-40 Native dead; the British official Alexander McKee reported 19. The Treaty of Greenville followed, forcing Native displacement from most of Ohio.",
+      "statement": "Three years later the United States came back. On 20 August 1794 General Anthony Wayne's Legion, with Kentucky militia, defeated Shawnee under Blue Jacket, Ottawa under Egushawa and others near the Maumee in little more than an hour. Fleeing warriors reached the British Fort Miami to find its gates shut against them. Wayne lost 33 men; estimates of the Native dead run from 19 to about 40. It was the last battle of the Northwest Indian War.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Battle_of_Fallen_Timbers",
@@ -30885,13 +31092,13 @@
         }
       ],
       "confidence": "high",
-      "notes": "McKee and the Americans' count are both on the page, but read through Wikipedia's footnote 1. Six white men fighting on the Native side were also killed, per McKee's context in Wikipedia."
+      "notes": "McKee and the Americans' count are both on the page, but read through Wikipedia's footnote 1. Six white men fighting on the Native side were also killed, per McKee's context in Wikipedia. Moved from the card: 19 is the British official Alexander McKee's report, 30-40 the Americans'."
     },
     {
       "id": "na-e-131",
       "type": "event",
       "kind": "state.treaty",
-      "title": "Treaty of Greenville",
+      "title": "The Treaty of Greenville",
       "date": {
         "year": 1795,
         "month": 8,
@@ -30918,7 +31125,7 @@
         "illinois",
         "usa"
       ],
-      "statement": "Signed at Fort Greenville on 3 August 1795, a year after Fallen Timbers, the treaty ended the Northwest Indian War. For goods worth $20,000 and annual payments, the Western Confederacy's nations ceded large parts of modern Ohio, and the United States kept posts within Indian Country, including the site of Chicago. Blue Jacket urged acceptance while Little Turtle led the opposition; settlers kept encroaching, and Tecumseh later charged the peace chiefs with giving away land they did not own.",
+      "statement": "The peace was signed at Fort Greenville on 3 August 1795. For goods worth $20,000 and annual payments, the nations of the Western Confederacy ceded large parts of modern Ohio, and the United States kept posts inside Indian Country, among them the future site of Chicago. Blue Jacket urged acceptance while Little Turtle led the opposition. Settlers went on encroaching, and the Shawnee chief Tecumseh charged that the peace chiefs had given away land they did not own.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Treaty_of_Greenville",
@@ -31074,7 +31281,7 @@
       "id": "na-e-133",
       "type": "event",
       "kind": "war.battle.land",
-      "title": "Battle of Tippecanoe",
+      "title": "The Battle of Tippecanoe",
       "date": {
         "year": 1811,
         "month": 11,
@@ -31096,7 +31303,7 @@
         "potawatomi",
         "usa"
       ],
-      "statement": "On 7 November 1811, with Tecumseh away recruiting allies, warriors from Prophetstown under his brother Tenskwatawa attacked before dawn the army Governor William Henry Harrison had marched against the town, and were held off for over two hours. Harrison's men then burned the abandoned town and its winter food. His victory earned him the nickname 'Tippecanoe', which later served his presidential campaign, and dealt a blow from which Tecumseh's confederacy never fully recovered.",
+      "statement": "The Shawnee leader Tecumseh and his brother Tenskwatawa had built a confederacy of nations opposed to American settlement, based at Prophetstown. In 1811 Governor William Henry Harrison marched on the town with about 1,000 men while Tecumseh was away recruiting allies. Before dawn on 7 November warriors under Tenskwatawa attacked; Harrison's men held for over two hours, then burned the abandoned town and its winter food. The confederacy never fully recovered, and the victory won Harrison the nickname 'Tippecanoe'.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Tenskwatawa",
@@ -31145,6 +31352,12 @@
           "title": "Battle of Tippecanoe (Wikipedia)",
           "quote": "marched with an army of about 1,000 men to attack the confederacy's headquarters at Prophetstown",
           "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Tippecanoe",
+          "title": "Battle of Tippecanoe (Wikipedia)",
+          "quote": "leaders of a confederacy of various tribes who opposed European-American settlement of the American frontier",
+          "kind": "wikipedia"
         }
       ],
       "confidence": "high",
@@ -31154,7 +31367,7 @@
       "id": "na-e-134",
       "type": "event",
       "kind": "war.battle.land",
-      "title": "Battle of the Thames; death of Tecumseh",
+      "title": "The Battle of the Thames and the death of Tecumseh",
       "date": {
         "year": 1813,
         "month": 10,
@@ -31174,7 +31387,7 @@
         "usa",
         "wendat"
       ],
-      "statement": "On 5 October 1813 Harrison's American force overran General Henry Procter's British line a few miles west of Moraviantown on the Thames, in Upper Canada. Procter had abandoned Detroit and Amherstburg and retreated up the valley, Tecumseh and his followers reluctantly accompanying him. Warriors retreated once Tecumseh was killed, and his confederacy collapsed. American control of Detroit was re-established, and Procter was later court-martialled.",
+      "statement": "In 1813, with the Americans at war with Britain, General Henry Procter abandoned Detroit and Amherstburg and retreated up the Thames valley, Tecumseh and his followers reluctantly going with him. On 5 October they made a stand a few miles west of Moraviantown in Upper Canada. Harrison's mounted infantry overran the British line, the warriors fell back once Tecumseh was killed, and his confederacy collapsed. The Americans regained control of Detroit, and Procter was later court-martialled.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Battle_of_the_Thames",
@@ -32409,7 +32622,7 @@
       "id": "na-e-150",
       "type": "event",
       "kind": "war.battle.land",
-      "title": "Battle of Horseshoe Bend (Tohopeka)",
+      "title": "The Battle of Horseshoe Bend (Tohopeka)",
       "date": {
         "year": 1814,
         "month": 3,
@@ -32428,7 +32641,7 @@
         "usa",
         "cherokee"
       ],
-      "statement": "On 27 March 1814 Andrew Jackson's militia and regulars, with Cherokee and Lower Creek allies, attacked the Red Stick stronghold at Tohopeka on the Tallapoosa. Cherokee allies crossed the river to strike from the rear as Jackson charged the log barricade. The National Park Service counts at least 800 of Chief Menawa's 1,000 Red Sticks dead, against Jackson's 49 killed. The Treaty of Fort Jackson that August took 23 million acres by the same count, over 21 million by another.",
+      "statement": "In the South the Creeks were split by a war of their own, and the Red Sticks, the faction opposing American expansion, held out at Tohopeka on the Tallapoosa. On 27 March 1814 Andrew Jackson's militia and regulars, with Cherokee and Lower Creek allies, attacked. The Cherokee crossed the river to strike from the rear as Jackson charged the barricade. By nightfall at least 800 of the 1,000 Red Sticks under Chief Menawa had died, against 49 of Jackson's men.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Battle_of_Horseshoe_Bend_(1814)",
@@ -32495,6 +32708,12 @@
           "title": "History and Culture (Horseshoe Bend National Military Park, NPS)",
           "quote": "In August 1814, a treaty between the United States and the Creek Nation was signed at Fort Jackson",
           "kind": "government"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Creek_War",
+          "title": "Creek War (Wikipedia)",
+          "quote": "The Creek War (also the Red Stick War or the Creek Civil War ) was a regional conflict between opposing Native American factions",
+          "kind": "wikipedia"
         }
       ],
       "confidence": "high",
@@ -32504,7 +32723,7 @@
       "id": "na-e-151",
       "type": "event",
       "kind": "state.treaty",
-      "title": "Treaty of Fort Jackson",
+      "title": "The Treaty of Fort Jackson",
       "date": {
         "year": 1814,
         "month": 8,
@@ -32523,7 +32742,7 @@
         "muscogee",
         "usa"
       ],
-      "statement": "On 9 August 1814 at Fort Jackson, near present-day Wetumpka, the treaty concluding the Creek War of 1813-1814 was signed after Andrew Jackson's victory over the Red Sticks at Horseshoe Bend. The Creeks were forced to cede more than 21 million acres by one count, 23 million by the National Park Service's. The US agent Benjamin Hawkins thought it too harsh, as nearly eight million acres came from allied Indians.",
+      "statement": "The peace that followed Jackson's victory was signed on 9 August 1814 at Fort Jackson near present-day Wetumpka, concluding the Creek War. The Creeks were forced to cede between 21 and 23 million acres, much of it in central and southern Alabama. The Indian agent Benjamin Hawkins thought the terms too harsh, for nearly eight million of those acres were taken from allied Indians.",
       "citations": [
         {
           "url": "https://encyclopediaofalabama.org/article/treaty-of-fort-jackson/",
@@ -32563,7 +32782,7 @@
       "id": "na-e-152",
       "type": "event",
       "kind": "state.treaty",
-      "title": "Treaty of Dancing Rabbit Creek",
+      "title": "The Treaty of Dancing Rabbit Creek",
       "date": {
         "year": 1830,
         "month": 9,
@@ -32582,7 +32801,7 @@
         "choctaw",
         "usa"
       ],
-      "statement": "On 27 September 1830 at Dancing Rabbit Creek, Choctaw negotiators led by Greenwood LeFlore and Mosholatubbee signed with John Eaton and John Coffee, ceding their remaining homeland, more than 10 million acres by one count and about 11 million by another, for land in Indian Territory. It was the first removal treaty carried into effect under the Indian Removal Act. Article 14 let Choctaw who chose to stay in Mississippi become citizens.",
+      "statement": "The Indian Removal Act of 1830 set out to move the eastern nations west of the Mississippi. On 27 September, at Dancing Rabbit Creek, Choctaw negotiators led by Greenwood LeFlore and Mosholatubbee signed with John Eaton and John Coffee, giving up their remaining homeland, 10 to 11 million acres, for land in Indian Territory. It was the first removal treaty carried into effect under the Act. Article 14 let Choctaw who chose to stay in Mississippi become citizens.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Treaty_of_Dancing_Rabbit_Creek",
@@ -32612,6 +32831,18 @@
           "url": "https://en.wikipedia.org/wiki/Treaty_of_Dancing_Rabbit_Creek",
           "title": "Treaty of Dancing Rabbit Creek (Wikipedia)",
           "quote": "Article 14 allowed for some Choctaw to remain in the state of Mississippi, if they wanted to become citizens",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://encyclopediaofalabama.org/article/treaty-of-dancing-rabbit-creek-1830/",
+          "title": "Treaty of Dancing Rabbit Creek (Encyclopedia of Alabama)",
+          "quote": "the Indian Removal Act of 1830 to begin the removal of eastern Indians to the Indian Territory west of the Mississippi River",
+          "kind": "reference"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Treaty_of_Dancing_Rabbit_Creek",
+          "title": "Treaty of Dancing Rabbit Creek (Wikipedia)",
+          "quote": "The treaty would sign away the remaining traditional homeland to the United States",
           "kind": "wikipedia"
         }
       ],
@@ -32745,7 +32976,7 @@
       "id": "na-e-155",
       "type": "event",
       "kind": "state.treaty",
-      "title": "Treaty of New Echota",
+      "title": "The Treaty of New Echota",
       "date": {
         "year": 1835,
         "month": 12,
@@ -32764,7 +32995,7 @@
         "cherokee",
         "usa"
       ],
-      "statement": "On 29 December 1835 at New Echota, US officials and the minority Treaty Party signed terms for the Cherokee Nation to cede its southeastern territory and move west. The National Council did not approve it and Principal Chief John Ross did not sign; the Cherokee Nation says the signers lacked authority under its law. Despite Ross's protests the Senate passed it in May 1836 by a single vote, and it became the legal basis for the Trail of Tears.",
+      "statement": "The Cherokee treaty was made by a minority. On 29 December 1835 at New Echota, US officials and the Treaty Party, a political faction, signed terms for the Cherokee Nation to cede its southeastern territory and move west. The National Council did not approve it, Principal Chief John Ross did not sign, and the Cherokee Nation holds that the signers lacked authority under its law. Despite Ross's pleas the Senate passed it in May 1836 by a single vote.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Treaty_of_New_Echota",
@@ -32869,7 +33100,7 @@
       "id": "na-e-157",
       "type": "event",
       "kind": "removal",
-      "title": "Cherokee removal (Trail of Tears) begins",
+      "title": "The Trail of Tears begins",
       "date": {
         "year": 1838,
         "month": 5,
@@ -32887,7 +33118,7 @@
         "cherokee",
         "usa"
       ],
-      "statement": "Forcible removal of the Cherokee began in May 1838, when General Winfield Scott received President Van Buren's final order; about 2,000 had already gone west. The National Park Service says nearly 14,000 were forced from their homes and held in stockades, and over 4,000 died of cold, disease and hunger on the six-month march. The Oklahoma Historical Society puts deaths at more than one-fourth of the tribe. In Cherokee the event is 'the place where they cried'.",
+      "statement": "That treaty became the legal basis for removal. Forced expulsion began in May 1838, when General Winfield Scott received President Van Buren's final order; about 2,000 Cherokee had already gone west. Nearly 14,000 were driven from their homes and held in stockades before the journey to Oklahoma and Arkansas, and over 4,000 died of cold, disease and hunger, more than a quarter of the nation. In Cherokee the event is called 'the place where they cried'.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Trail_of_Tears",
@@ -32918,10 +33149,16 @@
           "title": "Trail of Tears (Wikipedia)",
           "quote": "In the Cherokee language , the event is called nu na da ul tsun yi ( ' the place where they cried ' )",
           "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Treaty_of_New_Echota",
+          "title": "Treaty of New Echota (Wikipedia)",
+          "quote": "became the legal basis for the forcible removal known as the Trail of Tears",
+          "kind": "wikipedia"
         }
       ],
       "confidence": "high",
-      "notes": "Estimates differ: removed nearly 14,000 (NPS) or 16,000 (Wikipedia's table); deaths over 4,000 (NPS), about 4,000 in Wikipedia's text, 4,000-8,000 in its table. A footnote in Wikipedia quoting the historian Ostler says the majority of removal deaths came in internment camps and the first years after arrival rather than on the journey, against the NPS 'on the march' wording; not put on the card because I saw it only as a footnote quotation."
+      "notes": "Estimates differ: removed nearly 14,000 (NPS) or 16,000 (Wikipedia's table); deaths over 4,000 (NPS), about 4,000 in Wikipedia's text, 4,000-8,000 in its table. A footnote in Wikipedia quoting the historian Ostler says the majority of removal deaths came in internment camps and the first years after arrival rather than on the journey, against the NPS 'on the march' wording; not put on the card because I saw it only as a footnote quotation. The card no longer says the deaths came 'on the march', given Ostler's point below."
     },
     {
       "id": "na-e-158",
@@ -33345,7 +33582,7 @@
       "id": "na-e-165",
       "type": "event",
       "kind": "war.battle.land",
-      "title": "Battle of Sitka",
+      "title": "The Battle of Sitka",
       "date": {
         "year": 1804,
         "month": 10,
@@ -33364,7 +33601,7 @@
         "tlingit",
         "russia"
       ],
-      "statement": "Alexander Baranov returned to Sitka Sound in late September 1804 with the sloop Neva, fur traders and hundreds of Aleuts. Around 1 October his landing party assaulted Shís'gi Noow, the Kiks.ádi sapling fort, and was driven back by volleys of gunfire. After bombardment the clan withdrew by night, on 4 October in one account and after six days in another. Kiks.ádi elder Herb Hope called it not a retreat but a planned survival march; the Russians fortified Sitka.",
+      "statement": "Russia's fur traders were pressing into Alaska, and in 1802 Tlingit warriors burned their post at Sitka. Alexander Baranov came back in late September 1804 with the sloop Neva, fur traders and hundreds of Aleuts. His landing party assaulted Shís'gi Noow, the Kiks.ádi sapling fort, and was driven off by gunfire. After days of bombardment, with supplies dwindling, the clan withdrew; the Kiks.ádi elder Herb Hope called it a planned survival march. The Russians fortified Sitka.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Battle_of_Sitka",
@@ -33407,6 +33644,18 @@
           "title": "Battle of Sitka (Wikipedia)",
           "quote": "The naval cannon fire began at daybreak",
           "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Sitka",
+          "title": "Battle of Sitka (Wikipedia)",
+          "quote": "In June 1802, a group of Tlingit warriors attacked the Russian fort at mid-day.",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Sitka",
+          "title": "Battle of Sitka (Wikipedia)",
+          "quote": "the raiding party massacred many, looted the sea otter pelts, and burned the settlement",
+          "kind": "wikipedia"
         }
       ],
       "confidence": "high",
@@ -33416,7 +33665,7 @@
       "id": "na-e-166",
       "type": "event",
       "kind": "state.treaty",
-      "title": "Treaty of cession of Russian America (Alaska Purchase) signed",
+      "title": "Russia sells Alaska",
       "date": {
         "year": 1867,
         "month": 3,
@@ -33436,7 +33685,7 @@
         "usa",
         "tlingit"
       ],
-      "statement": "After an all-night session, William Seward and Eduard de Stoeckl signed the treaty ceding Russian America in Washington at 04:00 on 30 March 1867, for $7.2 million, and the Senate ratified it on 9 April. Only Russia and the United States were parties. Article III excepted 'uncivilized native tribes' from citizenship and left them subject to whatever laws the United States adopted. Seward cited Russian estimates of about 60,000 inhabitants, most of them outside Russian jurisdiction.",
+      "statement": "After an all-night session, William Seward and Eduard de Stoeckl signed the treaty ceding Russian America in Washington at 4 a.m. on 30 March 1867, for $7.2 million, and the Senate ratified it on 9 April. Only Russia and the United States were parties. Article III excepted 'uncivilized native tribes' from citizenship, leaving them subject to whatever laws the United States adopted, though most of the territory's roughly 60,000 inhabitants lived outside Russian jurisdiction.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Alaska_purchase",
@@ -33488,7 +33737,7 @@
       "id": "na-e-167",
       "type": "event",
       "kind": "state.founding",
-      "title": "Formal transfer of Russian America to the United States at Sitka",
+      "title": "Alaska handed over at Sitka",
       "date": {
         "year": 1867,
         "month": 10,
@@ -33508,7 +33757,7 @@
         "usa",
         "tlingit"
       ],
-      "statement": "On 18 October 1867 (6 October in the Russian calendar) Russian America was formally transferred at Fort Sitka. 250 US Army troops marched to the governor's house on Castle Hill, the Russian flag came down and the American flag went up, and Captain Peshchurov handed the territory to General Lovell Rousseau. American soldiers then replaced Russian ones at the gates of the fence around the Tlingit village. American sovereignty became legally effective across the territory that day.",
+      "statement": "The transfer came at Fort Sitka on 18 October 1867, 6 October in the Russian calendar. Some 250 US Army troops marched to the governor's house on Castle Hill, the Russian flag came down and the American flag went up, and Captain Peshchurov handed the territory to General Lovell Rousseau. American soldiers then replaced Russian ones at the gates of the fence around the Tlingit village. American sovereignty took legal effect across the territory that day.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Alaska_Day",
@@ -33566,7 +33815,7 @@
       "id": "na-e-168",
       "type": "event",
       "kind": "state.dispute",
-      "title": "Nootka Crisis (Spanish seizure of British ships at Nootka Sound)",
+      "title": "The Nootka Crisis",
       "date": {
         "year": 1789,
         "month": 7,
@@ -33586,7 +33835,7 @@
         "britain",
         "nuuchahnulth"
       ],
-      "statement": "In July 1789 Esteban José Martínez, commanding Spain's new outpost Santa Cruz de Nuca, seized the British ships Princess Royal and Argonaut and arrested James Colnett, on Nuu-chah-nulth land at Nootka Sound. On 13 July the Nuu-chah-nulth leader Callicum, brother of Maquinna, was shot dead confronting Martínez; accounts differ over how. A public outcry in Britain mobilized the Royal Navy, and three conventions followed, the last, in 1794, providing for mutual abandonment of Nootka.",
+      "statement": "On the far Pacific coast, Spain and Britain collided on Nuu-chah-nulth land. In July 1789 Esteban José Martínez, commander of Spain's outpost at Nootka Sound, seized the British ships Argonaut and Princess Royal and arrested James Colnett. On 13 July the Nuu-chah-nulth leader Callicum, brother of Maquinna, went to confront him and was shot dead; accounts differ over how. Outcry in Britain mobilized the Royal Navy, and three conventions followed, the last, in 1794, providing for mutual abandonment of Nootka.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Nootka_Crisis",
@@ -34502,7 +34751,7 @@
       "id": "na-e-183",
       "type": "event",
       "kind": "contact",
-      "title": "First contact with Lewis and Clark at Weippe Prairie",
+      "title": "Lewis and Clark meet the Nez Perce at Weippe Prairie",
       "date": {
         "year": 1805,
         "month": 9,
@@ -34520,7 +34769,7 @@
         "nimiipuu",
         "usa"
       ],
-      "statement": "In mid-September 1805 William Clark and a few hunters, sent ahead for food after crossing the Bitterroots, entered Weippe Prairie, where Nez Perce came in summer for roots, berries and game. They met three frightened boys hiding in the grass and gave them small presents. The Nez Perce, nervous about the strangers, let them onto their land. After the expedition reunited on 22 September, its leaders spoke with the head man Twisted Hair, trading gifts and passing the pipe.",
+      "statement": "In mid-September 1805, crossing the Bitterroots, William Clark went ahead with a few hunters for food and came out on Weippe Prairie, where the Nez Perce gathered in summer for roots, berries and game. They met three frightened boys hiding in the grass and gave them small presents. The Nez Perce, nervous of these strangers, accepted them, and after the expedition reunited on 22 September its leaders traded gifts and passed the pipe with the head man Twisted Hair.",
       "citations": [
         {
           "url": "https://www.nps.gov/nepe/learn/historyculture/weippe-prairie.htm",
@@ -34771,7 +35020,7 @@
       "id": "na-e-187",
       "type": "event",
       "kind": "war.battle.land",
-      "title": "Battle of the Bear Paw and surrender of Chief Joseph",
+      "title": "The Bear Paw and the surrender of Chief Joseph",
       "date": {
         "year": 1877,
         "month": 10,
@@ -34790,7 +35039,7 @@
         "nimiipuu",
         "usa"
       ],
-      "statement": "From 30 September 1877 Colonel Nelson Miles besieged the Nez Perce at C'aynnim Alikinwaaspa, short of Canada; the National Park Service counts about 800 in flight. Looking Glass was killed and cannon fire targeted the families' shelters. On 5 October, told they would be returned to Idaho, Joseph handed his rifle to Miles and Howard, saying, as Ad Chapman translated, 'I will fight no more forever'. White Bird slipped out for Canada; Mark Brown counts 431 surrendered or captured.",
+      "statement": "War in Idaho sent about 800 Nez Perce fleeing the US Army in summer 1877. From 30 September Colonel Nelson Miles besieged them forty miles short of Canada, and cannon fire targeted the families' shelters. On 5 October, told they would return to Idaho, Joseph surrendered; the words recorded as his, in translation, end 'I will fight no more forever'. The promise was overruled, and those who surrendered or were captured, over 400, were sent to Kansas and Indian Territory.",
       "citations": [
         {
           "url": "https://www.nps.gov/nepe/planyourvisit/bear-paw-battlefield.htm",
@@ -34851,10 +35100,34 @@
           "title": "Battle of Bear Paw (Wikipedia)",
           "quote": "Arthur \"Ad\" Chapman, the translator of Joseph's message",
           "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Bear_Paw",
+          "title": "Battle of Bear Paw (Wikipedia)",
+          "quote": "Miles had promised Joseph that his people would return to reservations in their homeland, but this promise was overruled by Sherman. The Nez Perce were sent to Kansas and Indian Territory",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://www.nps.gov/nepe/planyourvisit/bear-paw-battlefield.htm",
+          "title": "Bear Paw Battlefield (Nez Perce National Historical Park, National Park Service)",
+          "quote": "From where the sun now stands, I will fight no more forever.",
+          "kind": "government"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Bear_Paw",
+          "title": "Battle of Bear Paw (Wikipedia)",
+          "quote": "an oral message from Joseph which was translated as follows",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://www.nps.gov/nepe/planyourvisit/bear-paw-battlefield.htm",
+          "title": "Bear Paw Battlefield (Nez Perce National Historical Park, National Park Service)",
+          "quote": "over 400 nimíipuu agreed to quit fighting",
+          "kind": "government"
         }
       ],
       "confidence": "high",
-      "notes": "Counts differ: 431 (Wikipedia's battle article, footnoted to Mark H. Brown's The Flight of the Nez Perce (1967), p. 410, known only through that footnote, not read directly), 418 (Wikipedia's war article), over 400 (NPS). NPS says 30 to 50 left with White Bird, Wikipedia about 50, and 200 to 300 reached Canada in all. Wikipedia says 42 miles from the border. The speech's text is as the NPS gives it; Lt. Wood also left an account of the surrender."
+      "notes": "Counts differ: 431 (Wikipedia's battle article, footnoted to Mark H. Brown's The Flight of the Nez Perce (1967), p. 410, known only through that footnote, not read directly), 418 (Wikipedia's war article), over 400 (NPS). NPS says 30 to 50 left with White Bird, Wikipedia about 50, and 200 to 300 reached Canada in all. Wikipedia says 42 miles from the border. The speech's text is as the NPS gives it; Lt. Wood also left an account of the surrender. Moved from the card: Looking Glass's death on 2 October, White Bird's escape, and the place name C'aynnim Alikinwaaspa. The speech's setting differs: the NPS has it at the surrender to Miles and Howard, Wikipedia as an oral message carried by two Nez Perce men, translated by Ad Chapman, so the card says only 'recorded as his, in translation'."
     },
     {
       "id": "na-e-188",
@@ -35875,7 +36148,7 @@
       "id": "na-e-203",
       "type": "event",
       "kind": "war.massacre",
-      "title": "Bear River Massacre (Massacre at Boa Ogoi)",
+      "title": "The Bear River Massacre (Massacre at Boa Ogoi)",
       "date": {
         "year": 1863,
         "month": 1,
@@ -35894,7 +36167,7 @@
         "northern-shoshone",
         "usa"
       ],
-      "statement": "On 29 January 1863 Colonel Patrick Connor's California Volunteers attacked Bear Hunter's Shoshone winter encampment where Battle Creek meets the Bear River. Tolls differ: Connor claimed more than 224 of 300 warriors; Sagwitch's son Frank Timbimboo Warner said in 1918 that 156 died; the historian Brigham Madsen estimates about 250; Hans Jasperson wrote that he counted 493. Some 21 soldiers died. Marley Madsen of Utah State University calls it the largest mass murder of Native Americans in US history.",
+      "statement": "Settlers had taken over Cache Valley's food sources; the final catalyst for Colonel Patrick Connor's expedition was a Shoshone attack on miners on the Montana Trail. On 29 January 1863 his California Volunteers struck Bear Hunter's winter encampment. Some 21 soldiers died. Estimates of the Shoshone dead run from 156, from the chief Sagwitch's son, to 493, counted by a settler among the bodies. Some call it the largest mass murder of Native Americans by the US military.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Bear_River_Massacre",
@@ -35937,10 +36210,28 @@
           "title": "Boa Ogoi: Restoring Sacred Land 150 years after the Bear River Massacre (Marley Madsen, Utah State University)",
           "quote": "instigating the largest mass murder of Native Americans in the history of the United States",
           "kind": "reference"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Bear_River_Massacre",
+          "title": "Bear River Massacre (Wikipedia)",
+          "quote": "The final catalyst for Connor's expedition was a Shoshone attack on a group of eight miners on the Montana Trail.",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Bear_River_Massacre",
+          "title": "Bear River Massacre (Wikipedia)",
+          "quote": "Around 250 to 400 Northern Shoshone children and adults were killed near their homes, and 21 US soldiers died.",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Bear_River_Massacre",
+          "title": "Bear River Massacre (Wikipedia)",
+          "quote": "the settlers were consuming significant food resources and taking over areas that pushed the Shoshone increasingly into areas of marginal food production",
+          "kind": "wikipedia"
         }
       ],
       "confidence": "high",
-      "notes": "Warner, Madsen (Shoshoni Frontier) and Jasperson are as Wikipedia reports them, not read directly. Its lead says around 250 to 400 killed and 21 soldiers dead, and a footnote lists 350 and 400 too. Also called the Battle of Bear River and the Massacre at Boa Ogoi. The expedition followed a Shoshone attack on miners on the Montana Trail and Kinney's arrest warrants for Bear Hunter, Sanpitch and Sagwitch. Wikipedia's 'some sources' are footnoted to Madsen (read) and Dana Hedgpeth in the Washington Post (not fetchable, so not credited)."
+      "notes": "Warner, Madsen (Shoshoni Frontier) and Jasperson are as Wikipedia reports them, not read directly. Its lead says around 250 to 400 killed and 21 soldiers dead, and a footnote lists 350 and 400 too. Also called the Battle of Bear River and the Massacre at Boa Ogoi. The expedition followed a Shoshone attack on miners on the Montana Trail and Kinney's arrest warrants for Bear Hunter, Sanpitch and Sagwitch. Wikipedia's 'some sources' are footnoted to Madsen (read) and Dana Hedgpeth in the Washington Post (not fetchable, so not credited). Moved from the card: Connor claimed more than 224 of 300 warriors; Brigham Madsen about 250; Frank Timbimboo Warner gave 156 in 1918; Hans Jasperson 493."
     },
     {
       "id": "na-e-204",
