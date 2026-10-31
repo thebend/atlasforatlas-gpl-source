@@ -64,6 +64,8 @@ def cshapes_sources(opt: dict) -> list[dict]:
         if p["status"] == "independent":
             state_name.setdefault(p["gwcode"], p["name"])
     drop = set(opt.get("drop", []))              # GW codes another source draws here (e.g. OHM's Israel and Palestine)
+    # the dataset's last day isn't a change: its rows run on, past the slices (slice_years stops at Y1 + 1)
+    last = max(f["properties"]["end"] for f in rows)
     feats = []
     for f in rows:
         p = f["properties"]
@@ -74,7 +76,8 @@ def cshapes_sources(opt: dict) -> list[dict]:
         name = SIDES[sid]["name"] if sid in SIDES else state_name.get(own, p["name"])
         w = STATUS_W.get(p["status"], 0.7)
         defined = p.get("b_def", 1) == 1
-        feats.append({"side": sid, "name": name, "names": {sid: name}, "y0": dec(p["start"]), "y1": dec(p["end"]) + 1 / 365.25,
+        feats.append({"side": sid, "name": name, "names": {sid: name}, "y0": dec(p["start"]),
+                      "y1": max(dec(p["end"]) + 1 / 365.25, Y1 + 2.0) if p["end"] == last else dec(p["end"]) + 1 / 365.25,
                       "geom": shape(f["geometry"]), "sides": [(sid, w)], "crisp": 1.0 if defined else 0.6,
                       "ramp": 1.0 if defined else 2.0, "source": "cshapes2", "kind": "state",
                       "unit": p["name"], "status": p["status"]})
@@ -134,7 +137,7 @@ def ohm_sources(opt: dict) -> list[dict]:
         sid = p["side"]
         name = SIDES[sid]["name"] if sid in SIDES else p["name"]
         feats.append({"side": sid, "name": p["name"], "names": {sid: name}, "y0": _dec_tag(p["start"], Y0 - 1.0),
-                      "y1": _dec_tag(p["end"], Y1 + 1.0), "geom": shape(f["geometry"]), "sides": [(sid, p["weight"])],
+                      "y1": _dec_tag(p["end"], Y1 + 2.0), "geom": shape(f["geometry"]), "sides": [(sid, p["weight"])],
                       "crisp": 1.0, "source": "ohm", "kind": "state", "unit": p["name"], **({"claim": True} if p["claim"] else {})})
     return feats
 

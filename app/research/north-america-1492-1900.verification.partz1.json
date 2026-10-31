@@ -1,0 +1,215 @@
+{
+ "meta": {
+  "method": "independent verifier agents, each read the cited pages; older cards to the card-depth bar and statements reworded away from their sources",
+  "date": "2026-10-31"
+ },
+ "items": {
+  "na-e-206": {
+   "status": "partially-verified",
+   "note": "All quotes found and every statement fact is supported: 6 May (Wikipedia) or 7 May (NPS); NPS's four men burned in the house; the no-cause, captured-children and assaulted-girls accounts; 12 May defeat (Nevada marker), Ormsby's death, 2 June larger force, August cease-fire with no treaty. 'Accounts differ on who prevailed' rests on NPS (eventually defeated), the infobox (stalemate) and the marker (Numu held the attackers and withdrew). No padding. The only problem is outside the statement: participants lists 'washoe', but no cited page has the Washoe fighting in this war. Paiute_War names the Paiute's allies as Shoshone and Bannock; 'Washoe' appears only as an alternative name for the war, as the US 'Washoe Regiment', and as the people Ormsby and the Paiutes pursued in 1857. Replace it with shoshone/bannock or source it.",
+   "fields_unsupported": [
+    "participants (washoe)"
+   ]
+  },
+  "na-e-212": {
+   "status": "verified",
+   "note": "All quotes found. Checked: treatment by guards (California Missions Foundation); plan at three missions; soldier beating a boy at Santa Inés on 21 February; 15 + 4 = 19 Chumash and one soldier dead on the first day, labelled 'by one account' (the infobox's 42 and 8 are a different, whole-revolt total, disclosed in notes); most of the mission burned; La Purísima and Santa Barbara seized, retreat to the hills; 16 March; general pardon; majority returned by 28 June; largest organized resistance. The page later has only a handful not returned by the next year, so 'ending' is fair. No padding.",
+   "fields_unsupported": []
+  },
+  "na-c-104": {
+   "status": "verified",
+   "note": "Arapaho page supports 1878, shared residence with the Eastern Shoshone and federal recognition.",
+   "fields_unsupported": []
+  },
+  "na-c-112": {
+   "status": "verified",
+   "note": "Sept 1876 extension and Fort Yates on the ND Studies page; Hunkpapa, Sihasapa and Upper and Lower Yanktonai on the Standing Rock page.",
+   "fields_unsupported": []
+  },
+  "na-c-220": {
+   "status": "verified",
+   "note": "Territory and 26 May 1637 supported. Two small points: the source says 'before Europeans arrived', the card 'before 1637'; and 'was destroyed' does not say who did it or that 400 to 700 Pequot died, which the cited page gives.",
+   "fields_unsupported": []
+  },
+  "na-c-284": {
+   "status": "verified",
+   "note": "Oklahoma Historical Society supports about 1703, the Michigamea, the river mouth, the French settlements and 1832.",
+   "fields_unsupported": []
+  },
+  "na-c-343": {
+   "status": "verified",
+   "note": "All quotes found. March 1840 and the $5,000 pledge are on NCpedia; 300 acres, the $5,000 fallback, $2,500 and nine years of $1,500 on the SC Encyclopedia; one square mile and invalid ab initio, the right being federal, on the Catawba page. The earlier objection is cured: the terms now read as differing accounts. The 630-acre tract of 1843 in notes is on the SC Encyclopedia, not NCpedia, which gives no year.",
+   "fields_unsupported": []
+  },
+  "na-c-430": {
+   "status": "verified",
+   "note": "All quotes found. October 1855, Yakima Valley and the spread are on HistoryLink 20853, which does not use the name Yakama War; 5311 does and has the same October start. Rains, 700, Kamiakin, 300, Union Gap and 'By 1858' with 90 percent are on 5311 and attributed. No end year is now claimed. The map-caption citation is left over and now only backs the valley's battles; harmless, could be dropped.",
+   "fields_unsupported": []
+  },
+  "na-c-485": {
+   "status": "verified",
+   "note": "Yaanga page supports 1781, the forced relocations and 1847. The trim leaves the page's 'seems to have only remained intact until about 1813' in notes; not misleading.",
+   "fields_unsupported": []
+  },
+  "na-e-012": {
+   "status": "verified",
+   "note": "Every fact is on the Tarahumara page. Single source, as notes say.",
+   "fields_unsupported": []
+  },
+  "na-e-013": {
+   "status": "verified",
+   "note": "All supported; 235 soldiers footnoted to Jones 2009 p. 59, with Schwartz 1990 paired. Dropping 'assault' is harmless. Statement gives no assault day: the Petén page puts negotiations on 10 March and the assault on 13 March, which favours the date field over the Nojpetén page.",
+   "fields_unsupported": []
+  },
+  "na-e-014": {
+   "status": "verified",
+   "note": "All supported, with the two accounts of the killings kept apart. Trim dropped 'Maya' before cacique and the exceptions (Campeche, Mérida, southwest coast); 'most' still holds. Start-date variation stays in notes as before.",
+   "fields_unsupported": []
+  },
+  "na-e-031": {
+   "status": "verified",
+   "note": "All from the Southern Ute page, attributed. '2009 memorandum' covers hunting and fishing; the card says hunting only. Harmless.",
+   "fields_unsupported": []
+  },
+  "na-e-032": {
+   "status": "verified",
+   "note": "Supported. Two points: Newsline's two dozen each side covers the massacre and the ensuing six-day war, not 29 September alone, and the card places it straight after that date. Meeker being assaulted by Canávish, which triggered the telegrams, is on the page and not on the card (absent before the trim too).",
+   "fields_unsupported": []
+  },
+  "na-e-037": {
+   "status": "verified",
+   "note": "All quotes found. The three accounts and Davidson's report are on the battle page. The 250 is footnote 9, Homer K. Davidson, Black Jack Davidson (1974), p. 72, confirmed by footnote order. ~50 killed is footnoted to Gorenfeld; about 20 and the forced retreat are on the Jicarilla War page; 22 and 36 on both. Two to four hours spans the versions. Earlier objections (ambush omitted, merged sources) are cured. 'Simply' is a light gloss on a report that adds the war whoop.",
+   "fields_unsupported": []
+  },
+  "na-e-043": {
+   "status": "verified",
+   "note": "All supported. Trimmed name stays in the title. The Hundred-in-the-Hands citation now supports only the title.",
+   "fields_unsupported": []
+  },
+  "na-e-046": {
+   "status": "verified",
+   "note": "All supported; 250 now properly 'by one estimate'. Trimmed Washita Massacre name is in the title. Page's point that Black Kettle's people 'had been at peace' is reduced to 'Peace Chief'.",
+   "fields_unsupported": []
+  },
+  "na-e-050": {
+   "status": "verified",
+   "note": "All supported. HISTORY.com's own remark that some historians double its figure is in notes only, but Miles's roughly 290 shows the gap. The trigger, a fight between an Indian and a soldier, is not stated (absent before the trim too). Six more soldiers died of wounds per Wikipedia, beyond the 25.",
+   "fields_unsupported": []
+  },
+  "na-e-051": {
+   "status": "verified",
+   "note": "All quotes found. Dates, steamboat, NPS's 125 and the survivors' moves check. 'Conceding the dead could not be counted' cures the earlier objection and keeps the caveat. Two small points: 17,200 sits in a bracket added inside the Commissioner's quotation, as notes half say, though the page introduces it as his report on casualties; and Chardon's twenty-three is 'young and old men', his twenty-seven 'Mandans', so the two counts are not quite alike.",
+   "fields_unsupported": []
+  },
+  "na-e-054": {
+   "status": "verified",
+   "note": "All on the Oklahoma Historical Society page. Wikipedia's Ponca page, also cited, says 'hundreds' died against the attributed 158; not in notes, worth adding.",
+   "fields_unsupported": []
+  },
+  "na-e-055": {
+   "status": "verified",
+   "note": "All supported and DCB attributed. Trim removed the Frog Plain name (title keeps it). DCB's 'apparently without any aggressive intent' is dropped, as is the massacre name; both remain only on the page or in notes.",
+   "fields_unsupported": []
+  },
+  "na-e-056": {
+   "status": "verified",
+   "note": "All supported from DCB and Wikipedia. 'The Company' is never named on the card: the Hudson's Bay Company. Clarity only; same before the trim.",
+   "fields_unsupported": []
+  },
+  "na-e-064": {
+   "status": "verified",
+   "note": "All supported and the reading attributed. 'Whose buffalo were vanishing' rests on 'by 1879'. Trim changes nothing of substance.",
+   "fields_unsupported": []
+  },
+  "na-e-065": {
+   "status": "verified",
+   "note": "All supported. The page's 'unarmed' for the eight and 'was seen to be' protecting the supplies are not on the card; 'stood in the way' is a little firmer than the source.",
+   "fields_unsupported": []
+  },
+  "na-e-070": {
+   "status": "verified",
+   "note": "All supported, including the attributed 'peace and friendship' wording.",
+   "fields_unsupported": []
+  },
+  "na-e-078": {
+   "status": "verified",
+   "note": "All quotes found. June to October, Sullivan and Clinton, four nations, the 1778 raids, Washington's directive, one major battle, 40 villages and crops check. Rhiannon Koehler's first name is on the page. The doubt on her figure is now kept. Small points: 5,036 appears only within the passage on her assumption, though the lead's 'just over 5,000' agrees; and Calloway's several hundred covers that winter at Fort Niagara, Koehler's 5,000 the overall toll, which the statement does not separate.",
+   "fields_unsupported": []
+  },
+  "na-e-079": {
+   "status": "verified",
+   "note": "All supported. Trim changed wording only.",
+   "fields_unsupported": []
+  },
+  "na-e-080": {
+   "status": "verified",
+   "note": "All supported, the 1821 acreage named as such. 'Five Nations' follows the decree. 550,000 acres remains in notes.",
+   "fields_unsupported": []
+  },
+  "na-e-082": {
+   "status": "verified",
+   "note": "All supported. Trim dropped 'in New York' after 'homeland'; the source's phrase is 'traditional homeland in New York State', worth restoring. 'And other considerations' after $100,000 also omitted.",
+   "fields_unsupported": []
+  },
+  "na-e-083": {
+   "status": "verified",
+   "note": "All supported; 'by one account' fits an unfootnoted sentence. Trim changed wording only.",
+   "fields_unsupported": []
+  },
+  "na-e-089": {
+   "status": "verified",
+   "note": "All supported. Trim changed 'the settlement's limits' to 'its limits', and 'its' now has no clear referent. The page says the conference 'did not conclude with the formal signing of a written treaty'; only notes say so, under a title calling it a treaty. Pre-existing, but of consequence.",
+   "fields_unsupported": []
+  },
+  "na-e-117": {
+   "status": "verified",
+   "note": "All quotes found. Date, signers, sakamow, 1726 reaffirmation, commercial clause, the scholars' dispute and the 23 May 1753 burning check. Accounts on 1751 now differ, as CIRNAC and the Treaty of 1752 and Cope pages do. Simon wording and caveat are on the page. Wording: 'as Stephen Patterson later testified' can be misread as his backing the lack of evidence, when he said hostilities did end it; and the page says 'indicated' as Crown's expert, not 'testified'. Suggest 'which Stephen Patterson later argued they did'.",
+   "fields_unsupported": []
+  },
+  "na-e-145": {
+   "status": "verified",
+   "note": "All supported; tally footnoted to Barnett 2007 p. 105. Trim changed 'hundreds of women and children were captured' to 'hundreds', harmless. 28 or 29 November stays in notes.",
+   "fields_unsupported": []
+  },
+  "na-e-155": {
+   "status": "verified",
+   "note": "All supported, Cherokee Nation attributed. March or May 1836 stays in notes.",
+   "fields_unsupported": []
+  },
+  "na-e-158": {
+   "status": "verified",
+   "note": "All from NPS and attributed. Wording only changed by trim.",
+   "fields_unsupported": []
+  },
+  "na-e-183": {
+   "status": "verified",
+   "note": "Supported from NPS. 'After crossing the Bitterroots' is slightly off: the source has Clark going ahead during the trek, 'unprepared for the arduous trek'. Suggest 'during'.",
+   "fields_unsupported": []
+  },
+  "na-e-185": {
+   "status": "verified",
+   "note": "All supported. Trim sharpened 'created the conditions that would eventually lead to' into 'set up the war of 1877', and 90 percent (NPS) is unattributed beside the Tribe's acreage; restoring 'set the conditions for' is advised.",
+   "fields_unsupported": []
+  },
+  "na-e-188": {
+   "status": "verified",
+   "note": "All supported. NPS has two Nez Perce men conveying the promise, and White Bird refusing to surrender, so 'the prisoners' excludes him; Wikipedia has Howard and Miles promising and Sherman overruling them, not on the card. Card puts Indian Territory before the 1879 plea; the page's order is plea, then 'Instead' sent there.",
+   "fields_unsupported": []
+  },
+  "na-e-189": {
+   "status": "verified",
+   "note": "All quotes found; 6 and 12 million, Whitman, the reserved rights, Kamiakin, $200,000, Stevens's assurance, the opening of lands and 1859 check, and the earlier objection on the 6 million is cured. New problem: 'Yakama and allied bands' is the subject of 'were forced, says HistoryLink', but HistoryLink names the Yakama, Umatilla, Cayuse and Walla Walla tribes and never uses 'allied' or 'bands'; neither does the Nation's page use 'allied'. Notes concede the lumping, but readers do not see notes, and the 6 and 12 million then look like one cession. Name the four tribes. Minor: the Nation's own text says 'just one month after', not 'within a month'. Then changed as this note suggests.",
+   "fields_unsupported": []
+  },
+  "na-e-196": {
+   "status": "verified",
+   "note": "All supported, with the ammunition claim attributed. Trimmed Tohotonimme name is in the title. Fighting on 17 to 18 May stays in notes.",
+   "fields_unsupported": []
+  },
+  "na-e-204": {
+   "status": "verified",
+   "note": "All on the Box Elder Treaty page; 29 January to 30 July is six months.",
+   "fields_unsupported": []
+  }
+ }
+}

@@ -371,11 +371,16 @@ def topk_image(S: dict[int, np.ndarray], meta_r, meta_g, ny: int, nx: int) -> np
     return img
 
 
+# How far a slice can sit from the change it marks: its year is rounded to 3 places (up to 5e-4), and a row ending
+# 31 December of a non-leap year stops at N + 365/365.25, short of the next row's N + 1 by 0.25/365.25. Still under
+# half of the day (1/365.25) between two dates, so it never reaches another date's change.
+SLICE_TOL = 5e-4 + 0.25 / 365.25
+
+
 def active(y0, y1, y: float) -> bool:
-    # a slice's year is rounded to 3 places, so it can fall just before the row it starts: within half a
-    # day of a change, the new row is on and the old one off, or a border moves a whole slice late
-    tol = 6e-4
-    return (y0 is None or y0 <= y + tol) and (y1 is None or y < y1 - tol)
+    # within SLICE_TOL of a change the new row is on and the old one off: otherwise a border moves a whole slice
+    # late, or a row ending 31 December goes off with its successor not yet on, and the land draws blank
+    return (y0 is None or y0 <= y + SLICE_TOL) and (y1 is None or y < y1 - SLICE_TOL)
 
 
 def ramp(sd: dict, y: float) -> float:

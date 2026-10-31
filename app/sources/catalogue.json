@@ -2,6 +2,26 @@
   "about": "Every dataset the atlas uses: licence, licence class (public, attribution, share-alike, copyleft, project, noncommercial, unverified; the last two block commercial use), coverage, the build step that fetches or reads it, and caveats. blocks_commercial: an openly licensed source treated as non-commercial anyway, and why. gpl_source: where the source of the layers we build from a GPL source is published (app/scripts/gpl_export.py). markers: strings that appear only in data built from the source (etl/licences.py scans for them). Read by the Layers & sources panel (src/lib/provenance.ts) and the build profiles (etl/profile.py; docs/design/licensing.md) review: who stands behind the dataset, from an outside look (kind peer-reviewed, agency, community or none, with the citation, its link and a short quote showing the review; docs/design/evidence.md); the Layers panel derives each layer's badge from it.",
   "checked": "2026-10-26",
   "rejected": {
+    "starlink-ground-stations-hf": {
+      "name": "28hery/starlink-ground-stations (Hugging Face), a mirror of juliensimon/starlink-ground-stations",
+      "why": "Audited 2026-10-31. CC BY 4.0 on its card, but its Starlink Insider part is under terms that bar copying and commercial use, which the uploader can't relicense. 118 of 209 US rows sit on an FCC site, the other 91 are city geocodes (median 6.8 km off, two over 100 km), and operational/planned is wrong both ways. The FCC's own file is used instead."
+    },
+    "openflights": {
+      "name": "OpenFlights airports, airlines and routes",
+      "why": "Not needed, and not a history: its routes stopped updating in June 2014 and its own page calls them of historical value only, one year's snapshot. ODbL share-alike would also apply to any database derived from it. See docs/design/air-travel.md."
+    },
+    "wikidata-airport-dates": {
+      "name": "Wikidata opening dates of airports, as a layer",
+      "why": "Tested and dropped: 9.3% of Wikidata's airports are dated, and 76% of Europe's scheduled airports against 19-27% elsewhere outside Asia; 4.9% of US public-use airports (33% with commercial service, 1.3% without); 3 of 25 Imperial Airways stops of 1932. It would show where editors were. `etl.research.airport_coverage` measures it, against OurAirports and the FAA register (both public domain), which are used for that test only. See docs/design/air-travel.md."
+    },
+    "polity5": {
+      "name": "Polity5 (Center for Systemic Peace)",
+      "why": "Considered as a fallback and not needed: V-Dem's terms allow this use, and V-Dem publishes the uncertainty of each figure, which a single Polity score doesn't. Its terms were not read."
+    },
+    "bmr": {
+      "name": "Boix, Miller & Rosato dichotomous democracy data",
+      "why": "Considered as a fallback and not needed: V-Dem's terms allow this use, and a yes-or-no class has no uncertainty to show. Its terms were not read."
+    },
     "aiatsis": {
       "name": "AIATSIS Map of Indigenous Australia (David Horton, 1996)",
       "why": "Not usable as boundaries: AIATSIS states the map shows only the general location of larger groupings, is not suitable for native title or land claims, and is not to be reproduced without permission. The Australia scene draws no Aboriginal nation boundaries."
@@ -18,10 +38,37 @@
       "name": "GBIF occurrence records (the dated Wildlife records layer, removed 2026-10-31)",
       "why": "Records rise as animals vanish: bison records peak in the 1880s, as the herds were destroyed, because collectors raced to get specimens. The layer showed collecting, not population. See docs/design/policy.md."
     },
+    "campop-rail-later": {
+      "name": "England, Wales and Scotland Rail Lines 1861, 1881 and the dated GIS 1807-1994 (Cambridge Group)",
+      "why": "The 1861 and 1881 maps are for registered users under the UK Data Service's end-user licence, and the dated GIS is limited to its teams for reasons of copyright. Only the 1851 map is CC BY."
+    },
+    "ohm-rail": {
+      "name": "OpenHistoricalMap railways",
+      "why": "CC0, and about 181,000 ways have a start date, but they are not dated and sourced as this layer needs: of 300 sampled around Paris 269 are dated 1980 or later, for a modern rebuilt section, and most carry no source. A map of them would show who tagged what."
+    },
+    "france-hgis": {
+      "name": "French Historical GIS, 1700-2020 (Zenodo 23011193)",
+      "why": "CC BY-NC 4.0, so not in a commercial build, and its railway file wasn't in the record's downloads on 2026-10-31: only the communes are. Worth a second look when it is, for France."
+    },
+    "lleida-europe": {
+      "name": "Historical GIS of European railways, 1830-2010 (Martí-Henneberg, Lleida)",
+      "why": "No public download or licence found; the papers describe it but don't release it. Only Spain's part is deposited."
+    },
+    "galicia-rail": {
+      "name": "Railway network of Galicia and Austrian Silesia, 1847-1914 (Kaim et al. 2020)",
+      "why": "The journal page refuses scripts and its data record on Mendeley couldn't be found by script, so its licence couldn't be read. The article itself is CC BY-NC."
+    },
+    "orbis-api": {
+      "name": "ORBIS site and API (orbis.stanford.edu)",
+      "why": "States no terms for its API, so not scraped. Not needed: the authors deposited the network under CC BY 3.0 (see orbis)."
+    },
     "gbif-density": {
       "name": "GBIF occurrence density by decade",
       "why": "Mostly maps where people looked: record counts track collectors and apps, not animals."
     },
+    "berkeley-earth": {"name": "Berkeley Earth temperature", "why": "CC BY-NC: a commercial edition could not use it. GISTEMP is used."},
+    "vnp46a4": {"name": "NASA Black Marble yearly radiance (VNP46A4), 2012 on", "why": "The right data for Lights at night, but its download needs an Earthdata sign-in, and it is about 48 GB a year. NASA's two tone-mapped composites are used until the owner decides."},
+    "wb-light-every-night": {"name": "World Bank Light Every Night", "why": "Nightly imagery under the ODbL, a share-alike database licence, not yearly composites."},
     "coldat": {
       "name": "Colonial Dates Dataset (COLDAT, Becker 2019)",
       "why": "Not needed: CShapes 2.0's own owner field names each colony's sovereign. Its licence was not confirmed (the paper is CC BY-NC-SA)."
@@ -263,6 +310,110 @@
         "Its modern locations (OpenStreetMap's, attested 1700-2100) are left out of the dates."
       ],
       "note": "Cite as: Pleiades, ed. Bagnall et al., https://pleiades.stoa.org/, with each place's own page."
+    },
+    "ucdp-ged": {
+      "name": "UCDP Georeferenced Event Dataset (GED), Global version 26.1",
+      "licence": "CC BY 4.0",
+      "cls": "attribution",
+      "url": "https://ucdp.uu.se/downloads/",
+      "review": {"kind": "peer-reviewed", "evidence": "Sundberg & Melander 2013, Journal of Peace Research", "url": "https://doi.org/10.1177/0022343313484347", "quote": "JPR operates a double-blind peer review process", "quote_url": "https://www.prio.org/journals/JPR/submissions", "checked": "2026-10-31", "note": "The method paper is peer-reviewed; the death estimates are UCDP's coding of news and other reports. Sage's own instructions page refuses scripts; the quote is from PRIO's page for the journal it edits."},
+      "coverage": "417,968 events, 1 January 1989 to December 2025; 4,257,891 deaths by the sum of its best estimates. State-based 292,121, non-state 61,451, one-sided 64,396. Each is shown with UCDP's best, low and high estimates and its own precision codes. Cite as: Sundberg, Ralph and Erik Melander, 2013, Introducing the UCDP Georeferenced Event Dataset, Journal of Peace Research 50(4): 523-532; Högbladh, Stina, 2026, UCDP GED Codebook version 26.1, Uppsala University. The monthly Candidate releases for 2026 are left out: they have not had the full year's review.",
+      "steps": ["fetch.violence"],
+      "caveats": [
+        "A record of what was reported: the codebook says the aim is comparison of patterns, not \"the most complete and accurate image of a certain conflict at a certain point in time\".",
+        "Direct deaths only, from organised actors, in dyads that reached 25 deaths in some calendar year.",
+        "Totals reported for an area and a period are one event at one point (Gaza's monthly totals; northern Ethiopia's 121,848 in 2022), shown as rings.",
+        "5,075 events have a low above the best or a high below it: 2,397 summary events, which the codebook explains, and 2,678 others it does not. The card shows them as UCDP has them."
+      ]
+    },
+    "gcat": {
+      "name": "General Catalog of Artificial Space Objects (GCAT), Jonathan C. McDowell",
+      "licence": "CC BY 4.0; cite as: data from GCAT (J. McDowell, planet4589.org/space/gcat)",
+      "cls": "attribution",
+      "url": "https://planet4589.org/space/gcat/",
+      "review": {"kind": "none", "evidence": "One astrophysicist's catalogue, with its sources and doubts flagged per field", "url": "https://planet4589.org/space/gcat/web/cat/cols.html", "quote": "A '?' means the value is a guess.", "checked": "2026-10-31", "note": "McDowell is a Harvard-Smithsonian astrophysicist and the catalogue is widely cited, but no outside quality process could be confirmed."},
+      "coverage": "Every catalogued object launched into orbit since 1957: launch dates, end dates, one representative orbit (perigee, apogee, inclination), and the orbital launch log. 69,999 objects and 7,441 launches at the last build.",
+      "steps": ["fetch.satellites"],
+      "caveats": [
+        "One representative orbit per object, from early in its life: later moves are not followed.",
+        "No orbit's orientation or phase: so the atlas draws past orbits by latitude only, and no past positions.",
+        "Classified objects and debris are as well known as outsiders can know them."
+      ]
+    },
+    "celestrak": {
+      "name": "CelesTrak general perturbations (GP) elements, group 'active' (T. S. Kelso), from US Space Force tracking",
+      "licence": "No licence stated. Free to fetch under its usage policy (one download per update, stop on any refusal, proxy to cache for many users); we relay and cache, and ship no copy in the built files",
+      "cls": "unverified",
+      "url": "https://celestrak.org/NORAD/elements/",
+      "review": {"kind": "none", "evidence": "Operational tracking data, republished", "url": "https://celestrak.org/usage-policy.php", "quote": "only download data once per update.", "checked": "2026-10-31", "note": "Usable to within km of its date only: not a positional record."},
+      "coverage": "Payloads CelesTrak lists as active, at the latest elements. Not in the built files: the visitor's browser reads them through the tile Worker's cache (infra/tiles-worker/worker.js, /sat/active).",
+      "steps": ["infra/tiles-worker/worker.js"],
+      "caveats": [
+        "Space-Track's agreement has historically barred passing its data to third parties without approval, and CelesTrak states nothing on redistribution. See licensing.md: a question for the owner before a commercial edition.",
+        "Classified payloads aren't in it, and SGP4 drifts by km a day from the elements' date: dots are drawn only within three days of it."
+      ]
+    },
+    "glottolog": {
+      "name": "Glottolog 5.3 (Hammarström, Forkel, Haspelmath & Bank)",
+      "licence": "CC BY 4.0",
+      "cls": "attribution",
+      "url": "https://glottolog.org/meta/downloads",
+      "review": {"kind": "none", "evidence": "Glottolog, compiled by its editors", "url": "https://glottolog.org/glottolog/glottologinformation", "quote": "coordinates are attributes close to observation and are therefore not given with a specific source in Glottolog", "checked": "2026-10-31", "note": "A scholarly reference, kept by its editors from the literature, with no peer-reviewed methods paper we could confirm for the coordinates."},
+      "coverage": "7,999 languages with a coordinate, of 8,618 at language level: 380 bookkeeping entries and those with no coordinate left out, and the speech registers, unattested names and artificial languages. Status (extinct or dormant: 1,050) from glottolog-cldf 5.3, CC BY 4.0. Cite as: Hammarström, Harald, Robert Forkel, Martin Haspelmath and Sebastian Bank, 2026, Glottolog 5.3, Leipzig: Max Planck Institute for Evolutionary Anthropology, doi:10.5281/zenodo.15525265.",
+      "steps": ["fetch.languages"],
+      "caveats": [
+        "A representative point for each language, often the centre of where its speakers live, sometimes a historical location: not a range, and undated.",
+        "It says nothing about how many people speak a language."
+      ]
+    },
+    "vdem": {
+      "name": "V-Dem Dataset v16 (Varieties of Democracy Project)",
+      "licence": "CC BY-SA 4.0",
+      "cls": "share-alike",
+      "url": "https://www.v-dem.net/data/the-v-dem-dataset/",
+      "review": {"kind": "peer-reviewed", "evidence": "Teorell et al. 2019, Studies in Comparative International Development", "url": "https://doi.org/10.1007/s12116-018-9268-z", "quote": "In order to ensure that the author(s) remain anonymous to the reviewers throughout the peer review process", "quote_url": "https://link.springer.com/journal/12116/submission-guidelines", "checked": "2026-10-31", "note": "The paper on the index's method is peer-reviewed; the figures themselves are expert ratings combined by V-Dem's measurement model."},
+      "coverage": "The Electoral Democracy Index (v2x_polyarchy), with its 68% interval (_codelow, _codehigh), 1789-2025; Regimes of the World with ambiguous cases (v2x_regime_amb), 1900-2025. Read from the V-Dem Institute's own R package at its v16 commit, since the website's download asks for an email in a form. Cite as: Coppedge, Michael et al., 2026, V-Dem Country-Year Dataset v16, Varieties of Democracy Project, doi:10.23696/vdemds26.",
+      "steps": ["base.indicators"],
+      "caveats": [
+        "An estimate from experts' ratings: 68% of the model's probability lies in the interval, which is about one standard deviation either side.",
+        "V-Dem warns of artificial changes where historical and contemporary coding meet (typically 1900), and of attrition among experts in recent years.",
+        "CC BY-SA 4.0: public/data/world/indicators/democracy.json is a derivative, says so in the file, and is kept apart from the shapes, which stay CC BY 4.0. The rest of the atlas is a collection beside it, as with Wikipedia's text (docs/design/licensing.md)."
+      ]
+    },
+    "fcc-21-48": {
+      "name": "FCC 21-48, Space Exploration Holdings order and authorisation (27 April 2021)",
+      "licence": "US Government work (17 USC 105), public domain",
+      "cls": "public",
+      "url": "https://docs.fcc.gov/public/attachments/FCC-21-48A1.pdf",
+      "review": {"kind": "agency", "evidence": "A regulator's order", "url": "https://docs.fcc.gov/public/attachments/FCC-21-48A1.pdf", "quote": "SpaceX is authorized to operate with earth station elevation angles as low as 25 degrees for user terminals and gateways", "checked": "2026-10-31"},
+      "coverage": "Two figures for the Starlink overhead model: the 25 degree minimum elevation angle, and shells at 540 to 570 km.",
+      "steps": ["fetch.satellites"],
+      "caveats": ["The FCC has since allowed lower angles in some conditions (DA 23-369, above 53 degrees in specified bands, from 2023), so 25 degrees is conservative for today."]
+    },
+    "fcc-ibfs": {
+      "name": "FCC International Bureau Filing System (IBFS) bulk data, SpaceX earth-station filings",
+      "licence": "US Government work (17 USC 105), public record",
+      "cls": "public",
+      "url": "https://www.fcc.gov/licensing-databases/search-fcc-databases",
+      "review": {"kind": "agency", "evidence": "A regulator's own register of filings and actions", "url": "https://www.fcc.gov/reports-research/developers", "quote": "SpaceX Services seeks authority for a new dual-band gateway earth", "checked": "2026-10-31", "note": "Filings' stated sites and actions. It doesn't say what was built."},
+      "coverage": "240 SpaceX sites within about 1 km, 220 with a grant, first filings from March 2019 to June 2025: the newest in the file, last modified July 2026. FCC moved new filings elsewhere, so it stops short.",
+      "steps": ["fetch.starlink_map (public/data/satellites/stations-fcc.json)"],
+      "caveats": ["A filing or grant isn't a built or working gateway.", "US only: other regulators' registers (Ofcom, ISED, ACMA and more) aren't here."]
+    },
+    "starlink-cells": {
+      "name": "Starlink availability cells: Starlink's public file, kept by clarkzjw/starlink-geoip-data and the Wayback Machine",
+      "licence": "Repository: CC BY-SA 4.0 (Jinwei Zhao). Starlink's own rights in the file are not stated: its Terms of Service, Acceptable Use Policy, Software Licence and Intellectual Property pages don't mention automated access or this file",
+      "cls": "share-alike",
+      "blocks_commercial": "Starlink's own rights in its file aren't stated; the compiler's CC BY-SA can't settle them.",
+      "url": "https://github.com/clarkzjw/starlink-geoip-data/tree/master/availability",
+      "review": {"kind": "none", "evidence": "A company's marketing file, unexplained, kept by a researcher", "url": "https://github.com/clarkzjw/starlink-geoip-data/blob/master/availability/README.md", "quote": "This directory contains Starlink availability cells information generated using the public Geobuf file", "checked": "2026-10-31"},
+      "coverage": "37 distinct snapshots, 15 April 2024 to 21 February 2026, and the live file was byte-identical on 31 October 2026. Exceptions only: waitlisted or sold out, coming soon, test, blacklisted, with Antarctica as launched. Open countries aren't in it.",
+      "steps": ["fetch.starlink_map (public/data/satellites/starlink-map/, stations-community.json)"],
+      "caveats": [
+        "Class names are Starlink's and unexplained.",
+        "A snapshot's date is when a copy was seen, not when it changed. Wayback gaps run up to several weeks.",
+        "Share-alike: the derived files in starlink-map/ are CC BY-SA 4.0 and stay separate from the other data."
+      ]
     },
     "usgs-comcat": {
       "name": "ANSS Comprehensive Earthquake Catalog (ComCat), USGS",
@@ -506,6 +657,179 @@
       "steps": ["base.oldmaps"],
       "caveats": ["Placed by the map's own projection, measured on the scan; one longitude offset fitted on a few control points.", "Control points were read from the scan by AI (Claude) and are not yet verified."],
       "note": "Each map's source file is in sources/oldmaps/, with its projection and control points."
+    },
+    "dmsp-ols": {
+      "name": "DMSP-OLS Nighttime Lights Time Series v4 (image and data processing by NOAA's National Geophysical Data Center, now Earth Observation Group, Colorado School of Mines; DMSP data collected by the US Air Force Weather Agency)",
+      "licence": "CC BY 4.0, per EOG's licence statement; the data began as a US Government work. Credit: Source: EOG, Colorado School of Mines",
+      "cls": "attribution",
+      "url": "https://eogdata.mines.edu/products/dmsp/",
+      "review": {"kind": "peer-reviewed", "evidence": "Elvidge et al. 1997, Photogrammetric Engineering and Remote Sensing; Hsu et al. 2015, Remote Sensing", "url": "https://doi.org/10.3390/rs70201855", "quote": "DMSP-OLS Radiance Calibrated Nighttime Lights Time Series with Intercalibration", "quote_url": "https://eogdata.mines.edu/files/EOG_products_CC_License.pdf", "checked": "2026-10-31", "note": "The quote is EOG's licence statement naming the papers to cite for its DMSP products, in journals that review papers. Its composites themselves are an agency product."},
+      "evidence": "observed",
+      "coverage": "Worldwide from 65 S to 75 N, 30 arc seconds, yearly 1992-2013; we use stable lights, one satellite each for 1992, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012 and 2013, as means over 0.125 degrees.",
+      "steps": ["base.lights"],
+      "caveats": ["Digital numbers 0-63, relative and not radiance; city centres saturate at 63.", "The sensors weren't calibrated against each other, so a change between satellites can be the sensor.", "It can't be compared with VIIRS.", "Light is not population or wealth; gas flares stay in stable lights."],
+      "note": "EOG's statement (eogdata.mines.edu/files/EOG_products_CC_License.pdf) reads that it makes \"many of their datasets publicly available under the Creative Commons Attribution 4.0 International license\", naming \"the DMSP nighttime lights\", and asks for the credit line \"Source: EOG, Colorado School of Mines\". So this is treated as CC BY 4.0, not public domain, although NOAA first published it as a federal product. EOG's own download needs a sign-in and NOAA's address is gone (404), so the build reads the Internet Archive's April 2026 captures of NOAA's address."
+    },
+    "black-marble": {
+      "name": "Black Marble 2012 and 2016 (NASA, from Suomi NPP VIIRS), via NASA's Global Imagery Browse Services (GIBS)",
+      "licence": "US Government work: NASA content \"generally are not subject to copyright in the United States\"; acknowledge GIBS",
+      "cls": "public",
+      "url": "https://nasa-gibs.github.io/gibs-api-docs/",
+      "review": {"kind": "none", "evidence": "NASA's Black Marble composites, as visualisations", "url": "https://nasa-gibs.github.io/gibs-api-docs/", "quote": "NASA promotes full and open sharing of data", "checked": "2026-10-31", "note": "None: these two composites are visualisations, and no quality process for them as data could be confirmed, so Published. The radiance product behind Black Marble (VNP46A4) has methods papers but needs an Earthdata sign-in and about 48 GB a year, so it isn't used."},
+      "evidence": "observed",
+      "coverage": "Worldwide, the composites for 2012 and 2016 only; read at GIBS's 500 m tile level 4 and averaged to 0.125 degrees, from 65 S to 75 N to match DMSP.",
+      "steps": ["base.lights"],
+      "caveats": ["A picture tone-mapped by NASA for viewing, not radiance. We read warm pixels' red channel as the light, which clears moonlit ice and land.", "Two years only. Nothing here after 2016.", "It can't be compared with DMSP-OLS."],
+      "note": "GIBS asks for this acknowledgement: We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS). The not-subject-to-copyright wording is NASA's Images and Media Usage Guidelines (nasa.gov/nasa-brand-center/images-and-media)."
+    },
+    "hansen-gfc": {
+      "name": "Global Forest Change 2000-2024 v1.12 (Hansen/UMD/Google/USGS/NASA; Hansen et al. 2013)",
+      "licence": "CC BY 4.0. Credit: Source: Hansen/UMD/Google/USGS/NASA",
+      "cls": "attribution",
+      "url": "https://glad.earthengine.app/view/global-forest-change",
+      "review": {"kind": "peer-reviewed", "evidence": "Hansen et al. 2013, Science", "url": "https://doi.org/10.1126/science.1244693", "quote": "High-Resolution Global Maps of 21st-Century Forest Cover Change", "quote_url": "https://storage.googleapis.com/earthenginepartners-hansen/GFC-2024-v1.12/download.html", "checked": "2026-10-31", "note": "Full citation: Hansen et al. 2013, Science 342, 850-853, the citation GLAD asks for. The yearly updates since then have been added by algorithms adjusted over time, as GLAD's own notes say."},
+      "evidence": "observed",
+      "coverage": "From 80 N to 60 S, 0.00025 degrees (about 30 m at the equator), loss year 2001-2024. We use the 280 tiles with a loss file, as the share of each 0.125-degree cell's whole area, added up by year. Not the tree cover of 2000, which is 59 GB more, or gain.",
+      "steps": ["base.forest"],
+      "caveats": ["Tree cover lost, not deforestation: logging, fire, storms and plantation rotations count, and later regrowth isn't taken off.", "A relative indicator, by its makers' words: Landsat's sensors and the algorithm changed over 2001-2024, so years aren't evenly comparable. They suggest a moving average for trends.", "Its makers say \"definitive area estimation should not be made using pixels counts\", so the layer shows shares and no hectares.", "A blank cell can be intact forest or land with no trees."],
+      "note": "GLAD's download page reads: \"This work is licensed under a Creative Commons Attribution 4.0 International License\", and gives the credit \"Source: Hansen/UMD/Google/USGS/NASA\" for when the data are displayed. Saved copy not kept: storage.googleapis.com/earthenginepartners-hansen/GFC-2024-v1.12/download.html."
+    },
+    "gistemp": {
+      "name": "GISTEMP v4, GISS Surface Temperature Analysis (NASA Goddard Institute for Space Studies; Lenssen et al. 2024)",
+      "licence": "US Government work: NASA content \"generally are not subject to copyright in the United States\"; credit NASA GISS/GISTEMP and cite its page and paper",
+      "cls": "public",
+      "url": "https://data.giss.nasa.gov/gistemp/",
+      "review": {"kind": "peer-reviewed", "evidence": "Lenssen et al. 2024, JGR Atmospheres", "url": "https://doi.org/10.1029/2023JD040179", "quote": "Hansen et al. (2010) and Lenssen et al. (2024)", "quote_url": "https://data.giss.nasa.gov/gistemp/", "checked": "2026-10-31", "note": "Full citation: Lenssen, Schmidt, Hendrickson, Jacobs, Menne and Ruedy 2024, A NASA GISTEMPv4 Observational Uncertainty Ensemble, Journal of Geophysical Research: Atmospheres 129, e2023JD040179. The publisher's history in Crossref gives received 2023-10-09, accepted 2024-08-13; the method is Hansen et al. 2010, Reviews of Geophysics. The quote is the GISTEMP page naming these as the method's publications."},
+      "evidence": "observed",
+      "coverage": "Worldwide, 2-degree grid, monthly from 1880, land stations (GHCN v4) and sea surface temperatures (ERSST v5) combined, each station reaching up to 1,200 km. Anomalies from each place's 1951-1980 average, not temperatures. The layer takes annual means.",
+      "steps": ["base.temperature"],
+      "caveats": ["It is a difference from a local average, not a temperature.", "A cell can rest on stations up to 1,200 km away, and on very few before about 1950.", "Our annual cell rule (3 of 4 seasons, each with 2 of 3 months) is ours; the global figure shown is NASA's own table.", "NASA revises recent and past figures a little as late reports and corrections arrive."],
+      "note": "NASA's page reads: \"Please credit 'NASA's Goddard Institute for Space Studies' or, if space is limited, 'NASA GISS/GISTEMP'\", of graphics made with its tools; the page states nothing further about the data files. The not-subject-to-copyright wording is NASA's Images and Media Usage Guidelines (nasa.gov/nasa-brand-center/images-and-media). Its inputs are NOAA's (GHCN, ERSST), US Government works, with SCAR's READER stations for Antarctica, which GISTEMP has already folded in. Berkeley Earth is not used: CC BY-NC."
+    },
+    "orbis": {
+      "name": "ORBIS (v2) Network Edge and Node Tables (Meeks, Scheidel, Weiland and Arcenas 2014)",
+      "licence": "CC BY 3.0: the Stanford Digital Repository record gives \"Creative Commons Attribution 3.0 Unported license (CC BY)\". Positions come from the authors' orbis_v2 repository (MIT), since the deposit has 68 blank or at 0,0 and 28 flipped.",
+      "cls": "attribution",
+      "url": "https://purl.stanford.edu/mn425tz9757",
+      "review": {
+        "kind": "none",
+        "evidence": "The authors' working paper, on their own site, describes the model; simulations were checked against over 200 documented sailing times",
+        "url": "https://github.com/emeeks/orbis_stanford/blob/master/documentation/ORBIS_v1paper_20120501.pdf",
+        "quote": "No one traveler would encounter such outcomes except by chance.",
+        "checked": "2026-10-31",
+        "note": "Full citation, as the record asks: Meeks, Scheidel, Weiland and Arcenas. (2014). ORBIS (v2) Network Edge and Node Tables. Stanford Digital Repository. Available at: http://purl.stanford.edu/mn425tz9757. Tiles on the ORBIS site itself are AWMC's, CC BY-NC 3.0: we don't use them, and nothing was scraped from the site."
+      },
+      "coverage": "678 sites and 2,208 edges of the Roman world, conditions around 200 CE. The layer shows the 639 named sites and uses every edge.",
+      "steps": [
+        "history.orbis"
+      ],
+      "caveats": [
+        "A model: one setting of it, with one time per route where the ORBIS site gives one for each month. Where two sites had a road and a river it keeps the cheapest only, so a few times are slower than the fastest ORBIS would find.",
+        "No waiting for a ship or for spring, and no winter closure of the seas, so places reached by sea read nearer than they often were.",
+        "Against the authors' July figures: Rome-Athens 10.8 days here, 10.2 there; Carthage-London 25.9 here, 27.2 there.",
+        "Dots only: the deposit's edges have no geometry, and we draw nothing between sites."
+      ],
+      "note": "Rejected reuse of the live site and its API: orbis.stanford.edu states no terms for its API, and the deposit made scraping needless."
+    },
+    "atack": {
+      "name": "Historical GIS database of U.S. Railroads (Jeremy Atack, Vanderbilt)",
+      "licence": "Free to use with credit: the shapefile's metadata says \"These data may be freely used by anyone provided that their source is properly noted and acknowledged as above.\" No standard licence is named.",
+      "cls": "attribution",
+      "url": "https://my.vanderbilt.edu/jeremyatack/data-downloads/",
+      "review": {
+        "kind": "none",
+        "evidence": "A scholar's database with a published method (Atack 2021 draft; Routledge Companion to Spatial History, 2018)",
+        "url": "https://cdn.vanderbilt.edu/t2-my/my-prd/wp-content/uploads/sites/133/2021/02/Creating-Historical-Transportation-Shapefiles-RevisedFeb2021.pdf",
+        "quote": "provides a rough dating as to when each stretch of line was built",
+        "checked": "2026-10-31",
+        "note": "Cite as Atack asks: Jeremy Atack, \"Historical Geographic Information Systems (GIS) database of U.S. Railroads for [selected years]\" (May 2016; revised Oct 31, 2023). The atlas draws 1826-1911."
+      },
+      "coverage": "Lower 48 states, 1826-1911: 76,849 pieces of track, about 372,000 km by 1911.",
+      "steps": ["history.railways"],
+      "caveats": [
+        "A line's date is the first map showing it, or Hallberg's opening year where he has one (about 3% of pieces). So it shows when a line was known to be in service, and the jumps of 1872, 1881, 1889 and 1893 are maps.",
+        "It records no closures, so lines abandoned before 1911 stay on the map.",
+        "Routes follow modern federal and old USGS maps; existence comes from period maps. Short pieces dated after 1911 are left out."
+      ]
+    },
+    "georia": {
+      "name": "Historical Canadian Railroads (GEORIA, University of Toronto and Université Laval)",
+      "licence": "CC BY-NC-SA 4.0, on its Borealis record",
+      "cls": "noncommercial",
+      "url": "https://doi.org/10.5683/SP2/UCCFVQ",
+      "review": {
+        "kind": "none",
+        "evidence": "A university project's GIS, from a published atlas (Andreae, Lines of Country, 1997)",
+        "url": "https://doi.org/10.5683/SP2/UCCFVQ",
+        "quote": "Modified from a proprietary dataset produced by ESRI Canada.",
+        "checked": "2026-10-31",
+        "note": "Linework from the National Atlas of Canada at 1:2,000,000 with lines added from other sources. Its description says it was modified from an ESRI Canada dataset, while the record itself gives CC BY-NC-SA: the commercial build leaves it out in any case. Share-alike: the file the atlas builds from it stays CC BY-NC-SA."
+      },
+      "coverage": "Canada, from 1836: 3,050 pieces with construction and abandonment years.",
+      "steps": ["history.railways"],
+      "caveats": [
+        "Nominal scale 1:2,000,000, the coarsest of the sets.",
+        "Year codes: -99 unknown, -98 questionable, -97 never opened. A line with one as its opening isn't drawn; with one as its closing it stays open."
+      ]
+    },
+    "railways-spain": {
+      "name": "Railways of Spain GIS, 1848-2023 (Esteban-Oliver and Martí-Henneberg, Universitat de Lleida)",
+      "licence": "CC BY 4.0, on its CORA record",
+      "cls": "attribution",
+      "url": "https://doi.org/10.34810/data917",
+      "review": {
+        "kind": "none",
+        "evidence": "A university deposit; its readme describes the method and says the related article was submitted for review",
+        "url": "https://doi.org/10.34810/data917",
+        "quote": "We digitised and georeferenced the mentioned maps as primary sources.",
+        "checked": "2026-10-31"
+      },
+      "coverage": "Spain without the Canaries, Ceuta and Melilla, 1848-2023: Iberian, narrow and high-speed gauge lines with opening, closure and reopening years.",
+      "steps": ["history.railways"],
+      "caveats": ["It includes all rail transport, tram-railways among them, so it runs a little wider than a main-line network."]
+    },
+    "railways-gb1851": {
+      "name": "1851 England, Wales and Scotland Rail Lines (Satchell, Shaw-Taylor, Wrigley et al., Cambridge Group)",
+      "licence": "CC BY 4.0, on its ReShare record (SN 852991)",
+      "cls": "attribution",
+      "url": "https://doi.org/10.5255/UKDA-SN-852991",
+      "review": {
+        "kind": "none",
+        "evidence": "A university deposit, digitised from Cobb's atlas, The Railways of Great Britain",
+        "url": "https://www.campop.geog.cam.ac.uk/research/occupations/datasets/catalogues/documentation/engwalesscotlandrail_lines1807to1994.pdf",
+        "quote": "use of this GIS has to be limited to the Cambridge and Lledia teams",
+        "checked": "2026-10-31"
+      },
+      "coverage": "England, Wales and Scotland: the 6,336 miles of line open in 1851.",
+      "steps": ["history.railways"],
+      "caveats": ["One date. It holds to 1860 and stops, since the 1861 and 1881 maps (SN 852992, 852993) are under the UK Data Service's end-user licence and the dated GIS isn't released."]
+    },
+    "cliwoc": {
+      "name": "CLIWOC Database 2.1 (García-Herrera 2007, PANGAEA)",
+      "licence": "CC BY 3.0: the PANGAEA landing page gives \"Creative Commons Attribution 3.0 Unported (CC-BY-3.0)\"",
+      "cls": "attribution",
+      "url": "https://doi.org/10.1594/PANGAEA.743343",
+      "review": {
+        "kind": "none",
+        "evidence": "A project database of logbook abstracts, deposited at PANGAEA; the project's own British team reports how little of the archive it used",
+        "url": "https://web.archive.org/web/2015/https://icoads.noaa.gov/reclaim/pdf/British_logbooks_v3.pdf",
+        "quote": "less than 5% of British logbooks were exploited and none after 1830",
+        "checked": "2026-10-31",
+        "note": "Cite the data as PANGAEA asks: García-Herrera, Ricardo (2007): CLIWOC Database 2.1 (final release, original IMMA format) [dataset]. PANGAEA, https://doi.org/10.1594/PANGAEA.743343, In: Jones, Philip D; Wheeler, Dennis A; Können, Gunther P; Koek, Frits B; Prieto, Maria del Rosario; García-Herrera, Ricardo (2007): Climatological observations from ship logbooks between 1750 and 1854 (release 2.1) [dataset publication series]. PANGAEA, https://doi.org/10.1594/PANGAEA.611088. On the logs' accuracy see Wheeler 2005, Climatic Change 73, 97-116, https://doi.org/10.1007/s10584-005-6950-8; Springer refuses scripts, so it was not read here."
+      },
+      "evidence": "observed",
+      "coverage": "British, Dutch, French and Spanish ships' logbooks, 1662-1855; 287,114 rows, 260,639 with a date and a position. The layer uses 1750-1854: 251,015 ship-days.",
+      "steps": [
+        "history.logbooks"
+      ],
+      "caveats": [
+        "A sample of surviving logs chosen for their weather, not traffic: Wilkinson (the project's British team) says \"less than 5% of British logbooks were exploited and none after 1830\".",
+        "Only four nations, and the mix moves with what was abstracted: 87% British in the 1800s, over 97% Dutch from the 1830s. The panel gives each decade's mix and switches each nation.",
+        "Positions are the navigators' own, from over 450 prime meridians (Wilkinson), converted by the project. 0.5% of ship-days fall well inland in a modern land map, a rough floor on large errors.",
+        "A ship at anchor counts every day, so ports read dark. One ship on one date counts once: 8,659 repeated rows are dropped.",
+        "Blank means no log in this set, never no ships. The 926 positions before 1750 are left out as too few."
+      ],
+      "note": "The file is CLIWOC21LIM.zip from https://hs.pangaea.de/Projects/CLIWOC/, listed on the landing page. A copy on HistoricalClimatology.com states no licence of its own, so it is not used. Wilkinson, British Logbooks in UK Archives, 17th-19th centuries (report for NOAA's climate database modernisation programme), read at https://web.archive.org/web/2015/https://icoads.noaa.gov/reclaim/pdf/British_logbooks_v3.pdf."
     },
     "aowl": {
       "name": "American Offshore Whaling Logbook Data (New Bedford Whaling Museum, Nantucket Historical Association, Mystic Seaport Museum)",

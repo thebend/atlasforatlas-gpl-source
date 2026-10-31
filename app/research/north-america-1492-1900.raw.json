@@ -476,6 +476,14 @@
       {
         "date": "2026-10-31",
         "note": "Corrections after a second independent verification (partw1, partw2): 46 events, mostly naming who gives a figure or cutting a figure no one gives; na-e-038 and na-e-194 moved to their treaty grounds. The catalogue was first researched by claude-sonnet (meta.model until now); its events were rewritten and corrected by claude-opus-5-5."
+      },
+      {
+        "date": "2026-10-31",
+        "note": "2 items rewritten to the card-depth bar (short statements researched, long quotes trimmed, close paraphrases reworded), re-verified in verification.partz1"
+      },
+      {
+        "date": "2026-10-31",
+        "note": "39 items rewritten to the card-depth bar (short statements researched, long quotes trimmed, close paraphrases reworded), re-verified in verification.partz1"
       }
     ]
   },
@@ -5565,7 +5573,7 @@
         "precision": "year"
       },
       "to": null,
-      "statement": "Since 1878 the Northern Arapaho have lived with the Eastern Shoshone on the Wind River Reservation in Wyoming and are federally recognised as the Northern Arapaho Tribe.",
+      "statement": "The Northern Arapaho Tribe, federally recognised, shares the Wind River Reservation in Wyoming with the Eastern Shoshone, a joint residence that dates from 1878.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Arapaho",
@@ -5877,17 +5885,23 @@
         "precision": "month"
       },
       "to": null,
-      "statement": "In September 1876 the unceded lands of northern Dakota Territory became part of the Sioux Reservation, with an agency at Fort Yates; Standing Rock is home to Hunkpapa and other Lakota and to Yanktonai.",
+      "statement": "In September 1876 the Sioux Reservation was extended over the unceded lands of northern Dakota Territory, with an agency at Fort Yates; Standing Rock is home to Hunkpapa and other Lakota and to Yanktonai.",
       "citations": [
         {
           "url": "https://www.ndstudies.gov/gr8/node/174",
           "title": "Standing Rock Reservation (North Dakota Studies, State Historical Society of North Dakota)",
           "quote": "In September, 1876, the unceded lands in northern Dakota Territory became part of the Sioux Reservation with an agency at Fort Yates.",
           "kind": "government"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Standing_Rock_Indian_Reservation",
+          "title": "Standing Rock Indian Reservation - Wikipedia",
+          "quote": "Hunkpapa and Sihasapa bands of Lakota Oyate and the Ihunktuwona and Pabaksa bands of the Dakota Oyate",
+          "kind": "wikipedia"
         }
       ],
       "confidence": "medium",
-      "notes": "Standing Rock Reservation was set apart as its own reservation by the 1889 Act."
+      "notes": "Standing Rock Reservation was set apart as its own reservation by the 1889 Act. Added a quote for the Hunkpapa, Lakota and Yanktonai (Dakota) peoples of Standing Rock, which the North Dakota page does not name."
     },
     {
       "id": "na-c-113",
@@ -10288,7 +10302,7 @@
         "day": 26,
         "precision": "day"
       },
-      "statement": "Before 1637 Pequot lands covered all of southeastern Connecticut, from the Nehantic River to the Rhode Island border; the Pequot fort near the Mystic River was destroyed on 26 May 1637.",
+      "statement": "Before 1637 the Pequot territory took in the whole of southeastern Connecticut, between the Nehantic River and the Rhode Island line; their fort near the Mystic River was destroyed on 26 May 1637.",
       "citations": [
         {
           "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/pequot",
@@ -12889,12 +12903,18 @@
         "month": null,
         "precision": "year"
       },
-      "statement": "About 1703 the Kaskaskia joined the Michigamea at the mouth of the Kaskaskia River and remained near the French settlements there until 1832.",
+      "statement": "The Kaskaskia moved about 1703 to the mouth of the Kaskaskia River, where they joined the Michigamea, and stayed near the French settlements there until 1832.",
       "citations": [
         {
           "url": "https://www.okhistory.org/publications/enc/entry?entry=KA006",
           "title": "Kaskaskia (Encyclopedia of Oklahoma History and Culture)",
           "quote": "About 1703 the Kaskaskia joined the Michigamea at the mouth of the Kaskaskia River, and they remained until 1832.",
+          "kind": "reference"
+        },
+        {
+          "url": "https://www.okhistory.org/publications/enc/entry?entry=KA006",
+          "title": "Kaskaskia - Oklahoma Historical Society",
+          "quote": "There, near French settlements, their population fell from an estimated six hundred in 1764 to 210 in 1778.",
           "kind": "reference"
         }
       ],
@@ -15236,7 +15256,7 @@
         "precision": "month"
       },
       "to": null,
-      "statement": "By the Treaty of Nation Ford (March 1840) the Catawba agreed to give up their lands in exchange for a government pledge of $5,000 to buy land elsewhere; the treaty was made with the state of South Carolina.",
+      "statement": "By the Treaty of Nation Ford, made with South Carolina in March 1840, the Catawba gave up their reservation lands, though accounts differ on the terms: a $5,000 pledge to buy land elsewhere, or about 300 acres in North Carolina with $5,000 only if none could be found, plus $2,500 and nine years of $1,500 payments. Another account has them keeping one square mile and calls the treaty void from the start, the right to make it being federal.",
       "citations": [
         {
           "url": "https://www.ncpedia.org/catawba-indians",
@@ -15261,10 +15281,22 @@
           "title": "Catawba people - Wikipedia",
           "quote": "The treaty was invalid ab initio because the state did not have the right to make it",
           "kind": "wikipedia"
+        },
+        {
+          "url": "https://www.scencyclopedia.org/sce/?p=3042",
+          "title": "Catawbas - South Carolina Encyclopedia",
+          "quote": "in return for a tract of land of approximately three hundred acres in North Carolina; if no such tract could be procured to their satisfaction, they were to be given $5,000 by the state.",
+          "kind": "reference"
+        },
+        {
+          "url": "https://www.scencyclopedia.org/sce/?p=3042",
+          "title": "Catawbas - South Carolina Encyclopedia",
+          "quote": "the state would pay the Catawbas $2,500 at or immediately after the time of their removal and $1,500 each year thereafter for the space of nine years.",
+          "kind": "reference"
         }
       ],
       "confidence": "medium",
-      "notes": "Sources differ on the replacement land (300 acres in North Carolina, SCE; none, NCpedia) and on whether any land was retained. The Catawba returned to the ceded land and the state withheld payments (SCE). Wikipedia says the treaty was invalid ab initio (no Congressional approval)."
+      "notes": "Sources differ on the replacement land (300 acres in North Carolina, SCE; none, NCpedia) and on whether any land was retained. The Catawba returned to the ceded land and the state withheld payments (SCE). Wikipedia says the treaty was invalid ab initio (no Congressional approval). Statement now gives the differing terms, attributed as accounts, and the invalidity claim; the 144,000-acre figure and the 630-acre tract of 1843 stay here."
     },
     {
       "id": "na-c-344",
@@ -18782,7 +18814,7 @@
         "month": null,
         "precision": "year"
       },
-      "statement": "The Yakama War (1855-58) was fought over the Yakima Valley: Kamiakin's warriors faced U.S. troops under Major Rains at Union Gap on 9 November 1855, and by 1858 the Yakama had lost 90 percent of their traditional lands and were confined to a reservation.",
+      "statement": "Fighting in the Yakama War first erupted in the Yakima Valley in October 1855 and soon spread across the territory. On 9 November 1855, by HistoryLink's count, Major Gabriel Rains and some 700 troops marched on Kamiakin and 300 warriors at Union Gap. By 1858, it says, the Yakama had lost nine-tenths of their traditional lands and been confined to a reservation.",
       "citations": [
         {
           "url": "https://historylink.org/File/5311",
@@ -18795,10 +18827,22 @@
           "title": "Yakama War begins on October 5, 1855 - HistoryLink",
           "quote": "By 1858, the Yakama had lost 90 percent of their traditional lands and were confined to a reservation.",
           "kind": "reference"
+        },
+        {
+          "url": "https://historylink.org/File/5311",
+          "title": "Yakama War - HistoryLink",
+          "quote": "Battles in the Yakima Valley, October and November, 1855",
+          "kind": "reference"
+        },
+        {
+          "url": "https://www.historylink.org/File/20853",
+          "title": "Columbia Plateau Indian War 1858 (HistoryLink)",
+          "quote": "Fighting first erupted in October 1855 in the Yakima Valley and quickly spread throughout the territory",
+          "kind": "reference"
         }
       ],
       "confidence": "medium",
-      "notes": "Yakama Nation says the war lasted until 1859; HistoryLink dates the end to 1858. End year given as 1858."
+      "notes": "Yakama Nation says the war lasted until 1859; HistoryLink's Columbia Plateau piece ends the armed conflict in September 1858, and its Yakama War page says only 'By 1858' of the land loss, dating no end. The statement therefore gives no end year. Removed 'centred on the Yakima Valley', which rested on a map caption."
     },
     {
       "id": "na-c-431",
@@ -20976,7 +21020,7 @@
         "precision": "year"
       },
       "to": null,
-      "statement": "After the founding of the Pueblo de Los Ángeles in 1781 Yaanga was forcibly relocated several times and was finally razed to the ground by the Los Angeles City Council under American occupation in 1847.",
+      "statement": "After the Pueblo de Los Ángeles was founded in 1781, the people of Yaanga were forcibly moved several times, until in 1847, with the Americans in occupation, the Los Angeles City Council had the village razed.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Yaanga",
@@ -22253,7 +22297,7 @@
         "raramuri",
         "spain"
       ],
-      "statement": "The discovery of the Parral mines in 1631 brought slave raids and more Jesuit missionaries into Rarámuri lands. In 1648 the Rarámuri went to war against the Spanish, gathered at Fariagic and destroyed the mission of San Francisco de Borja. Two leaders were captured and executed, and the Spanish founded Villa de Aguilar in the upper country. The Rarámuri then split: those in the lower missions moved into the Catholic population, while those in the upper areas went to war under Tepóraca.",
+      "statement": "The Parral mines' discovery in 1631 brought slave raids and more Jesuit missionaries into Rarámuri lands. In 1648 the Rarámuri went to war against the Spanish, gathered at Fariagic and destroyed the mission of San Francisco de Borja. Two leaders were captured and executed, and the Spanish founded Villa de Aguilar in the upper country. The Rarámuri then split: those in the lower missions moved into the Catholic population, while upper groups fought on under Tepóraca.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Tarahumara",
@@ -22312,7 +22356,7 @@
         "itza",
         "spain"
       ],
-      "statement": "Nojpetén, the island capital of the Itza kingdom on Lake Petén Itzá, had held out more than 150 years after the conquest of the rest of Yucatán. When the friar Avendaño failed to persuade the king Kan Ekʼ to convert and surrender, Martín de Ursúa reached the lake in February 1697 with 235 soldiers, by Grant Jones's account. His assault and bombardment caused heavy loss of life, and the defenders abandoned the city. It was the last independent native kingdom in the Americas to fall.",
+      "statement": "Nojpetén, the island capital of the Itza kingdom on Lake Petén Itzá, had held out more than 150 years after the rest of Yucatán fell. When the friar Avendaño failed to persuade King Kan Ekʼ to convert and surrender, Martín de Ursúa reached the lake in February 1697 with 235 soldiers, by Grant Jones's account. His bombardment caused heavy loss of life and the defenders abandoned the city, the last independent native kingdom in the Americas to fall.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Spanish_conquest_of_Petén",
@@ -22371,7 +22415,7 @@
         "maya-yucatan",
         "mexico"
       ],
-      "statement": "The Maya cacique Manuel Antonio Ay, accused of plotting an uprising, was executed on 26 July 1847. Yucatecan forces hunting his accomplices then burned Tepich. On 30 July Cecilio Chi, its Maya leader, attacked Tepich with Jacinto Pat. Yucatán Today says he killed several white families; another account has him ordering all its non-Maya killed in reaction to the massacre of Maya. The act is widely taken as the start of the Caste War. By spring 1848 Maya forces held most of Yucatán.",
+      "statement": "The cacique Manuel Antonio Ay, accused of plotting an uprising, was executed on 26 July 1847. Yucatecan forces hunting his accomplices then burned Tepich. On 30 July Cecilio Chi, its Maya leader, attacked it with Jacinto Pat. Yucatán Today says he killed several white families; another account has him ordering all non-Maya killed after an indiscriminate massacre of Maya. The act is widely taken as the war's start, and by spring 1848 Maya forces held most of Yucatán.",
       "citations": [
         {
           "url": "https://yucatantoday.com/en/blog/the-caste-war-or-maya-social-war-of-yucatan",
@@ -22408,10 +22452,16 @@
           "title": "The Caste War or Maya Social War of Yucatán (Yucatán Today)",
           "quote": "seized the town and killed several white families.",
           "kind": "reference"
+        },
+        {
+          "url": "https://yucatantoday.com/en/blog/the-caste-war-or-maya-social-war-of-yucatan",
+          "title": "The Caste War or Maya Social War of Yucatan - Yucatan Today",
+          "quote": "During his brief imprisonment, Ay confessed that an uprising was indeed planned",
+          "kind": "reference"
         }
       ],
       "confidence": "medium",
-      "notes": "Start date varies: 30 June, 13 July and 30 July 1847 appear in different accounts; Wikipedia's Caste War article gives 30 July. Yucatán Today's 600 men is left off. Who burned Tepich: Wikipedia names Méndez, Yucatán Today the Yucatecan army. The Cruzob are removed from the participants: they did not exist yet in 1847."
+      "notes": "Start date varies: 30 June, 13 July and 30 July 1847 appear in different accounts; Wikipedia's Caste War article gives 30 July. Yucatán Today's 600 men is left off. Who burned Tepich: Wikipedia names Méndez, Yucatán Today the Yucatecan army. The Cruzob are removed from the participants: they did not exist yet in 1847. Added a quote for the uprising Ay was accused of planning."
     },
     {
       "id": "na-e-015",
@@ -23585,7 +23635,7 @@
         "ute",
         "usa"
       ],
-      "statement": "After the Utes refused a cession in 1868, a new commission under Felix Brunot negotiated with the Confederated Utes at the Los Pinos Agency, where the agreement was signed on 13 September 1873. The Southern Ute Tribe records that the Utes were led to believe they would allow mining only in the San Juan Mountains, but ended up forcibly relinquishing the lands. Utes most often remember it as the agreement when their land was fraudulently taken. A 2009 memorandum secured hunting rights there.",
+      "statement": "After the Utes refused a cession in 1868, a new commission under Felix Brunot negotiated with the Confederated Utes at the Los Pinos Agency, signing on 13 September 1873. The Southern Ute Tribe records that the Utes were led to believe they would allow mining only in the San Juan Mountains, but ended up forcibly relinquishing the lands. Utes most often remember it as the agreement when their land was fraudulently taken. A 2009 memorandum secured hunting rights there.",
       "citations": [
         {
           "url": "https://www.southernute-nsn.gov/history/",
@@ -23650,7 +23700,7 @@
         "ute",
         "usa"
       ],
-      "statement": "Nathan Meeker, agent at White River, angered the Utes by withholding supplies to force farming and plowing a field they used for horses. His panicked telegrams brought cavalry, though the Utes had been promised no troops would enter their reservation; the historian Charles Marsh describes an armed force bearing down on a peaceful encampment. On 29 September 1879 the Utes ambushed the column at Milk Creek and attacked the agency, killing Meeker. Colorado Newsline counts about two dozen dead each side.",
+      "statement": "White River agent Nathan Meeker angered the Utes by withholding supplies to force farming and plowing a field they used for horses. His panicked telegrams brought cavalry, though the Utes had been promised no troops would enter their reservation; the historian Charles Marsh describes an armed force bearing down on a peaceful camp. On 29 September 1879 the Utes ambushed the column at Milk Creek and attacked the agency, killing Meeker. Colorado Newsline counts about two dozen dead each side.",
       "citations": [
         {
           "url": "https://coloradonewsline.com/2026/07/30/fifty-for-150-ute-bands-expelled/",
@@ -23999,7 +24049,7 @@
         "ute",
         "usa"
       ],
-      "statement": "First Lt. John Davidson's 60 dragoons fought Jicarilla Apaches, and possibly Ute allies, near Pilar on 30 March 1854; one account calls it an unauthorized attack on a Jicarilla village, while Davidson reported coming upon them, who raised the war whoop. Homer Davidson counts about 250 warriors under Flechas Rayadas. In over three hours 22 soldiers died and 36 were wounded, forcing a retreat, in what the Santa Fe Weekly Gazette called among the severest battles between American troops and Indians.",
+      "statement": "Lieutenant John Davidson's 60 dragoons fought Jicarilla Apaches, possibly with Ute allies, near Pilar on 30 March 1854. Accounts differ: an unauthorized attack on their camp, an ambush by about 250 Apaches and Utes (Homer Davidson's figure), or, in a modern version, dragoons taunted into attacking; Davidson reported simply coming upon them. After two to four hours 22 soldiers were dead and 36 wounded, forcing a retreat. Native dead are put at about 20, or by Will Gorenfeld about 50.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Battle_of_Cieneguilla",
@@ -24034,12 +24084,36 @@
         {
           "url": "https://en.wikipedia.org/wiki/Battle_of_Cieneguilla",
           "title": "Battle of Cieneguilla (Wikipedia)",
-          "quote": "was one of the severest battles that ever took place between American troops and Red Indians.",
+          "quote": "Apaches and Utes laid an ambush for the U.S. dragoons",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Cieneguilla",
+          "title": "Battle of Cieneguilla (Wikipedia)",
+          "quote": "presents the view that Davidson and his troops were not ambushed but rather were taunted by the Apaches into attacking a superior force",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Cieneguilla",
+          "title": "Battle of Cieneguilla (Wikipedia)",
+          "quote": "This modern version also has the fight duration being closer to two hours than the four that Davidson and Bennett claimed.",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Jicarilla_War",
+          "title": "Jicarilla War (Wikipedia)",
+          "quote": "Davidson's command was forced to retreat having inflicted about 20 deaths on the Native force.",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Cieneguilla",
+          "title": "Battle of Cieneguilla (Wikipedia)",
+          "quote": "~50 killed",
           "kind": "wikipedia"
         }
       ],
       "confidence": "medium",
-      "notes": "The 250 is footnoted to Homer K. Davidson, Black Jack Davidson (1974), known only through Wikipedia's footnote; Will Gorenfeld (Wild West, 2008, footnote) gives 200 to 300 warriors and about 50 killed, while the Jicarilla War article says about 20. The Cieneguilla article itself also says the Apache and Ute laid an ambush, against 'unauthorized attack'. Battle lasted two or four hours per survivor James Bennett, in another article."
+      "notes": "The 250 is footnoted to Homer K. Davidson, Black Jack Davidson (1974), known only through Wikipedia's footnote; Will Gorenfeld (Wild West, 2008, footnote) gives 200 to 300 warriors and about 50 killed, while the Jicarilla War article says about 20. The Cieneguilla article itself also says the Apache and Ute laid an ambush, against 'unauthorized attack'. Battle lasted two or four hours per survivor James Bennett, in another article. To fit the three accounts, the trim dropped two lesser points: the Jicarilla War article and the battle's infobox name the leader Flechas Rayadas or Rayada (not Homer Davidson's attribution), and the Santa Fe Weekly Gazette called it 'one of the severest battles that ever took place between American troops and Red Indians' (citation removed with it)."
     },
     {
       "id": "na-e-038",
@@ -24415,7 +24489,7 @@
         "arapaho",
         "usa"
       ],
-      "statement": "On 21 December 1866, during Red Cloud's War, a group of ten warriors including Crazy Horse lured Captain William Fetterman's detachment from Fort Phil Kearny into an ambush by Lakota, Cheyenne and Arapaho fighters. All 81 men were killed, then the army's worst disaster on the Great Plains. The ground, on the Bozeman Trail, was Crow land under the 1851 treaty, taken by these traditional enemies of the Crow without Crow consent. It is also known as the Battle of the Hundred-in-the-Hands.",
+      "statement": "On 21 December 1866, during Red Cloud's War, a group of ten warriors including Crazy Horse lured Captain William Fetterman's detachment from Fort Phil Kearny into an ambush by Lakota, Cheyenne and Arapaho fighters. All 81 men were killed, then the army's worst disaster on the Great Plains. The ground, on the Bozeman Trail, was Crow land under the 1851 treaty, taken by these traditional enemies of the Crow without Crow consent.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Fetterman_Fight",
@@ -24622,7 +24696,7 @@
         "cheyenne",
         "usa"
       ],
-      "statement": "When the Medicine Lodge treaty failed to end raids, General Sheridan planned a winter campaign. On 27 November 1868 Lt. Col. George Custer's 7th Cavalry attacked the Southern Cheyenne camp of about 250 people under Peace Chief Black Kettle, a survivor of Sand Creek, who was killed trying to cross the river. Estimates of the dead range from 13 to 150, military figures running higher than Cheyenne ones, and 53 women and children were captured. It is also called the Washita Massacre.",
+      "statement": "When the Medicine Lodge treaty failed to end raids, General Sheridan planned a winter campaign. On 27 November 1868 Lt. Col. George Custer's 7th Cavalry attacked the Southern Cheyenne camp, of about 250 people by one estimate, under Peace Chief Black Kettle, a survivor of Sand Creek, who was killed trying to cross the river. Estimates of the dead range from 13 to 150, military figures running higher than Cheyenne ones, and 53 women and children were captured.",
       "citations": [
         {
           "url": "https://www.nps.gov/waba/learn/historyculture/index.htm",
@@ -24901,7 +24975,7 @@
         "lakota",
         "usa"
       ],
-      "statement": "US alarm at the Ghost Dance at Pine Ridge led the 7th Cavalry to surround Chief Spotted Elk's (Big Foot's) band near Wounded Knee Creek on 29 December 1890 and demand their weapons. A shot was fired, it is unclear from which side. HISTORY.com counts almost 150 Native dead, nearly half women and children; General Nelson Miles wrote that official reports made it 90 warriors and about 200 women and children. Twenty-five soldiers died, and nineteen were awarded the Medal of Honor.",
+      "statement": "Alarm over the Ghost Dance at Pine Ridge led the 7th Cavalry to surround Chief Spotted Elk's (Big Foot's) band near Wounded Knee Creek on 29 December 1890 and demand their weapons. A shot was fired; which side fired it is unclear. HISTORY.com counts almost 150 Native dead, nearly half women and children; General Nelson Miles wrote that official reports made it 90 warriors and about 200 women and children. Twenty-five soldiers died; nineteen received the Medal of Honor.",
       "citations": [
         {
           "url": "https://www.history.com/this-day-in-history/december-29/u-s-army-massacres-indians-at-wounded-knee",
@@ -24973,7 +25047,7 @@
         "lakota",
         "crow"
       ],
-      "statement": "Smallpox spread across the Great Plains between 1836 and 1840, reaching its height after spring 1837, when the American Fur Company steamboat St. Peter's carried infected people and supplies up the Missouri. In 1839 the Commissioner of Indian Affairs used 17,200 for the upper Missouri nations, and thought double that not too large. The National Park Service says the Mandan fell to as few as 125; the trader Francis Chardon wrote both twenty-three and twenty-seven. Survivors merged with the Hidatsa and Arikara.",
+      "statement": "Smallpox spread across the Great Plains from 1836 to 1840, peaking after spring 1837, when the steamboat St. Peter's carried infected people upriver. In 1839 the Indian Affairs Commissioner, conceding the dead could not be counted, gave 17,200 on the upper Missouri and thought double that not too large east of the Rockies. The National Park Service says the Mandan fell to as few as 125, survivors joining the Hidatsa and Arikara; trader Francis Chardon wrote both twenty-three and twenty-seven.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/1837_Great_Plains_smallpox_epidemic",
@@ -25010,10 +25084,16 @@
           "title": "1837 Great Plains smallpox epidemic (Wikipedia)",
           "quote": "the Mandan are all cut off except twenty-three young and old men.",
           "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1837_Great_Plains_smallpox_epidemic",
+          "title": "1837 Great Plains smallpox epidemic (Wikipedia)",
+          "quote": "No attempt has been made to count the victims, nor is it possible to reckon them in any of these tribes with accuracy",
+          "kind": "wikipedia"
         }
       ],
       "confidence": "high",
-      "notes": "The Commissioner and Chardon are known as Wikipedia quotes them. Its 'more than 17,000' is footnoted to James Daschuk, Clearing the Plains (2013), not read directly. It also has 23 or 27 Mandan survivors by some accounts, 138 by another, and elsewhere 100 to 150. Overlaps with na-e-058, the same epidemic for northern nations."
+      "notes": "The Commissioner and Chardon are known as Wikipedia quotes them. Its 'more than 17,000' is footnoted to James Daschuk, Clearing the Plains (2013), not read directly. It also has 23 or 27 Mandan survivors by some accounts, 138 by another, and elsewhere 100 to 150. Overlaps with na-e-058, the same epidemic for northern nations. Reworded the Commissioner's figure: the report gives 17,200 for the upper Missouri Indians and thought twice that not too large for all east of the Rockies. Statement now says the 17,200 are deaths and keeps the Commissioner's caveat."
     },
     {
       "id": "na-e-052",
@@ -25180,7 +25260,7 @@
         "ponca",
         "usa"
       ],
-      "statement": "The United States ceded Ponca land to the Sioux in 1868 and, rather than renegotiate, removed the Ponca to Indian Territory in 1877. It failed to obtain the consent of the Ponca chiefs and provided no adequate reservation. The Oklahoma Historical Society reports estimates of nearly 158, almost a third of the tribe, dying in the first years. After his son's death subchief Standing Bear returned to Nebraska, and Standing Bear v. Crook (1879) held Indians to be persons who could sue.",
+      "statement": "The United States ceded Ponca land to the Sioux in 1868 and, rather than renegotiate, removed the Ponca to Indian Territory in 1877. It neither obtained the chiefs' consent nor provided an adequate reservation. The Oklahoma Historical Society reports estimates of nearly 158, almost a third of the tribe, dying in the first years. After his son's death subchief Standing Bear returned to Nebraska, and Standing Bear v. Crook (1879) held Indians to be persons who could sue.",
       "citations": [
         {
           "url": "https://www.okhistory.org/publications/enc/entry?entry=PO007",
@@ -25244,7 +25324,7 @@
       "participants": [
         "metis"
       ],
-      "statement": "In the Pemmican War between the Hudson's Bay and North West companies, some 60 or 70 Métis under Cuthbert Grant, by the Dictionary of Canadian Biography's count, were bringing pemmican for the NWC brigade on 19 June 1816. HBC governor Robert Semple met them at Seven Oaks with about 25 men. A verbal altercation led to a skirmish in which he and about 20 of his party died. The Métis call it the Victory of the Frog Plain; it helped force the companies' 1821 merger.",
+      "statement": "In the Pemmican War between the Hudson's Bay and North West companies, some 60 or 70 Métis under Cuthbert Grant, by the Dictionary of Canadian Biography's count, were bringing pemmican for the NWC brigade on 19 June 1816. HBC governor Robert Semple met them at Seven Oaks with about 25 men. A verbal altercation led to a skirmish in which he and about 20 of his party died. It helped bring about the two companies' merger in 1821.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Battle_of_Seven_Oaks",
@@ -25316,7 +25396,7 @@
         "cree",
         "britain"
       ],
-      "statement": "On 18 July 1817 Peguis and four other Saulteaux and Cree chiefs signed a treaty with Lord Selkirk to provide land for settlement, including a strip two miles wide on each side of the Red and Assiniboine rivers from their confluence, for an annual rent of tobacco. Peguis had helped both the Company and the settlers. In 1860, protesting settlers on unsurrendered land, he said the tobacco had been simply a goodwill token and that no formal surrender had ever taken place.",
+      "statement": "On 18 July 1817 Peguis and four other Saulteaux and Cree chiefs signed a treaty with Lord Selkirk to provide land for settlement, including a strip two miles wide on each side of the Red and Assiniboine rivers from their confluence, for an annual rent of tobacco. Peguis had helped both the Company and the settlers. In 1860, protesting settlers on unsurrendered land, he said the tobacco was only a goodwill token and no formal surrender had been made.",
       "citations": [
         {
           "url": "https://www.biographi.ca/en/bio/peguis_9E.html",
@@ -25840,7 +25920,7 @@
         "assiniboine",
         "canada"
       ],
-      "statement": "Treaty 7 concluded on 22 September 1877 at Blackfoot Crossing on the Bow River, now the Siksika Nation reserve, with a second signing on 4 December for leaders not present. It involved the Siksika, Kainai, Piikani, Stoney-Nakoda and Tsuut'ina, whose buffalo herds were vanishing. The Canadian Encyclopedia says First Nations testimony shows each understood it primarily as a peace treaty, allowing settlement; none thought it a land surrender. Translation was a serious problem, and the written text met an oral tradition.",
+      "statement": "Treaty 7 was concluded on 22 September 1877 at Blackfoot Crossing on the Bow River, now the Siksika Nation reserve, with a second signing on 4 December for absent leaders. It involved the Siksika, Kainai, Piikani, Stoney-Nakoda and Tsuut'ina, whose buffalo were vanishing. The Canadian Encyclopedia says First Nations testimony shows each took it primarily as a peace treaty allowing settlement; none thought it a land surrender. Translation was a serious problem, and the written text met an oral tradition.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Treaty_7",
@@ -25923,7 +26003,7 @@
         "cree",
         "canada"
       ],
-      "statement": "Hearing of the Métis victory at Duck Lake and rumours that soldiers were coming, Wandering Spirit, war chief of Big Bear's band, began gathering supplies at Frog Lake. Indian Agent Thomas Quinn, who controlled inadequate rations, stood in the way. On 2 April 1885 Wandering Spirit shot Quinn; despite Big Bear's attempt to stop it, his group killed eight more, among them two priests. Tried without counsel, Wandering Spirit and seven others, some for killings at Battleford, were hanged that November.",
+      "statement": "Hearing of the Métis victory at Duck Lake and rumours that soldiers were coming, Wandering Spirit, war chief of Big Bear's band, began gathering supplies at Frog Lake. Agent Thomas Quinn, controlling the inadequate rations, stood in the way. On 2 April 1885 Wandering Spirit shot Quinn and, despite Big Bear's attempt to stop it, his group killed eight more, two of them priests. Tried without counsel, he and seven others, some for killings at Battleford, were hanged that November.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Frog_Lake_massacre",
@@ -26281,7 +26361,7 @@
         "dene-chipewyan",
         "canada"
       ],
-      "statement": "As prospectors and settlers drawn by the Klondike Gold Rush moved north of Treaty 6, Canada extended the treaty process, while the Geological Survey had reported petroleum in the Athabaska region. Treaty 8 was signed on 21 June 1899 with First Nations of the Lesser Slave Lake area, near present-day Grouard. The most comprehensive of the Numbered Treaties, it covers about 841,000 km2 and thirty-nine communities, and by the official Treaty 8 account was accepted for \"reasons of peace and friendship\".",
+      "statement": "As prospectors and settlers drawn by the Klondike Gold Rush moved north of Treaty 6, Canada extended the treaty process; the Geological Survey had also reported petroleum in the Athabaska region. Treaty 8 was signed on 21 June 1899 with First Nations of the Lesser Slave Lake area, near present-day Grouard. The most comprehensive Numbered Treaty, it covers about 841,000 km2 and thirty-nine communities, and by the official Treaty 8 account was accepted for \"reasons of peace and friendship\".",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Treaty_8",
@@ -26829,7 +26909,7 @@
         "usa",
         "britain"
       ],
-      "statement": "From June to October 1779 a Continental Army campaign under John Sullivan and James Clinton, carrying out Washington's order for the destruction of Haudenosaunee settlements, moved against the four British-allied nations after the raids of 1778. It fought one major battle, at Newtown, and razed 40 villages with their crops. A count of 5,036 refugees reached Fort Niagara. Deaths that winter are put at several hundred by Alan Taylor; Rhiannon Koehler suggests about 5,000 overall; some scholars' term genocide is disputed.",
+      "statement": "From June to October 1779 a Continental Army campaign under John Sullivan and James Clinton moved against the four British-allied Haudenosaunee nations after the raids of 1778, on Washington's order to destroy their settlements. It fought one major battle, at Newtown, and razed 40 villages with their crops. Refugees at Fort Niagara numbered 5,036. Colin Calloway and Alan Taylor report several hundred deaths; Rhiannon Koehler's roughly 5,000 rests on a questioned assumption. Some scholars' term genocide is disputed.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Sullivan_Expedition",
@@ -26902,10 +26982,22 @@
           "title": "Sullivan Expedition (Wikipedia)",
           "quote": "Alan Taylor in The Divided Ground also reports \"several hundred\" deaths",
           "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Sullivan_Expedition",
+          "title": "Sullivan Expedition (Wikipedia)",
+          "quote": "He estimated that \"several hundred\" succumbed that winter",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Sullivan_Expedition",
+          "title": "Sullivan Expedition (Wikipedia)",
+          "quote": "She bases this number on the questionable assumption that the 5,036 refugees at Fort Niagara in September 1779 represented every surviving Iroquois individual",
+          "kind": "wikipedia"
         }
       ],
       "confidence": "high",
-      "notes": "Taylor and Koehler are known as Wikipedia reports them, not read directly; the page calls Koehler's assumption questionable. Rachel Herrmann also reports several hundred. The Buffalo Creek Reservation article says the British 'were reported to be feeding and housing over 5000 refugees'. Date is the march from Easton, 18 June; the battle of Newtown was 29 August 1779, and the point is Newtown."
+      "notes": "Taylor and Koehler are known as Wikipedia reports them, not read directly; the page calls Koehler's assumption questionable. Rachel Herrmann also reports several hundred. The Buffalo Creek Reservation article says the British 'were reported to be feeding and housing over 5000 refugees'. Date is the march from Easton, 18 June; the battle of Newtown was 29 August 1779, and the point is Newtown. Calloway's several hundred comes first on the page; Taylor follows him. Koehler's doubt moved into the statement."
     },
     {
       "id": "na-e-079",
@@ -26930,7 +27022,7 @@
         "haudenosaunee",
         "usa"
       ],
-      "statement": "On 22 October 1784 delegates of the Six Nations signed a treaty with the United States at Fort Stanwix, giving up all claims to the Ohio territory, a strip along the Niagara River and all land west of the mouth of Buffalo Creek. Joseph Brant had said the delegation was not authorized to cede land, but he left early. The Six Nations council at Buffalo Creek refused to ratify the treaty, and the Shawnee, Lenape and other Ohio nations rejected it.",
+      "statement": "On 22 October 1784 delegates of the Six Nations signed a treaty with the United States at Fort Stanwix, giving up all claims to the Ohio territory, a strip along the Niagara River and all land west of the mouth of Buffalo Creek. Joseph Brant had said the delegation lacked authority to cede land, but he left early. The Six Nations council at Buffalo Creek refused to ratify it, and the Shawnee, Lenape and other Ohio nations rejected it.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Treaty_of_Fort_Stanwix_(1784)",
@@ -26995,7 +27087,7 @@
         "haudenosaunee",
         "britain"
       ],
-      "statement": "On 25 October 1784, three days after the Treaty of Fort Stanwix, Governor Frederick Haldimand granted the Mohawk and such others of the Five Nations as wished to join them land six miles deep on each side of the Grand River, chosen by Joseph Brant and bought from the Mississaugas of the Credit that May. Its extent stayed in dispute: the Crown held to a limit near Elora, surveyed in 1821 at 674,910 acres, which John Brant had already contested in 1819.",
+      "statement": "On 25 October 1784, three days after the Fort Stanwix treaty, Governor Frederick Haldimand granted the Mohawk and such other Five Nations as wished to join them land six miles deep on each side of the Grand River, chosen by Joseph Brant and bought from the Mississaugas of the Credit that May. Its extent was disputed: the Crown held to a limit near Elora, surveyed in 1821 at 674,910 acres, though John Brant had contested it in 1819.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Haldimand_Proclamation",
@@ -27167,7 +27259,7 @@
         "haudenosaunee",
         "usa"
       ],
-      "statement": "At Big Tree (Geneseo), after nearly a month of often heated negotiation from 20 August 1797, the Seneca Nation signed away on 16 September nearly all their homeland in New York, nearly 3.5 million acres west of the Genesee River, keeping twelve small tracts and hunting and fishing rights. The $100,000 price went not to the Seneca but into Bank of the United States stock, with its yearly earnings paid out to them. The sale opened western New York to settlement.",
+      "statement": "At Big Tree (Geneseo), after nearly a month of often heated negotiation from 20 August 1797, the Seneca Nation signed away on 16 September nearly all their homeland, nearly 3.5 million acres west of the Genesee River, keeping twelve small tracts and hunting and fishing rights. The $100,000 price went not to the Seneca but into Bank of the United States stock, its annual earnings paid to them. The sale opened western New York to settlement.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Treaty_of_Big_Tree",
@@ -27238,7 +27330,7 @@
         "haudenosaunee",
         "usa"
       ],
-      "statement": "Beginning in 1837, by one account, agents of the Ogden Land Company bribed, intimidated and deceived 43 of more than 80 Seneca chiefs into the Treaty of Buffalo Creek, which required the Seneca to give up all their New York reservations and move west of the Mississippi within five years. After the land sale fell through, a new treaty was ratified in 1842. Only Buffalo Creek was dissolved; the Seneca kept Cattaraugus, Oil Springs, Allegany and Tonawanda after legal battles in the 1850s.",
+      "statement": "Beginning in 1837, by one account, agents of the Ogden Land Company bribed, intimidated and deceived 43 of more than 80 Seneca chiefs into the Treaty of Buffalo Creek, requiring the Seneca to give up all their New York reservations and move west of the Mississippi within five years. After the land sale fell through, a new treaty was ratified in 1842. Only Buffalo Creek was dissolved; the Seneca kept Cattaraugus, Oil Springs, Allegany and Tonawanda after 1850s legal battles.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Treaty_of_Buffalo_Creek",
@@ -27660,7 +27752,7 @@
         "haudenosaunee",
         "britain"
       ],
-      "statement": "From 7 to 26 October 1758 Pennsylvania's lieutenant governor William Denny and New Jersey's governor Francis Bernard met representatives of the Haudenosaunee, Lenape and other nations at Easton. On 20 October Denny announced the return to the Haudenosaunee of the part of the 1754 Albany Purchase west of the Alleghenies, removing a major cause of raiding. As a result of the conference the western Lenape did not oppose the British capture of Fort Duquesne that November, though Pontiac's War later showed the settlement's limits.",
+      "statement": "From 7 to 26 October 1758 Pennsylvania's lieutenant governor William Denny and New Jersey's governor Francis Bernard met representatives of the Haudenosaunee, Lenape and other nations at Easton. On 20 October Denny announced the return to the Haudenosaunee of the part of the 1754 Albany Purchase west of the Alleghenies, removing a major cause of raiding. As a result the western Lenape did not oppose the British capture of Fort Duquesne that November, though Pontiac's War later showed its limits.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Treaty_of_Easton",
@@ -29777,7 +29869,7 @@
         "mikmaq",
         "britain"
       ],
-      "statement": "On 22 November 1752 Governor Peregrine Hopson and Jean-Baptiste Cope, chief sakamow of Shubenacadie, signed a treaty at Halifax after the intermittent war ended in 1751; it reaffirmed the 1726 treaty and formalized a commercial relationship. Scholars disagree whether Cope signed for all Mi'kmaq communities. Cope burned it on 23 May 1753. At the Marshall trial the Crown's historian Stephen Patterson testified it had ended with hostilities; in R. v. Simon (1985) the courts held it protected hunting rights at Shubenacadie.",
+      "statement": "On 22 November 1752 Governor Hopson and Jean-Baptiste Cope, chief sakamow of Shubenacadie, signed a treaty at Halifax reaffirming the 1726 treaty and formalizing commercial relations. Accounts differ on whether the war had ended in 1751; scholars disagree on whether Cope signed for all Mi'kmaq. Cope burned it on 23 May 1753. R. v. Simon (1985) held it protected hunting rights for those from Shubenacadie but found too little evidence on whether hostilities ended it, as Stephen Patterson later testified.",
       "citations": [
         {
           "url": "https://www.rcaanc-cirnac.gc.ca/eng/1100100028599",
@@ -29838,10 +29930,28 @@
           "title": "Jean-Baptiste Cope (Wikipedia)",
           "quote": "on 23 May 1753, Cope burned the peace treaty of 1752.",
           "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Treaty_of_1752",
+          "title": "Treaty of 1752 (Wikipedia)",
+          "quote": "The court also indicated that there was not enough evidence uncovered at that time to determine if the treaty was terminated by subsequent hostilities.",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Treaty_of_1752",
+          "title": "Treaty of 1752 (Wikipedia)",
+          "quote": "on 22 November 1752 during Father Le Loutre's War",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Jean-Baptiste_Cope",
+          "title": "Jean-Baptiste Cope (Wikipedia)",
+          "quote": "As the war continued, on 23 May 1753, Cope burned the peace treaty of 1752.",
+          "kind": "wikipedia"
         }
       ],
       "confidence": "medium",
-      "notes": "Patterson is known here only through Wikipedia, not read directly. The Treaty of 1752 page says the treaty fell 'during' a war CIRNAC says ended in 1751; the card follows CIRNAC. The same page says Marshall's lawyers then turned to the Halifax Treaties of 1760-61."
+      "notes": "Patterson is known here only through Wikipedia, not read directly; he testified as the Crown's expert at the Marshall trial. CIRNAC says intermittent war ended in 1751; the Treaty of 1752 page says the treaty fell 'during' Father Le Loutre's War and the Cope page has the war continuing at the burning, so the statement no longer follows CIRNAC alone. The same page says Marshall's lawyers then turned to the Halifax Treaties of 1760-61."
     },
     {
       "id": "na-e-118",
@@ -31952,7 +32062,7 @@
         "france",
         "choctaw"
       ],
-      "statement": "On 28 November 1729, provoked when commandant Sieur de Chépart demanded land from a Natchez village for his plantation, the Natchez attacked Fort Rosalie and its homesteads. They killed about 230 colonists, by a tally made a year later, reported by James Barnett: 138 men, 35 women and 56 children; hundreds of women and children were captured. The French and Choctaw retaliated in 1730, enslaving hundreds; campaigns through 1731 ended the Natchez as a unified nation, and survivors joined other nations.",
+      "statement": "On 28 November 1729, provoked when commandant Sieur de Chépart demanded land from a Natchez village for his plantation, the Natchez attacked Fort Rosalie and its homesteads. They killed about 230 colonists, by a tally made a year later, reported by James Barnett: 138 men, 35 women and 56 children; hundreds were captured. The French and Choctaw retaliated in 1730, enslaving hundreds; campaigns through 1731 ended the Natchez as a unified nation, and survivors joined other nations.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Natchez_revolt",
@@ -32654,7 +32764,7 @@
         "cherokee",
         "usa"
       ],
-      "statement": "On 29 December 1835 at New Echota, US officials and a minority faction, the Treaty Party, signed terms for the Cherokee Nation to cede its southeastern territory and move west. The National Council did not approve it and Principal Chief John Ross did not sign; the Cherokee Nation says the signers lacked authority under its law. Despite Ross's protests the Senate passed it in May 1836 by a single vote, and it became the legal basis for the Trail of Tears.",
+      "statement": "On 29 December 1835 at New Echota, US officials and the minority Treaty Party signed terms for the Cherokee Nation to cede its southeastern territory and move west. The National Council did not approve it and Principal Chief John Ross did not sign; the Cherokee Nation says the signers lacked authority under its law. Despite Ross's protests the Senate passed it in May 1836 by a single vote, and it became the legal basis for the Trail of Tears.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Treaty_of_New_Echota",
@@ -32835,7 +32945,7 @@
         "muscogee",
         "usa"
       ],
-      "statement": "The Creek War of 1836 ended with about 2,500 Muscogee people, including several hundred warriors in chains, marched to Montgomery and crowded onto barges in the July heat. Over the summer and winter of 1836 to early 1837, by the National Park Service's account, over 14,000 made the three-month journey to Indian Territory, over 800 miles by land and 400 by water. It counts 21,792 Muscogee in Georgia and Alabama in 1832, and only 13,537 in Oklahoma twenty years after removal.",
+      "statement": "The Creek War of 1836 ended with about 2,500 Muscogee people, including several hundred warriors in chains, marched to Montgomery and crowded onto barges in the July heat. Between the summer of 1836 and early 1837, by the National Park Service's account, over 14,000 made the three-month journey to Indian Territory, over 800 miles by land and 400 by water. It counts 21,792 Muscogee in Georgia and Alabama in 1832, and only 13,537 in Oklahoma twenty years after removal.",
       "citations": [
         {
           "url": "https://www.nps.gov/ocmu/learn/historyculture/the-muscogee-nation.htm",
@@ -34410,7 +34520,7 @@
         "nimiipuu",
         "usa"
       ],
-      "statement": "In mid-September 1805 William Clark and a few hunters, sent ahead for food after the hard Bitterroot crossing, entered Weippe Prairie, where Nez Perce bands came in summer for roots, berries and game. They met three frightened boys hiding in the grass and gave them small presents. The people were nervous about the strangers but accepted them onto their land. After the expedition reunited on 22 September, its leaders spoke with the head man Twisted Hair, trading gifts and passing the pipe.",
+      "statement": "In mid-September 1805 William Clark and a few hunters, sent ahead for food after crossing the Bitterroots, entered Weippe Prairie, where Nez Perce came in summer for roots, berries and game. They met three frightened boys hiding in the grass and gave them small presents. The Nez Perce, nervous about the strangers, let them onto their land. After the expedition reunited on 22 September, its leaders spoke with the head man Twisted Hair, trading gifts and passing the pipe.",
       "citations": [
         {
           "url": "https://www.nps.gov/nepe/learn/historyculture/weippe-prairie.htm",
@@ -34544,7 +34654,7 @@
         "nimiipuu",
         "usa"
       ],
-      "statement": "After gold was found on the reservation in 1860, the US called a second council rather than stop the trespass, and at Lapwai on 9 June 1863 cut the reservation by 90 percent, to about 750,000 acres by the Tribe's count. Bands outside the new lines walked out and refused to endorse it, but 51 headmen living inside made their marks. The Senate ratified it in 1867. The nimíipuu called it the Thief Treaty; it set the conditions for the war of 1877.",
+      "statement": "After gold was found on the reservation in 1860, the US called a second council rather than stop the trespass, and at Lapwai on 9 June 1863 cut the reservation by 90 percent, to about 750,000 acres by the Tribe's count. Bands outside the new lines walked out and refused to endorse it, but 51 headmen from inside made their marks. The Senate ratified it in 1867. Nimíipuu called it the Thief Treaty; it set up the war of 1877.",
       "citations": [
         {
           "url": "https://www.nps.gov/nepe/learn/historyculture/the-treaty-era.htm",
@@ -34768,7 +34878,7 @@
         "nimiipuu",
         "usa"
       ],
-      "statement": "Told at Bear Paw they could go home, the Nez Perce prisoners were instead marched 265 miles to the Tongue River, sent on to Fort Buford, and carried by train in November 1877 to Fort Leavenworth, where they were made to live in swampy bottomland over the fort commander's protests. They were then sent to Indian Territory, in the hot country near Tonkawa. Joseph pleaded in Washington in 1879; only in 1885 did he and 268 survivors return to the Northwest, he to Colville.",
+      "statement": "Though Joseph and White Bird were told at Bear Paw they would return to Idaho, the prisoners were marched 265 miles to the Tongue River, sent on to Fort Buford, and in November carried by train to Fort Leavenworth, where they lived in swampy bottomland over its commander's protests. Next came Indian Territory, near Tonkawa. Joseph pleaded in Washington in 1879; only in 1885 did he and 268 survivors return to the Northwest, he to Colville.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Nez_Perce_War",
@@ -34858,7 +34968,7 @@
         "palouse",
         "usa"
       ],
-      "statement": "On 9 June 1855 at Walla Walla, Yakama and allied bands signed with Governor Isaac Stevens, ceding over 12 million acres by the Yakama Nation's count while reserving the right to fish, hunt and gather on reservation and ceded land. Kamiakin refused at first, then signed under duress, and the tribes were to be paid $200,000 over years. Stevens promised no trespass before ratification; within a month, the Nation says, he declared the ceded lands open. The Senate ratified only in 1859.",
+      "statement": "On 9 June 1855 at Walla Walla, the Yakama, Umatilla, Cayuse and Walla Walla treating with Governor Stevens were forced, says HistoryLink, to cede over 6 million acres, partly as punishment for the Whitman killings; the Yakama Nation counts over 12 million. Fishing, hunting and gathering rights stayed reserved. Kamiakin refused, then signed under duress, for $200,000 over years. Stevens promised no trespass before ratification, but a month later, the Nation says, opened the lands. The Senate ratified in 1859.",
       "citations": [
         {
           "url": "https://www.yakama.com/about/",
@@ -34895,10 +35005,16 @@
           "title": "Yakama War begins on October 5, 1855 (HistoryLink)",
           "quote": "assured the Native people that white miners and colonizers would not be allowed to trespass on tribal lands during the time before the treaty could be ratified",
           "kind": "reference"
+        },
+        {
+          "url": "https://historylink.org/File/5311",
+          "title": "Yakama War begins on October 5, 1855 (HistoryLink)",
+          "quote": "were forced to cede in excess of 6 million acres to the United States government, partly as punishment for the killing by a group of young Cayuse of Methodist missionaries Marcus and Narcissa Whitman",
+          "kind": "reference"
         }
       ],
       "confidence": "high",
-      "notes": "The reservation is given as 1,130,000 acres on the Yakama Nation's page, in a passage from another author. 'Allied bands' reflects the participants field and the Yakama Nation's 'tribes and bands'."
+      "notes": "The reservation is given as 1,130,000 acres on the Yakama Nation's page, in a passage from another author. 'Allied bands' reflects the participants field and the Yakama Nation's 'tribes and bands'. HistoryLink lumps the Yakama, Umatilla, Cayuse and Walla Walla tribes in its 6 million acres. The Nation's page also carries 'a mere twelve days' from another author; its own text says one month."
     },
     {
       "id": "na-e-190",
@@ -35334,7 +35450,7 @@
         "palouse",
         "usa"
       ],
-      "statement": "On 17 May 1858 a column under Lieutenant Colonel Edward Steptoe, each soldier issued about 40 rounds, was attacked near present-day Rosalia, after entering Spokane land against Governor Stevens's promise to respect it while the tribe stayed peaceful. Schitsu'umsh, joined by Palouse and Spokane, fought it all day; by the Tribe's account Steptoe's men were down to their last rounds before they slipped away under cover of dark. The Tribes call it the Battle of Tohotonimme; it brought Wright's punitive campaign.",
+      "statement": "On 17 May 1858 a column under Lieutenant Colonel Edward Steptoe, each soldier issued about 40 rounds, was attacked near present-day Rosalia, after entering Spokane land against Governor Stevens's promise to respect it while the tribe stayed peaceful. Schitsu'umsh, joined by Palouse and Spokane, fought it all day; by the Tribe's account Steptoe's men were down to their last rounds before they slipped away under cover of dark. It brought Wright's punitive campaign.",
       "citations": [
         {
           "url": "https://www.cdatribe-nsn.gov/",
@@ -35849,7 +35965,7 @@
         "northern-shoshone",
         "usa"
       ],
-      "statement": "On 30 July 1863 at Box Elder, in Utah Territory, General Patrick Connor and James Doty made a treaty with Northwestern Shoshone led by Pocatello, six months after the Bear River Massacre had compelled many Great Basin groups to treat. It called for peace, promised $5,000 a year as compensation for 'utter destitution' and recognized Pocatello's claim between the Raft River and the Portneuf Mountains. It had little effect until 1968, when the United States paid about 50 cents an acre.",
+      "statement": "On 30 July 1863 at Box Elder, Utah Territory, General Patrick Connor and James Doty made a treaty with Northwestern Shoshone led by Pocatello, six months after the Bear River Massacre compelled many Great Basin groups to treat. It called for peace, promised $5,000 a year as compensation for 'utter destitution' and recognized Pocatello's claim between the Raft River and the Portneuf Mountains. It had little effect until 1968, when the United States paid about 50 cents an acre.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Box_Elder_Treaty",
@@ -35886,10 +36002,22 @@
           "title": "Box Elder Treaty (Wikipedia)",
           "quote": "Articles of agreement made at Box Elder, in Utah Territory, this thirtieth day of July, A. D. one thousand eight hundred and sixty-three",
           "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Box_Elder_Treaty",
+          "title": "Box Elder Treaty - Wikipedia",
+          "quote": "It also recognizes the claim of Chief Pocatello and his people to the land \"bounded on the west by the Raft River and on the east by the Porteneuf Mountains\".",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Box_Elder_Treaty",
+          "title": "Box Elder Treaty - Wikipedia",
+          "quote": "It was adopted after a period of conflict which included the Bear River Massacre on January 29, 1863.",
+          "kind": "wikipedia"
         }
       ],
       "confidence": "medium",
-      "notes": "The treaty text says it was made at Box Elder, Utah Territory. Wikipedia only. Wikipedia's account has Bear Hunter captured and tortured before being killed, per Shoshone oral histories; that belongs to the massacre card."
+      "notes": "The treaty text says it was made at Box Elder, Utah Territory. Wikipedia only. Wikipedia's account has Bear Hunter captured and tortured before being killed, per Shoshone oral histories; that belongs to the massacre card. Added quotes for the Raft River and Portneuf boundaries and for the Bear River Massacre date. The treaty's spelling is Porteneuf."
     },
     {
       "id": "na-e-205",
@@ -35987,7 +36115,7 @@
         "washoe",
         "usa"
       ],
-      "statement": "Accounts of Williams Station in May 1860 conflict: the National Park Service has four white men tying up a Paiute man and attacking a woman; one account has a raid without cause; a Paiute in 1880 told of two captured children found tied up. The men were killed and the station burned. On 12 May Northern Paiute warriors decisively defeated a volunteer army under William Ormsby, who died; a larger force fought them on 2 June. A cease-fire came in August, with no treaty.",
+      "statement": "Accounts of the Williams Station killings of 6 or 7 May 1860 conflict: the National Park Service has four white men attacking a Paiute woman, then burned in the house; others tell of a raid without cause, or of captured Paiute children, in one version sexually assaulted girls. On 12 May Northern Paiute warriors decisively defeated William Ormsby's volunteers; he died. Larger forces fought them on 2 June. An August cease-fire brought no treaty; accounts differ on who prevailed.",
       "citations": [
         {
           "url": "https://www.nps.gov/poex/learn/historyculture/the-pyramid-lake-war.htm",
@@ -36036,10 +36164,52 @@
           "title": "Paiute War (Wikipedia)",
           "quote": "Smaller raids and skirmishes continued until a cease-fire was agreed to in August 1860; there was no treaty.",
           "kind": "wikipedia"
+        },
+        {
+          "url": "https://www.nps.gov/poex/learn/historyculture/the-pyramid-lake-war.htm",
+          "title": "The Pyramid Lake War (Pony Express National Historic Trail, National Park Service)",
+          "quote": "On May 7, 1860, an incident at the Williams Station in Carson Valley, Nevada set off the Pyramid Lake War.",
+          "kind": "government"
+        },
+        {
+          "url": "https://www.nps.gov/poex/learn/historyculture/the-pyramid-lake-war.htm",
+          "title": "The Pyramid Lake War (Pony Express National Historic Trail, National Park Service)",
+          "quote": "The house was burned with the men in it.",
+          "kind": "government"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Paiute_War",
+          "title": "Paiute War (Wikipedia)",
+          "quote": "On May 6, a raiding party led by mixed-race Bannock warrior Mogoannoga attacked the station, killing five Americans and burning down the establishment.",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Paiute_War",
+          "title": "Paiute War (Wikipedia)",
+          "quote": "A third account claimed the kidnapped children were two 12-year-old girls who were sexually assaulted before being hidden.",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://www.nps.gov/poex/learn/historyculture/the-pyramid-lake-war.htm",
+          "title": "The Pyramid Lake War (Pony Express National Historic Trail, National Park Service)",
+          "quote": "The Paiutes claimed a big victory when they defeated U.S. Major William Ormsby's force in Nevada, but the Indians eventually were defeated.",
+          "kind": "government"
+        },
+        {
+          "url": "https://shpo.nv.gov/nevadas-historical-markers/historical-markers/the-two-battles-of-pyramid-lake",
+          "title": "The Two Battles of Pyramid Lake (Nevada State Historic Preservation Office)",
+          "quote": "fought with such courage and strategy that the attacking forces were held back during the day until the Numu could withdraw.",
+          "kind": "government"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Paiute_War",
+          "title": "Paiute War (Wikipedia)",
+          "quote": "Result Stalemate",
+          "kind": "wikipedia"
         }
       ],
       "confidence": "high",
-      "notes": "Date of the station incident differs: NPS 7 May, Wikipedia 6 May, and Wikipedia has Mogoannoga leading the raid and five Americans killed, where NPS has four men burned in the house. Wikipedia gives 79 white and 25 Indigenous dead in the two battles, unattributed; omitted. Numaga had voted against war, per Wikipedia."
+      "notes": "Date of the station incident differs: NPS 7 May, Wikipedia 6 May, and Wikipedia has Mogoannoga leading the raid and five Americans killed, where NPS has four men burned in the house. Wikipedia gives 79 white and 25 Indigenous dead in the two battles, unattributed; omitted. Numaga had voted against war, per Wikipedia. Trimmed: dropped 'the station burned' (no quote supports it). Corrected after verification: restored the incident's date, the outcome of the NPS account, the third account and the disputed outcome of the war (NPS: Indians eventually defeated; infobox: stalemate; Nevada marker: Numu held the attackers until they could withdraw). 'Ormsby's volunteers' follows NPS 'Ormsby's force'; Wikipedia says the five companies never chose an overall commander."
     },
     {
       "id": "na-e-207",
@@ -36359,7 +36529,7 @@
         "chumash",
         "mexico"
       ],
-      "statement": "The Chumash planned a coordinated rising at three missions, but an incident with a soldier at Santa Inés on 21 February 1824 set it off early, and most of that mission burned. They took La Purísima from inside, letting the garrison and priest leave, and Santa Barbara without bloodshed. Mexican troops forced La Purísima's surrender on 16 March; negotiators persuaded most in the hills to return by 28 June. It was the largest organized resistance of the Spanish and Mexican periods in California.",
+      "statement": "Protesting treatment by guards, Chumash at three missions planned a rising, but a soldier beating a boy at Santa Inés on 21 February 1824 set it off early; by one account 19 Chumash and a soldier died as much of the mission burned. They seized La Purísima and Santa Barbara, leaving the latter for the hills. Troops retook La Purísima on 16 March; after a pardon, most returned by 28 June, ending California's largest organized resistance under Spain and Mexico.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Chumash_Revolt_of_1824",
@@ -36376,7 +36546,7 @@
         {
           "url": "https://en.wikipedia.org/wiki/Chumash_Revolt_of_1824",
           "title": "Chumash revolt of 1824 (Wikipedia)",
-          "quote": "the Chumash of Mission Santa Barbara captured the mission from within without bloodshed",
+          "quote": "the Chumash of Mission Santa Barbara captured the mission from within without bloodshed, repelled a military attack on the mission, and then retreated from the mission to the hills.",
           "kind": "wikipedia"
         },
         {
@@ -36402,10 +36572,28 @@
           "title": "Mission Santa Inés (California Missions Foundation)",
           "quote": "the Chumash revolt of 1824 when the Indians aggressively protested treatment by the military guards",
           "kind": "reference"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Chumash_Revolt_of_1824",
+          "title": "Chumash revolt of 1824 (Wikipedia)",
+          "quote": "a young Chumash boy from Mission La Purisima was severely beaten by a Mexican soldier",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Chumash_Revolt_of_1824",
+          "title": "Chumash revolt of 1824 (Wikipedia)",
+          "quote": "In the struggle at Mission Santa Ines on the first day, 15 Chumash women and children died, 4 men died in the fires, and one Mexican soldier was killed.",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Chumash_Revolt_of_1824",
+          "title": "Chumash revolt of 1824 (Wikipedia)",
+          "quote": "issued a general pardon to all who had participated in the revolt, other than those already convicted at military tribunals",
+          "kind": "wikipedia"
         }
       ],
       "confidence": "high",
-      "notes": "California was then under the Mexican Republic. Wikipedia's infobox gives 8 Mexican and 42 Chumash dead, unattributed, and says up to 2,000 Chumash and Yokuts took part; omitted. A general pardon was issued."
+      "notes": "California was then under the Mexican Republic. Wikipedia's infobox gives 8 Mexican and 42 Chumash dead, unattributed, and says up to 2,000 Chumash and Yokuts took part; omitted. A general pardon was issued. Corrected after verification: the trim left 'without bloodshed' as the only word on violence and lost the flight to the hills, the pardon and the cause; those are restored. To stay at 80 words the garrison's release at La Purísima (held three days first) is left to its citation. The page also has two Chumash killed at Santa Barbara, four settlers killed at La Purísima, and sixteen Natives killed on 16 March; about 816 of 1,000 had returned by 28 June."
     },
     {
       "id": "na-e-213",
