@@ -542,10 +542,10 @@
         "url": "https://datacatalog.worldbank.org/search/dataset/0037712/World-Development-Indicators",
         "quote": "",
         "checked": "2026-10-30",
-        "note": "A development bank's compilation of other agencies' series, not a scientific body's product, so Published under docs/design/evidence.md. Under-5 mortality comes from the UN Inter-agency Group (UN IGME); GDP per head PPP from national accounts and the ICP."
+        "note": "A development bank's compilation of other agencies' series, not a scientific body's product, so Published under docs/design/evidence.md. Under-5 mortality comes from the UN Inter-agency Group (UN IGME); GDP per head PPP from national accounts and the ICP. Access to electricity is the World Bank's SDG 7.1.1 Electrification Dataset (Tracking SDG7), collected from industry, national surveys and international sources."
       },
-      "coverage": "Countries, yearly from 1960: under-5 mortality (SH.DYN.MORT) and, from 1990, GDP per head PPP in constant 2021 international dollars (NY.GDP.PCAP.PP.KD).",
-      "steps": ["base.indicators (child mortality from 1960, income from 1990)"],
+      "coverage": "Countries, yearly from 1960: under-5 mortality (SH.DYN.MORT) and, from 1990, GDP per head PPP in constant 2021 international dollars (NY.GDP.PCAP.PP.KD); and, from 1990, the share of people with access to electricity (EG.ELC.ACCS.ZS).",
+      "steps": ["base.indicators (child mortality from 1960, income and access to electricity from 1990)"],
       "caveats": ["Licence confirmed 2026-10-30 from the Data Catalog record: Creative Commons Attribution 4.0.", "Cite the indicator's originating agency as well as the World Bank."],
       "note": "Cite: World Bank, World Development Indicators."
     },
