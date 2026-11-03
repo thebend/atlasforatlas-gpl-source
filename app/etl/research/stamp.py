@@ -30,7 +30,10 @@ def mark(name: str) -> None:
     raw = path.read_text()
     new = json.loads(raw)
     rel = path.resolve().relative_to(subprocess.check_output(["git", "rev-parse", "--show-toplevel"], text=True).strip())
-    old = json.loads(subprocess.check_output(["git", "show", f"HEAD:{rel}"], text=True))
+    try:
+        old = json.loads(subprocess.check_output(["git", "show", f"HEAD:{rel}"], text=True, stderr=subprocess.DEVNULL))
+    except subprocess.CalledProcessError:
+        old = {}     # a new catalogue: every card is new
     before = {i["id"]: text_sha(i) for i in old.get("events", []) + old.get("claims", [])}
     changed = {i["id"] for i in new.get("events", []) + new.get("claims", []) if before.get(i["id"]) != text_sha(i)}
     ids = sorted(set(new["meta"].get("edited_ids", [])) | changed)
