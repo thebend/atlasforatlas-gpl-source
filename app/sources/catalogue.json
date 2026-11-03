@@ -531,6 +531,28 @@
       ],
       "note": "Cite: Based on free material from GAPMINDER.ORG, CC-BY LICENSE (Gapminder Fast Track). Its GitHub repository states no licence of its own; the licence is the free-material page."
     },
+    "gem-gipt": {
+      "name": "Global Integrated Power Tracker (Global Energy Monitor)",
+      "licence": "CC BY 4.0",
+      "cls": "attribution",
+      "url": "https://globalenergymonitor.org/projects/global-integrated-power-tracker/",
+      "review": {
+        "kind": "none",
+        "evidence": "The workbook's own notice",
+        "url": "https://globalenergymonitor.org/projects/global-integrated-power-tracker/",
+        "quote": "Distributed under a Creative Commons Attribution 4.0 International License.",
+        "checked": "2026-11-03",
+        "note": "An NGO's tracker compiled from company, government and press sources by its researchers; Published under docs/design/evidence.md."
+      },
+      "coverage": "Power units worldwide above a size floor that varies by type, with type, capacity, status, start year, retired year and location. September 2026 release.",
+      "steps": ["fetch.power_plants"],
+      "caveats": [
+        "The workbook comes from a form on GEM's site, not a script: save it as app/.cache/gem/gipt.xlsx.",
+        "Records of closures are thin before 2000 (about 100 of some 4,400 retired units closed earlier), so earlier dates show survivors.",
+        "Rows GEM took from TransitionZero's Solar Asset Mapper ('TZ' in Other IDs) are CC BY-NC 4.0 and are left out."
+      ],
+      "note": "Cite: Global Energy Monitor, Global Integrated Power Tracker, September 2026 release."
+    },
     "worldbank": {
       "name": "World Development Indicators (World Bank)",
       "licence": "CC BY 4.0",
