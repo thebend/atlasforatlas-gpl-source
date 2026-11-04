@@ -26,6 +26,8 @@ from etl.common import CATALOGUE, RCACHE, RESEARCH, write_json
 from etl.research import review
 from etl.research.stamp import text_sha
 
+SERVED = ("verified", "partially-verified", "awaiting-recheck")   # the statuses a card is served with
+
 NAME = sys.argv[1] if len(sys.argv) > 1 else "northeast-1790-1820"
 
 
@@ -47,12 +49,15 @@ def main() -> None:
     verdicts = ver.get("items", {})
     stats: Counter = Counter()
     edited = set(cat.get("meta", {}).get("edited_ids", []))
+    # the owner may serve a card edited since its verdict before it is re-checked: it shows as awaiting
+    # that check (no verification badge, docs/design/policy.md), until a new verdict is sealed
+    recheck = bool(cat.get("meta", {}).get("edits_awaiting_recheck"))
     for item in cat.get("claims", []) + cat.get("events", []):
         checks = [c.get("quote_check") for c in item.get("citations", [])]
         v = verdicts.get(item["id"], {"status": "unverified", "note": "no verdict from second pass"})
         # a rewritten card keeps no verdict from before its rewrite (etl/research/stamp.py)
         if (item["id"] in edited or v.get("sha")) and v.get("sha") != text_sha(item):
-            v = {"status": "unverified", "note": "its text has changed since the verdict"}
+            v = {"status": "awaiting-recheck" if recheck else "unverified", "note": "its text has changed since the verdict"}
         item["verification"] = {
             "status": v.get("status", "unverified"),
             "note": v.get("note", ""),
@@ -63,7 +68,7 @@ def main() -> None:
         }
         item["label"] = "AI-verified"
         stats[(item["type"], item["verification"]["status"])] += 1
-    kept = ("verified", "partially-verified")
+    kept = SERVED
     for k in ("claims", "events"):
         if k in cat:
             cat[k] = [it for it in cat[k] if it["verification"]["status"] in kept]
