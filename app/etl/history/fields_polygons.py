@@ -543,6 +543,10 @@ def main() -> None:
                 for f in feats for sd, w in f["sides"] if w >= 0.85 or f.get("claim")],
     })
 
+    # the precise sources' own borders as lines over the colours, on the same slices
+    from etl.history import border_lines
+    border_lines.write(feats, years)
+
 
 if __name__ == "__main__":
     main()

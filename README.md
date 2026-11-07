@@ -4,7 +4,7 @@
 
 Everything here is licensed under the GPL-3.0 (see `LICENSE`), except the inputs listed under "Other inputs", which keep their own licences.
 
-Exported from the atlas's main repository at commit `53bda68` by `app/scripts/gpl_export.py`. The rest of the atlas is not GPL-licensed and is not in this repository.
+Exported from the atlas's main repository at commit `b8d4b1a` by `app/scripts/gpl_export.py`. The rest of the atlas is not GPL-licensed and is not in this repository.
 
 ## Build
 
@@ -52,6 +52,10 @@ The build downloads these; none is copied into this repository except where note
 - `app/etl/common.py`
 - `app/etl/fetch/__init__.py`
 - `app/etl/fetch/borders.py`
+- `app/etl/fetch/europe/__init__.py`
+- `app/etl/fetch/europe/divisions.py`
+- `app/etl/fetch/europe/divisions_doc.py`
+- `app/etl/fetch/europe/util.py`
 - `app/etl/fetch/north_america/__init__.py`
 - `app/etl/fetch/north_america/__main__.py`
 - `app/etl/fetch/north_america/canada_treaties.py`
@@ -61,7 +65,9 @@ The build downloads these; none is copied into this repository except where note
 - `app/etl/fetch/north_america/make_sources.py`
 - `app/etl/fetch/north_america/ohm_convert.py`
 - `app/etl/fetch/north_america/ohm_fetch.py`
+- `app/etl/fetch/ohm.py`
 - `app/etl/history/__init__.py`
+- `app/etl/history/border_lines.py`
 - `app/etl/history/border_sides.py`
 - `app/etl/history/events_from_wikidata.py`
 - `app/etl/history/fields_polygons.py`

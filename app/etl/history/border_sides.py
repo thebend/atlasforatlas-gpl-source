@@ -80,7 +80,9 @@ def cshapes_sources(opt: dict) -> list[dict]:
                       "y1": max(dec(p["end"]) + 1 / 365.25, Y1 + 2.0) if p["end"] == last else dec(p["end"]) + 1 / 365.25,
                       "geom": shape(f["geometry"]), "sides": [(sid, w)], "crisp": 1.0 if defined else 0.6,
                       "ramp": 1.0 if defined else 2.0, "source": "cshapes2", "kind": "state",
-                      "unit": p["name"], "status": p["status"]})
+                      "unit": p["name"], "status": p["status"],
+                      # the row in the source, for its unsimplified outline (border_lines.py)
+                      "row": ("cshapes2", p["gwcode"], p["start"])})
     return feats
 
 
@@ -138,7 +140,8 @@ def ohm_sources(opt: dict) -> list[dict]:
         name = SIDES[sid]["name"] if sid in SIDES else p["name"]
         feats.append({"side": sid, "name": p["name"], "names": {sid: name}, "y0": _dec_tag(p["start"], Y0 - 1.0),
                       "y1": _dec_tag(p["end"], Y1 + 2.0), "geom": shape(f["geometry"]), "sides": [(sid, p["weight"])],
-                      "crisp": 1.0, "source": "ohm", "kind": "state", "unit": p["name"], **({"claim": True} if p["claim"] else {})})
+                      "crisp": 1.0, "source": "ohm", "kind": "state", "unit": p["name"], "row": ("ohm", p.get("source_id")),
+                      **({"claim": True} if p["claim"] else {})})
     return feats
 
 
