@@ -486,14 +486,29 @@
       "caveats": []
     },
     "naturalearth": {
-      "name": "Natural Earth (land, rivers, Natural Earth I land cover)",
+      "name": "Natural Earth (land, lakes, Natural Earth I land cover)",
       "licence": "Public domain",
       "cls": "public",
       "url": "https://www.naturalearthdata.com/",
       "review": {"kind": "community", "evidence": "Natural Earth, made by volunteer cartographers", "url": "https://www.naturalearthdata.com/about/", "quote": "Making Natural Earth is a collaboration involving many volunteer NACIS members and cartographers around the globe.", "checked": "2026-10-27", "note": "Full citation: Natural Earth, made by volunteer NACIS members (led by Nathaniel Vaughn Kelso and Tom Patterson). Community, not none: it is made by named volunteer professional cartographers rather than crowd-edited, but it has no methods paper or documented expert review, and NACIS is a society, not an agency."},
       "coverage": "Worldwide.",
       "steps": ["fetch.natural_earth", "base.veg", "base.coast", "base.world_land", "presence.art17, presence.bbs, presence.farming (land and admin-0 masks)"],
-      "caveats": ["Modern coastlines and river courses."]
+      "caveats": ["Modern coastlines and lakes."]
+    },
+    "hydrosheds": {
+      "name": "HydroRIVERS v1.0 (Lehner & Grill 2013; HydroSHEDS, World Wildlife Fund)",
+      "licence": "HydroSHEDS v1 licence agreement: free for commercial use; distributed only built into the atlas, under terms as protective as WWF's, with WWF's attribution statement",
+      "cls": "attribution",
+      "url": "https://www.hydrosheds.org/products/hydrorivers",
+      "review": {"kind": "peer-reviewed", "evidence": "Lehner & Grill 2013, Hydrological Processes", "url": "https://doi.org/10.1002/hyp.9740", "quote": "a validation of the downscaled discharge estimates against observations at 3,003 global gauging stations", "quote_url": "https://data.hydrosheds.org/file/technical-documentation/HydroRIVERS_TechDoc_v10.pdf", "checked": "2026-11-07", "note": "Full citation: Lehner, B., Grill, G. (2013): Global river hydrography and network routing: baseline data and new approaches to study the world's large river systems. Hydrological Processes 27(15): 2171-2186. HydroSHEDS v1: Lehner, Verdin & Jarvis (2008), Eos 89(10): 93-94. Discharge is modelled (WaterGAP 2.2, downscaled), with a symmetric mean absolute percentage error of 35% against gauges, 13% for rivers of 100 m3/s or more (technical documentation, section 2.2)."},
+      "coverage": "Worldwide but Antarctica (Greenland's reaches are left out: they cross the ice sheet). Reaches of 5 m3/s or more; long-term average discharge 1971-2000.",
+      "steps": ["base.rivers_hydro"],
+      "caveats": [
+        "Modern courses and modelled modern discharge (1971-2000), not the period's rivers.",
+        "Coarser above 60 degrees north, where no SRTM elevation exists (HYDRO1k instead).",
+        "Licence terms beyond attribution: distribution only built into a product, never stand-alone; under an end-user licence at least as protective as WWF's (no decompiling, no redistribution); reasonable care against unauthorised copying; WWF's statement in the product's documentation (About page). See docs/design/licensing.md, HydroSHEDS."
+      ],
+      "note": "Required statement (licence Exhibit B) on the About page. Cite Lehner & Grill 2013 (doi:10.1002/hyp.9740)."
     },
     "hyde": {
       "name": "HYDE 3.3 (Klein Goldewijk et al., Utrecht University / PBL)",
