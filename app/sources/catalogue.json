@@ -868,6 +868,34 @@
       ],
       "note": "The file is CLIWOC21LIM.zip from https://hs.pangaea.de/Projects/CLIWOC/, listed on the landing page. A copy on HistoricalClimatology.com states no licence of its own, so it is not used. Wilkinson, British Logbooks in UK Archives, 17th-19th centuries (report for NOAA's climate database modernisation programme), read at https://web.archive.org/web/2015/https://icoads.noaa.gov/reclaim/pdf/British_logbooks_v3.pdf."
     },
+    "nara-hes": {
+      "name": "Hamlet Evaluation System (HES) Files, 1967-1974 (US National Archives, Record Group 330, series 4616225)",
+      "licence": "NARA catalog record: use restriction \"Unrestricted\", access restriction \"Unrestricted\"",
+      "cls": "public",
+      "url": "https://catalog.archives.gov/id/4616225",
+      "review": {
+        "kind": "none",
+        "evidence": "US Defense Department reporting system: advisers' monthly reports scored by its model",
+        "url": "https://catalog.archives.gov/id/4616225",
+        "quote": "at least some of the decline in subsequent months represented adjustment of over-optimistic reports",
+        "quote_url": "https://archive.org/details/cia-readingroom-document-cia-rdp80r01720r000700090002-0",
+        "checked": "2026-11-07",
+        "note": "Not reviewed: a government record, doubted at the time. The quote is CIA, Conflicting Estimates of the Pacification Situation in South Vietnam, memorandum of 30 August 1972, CIA-RDP80R01720R000700090002-0 (CIA reading room node 623013, which refuses scripts; read through the Internet Archive's copy). It also says goals 'were met statistically prior to their being met in reality'. Scholarly use with its bias: Kalyvas and Kocher 2009, The Dynamics of Violence in Vietnam: An Analysis of the Hamlet Evaluation System (HES), Journal of Peace Research 46(3): 335-355."
+      },
+      "evidence": "observed",
+      "coverage": "Hamlet-months January 1967 to January 1974: HAMLA 1967-69 (fixed set), HES70 July 1969-June 1971 and HES71 July 1971-January 1974 (PS1). 23,319 hamlets placed, 85 months; January 1974 has 16,751 hamlets. Gaps in the archive's copy, by month: January-June 1969 no IV Corps (Mekong Delta); January 1970-June 1971 no hamlets of Kontum, Binh Dinh, Pleiku, Phu Bon, Phu Yen and Darlac (NARA: reel 2 of those tapes is missing); 1972 only the twelve provinces of I Corps and northern II Corps; 1973 no III Corps provinces, nor Lam Dong, Binh Thuan, Go Cong, Kien Tuong, Kien Phong, Dinh Tuong.",
+      "steps": [
+        "history.hes"
+      ],
+      "caveats": [
+        "US assessments, not observed control: HAMLA summed 18 indicators an adviser scored 1-5; HES70 and HES71 scored advisers' answers by a model, and from January 1971 weighted political factors more, so a grade's meaning changes between periods.",
+        "After the US advisers left in 1972 the reports came from South Vietnamese officials (NARA user note in 132.1DP.pdf).",
+        "Ratings: A-E, V (Viet Cong controlled), X abandoned, N not rated (HES70/71: too few responses; HAMLA: not evaluated, with its undocumented 0 and 3). X and N are drawn as no rating; P (planned) and * (deleted) are left out.",
+        "Grid references are 100 m MGRS squares with no zone and no datum stated; converted on UTM zones 48/49 by the column letter and the Indian 1960 datum (Everest 1830) of the US Army Map Service's wartime maps, then to WGS 84 by NIMA TR8350.2's shift (198, 881, 317 m). 432 hamlets have no grid reference and 17 one outside South Vietnam; they are left out.",
+        "A hamlet's codes in HAMLA and HES are joined when their squares are within 2 km (10,605 hamlets); otherwise they are two dots."
+      ],
+      "note": "Files under https://catalog.archives.gov/medialz/electronic-records/rg-330/HES/ (tab-delimited ASCII, de-NIPS'd by NARA in 2018). Field meanings from the series' documentation there: 132.1DP.pdf (NARA user notes, HAMLA layout and codes, history), 132.2DP.pdf (HES/70 guide), HES330_TSS132.pdf. Only the tables used are fetched (about 185 MB), read once and deleted; a compact extract is cached."
+    },
     "aowl": {
       "name": "American Offshore Whaling Logbook Data (New Bedford Whaling Museum, Nantucket Historical Association, Mystic Seaport Museum)",
       "licence": "CC BY 4.0: the readme in the download says \"licensed under a Creative Commons Attribution 4.0 International License\"",
