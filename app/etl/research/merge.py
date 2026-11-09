@@ -23,7 +23,7 @@ from collections import Counter
 import sys
 
 from etl.common import CATALOGUE, RCACHE, RESEARCH, write_json
-from etl.research import review
+from etl.research import dating, review
 from etl.research.stamp import text_sha
 
 SERVED = ("verified", "partially-verified", "awaiting-recheck")   # the statuses a card is served with
@@ -52,8 +52,11 @@ def main() -> None:
     # the owner may serve a card edited since its verdict before it is re-checked: it shows as awaiting
     # that check (no verification badge, docs/design/policy.md), until a new verdict is sealed
     recheck = bool(cat.get("meta", {}).get("edits_awaiting_recheck"))
+    bad = [f"{item['id']}: {p}" for item in cat.get("claims", []) + cat.get("events", []) for p in dating.problems(item)]
+    if bad:
+        raise SystemExit("dating problems (etl/research/dating.py):\n  " + "\n  ".join(bad))
     for item in cat.get("claims", []) + cat.get("events", []):
-        checks = [c.get("quote_check") for c in item.get("citations", [])]
+        checks = [c.get("quote_check") for c in dating.citations(item)]
         v = verdicts.get(item["id"], {"status": "unverified", "note": "no verdict from second pass"})
         # a rewritten card keeps no verdict from before its rewrite (etl/research/stamp.py)
         if (item["id"] in edited or v.get("sha")) and v.get("sha") != text_sha(item):

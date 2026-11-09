@@ -16,8 +16,26 @@ import sys
 from etl.common import RESEARCH
 
 
+CITED = ("url", "title", "quote", "kind")       # a citation as written: not the checks the build adds (quote_check)
+
+
+def _written(d: dict) -> dict:
+    """A dating block as the researcher wrote it, without what verify_quotes and the build add to its citations."""
+    cite = lambda c: {k: c[k] for k in CITED if k in c} if isinstance(c, dict) else c
+    out = {k: v for k, v in d.items() if k not in ("positions", "citation")}
+    if "citation" in d:
+        out["citation"] = cite(d["citation"])
+    out["positions"] = [{**{k: v for k, v in p.items() if k != "citation"}, "citation": cite(p.get("citation"))} for p in d.get("positions", [])]
+    return out
+
+
 def text_sha(item: dict) -> str:
-    return hashlib.sha1(f"{item.get('title') or ''}|{item.get('statement') or ''}".encode()).hexdigest()[:16]
+    """The words a verdict checked: title and statement, and a date in dispute's positions where there
+    are any (etl/research/dating.py; an item without one hashes as it always has)."""
+    words = f"{item.get('title') or ''}|{item.get('statement') or ''}"
+    if item.get("dating"):
+        words += "|" + json.dumps(_written(item["dating"]), ensure_ascii=False, sort_keys=True)
+    return hashlib.sha1(words.encode()).hexdigest()[:16]
 
 
 def _save(path, data, raw: str) -> None:

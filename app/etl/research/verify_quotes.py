@@ -2,7 +2,8 @@
 
 For every citation: fetch the source once, reduce it to plain text and check
 that the quoted words really appear there (exact after normalisation, else a
-token-window fuzzy match). archive.org book pages are checked against the
+token-window fuzzy match), a dating position's citation as well as the
+item's own. archive.org book pages are checked against the
 item's OCR full text. Results are written next to each citation as
 `quote_check: found|fuzzy|missing|unfetchable`, and a per-item summary is
 saved for the second (support) pass.
@@ -22,6 +23,7 @@ import urllib.parse
 
 from etl import net
 from etl.common import CACHE, RCACHE, RESEARCH, write_json
+from etl.research import dating
 
 import sys
 NAME = sys.argv[1] if len(sys.argv) > 1 else "northeast-1790-1820"
@@ -142,7 +144,8 @@ def main() -> None:
     summary = {}
     for item in cat.get("claims", []) + cat.get("events", []):
         res = []
-        for c in item.get("citations", []):
+        # (a date in dispute: each position's citation too, etl/research/dating.py)
+        for c in dating.citations(item):
             src = c.get("url", "")
             if src not in cache:
                 cache[src] = source_text(src)

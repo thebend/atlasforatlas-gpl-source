@@ -128,13 +128,14 @@ def trim_quotes(cats: dict[str, dict]) -> dict:
     pol = PROFILE.get("quotes")
     if not pol:
         return {}
+    from etl.research import dating     # (here: etl.common reads this module)
     cap, per_url = pol.get("max_words", 10 ** 9), pol.get("per_url_words", 10 ** 9)
     free = tuple(pol.get("open_hosts", []))
     used: dict[str, int] = {}
     n = {"kept": 0, "withheld_long": 0, "withheld_page_cap": 0}
     for name in sorted(cats):
         for item in cats[name].get("claims", []) + cats[name].get("events", []):
-            for c in item.get("citations", []):
+            for c in dating.citations(item):
                 q = c.get("quote")
                 if not q:
                     continue
