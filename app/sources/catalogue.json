@@ -651,7 +651,7 @@
       "url": "https://psl.noaa.gov/data/20thC_Rean/",
       "review": {"kind": "peer-reviewed", "evidence": "Slivinski et al. 2019, QJRMS", "url": "https://doi.org/10.1002/qj.3598", "quote": "Received: 28 February 2019 Revised: 05 June 2019 Accepted: 21 June 2019", "quote_url": "https://nora.nerc.ac.uk/id/eprint/527105/1/qj.3598.pdf", "checked": "2026-10-27", "note": "Full citation: Slivinski et al. 2019, Quarterly Journal of the Royal Meteorological Society 145, 2876-2908. The paper is marked 'INVITED MANUSCRIPT', but the Received/Revised/Accepted history shows it was reviewed. Wiley's page refuses automated access (HTTP 403), so the dates come from the journal-layout PDF in NERC's repository. The dataset is also a NOAA/CIRES/DOE product, so 'agency' would fit too."},
       "coverage": "Worldwide, 3-hourly, 1 degree, 1836-2015.",
-      "steps": ["base.weather", "runtime: live weather, day bundles through the project's tile cache Worker (src/lib/live/weather20cr.ts)"],
+      "steps": ["base.weather", "base.stop_weather: the weather line on dated tour stops' cards, from PSL's daily means and ensemble spread files", "runtime: live weather, day bundles through the project's tile cache Worker (src/lib/live/weather20cr.ts)"],
       "caveats": [
         "Before about 1900 and away from dense observations, a plausible smoothed state, not the day's weather.",
         "Licence confirmed as CC BY 4.0 from its DataCite record, doi:10.5065/H93G-WS83 (2026-10-27): attribution required.",
