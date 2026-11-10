@@ -1232,6 +1232,26 @@
       "coverage": "One wind recording (the wind sound bed).",
       "steps": ["fetch.audio", "media.ambience"],
       "caveats": ["Fetched from the archive.org mirror (archive.org/download/nps-yell-sounds-soundscapes)."]
+    },
+    "nara-audio": {
+      "name": "US National Archives sound recordings (presidential libraries), for tour-stop recordings",
+      "licence": "US Government works (17 USC 105); each item's NARA catalogue record gives its use restriction, recorded per clip in sources/audio/speeches.json",
+      "cls": "public",
+      "url": "https://catalog.archives.gov/",
+      "review": {"kind": "none", "evidence": "Archival recordings of presidential speeches, catalogued by the National Archives", "url": "https://catalog.archives.gov/", "quote": "Unrestricted", "checked": "2026-11-09", "note": "Not reviewed: a recording of what was said, not a claim about what happened. The quote is the catalogue's use-restriction status, read per item from its record (catalog.archives.gov/id/<NAID>). Items catalogued 'Restricted - Possibly' for copyright are not used. Where the record names a federal agency (White House Army Signal Agency, White House Communications Agency) as the recording's maker, the clip ships in every build; where it names only the speaker and the library, the clip is open build only (policy.md, 2026-11-09)."},
+      "coverage": "15 excerpts of presidential addresses, 1935-1991, for the stops of seven tours.",
+      "steps": ["fetch.audio", "media.speeches"],
+      "caveats": ["Fetched from NARA's catalogue (catalog.archives.gov/medialz/...) or from the copy NARA contributed to Wikimedia Commons through DPLA, pinned by sha1.", "Transcripts are the published texts (Public Papers of the Presidents, read at the American Presidency Project), not the spoken words."]
+    },
+    "nasa-sounds": {
+      "name": "NASA Historical Sounds",
+      "licence": "NASA media usage guidelines: NASA material is generally not subject to copyright in the United States",
+      "cls": "public",
+      "url": "https://www.nasa.gov/historical-sounds/",
+      "review": {"kind": "none", "evidence": "NASA's page of historic mission sounds", "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/", "quote": "generally are not subject to copyright in the United States", "checked": "2026-11-09", "note": "Not reviewed: mission audio, not a claim. The page does not say who recorded Sputnik's signal, so that clip is open build only (policy.md, 2026-11-09)."},
+      "coverage": "Two clips: Apollo 11's first step, and Sputnik 1's signal.",
+      "steps": ["fetch.audio", "media.speeches"],
+      "caveats": ["The page gives titles only; its clips have no catalogue numbers beyond their file names."]
     }
   }
 }
