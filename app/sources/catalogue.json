@@ -472,7 +472,7 @@
       "url": "https://registry.opendata.aws/terrain-tiles/",
       "review": {"kind": "none", "evidence": "Mapzen Terrain Tiles, a company composite", "url": "https://registry.opendata.aws/terrain-tiles/", "quote": "A global dataset providing bare-earth terrain heights, tiled for easy usage and provided on S3.", "checked": "2026-10-27", "note": "Full citation: Mapzen Terrain Tiles (Tilezen Joerd), AWS Open Data Registry. Assembled by Mapzen (a company, later a Linux Foundation project) from agency DEMs (SRTM, GMTED2010, ETOPO1, national lidar and others). The inputs have agency or peer review, but we found no documented expert review of the composite itself."},
       "coverage": "Worldwide to 85 degrees; poles from ETOPO1.",
-      "steps": ["base.terrain"],
+      "steps": ["base.terrain", "history.itinerary (a traveller's route profile: z7 tiles, as the world's level-3 relief)"],
       "caveats": ["Modern elevation and coastlines.", "The poles (beyond 85 degrees) come from ETOPO1 through NOAA's ERDDAP server: see etopo1."]
     },
     "etopo1": {
@@ -481,8 +481,8 @@
       "cls": "public",
       "url": "https://www.ncei.noaa.gov/products/etopo-global-relief-model",
       "review": {"kind": "agency", "evidence": "NOAA NCEI, Amante & Eakins 2009", "url": "https://doi.org/10.7289/V5C8276M", "quote": "shifted to common horizontal and vertical datums, and then evaluated and edited as needed", "quote_url": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ngdc.mgg.dem:316", "checked": "2026-10-27", "note": "Full citation: Amante & Eakins 2009, NOAA NGDC (NCEI) ETOPO1 1 Arc-Minute Global Relief Model. The DOI resolves to NCEI's ETOPO1 metadata landing page. ETOPO1 is documented in NOAA Technical Memorandum NESDIS NGDC-24, which is not a journal paper. NCEI has since replaced it with ETOPO 2022, which is what the catalogue url now shows."},
-      "coverage": "Worldwide relief at 1 arc-minute; used only for the polar caps above 85 degrees, where the Terrarium tiles stop.",
-      "steps": ["base.terrain (coastwatch.pfeg.noaa.gov/erddap/griddap/etopo180)"],
+      "coverage": "Worldwide relief at 1 arc-minute; used for the polar caps above 85 degrees, where the Terrarium tiles stop, and for the travellers' route profiles south of 60 S (the Antarctic sledging and flying parties), where Terrarium's Antarctica is wrong.",
+      "steps": ["base.terrain (coastwatch.pfeg.noaa.gov/erddap/griddap/etopo180)", "history.itinerary (route profiles south of 60 S, 1-degree cells from the same ERDDAP dataset)"],
       "caveats": []
     },
     "naturalearth": {
