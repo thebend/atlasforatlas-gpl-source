@@ -360,7 +360,7 @@
       "url": "https://glottolog.org/meta/downloads",
       "review": {"kind": "none", "evidence": "Glottolog, compiled by its editors", "url": "https://glottolog.org/glottolog/glottologinformation", "quote": "coordinates are attributes close to observation and are therefore not given with a specific source in Glottolog", "checked": "2026-10-31", "note": "A scholarly reference, kept by its editors from the literature, with no peer-reviewed methods paper we could confirm for the coordinates."},
       "coverage": "7,999 languages with a coordinate, of 8,618 at language level: 380 bookkeeping entries and those with no coordinate left out, and the speech registers, unattested names and artificial languages. Status (extinct or dormant: 1,050) from glottolog-cldf 5.3, CC BY 4.0. Cite as: Hammarström, Harald, Robert Forkel, Martin Haspelmath and Sebastian Bank, 2026, Glottolog 5.3, Leipzig: Max Planck Institute for Evolutionary Anthropology, doi:10.5281/zenodo.15525265.",
-      "steps": ["fetch.languages"],
+      "steps": ["fetch.languages", "standing (each Wikipedia edition's language family and branch, for the live map's coverage measures)"],
       "caveats": [
         "A representative point for each language, often the centre of where its speakers live, sometimes a historical location: not a range, and undated.",
         "It says nothing about how many people speak a language."
@@ -449,7 +449,7 @@
       "url": "https://www.wikidata.org/",
       "review": {"kind": "community", "evidence": "Wikidata, edited by volunteers and bots", "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page", "quote": "Wikidata is a free and open knowledge base that can be read and edited by both humans and machines.", "checked": "2026-10-27", "note": "Full citation: Wikidata, Wikimedia Foundation. Open editing by volunteers and bots; statements may carry references but are not reviewed."},
       "coverage": "Worldwide events (battles, sieges, treaties, massacres, rebellions) and settlements with coordinates and dates.",
-      "steps": ["history.events_from_wikidata", "history.event_dates", "history.settlements", "history.cities (the historical city populations' items: names, cards and articles, and the years before the datasets count a city)", "base.veg (river discharge: base/river_flow.py)", "names (labels in other languages)", "fetch.live_events (the live world's events, built at each deploy for src/lib/live/events.ts)", "root pipeline: S0/S1 extract; sa_control_points through the QLever mirror (qlever.dev)"],
+      "steps": ["history.events_from_wikidata", "history.event_dates", "history.settlements", "history.cities (the historical city populations' items: names, cards and articles, and the years before the datasets count a city)", "base.veg (river discharge: base/river_flow.py)", "names (labels in other languages)", "fetch.live_events (the live world's events, built at each deploy for src/lib/live/events.ts)", "fetch.wd_background (the live map's Wikidata background: premieres, railways, power, disasters, ...)", "fetch.wd_sitelinks and standing (which Wikipedias cover each live-map event: the standing that weights them)", "root pipeline: S0/S1 extract; sa_control_points through the QLever mirror (qlever.dev)"],
       "caveats": [
         "Coverage follows Wikipedia's interests: European and North American events are far denser than African, Asian or Indigenous ones.",
         "Settlement founding dates (P571) are sparse and sometimes the date of a charter, not of first settlement."
@@ -523,6 +523,20 @@
         "Licence confirmed as CC BY 4.0 from its DataCite record (2026-10-26): attribution required."
       ],
       "note": "Cite Klein Goldewijk et al. 2017 (doi:10.5194/essd-9-927-2017)."
+    },
+    "hyde32": {
+      "name": "HYDE 3.2.1 (Klein Goldewijk et al., Utrecht University / PBL)",
+      "licence": "CC0 1.0 (its DANS record, doi:10.17026/dans-25g-gez3)",
+      "cls": "public",
+      "url": "https://doi.org/10.17026/dans-25g-gez3",
+      "review": {"kind": "peer-reviewed", "evidence": "Klein Goldewijk et al. 2017, ESSD", "url": "https://doi.org/10.5194/essd-9-927-2017", "quote": "a full peer-review process in the traditional sense, albeit in a more transparent way, is assured before publication of a paper in ESSD", "quote_url": "https://www.earth-system-science-data.net/peer_review/interactive_review_process.html", "checked": "2026-11-10", "note": "The paper describes HYDE 3.2; 3.2.1 is its release on DANS, the version before 3.3."},
+      "coverage": "Worldwide, 5' grid of people per cell (popc); 10,000 BCE to 2017 CE. We read 13 years (1000 BCE to 2015 CE) and keep only region totals.",
+      "steps": ["base.region_population (the live map's regional baseline: etl/standing.py)"],
+      "caveats": [
+        "A model: country totals allocated over a grid, not a count.",
+        "Used only as a weight for how many live-map markers each region gets at the wide zooms (docs/design/background-weighting.md), never drawn."
+      ],
+      "note": "Cite Klein Goldewijk et al. 2017 (doi:10.5194/essd-9-927-2017). CC0 asks no credit; we give it anyway."
     },
     "gapminder": {
       "name": "Based on free material from GAPMINDER.ORG",
