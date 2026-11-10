@@ -3133,7 +3133,7 @@
           "url": "https://taospueblo.com/history/",
           "title": "History - Taos Pueblo (official site)",
           "quote": "The adobe structures are estimated to be over a thousand years old.",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -3180,7 +3180,7 @@
           "url": "https://www.nps.gov/peco/learn/historyculture/index.htm",
           "title": "History & Culture - Pecos National Historical Park (NPS)",
           "quote": "The ancestral Pecos People farmed and traded here for over 1000 years.",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "medium",
@@ -3300,7 +3300,7 @@
           "url": "https://www.hopi-nsn.gov/",
           "title": "The Hopi Tribe (official site)",
           "quote": "Since time immemorial the Hopi people have lived in Hopitutskwa",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -3528,7 +3528,7 @@
           "url": "https://www.nps.gov/articles/000/acoma-pueblo-ancient-city-in-the-sky.htm",
           "title": "Acoma Pueblo: Ancient City in the Sky (NPS)",
           "quote": "dates the Pueblo's oldest extant remains to around 1100 C.E.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://ebsco.com/research-starters/political-science/acoma-pueblo",
@@ -3575,7 +3575,7 @@
           "url": "https://www.nps.gov/articles/000/acoma-pueblo-ancient-city-in-the-sky.htm",
           "title": "Acoma Pueblo: Ancient City in the Sky (NPS)",
           "quote": "Oñate himself demanded sentencing survivors to indentured servitude and bodily mutilation.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Acoma_Pueblo",
@@ -3822,7 +3822,7 @@
           "url": "https://www.fortsillapache-nsn.gov/history/",
           "title": "History - Fort Sill Apache Tribe (official site)",
           "quote": "whose original territory covered much of what is now the American Southwest including eastern Arizona and western New Mexico",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "medium",
@@ -3870,7 +3870,7 @@
           "url": "https://www.nps.gov/fobo/learn/historyculture/the-battle-of-apache-pass.htm",
           "title": "The Battle of Apache Pass (NPS, Fort Bowie National Historic Site)",
           "quote": "The Apaches were led by Chokonen Leader Cochise",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "medium",
@@ -3901,13 +3901,13 @@
           "url": "https://home.nps.gov/chir/learn/historyculture/post-apache-wars.htm",
           "title": "Post Apache Wars (NPS, Chiricahua National Monument)",
           "quote": "Chiricahua Apache were held as prisoners-of-war at Fort Bowie, before being transported to Florida.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.fortsillapache-nsn.gov/history/",
           "title": "History - Fort Sill Apache Tribe (official site)",
           "quote": "after nearly a decade of imprisonment and exile at U.S. Army installations in Florida and Alabama",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -3942,7 +3942,7 @@
           "url": "https://www.fortsillapache-nsn.gov/history/",
           "title": "History - Fort Sill Apache Tribe (official site)",
           "quote": "The Fort Sill Apache Tribe was moved to Oklahoma in 1894 after nearly a decade of imprisonment",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Fort_Sill",
@@ -4095,7 +4095,7 @@
           "url": "https://mescaleroapachetribe.com/our-culture",
           "title": "Our Culture - Mescalero Apache Tribe (official site)",
           "quote": "Hundreds of years ago, long before white men came to this land, these mountains, plains and deserts belonged to the Mescalero Apaches.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Mescalero",
@@ -4132,7 +4132,7 @@
           "url": "https://mescaleroapachetribe.com/our-culture",
           "title": "Our Culture - Mescalero Apache Tribe (official site)",
           "quote": "formally established by Executive Order of President Ulysses S. Grant on May 29, 1873",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Mescalero",
@@ -4280,7 +4280,7 @@
           "url": "https://tentribespartnership.org/tribes/jicarilla-apache-nation/",
           "title": "Jicarilla Apache Nation (Ten Tribes Partnership)",
           "quote": "the original 416,000-acre Jicarilla Reservation of Northern New Mexico was created by the executive order of February 11, 1887",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Jicarilla_Apache",
@@ -4321,7 +4321,7 @@
           "url": "https://www.lipanapachetribe.gov/LAT/sacredhistory.html",
           "title": "Our Sacred History: Who We Are - Lipan Apache Tribe of Texas",
           "quote": "The Plains Lipan chose land along the upper Colorado and Concho Rivers.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Lipan_Apache",
@@ -4362,13 +4362,13 @@
           "url": "https://www.lipanapachetribe.gov/LAT/sacredhistory.html",
           "title": "Our Sacred History: Who We Are - Lipan Apache Tribe of Texas",
           "quote": "Several bands settled around present-day San Antonio.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://www.lipanapachetribe.gov/LAT/sacredhistory.html",
           "title": "Our Sacred History: Who We Are - Lipan Apache Tribe of Texas",
           "quote": "By 1880, the tribe had scattered with small groups living along the south Rio Grande River",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "medium",
@@ -4403,7 +4403,7 @@
           "url": "https://www.southernute-nsn.gov/history/",
           "title": "History - Southern Ute Indian Tribe (official site)",
           "quote": "The Uncompahgre (Tabeguache) were located near the Uncompahgre and Gunnison, and Elk Rivers near Montrose and Grand Junction, Colorado.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Ute_people",
@@ -4482,7 +4482,7 @@
           "url": "https://digitreaties.org/treaties/treaty/179033942/",
           "title": "Treaty Between the United States of America and the Tabeguache, Muache, Capote, Weeminuche, Yampa, Grand River, and Uintah Bands of Ute Indians (Digital Treaties)",
           "quote": "Concluded March 2, 1868, and Ratified November 6, 1868",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -4551,13 +4551,13 @@
           "url": "https://www.southernute-nsn.gov/history/",
           "title": "History - Southern Ute Indian Tribe (official site)",
           "quote": "negotiated with the Confederated Utes and the U.S. government, represented by Felix R. Brunot, at the Los Pinos Agency on September 13, 1873",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://www.southernute-nsn.gov/history/",
           "title": "History - Southern Ute Indian Tribe (official site)",
           "quote": "most often remembered by Utes as the agreement when their land was fraudulently taken away",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -4594,7 +4594,7 @@
           "url": "https://www.southernute-nsn.gov/history/",
           "title": "History - Southern Ute Indian Tribe (official site)",
           "quote": "The Tabeguache, Grand, Yampa and Uintah bands comprise the Northern Ute Tribe located on the Uintah-Ouray reservation next to Fort Duchesne, Utah.",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "medium",
@@ -4637,7 +4637,7 @@
           "url": "https://www.tonation-nsn.gov/history-culture/",
           "title": "History & Culture - Tohono O'odham Nation (official site)",
           "quote": "it had been home to the O'odham for thousands of years",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "medium",
@@ -4668,13 +4668,13 @@
           "url": "https://www.tonation-nsn.gov/history-culture/",
           "title": "History & Culture - Tohono O'odham Nation (official site)",
           "quote": "through the Gadsden Purchase or Treaty of La Mesilla, O'odham land was divided almost in half",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://www.tonation-nsn.gov/history-culture/",
           "title": "History & Culture - Tohono O'odham Nation (official site)",
           "quote": "the Gadsden Purchase had little effect on the O'odham initially because they were not informed that a purchase of their land had been made",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -4717,7 +4717,7 @@
           "url": "https://home.nps.gov/places/gila-river-indian-community.htm",
           "title": "Gila River Indian Community (NPS)",
           "quote": "Anza and Font called this place the \"Pima Villages\"",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "medium",
@@ -4748,7 +4748,7 @@
           "url": "https://home.nps.gov/places/gila-river-indian-community.htm",
           "title": "Gila River Indian Community (NPS)",
           "quote": "Gila River Indian Reservation was established in 1859",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Gila_River_Indian_Community",
@@ -4822,13 +4822,13 @@
           "url": "https://www.nps.gov/articles/yuma.htm",
           "title": "Arizona: Yuma Crossing National Heritage Area (NPS)",
           "quote": "found thriving communities along the riverbanks near the crossing",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/articles/yuma.htm",
           "title": "Arizona: Yuma Crossing National Heritage Area (NPS)",
           "quote": "established friendly relations with the Quechans, who controlled the crossing",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "medium",
@@ -4931,13 +4931,13 @@
           "url": "https://www.nps.gov/moja/learn/historyculture/mojave-tribe.htm",
           "title": "Mojave Tribe (NPS, Mojave National Preserve)",
           "quote": "The land of the Mojave, the most northern of the Yuman tribes, stretched from Black Canyon to the Picacho Mountains",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.fortmojaveindiantribe.com/about-us/",
           "title": "The People by the River - Fort Mojave Indian Tribe (official site)",
           "quote": "In the 16th Century, the time the Spanish arrived in the territory, the Mojaves were the largest concentration of people in the Southwest.",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -4985,7 +4985,7 @@
           "url": "https://www.fortmojaveindiantribe.com/about-us/",
           "title": "The People by the River - Fort Mojave Indian Tribe (official site)",
           "quote": "a United States military outpost was established in 1859 on the east bank of the Colorado River",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "medium",
@@ -5790,7 +5790,7 @@
           "url": "https://www.ndstudies.gov/gr8/node/137",
           "title": "The Treaties of Fort Laramie, 1851 & 1868 (North Dakota Studies, State Historical Society of North Dakota)",
           "quote": "The Treaty of Fort Laramie of 1868 established the Great Sioux Reservation which included the sacred Black Hills.",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -5827,13 +5827,13 @@
           "url": "https://www.law.cornell.edu/supremecourt/text/448/371",
           "title": "United States v. Sioux Nation of Indians, 448 U.S. 371 (1980) (Legal Information Institute)",
           "quote": "In 1877, Congress passed an Act (1877 Act) implementing this",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.law.cornell.edu/supremecourt/text/448/371",
           "title": "United States v. Sioux Nation of Indians, 448 U.S. 371 (1980) (Legal Information Institute)",
           "quote": "It was signed by only 10% of the adult male Sioux population",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -5874,7 +5874,7 @@
           "url": "https://www.ndstudies.gov/gr8/node/174",
           "title": "Standing Rock Reservation (North Dakota Studies, State Historical Society of North Dakota)",
           "quote": "the Sioux refused to cede and retained a large territory for hunting",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "medium",
@@ -5942,7 +5942,7 @@
           "url": "https://www.ndstudies.gov/gr8/node/174",
           "title": "Standing Rock Reservation (North Dakota Studies, State Historical Society of North Dakota)",
           "quote": "In September, 1876, the unceded lands in northern Dakota Territory became part of the Sioux Reservation with an agency at Fort Yates.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Standing_Rock_Indian_Reservation",
@@ -6250,7 +6250,7 @@
           "url": "https://www.law.cornell.edu/supct/html/96-1581.ZO.html",
           "title": "South Dakota v. Yankton Sioux Tribe, 522 U.S. 329 (1998) (Legal Information Institute)",
           "quote": "the Yankton Sioux Tribe held exclusive dominion over 13 million acres of land between the Des Moines and Missouri rivers",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "medium",
@@ -6281,7 +6281,7 @@
           "url": "https://www.law.cornell.edu/supct/html/96-1581.ZO.html",
           "title": "South Dakota v. Yankton Sioux Tribe, 522 U.S. 329 (1998) (Legal Information Institute)",
           "quote": "renouncing their claim to more than 11 million acres of their aboriginal lands",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Yankton_Treaty",
@@ -6355,7 +6355,7 @@
           "url": "https://www.law.cornell.edu/supct/html/96-1581.ZO.html",
           "title": "South Dakota v. Yankton Sioux Tribe, 522 U.S. 329 (1998) (Legal Information Institute)",
           "quote": "The reservation was established pursuant to an 1858 treaty between the United States and the Yankton Sioux Tribe.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Yankton_Sioux_Tribe",
@@ -6560,13 +6560,13 @@
           "url": "https://www.nps.gov/knri/learn/historyculture/mandan.htm",
           "title": "Mandan (Knife River Indian Villages National Historic Site, National Park Service)",
           "quote": "they consolidated into between seven and nine fortified villages around the confluence of the Heart and Missouri Rivers",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/knri/learn/historyculture/mandan.htm",
           "title": "Mandan (Knife River Indian Villages National Historic Site, National Park Service)",
           "quote": "In 1781, a smallpox epidemic devastated the Mandan villages forcing the survivors to move north",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -6601,13 +6601,13 @@
           "url": "https://www.nps.gov/knri/learn/historyculture/hidatsa-village.htm",
           "title": "Hidatsa Village (Knife River Indian Villages National Historic Site, National Park Service)",
           "quote": "The Hidatsa-proper subgroup established the village sometime around the year 1600 CE.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/knri/learn/historyculture/hidatsa-village.htm",
           "title": "Hidatsa Village (Knife River Indian Villages National Historic Site, National Park Service)",
           "quote": "The Hidatsa abandoned the village in 1845, moving upriver 40 miles to establish Like-a-Fishhook Village",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -6638,13 +6638,13 @@
           "url": "https://www.nps.gov/knri/learn/historyculture/mandan.htm",
           "title": "Mandan (Knife River Indian Villages National Historic Site, National Park Service)",
           "quote": "the remaining Mandan moved upriver to Like-a-Fishhook village on the present-day Fort Berthold Reservation",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/knri/learn/historyculture/arikara.htm",
           "title": "Arikara (Knife River Indian Villages National Historic Site, National Park Service)",
           "quote": "their move upriver to join the remaining Mandan and Hidatsa at Like-a-Fishhook Village in 1862",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -6958,7 +6958,7 @@
           "url": "https://www.osagenation-nsn.gov/who-we-are/historic-preservation/osage-cultural-history",
           "title": "Osage Cultural History (Osage Nation Historic Preservation Office)",
           "quote": "large groups of the Osage were located along the Missouri and Osage rivers",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -6989,7 +6989,7 @@
           "url": "https://www.kansashistory.gov/kansapedia/osage-treaties-with-the-united-states/19293",
           "title": "Osage - Treaties With the United States (Kansapedia, Kansas Historical Society)",
           "quote": "Three tracts of Osage land were ceded from an area spanning the majority of present-day Missouri and the northeastern quarter of present-day Arkansas in 1808.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Osage_Nation",
@@ -7073,7 +7073,7 @@
           "url": "https://www.kansashistory.gov/kansapedia/osage-treaties-with-the-united-states/19293",
           "title": "Osage - Treaties With the United States (Kansapedia, Kansas Historical Society)",
           "quote": "ceded all territory to the United States and were removed to present-day Kansas by the treaty of 1839",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -7114,7 +7114,7 @@
           "url": "https://www.kansashistory.gov/kansapedia/osage-treaties-with-the-united-states/19293",
           "title": "Osage - Treaties With the United States (Kansapedia, Kansas Historical Society)",
           "quote": "This diminished Osage territory to a narrow strip across the southern half of present-day Kansas.",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "medium",
@@ -7188,7 +7188,7 @@
           "url": "https://www.kansashistory.gov/kansapedia/osage-treaties-with-the-united-states/19293",
           "title": "Osage - Treaties With the United States (Kansapedia, Kansas Historical Society)",
           "quote": "The Osage were one of the few tribes to purchase their reservation.",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "medium",
@@ -7346,7 +7346,7 @@
           "url": "https://siksikanation.com/about/",
           "title": "About - Siksika Nation (official site)",
           "quote": "Since time immemorial, the Lords of the Plains - the Siksikaitsitapi (Blackfoot People) - have lived in and protected a vast territory.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://www.thecanadianencyclopedia.ca/en/article/treaty-7",
@@ -7513,7 +7513,7 @@
           "url": "https://siksikanation.com/about/",
           "title": "About - Siksika Nation (official site)",
           "quote": "Amskapi Piikani (Southern Piikani, Montana)",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Blackfoot_Confederacy",
@@ -8771,19 +8771,19 @@
           "url": "https://www.haudenosauneeconfederacy.com/who-we-are/",
           "title": "Who We Are - Haudenosaunee Confederacy",
           "quote": "Upon confederation each nation took on a role within the metaphorical longhouse with the Onondaga being the Keepers of the Fire.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://www.haudenosauneeconfederacy.com/who-we-are/",
           "title": "Who We Are - Haudenosaunee Confederacy",
           "quote": "The main meeting place was and still exists today on Onondaga territory.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://www.onondaganation.org/history/",
           "title": "History - Onondaga Nation",
           "quote": "Over a thousand years ago on the shores of Onondaga Lake, in present day central New York, democracy was born.",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "medium",
@@ -8919,7 +8919,7 @@
           "url": "https://sni.org/culture/history/",
           "title": "History - Seneca Nation of Indians",
           "quote": "For generations, the Seneca have thrived in the Finger Lakes and Genesee Valley regions of New York State",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "medium",
@@ -9486,7 +9486,7 @@
           "url": "https://delawarenation-nsn.gov/history/",
           "title": "History - Delaware Nation",
           "quote": "The Lenape are the Indigenous peoples whose ancestral homelands encompassed eastern Pennsylvania, New Jersey, Delaware, and parts of New York, Connecticut, and Maryland",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Lenape",
@@ -9524,7 +9524,7 @@
           "url": "https://delawarenation-nsn.gov/history/",
           "title": "History - Delaware Nation",
           "quote": "Pennsylvania officials ultimately took significantly more land than the Lenape thought they would, a little over a million acres in total",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Walking_Purchase",
@@ -9585,7 +9585,7 @@
           "url": "https://delawarenation-nsn.gov/history/",
           "title": "History - Delaware Nation",
           "quote": "Lenape villages were attacked and burned by American Colonel Daniel Brodhead and his troops between 1779 and 1781.",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "medium",
@@ -9617,19 +9617,19 @@
           "url": "https://delawarenation-nsn.gov/history/",
           "title": "History - Delaware Nation",
           "quote": "moved them from Ohio to Indiana, into Missouri, Kansas, Arkansas, Texas, and eventually Oklahoma.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://delawarenation-nsn.gov/history/",
           "title": "History - Delaware Nation",
           "quote": "Over the course of the 18th and 19th centuries, the Lenape were forced further and further from their homelands.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://delawarenation-nsn.gov/history/",
           "title": "History - Delaware Nation",
           "quote": "Between 1778 and 1830 the Lenape governing bodies that would become known as Delaware Tribe of Indians and Delaware Nation",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "medium",
@@ -9672,7 +9672,7 @@
           "url": "https://delawarenation-nsn.gov/history/",
           "title": "History - Delaware Nation",
           "quote": "On March 8th 1782, American militiamen slaughtered 96 Lenape elders, men, women, children, and infants at Gnadenhutten, Ohio",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -9742,7 +9742,7 @@
           "url": "https://delawarenation-nsn.gov/history/",
           "title": "History - Delaware Nation",
           "quote": "they are eventually moved for the last time to Wichita allotments in Anadarko, Oklahoma around 1873",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "medium",
@@ -9909,7 +9909,7 @@
           "url": "https://pamunkey.org/node/4",
           "title": "Reservation - Pamunkey Indian Tribe",
           "quote": "Pamunkey people have been living on and around the land that is now the Pamunkey Indian Reservation for at least 15,000 years.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://virginiaplaces.org/nativeamerican/reservationpammat.html",
@@ -9921,7 +9921,7 @@
           "url": "https://pamunkey.org/node/4",
           "title": "Reservation - Pamunkey Indian Tribe",
           "quote": "This peninsula is possibly the only land left on the East Coast that has never been ceded",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -9957,7 +9957,7 @@
           "url": "https://mashpeewampanoagtribe-nsn.gov/",
           "title": "Mashpee Wampanoag Tribe",
           "quote": "has inhabited present day Massachusetts and Eastern Rhode Island for more than 12,000 years",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Massasoit",
@@ -10017,7 +10017,7 @@
           "url": "https://mashpeewampanoagtribe-nsn.gov/",
           "title": "Mashpee Wampanoag Tribe",
           "quote": "has inhabited present day Massachusetts and Eastern Rhode Island for more than 12,000 years",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "medium",
@@ -10065,7 +10065,7 @@
           "url": "https://mashpeewampanoagtribe-nsn.gov/",
           "title": "Mashpee Wampanoag Tribe",
           "quote": "has inhabited present day Massachusetts and Eastern Rhode Island for more than 12,000 years",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "medium",
@@ -10096,19 +10096,19 @@
           "url": "https://mashpeewampanoagtribe-nsn.gov/",
           "title": "Mashpee Wampanoag Tribe",
           "quote": "has inhabited present day Massachusetts and Eastern Rhode Island for more than 12,000 years",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://mashpeewampanoagtribe-nsn.gov/",
           "title": "Mashpee Wampanoag Tribe",
           "quote": "After an arduous process lasting more than three decades, the Mashpee Wampanoag were re-acknowledged as a federally recognized tribe in 2007.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://mashpeewampanoagtribe-nsn.gov/",
           "title": "Mashpee Wampanoag Tribe",
           "quote": "In 2015, the federal government declared 150 acres of land in Mashpee and 170 acres of land in Taunton",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -10139,13 +10139,13 @@
           "url": "https://wampanoagtribe-nsn.gov/",
           "title": "Wampanoag Tribe of Gay Head (Aquinnah)",
           "quote": "Our Tribe has maintained a continuous connection to these homelands for thousands of years",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://wampanoagtribe-nsn.gov/",
           "title": "Wampanoag Tribe of Gay Head (Aquinnah)",
           "quote": "The Wampanoag Nation once included all of Southeastern Massachusetts and Eastern Rhode Island, encompassing over 67 distinct tribal communities.",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -10231,7 +10231,7 @@
           "url": "https://www.nps.gov/rowi/learn/historyculture/philipswar.htm",
           "title": "Roger Williams: King Philip's War - National Park Service",
           "quote": "attacked the Narragansett's principal winter settlement in the Great Swamp (South Kingstown) in December, 1675",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Great_Swamp_Fight",
@@ -10494,7 +10494,7 @@
           "url": "https://www.mptn-nsn.gov/",
           "title": "Mashantucket Pequot Tribal Nation",
           "quote": "represents Mashantucket, the \"much wooded land\" where the Pequots hunted and kept alive their identity as an independent people.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Pequot",
@@ -10848,13 +10848,13 @@
           "url": "https://wabanakialliance.com/penobscot-nation/",
           "title": "Penobscot Nation - Wabanaki Alliance",
           "quote": "has inhabited its ancestral homeland situated within the drainage area of the Penobscot River",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://wabanakialliance.com/penobscot-nation/",
           "title": "Penobscot Nation - Wabanaki Alliance",
           "quote": "The Tribe's primary village and seat of government, established on Indian Island, alenape meneha, is located immediately above Old Town Falls",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -10886,19 +10886,19 @@
           "url": "https://wabanakialliance.com/passamaquoddy-tribe/",
           "title": "Passamaquoddy Tribe - Wabanaki Alliance",
           "quote": "large cessions by the Passamaquoddies in 1794 and by the Penobscots in 1796, 1818, and 1833",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://wabanakialliance.com/penobscot-nation/",
           "title": "Penobscot Nation - Wabanaki Alliance",
           "quote": "retaining possession of only the Penobscot River and its islands from Indian Island north.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://wabanakialliance.com/passamaquoddy-tribe/",
           "title": "Passamaquoddy Tribe - Wabanaki Alliance",
           "quote": "First Massachusetts, and then Maine after 1820, acquired this land and administered the affairs of these Indians",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -10929,13 +10929,13 @@
           "url": "https://www.rcaanc-cirnac.gc.ca/eng/1100100028599",
           "title": "Fact sheet on Peace and Friendship Treaties in the Maritimes and Gaspé",
           "quote": "The Passamaquoddy lived along the St. Croix River and its tributaries",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.rcaanc-cirnac.gc.ca/eng/1100100028599",
           "title": "Fact sheet on Peace and Friendship Treaties in the Maritimes and Gaspé",
           "quote": "Archaeologists have been able to confirm evidence of their occupation going back at least 2500 to 3000 years.",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "medium",
@@ -10967,13 +10967,13 @@
           "url": "https://wabanakialliance.com/passamaquoddy-tribe/",
           "title": "Passamaquoddy Tribe - Wabanaki Alliance",
           "quote": "large cessions by the Passamaquoddies in 1794 and by the Penobscots in 1796, 1818, and 1833",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://wabanakialliance.com/passamaquoddy-tribe/",
           "title": "Passamaquoddy Tribe - Wabanaki Alliance",
           "quote": "First Massachusetts, and then Maine after 1820, acquired this land and administered the affairs of these Indians",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "medium",
@@ -11004,7 +11004,7 @@
           "url": "https://www.rcaanc-cirnac.gc.ca/eng/1100100028599",
           "title": "Fact sheet on Peace and Friendship Treaties in the Maritimes and Gaspé",
           "quote": "The Maliseet, on the other hand, lived along the St. John River Valley and its tributaries",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Meductic,_New_Brunswick",
@@ -11016,7 +11016,7 @@
           "url": "https://wabanakialliance.com/houlton-band-of-maliseet-indians/",
           "title": "Houlton Band of Maliseet Indians - Wabanaki Alliance",
           "quote": "the Maliseets obtained free border crossing rights between the two countries because their villages spanned both countries",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Dummer%27s_War",
@@ -11059,7 +11059,7 @@
           "url": "https://www.rcaanc-cirnac.gc.ca/eng/1100100028599",
           "title": "Fact sheet on Peace and Friendship Treaties in the Maritimes and Gaspé",
           "quote": "Before 1500 AD, the Mi'kmaq's main communities were on mainland Nova Scotia, Cape Breton Island",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.thecanadianencyclopedia.ca/en/article/mikmaq",
@@ -11096,7 +11096,7 @@
           "url": "https://www.rcaanc-cirnac.gc.ca/eng/1100100028599",
           "title": "Fact sheet on Peace and Friendship Treaties in the Maritimes and Gaspé",
           "quote": "Jean-Baptiste Cope, chief sakamow of Shubenacadie, a community located along the shores of the Shubenacadie River in central Nova Scotia.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.thecanadianencyclopedia.ca/en/article/mikmaq",
@@ -11232,13 +11232,13 @@
           "url": "https://www.rcaanc-cirnac.gc.ca/eng/1100100028599",
           "title": "Fact sheet on Peace and Friendship Treaties in the Maritimes and Gaspé",
           "quote": "a position which they adopted in anger over the British decision to establish a new settlement at Halifax in June of 1749.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.rcaanc-cirnac.gc.ca/eng/1100100028599",
           "title": "Fact sheet on Peace and Friendship Treaties in the Maritimes and Gaspé",
           "quote": "This led to a period of intermittent warfare with the Mi'kmaq which only came to an end in 1751.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Halifax,_Nova_Scotia",
@@ -11288,7 +11288,7 @@
           "url": "https://www.rcaanc-cirnac.gc.ca/eng/1100100028599",
           "title": "Fact sheet on Peace and Friendship Treaties in the Maritimes and Gaspé",
           "quote": "However, not all historians agree that the Grand Council existed before 1500.",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "medium",
@@ -11746,13 +11746,13 @@
           "url": "https://www.badriver-nsn.gov/history/",
           "title": "History - Bad River Tribe",
           "quote": "longtime capital and cultural/religious center of the Ojibwe AKA Chippewa Nation",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://www.badriver-nsn.gov/history/",
           "title": "History - Bad River Tribe",
           "quote": "the French explorers Radisson and Groseilliers encountered the Ojibwe people here in the mid-1600's",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "medium",
@@ -11820,13 +11820,13 @@
           "url": "https://www.badriver-nsn.gov/history/",
           "title": "History - Bad River Tribe",
           "quote": "This treaty was finalized on September 30, 1854 at Lapointe on Madeline Island",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://www.badriver-nsn.gov/history/",
           "title": "History - Bad River Tribe",
           "quote": "The Bad River Reservation was established by the 1854 Treaty of Lapointe with the U.S. government",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -14006,7 +14006,7 @@
           "url": "https://www.cherokee.org/about-the-nation/history/",
           "title": "The History of the Cherokee Nation - Cherokee Nation",
           "quote": "nevertheless purported to agree, on behalf of the Nation, to relinquish the Cherokee Nation's lands east of the Mississippi",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Treaty_of_New_Echota",
@@ -14055,7 +14055,7 @@
           "url": "https://www.cherokee.org/about-the-nation/history/",
           "title": "The History of the Cherokee Nation - Cherokee Nation",
           "quote": "the United States, in 1838, deployed troops under General Winfield Scott to forcibly round up the Cherokee people into relocation camps",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/New_Echota",
@@ -14067,7 +14067,7 @@
           "url": "https://home.nps.gov/grsm/learn/historyculture/cherokee.htm",
           "title": "Cherokee - Great Smoky Mountains National Park (NPS)",
           "quote": "Over 4,000 died from cold, disease, and hunger on the six-month march known as the Trail of Tears.",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -14104,7 +14104,7 @@
           "url": "https://www.cherokee.org/about-the-nation/history/",
           "title": "The History of the Cherokee Nation - Cherokee Nation",
           "quote": "In its new capital of Tahlequah, the Cherokee Nation built government buildings, schools, businesses, and homes",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Tahlequah,_Oklahoma",
@@ -14153,7 +14153,7 @@
           "url": "https://home.nps.gov/grsm/learn/historyculture/cherokee.htm",
           "title": "Cherokee - Great Smoky Mountains National Park (NPS)",
           "quote": "This marked the beginning of the Eastern Band of the Cherokee Indians.",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -14229,13 +14229,13 @@
           "url": "https://www.nps.gov/ocmu/learn/historyculture/the-muscogee-nation.htm",
           "title": "The Muscogee Nation - Ocmulgee Mounds National Historical Park (NPS)",
           "quote": "Several Muscogee towns moved from the Chattahoochee River to this vicinity to be near the English.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/ocmu/learn/historyculture/the-muscogee-nation.htm",
           "title": "The Muscogee Nation - Ocmulgee Mounds National Historical Park (NPS)",
           "quote": "In retaliation, the British burned Ocmulgee Town on Ochese Creek.",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "medium",
@@ -14313,19 +14313,19 @@
           "url": "https://www.nps.gov/ocmu/learn/historyculture/the-muscogee-nation.htm",
           "title": "The Muscogee Nation - Ocmulgee Mounds National Historical Park (NPS)",
           "quote": "over 14,000 Muscogee Indians made the three-month journey to Oklahoma",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/ocmu/learn/historyculture/the-muscogee-nation.htm",
           "title": "The Muscogee Nation - Ocmulgee Mounds National Historical Park (NPS)",
           "quote": "21,792 Muscogee Indians lived in Georgia and Alabama in 1832.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/ocmu/learn/historyculture/the-muscogee-nation.htm",
           "title": "The Muscogee Nation - Ocmulgee Mounds National Historical Park (NPS)",
           "quote": "only 13,537 Muscogee remained in Oklahoma",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -14356,7 +14356,7 @@
           "url": "https://www.nps.gov/hobe/learn/historyculture/index.htm",
           "title": "History & Culture - Horseshoe Bend National Military Park (NPS)",
           "quote": "The Treaty of Fort Jackson ended the conflict and required the Creeks to cede 23 million acres of land to the United States.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Treaty_of_Fort_Jackson",
@@ -14393,7 +14393,7 @@
           "url": "https://www.nps.gov/ocmu/learn/historyculture/the-muscogee-nation.htm",
           "title": "The Muscogee Nation - Ocmulgee Mounds National Historical Park (NPS)",
           "quote": "In 1825 the Treaty of Indian Springs, signed by Chief William McIntosh, ceded all Lower Creek land in Georgia.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Treaty_of_Indian_Springs_(1825)",
@@ -14405,7 +14405,7 @@
           "url": "https://www.nps.gov/ocmu/learn/historyculture/the-muscogee-nation.htm",
           "title": "The Muscogee Nation - Ocmulgee Mounds National Historical Park (NPS)",
           "quote": "The treaty was declared illegal by the federal government, but Georgia authorities disagreed.",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "medium",
@@ -14473,7 +14473,7 @@
           "url": "https://www.nps.gov/ocmu/learn/historyculture/the-muscogee-nation.htm",
           "title": "The Muscogee Nation - Ocmulgee Mounds National Historical Park (NPS)",
           "quote": "The city of Okmulgee was established as the capital, named after the original Muscogee capital in Georgia.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.okhistory.org/publications/enc/entry?entry=CR006",
@@ -14649,7 +14649,7 @@
           "url": "https://seminolenationmuseum.org/into-the-west/",
           "title": "Into the West - Seminole Nation Museum",
           "quote": "Elijah Brown led the Seminole people who were still in the north back to their new nation, where they developed the capital of Wewoka.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://www.okhistory.org/publications/enc/entry?entry=SE011",
@@ -14782,7 +14782,7 @@
           "url": "https://www.choctawnation.com/news/iti-fabvssa/a-new-chahta-homeland-a-history-by-the-decade-1830-1840/",
           "title": "A New Chahta Homeland: A History by the Decade, 1830-1840 - Choctaw Nation of Oklahoma",
           "quote": "This ultimately resulted in Choctaws and U.S. officials signing the 1830 Treaty of Dancing Rabbit Creek on September 27, 1830.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://encyclopediaofalabama.org/article/treaty-of-dancing-rabbit-creek-1830/",
@@ -14825,13 +14825,13 @@
           "url": "https://www.choctawnation.com/news/iti-fabvssa/a-new-chahta-homeland-a-history-by-the-decade-1830-1840/",
           "title": "A New Chahta Homeland: A History by the Decade, 1830-1840 - Choctaw Nation of Oklahoma",
           "quote": "The first wave of removals began in October 1831.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://www.choctawnation.com/news/iti-fabvssa/a-new-chahta-homeland-a-history-by-the-decade-1830-1840/",
           "title": "A New Chahta Homeland: A History by the Decade, 1830-1840 - Choctaw Nation of Oklahoma",
           "quote": "the biggest group, approximately 12,000 people, made the journey in 1830-1834",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://okhistory.org/publications/enc/entry?entry=CH047",
@@ -14868,7 +14868,7 @@
           "url": "https://www.choctawnation.com/news/iti-fabvssa/a-new-chahta-homeland-a-history-by-the-decade-1830-1840/",
           "title": "A New Chahta Homeland: A History by the Decade, 1830-1840 - Choctaw Nation of Oklahoma",
           "quote": "They also built a council house in the new capitol, which they named Nanih Waiya after the Mother Mound of the homeland.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Tuskahoma,_Oklahoma",
@@ -14952,7 +14952,7 @@
           "url": "https://www.chickasaw.tv/events/treaty-of-pontotoc-creek",
           "title": "Treaty with the Chickasaw, 1832 (Treaty of Pontotoc Creek) - Chickasaw.tv",
           "quote": "relinquished Chickasaw lands east of the Mississippi River in exchange for a promise to find suitable land west of the Mississippi River",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Chickasaw",
@@ -14995,13 +14995,13 @@
           "url": "https://www.choctawnation.com/news/iti-fabvssa/a-new-chahta-homeland-a-history-by-the-decade-1830-1840/",
           "title": "A New Chahta Homeland: A History by the Decade, 1830-1840 - Choctaw Nation of Oklahoma",
           "quote": "Chickasaws were the last of the Five Tribes to leave their homeland in the East for Indian Territory.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://www.choctawnation.com/news/iti-fabvssa/a-new-chahta-homeland-a-history-by-the-decade-1830-1840/",
           "title": "A New Chahta Homeland: A History by the Decade, 1830-1840 - Choctaw Nation of Oklahoma",
           "quote": "Choctaws and Chickasaws signed a treaty at Doaksville (near Fort Towson) to create a Chickasaw District within Choctaw Nation",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "medium",
@@ -15155,7 +15155,7 @@
           "url": "https://www.nps.gov/natc/learn/historyculture/index.htm",
           "title": "History & Culture - Natchez National Historical Park (NPS)",
           "quote": "Established by the French among the Natchez people on the eastern bank of the Mississippi River in 1716",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Fort_Rosalie",
@@ -15858,7 +15858,7 @@
           "url": "https://www.floridastateparks.org/parks-and-trails/mound-key-archaeological-state-park",
           "title": "Mound Key Archaeological State Park - Florida State Parks",
           "quote": "Mound Key is believed to have been the ceremonial center of the Calusa Indians when the Spaniards first explored Southwest Florida in the early 1500s.",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "medium",
@@ -15983,7 +15983,7 @@
           "url": "https://whc.unesco.org/en/list/198/",
           "title": "Cahokia Mounds State Historic Site - UNESCO World Heritage Centre",
           "quote": "This agricultural society may have had a population of 10-20,000 at its peak between 1050 and 1150.",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -16143,7 +16143,7 @@
           "url": "https://www.musqueam.bc.ca/our-story/",
           "title": "Musqueam's Story - Musqueam Indian Band",
           "quote": "We have always moved throughout our territory using the resources it provides for fishing, hunting, trapping and gathering",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Musqueam_Indian_Band",
@@ -16180,13 +16180,13 @@
           "url": "https://www.squamish.net/about-us/our-history/",
           "title": "Our History - Squamish Nation",
           "quote": "Our rich history spans millennia, evidenced by an archaeological site dating back 8,600 years",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://www.squamish.net/about-us/our-history/",
           "title": "Our History - Squamish Nation",
           "quote": "1876 - 1888 Creation of Reserves Reserve lands along Howe Sound and Burrard Inlet were allotted and surveyed",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -16443,13 +16443,13 @@
           "url": "https://suquamish.nsn.us/home/about-us/history-culture/",
           "title": "History & Culture - The Suquamish Tribe",
           "quote": "asked that a separate reservation be set aside in their own homeland, located where the Black and Cedar rivers joined",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://suquamish.nsn.us/home/about-us/history-culture/",
           "title": "History & Culture - The Suquamish Tribe",
           "quote": "The Muckleshoot Reservation was enlarged in hopes that the Duwamish would move to that area, and many did so",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "medium",
@@ -16529,7 +16529,7 @@
           "url": "https://suquamish.nsn.us/home/about-us/history-culture/",
           "title": "History & Culture - The Suquamish Tribe",
           "quote": "Most of the Suquamish agreed to move to the reservation, which was located within their own territory",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Treaty_of_Point_Elliott",
@@ -16566,7 +16566,7 @@
           "url": "https://suquamish.nsn.us/home/about-us/history-culture/",
           "title": "History & Culture - The Suquamish Tribe",
           "quote": "The Suquamish gave up title to their lands, which encompassed most of present Kitsap County",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://historylink.org/File/5402",
@@ -16615,7 +16615,7 @@
           "url": "https://parks.canada.ca/pn-np/bc/gwaiihaanas/culture/apres-post",
           "title": "Post-contact history - Gwaii Haanas National Park Reserve (Parks Canada)",
           "quote": "The maritime fur trade around Haida Gwaii occurred largely between 1787 and 1840",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -16656,7 +16656,7 @@
           "url": "https://parks.canada.ca/pn-np/bc/gwaiihaanas/culture/apres-post",
           "title": "Post-contact history - Gwaii Haanas National Park Reserve (Parks Canada)",
           "quote": "The survivors from the southernmost villages gathered at SGang Gwaay Llnagaay and were invited to come live at HlGaagilda Llnagaay",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/SGang_Gwaay",
@@ -16693,13 +16693,13 @@
           "url": "https://parks.canada.ca/pn-np/bc/gwaiihaanas/culture/apres-post",
           "title": "Post-contact history - Gwaii Haanas National Park Reserve (Parks Canada)",
           "quote": "People slowly moved northward from T'aanu Llnagaay (Tanu), K'uuna Llnagaay (Skedans), K'aadaas Guu Llnagaay (New Kloo) and Hlkinul Llnagaay (Cumshewa)",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://parks.canada.ca/pn-np/bc/gwaiihaanas/culture/apres-post",
           "title": "Post-contact history - Gwaii Haanas National Park Reserve (Parks Canada)",
           "quote": "Today, descendants are concentrated in Skidegate and Old Massett",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "medium",
@@ -16861,7 +16861,7 @@
           "url": "https://www.nps.gov/sitk/learn/historyculture/index.htm",
           "title": "History & Culture - Sitka National Historical Park (NPS)",
           "quote": "preserves historically and culturally significant sites and artifacts related to the 1804 Battle of Sitka between Tlingit and Russians forces",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -17536,13 +17536,13 @@
           "url": "https://www.nps.gov/aleu/learn/historyculture/unangax-history-and-culture.htm",
           "title": "Unangax̂ History and Culture - Aleutian Islands World War II National Historic Area (NPS)",
           "quote": "Chaluka National Historic Landmark located in the modern day village of Nikolski preserves a history of continuous occupation for as long as 4,000 years",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/aleu/learn/historyculture/unangax-history-and-culture.htm",
           "title": "Unangax̂ History and Culture - Aleutian Islands World War II National Historic Area (NPS)",
           "quote": "Anangula Archeological District National Historic Landmark preserves the oldest archaeological site in the Aleutian Islands",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -17610,31 +17610,31 @@
           "url": "https://www.nps.gov/aleu/learn/historyculture/unangax-history-and-culture.htm",
           "title": "Unangax̂ History and Culture - Aleutian Islands World War II National Historic Area (NPS)",
           "quote": "colonizing the entire island chain by 1760 and expanding to Kodiak and Southeast Alaska by 1800",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/aleu/learn/historyculture/unangax-history-and-culture.htm",
           "title": "Unangax̂ History and Culture - Aleutian Islands World War II National Historic Area (NPS)",
           "quote": "reduced the Unangax̂ population by nearly 80%",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/aleu/learn/historyculture/unangax-history-and-culture.htm",
           "title": "Unangax̂ History and Culture - Aleutian Islands World War II National Historic Area (NPS)",
           "quote": "Russians forced many Unangax̂ to hunt for them, often using violence in the process",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/aleu/learn/historyculture/unangax-history-and-culture.htm",
           "title": "Unangax̂ History and Culture - Aleutian Islands World War II National Historic Area (NPS)",
           "quote": "Before Russian contact, the Unangax̂ population was estimated to be 15,000-18,000",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/aleu/learn/historyculture/unangax-history-and-culture.htm",
           "title": "Unangax̂ History and Culture - Aleutian Islands World War II National Historic Area (NPS)",
           "quote": "only 2,500 Unangax̂ residents remained",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -17665,7 +17665,7 @@
           "url": "https://alutiiqmuseum.org/",
           "title": "Alutiiq Museum and Archaeological Repository",
           "quote": "you can explore 7,800 years of Alutiiq/Sugpiaq heritage",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Alutiiq",
@@ -17968,7 +17968,7 @@
           "url": "https://www.nps.gov/locations/alaska/native-heritage-inup.htm",
           "title": "Alaska Native Heritage and the Inupiat Heritage Center (NPS)",
           "quote": "Iñupiat and Yupik people of northern Alaska and the Bering Strait had been whaling for a thousand years when Yankee whalers arrived",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -18206,7 +18206,7 @@
           "url": "https://visitgreenland.com/about-greenland/history/",
           "title": "History of Greenland - Visit Greenland",
           "quote": "The missionary Hans Egede from the joint kingdom of Denmark-Norway arrived in what is today known as Nuuk in 1721",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -18317,19 +18317,19 @@
           "url": "https://www.nps.gov/wrst/learn/historyculture/human-history.htm",
           "title": "History of the Wrangell-St. Elias Area (NPS)",
           "quote": "There were two larger villages: Taghaelden (Taral) near the mouth of the Chitina River",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/wrst/learn/historyculture/human-history.htm",
           "title": "History of the Wrangell-St. Elias Area (NPS)",
           "quote": "Dmitri Tarkhanov appears to have reached the mouth of the Chitina River in 1796",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/wrst/learn/historyculture/human-history.htm",
           "title": "History of the Wrangell-St. Elias Area (NPS)",
           "quote": "He conducted a census and wintered in the Ahtna village of Taral",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -18360,19 +18360,19 @@
           "url": "https://www.nps.gov/wrst/learn/historyculture/human-history.htm",
           "title": "History of the Wrangell-St. Elias Area (NPS)",
           "quote": "Nataelde (Batzulnetas) on Tanada Creek along the route leading northward to the Tanana and Yukon Rivers",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/wrst/learn/historyculture/human-history.htm",
           "title": "History of the Wrangell-St. Elias Area (NPS)",
           "quote": "Ruf Serebrennikov and his entire party was killed by the Ahtna near the village of Batzulnetas in the summer of 1848",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/wrst/learn/historyculture/human-history.htm",
           "title": "History of the Wrangell-St. Elias Area (NPS)",
           "quote": "The Russians appear to have made no further efforts to explore the region",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -18403,7 +18403,7 @@
           "url": "https://dnr.alaska.gov/parks/oha/clg/AlaskaCLGs/Kenai.htm",
           "title": "City of Kenai - Alaska Department of Natural Resources",
           "quote": "Dena'ina people had a large village at the mouth of the Kenai River, Shk'ituk't, when Europeans sailed into Cook Inlet in the 1770s",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Kenai,_Alaska",
@@ -18446,13 +18446,13 @@
           "url": "https://dnr.alaska.gov/parks/oha/clg/AlaskaCLGs/Kenai.htm",
           "title": "City of Kenai - Alaska Department of Natural Resources",
           "quote": "Russian fur traders built Fort St. Nicholas at the mouth of the river in 1791 to trade for furs and to harvest fish",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://dnr.alaska.gov/parks/oha/clg/AlaskaCLGs/Kenai.htm",
           "title": "City of Kenai - Alaska Department of Natural Resources",
           "quote": "About forty Russians and Creoles staffed the post",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Kenai,_Alaska",
@@ -18495,7 +18495,7 @@
           "url": "https://kniktribe.org/history/",
           "title": "Knik Tribe's History - Alaska Knik Tribe",
           "quote": "home to the Kenaht'ana, the indigenous people of Nuti (Knik Arm), who today are citizens of Eklutna (Idlughet) and Knik (K'enakatnu) Tribes",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Dena'ina",
@@ -18507,7 +18507,7 @@
           "url": "https://kniktribe.org/history/",
           "title": "Knik Tribe's History - Alaska Knik Tribe",
           "quote": "the smallpox epidemic that decimated 50 percent of the Upper Cook Inlet Athabascan population in the mid-1800s",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -18538,7 +18538,7 @@
           "url": "https://nezperce.org/about/history/",
           "title": "History - Nez Perce Tribe",
           "quote": "Originally, the Nimiipuu people occupied an area that included parts of present-day Idaho, Oregon, and Washington.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Nez_Perce_people",
@@ -18579,13 +18579,13 @@
           "url": "https://www.nps.gov/nepe/learn/historyculture/old-chief-joseph-gravesite.htm",
           "title": "Old Chief Joseph Gravesite History - Nez Perce NHP",
           "quote": "He signed the Treaty of 1855 but refused to put his mark to the Treaty of 1863.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/nepe/learn/historyculture/old-chief-joseph-gravesite.htm",
           "title": "Old Chief Joseph Gravesite History - Nez Perce NHP",
           "quote": "under the threat of being evicted by the U.S. Army, Young Joseph left the Wallowas in the spring of 1877",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Nez_Perce_people",
@@ -18623,13 +18623,13 @@
           "url": "https://www.nps.gov/nepe/learn/historyculture/dug-bar-history.htm",
           "title": "Dug Bar History - Nez Perce NHP",
           "quote": "In the aftermath of the 1863 Treaty with the U.S. government, the Wallowa Valley in northeastern Oregon was left outside of the Nez Perce Reservation.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/nepe/learn/historyculture/the-treaty-era.htm",
           "title": "The Treaty Period - Nez Perce NHP",
           "quote": "that would shrink the 1855 reservation by 90%, claiming over five million acres",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://accessgenealogy.com/idaho/treaty-of-june-9-1863.htm",
@@ -18667,13 +18667,13 @@
           "url": "https://www.nps.gov/nepe/learn/historyculture/dug-bar-history.htm",
           "title": "Dug Bar History - Nez Perce NHP",
           "quote": "complying with the U.S. government's demand to leave their homeland in the Wallowa Valley of northeastern Oregon",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/nepe/learn/historyculture/1877.htm",
           "title": "The Flight of 1877 - Nez Perce NHP",
           "quote": "even those who refused to sign the 1863 Treaty were evicted from their homeland and moved onto the new reservation",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -18705,7 +18705,7 @@
           "url": "https://nezperce.org/about/history/",
           "title": "History - Nez Perce Tribe",
           "quote": "forced the Tribe into a second treaty in 1863, which reduced the reservation to about 750,000 acres",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://accessgenealogy.com/idaho/treaty-of-june-9-1863.htm",
@@ -18748,13 +18748,13 @@
           "url": "https://www.nps.gov/nepe/learn/historyculture/weippe-prairie.htm",
           "title": "Weippe Prairie - Nez Perce NHP",
           "quote": "Historically, in the summer months the Nez Perce would come to the prairies to harvest roots and berries and to hunt.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/nepe/learn/historyculture/weippe-prairie.htm",
           "title": "Weippe Prairie - Nez Perce NHP",
           "quote": "In mid-September 1805, Lewis and Clark made contact with the Nez Perce for the first time.",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "medium",
@@ -18785,13 +18785,13 @@
           "url": "https://www.yakama.com/about/",
           "title": "Yakama Nation History & Treaties",
           "quote": "The tribal people comprising the Yakama Nation have lived in this area since the beginning of time.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://www.yakama.com/about/",
           "title": "Yakama Nation History & Treaties",
           "quote": "Along the river there is a pass, a gap in Ahtanum Ridge called Union Gap.",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -18823,7 +18823,7 @@
           "url": "https://www.yakama.com/about/",
           "title": "Yakama Nation History & Treaties",
           "quote": "Lands ceded to the federal government during the 1855 Treaty signing included over 12 million acres of land.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://historylink.org/File/5311",
@@ -18835,7 +18835,7 @@
           "url": "https://www.yakama.com/about/",
           "title": "Yakama Nation History & Treaties",
           "quote": "it did not become valid until ratified March 8, 1859 by the U.S. Senate",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -18921,13 +18921,13 @@
           "url": "https://www.yakama.com/about/",
           "title": "Yakama Nation History & Treaties",
           "quote": "The Yakama accepted their reservation and still dwell there today.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://www.yakama.com/about/",
           "title": "Yakama Nation History & Treaties",
           "quote": "Tribal leaders reserved the right to fish, hunt and gather all of the tribe's traditional foods on the reservation as well as the ceded area.",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -18963,7 +18963,7 @@
           "url": "https://ctuir.org/about/history-culture/",
           "title": "CTUIR - History & Culture",
           "quote": "Our people lived in the Columbia River region for more than 10,000 years",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Cayuse_people",
@@ -19001,7 +19001,7 @@
           "url": "https://ctuir.org/about/history-culture/",
           "title": "CTUIR - History & Culture",
           "quote": "negotiated a treaty in which 6.4 million acres were ceded in exchange for a reservation homeland of 250,000 acres",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://critfc.org/member-tribes-overview/the-confederated-tribes-of-the-umatilla-indian-reservation/",
@@ -19039,7 +19039,7 @@
           "url": "https://ctuir.org/about/history-culture/",
           "title": "CTUIR - History & Culture",
           "quote": "reserved perpetual off-reservation rights to fish at usual and accustomed sites",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Cayuse_people",
@@ -19087,7 +19087,7 @@
           "url": "https://ctuir.org/about/history-culture/",
           "title": "CTUIR - History & Culture",
           "quote": "moving in a large circle from the lowlands along the Columbia River to the highlands in the Blue Mountains",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "medium",
@@ -19125,7 +19125,7 @@
           "url": "https://ctuir.org/about/history-culture/",
           "title": "CTUIR - History & Culture",
           "quote": "As a result of federal legislation in the late 1800s that reduced its size, the Umatilla Reservation is now 172,000 acres",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -19167,7 +19167,7 @@
           "url": "https://ctuir.org/about/history-culture/",
           "title": "CTUIR - History & Culture",
           "quote": "Our people lived in the Columbia River region for more than 10,000 years",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "medium",
@@ -19205,7 +19205,7 @@
           "url": "https://ctuir.org/about/history-culture/",
           "title": "CTUIR - History & Culture",
           "quote": "negotiated a treaty in which 6.4 million acres were ceded in exchange for a reservation homeland of 250,000 acres",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -19403,7 +19403,7 @@
           "url": "https://www.cskt.org/",
           "title": "Confederated Salish & Kootenai Tribes",
           "quote": "The Flathead Indian Reservation is home to three tribes, the Bitterroot Salish, Upper Pend d'Oreille, and the Kootenai.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Hellgate_Treaty",
@@ -19440,7 +19440,7 @@
           "url": "https://www.cdatribe-nsn.gov/",
           "title": "Coeur d'Alene Tribe",
           "quote": "For thousands of years the Schitsu'umsh people camped the shores of the lakes and streams",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Coeur_d%27Alene_people",
@@ -19519,7 +19519,7 @@
           "url": "https://www.cdatribe-nsn.gov/",
           "title": "Coeur d'Alene Tribe",
           "quote": "November 8th, 1873 The 1873 Executive Order under President Ulysses S. Grant established the original boundaries",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Coeur_d%27Alene_people",
@@ -19560,7 +19560,7 @@
           "url": "https://spokanetribe.com/history/",
           "title": "History - Spokane Tribe of Indians",
           "quote": "The Spokane Tribe of Indians ancestors inhabited much of northeastern Washington which consisted of approximately 3 million acres.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Spokane_people",
@@ -19597,7 +19597,7 @@
           "url": "https://spokanetribe.com/history/",
           "title": "History - Spokane Tribe of Indians",
           "quote": "In 1858, with no treaty established or adequate communications from the Federal Government, the Spokane's defended their families and country",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Spokane_people",
@@ -19634,13 +19634,13 @@
           "url": "https://spokanetribe.com/history/",
           "title": "History - Spokane Tribe of Indians",
           "quote": "In 1881, President Rutherford B. Hayes formerly established the Spokane Indian Reservation",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://spokanetribe.com/history/",
           "title": "History - Spokane Tribe of Indians",
           "quote": "In 1887, the Upper and Middle Spokanes signed an Agreement to move to the Coeur d'Alene, Jocko (Flathead) or Colville reservations",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -19709,7 +19709,7 @@
           "url": "https://www.nps.gov/nepe/learn/historyculture/the-treaty-era.htm",
           "title": "The Treaty Period - Nez Perce NHP",
           "quote": "territorial governor Isaac I. Stevens met with representatives from the Umatilla, Yakama, Nez Perce, Cayuse, and Palouse",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Palouse_people",
@@ -19906,13 +19906,13 @@
           "url": "https://www.sbtribes.com/",
           "title": "Shoshone-Bannock Tribes",
           "quote": "The Reservation was established in 1867 by President Andrew Johnson by Executive Order on June 14, 1867.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://www.sbtribes.com/",
           "title": "Shoshone-Bannock Tribes",
           "quote": "would become the permanent home for the Shoshone and Bannock people",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Northern_Shoshone",
@@ -19997,7 +19997,7 @@
           "url": "https://www.sbtribes.com/",
           "title": "Shoshone-Bannock Tribes",
           "quote": "TREATY WITH THE EASTERN BAND SHOSHONI AND BANNOCK, 1868",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -20127,7 +20127,7 @@
           "url": "https://www.nps.gov/poex/learn/historyculture/the-pyramid-lake-war.htm",
           "title": "The Pyramid Lake War - Pony Express NHT, NPS",
           "quote": "The abrupt arrival of so many whites naturally brought them into conflict with the Paiute Indians who lived in the area.",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "medium",
@@ -20163,13 +20163,13 @@
           "url": "https://www.nps.gov/poex/learn/historyculture/the-pyramid-lake-war.htm",
           "title": "The Pyramid Lake War - Pony Express NHT, NPS",
           "quote": "A case of white mineral-seekers encroaching on traditional Indian lands led to the war.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://shpo.nv.gov/nevadas-historical-markers/historical-markers/the-two-battles-of-pyramid-lake",
           "title": "The Two Battles of Pyramid Lake - Nevada SHPO marker 148",
           "quote": "Northern Paiute warriors, fighting to retain their way of life, decisively defeated a volunteer army from Virginia City",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Paiute_War",
@@ -20317,7 +20317,7 @@
           "url": "https://www.fs.usda.gov/r05/laketahoebasin/recreation/discover-history",
           "title": "Lake Tahoe Basin - Discover History - USDA Forest Service",
           "quote": "the Washoe Tribe and their ancestors had been calling the resource-rich Lake Tahoe their home for at least 2,000 years",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Washoe_people",
@@ -20354,13 +20354,13 @@
           "url": "https://www.fs.usda.gov/r05/laketahoebasin/recreation/discover-history",
           "title": "Lake Tahoe Basin - Discover History - USDA Forest Service",
           "quote": "first major disruption to the Washoe way of life at the lake came when a large silver lode was discovered in Virginia City in 1859",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.fs.usda.gov/r05/laketahoebasin/recreation/discover-history",
           "title": "Lake Tahoe Basin - Discover History - USDA Forest Service",
           "quote": "The Lake Tahoe Basin rapidly became the victim of resource extraction on a massive scale.",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -20395,19 +20395,19 @@
           "url": "https://www.nps.gov/labe/learn/historyculture/modoc-war.htm",
           "title": "Modoc War - Lava Beds National Monument, NPS",
           "quote": "were the homeland of the Modoc people",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/labe/learn/historyculture/modoc-war.htm",
           "title": "Modoc War - Lava Beds National Monument, NPS",
           "quote": "Their settlements were scattered along the shores of Tule Lake, Lost River, Clear Lake, and in Butte Valley",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.klamathtribes.org/history/",
           "title": "Our History - Klamath Tribes",
           "quote": "The Modoc's lands included the Lower Lost River, around Clear Lake, and the territory that extended south as far as the mountains beyond Goose Lake.",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -20445,7 +20445,7 @@
           "url": "https://www.klamathtribes.org/history/",
           "title": "Our History - Klamath Tribes",
           "quote": "the Klamath Tribes ceded more than 23 million acres of land in 1864",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://accessgenealogy.com/oregon/treaty-of-october-14-1864.htm",
@@ -20488,13 +20488,13 @@
           "url": "https://www.nps.gov/labe/learn/historyculture/modoc-war.htm",
           "title": "Modoc War - Lava Beds National Monument, NPS",
           "quote": "The war lasted six months, from November 29, 1872 to June 1, 1873",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/labe/learn/historyculture/modoc-war.htm",
           "title": "Modoc War - Lava Beds National Monument, NPS",
           "quote": "Some 150 Modoc men, women,and children lived in the Stronghold for five months of the war",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -20525,13 +20525,13 @@
           "url": "https://www.nps.gov/labe/learn/historyculture/modoc-war.htm",
           "title": "Modoc War - Lava Beds National Monument, NPS",
           "quote": "Twelve days after the hanging, 163 Modocs were sent as prisoners of war to the Quapaw Agency in Oklahoma.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/labe/learn/historyculture/modoc-war.htm",
           "title": "Modoc War - Lava Beds National Monument, NPS",
           "quote": "In 1909 any Modoc who wished could return to the Klamath Reservation in Oregon.",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -20566,13 +20566,13 @@
           "url": "https://www.klamathtribes.org/history/",
           "title": "Our History - Klamath Tribes",
           "quote": "We have lived in the Klamath Basin of Oregon, from time beyond memory.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://www.klamathtribes.org/history/",
           "title": "Our History - Klamath Tribes",
           "quote": "The six tribes of the Klamaths were bound together by ties of loyalty and Family",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -20604,7 +20604,7 @@
           "url": "https://www.klamathtribes.org/history/",
           "title": "Our History - Klamath Tribes",
           "quote": "the Klamath Tribes ceded more than 23 million acres of land in 1864 and we entered the reservation era",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://accessgenealogy.com/oregon/treaty-of-october-14-1864.htm",
@@ -20642,7 +20642,7 @@
           "url": "https://www.klamathtribes.org/history/",
           "title": "Our History - Klamath Tribes",
           "quote": "Many, both men and women, took advantage of the vocational training offered at the Agency",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Klamath_people",
@@ -20679,13 +20679,13 @@
           "url": "https://www.yuroktribe.org/our-history",
           "title": "Our History - Yurok Tribe",
           "quote": "At one time our people lived in over fifty villages throughout our ancestral territory.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://www.yuroktribe.org/our-history",
           "title": "Our History - Yurok Tribe",
           "quote": "The Klamath-Trinity River is the lifeline of our people",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -20720,13 +20720,13 @@
           "url": "https://www.yuroktribe.org/gold-rush-in-yurok-country",
           "title": "Gold Rush in Yurok Country - Yurok Tribe",
           "quote": "By the end of the gold rush era at least 75% of the Yurok people died due to massacres and disease",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://www.yuroktribe.org/gold-rush-in-yurok-country",
           "title": "Gold Rush in Yurok Country - Yurok Tribe",
           "quote": "By 1849 settlers were quickly moving into Northern California because of the discovery of gold",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "medium",
@@ -20757,13 +20757,13 @@
           "url": "https://www.yuroktribe.org/formation-of-reservations",
           "title": "Formation of Reservations - Yurok Tribe",
           "quote": "The Federal Government established the Yurok Reservation in 1855 and immediately Yurok people were confined to the area.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://www.yuroktribe.org/formation-of-reservations",
           "title": "Formation of Reservations - Yurok Tribe",
           "quote": "The Reservation was considerably smaller than the Yurok original ancestral territory.",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -20800,7 +20800,7 @@
           "url": "https://www.santaynezchumash.org/",
           "title": "Santa Ynez Band of Chumash Indians",
           "quote": "Our reservation in the Santa Ynez Valley is the home to tribal families, our tribal government",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "medium",
@@ -20917,7 +20917,7 @@
           "url": "https://www.muwekma.org/",
           "title": "Muwekma Ohlone Tribe",
           "quote": "The aboriginal homeland of the Muwekma Ohlone Tribe includes the following counties: San Francisco, San Mateo, most of Santa Clara, Alameda, Contra Costa",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Ohlone",
@@ -20967,7 +20967,7 @@
           "url": "https://www.muwekma.org/",
           "title": "Muwekma Ohlone Tribe",
           "quote": "brought many distantly related, and in some cases, already inter-married tribal groups together at the missions",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "medium",
@@ -21005,7 +21005,7 @@
           "url": "https://www.muwekma.org/",
           "title": "Muwekma Ohlone Tribe",
           "quote": "trace their ancestry through the Missions Dolores, Santa Clara, and San Jose",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "medium",
@@ -21046,7 +21046,7 @@
           "url": "https://www.tongvatribe.org/",
           "title": "Gabrielino/Tongva Nation",
           "quote": "Our traditional homelands encompassed Los Angeles County and the islands of Santa Catalina, San Nicholas, San Clemente, and Santa Barbara",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -21108,7 +21108,7 @@
           "url": "https://www.tongvatribe.org/",
           "title": "Gabrielino/Tongva Nation",
           "quote": "we are more widely known by our connection to the San Gabriel Mission beginning in 1771",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Tongva",
@@ -21498,7 +21498,7 @@
           "url": "https://www.rvit.org/",
           "title": "Round Valley Indian Tribes",
           "quote": "A Sovereign Nation of Confederated Tribes",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "medium",
@@ -22184,13 +22184,13 @@
           "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2730237/",
           "title": "Acuna-Soto et al., Megadrought and Megadeath in 16th Century Mexico (Emerging Infectious Diseases, 2002)",
           "quote": "killed an estimated 5 million to 15 million people, or up to 80% of the native population of Mexico",
-          "kind": "paper"
+          "kind": "scholarly"
         },
         {
           "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2730237/",
           "title": "Acuna-Soto et al., Megadrought and Megadeath in 16th Century Mexico (Emerging Infectious Diseases, 2002)",
           "quote": "appear to have been hemorrhagic fevers caused by an indigenous viral agent and aggravated by unusual climatic conditions",
-          "kind": "paper"
+          "kind": "scholarly"
         }
       ],
       "confidence": "medium",
@@ -23245,19 +23245,19 @@
           "url": "https://www.tonation-nsn.gov/history-culture/",
           "title": "History and Culture (Tohono O’odham Nation)",
           "quote": "through the Gadsden Purchase or Treaty of La Mesilla, O’odham land was divided almost in half, between the United States of America and Mexico.",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://www.tonation-nsn.gov/history-culture/",
           "title": "History and Culture (Tohono O’odham Nation)",
           "quote": "the United States agreed to honor all land rights of the area held by Mexican citizens, which included the O’odham",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://www.tonation-nsn.gov/history-culture/",
           "title": "History and Culture (Tohono O'odham Nation)",
           "quote": "they were not informed that a purchase of their land had been made",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Gadsden_Purchase",
@@ -23380,7 +23380,7 @@
           "url": "https://www.nps.gov/fobo/learn/historyculture/the-battle-of-apache-pass.htm",
           "title": "The Battle of Apache Pass (National Park Service)",
           "quote": "supply wagons, livestock, and two mountain howitzers",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Battle_of_Apache_Pass",
@@ -23392,13 +23392,13 @@
           "url": "https://www.nps.gov/fobo/learn/historyculture/the-battle-of-apache-pass.htm",
           "title": "The Battle of Apache Pass (National Park Service)",
           "quote": "The Apaches were led by Chokonen Leader Cochise, who had recruited Mangas Coloradas",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://www.nps.gov/fobo/learn/historyculture/the-battle-of-apache-pass.htm",
           "title": "The Battle of Apache Pass (National Park Service)",
           "quote": "Together, these bands probably numbered around 150 warriors.",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Battle_of_Apache_Pass",
@@ -23416,7 +23416,7 @@
           "url": "https://www.nps.gov/fobo/learn/historyculture/the-battle-of-apache-pass.htm",
           "title": "The Battle of Apache Pass (National Park Service)",
           "quote": "the memory of the Bascom Affair, that happened on this same ground just one year prior, was also a key motivating factor for Cochise.",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Battle_of_Apache_Pass",
@@ -23752,37 +23752,37 @@
           "url": "https://www.southernute-nsn.gov/history/",
           "title": "History (Southern Ute Indian Tribe)",
           "quote": "this effort failed as the Utes refused to relinquish their rights to the lands in question.",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://www.southernute-nsn.gov/history/",
           "title": "History (Southern Ute Indian Tribe)",
           "quote": "The Brunot agreement of 1873 was negotiated with the Confederated Utes and the U.S. government, represented by Felix R. Brunot, at the Los Pinos Agency on September 13, 1873.",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://www.southernute-nsn.gov/history/",
           "title": "History (Southern Ute Indian Tribe)",
           "quote": "is most often remembered by Utes as the agreement when their land was fraudulently taken away.",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://www.southernute-nsn.gov/history/",
           "title": "History (Southern Ute Indian Tribe)",
           "quote": "The Utes were led to believe that they would be signing an agreement that would allow mining to occur on the lands located only in the San Juan Mountain area",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://www.southernute-nsn.gov/history/",
           "title": "History (Southern Ute Indian Tribe)",
           "quote": "About four million acres of land not subject to mining would remain Ute territory under ownership of the tribe. However, they ended up forcibly relinquishing the lands to the U.S. government.",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://www.southernute-nsn.gov/history/",
           "title": "History (Southern Ute Indian Tribe)",
           "quote": "The MOA assured the tribe with hunting and fishing rights in the off-reservation Brunot area",
-          "kind": "official"
+          "kind": "primary"
         }
       ],
       "confidence": "high",
@@ -23983,25 +23983,25 @@
           "url": "https://home.nps.gov/chir/learn/historyculture/post-apache-wars.htm",
           "title": "Post Apache Wars (National Park Service, Chiricahua)",
           "quote": "One of the conditions of the surrender was that the free Chiricahua Apache would see their families upon arrival in Florida.",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://home.nps.gov/chir/learn/historyculture/post-apache-wars.htm",
           "title": "Post Apache Wars (National Park Service, Chiricahua)",
           "quote": "Miles had decided that since Geronimo had broken all of his prior conditions of surrender, all terms agreed upon were now null.",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://home.nps.gov/chir/learn/historyculture/post-apache-wars.htm",
           "title": "Post Apache Wars (National Park Service, Chiricahua)",
           "quote": "Upon arriving, Geronimo and his band were not reunited with their families at Fort Marion as promised. Instead, they were taken to Fort Pickens.",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://home.nps.gov/chir/learn/historyculture/post-apache-wars.htm",
           "title": "Post Apache Wars (National Park Service, Chiricahua)",
           "quote": "Chiricahua Apache were held as prisoners-of-war at Fort Bowie, before being transported to Florida.",
-          "kind": "official"
+          "kind": "primary"
         }
       ],
       "confidence": "high",
@@ -24036,13 +24036,13 @@
           "url": "https://www.nps.gov/articles/yuma.htm",
           "title": "Yuma Crossing (National Park Service)",
           "quote": "established friendly relations with the Quechans, who controlled the crossing",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://www.nps.gov/articles/yuma.htm",
           "title": "Yuma Crossing (National Park Service)",
           "quote": "As use of the crossing increased, the Spanish felt it necessary to control the crossing, although this strained the Quechan relations leading to a rebellion in 1781.",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Quechan",
@@ -24060,7 +24060,7 @@
           "url": "https://www.nps.gov/articles/yuma.htm",
           "title": "Yuma Crossing (National Park Service)",
           "quote": "After the Quechans destroyed the Spanish settlement at the crossing, the Spanish never again tried to control the Quechans or the Yuma Crossing.",
-          "kind": "official"
+          "kind": "primary"
         }
       ],
       "confidence": "high",
@@ -24272,7 +24272,7 @@
           "url": "https://www.ndstudies.gov/gr8/node/137",
           "title": "Fort Laramie treaties (North Dakota Studies)",
           "quote": "The treaty council was attended by thousands of Sioux men and their families",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Treaty_of_Fort_Laramie_(1851)",
@@ -24290,7 +24290,7 @@
           "url": "https://www.ndstudies.gov/gr8/node/137",
           "title": "Fort Laramie treaties (North Dakota Studies)",
           "quote": "There were not enough interpreters to be sure that every tribe had a full understanding of the treaty",
-          "kind": "official"
+          "kind": "primary"
         }
       ],
       "confidence": "high",
@@ -24455,31 +24455,31 @@
           "url": "https://www.mnhs.org/usdakotawar/stories/history/aftermath/trials-hanging",
           "title": "Trials and Hanging (Minnesota Historical Society)",
           "quote": "392 prisoners were tried, 303 were sentenced to death, and 16 were given prison terms.",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://www.mnhs.org/usdakotawar/stories/history/aftermath/trials-hanging",
           "title": "Trials and Hanging (Minnesota Historical Society)",
           "quote": "President Lincoln and government lawyers then reviewed the trial transcripts of all 303 men.",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://www.mnhs.org/usdakotawar/stories/history/aftermath/trials-hanging",
           "title": "Trials and Hanging (Minnesota Historical Society)",
           "quote": "When only two men were found guilty of rape, Lincoln expanded the criteria to include those who had participated in “massacres” of civilians rather than just “battles.”",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://www.mnhs.org/usdakotawar/stories/history/aftermath/trials-hanging",
           "title": "Trials and Hanging (Minnesota Historical Society)",
           "quote": "forwarded a list of 39 names to Sibley.",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://www.mnhs.org/usdakotawar/stories/history/aftermath/trials-hanging",
           "title": "Trials and Hanging (Minnesota Historical Society)",
           "quote": "One had been given a reprieve at the last minute. An estimated 4,000 spectators crammed the streets of Mankato",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://www.mnopedia.org/event/us-dakota-war-1862",
@@ -24521,13 +24521,13 @@
           "url": "https://www.nps.gov/sand/learn/historyculture/index.htm",
           "title": "Sand Creek Massacre (National Park Service)",
           "quote": "At the command of the American Military",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://www.nps.gov/sand/learn/historyculture/index.htm",
           "title": "Sand Creek Massacre (National Park Service)",
           "quote": "Chief Black Kettle settled his people, around 750 Cheyenne and Arapaho, in a bend of the Big Sandy Creek.",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Sand_Creek_massacre",
@@ -24569,7 +24569,7 @@
           "url": "https://www.nps.gov/sand/learn/historyculture/index.htm",
           "title": "History and Culture (Sand Creek Massacre, National Park Service)",
           "quote": "the American troops killed around 230 Cheyenne and Arapaho people composed mostly of women, children, and the elderly.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Sand_Creek_massacre",
@@ -24748,25 +24748,25 @@
           "url": "https://www.archives.gov/milestone-documents/fort-laramie-treaty",
           "title": "Fort Laramie Treaty (National Archives)",
           "quote": "Yanktonai, Hunkpapa, Blackfeet, Cuthead, Two Kettle, Sans Arcs, and Santee) and the Arapaho.",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://www.archives.gov/milestone-documents/fort-laramie-treaty",
           "title": "Fort Laramie Treaty (National Archives)",
           "quote": "In this treaty, signed on April 29, 1868, between the U.S. Government and the Sioux Nation, the United States recognized the Black Hills as part of the Great Sioux Reservation, set aside for exclusive use by the Sioux people.",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://www.ndstudies.gov/gr8/node/137",
           "title": "Fort Laramie treaties (North Dakota Studies)",
           "quote": "Unceded lands (in yellow) in Wyoming, Nebraska and Dakota Territory were reserved for hunting.",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://www.ndstudies.gov/gr8/node/137",
           "title": "Fort Laramie treaties (North Dakota Studies)",
           "quote": "The government promised to close the Bozeman trail and the forts along the trail.",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Treaty_of_Fort_Laramie_(1868)",
@@ -24778,19 +24778,19 @@
           "url": "https://www.law.cornell.edu/supremecourt/text/448/371",
           "title": "United States v. Sioux Nation of Indians, 448 U.S. 371 (Cornell LII)",
           "quote": "no treaty for the cession of any part of the reservation would be valid as against the Sioux unless executed and signed by at least three-fourths of the adult male Sioux population.",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://www.archives.gov/milestone-documents/fort-laramie-treaty",
           "title": "Fort Laramie Treaty (National Archives)",
           "quote": "in 1874 Gen. George A. Custer led an expedition into the Black Hills, accompanied by miners who were seeking gold. Once gold was found in the Black Hills, miners were soon moving onto the Sioux hunting grounds",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://www.ndstudies.gov/gr8/node/137",
           "title": "Fort Laramie treaties (North Dakota Studies)",
           "quote": "Red Cloud, an Oglala Lakota, declared that he would continue to make war on travelers and Army posts until the government closed the road and removed the Army.",
-          "kind": "official"
+          "kind": "primary"
         }
       ],
       "confidence": "high",
@@ -24825,7 +24825,7 @@
           "url": "https://www.nps.gov/waba/learn/historyculture/index.htm",
           "title": "Washita Battlefield (National Park Service)",
           "quote": "When the Treaty of Medicine Lodge (1867) failed to end widespread Indian raids, Maj. General Philip H. Sheridan, commanding the Department of the Missouri, prepared a bold and inventive winter campaign",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Battle_of_Washita_River",
@@ -24837,13 +24837,13 @@
           "url": "https://www.nps.gov/waba/learn/historyculture/index.htm",
           "title": "Washita Battlefield (National Park Service)",
           "quote": "the attack by Lt. Col. George Armstrong Custer and his 7th US Cavalry on the Cheyenne encampment of Peace Chief Black Kettle",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://www.nps.gov/waba/learn/historyculture/index.htm",
           "title": "Washita Battlefield (National Park Service)",
           "quote": "Black Kettle survived the attack",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Battle_of_Washita_River",
@@ -24962,31 +24962,31 @@
           "url": "https://www.nps.gov/libi/learn/historyculture/battle-story.htm",
           "title": "The Battle of the Little Bighorn (National Park Service)",
           "quote": "Lakota leaders such as Sitting Bull and Crazy Horse rejected the reservation system.",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://www.nps.gov/libi/learn/historyculture/battle-story.htm",
           "title": "The Battle of the Little Bighorn (National Park Service)",
           "quote": "part of a much larger strategic campaign designed to force the capitulation of the nonreservation Lakota and Cheyenne.",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://www.nps.gov/libi/learn/historyculture/battle-story.htm",
           "title": "The Battle of the Little Bighorn (National Park Service)",
           "quote": "warriors of the Lakota Sioux, Northern Cheyenne, and Arapaho tribes",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://www.nps.gov/libi/learn/historyculture/battle-story.htm",
           "title": "The Battle of the Little Bighorn (National Park Service)",
           "quote": "along with their Crow, and Arikara scouts.",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://www.nps.gov/libi/learn/historyculture/battle-story.htm",
           "title": "The Battle of the Little Bighorn (National Park Service)",
           "quote": "The warriors, after forcing Major Reno to retreat, now began to converge on Custer's maneuvering command",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Battle_of_the_Little_Bighorn",
@@ -24998,7 +24998,7 @@
           "url": "https://www.nps.gov/libi/learn/historyculture/battle-story.htm",
           "title": "The Battle of the Little Bighorn (National Park Service)",
           "quote": "All were pulled down and killed in a matter of minutes.",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -25039,19 +25039,19 @@
           "url": "https://www.law.cornell.edu/supremecourt/text/448/371",
           "title": "United States v. Sioux Nation of Indians, 448 U.S. 371 (Cornell LII)",
           "quote": "signed by at least three-fourths of the adult male Sioux population.",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://www.law.cornell.edu/supremecourt/text/448/371",
           "title": "United States v. Sioux Nation of Indians, 448 U.S. 371 (Cornell LII)",
           "quote": "in 1876, an \"agreement\" presented to the Sioux by a special Commission but signed by only 10% of the adult male Sioux population",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://www.law.cornell.edu/supremecourt/text/448/371",
           "title": "United States v. Sioux Nation of Indians, 448 U.S. 371 (Cornell LII)",
           "quote": "In 1877, Congress passed an Act (1877 Act) implementing this \"agreement\" and thus, in effect, abrogated the Fort Laramie Treaty.",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Black_Hills_Land_Claim",
@@ -25182,7 +25182,7 @@
           "url": "https://www.nps.gov/knri/learn/historyculture/mandan.htm",
           "title": "Mandan (Knife River Indian Villages, National Park Service)",
           "quote": "an 1837 smallpox epidemic reduced the Mandan to as few as 125 individuals.",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://en.wikipedia.org/wiki/1837_Great_Plains_smallpox_epidemic",
@@ -25194,7 +25194,7 @@
           "url": "https://www.nps.gov/knri/learn/historyculture/mandan.htm",
           "title": "Mandan (Knife River Indian Villages, National Park Service)",
           "quote": "Survivors moved to either the Hidatsa Village or merged with the newly arriving Arikara.",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://en.wikipedia.org/wiki/1837_Great_Plains_smallpox_epidemic",
@@ -25879,7 +25879,7 @@
           "url": "https://otc.ca/?p=2409",
           "title": "Office of the Treaty Commissioner recognizes the anniversary of the Cypress Hills Massacre",
           "quote": "Some historians peg it around 20 people killed, or slightly more, where survivors of the massacre said it’s closer to 300.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Cypress_Hills_massacre",
@@ -26079,7 +26079,7 @@
           "url": "https://siksikanation.com/about/",
           "title": "About (Siksika Nation)",
           "quote": "Treaty Number 7 was signed at Blackfoot Crossing in Siksika.",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://web.archive.org/web/2023/https://www.thecanadianencyclopedia.ca/en/article/treaty-7",
@@ -26641,19 +26641,19 @@
           "url": "https://www.haudenosauneeconfederacy.com/who-we-are/",
           "title": "Who We Are (Haudenosaunee Confederacy)",
           "quote": "The confederacy was founded by the prophet known as the Peacemaker with the help of Aionwatha, more commonly known as Hiawatha.",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://www.haudenosauneeconfederacy.com/who-we-are/",
           "title": "Who We Are (Haudenosaunee Confederacy)",
           "quote": "The exact date of the joining of the nations is unknown and said to be time immemorial",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://www.onondaganation.org/history/",
           "title": "History (Onondaga Nation)",
           "quote": "Over a thousand years ago on the shores of Onondaga Lake, in present day central New York, democracy was born.",
-          "kind": "official"
+          "kind": "primary"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Great_Law_of_Peace",
@@ -27642,19 +27642,19 @@
           "url": "https://delawarenation-nsn.gov/history/",
           "title": "History (Delaware Nation)",
           "quote": "Penn allegedly made the Treaty of Shackamaxon in what would become Philadelphia, PA with Lenape Chief Tamanend to solidify peaceful relations.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://delawarenation-nsn.gov/history/",
           "title": "History (Delaware Nation)",
           "quote": "which is believed to have been produced for this original treaty. But there are no surviving paper documents from this agreement.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://delawarenation-nsn.gov/history/",
           "title": "History (Delaware Nation)",
           "quote": "Penn’s intention was ultimately still to dispossess the Lenape of large swaths of their homelands for his own profit or settlement",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "medium",
@@ -27839,7 +27839,7 @@
           "url": "https://delawarenation-nsn.gov/history/",
           "title": "History (Delaware Nation)",
           "quote": "In 1737 Penn’s sons met with the Lenape and presented an illegitimate treaty supposedly signed with William Penn decades earlier",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Walking_Purchase",
@@ -27863,7 +27863,7 @@
           "url": "https://delawarenation-nsn.gov/history/",
           "title": "History (Delaware Nation)",
           "quote": "As a result of the Walking Purchase and increasing settler occupation, dispossession, and violence, the Lenape are forced out of their homelands into Ohio territory.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Walking_Purchase",
@@ -27970,7 +27970,7 @@
           "url": "https://delawarenation-nsn.gov/history/",
           "title": "History (Delaware Nation)",
           "quote": "White Eyes was instrumental in establishing the Fort Pitt Treaty, which he signed on September 17th, 1778 along with Lenape leaders Gelelemund, a.k.a. Captain John Killbuck Jr., and Captain Pipe.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Treaty_of_Fort_Pitt",
@@ -27994,7 +27994,7 @@
           "url": "https://delawarenation-nsn.gov/history/",
           "title": "History (Delaware Nation)",
           "quote": "Just two months after the Fort Pitt Treaty was signed, Chief White Eyes was murdered by American militiamen.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Treaty_of_Fort_Pitt",
@@ -28059,7 +28059,7 @@
           "url": "https://delawarenation-nsn.gov/history/",
           "title": "History (Delaware Nation)",
           "quote": "On March 8th 1782, American militiamen slaughtered 96 Lenape elders, men, women, children, and infants at Gnadenhutten, Ohio",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Gnadenhutten_massacre",
@@ -28676,7 +28676,7 @@
           "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2957993/",
           "title": "Marr and Cathey, New Hypothesis for Cause of Epidemic among Native Americans, New England, 1616-1619 (Emerging Infectious Diseases, 2010)",
           "quote": "We suggest an additional candidate: leptospirosis complicated by Weil syndrome. Rodent reservoirs from European ships infected indigenous reservoirs",
-          "kind": "paper"
+          "kind": "scholarly"
         }
       ],
       "confidence": "medium",
@@ -28821,7 +28821,7 @@
           "url": "https://www.nps.gov/rowi/learn/historyculture/philipswar.htm",
           "title": "King Philip's War (Roger Williams National Memorial, NPS)",
           "quote": "By the 1670s the appropriation of Indian land by the English and a series of hostile incidents between the Wampanoag sachem King Philip (Metacom) and the Plymouth Colony resulted in the devastating conflict",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/King_Philip%27s_War",
@@ -28939,19 +28939,19 @@
           "url": "https://www.nps.gov/rowi/learn/historyculture/philipswar.htm",
           "title": "King Philip's War (Roger Williams National Memorial, NPS)",
           "quote": "his diplomatic skill in keeping the economically and militarily powerful Narragansett on friendly terms with local English settlers.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/rowi/learn/historyculture/philipswar.htm",
           "title": "King Philip's War (Roger Williams National Memorial, NPS)",
           "quote": "This attack pushed the Narragansett into joining forces with the Phillip and the Wampanoag.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/rowi/learn/historyculture/philipswar.htm",
           "title": "King Philip's War (Roger Williams National Memorial, NPS)",
           "quote": "attacked the Narragansett's principal winter settlement in the Great Swamp (South Kingstown) in December, 1675.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Roger_Williams",
@@ -29006,13 +29006,13 @@
           "url": "https://www.nps.gov/rowi/learn/historyculture/philipswar.htm",
           "title": "King Philip's War (Roger Williams National Memorial, NPS)",
           "quote": "cost the lives of three hundred Native American men and almost four hundred women and children.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/rowi/learn/historyculture/philipswar.htm",
           "title": "King Philip's War (Roger Williams National Memorial, NPS)",
           "quote": "The Narragansett would not turn over these refugees.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Great_Swamp_Fight",
@@ -29042,7 +29042,7 @@
           "url": "https://www.nps.gov/rowi/learn/historyculture/philipswar.htm",
           "title": "King Philip's War (Roger Williams National Memorial, NPS)",
           "quote": "the authorities in Boston demanded that the Narragansett turn over Wampanoag refugees as hostages.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Great_Swamp_Fight",
@@ -29467,7 +29467,7 @@
           "url": "https://www.wabanaki.com/wampum",
           "title": "Wampum (Wabanaki.com)",
           "quote": "Even in Kahnawake, which was the site of the “Great Council Fire,”",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "low",
@@ -29827,49 +29827,49 @@
           "url": "https://parks.canada.ca/culture/designation/evenement-event/traite-1726-treaty",
           "title": "The Peace and Friendship Treaty of 1726 (Parks Canada)",
           "quote": "On 4 June 1726, Mi’kmaw, Wəlastəkokewiyik, and Peskətəmohkatewey leaders gathered at Annapolis Royal, Nova Scotia, to ratify a treaty with the British Crown. This treaty was based on a treaty negotiated in Boston in 1725",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.rcaanc-cirnac.gc.ca/eng/1100100028599",
           "title": "Peace and Friendship Treaties (Crown-Indigenous Relations and Northern Affairs Canada)",
           "quote": "The first of the treaties was signed in 1726, formally bringing to an end a three year long war between New England and the Wabanaki.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.rcaanc-cirnac.gc.ca/eng/1100100028599",
           "title": "Peace and Friendship Treaties (Crown-Indigenous Relations and Northern Affairs Canada)",
           "quote": "In total, 77 aboriginal male delegates signed this part of the treaty.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.rcaanc-cirnac.gc.ca/eng/1100100028599",
           "title": "Peace and Friendship Treaties (Crown-Indigenous Relations and Northern Affairs Canada)",
           "quote": "This part of the treaty was signed by the colony's principal military leaders, Lawrence Armstrong and John Doucett.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.rcaanc-cirnac.gc.ca/eng/1100100028599",
           "title": "Peace and Friendship Treaties (Crown-Indigenous Relations and Northern Affairs Canada)",
           "quote": "the British agreed not to molest the communities' fishing, hunting, planting and 'other lawful activities. '",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://parks.canada.ca/culture/designation/evenement-event/traite-1726-treaty",
           "title": "The Peace and Friendship Treaty of 1726 (Parks Canada)",
           "quote": "This was the first treaty between these Indigenous Peoples and any European state in the region that would become the Canadian Maritimes.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://parks.canada.ca/culture/designation/evenement-event/traite-1726-treaty",
           "title": "The Peace and Friendship Treaty of 1726 (Parks Canada)",
           "quote": "This treaty served as the basis for future negotiations and treaties",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.rcaanc-cirnac.gc.ca/eng/1100100028599",
           "title": "Peace and Friendship Treaties (Crown-Indigenous Relations and Northern Affairs Canada)",
           "quote": "One document, termed the articles of peace and agreement, was signed by the Mi'kmaq, Maliseet and Passamaquoddy.",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -30011,7 +30011,7 @@
           "url": "https://www.rcaanc-cirnac.gc.ca/eng/1100100028599",
           "title": "Peace and Friendship Treaties (Crown-Indigenous Relations and Northern Affairs Canada)",
           "quote": "Other Mi'kmaq communities refused to do so, a position which they adopted in anger over the British decision to establish a new settlement at Halifax in June of 1749.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Halifax,_Nova_Scotia",
@@ -30064,25 +30064,25 @@
           "url": "https://www.rcaanc-cirnac.gc.ca/eng/1100100028599",
           "title": "Peace and Friendship Treaties (Crown-Indigenous Relations and Northern Affairs Canada)",
           "quote": "This treaty was signed in Halifax on 22 November by Governor Hopson and Jean-Baptiste Cope, chief sakamow of Shubenacadie",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.rcaanc-cirnac.gc.ca/eng/1100100028599",
           "title": "Peace and Friendship Treaties (Crown-Indigenous Relations and Northern Affairs Canada)",
           "quote": "The 1752 treaty reaffirmed the 1726 treaty but also modified it by formalizing a commercial relationship",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.rcaanc-cirnac.gc.ca/eng/1100100028599",
           "title": "Peace and Friendship Treaties (Crown-Indigenous Relations and Northern Affairs Canada)",
           "quote": "This led to a period of intermittent warfare with the Mi'kmaq which only came to an end in 1751.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.rcaanc-cirnac.gc.ca/eng/1100100028599",
           "title": "Peace and Friendship Treaties (Crown-Indigenous Relations and Northern Affairs Canada)",
           "quote": "Some scholars have argued that Jean-Baptiste Cope was the Grand Chief and that in signing the treaty, he did so in the name of all Mi'kmaq communities. Not all scholars, however, agree",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Treaty_of_1752",
@@ -31265,7 +31265,7 @@
           "url": "https://treaties.okstate.edu/treaties/treaty-with-the-delawares-etc-1809-0101",
           "title": "Treaty with the Delawares, etc., 1809 (Kappler, Indian Affairs: Laws and Treaties)",
           "quote": "at fort Wayne, this thirtieth of September, eighteen hundred and nine.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Treaty_of_Fort_Wayne_(1809)",
@@ -31593,7 +31593,7 @@
           "url": "https://treaties.okstate.edu/treaties/treaty-with-the-chippewa-etc-1833-0402",
           "title": "Treaty with the Chippewa, etc., 1833 (Kappler, Indian Affairs: Laws and Treaties)",
           "quote": "to be not less in quantity than five millions of acres, and to be located as follows: beginning at the mouth of Boyer’s river on the east side of the Missouri river",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Treaty_of_Chicago_(1833)",
@@ -31741,13 +31741,13 @@
           "url": "https://aacimotaatiiyankwi.org/2016/10/06/meehkweelimankwiki-myaamiaki-aancihseeciki/",
           "title": "meehkweelimankwiki myaamiaki aancihseeciki (Myaamia Center)",
           "quote": "On October 6, 1846, Myaamia people boarded canal boats near Iihkipihsinonki (“the Straight Place,” near Peru, Indiana) and on the next day loading concluded near Kiihkayonki (Fort Wayne, Indiana).",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://www.milb.com/indianapolis/team/miami-partnership/miami-timeline",
           "title": "Miami timeline (Miami Nation partnership, Indianapolis Indians)",
           "quote": "Three hundred and twenty seven people were packed onto boats taking them to Kansas.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://www.hmdb.org/m.asp?m=310943",
@@ -32215,7 +32215,7 @@
           "url": "https://www.nps.gov/ocmu/learn/historyculture/the-muscogee-nation.htm",
           "title": "The Muscogee Nation (Ocmulgee Mounds, NPS)",
           "quote": "In 1715, the Yamasee War erupted in protest against British indignities related to the fur trade, including the taking of Indians shipped as slaves to work in Caribbean sugar plantations.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Yamasee_War",
@@ -32653,25 +32653,25 @@
           "url": "https://www.nps.gov/hobe/learn/historyculture/index.htm",
           "title": "History and Culture (Horseshoe Bend National Military Park, NPS)",
           "quote": "At noon, Coffee's Cherokee allies crossed the river and assaulted the Red Sticks from the rear. Jackson quickly ordered a frontal bayonet charge, which poured over the barricade.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/hobe/learn/historyculture/index.htm",
           "title": "History and Culture (Horseshoe Bend National Military Park, NPS)",
           "quote": "By dark at least 800 of Chief Menawa's 1,000 Red Sticks were dead (557 slain on the field and 200-300 in the river).",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/hobe/learn/historyculture/index.htm",
           "title": "History and Culture (Horseshoe Bend National Military Park, NPS)",
           "quote": "Jackson's losses in the battle were 49 killed and 154 wounded, many mortally.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/hobe/learn/historyculture/index.htm",
           "title": "History and Culture (Horseshoe Bend National Military Park, NPS)",
           "quote": "The Treaty of Fort Jackson ended the conflict and required the Creeks to cede 23 million acres of land to the United States.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Creek_War",
@@ -32683,7 +32683,7 @@
           "url": "https://www.nps.gov/hobe/learn/historyculture/index.htm",
           "title": "History and Culture (Horseshoe Bend National Military Park, NPS)",
           "quote": "consisting of East and West Tennessee militia and the Thirty-ninth U.S. Infantry",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Battle_of_Horseshoe_Bend_(1814)",
@@ -32695,7 +32695,7 @@
           "url": "https://www.nps.gov/hobe/learn/historyculture/index.htm",
           "title": "History and Culture (Horseshoe Bend National Military Park, NPS)",
           "quote": "Though the Red Sticks had been crushed at Tohopeka",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Battle_of_Horseshoe_Bend_(1814)",
@@ -32707,7 +32707,7 @@
           "url": "https://www.nps.gov/hobe/learn/historyculture/index.htm",
           "title": "History and Culture (Horseshoe Bend National Military Park, NPS)",
           "quote": "In August 1814, a treaty between the United States and the Creek Nation was signed at Fort Jackson",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Creek_War",
@@ -32772,7 +32772,7 @@
           "url": "https://www.nps.gov/hobe/learn/historyculture/index.htm",
           "title": "Horseshoe Bend: History and Culture (National Park Service)",
           "quote": "The Treaty of Fort Jackson ended the conflict and required the Creeks to cede 23 million acres of land to the United States.",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -32877,19 +32877,19 @@
           "url": "https://www.choctawnation.com/news/iti-fabvssa/a-new-chahta-homeland-a-history-by-the-decade-1830-1840/",
           "title": "A new Chahta homeland: a history by the decade, 1830-1840 (Choctaw Nation of Oklahoma)",
           "quote": "The first wave of removals began in October 1831. Later waves occurred throughout 1832-1834, 1838, and throughout 1844-1855.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://www.choctawnation.com/news/iti-fabvssa/a-new-chahta-homeland-a-history-by-the-decade-1830-1840/",
           "title": "A new Chahta homeland: a history by the decade, 1830-1840 (Choctaw Nation of Oklahoma)",
           "quote": "Removal caused catastrophic losses within the numerous Choctaw communities. The removal journey was particularly devastating to elders and children",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://www.choctawnation.com/news/iti-fabvssa/a-new-chahta-homeland-a-history-by-the-decade-1830-1840/",
           "title": "A new Chahta homeland: a history by the decade, 1830-1840 (Choctaw Nation of Oklahoma)",
           "quote": "it meant the loss of knowledge keepers and the next generation.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://okhistory.org/publications/enc/entry?entry=CH047",
@@ -32936,13 +32936,13 @@
           "url": "https://www.chickasaw.tv/events/treaty-of-pontotoc-creek",
           "title": "Treaty with the Chickasaw, 1832 (Chickasaw.tv, Chickasaw Nation)",
           "quote": "signed at the Chickasaw Council House on October 20, 1832, relinquished Chickasaw lands east of the Mississippi River in exchange for a promise to find suitable land west of the Mississippi River.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://www.chickasaw.tv/events/treaty-of-pontotoc-creek",
           "title": "Treaty with the Chickasaw, 1832 (Chickasaw.tv, Chickasaw Nation)",
           "quote": "Chickasaw negotiators included Ishtehotopa, Tishominko, Levi and George Colbert, William McGillivray, Isaac Alberson, and many other Chickasaw leaders.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Chickasaw",
@@ -33025,7 +33025,7 @@
           "url": "https://www.cherokee.org/about-the-nation/history/",
           "title": "History (Cherokee Nation)",
           "quote": "The Cherokees who signed that treaty lacked authority to do so under Cherokee Nation law, but nevertheless purported to agree, on behalf of the Nation, to relinquish the Cherokee Nation's lands east of the Mississippi",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -33136,7 +33136,7 @@
           "url": "https://home.nps.gov/grsm/learn/historyculture/cherokee.htm",
           "title": "The Cherokee (Great Smoky Mountains National Park, National Park Service)",
           "quote": "In 1838, nearly 14,000 Cherokees were forced from their homes and held in stockades before beginning a grueling journey westward to Oklahoma and Arkansas. Over 4,000 died from cold, disease, and hunger on the six-month march",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.okhistory.org/publications/enc/entry?entry=CH014",
@@ -33188,19 +33188,19 @@
           "url": "https://www.nps.gov/ocmu/learn/historyculture/the-muscogee-nation.htm",
           "title": "The Muscogee Nation (Ocmulgee Mounds, National Park Service)",
           "quote": "The Creek War of 1836 ended when about 2,500 people, including several hundred warriors in chains, were marched on foot to Montgomery, Alabama, and crowded onto barges during the extreme heat of July.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/ocmu/learn/historyculture/the-muscogee-nation.htm",
           "title": "The Muscogee Nation (Ocmulgee Mounds, National Park Service)",
           "quote": "During the summer and winter of 1836-early 1837, over 14,000 Muscogee Indians made the three-month journey to Oklahoma, a trip of over 800 land miles and another 400 by water.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/ocmu/learn/historyculture/the-muscogee-nation.htm",
           "title": "The Muscogee Nation (Ocmulgee Mounds, National Park Service)",
           "quote": "21,792 Muscogee Indians lived in Georgia and Alabama in 1832. Twenty years after the \"removal\" ended, only 13,537 Muscogee remained in Oklahoma.",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -33233,19 +33233,19 @@
           "url": "https://www.cherokee.org/about-the-nation/history/",
           "title": "History (Cherokee Nation)",
           "quote": "In 1827, the Cherokee Nation adopted a written Constitution modeled on that of the United States, to which Georgia responded the following year by declaring the Cherokee government abolished and its citizens subject to the laws of Georgia.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://www.cherokee.org/about-the-nation/history/",
           "title": "History (Cherokee Nation)",
           "quote": "This case, Cherokee Nation v. Georgia (1831), ended with a majority of the Court deciding that the Court had no original jurisdiction",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://www.cherokee.org/about-the-nation/history/",
           "title": "History (Cherokee Nation)",
           "quote": "The Court held that Georgia had no power to impose its laws in the Cherokee Nation.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Cherokee_Nation_(1794%E2%80%931907)",
@@ -34327,13 +34327,13 @@
           "url": "https://nlm.nih.gov/nativevoices/timeline/227.html",
           "title": "1766: Armed Russian fur traders massacre Unangan (Aleut) (Native Voices, US National Library of Medicine)",
           "quote": "arms his workers to murder Unangan (Aleut) men, women, and children in retaliation for their resistance to the sexual exploitation of Unangan women.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://nlm.nih.gov/nativevoices/timeline/227.html",
           "title": "1766: Armed Russian fur traders massacre Unangan (Aleut) (Native Voices, US National Library of Medicine)",
           "quote": "The workers go to Umnak, Unalaska, and Kodiak Islands, where they systematically kill people and enslave young women and men.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Stepan_Glotov",
@@ -34374,19 +34374,19 @@
           "url": "https://www.nps.gov/aleu/learn/historyculture/unangax-history-and-culture.htm",
           "title": "Unangax History and Culture (Aleutian World War II, National Park Service)",
           "quote": "colonizing the entire island chain by 1760 and expanding to Kodiak and Southeast Alaska by 1800.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/aleu/learn/historyculture/unangax-history-and-culture.htm",
           "title": "Unangax History and Culture (Aleutian World War II, National Park Service)",
           "quote": "Russians forced many Unangax̂ to hunt for them, often using violence in the process. Unangax families, diverted to working for the Russians, were unable to procure subsistence foods for themselves.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/aleu/learn/historyculture/unangax-history-and-culture.htm",
           "title": "Unangax History and Culture (Aleutian World War II, National Park Service)",
           "quote": "Before Russian contact, the Unangax̂ population was estimated to be 15,000-18,000; by the end of Russian presence in the Aleutian Islands, only 2,500 Unangax̂ residents remained.",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -34723,19 +34723,19 @@
           "url": "https://www.nps.gov/wrst/learn/historyculture/human-history.htm",
           "title": "Human History (Wrangell-St. Elias, National Park Service)",
           "quote": "Assigned the task of traversing from the mouth of the Copper to the Yukon River, Ruf Serebrennikov and his entire party was killed by the Ahtna near the village of Batzulnetas in the summer of 1848.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/wrst/learn/historyculture/human-history.htm",
           "title": "Human History (Wrangell-St. Elias, National Park Service)",
           "quote": "The Russians appear to have made no further efforts to explore the region.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/wrst/learn/historyculture/human-history.htm",
           "title": "Human History (Wrangell-St. Elias, National Park Service)",
           "quote": "In 1847-48, the Russian American company tried to examine the rest of the Copper Basin.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Ahtna",
@@ -34775,31 +34775,31 @@
           "url": "https://www.nps.gov/nepe/learn/historyculture/weippe-prairie.htm",
           "title": "Weippe Prairie (Nez Perce National Historical Park, National Park Service)",
           "quote": "Unprepared for the arduous trek over the Bitterroot Mountains, Captain Clark and a small group of hunters went ahead of the main party in search of food.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/nepe/learn/historyculture/weippe-prairie.htm",
           "title": "Weippe Prairie (Nez Perce National Historical Park, National Park Service)",
           "quote": "they encountered three frightened Nez Perce boys hiding in the grass. Clark gave them small presents",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/nepe/learn/historyculture/weippe-prairie.htm",
           "title": "Weippe Prairie (Nez Perce National Historical Park, National Park Service)",
           "quote": "The Nez Perce people were nervous over the intentions of these strangers but accepted them onto their land.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/nepe/learn/historyculture/weippe-prairie.htm",
           "title": "Weippe Prairie (Nez Perce National Historical Park, National Park Service)",
           "quote": "After Lewis and Clark reunited on September 22, 1805, they spoke with a Nez Perce head man known as Twisted Hair: trading gifts, passing the pipe, and acquiring information about the country.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/nepe/learn/historyculture/weippe-prairie.htm",
           "title": "Weippe Prairie (Nez Perce National Historical Park, National Park Service)",
           "quote": "Historically, in the summer months the Nez Perce would come to the prairies to harvest roots and berries and to hunt.",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -34856,25 +34856,25 @@
           "url": "https://www.nps.gov/nepe/learn/historyculture/the-treaty-era.htm",
           "title": "The Treaty Period (Nez Perce National Historical Park, National Park Service)",
           "quote": "The Treaty of 1855 was ratified by the US Senate in 1859.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://nezperce.org/about/history/",
           "title": "History (Nez Perce Tribe)",
           "quote": "Tribal leaders negotiated retention of approximately 7.5 million acres to be protected as the Tribe's exclusive reservation.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/nepe/learn/historyculture/the-treaty-era.htm",
           "title": "The Treaty Era (Nez Perce National Historical Park, NPS)",
           "quote": "After more than a week of tense negotiations",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/nepe/learn/historyculture/the-treaty-era.htm",
           "title": "The Treaty Era (Nez Perce National Historical Park, NPS)",
           "quote": "while still retaining the right to hunt and fish in their \"usual and accustomed places\"",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -34909,25 +34909,25 @@
           "url": "https://www.nps.gov/nepe/learn/historyculture/the-treaty-era.htm",
           "title": "The Treaty Period (Nez Perce National Historical Park, National Park Service)",
           "quote": "In 1860, gold was discovered within the boundaries of the reservation. Rather than stop the newcomers from trespassing on reservation land, the U.S. government instead initiated another treaty council that would shrink the 1855 reservation by 90%",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/nepe/learn/historyculture/the-treaty-era.htm",
           "title": "The Treaty Period (Nez Perce National Historical Park, National Park Service)",
           "quote": "The bands that lived outside of the proposed reservation boundaries walked out of the proceedings and refused to endorse this land grab. Nevertheless, 51 headmen who lived within the proposed reservation boundaries affixed their marks to the new treaty.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/nepe/learn/historyculture/the-treaty-era.htm",
           "title": "The Treaty Period (Nez Perce National Historical Park, National Park Service)",
           "quote": "The 1863 Treaty became known amongst nimíipuu as the 'Thief Treaty' or 'Steal Treaty' and created the conditions that would eventually lead to the armed clash",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://nezperce.org/about/history/",
           "title": "History (Nez Perce Tribe)",
           "quote": "the federal government forced the Tribe into a second treaty in 1863, which reduced the reservation to about 750,000 acres.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://accessgenealogy.com/idaho/treaty-of-june-9-1863.htm",
@@ -34986,25 +34986,25 @@
           "url": "https://www.nps.gov/nepe/learn/historyculture/white-bird-battlefield.htm",
           "title": "White Bird Battlefield (Nez Perce National Historical Park, National Park Service)",
           "quote": "for reasons that cannot fully be explained, opened fire on the peace party. The nimíipuu responded and bullets began to fly.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/nepe/learn/historyculture/white-bird-battlefield.htm",
           "title": "White Bird Battlefield (Nez Perce National Historical Park, National Park Service)",
           "quote": "The die was cast and the first battle of the Nez Perce War began.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/nepe/learn/historyculture/white-bird-battlefield.htm",
           "title": "White Bird Battlefield (Nez Perce National Historical Park, National Park Service)",
           "quote": "Chapman, a volunteer came up to Theller's position or close by",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/nepe/learn/historyculture/white-bird-battlefield.htm",
           "title": "White Bird Battlefield (NPS)",
           "quote": "he left behind thirty-four dead. An additional two soldiers and two volunteers were wounded. Three nimíipuu suffered wounds, but no one was killed.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Battle_of_White_Bird_Canyon",
@@ -35045,37 +35045,37 @@
           "url": "https://www.nps.gov/nepe/planyourvisit/bear-paw-battlefield.htm",
           "title": "Bear Paw Battlefield (Nez Perce National Historical Park, National Park Service)",
           "quote": "approximately 800 nimíipuu (Nez Perce) spent a long and arduous summer fleeing U.S. Army troops",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/nepe/planyourvisit/bear-paw-battlefield.htm",
           "title": "Bear Paw Battlefield (Nez Perce National Historical Park, National Park Service)",
           "quote": "a mere forty miles short of the Canadian border. Following a five-day battle and siege, the nimíipuu ceased fighting at Bear Paw on October 5th, 1877",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/nepe/planyourvisit/bear-paw-battlefield.htm",
           "title": "Bear Paw Battlefield (Nez Perce National Historical Park, National Park Service)",
           "quote": "remembered October 2 as the day Chief Looking Glass was killed.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/nepe/planyourvisit/bear-paw-battlefield.htm",
           "title": "Bear Paw Battlefield (Nez Perce National Historical Park, National Park Service)",
           "quote": "The fighting continued. The army targeted the area where the families were sheltered with cannon fire.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/nepe/planyourvisit/bear-paw-battlefield.htm",
           "title": "Bear Paw Battlefield (Nez Perce National Historical Park, National Park Service)",
           "quote": "Joseph and Whitebird were told that they would be returned to Idaho, the leaders will not be killed, and, most importantly, that the army wanted to quit fighting. White Bird mistrusted the army's promises and refused to surrender.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/nepe/planyourvisit/bear-paw-battlefield.htm",
           "title": "Bear Paw Battlefield (Nez Perce National Historical Park, National Park Service)",
           "quote": "At 2pm Joseph met with Miles and Howard, handed over his rifle, and made his now famous speech",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Battle_of_Bear_Paw",
@@ -35111,7 +35111,7 @@
           "url": "https://www.nps.gov/nepe/planyourvisit/bear-paw-battlefield.htm",
           "title": "Bear Paw Battlefield (Nez Perce National Historical Park, National Park Service)",
           "quote": "From where the sun now stands, I will fight no more forever.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Battle_of_Bear_Paw",
@@ -35123,7 +35123,7 @@
           "url": "https://www.nps.gov/nepe/planyourvisit/bear-paw-battlefield.htm",
           "title": "Bear Paw Battlefield (Nez Perce National Historical Park, National Park Service)",
           "quote": "over 400 nimíipuu agreed to quit fighting",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -35187,7 +35187,7 @@
           "url": "https://www.nps.gov/nepe/planyourvisit/bear-paw-battlefield.htm",
           "title": "Bear Paw Battlefield (Nez Perce National Historical Park, National Park Service)",
           "quote": "Joseph and Whitebird were told that they would be returned to Idaho",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Nez_Perce_War",
@@ -35247,25 +35247,25 @@
           "url": "https://www.yakama.com/about/",
           "title": "Yakama Nation History & Treaties (Confederated Tribes and Bands of the Yakama Nation)",
           "quote": "Lands ceded to the federal government during the 1855 Treaty signing included over 12 million acres of land.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://www.yakama.com/about/",
           "title": "Yakama Nation History & Treaties (Confederated Tribes and Bands of the Yakama Nation)",
           "quote": "Tribal leaders reserved the right to fish, hunt and gather all of the tribe's traditional foods on the reservation as well as the ceded area.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://www.yakama.com/about/",
           "title": "Yakama Nation History & Treaties (Confederated Tribes and Bands of the Yakama Nation)",
           "quote": "Although the Treaty was signed on June 9, 1855 it did not become valid until ratified March 8, 1859",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://www.yakama.com/about/",
           "title": "Yakama Nation History & Treaties (Confederated Tribes and Bands of the Yakama Nation)",
           "quote": "just one month after the treaty was signed Governor Stevens through northwest newspapers declared all ceded lands open and available for white settlement.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://historylink.org/File/5311",
@@ -35515,19 +35515,19 @@
           "url": "https://ctuir.org/about/history-culture/",
           "title": "History & Culture (Confederated Tribes of the Umatilla Indian Reservation)",
           "quote": "In 1855, the Cayuse, Umatilla and Walla Walla tribes and the U.S. Government negotiated a treaty in which 6.4 million acres were ceded in exchange for a reservation homeland of 250,000 acres.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://ctuir.org/about/history-culture/",
           "title": "History & Culture (Confederated Tribes of the Umatilla Indian Reservation)",
           "quote": "also reserved perpetual off-reservation rights to fish at usual and accustomed sites and to hunt, gather medicines such as roots and berries, and pasture livestock on unclaimed lands.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://ctuir.org/about/history-culture/",
           "title": "History & Culture (Confederated Tribes of the Umatilla Indian Reservation)",
           "quote": "As a result of federal legislation in the late 1800s that reduced its size, the Umatilla Reservation is now 172,000 acres",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://accessgenealogy.com/oregon/treaty-of-june-9-1855.htm",
@@ -35729,13 +35729,13 @@
           "url": "https://www.cdatribe-nsn.gov/",
           "title": "History (Coeur d'Alene Tribe)",
           "quote": "Known as the Battle of Tohotonimme by Tribes, the Battle of Steptoe was a conflict between several Tribes and the United States Army under Colonel Edward Steptoe.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://www.cdatribe-nsn.gov/",
           "title": "History (Coeur d'Alene Tribe)",
           "quote": "The battle lasted all day, and brought the Colonel's men to within their last few rounds of ammunition, before they were able to slip away under cover of dark.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Battle_of_Pine_Creek",
@@ -36043,7 +36043,7 @@
           "url": "https://www.cdatribe-nsn.gov/",
           "title": "History (Coeur d'Alene Tribe)",
           "quote": "Treaty of Friendship September 17th, 1858 After the Battle between the Tribes and Steptoe, later that year a Treaty was negotiated between the Tribal Nations and the U.S. Government to bring about a peaceful resolution",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Coeur_d%27Alene_War",
@@ -36370,7 +36370,7 @@
           "url": "https://www.sbtribes.com/",
           "title": "Shoshone-Bannock Tribes",
           "quote": "the tribal leadership signed the Fort Bridger Treaty, which affirmed that the newly established Fort Hall Indian Reservation would become the permanent home for the Shoshone and Bannock people.",
-          "kind": "tribal"
+          "kind": "institution"
         },
         {
           "url": "https://accessgenealogy.com/idaho/treaty-of-july-3-1868.htm",
@@ -36412,7 +36412,7 @@
           "url": "https://www.nps.gov/poex/learn/historyculture/the-pyramid-lake-war.htm",
           "title": "The Pyramid Lake War (Pony Express National Historic Trail, National Park Service)",
           "quote": "An old Paiute man and a younger Pauite woman went to a house owned by J.O. Williams, a white. Four white men in the house tied up the man and attacked the woman.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Paiute_War",
@@ -36436,13 +36436,13 @@
           "url": "https://shpo.nv.gov/nevadas-historical-markers/historical-markers/the-two-battles-of-pyramid-lake",
           "title": "The Two Battles of Pyramid Lake (Nevada State Historic Preservation Office)",
           "quote": "On May 12, 1860, Northern Paiute warriors, fighting to retain their way of life, decisively defeated a volunteer army from Virginia City and nearby settlements.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://shpo.nv.gov/nevadas-historical-markers/historical-markers/the-two-battles-of-pyramid-lake",
           "title": "The Two Battles of Pyramid Lake (Nevada State Historic Preservation Office)",
           "quote": "On June 2, 1860, a larger force of volunteers and regular U.S. Army troops engaged Numu warriors in battle",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Paiute_War",
@@ -36460,13 +36460,13 @@
           "url": "https://www.nps.gov/poex/learn/historyculture/the-pyramid-lake-war.htm",
           "title": "The Pyramid Lake War (Pony Express National Historic Trail, National Park Service)",
           "quote": "On May 7, 1860, an incident at the Williams Station in Carson Valley, Nevada set off the Pyramid Lake War.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/poex/learn/historyculture/the-pyramid-lake-war.htm",
           "title": "The Pyramid Lake War (Pony Express National Historic Trail, National Park Service)",
           "quote": "The house was burned with the men in it.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Paiute_War",
@@ -36484,13 +36484,13 @@
           "url": "https://www.nps.gov/poex/learn/historyculture/the-pyramid-lake-war.htm",
           "title": "The Pyramid Lake War (Pony Express National Historic Trail, National Park Service)",
           "quote": "The Paiutes claimed a big victory when they defeated U.S. Major William Ormsby's force in Nevada, but the Indians eventually were defeated.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://shpo.nv.gov/nevadas-historical-markers/historical-markers/the-two-battles-of-pyramid-lake",
           "title": "The Two Battles of Pyramid Lake (Nevada State Historic Preservation Office)",
           "quote": "fought with such courage and strategy that the attacking forces were held back during the day until the Numu could withdraw.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Paiute_War",
@@ -36647,7 +36647,7 @@
           "url": "https://www.nps.gov/labe/learn/historyculture/modoc-war.htm",
           "title": "The Modoc War (Lava Beds National Monument, National Park Service)",
           "quote": "In April of 1870, Jack along with 371 other Modocs, left the reservation and returned to their Lost River homeland.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Battle_of_Lost_River",
@@ -36665,19 +36665,19 @@
           "url": "https://www.nps.gov/labe/learn/historyculture/modoc-war.htm",
           "title": "The Modoc War (Lava Beds National Monument, National Park Service)",
           "quote": "The ensuing battle, the Lost River Battle, caused the Modocs to flee by boat, crossing Tule Lake, to take refuge at the Stronghold",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/labe/learn/historyculture/modoc-war.htm",
           "title": "The Modoc War (Lava Beds National Monument, National Park Service)",
           "quote": "These skirmishes resulted in the burning of Captain Jack's village and the deaths of a Modoc woman and child. An enraged group of Modocs traveled east around Tule Lake and killed 14 male settlers.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/labe/learn/historyculture/modoc-war.htm",
           "title": "The Modoc War (Lava Beds National Monument, National Park Service)",
           "quote": "an unauthorized attack on a Modoc village across the river was carried out by a group of civilians.",
-          "kind": "government"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -36712,19 +36712,19 @@
           "url": "https://www.nps.gov/labe/learn/historyculture/modoc-war.htm",
           "title": "The Modoc War (Lava Beds National Monument, National Park Service)",
           "quote": "On October 3, 1873, Captain Jack, Schonchin John, Black Jim, and Boston Charley were hanged. Barncho and Slolux had their sentences commuted by President Grant and were sent to Alcatraz.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/labe/learn/historyculture/modoc-war.htm",
           "title": "The Modoc War (Lava Beds National Monument, National Park Service)",
           "quote": "Nearly 2,000 people attended the hanging. The attendance of all Modocs was mandatory. Twelve days after the hanging, 163 Modocs were sent as prisoners of war to the Quapaw Agency in Oklahoma.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/labe/learn/historyculture/modoc-war.htm",
           "title": "The Modoc War (Lava Beds National Monument, National Park Service)",
           "quote": "The Modocs who had attacked the peace commissioners were imprisoned at Fort Klamath, where they were tried and convicted of murder.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Kintpuash",
@@ -36791,7 +36791,7 @@
           "url": "https://www.yuroktribe.org/treaty-negotiations",
           "title": "Treaty Negotiations (Yurok Tribe)",
           "quote": "which was inundated with complaints from settlers claiming the Indians were receiving an excess of valuable land and resources. The Congress rejected the treaties and failed to notify the tribes of this decision.",
-          "kind": "tribal"
+          "kind": "institution"
         }
       ],
       "confidence": "high",
@@ -36945,7 +36945,7 @@
           "url": "https://www.californiahistoricallandmarks.com/landmarks/chl-327.1",
           "title": "CHL No. 327.1 Mission Dolores Lagoon Site (California Historical Landmarks)",
           "quote": "On June 29, 1776, Father Fancisco Palou, a member of the Anza Expedition, had a brushwood shelter built here",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://californiamissionsfoundation.org/mission-san-francisco-de-asis/",
@@ -37303,25 +37303,25 @@
           "url": "https://www.nps.gov/biho/learn/historyculture/index.htm",
           "title": "History and Culture (Big Hole National Battlefield, National Park Service)",
           "quote": "U.S. troops launched a surprise dawn attack on the sleeping nımí·pu· encampment on the morning of August 9.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/biho/learn/historyculture/index.htm",
           "title": "History and Culture (Big Hole National Battlefield, National Park Service)",
           "quote": "the command . . . of 17 officers, 132 men and 34 citizens, started down the trail on foot",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/biho/learn/historyculture/index.htm",
           "title": "History and Culture (Big Hole National Battlefield, National Park Service)",
           "quote": "The women, all scared when the soldiers charged the camp, ran into the water, the brush. Any place where they could hide themselves and children. Many were killed as they ran.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://www.nps.gov/biho/learn/historyculture/index.htm",
           "title": "History and Culture (Big Hole National Battlefield, National Park Service)",
           "quote": "War was quit. All Montana citizens our friends.",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Battle_of_the_Big_Hole",
@@ -37333,7 +37333,7 @@
           "url": "https://www.nps.gov/biho/learn/historyculture/index.htm",
           "title": "History and Culture (Big Hole National Battlefield, National Park Service)",
           "quote": "the battle that occurred on August 9 and 10",
-          "kind": "government"
+          "kind": "institution"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Battle_of_the_Big_Hole",

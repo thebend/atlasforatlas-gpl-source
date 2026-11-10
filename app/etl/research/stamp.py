@@ -16,7 +16,9 @@ import sys
 from etl.common import RESEARCH
 
 
-CITED = ("url", "title", "quote", "kind")       # a citation as written: not the checks the build adds (quote_check)
+# a citation as written: not the checks the build adds (quote_check), nor its kind, which is a label from a fixed
+# list (etl/research/kinds.py) rather than a fact a verifier attests (docs/design/policy.md, 2026-11-09)
+CITED = ("url", "title", "quote")
 
 
 def _written(d: dict) -> dict:

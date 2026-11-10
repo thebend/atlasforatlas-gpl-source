@@ -7,7 +7,7 @@ A research item whose date is argued over carries, beside its `date` (the year t
       "earliest": 300, "latest": 1266,          # astronomical years: 1 BCE is 0, 300 BCE is -299
       "positions": [
         {"from": 300, "to": 1100, "label": "long chronology, older radiocarbon", "by": "Kirch 1985",
-         "citation": {"url": "...", "title": "...", "quote": "verbatim, at most 40 words", "kind": "..."}},
+         "citation": {"url": "...", "title": "...", "quote": "verbatim, at most 40 words", "kind": "primary|scholarly|reference|institution|news|web|wikipedia"}},
         {"from": 1219, "to": 1266, "label": "short chronology, high-precision radiocarbon", "by": "Wilmshurst et al. 2011",
          "citation": {...}}
       ]

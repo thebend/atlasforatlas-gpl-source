@@ -88,15 +88,35 @@ def fetch(url: str) -> str | None:
 
 
 PMC = re.compile(r"https?://(?:pmc\.ncbi\.nlm\.nih\.gov/articles|www\.ncbi\.nlm\.nih\.gov/pmc/articles)/(PMC\d+)")
+PUBMED = re.compile(r"https?://pubmed\.ncbi\.nlm\.nih\.gov/(\d+)")
+ARCHIVE = re.compile(r"https?://archive\.org/(?:details|stream)/([^/?#]+)/?(?:[?#].*)?$")
+
+
+def archive_text(ident: str) -> str | None:
+    """An archive.org item's OCR text when its file isn't named after the item: the name from its file list."""
+    meta = fetch(f"https://archive.org/metadata/{ident}/files")
+    try:
+        names = [f["name"] for f in json.loads(meta or "{}").get("result", []) if f["name"].endswith("_djvu.txt")]
+    except ValueError:
+        return None
+    body = fetch(f"https://archive.org/download/{ident}/{urllib.parse.quote(names[0])}") if names else None
+    return to_text(body) if body else None
 
 
 def source_text(url: str) -> str | None:
     """The cited page as plain text. PMC often serves scripts a reCAPTCHA page instead of the article:
     then the same open-access article is read from Europe PMC (full-text XML where it has it, and the
     abstract, which is all it holds for some journals)."""
+    pm = PUBMED.match(url)
+    if pm:      # PubMed serves scripts a cookie check: its abstract is read from Europe PMC
+        b = fetch(f"https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:{pm.group(1)}%20AND%20SRC:MED&resultType=core&format=json")
+        return to_text(b) if b else None
     m = PMC.match(url)
     if not m:
         body = fetch(source_url(url))
+        a = ARCHIVE.match(url)
+        if a and (not body or re.search(r"(?i)<!doctype html", body[:200])):
+            return archive_text(a.group(1))
         return to_text(body) if body else None
     texts = []
     body = fetch(url)
