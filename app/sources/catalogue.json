@@ -531,10 +531,10 @@
       "url": "https://doi.org/10.17026/dans-25g-gez3",
       "review": {"kind": "peer-reviewed", "evidence": "Klein Goldewijk et al. 2017, ESSD", "url": "https://doi.org/10.5194/essd-9-927-2017", "quote": "a full peer-review process in the traditional sense, albeit in a more transparent way, is assured before publication of a paper in ESSD", "quote_url": "https://www.earth-system-science-data.net/peer_review/interactive_review_process.html", "checked": "2026-11-10", "note": "The paper describes HYDE 3.2; 3.2.1 is its release on DANS, the version before 3.3."},
       "coverage": "Worldwide, 5' grid of people per cell (popc); 10,000 BCE to 2017 CE. We read 13 years (1000 BCE to 2015 CE) and keep only region totals.",
-      "steps": ["base.region_population (the live map's regional baseline: etl/standing.py)"],
+      "steps": [],
       "caveats": [
         "A model: country totals allocated over a grid, not a count.",
-        "Used only as a weight for how many live-map markers each region gets at the wide zooms (docs/design/background-weighting.md), never drawn."
+        "No longer used (2026-11-10): it weighted how many live-map markers each region got at the wide zooms; the live map's weighting now measures coverage bias instead of sharing markers by population (docs/design/background-weighting.md)."
       ],
       "note": "Cite Klein Goldewijk et al. 2017 (doi:10.5194/essd-9-927-2017). CC0 asks no credit; we give it anyway."
     },
