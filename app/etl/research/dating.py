@@ -10,14 +10,19 @@ A research item whose date is argued over carries, beside its `date` (the year t
          "citation": {"url": "...", "title": "...", "quote": "verbatim, at most 40 words", "kind": "primary|scholarly|reference|institution|news|web|wikipedia"}},
         {"from": 1219, "to": 1266, "label": "short chronology, high-precision radiocarbon", "by": "Wilmshurst et al. 2011",
          "citation": {...}}
-      ]
+      ],
+      "current": {"url": "...", "title": "...", "quote": "the review's line that shows which readings stand", "kind": "scholarly"}
     }
 
 `earliest` and `latest` enclose every position; positions run oldest first. Where a source gives a wider
 overall span than any one reading ("estimates have ranged from 400 to 1300"), the block's own `citation`
-backs it, and an end past every position needs one. Each position's citation is checked like the item's own
-(verify_quotes writes its `quote_check`), and an independent verifier passes the block with the card:
-it is part of the words a verdict is sealed to (stamp.text_sha).
+backs it, and an end past every position needs one. Positions are only the readings the field still holds
+(2026-11-10): `current` cites the most recent review or synthesis that says which readings stand, quoting
+the line that shows it (at most 40 words); a reading later work set aside is not drawn, and where one is
+left the block goes. `current` is required. Each position's citation, the
+block's `citation` and `current` are checked like the item's own (verify_quotes writes their `quote_check`),
+and an independent verifier passes the block with the card: it is part of the words a verdict is sealed to
+(stamp.text_sha).
 
     python -m etl.research.dating [<name> ...]     check every catalogue's dating blocks (exit 1 on a problem)
 """
@@ -37,9 +42,10 @@ def positions(item: dict) -> list[dict]:
 
 
 def citations(item: dict) -> list[dict]:
-    """Every citation an item rests on: its own, then each dating position's."""
+    """Every citation an item rests on: its own, then the dating block's (its span, the review saying which
+    readings stand) and each position's."""
     d = item.get("dating") or {}
-    own = [d["citation"]] if isinstance(d.get("citation"), dict) else []
+    own = [d[k] for k in ("citation", "current") if isinstance(d.get(k), dict)]
     return list(item.get("citations", [])) + own + [p["citation"] for p in positions(item) if isinstance(p.get("citation"), dict)]
 
 
@@ -84,6 +90,15 @@ def problems(item: dict) -> list[str]:
         c = d.get("citation")
         if wider and not (isinstance(c, dict) and c.get("url") and (c.get("quote") or "").strip()):
             out.append("earliest or latest goes past every position: the block's own citation must give that span")
+    # the review saying which readings stand (owner, 2026-11-10): every block has one
+    c = d.get("current")
+    if c is None:
+        out.append("current: cite the most recent review that says which readings are still held (docs/design/date-ranges.md)")
+    else:
+        if not isinstance(c, dict) or not c.get("url") or not (c.get("quote") or "").strip():
+            out.append("current: a citation with a url and a verbatim quote")
+        elif len(c["quote"].split()) > 40:
+            out.append("current: its quote runs over 40 words")
     y = (item.get("date") or {}).get("year")
     if isinstance(y, int) and isinstance(lo, int) and isinstance(hi, int) and not lo <= y <= hi:
         out.append(f"the card's year {y} is outside earliest to latest")

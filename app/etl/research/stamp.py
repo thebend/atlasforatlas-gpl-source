@@ -24,9 +24,10 @@ CITED = ("url", "title", "quote")
 def _written(d: dict) -> dict:
     """A dating block as the researcher wrote it, without what verify_quotes and the build add to its citations."""
     cite = lambda c: {k: c[k] for k in CITED if k in c} if isinstance(c, dict) else c
-    out = {k: v for k, v in d.items() if k not in ("positions", "citation")}
-    if "citation" in d:
-        out["citation"] = cite(d["citation"])
+    out = {k: v for k, v in d.items() if k not in ("positions", "citation", "current")}
+    for k in ("citation", "current"):   # the block's span and the review saying which readings stand
+        if k in d:
+            out[k] = cite(d[k])
     out["positions"] = [{**{k: v for k, v in p.items() if k != "citation"}, "citation": cite(p.get("citation"))} for p in d.get("positions", [])]
     return out
 
