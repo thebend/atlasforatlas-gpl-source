@@ -212,6 +212,29 @@
       "steps": ["fetch.north_america (ohm_fetch)", "fetch.europe.divisions", "fetch.ohm (named relations)", "root pipeline fetch_borders (South Asia)", "runtime: live borders, vector tiles through the project's tile cache (src/lib/live/borders.ts)"],
       "caveats": ["A live database: a fresh download differs wherever relations were edited."]
     },
+    "openfreemap": {
+      "name": "OpenStreetMap coastline and lakes, as OpenFreeMap's vector tiles (OpenMapTiles schema)",
+      "licence": "Data: ODbL 1.0 (© OpenStreetMap contributors); OpenMapTiles schema: CC BY 4.0; OpenFreeMap: a free service, as-is, no warranties (terms of 2026-10-14)",
+      "cls": "share-alike",
+      "url": "https://openfreemap.org/",
+      "review": {
+        "kind": "community",
+        "evidence": "OpenStreetMap, edited by volunteers",
+        "url": "https://www.openstreetmap.org/about",
+        "quote": "OpenStreetMap is built by a community of mappers that contribute and maintain data",
+        "checked": "2026-11-12",
+        "note": "Full citation: OpenStreetMap contributors, served by OpenFreeMap (Hyperknot Software). Anyone with a free account can edit; no editorial review before changes go live."
+      },
+      "coverage": "Worldwide; used from zoom 7.5 in.",
+      "steps": [
+        "runtime: the coast and lakes zoomed in, streamed for the view (src/lib/gl/osmCoast.ts); nothing built or stored"
+      ],
+      "caveats": [
+        "Today's coast in detail, including reclaimed land, under every date.",
+        "Streamed, not stored: drawn on the reader's screen (a Produced Work under the ODbL), never folded into our data. The territories' colours stay fitted to Natural Earth.",
+        "Where the service fails, the map keeps Natural Earth's coast."
+      ]
+    },
     "newberry": {
       "name": "Newberry Library, Atlas of Historical County Boundaries (states & territories)",
       "licence": "Reuse for any purpose (CC0 since 2019)",
