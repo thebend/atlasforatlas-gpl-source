@@ -757,6 +757,41 @@
       "caveats": ["It is a difference from a local average, not a temperature.", "A cell can rest on stations up to 1,200 km away, and on very few before about 1950.", "Our annual cell rule (3 of 4 seasons, each with 2 of 3 months) is ours; the global figure shown is NASA's own table.", "NASA revises recent and past figures a little as late reports and corrections arrive."],
       "note": "NASA's page reads: \"Please credit 'NASA's Goddard Institute for Space Studies' or, if space is limited, 'NASA GISS/GISTEMP'\", of graphics made with its tools; the page states nothing further about the data files. The not-subject-to-copyright wording is NASA's Images and Media Usage Guidelines (nasa.gov/nasa-brand-center/images-and-media). Its inputs are NOAA's (GHCN, ERSST), US Government works, with SCAR's READER stations for Antarctica, which GISTEMP has already folded in. Berkeley Earth is not used: CC BY-NC."
     },
+    "ibtracs": {
+      "name": "IBTrACS v04r01, International Best Track Archive for Climate Stewardship (NOAA NCEI; Knapp et al. 2010; Gahtan et al. 2024)",
+      "licence": "US Government work (NOAA NCEI), states no licence: \"full and open access\" under the World Data Center for Meteorology's policy; commercial use guided by WMO Resolution 40. Credit NOAA's IBTrACS and cite Knapp et al. 2010 and the dataset (doi:10.25921/82ty-9e16)",
+      "cls": "public",
+      "url": "https://www.ncei.noaa.gov/products/international-best-track-archive",
+      "review": {"kind": "peer-reviewed", "evidence": "Knapp et al. 2010, Bulletin of the American Meteorological Society", "url": "https://doi.org/10.1175/2009BAMS2755.1", "quote": "Please use both the BAMS paper and dataset citations when referencing IBTrACS", "quote_url": "https://www.ncei.noaa.gov/products/international-best-track-archive", "checked": "2026-11-12", "note": "Full citations: Knapp, Kruk, Levinson, Diamond and Neumann 2010, The International Best Track Archive for Climate Stewardship (IBTrACS): Unifying tropical cyclone best track data, BAMS 91, 363-376; Gahtan, Knapp, Schreck, Diamond, Kossin and Kruk 2024, IBTrACS Project, Version 4r01, NOAA NCEI, doi:10.25921/82ty-9e16. The paper describes the merging; each agency's best tracks are its own analyses."},
+      "evidence": "observed",
+      "coverage": "Every basin, 1842 to the last full calendar year; storms' main and provisional tracks (not the spurs), points kept at most every 6 hours, position to 0.1 degree, wind (US agencies' 1-minute where given, else the WMO agency's) and lowest pressure.",
+      "steps": ["base.cyclones"],
+      "caveats": ["Before satellites (about 1966) storms far from land and shipping were missed; early decades undercount, most at sea and in the Southern Hemisphere.", "Aircraft reconnaissance from the late 1940s, in the North Atlantic and western Pacific only (the Pacific until 1987).", "Agencies average wind over different periods (US 1 minute, India 3, most others 10); winds are shown as given, not converted.", "Positions are best-track estimates, tens of kilometres uncertain, more before 1980.", "The latest season is largely provisional."],
+      "note": "NCEI's IBTrACS page reads: \"The IBTrACS data usage policy follows the World Data Center for Meteorology (WDC), which provides full and open access to the data\", and \"We also use the World Meteorological Organization's Resolution 40 policy as the guide for commercial use of IBTrACS data.\" It asks, where there is no bibliography, for \"NOAA's International Best Track Archive for Climate Stewardship (IBTrACS) data, accessed on [Access Date]\". IBTrACS gathers other WMO centres' best tracks (Tokyo, New Delhi, La Reunion, the Australian centres, Nadi, Wellington, China, Hong Kong)."
+    },
+    "ersst": {
+      "name": "ERSST v5, Extended Reconstructed Sea Surface Temperature (NOAA NCEI; Huang et al. 2017)",
+      "licence": "US Government work (NOAA NCEI); the ERSST page states no licence or use constraint. Credit NOAA NCEI and cite Huang et al. 2017 and the dataset (doi:10.7289/V5T72FNM)",
+      "cls": "public",
+      "url": "https://www.ncei.noaa.gov/products/extended-reconstructed-sst",
+      "review": {"kind": "peer-reviewed", "evidence": "Huang et al. 2017, Journal of Climate", "url": "https://doi.org/10.1175/JCLI-D-16-0836.1", "quote": "Extended Reconstructed Sea Surface Temperature version 5 (ERSSTv5), Upgrades, validations, and intercomparisons", "quote_url": "https://www.ncei.noaa.gov/products/extended-reconstructed-sst", "checked": "2026-11-12", "note": "Full citation: Huang, Thorne, Banzon, Boyer, Chepurin, Lawrimore, Menne, Smith, Vose and Zhang 2017, Journal of Climate 30, 8179-8205. Dataset: NOAA Extended Reconstructed Sea Surface Temperature (ERSST), Version 5, NOAA NCEI, doi:10.7289/V5T72FNM. NCEI released ERSST v6 in December 2025 (a neural-network interpolation); v5 is still updated monthly and is what the layer uses."},
+      "evidence": "observed",
+      "coverage": "The world's seas, 2-degree grid, monthly from January 1854 to the last full month. We use NCEI's yearly ASCII files (the same values as its NetCDF) and show each month against the 1991-2020 average of that month, worked out from the same grid.",
+      "steps": ["base.sst"],
+      "caveats": ["A reconstruction: where ships, buoys and floats left gaps, the gaps are filled statistically from patterns learnt in well-measured decades.", "Before the 1950s readings were far fewer (and fewer still in the World Wars), so early maps are smoother than the sea was.", "The anomaly is from a 1991-2020 average worked out here, not NOAA's own anomaly field (which uses 1971-2000).", "NOAA revises recent months a little."],
+      "note": "The ERSST page states no licence; as a NOAA product it is a US Government work. PSL's single-file copy (downloads.psl.noaa.gov, sst.mnmean.nc) is the same data; its server did not answer when the layer was built."
+    },
+    "cpc-oni": {
+      "name": "Oceanic Niño Index, cold and warm episodes by season (NOAA Climate Prediction Center)",
+      "licence": "US Government work (NOAA CPC); states no licence. Credit NOAA CPC",
+      "cls": "public",
+      "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso/oni/v6/",
+      "evidence": "observed",
+      "coverage": "The 3-month running mean of the Niño 3.4 region's (5N-5S, 170W-120W) sea surface anomaly, by overlapping season from DJF 1950, from CPC's table (data/indices/oni.ascii.txt). A month takes the season centred on it.",
+      "steps": ["base.sst"],
+      "caveats": ["Against 30-year base periods centred on each year and updated every 5 years, not the map's fixed 1991-2020.", "CPC now computes its table from ERSST v6 and uses a Relative ONI (RONI) for official monitoring; the layer shows the ONI.", "El Niño and La Niña named by CPC's rule: at or past +-0.5 C for at least 5 consecutive overlapping seasons, applied here to CPC's figures."],
+      "note": "CPC's ONI page reads: periods are coloured \"when the threshold is met for a minimum of 5 consecutive overlapping seasons\", with \"a threshold of +/- 0.5oC\", and says \"the Relative Oceanic Niño index (RONI) is used for official monitoring and prediction\"."
+    },
     "orbis": {
       "name": "ORBIS (v2) Network Edge and Node Tables (Meeks, Scheidel, Weiland and Arcenas 2014)",
       "licence": "CC BY 3.0: the Stanford Digital Repository record gives \"Creative Commons Attribution 3.0 Unported license (CC BY)\". Positions come from the authors' orbis_v2 repository (MIT), since the deposit has 68 blank or at 0,0 and 28 flipped.",
