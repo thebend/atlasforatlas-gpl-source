@@ -9,6 +9,9 @@ A scene names its border sources in its manifest (etl.borders), e.g.
   "borders": [{"source": "cliopatria", "carry_to": 2026, "drop": ["State of Israel"]}]
                                                           Cliopatria's last year (2024) carried forward; rows
                                                           another source draws here left out by name
+  "borders": [{"source": "cliopatria", "end": {"Hittites": [-1180, "why, with its source"]}}]
+                                                          a polity's last year brought forward where its
+                                                          50-year steps run past a dated end (inclusive)
 
 Under a build profile that blocks CShapes (ATLAS_PROFILE=commercial, etl/profile.py) the manifest no
 longer names it, and this step refuses to read it.
@@ -141,6 +144,7 @@ def cliopatria() -> list[dict]:
         d = json.loads(zf.read(next(n for n in zf.namelist() if n.endswith(".geojson"))))
     opt = next((b for b in CFG.get("borders", []) if isinstance(b, dict) and b.get("source") == "cliopatria"), {})
     carry, drop = opt.get("carry_to"), set(opt.get("drop", []))
+    ends = {k: v[0] for k, v in opt.get("end", {}).items()}
     last = max(f["properties"]["ToYear"] for f in d["features"])
     out = []
     for f in d["features"]:
@@ -151,6 +155,10 @@ def cliopatria() -> list[dict]:
         carried = bool(carry) and p["ToYear"] == last
         if carried:
             p = {**p, "ToYear": carry}
+        if p["Name"] in ends:
+            if p["FromYear"] > ends[p["Name"]]:
+                continue
+            p = {**p, "ToYear": min(p["ToYear"], ends[p["Name"]])}
         if p["ToYear"] < Y0 or p["FromYear"] > Y1:
             continue
         g = shapely.make_valid(shape(f["geometry"]))
