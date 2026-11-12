@@ -13,6 +13,7 @@ Run: uv run python -m etl.research.verify_quotes <catalogue-name>   (reads resea
 from __future__ import annotations
 
 import html
+import gzip
 import http.client
 import json
 import re
@@ -75,13 +76,19 @@ def fetch(url: str) -> str | None:
     key = re.sub(r"[^A-Za-z0-9]+", "_", url)[:180]
     p = FETCH / key
     if p.exists():
-        return p.read_text(errors="replace") or None
+        text = p.read_text(errors="replace")
+        # a page kept still gzip-compressed by an older run (the Wayback Machine sends some that way
+        # whatever is asked): not text, so fetched again
+        if not text.startswith("\x1f"):
+            return text or None
     try:
         raw = net.fetch(url, headers={"Accept": "text/html,text/plain,*/*"}, delay=0.4, tries=3, backoff=3)
+        if raw[:2] == b"\x1f\x8b":            # gzip, sent compressed regardless of Accept-Encoding
+            raw = gzip.decompress(raw)
         body = pdf_text(raw) if raw[:5] == b"%PDF-" else raw.decode("utf-8", "replace")
     except net.Blocked:
         return None                 # a bot check, not the page: not kept, so a later run asks again
-    except (urllib.error.URLError, OSError, ValueError, http.client.HTTPException):
+    except (urllib.error.URLError, OSError, ValueError, EOFError, http.client.HTTPException):
         body = ""                   # gone, refused or unreachable after retries: kept as nothing
     p.write_text(body)
     return body or None
