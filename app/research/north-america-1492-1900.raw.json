@@ -484,9 +484,21 @@
       {
         "date": "2026-10-31",
         "note": "39 items rewritten to the card-depth bar (short statements researched, long quotes trimmed, close paraphrases reworded), re-verified in verification.partz1"
+      },
+      {
+        "id": "na-c-055",
+        "date": "2026-11-13",
+        "change": "Project fix of spot audit 19a (Claude Opus 5.5, verification partzzzzF): the Pecos River and the end at the 1868 treaty had no quote: added the Wikipedia line placing Fort Sumner in the Pecos River valley and EBSCO's treaty of June 1, 1868 (the claim's to date); cut 'This claim marks the destination of the removal', which spoke of the data."
+      },
+      {
+        "id": "na-c-028",
+        "date": "2026-11-13",
+        "change": "Project fix of spot audit 19a (Claude Opus 5.5, verification partzzzzF): the 1550-1590 dates and the San Luis Potosí area had no quote: added the Chichimeca War article's lines on the late-1550 outbreak, the Guachichiles joining in 1551, their territory around the future San Luis Potosí and the viceroy's 1590 declaration that the roads were safe; from year 1550 to 1551, when the Guachichiles joined."
       }
     ],
     "edited_ids": [
+      "na-c-028",
+      "na-c-055",
       "na-e-002",
       "na-e-003",
       "na-e-005",
@@ -2588,7 +2600,7 @@
       "polity": "guachichil",
       "authority": "contested",
       "from": {
-        "year": 1550,
+        "year": 1551,
         "month": null,
         "precision": "year"
       },
@@ -2597,7 +2609,7 @@
         "month": null,
         "precision": "year"
       },
-      "statement": "From the Chichimeca War (1550 to about 1590) the Guachichiles and the allied Chichimeca nations raided the silver roads and fought Spanish expansion into their lands around San Luis Potosí.",
+      "statement": "The Chichimeca War broke out in late 1550, and the Guachichiles joined it in 1551. From their lands around what became San Luis Potosí they raided the silver road between Querétaro and Zacatecas until Spain's policy of buying peace made the roads to Zacatecas safe in 1590.",
       "citations": [
         {
           "url": "https://indigenousmexico.org/articles/who-were-the-chichimecas",
@@ -2609,6 +2621,30 @@
           "url": "https://en.wikipedia.org/wiki/Chichimeca_War",
           "title": "Chichimeca War (Wikipedia)",
           "quote": "Living in close proximity to the silver road between Querétaro and Zacatecas, they were the most feared of the native raiders.",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Chichimeca_War",
+          "title": "Chichimeca War (Wikipedia)",
+          "quote": "The first outbreak of hostilities was in late 1550 when Zacatecos attacked supply routes of Purépecha .",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Chichimeca_War",
+          "title": "Chichimeca War (Wikipedia)",
+          "quote": "In 1551 the Guachichile and Guamares joined in, killing 15 Spanish soldiers at an outpost of San Miguel de Allende and forcing its abandonment.",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Chichimeca_War",
+          "title": "Chichimeca War (Wikipedia)",
+          "quote": "territory centered on the area around what would become the city of San Luis Potosí",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Chichimeca_War",
+          "title": "Chichimeca War (Wikipedia)",
+          "quote": "In 1590 the Viceroy declared the program a success and the roads to Zacatecas safe for the first time in 40 years.",
           "kind": "wikipedia"
         }
       ],
@@ -3731,7 +3767,7 @@
         "precision": "day",
         "day": 1
       },
-      "statement": "From March 1864 about 8,000-9,000 Diné were marched in a series of forced 'Long Walks' to the Bosque Redondo reservation at Fort Sumner on the Pecos River and held there until the Treaty of 1868. This claim marks the destination of the removal.",
+      "statement": "From March 1864 about 8,000-9,000 Diné were marched in a series of forced 'Long Walks' to the Bosque Redondo reservation at Fort Sumner in the Pecos River valley, and held there until the treaty of 1 June 1868 let them go home.",
       "citations": [
         {
           "url": "https://www.ebsco.com/research-starters/history/long-walk-navajos/",
@@ -3744,6 +3780,18 @@
           "title": "Long Walk of the Navajo (Wikipedia)",
           "quote": "Between 8,000 and 9,000 people were settled on an area of 40 square miles",
           "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Long_Walk_of_the_Navajo",
+          "title": "Long Walk of the Navajo (Wikipedia)",
+          "quote": "to Fort Sumner (in an area called the Bosque Redondo or Hwéeldi by the Navajo) in the Pecos River valley",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://www.ebsco.com/research-starters/history/long-walk-navajos/",
+          "title": "Long Walk of the Navajos (EBSCO Research Starters)",
+          "quote": "On June 1, 1868, the Treaty Between the United States of America and the Navajo Tribe of Indians was signed, and the westward Long Walk began by the middle of the month.",
+          "kind": "reference"
         }
       ],
       "confidence": "high",

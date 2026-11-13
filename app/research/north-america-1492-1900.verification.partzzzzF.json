@@ -1,0 +1,20 @@
+{
+ "meta": {
+  "method": "Project fix of OpenCode's spot audit 19a (docs/design/audits/2026-11-spot-audit.json, branch research/19a-spot-audit), by Claude Opus 5.5, 2026-11-13. Each faulted card read against its cited pages (etl.research.source), past each quote's end; the smallest change made so every fact rests on a quote that says it; recorded in meta.corrections. After the fixes: verify_quotes 2595 found, 29 fuzzy (none on these cards), 0 missing; voice: neither card listed; card_bar 0; copying 0 shared runs of 15+.",
+  "date": "2026-11-13"
+ },
+ "items": {
+  "na-c-055": {
+   "status": "verified",
+   "note": "The audit was right: the Pecos River and the hold until the 1868 treaty had no quote. Long Walk of the Navajo: Fort Sumner (Bosque Redondo, Hwéeldi) in the Pecos River valley; EBSCO: the treaty signed June 1, 1868, and the westward Long Walk began by mid-month, which is the claim's to date. The March 1864 first walk and the 8,000-9,000 people were quoted already. Cut the closing sentence about what 'this claim marks', which spoke of the data, not the history.",
+   "fields_unsupported": [],
+   "sha": "29547080a83f7bf8"
+  },
+  "na-c-028": {
+   "status": "verified",
+   "note": "The audit was right: the dates, the San Luis Potosí area and the fighting against Spanish expansion had no quote. The Chichimeca War article, read on from the existing quote: hostilities first broke out in late 1550; the Guachichile and Guamares joined in 1551; the Guachichiles' territory centred on the area that became San Luis Potosí; in 1590 the viceroy declared the purchase-for-peace programme a success and the roads to Zacatecas safe. The from year is now 1551, when the Guachichiles joined; the to year 1590 stands. Confidence stays medium (the article's infobox runs the war to 1600, as notes say).",
+   "fields_unsupported": [],
+   "sha": "b948c9b7cc7e08f2"
+  }
+ }
+}
