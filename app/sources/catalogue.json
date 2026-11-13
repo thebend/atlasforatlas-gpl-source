@@ -952,6 +952,28 @@
         "Year codes: -99 unknown, -98 questionable, -97 never opened. A line with one as its opening isn't drawn; with one as its closing it stays open."
       ]
     },
+    "slavevoyages": {
+      "name": "Trans-Atlantic Slave Trade Database: Estimates (SlaveVoyages Consortium; Eltis and Richardson)",
+      "licence": "CC BY-NC 3.0 US for imputed data and \"all data in the Estimates page\"; data drawn from historical documents is public domain (the site's Legal page)",
+      "cls": "noncommercial",
+      "url": "https://legacy.slavevoyages.org/assessment/estimates",
+      "review": {
+        "kind": "none",
+        "evidence": "A scholarly database with a published method (Eltis and Lachance, Estimates of the size and direction of the trans-Atlantic slave trade, 2010; Eltis and Richardson, Atlas of the Transatlantic Slave Trade, Yale, 2010)",
+        "url": "https://legacy.slavevoyages.org/blog/legal",
+        "quote": "Imputed data (indicated with an asterisk, *, in the Trans-Atlantic and Intra-American databases, and all data in the Estimates page) is licensed through a Creative Commons license.",
+        "checked": "2026-11-13",
+        "note": "Cite as the Legal page asks: Estimates. 2019. SlaveVoyages. https://slavevoyages.org/assessment/estimates (accessed 13 November 2026). The Legal page also asks that a link not imply the Consortium endorses anything on the linking site. Commercial use needs the Consortium's prior written permission. The current www host is a script shell; the legacy host renders the same Estimates server-side."
+      },
+      "coverage": "The whole trans-Atlantic trade, 1501-1866, as estimated totals: by decade, from eight African regions of embarkation to nine broad regions of landing, people embarked and people landed alive. Arrows for a decade under 500 embarked are left out.",
+      "steps": ["history.flows"],
+      "caveats": [
+        "Estimates of the whole trade, including voyages with no surviving record, imputed from the documented voyages; the database gives no error band for a cell.",
+        "Broad regions: an arrow to \"Brazil\" or the \"Spanish Americas\" is drawn to one port standing for the region (Salvador, Havana).",
+        "Non-commercial licence: the commercial build leaves it out (sources/profiles.json drops)."
+      ],
+      "markers": ["\"set\":\"slavevoyages\""]
+    },
     "railways-spain": {
       "name": "Railways of Spain GIS, 1848-2023 (Esteban-Oliver and Martí-Henneberg, Universitat de Lleida)",
       "licence": "CC BY 4.0, on its CORA record",

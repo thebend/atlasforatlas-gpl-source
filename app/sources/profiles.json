@@ -16,6 +16,7 @@
         "gufm1": "Magnetic north before 1900: off (sky/gufm1.json is not built); from 1900 it comes from IGRF-14 (CC BY 4.0).",
         "commons": "Media: any portrait or recording whose licence is non-commercial, unstated or share-alike is left out. Today that is the rain and insect beds (CC BY-SA 4.0): the browser synthesises those two instead.",
         "portwatch": "Ships through the straits: off (straits.json is not built). The IMF's terms ask its written permission for commercial reuse (copyright@imf.org); with it, the source can be reclassed and the layer comes back.",
+        "slavevoyages": "Movements of people: the transatlantic slave trade by decade (SlaveVoyages' Estimates, CC BY-NC 3.0 US) is left out; the research cards' own cited movements stay.",
         "quotes": "Research citations: every link stays; a quote is withheld when it runs over 50 words, or when 300 words are already quoted from the same page, except from Wikipedia, Wikisource and Project Gutenberg."
       },
       "scenes": {

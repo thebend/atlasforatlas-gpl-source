@@ -38,6 +38,9 @@ def text_sha(item: dict) -> str:
     words = f"{item.get('title') or ''}|{item.get('statement') or ''}"
     if item.get("dating"):
         words += "|" + json.dumps(_written(item["dating"]), ensure_ascii=False, sort_keys=True)
+    # a movement's arrow is its figures and places (etl/history/flows.py): a verdict is sealed to them too
+    if item.get("flow"):
+        words += "|" + json.dumps(item["flow"], ensure_ascii=False, sort_keys=True)
     return hashlib.sha1(words.encode()).hexdigest()[:16]
 
 
