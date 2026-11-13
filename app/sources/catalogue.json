@@ -2,6 +2,10 @@
   "about": "Every dataset the atlas uses: licence, licence class (public, attribution, share-alike, copyleft, project, noncommercial, unverified; the last two block commercial use), coverage, the build step that fetches or reads it, and caveats. blocks_commercial: an openly licensed source treated as non-commercial anyway, and why. gpl_source: where the source of the layers we build from a GPL source is published (app/scripts/gpl_export.py). markers: strings that appear only in data built from the source (etl/licences.py scans for them). Read by the Layers & sources panel (src/lib/provenance.ts) and the build profiles (etl/profile.py; docs/design/licensing.md) review: who stands behind the dataset, from an outside look (kind peer-reviewed, agency, community or none, with the citation, its link and a short quote showing the review; docs/design/evidence.md); the Layers panel derives each layer's badge from it.",
   "checked": "2026-10-26",
   "rejected": {
+    "ocha-opt-oslo": {
+      "name": "State of Palestine - Oslo Agreement in the West Bank (OCHA oPt on HDX, from the Palestinian Ministry of Planning, 2004)",
+      "why": "Checked 2026-11-12. Its HDX licence is the legacy HR.info terms, which allow downloading and copying only \"for the User's non-commercial use, without any right to resell them\" (HDX's page now redirects; read in the Internet Archive's copy of 28 July 2026). OpenStreetMap's Areas A, B and C (ODbL) are used instead (osm-opt). OCHA's evacuation orders and current access data for Gaza are not public."
+    },
     "starlink-ground-stations-hf": {
       "name": "28hery/starlink-ground-stations (Hugging Face), a mirror of juliensimon/starlink-ground-stations",
       "why": "Audited 2026-10-31. CC BY 4.0 on its card, but its Starlink Insider part is under terms that bar copying and commercial use, which the uploader can't relicense. 118 of 209 US rows sit on an FCC site, the other 91 are city geocodes (median 6.8 km off, two over 100 km), and operational/planned is wrong both ways. The FCC's own file is used instead."
@@ -1035,6 +1039,89 @@
         "Dots count hamlets, not people: in December 1967, 32.5% of rated hamlets were V, holding 20.1% of the people in rated hamlets by that month's reported populations."
       ],
       "note": "Files under https://catalog.archives.gov/medialz/electronic-records/rg-330/HES/ (tab-delimited ASCII, de-NIPS'd by NARA in 2018). Field meanings from the series' documentation there: 132.1DP.pdf (NARA user notes, HAMLA layout and codes, history), 132.2DP.pdf (HES/70 guide), HES330_TSS132.pdf. Only the tables used are fetched (about 185 MB), read once and deleted; a compact extract is cached."
+    },
+    "thor": {
+      "name": "THOR (Theater History of Operations), Vietnam: US air operations over Southeast Asia, 1965-1975 (US Air Force and the Defense Digital Service)",
+      "licence": "CC0 1.0 (\"CC0: Public Domain\" on the US Air Force's own Kaggle record, usaf/vietnam-war-bombing-operations); a US Government work (17 USC 105)",
+      "cls": "public",
+      "url": "https://www.kaggle.com/datasets/usaf/vietnam-war-bombing-operations",
+      "review": {
+        "kind": "none",
+        "evidence": "US Air Force compilation of US, Australian, South Vietnamese and other allied mission records",
+        "url": "https://www.kaggle.com/datasets/usaf/vietnam-war-bombing-operations",
+        "quote": "THOR is a painstakingly cultivated database of historic aerial bombings from World War I through Vietnam.",
+        "checked": "2026-11-12",
+        "note": "Not reviewed: a government compilation, begun by Lt Col Jenns Robertson and published by the Defense Digital Service through data.mil (now offline). Built from the Combat Activities File (CACTA), the Southeast Asia Database (SEADAB) and other mission records held at the National Archives (Record Group 218 and 330 electronic records, marked Unrestricted). Its data dictionary is thor_data_dictionary_2016.pdf in the same record."
+      },
+      "coverage": "3,192,112 attack mission records (THOR's KINETIC class: strikes, close air support, armed reconnaissance, gunships); 3,005,142 have a target point in the vietnam-war window and are drawn, per 0.05-degree cell and month, October 1965 to August 1973 (95 months; 134 placed records outside those months are not drawn); 186,824 have no target point. From CACTA 1965-70, SEADAB 1970-75 and SAC's B-52 records (SACCOACT). Cite as: US Air Force, Theater History of Operations (THOR) Reports, Vietnam, Defense Digital Service / data.mil, 2016.",
+      "steps": ["history.thor"],
+      "caveats": [
+        "Missions as the services recorded them, not bombs that hit: a row is one aircraft's mission or a flight's, with the weight it reported expended, and its target point is where the mission was sent.",
+        "Records, not tonnage: the weight delivered is filled for most records to 1970 and few after (in 1971, 52,197 of 271,260 placed attack records), so the layer counts records.",
+        "Nothing placed before October 1965 or after August 1973; Cambodia in 1969 holds 23 attack records and none by a B-52, so the secret Menu raids (March 1969-May 1970) are missing."
+      ]
+    },
+    "unosat-gaza": {
+      "name": "UNOSAT Gaza Strip Comprehensive Damage Assessments, 2023-2025 (UNITAR's Satellite Centre)",
+      "licence": "CC BY-SA, on each assessment's HDX record (published by UNOSAT); UNOSAT's own pages link only UNITAR's general website conditions (non-commercial extracts): docs/design/licensing.md, \"The recent wars' data\"",
+      "cls": "share-alike",
+      "url": "https://data.humdata.org/organization/unosat",
+      "review": {
+        "kind": "none",
+        "evidence": "UN analysts' reading of commercial satellite imagery, not checked on the ground",
+        "url": "https://data.humdata.org/dataset/unosat-gaza-strip-comprehensive-damage-assessment-11-october-2025",
+        "quote": "This is a preliminary assessment and has not yet been validated in the field.",
+        "checked": "2026-11-12",
+        "note": "Each assessment compares new very-high-resolution imagery with earlier dates and marks each structure it judges destroyed, severely, moderately or possibly damaged, by hand."
+      },
+      "coverage": "UNOSAT's comprehensive damage assessment of 11 October 2025 (UNOSAT code CE20231007PSE), whose 198,308 structure points carry their grade at all fourteen assessments: 15 October 2023 (part of the Strip only), 7 and 26 November 2023, 7 January, 29 February, 1 April, 3 May, 6 July, 6 September and 1 December 2024, 25 February, 4 April, 8 July and 11 October 2025. Affected structures (any grade) per 0.001-degree cell: 15,601 at the first, 198,273 at the last (123,464 destroyed), matching UNOSAT's published totals for 11 October 2025. Cite as: UNOSAT (UNITAR), Gaza Strip Comprehensive Damage Assessment, 11 October 2025, via HDX.",
+      "steps": ["history.unosat"],
+      "caveats": [
+        "Only damage seen from above: UNOSAT says minor damage \"such as cracks or holes may not be visible at all\".",
+        "Preliminary and not validated in the field, by UNOSAT's own note on every assessment.",
+        "Earlier dates are as the latest file records them, after later imagery revised some grades: 7 November 2023 has 43,398 affected structures here, where UNOSAT then published 25,050 destroyed, severely or moderately damaged and did not yet count possible damage.",
+        "CC BY-SA: public/data/israel-gaza-war/damage/* are derived grids, say so in damage.json, and are kept apart."
+      ]
+    },
+    "osm-opt": {
+      "name": "OpenStreetMap: the West Bank's Areas A, B and C and the lines inside Gaza (Netzarim and Philadelphi corridors, the Yellow and Orange Lines)",
+      "licence": "ODbL 1.0 (\u00a9 OpenStreetMap contributors)",
+      "cls": "share-alike",
+      "url": "https://www.openstreetmap.org/copyright",
+      "review": {
+        "kind": "community",
+        "evidence": "OpenStreetMap, edited by volunteers; the areas name the Palestinian Ministry of Local Government's GeoMOLG portal as their source, the Yellow Line the IDF's published map",
+        "url": "https://www.openstreetmap.org/relation/3791785",
+        "quote": "OpenStreetMap is built by a community of mappers that contribute and maintain data",
+        "quote_url": "https://www.openstreetmap.org/about",
+        "checked": "2026-11-12"
+      },
+      "coverage": "Six features, read through the Overpass API: Areas A, B and C (relations 3791783, 3791784, 3791785), drawn from Oslo II (28 September 1995) on; the Netzarim Corridor (road 749: ways 1259473412, 1259473410, 1259473409, 1548783798), 30 October 2023 to 9 February 2025 and 19 March to 10 October 2025; the Philadelphi Corridor (ways 41314982, 1531952135), from 7 May 2024; the area behind the Yellow Line (way 1313327399, dated 14 October 2025 and sourced to the IDF), from 10 October 2025. Each span is quoted from Wikipedia in lines.json. Simplified to about 10 m.",
+      "steps": ["history.opt_lines"],
+      "caveats": [
+        "Today's shapes only: OpenStreetMap keeps the current line, so each is drawn for the dates a cited source gives it, in the shape it has now.",
+        "ODbL: public/data/israel-gaza-war/lines.json is a derived database, offered under ODbL and saying so in the file."
+      ]
+    },
+    "portwatch": {
+      "name": "IMF PortWatch: Daily Chokepoint Transit Calls and Trade Volume Estimates (Strait of Hormuz, Bab el-Mandeb)",
+      "licence": "IMF Copyright and Usage (effective 11 October 2024): Data may be copied, derived from and published with the IMF's citation; commercial reuse needs the IMF's permission (copyright@imf.org)",
+      "cls": "noncommercial",
+      "url": "https://portwatch.imf.org/datasets/3da2b9ca97684916b75c4013f95d18ab/about",
+      "review": {
+        "kind": "none",
+        "evidence": "IMF staff estimates from satellite AIS signals",
+        "url": "https://portwatch.imf.org/pages/data-and-methodology",
+        "quote": "These estimates are based on satellite-captured signals on 90 thousands ships worldwide",
+        "checked": "2026-11-12",
+        "note": "The method is set out in IMF working papers PortWatch links (\"Nowcasting Global Trade from Space\"; \"Tracking Trade from Space: An Application to Pacific Island Countries\"), not peer-reviewed; the series is revised as vessels and checks for AIS spoofing are added."
+      },
+      "coverage": "Daily transit counts (all ships, and tankers) for the Strait of Hormuz (chokepoint6), the Bab el-Mandeb (chokepoint4) and the Suez Canal (chokepoint1), 1 January 2019 to 8 November 2026 as read on 12 November 2026 (2,869 days each, none missing); 2019-2023 daily means 81.9, 61.6 and 60.7. Drawn as the mean of the seven days to the date. us-iran-war has all three straits, israel-gaza-war the two inside its window. A build under the commercial profile writes no file (etl/history/portwatch.py; etl/licences.py ONLY_FROM).",
+      "steps": ["history.portwatch"],
+      "caveats": [
+        "Ships whose AIS transponder was off, or spoofed, are not counted; in a war many turn them off.",
+        "Revised often: the counts change as PortWatch adds vessels and checks."
+      ]
     },
     "aowl": {
       "name": "American Offshore Whaling Logbook Data (New Bedford Whaling Museum, Nantucket Historical Association, Mystic Seaport Museum)",
