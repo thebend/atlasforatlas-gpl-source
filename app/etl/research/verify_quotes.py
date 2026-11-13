@@ -85,13 +85,29 @@ def fetch(url: str) -> str | None:
         raw = net.fetch(url, headers={"Accept": "text/html,text/plain,*/*"}, delay=0.4, tries=3, backoff=3)
         if raw[:2] == b"\x1f\x8b":            # gzip, sent compressed regardless of Accept-Encoding
             raw = gzip.decompress(raw)
-        body = pdf_text(raw) if raw[:5] == b"%PDF-" else raw.decode("utf-8", "replace")
+        body = pdf_text(raw) if raw[:5] == b"%PDF-" else decode_page(raw)
     except net.Blocked:
         return None                 # a bot check, not the page: not kept, so a later run asks again
     except (urllib.error.URLError, OSError, ValueError, EOFError, http.client.HTTPException):
         body = ""                   # gone, refused or unreachable after retries: kept as nothing
     p.write_text(body)
     return body or None
+
+
+def decode_page(raw: bytes) -> str:
+    """A page's text: UTF-8, else the charset its head declares, else Windows-1252 (a Latin-1 page such
+    as senat.fr's or Laval's came out garbled as UTF-8 and couldn't be quoted)."""
+    try:
+        return raw.decode("utf-8")
+    except UnicodeDecodeError:
+        pass
+    m = re.search(rb"charset=[\"']?([A-Za-z0-9_\-]+)", raw[:4096])
+    for enc in ([m.group(1).decode("ascii")] if m else []) + ["cp1252"]:
+        try:
+            return raw.decode(enc)
+        except (LookupError, UnicodeDecodeError):
+            pass
+    return raw.decode("utf-8", "replace")
 
 
 PMC = re.compile(r"https?://(?:pmc\.ncbi\.nlm\.nih\.gov/articles|www\.ncbi\.nlm\.nih\.gov/pmc/articles)/(PMC\d+)")

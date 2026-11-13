@@ -37,7 +37,9 @@ COMMONS_API = "https://commons.wikimedia.org/w/api.php"
 WDQS = "https://query.wikidata.org/sparql"
 # a bot check in place of the page; looked for in the first 200 kB of an HTML reply
 CHALLENGE = re.compile(rb"g-recaptcha|www\.google\.com/recaptcha|Checking your browser - reCAPTCHA|hcaptcha\.com/"
-                       rb"|challenges\.cloudflare\.com|<title>Just a moment\.\.\.</title>", re.I)
+                       # Cloudflare's interstitial itself, not challenges.cloudflare.com, which an ordinary page
+                       # may preconnect to for a Turnstile widget (British History Online, the Wayback Machine)
+                       rb"|_cf_chl_opt|cf-browser-verification|<title>Just a moment\.\.\.</title>", re.I)
 _last = 0.0
 
 

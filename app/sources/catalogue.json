@@ -235,6 +235,29 @@
         "Where the service fails, the map keeps Natural Earth's coast."
       ]
     },
+    "esri-imagery": {
+      "name": "Esri World Imagery (satellite and aerial imagery, typically 3-5 years old)",
+      "licence": "ArcGIS Location Platform terms of use, through the owner's API key; the credit Esri asks for shown on the map",
+      "cls": "attribution",
+      "url": "https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9",
+      "review": {
+        "kind": "none",
+        "evidence": "Esri World Imagery, a company's composite of its providers' imagery",
+        "url": "https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9",
+        "quote": "high-resolution satellite and aerial imagery, typically within 3-5 years of currency, for most of the world",
+        "checked": "2026-11-12",
+        "note": "Full citation: Esri, Vantor, Earthstar Geographics, and the GIS User Community. Commercial imagery assembled by Esri; no documented outside review of the composite. Shown as a picture of today, not as evidence for any card."
+      },
+      "coverage": "Worldwide; finest in cities, coarser elsewhere.",
+      "steps": [
+        "runtime: the satellite imagery base, on the reader's choice (src/lib/satelliteBase.ts); nothing built or stored"
+      ],
+      "caveats": [
+        "Today's (recent years), under every date: the button says so.",
+        "Needs the owner's key (VITE_ESRI_KEY); a build without one has no button.",
+        "Past the free tier Esri refuses (pay-as-you-go off) and the imagery turns itself off for the visit."
+      ]
+    },
     "newberry": {
       "name": "Newberry Library, Atlas of Historical County Boundaries (states & territories)",
       "licence": "Reuse for any purpose (CC0 since 2019)",

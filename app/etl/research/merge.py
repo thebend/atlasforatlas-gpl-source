@@ -40,10 +40,15 @@ def main() -> None:
     if not parts:
         raise SystemExit(f"no verification parts for {NAME}")
     merged = {"meta": {"parts": []}, "items": {}}
+    # every part's verdict on each card, in the parts' order: a later part's stale verdict (sealed on
+    # text since rewritten) must not hide an earlier part's verdict sealed on the text as it is now
+    cands: dict[str, list[dict]] = {}
     for pp in parts:
         d = json.loads(pp.read_text())
         merged["meta"]["parts"].append(d.get("meta", {}))
         merged["items"].update(d.get("items", {}))
+        for k, v in d.get("items", {}).items():
+            cands.setdefault(k, []).append(v)
     write_json(vp, merged)
     ver = json.loads(vp.read_text())
     verdicts = ver.get("items", {})
@@ -57,7 +62,10 @@ def main() -> None:
         raise SystemExit("dating problems (etl/research/dating.py):\n  " + "\n  ".join(bad))
     for item in cat.get("claims", []) + cat.get("events", []):
         checks = [c.get("quote_check") for c in dating.citations(item)]
-        v = verdicts.get(item["id"], {"status": "unverified", "note": "no verdict from second pass"})
+        # the latest verdict sealed on this card's text as it stands; else the latest of all (checked below)
+        sha = text_sha(item)
+        v = next((x for x in reversed(cands.get(item["id"], [])) if x.get("sha") == sha), None) \
+            or verdicts.get(item["id"], {"status": "unverified", "note": "no verdict from second pass"})
         # a rewritten card keeps no verdict from before its rewrite (etl/research/stamp.py)
         if (item["id"] in edited or v.get("sha")) and v.get("sha") != text_sha(item):
             v = {"status": "awaiting-recheck" if recheck else "unverified", "note": "its text has changed since the verdict"}
