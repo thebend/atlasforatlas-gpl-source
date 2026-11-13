@@ -639,11 +639,11 @@
         "url": "https://datacatalog.worldbank.org/search/dataset/0037712/World-Development-Indicators",
         "quote": "",
         "checked": "2026-10-30",
-        "note": "A development bank's compilation of other agencies' series, not a scientific body's product, so Published under docs/design/evidence.md. Under-5 mortality comes from the UN Inter-agency Group (UN IGME); GDP per head PPP from national accounts and the ICP. Access to electricity is the World Bank's SDG 7.1.1 Electrification Dataset (Tracking SDG7), collected from industry, national surveys and international sources."
+        "note": "A development bank's compilation of other agencies' series, not a scientific body's product, so Published under docs/design/evidence.md. Under-5 mortality comes from the UN Inter-agency Group (UN IGME); GDP per head PPP from national accounts and the ICP. Access to electricity is the World Bank's SDG 7.1.1 Electrification Dataset (Tracking SDG7), collected from industry, national surveys and international sources. Internet users are the International Telecommunication Union's (World Telecommunication/ICT Indicators Database), mostly from household surveys."
       },
-      "coverage": "Countries, yearly from 1960: under-5 mortality (SH.DYN.MORT) and, from 1990, GDP per head PPP in constant 2021 international dollars (NY.GDP.PCAP.PP.KD); and, from 1990, the share of people with access to electricity (EG.ELC.ACCS.ZS).",
-      "steps": ["base.indicators (child mortality from 1960, income and access to electricity from 1990)"],
-      "caveats": ["Licence confirmed 2026-10-30 from the Data Catalog record: Creative Commons Attribution 4.0.", "Cite the indicator's originating agency as well as the World Bank."],
+      "coverage": "Countries, yearly from 1960: under-5 mortality (SH.DYN.MORT) and, from 1990, GDP per head PPP in constant 2021 international dollars (NY.GDP.PCAP.PP.KD); and, from 1990, the share of people with access to electricity (EG.ELC.ACCS.ZS) and the share who used the internet in the last three months (IT.NET.USER.ZS, the ITU's).",
+      "steps": ["base.indicators (child mortality from 1960, income, access to electricity and internet users from 1990)"],
+      "caveats": ["Licence confirmed 2026-10-30 from the Data Catalog record: Creative Commons Attribution 4.0.", "Cite the indicator's originating agency as well as the World Bank.", "Internet users (IT.NET.USER.ZS), checked 2026-11-12 in the series' own metadata (api.worldbank.org/v2/sources/2/series/IT.NET.USER.ZS/metadata): License_Type 'CC BY-4.0', and 'Please cite the International Telecommunication Union for third-party use of these data.'"],
       "note": "Cite: World Bank, World Development Indicators."
     },
     "wpp": {
@@ -703,6 +703,50 @@
         "Before 1800 inferred from manuscript and book production; definitions of literacy change over time."
       ],
       "note": "Cite: UNESCO (1957, 1953); Buringh & van Zanden (2009); van Zanden et al. (2014); UIS (2026), with major processing by Our World in Data."
+    },
+    "gcp": {
+      "name": "Global Carbon Budget 2026, fossil CO₂ per person (Global Carbon Project, through Our World in Data)",
+      "licence": "CC BY 4.0",
+      "cls": "attribution",
+      "url": "https://ourworldindata.org/grapher/co-emissions-per-capita",
+      "review": {
+        "kind": "none",
+        "evidence": "Our World in Data, indicator metadata",
+        "url": "https://api.ourworldindata.org/v1/indicators/1356786.metadata.json",
+        "quote": "",
+        "checked": "2026-11-12",
+        "note": "The Global Carbon Budget is published each year in Earth System Science Data (Friedlingstein et al., Global Carbon Budget 2025, doi:10.5194/essd-18-3211-2026), but its review was not checked here, and the per-person series is Our World in Data's ('major processing': the emissions divided by its own population series), so Published."
+      },
+      "coverage": "Countries, yearly 1750-2025, a few before 1800 and most from 1950: fossil CO₂ (coal, oil, gas, flaring, cement and other industry) in tonnes per person, territorial, excluding land-use change and international aviation and shipping.",
+      "steps": ["base.indicators (CO₂ per person)"],
+      "caveats": [
+        "Licence confirmed 2026-11-12: Our World in Data's own work is CC BY 4.0 and third-party data keeps its providers' terms (ourworldindata.org/faqs). Its metadata gives the origins as CC BY 4.0: GCP's fossil CO₂ dataset 2026v11 (Zenodo record 23667912, whose own record says cc-by-4.0), GCP's national emissions (ICOS, CC BY 4.0), and OWID's population (CC BY 4.0).",
+        "Before 1950 the population each figure is divided by is largely an estimate (OWID's long-run series, from HYDE, Gapminder and others), and early emissions are reconstructed from historical statistics of fuel production.",
+        "Emissions where produced, not where the goods are consumed."
+      ],
+      "note": "Cite: Global Carbon Budget (2026); Population based on various sources (2024), with major processing by Our World in Data. Andrew & Peters (2026), The Global Carbon Project's fossil CO2 emissions dataset (2026v11), doi:10.5281/zenodo.23667912; Friedlingstein et al. (2026), Global Carbon Budget 2025, Earth Syst. Sci. Data 18, 3211-3288."
+    },
+    "lied": {
+      "name": "Lexical Index of Electoral Democracy (LIED) v6.9, women's suffrage (Skaaning, through Our World in Data)",
+      "licence": "CC BY 4.0",
+      "cls": "attribution",
+      "url": "https://ourworldindata.org/grapher/universal-suffrage-women-lexical",
+      "review": {
+        "kind": "none",
+        "evidence": "Our World in Data, indicator metadata",
+        "url": "https://api.ourworldindata.org/v1/indicators/1210553.metadata.json",
+        "quote": "",
+        "checked": "2026-11-12",
+        "note": "A dataset coded by one political scientist (Svend-Erik Skaaning) from country-specific sources; its method is described in Skaaning, Gerring & Bartusevičius (2015), Comparative Political Studies, whose review was not checked here, so Published."
+      },
+      "coverage": "Countries and most colonies, yearly 1789-2025, as on 31 December: whether virtually all women citizens may vote in national elections (female_suffrage, yes or no). Our World in Data gives the former Soviet, Czechoslovak and Yugoslav republics their union's coding.",
+      "steps": ["base.indicators (women's suffrage)"],
+      "caveats": [
+        "Licence confirmed 2026-11-12: LIED itself is CC0 1.0 on Harvard Dataverse (doi:10.7910/DVN/WPKNIT, version 6, released 2026-04-01, read through the Dataverse API); Our World in Data's processing is CC BY 4.0 (ourworldindata.org/faqs), so the copy used here is taken as CC BY 4.0 and credited both.",
+        "Not considered: limits by age, criminal conviction, disability or residence, informal restrictions, and whether elections were held at all.",
+        "Yes or no only: a polity of the date spanning several of today's countries takes the answer only where all of them agree, and is left uncoloured otherwise."
+      ],
+      "note": "Cite: Skaaning, Svend-Erik (2021), Lexical Index of Electoral Democracy (LIED) dataset v6, doi:10.7910/DVN/WPKNIT, Harvard Dataverse; processed by Our World in Data."
     },
     "c20": {
       "name": "20CRv3 via NOAA PSL (NOAA-CIRES-DOE 20th Century Reanalysis V3, Slivinski et al. 2019)",
