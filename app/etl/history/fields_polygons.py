@@ -471,6 +471,9 @@ def main() -> None:
         air = dict(obs)
         air_g = np.zeros((ny, nx), np.float32)
         r_occ: dict[int, np.ndarray] = {}
+        # each side's research from its claims set in another country's mapped land: an occupation, not
+        # its own towns' reach over a border (for the fronts layer's occupier, below)
+        away: dict[int, np.ndarray] = {}
         r_def: dict[int, np.ndarray] = {}
         for side in sorted({s["side"] for s in seeds}):
             act = [s for s in seeds if s["side"] == side and active(s["y0"], s["y1"], y)]
@@ -482,12 +485,21 @@ def main() -> None:
                 if not group:
                     continue
                 r = np.zeros((ny, nx), np.float32)
+                own = obs.get(k)
+                ro = np.zeros((ny, nx), np.float32) if dest is r_occ and TOPK else None
                 for sd in group:
                     if sd["id"] not in spread_cache:
                         spread_cache[sd["id"]] = spread_seed(F, sd, cap)
                     rs, cs, v = spread_cache[sd["id"]]
                     np.maximum(r[rs, cs], v * ramp(sd, y), out=r[rs, cs])
+                    if ro is not None:
+                        iy = min(ny - 1, max(0, int((LAT1 - sd["lat"]) / STEP)))
+                        ix = min(nx - 1, max(0, int((sd["lon"] - LON0) / STEP)))
+                        if own is None or own[iy, ix] < 0.5:      # set in another country's mapped land
+                            np.maximum(ro[rs, cs], v * ramp(sd, y), out=ro[rs, cs])
                 r *= land
+                if ro is not None:
+                    away[k] = ro * land
                 if dest is r_def:
                     # a defended front town holds only its own country's land
                     r *= (obs.get(k, 0) >= 0.5)
@@ -498,9 +510,21 @@ def main() -> None:
             others = [v for d, v in r_def.items() if d != k]
             if others:
                 r = r * (1 - np.max(np.stack(others), 0))
+                if k in away:
+                    away[k] = away[k] * (1 - np.max(np.stack(others), 0))
             r = np.maximum(r, r_def.get(k, 0))
             air[k] = np.maximum(air.get(k, 0), r * CFG.get("research_peak", 0.97))
             air_g = np.maximum(air_g, r)
+        if TOPK and len(air) >= 2:
+            # the runner-up's occupation strength, for the fronts layer (etl/history/fronts.py): air_g is any
+            # side's research, the leader's own included, and a side's own towns reach over its border, so a
+            # neighbour second in a cell read as its occupier (Brussels and the Saar as French in March
+            # 1940). Only claims set in another country's mapped land count here. Build-time only, not shipped.
+            ks = sorted(air)
+            second = np.argsort(-np.stack([air[k] for k in ks]), axis=0)[1]
+            rs = np.stack([away.get(k, np.zeros((ny, nx), np.float32)) for k in ks])
+            (SCACHE / "fields").mkdir(parents=True, exist_ok=True)
+            np.save(SCACHE / "fields" / f"occ_{js_num(y)}.npy", np.round(np.take_along_axis(rs, second[None], 0)[0] * 255).astype(np.uint8))
         for variant, S, g in (("obs", obs, np.zeros_like(air_g)), ("air", air, air_g)):
             # crispness of whichever side leads each cell (research-only sides: 0 = soft)
             if S:
