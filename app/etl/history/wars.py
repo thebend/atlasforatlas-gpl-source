@@ -15,11 +15,15 @@ MEMBERS = {
                        "ottoman": [(1914.83, 1918.83)], "bulgaria": [(1915.78, 1918.745)]},
     "allies": {"poland": [(1939.67, 1939.76)], "britain": [(1939.67, 1945.36)], "france": [(1939.67, 1940.47), (1944.65, 1945.36)],
                "norway": [(1940.27, 1940.44)], "netherlands": [(1940.36, 1940.37)], "belgium": [(1940.36, 1940.41), (1944.68, 1945.36)],
-               "luxembourg": [(1940.36, 1940.37)], "greece": [(1940.82, 1941.33)], "yugoslavia": [(1941.27, 1941.30)],
+               "luxembourg": [(1940.36, 1940.37), (1944.75, 1945.36)], "greece": [(1940.82, 1941.33), (1944.78, 1945.36)],
+               "yugoslavia": [(1941.27, 1941.30)],   # liberated Greece (12 Oct 1944) and Luxembourg (Sept 1944) back with the Allies
                "russia": [(1941.47, 1945.36)], "romania": [(1944.65, 1945.36)], "bulgaria": [(1944.69, 1945.36)],
                "italy": [(1943.78, 1945.36)]},
     "axis": {"germany": [(1939.67, 1945.35)], "italy": [(1940.44, 1943.69)], "hungary": [(1941.49, 1945.30)],
-             "romania": [(1941.47, 1944.65)], "bulgaria": [(1941.2, 1944.69)], "finland": [(1941.48, 1944.71)]},
+             "romania": [(1941.47, 1944.65)], "bulgaria": [(1941.2, 1944.69)], "finland": [(1941.48, 1944.71)],
+             # client states: Slovakia from the invasion of Poland to Bratislava's fall (4 Apr 1945), the
+             # Independent State of Croatia from its proclamation (10 Apr 1941) to the surrender
+             "slovakia": [(1939.67, 1945.26)], "nde-croatia": [(1941.27, 1945.35)]},
 }
 
 

@@ -302,6 +302,13 @@ def friction(LONS: np.ndarray) -> tuple[np.ndarray, np.ndarray]:
     F = (STEP / 0.1) * 0.2 * (1 + 6 * slope)
     F = np.where(Hs > 3000, F * 4, F)
     land = Hs > 0
+    # land below sea level (the Netherlands' polders, the Fens, the Po and Caspian lowlands) is land:
+    # Natural Earth's land mask, the scene's veg.png alpha that coast.png is drawn from, says so where the
+    # elevation can't (the north and west Netherlands were drawn as nobody's, owner 2026-11-15)
+    veg = OUT / "veg.png"
+    if veg.exists():
+        a = Image.open(veg).getchannel("A").resize((nx, ny), Image.BOX)
+        land |= np.asarray(a) >= 128
     F = np.where(land, F, F * 30)
     return F, land
 
