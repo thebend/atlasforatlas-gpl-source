@@ -61,6 +61,41 @@ def dec_year(s: str | int | float | None) -> float | None:
     return y + (a - start).days / 365.25
 
 
+def claim_date(d: dict, end: bool) -> float | None:
+    """A claim's `from` or `to` as a decimal year. A month with no day reads as the 15th, start or end:
+    read as the 1st, a start drew a holding up to a month early (German Laon, "May 1940", from 1 May, nine
+    days before the invasion, colouring Reims German; owner 2026-11-16). A year alone reads as its first
+    day for a start and 28 December for an end."""
+    if not d or d.get("year") is None:
+        return None
+    m = d.get("month")
+    day = d.get("day") or (15 if m else (28 if end else 1))
+    return dec_year(f"{d['year']}-{int(m or (12 if end else 1)):02d}-{int(day):02d}")
+
+
+_INVASIONS: list | None = None
+
+
+def invasion_floor(y0: float, d: dict, polity: str, lon: float, lat: float, states: list[dict]) -> float:
+    """A start dated only to the month can't come before the invasion that made it possible: a holding by
+    the invader (or its coalition) in a country it invaded that month starts no earlier than the invasion's
+    day (sources/invasions.json)."""
+    global _INVASIONS
+    if d.get("day") or not d.get("month"):
+        return y0
+    if _INVASIONS is None:
+        fp = PROTO / "sources" / "invasions.json"
+        _INVASIONS = [(r["side"], r["by"], dec_year(r["from"])) for r in json.loads(fp.read_text())["invasions"]
+                      if r.get("scene") == SCENE] if fp.exists() else []
+    from etl.history.wars import coalition_of
+    for side, by, a in _INVASIONS:
+        if not (y0 < a < y0 + 0.09) or polity not in (by, coalition_of(by, a + 0.003)):
+            continue
+        if any(f["side"] == side and f["y0"] <= a < f["y1"] and shapely.contains_xy(f["geom"], lon, lat) for f in states):
+            return a
+    return y0
+
+
 def slug(s: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
 
@@ -198,8 +233,10 @@ def research_seeds(alias: dict[str, str], states: list[dict]) -> tuple[list[dict
         if pl.get("lon") is None or not in_window(pl["lon"], pl["lat"]):
             continue                                           # outside the window: would seed at its edge
         f, t = c.get("from") or {}, c.get("to") or {}
-        y0 = dec_year(f"{f.get('year')}-{int(f.get('month') or 1):02d}-{int(f.get('day') or 1):02d}") if f.get("year") else Y0
-        y1 = dec_year(f"{t.get('year')}-{int(t.get('month') or 12):02d}-{int(t.get('day') or 28):02d}") if t and t.get("year") else None
+        y0 = claim_date(f, False) if f.get("year") else Y0
+        if f.get("year"):
+            y0 = invasion_floor(y0, f, c["polity"], pl["lon"], pl["lat"], states)
+        y1 = claim_date(t, True) if t and t.get("year") else None
         conf = {"high": 1.0, "medium": 0.9, "low": 0.75}.get(c.get("confidence"), 0.85)
         sd = {"side": alias.get(c["polity"], c["polity"]), "lon": east(pl["lon"]), "lat": pl["lat"],
               "w": conf * AUTH_W.get(c.get("authority"), 0.85), "y0": y0, "y1": y1, "id": c["id"]}
@@ -233,8 +270,8 @@ def front_defender_seeds(states: list[dict]) -> list[dict]:
         pl, fr, to = c.get("place") or {}, c.get("from") or {}, c.get("to") or {}
         if pl.get("lon") is None or not fr.get("year"):
             continue
-        y0 = dec_year(f"{fr['year']}-{int(fr.get('month') or 1):02d}-{int(fr.get('day') or 1):02d}")
-        y1 = dec_year(f"{to['year']}-{int(to.get('month') or 12):02d}-{int(to.get('day') or 28):02d}") if to.get("year") else y0 + 1 / 12
+        y0 = claim_date(fr, False)
+        y1 = claim_date(to, True) if to.get("year") else y0 + 1 / 12
         owner = next((f["side"] for f in states if f["y0"] <= y0 < f["y1"] and shapely.contains_xy(f["geom"], pl["lon"], pl["lat"])), None)
         if owner and coalition_of(owner, y0) == c.get("polity"):
             out.append({"side": owner, "lon": pl["lon"], "lat": pl["lat"], "w": 0.95, "y0": y0, "y1": y1, "id": "front:" + c["id"]})
