@@ -72,7 +72,9 @@ def main() -> None:
         item["verification"] = {
             "status": v.get("status", "unverified"),
             "note": v.get("note", ""),
-            "fields_unsupported": v.get("fields_unsupported", []),
+            # a field the verifier found unsupported and whose own exact fix has since been applied (its `fixed`
+            # list, written by whoever applied it) is supported now: the pin a fix moved is drawn (policy, 2026-11-18)
+            "fields_unsupported": [f for f in v.get("fields_unsupported", []) if str(f).split(".")[0] not in v.get("fixed", [])],
             **({"held_to_end": v["held_to_end"]} if "held_to_end" in v else {}),   # an open-ended control claim (fronts.py)
             "quotes_found": sum(1 for c in checks if c in ("found", "fuzzy")),
             "quotes_total": len(checks),
