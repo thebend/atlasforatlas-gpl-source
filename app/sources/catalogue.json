@@ -452,13 +452,13 @@
       "caveats": ["A filing or grant isn't a built or working gateway.", "US only: other regulators' registers (Ofcom, ISED, ACMA and more) aren't here."]
     },
     "starlink-cells": {
-      "name": "Starlink availability cells: Starlink's public file, kept by clarkzjw/starlink-geoip-data and the Wayback Machine",
+      "name": "clarkzjw/starlink-geoip-data (Jinwei Zhao): community-reported Starlink gateways and PoPs, and Starlink's availability file with the Wayback Machine's copies",
       "licence": "Repository: CC BY-SA 4.0 (Jinwei Zhao). Starlink's own rights in the file are not stated: its Terms of Service, Acceptable Use Policy, Software Licence and Intellectual Property pages don't mention automated access or this file",
       "cls": "share-alike",
       "blocks_commercial": "Starlink's own rights in its file aren't stated; the compiler's CC BY-SA can't settle them.",
       "url": "https://github.com/clarkzjw/starlink-geoip-data/tree/master/availability",
       "review": {"kind": "none", "evidence": "A company's marketing file, unexplained, kept by a researcher", "url": "https://github.com/clarkzjw/starlink-geoip-data/blob/master/availability/README.md", "quote": "This directory contains Starlink availability cells information generated using the public Geobuf file", "checked": "2026-10-31"},
-      "coverage": "37 distinct snapshots, 15 April 2024 to 21 February 2026, and the live file was byte-identical on 31 October 2026. Exceptions only: waitlisted or sold out, coming soon, test, blacklisted, with Antarctica as launched. Open countries aren't in it.",
+      "coverage": "The atlas draws its 14 community-reported gateways and 2 PoPs (map/pop.json). The availability file is fetched but not drawn since 20 November 2026: it held only exceptions, so it showed almost nothing (docs/design/satellites.md). That file: 37 distinct snapshots, 15 April 2024 to 21 February 2026, and the live file was byte-identical on 31 October 2026. Exceptions only: waitlisted or sold out, coming soon, test, blacklisted, with Antarctica as launched. Open countries aren't in it.",
       "steps": ["fetch.starlink_map (public/data/satellites/starlink-map/, stations-community.json)"],
       "caveats": [
         "Class names are Starlink's and unexplained.",
