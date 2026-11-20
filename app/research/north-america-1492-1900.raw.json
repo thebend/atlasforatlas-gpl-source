@@ -494,6 +494,31 @@
         "id": "na-c-028",
         "date": "2026-11-13",
         "change": "Project fix of spot audit 19a (Claude Opus 5.5, verification partzzzzF): the 1550-1590 dates and the San Luis Potosí area had no quote: added the Chichimeca War article's lines on the late-1550 outbreak, the Guachichiles joining in 1551, their territory around the future San Luis Potosí and the viceroy's 1590 declaration that the roads were safe; from year 1550 to 1551, when the Guachichiles joined."
+      },
+      {
+        "id": "na-e-222",
+        "date": "2026-11-19",
+        "change": "Editor (Claude Opus 5.5, assignment 21d, blind-check (b) gaps; researcher's dossier by Sonnet 5.5): added the debate over calling the California killings genocide: Madley (2016) and his count, Cook's 1943 count, Anderson's 'ethnic cleansing' and lower count, Ostler on the definition; no verdict."
+      },
+      {
+        "id": "na-e-157",
+        "date": "2026-11-19",
+        "change": "Editor (Claude Opus 5.5, assignment 21d, blind-check (b) gaps; researcher's dossier by Sonnet 5.5): the flat Cherokee toll attributed (National Park Service, Encyclopedia of Oklahoma History) beside Ostler's about 5,000 and his point that most died in the camps and after arrival."
+      },
+      {
+        "id": "na-e-223",
+        "date": "2026-11-19",
+        "change": "Editor (Claude Opus 5.5, assignment 21d, blind-check (b) gaps; researcher's dossier by Sonnet 5.5): new card: the pre-contact population north of Mexico as a range with its estimators (Mooney, Dobyns, Ubelaker, Denevan, Thornton), from Thornton's 2005 survey; joins the Contact stop after ex-e-17."
+      },
+      {
+        "id": "na-e-224",
+        "date": "2026-11-19",
+        "change": "Editor (Claude Opus 5.5, assignment 21d, blind-check (b) gaps; researcher's dossier by Sonnet 5.5): new card: the Native population around 1900 as counted by the Census Bureau (237,196) and the Indian Office (about 250,000), with Thornton's nadir of about 375,000 to 500,000 for the US, Canada and Greenland and Ubelaker's higher one; joins the Wounded Knee stop after na-e-050."
+      },
+      {
+        "id": "na-e-225",
+        "date": "2026-11-19",
+        "change": "Editor (Claude Opus 5.5, assignment 21d, blind-check (b) gaps; researcher's dossier by Sonnet 5.5): new card: bison numbers before the slaughter, Seton's at least 60 million against Flores's 28-30 million for the Great Plains before the horse, with Krech on the downward trend; joins the stop of bh-e-01 after it."
       }
     ],
     "edited_ids": [
@@ -547,7 +572,11 @@
       "na-e-168",
       "na-e-183",
       "na-e-187",
-      "na-e-203"
+      "na-e-203",
+      "na-e-222",
+      "na-e-223",
+      "na-e-224",
+      "na-e-225"
     ]
   },
   "polities": [
@@ -33166,7 +33195,7 @@
         "cherokee",
         "usa"
       ],
-      "statement": "That treaty became the legal basis for removal. Forced expulsion began in May 1838, when General Winfield Scott received President Van Buren's final order; about 2,000 Cherokee had already gone west. Nearly 14,000 were driven from their homes and held in stockades before the journey to Oklahoma and Arkansas, and over 4,000 died of cold, disease and hunger, more than a quarter of the nation. In Cherokee the event is called 'the place where they cried'.",
+      "statement": "That treaty became the legal basis for removal. Forced expulsion began in May 1838, when General Winfield Scott received President Van Buren's final order; about 2,000 Cherokee had already gone west. Nearly 14,000 were driven from their homes and held in stockades before the journey to Oklahoma and Arkansas. Over 4,000 died of cold, disease and hunger by the National Park Service's reckoning, more than a quarter of the nation by the Encyclopedia of Oklahoma History's. The historian Jeffrey Ostler gives about 5,000 Cherokee dead in the removals of the 1830s, and finds that across the removals most deaths came not on the road west but in the camps beforehand and in the first years after arrival. In Cherokee the event is called 'the place where they cried'.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/Trail_of_Tears",
@@ -33203,10 +33232,28 @@
           "title": "Treaty of New Echota (Wikipedia)",
           "quote": "became the legal basis for the forcible removal known as the Trail of Tears",
           "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Trail_of_Tears",
+          "title": "Trail of Tears (Wikipedia)",
+          "quote": "During the removal process in the 1830s, approximately 2,000 Choctaws, 4,500 Creeks, and 5,000 Cherokees perished, mostly from intersecting factors of disease, starvation, exposure, and demoralization",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Trail_of_Tears",
+          "title": "Trail of Tears (Wikipedia)",
+          "quote": "the majority of deaths occurred in internment camps while awaiting transportation west and in the first few years after relocation",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Trail_of_Tears",
+          "title": "Trail of Tears (Wikipedia)",
+          "quote": "Ostler, Jeffrey (2015). \"Genocide and American Indian History\". Oxford Research Encyclopedia of American History",
+          "kind": "wikipedia"
         }
       ],
       "confidence": "high",
-      "notes": "Estimates differ: removed nearly 14,000 (NPS) or 16,000 (Wikipedia's table); deaths over 4,000 (NPS), about 4,000 in Wikipedia's text, 4,000-8,000 in its table. A footnote in Wikipedia quoting the historian Ostler says the majority of removal deaths came in internment camps and the first years after arrival rather than on the journey, against the NPS 'on the march' wording; not put on the card because I saw it only as a footnote quotation. The card no longer says the deaths came 'on the march', given Ostler's point below."
+      "notes": "Estimates differ: removed nearly 14,000 (NPS) or 16,000 (Wikipedia's table); deaths over 4,000 (NPS), about 4,000 in Wikipedia's text, 4,000-8,000 in its table. A footnote in Wikipedia quoting the historian Ostler says the majority of removal deaths came in internment camps and the first years after arrival rather than on the journey, against the NPS 'on the march' wording; not put on the card because I saw it only as a footnote quotation. The card no longer says the deaths came 'on the march', given Ostler's point below. 21D (2026-11-19): the flat 'over 4,000 died' now names its counters (the Park Service; the Oklahoma encyclopedia's quarter) beside Jeffrey Ostler's about 5,000 (Oxford Research Encyclopedia of American History, 2015, as quoted in Wikipedia's reference), and his point on where the deaths came, so it is now on the card, attributed. Wikipedia's table gives 4,000-8,000 from Ehle, Thornton 1991, Ostler and Dunbar-Ortiz; the 8,000 (Dunbar-Ortiz's half of 16,000, in a reference quotation not shown on the page) is left out as no fetchable text gives it. Verifier's fix (partzzzzz21d) applied word for word."
     },
     {
       "id": "na-e-158",
@@ -37586,7 +37633,7 @@
         "tongva",
         "chumash"
       ],
-      "statement": "On 6 January 1851, in his State of the State address to the California Senate, Governor Peter Burnett said that a war of extermination between the races 'until the Indian race becomes extinct must be expected', with painful regret, as beyond human power to avert. He had signed the Act of 1850 and left office three days later. In the early 1850s the legislature authorized payment for expeditions against Native Californians.",
+      "statement": "On 6 January 1851, in his State of the State address to the California Senate, Governor Peter Burnett said that a war of extermination between the races 'until the Indian race becomes extinct must be expected', with painful regret, as beyond human power to avert. He had signed the Act of 1850 and left office three days later. In the early 1850s the legislature authorized payment for expeditions against Native Californians. Whether what followed was genocide is argued. Benjamin Madley of UCLA, in An American Genocide (2016), holds that it was, and counts 9,492 to about 16,000 California Indians killed by non-Indians in 1846-73; the demographer Sherburne Cook had counted 4,556 killings for 1847-65. Gary Clayton Anderson of the University of Oklahoma calls it ethnic cleansing, with no more than 2,000 killed, a count Jeffrey Ostler calls at least five times too low. For Ostler the answer turns on the definition: genocide does not seem to apply if it needs a federal or state intent to kill all California Indians and most deaths to come from direct killing, and seems apt if settlers' intent to destroy a large part of them, by means from dispossession to killing, is enough.",
       "citations": [
         {
           "url": "https://en.wikipedia.org/wiki/California_genocide",
@@ -37635,10 +37682,390 @@
           "title": "Peter Burnett, State of the State Address, 6 January 1851 (California State Library)",
           "quote": "That a war of extermination will continue to be waged between the races until the Indian race becomes extinct must be expected.",
           "kind": "primary"
+        },
+        {
+          "url": "https://www.h-net.org/reviews/showrev.php?id=49340",
+          "title": "Lauren Brand, review of Benjamin Madley, An American Genocide (H-FedHist, H-Net Reviews, August 2017)",
+          "quote": "Madley is specifically focused on proving how and why these events should be labeled as genocide",
+          "kind": "scholarly"
+        },
+        {
+          "url": "https://www.h-net.org/reviews/showrev.php?id=49340",
+          "title": "Lauren Brand, review of Benjamin Madley, An American Genocide (H-FedHist, H-Net Reviews, August 2017)",
+          "quote": "Genocide is a twentieth-century word, but it describes an ancient phenomenon and can therefore be used to analyze the past",
+          "kind": "scholarly"
+        },
+        {
+          "url": "https://www.h-net.org/reviews/showrev.php?id=49340",
+          "title": "Lauren Brand, review of Benjamin Madley, An American Genocide (H-FedHist, H-Net Reviews, August 2017)",
+          "quote": "Benjamin Madley. An American Genocide: The United States and the California Indian Catastrophe, 1846-1873. New Haven: Yale University Press , 2016",
+          "kind": "scholarly"
+        },
+        {
+          "url": "https://newsroom.ucla.edu/stories/revealing-the-history-of-genocide-against-californias-native-americans",
+          "title": "Revealing the history of genocide against California's Native Americans (UCLA Newsroom, 15 August 2017)",
+          "quote": "They killed as many as 16,000 California Indians",
+          "kind": "institution"
+        },
+        {
+          "url": "https://newsroom.ucla.edu/stories/revealing-the-history-of-genocide-against-californias-native-americans",
+          "title": "Revealing the history of genocide against California's Native Americans (UCLA Newsroom, 15 August 2017)",
+          "quote": "Benjamin Madley, associate professor of history at UCLA",
+          "kind": "institution"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/California_genocide",
+          "title": "California genocide (Wikipedia)",
+          "quote": "he estimates that during this period at least 9,492 to 16,092 Californian Indians were killed by non-Indians",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/California_genocide",
+          "title": "California genocide (Wikipedia)",
+          "quote": "In 1943, a study by demographer Sherburne Cook, estimated that there were 4,556 killings of California Indians between 1847 and 1865",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/California_genocide",
+          "title": "California genocide (Wikipedia)",
+          "quote": "a University of Oklahoma professor of history who describes the events in California as \" ethnic cleansing \"",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/California_genocide",
+          "title": "California genocide (Wikipedia)",
+          "quote": "Another contemporary historian, Gary Clayton Anderson , estimated that no more than 2,000 Native Americans were killed in California",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/California_genocide",
+          "title": "California genocide (Wikipedia)",
+          "quote": "Jeffrey Ostler has critiqued Anderson's estimate, calling it \"unsubstantiated\" and \"at least five times too low\"",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/California_genocide",
+          "title": "California genocide (Wikipedia)",
+          "quote": "According to historian Jeffrey Ostler, the debate mostly rests on disagreements regarding the definition of the term",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/California_genocide",
+          "title": "California genocide (Wikipedia)",
+          "quote": "Under the former definition, Ostler argues that \"genocide does not seem applicable,\" whereas under the latter definition, \"genocide seems apt.\"",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/California_genocide",
+          "title": "California genocide (Wikipedia)",
+          "quote": "a federal or state government intention to kill all California Indians and an outcome in which the majority of deaths were from direct killing",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/California_genocide",
+          "title": "California genocide (Wikipedia)",
+          "quote": "only settler intention to destroy a substantial portion of California Indians using a variety of means ranging from dispossession to systematic killing",
+          "kind": "wikipedia"
         }
       ],
       "confidence": "medium",
-      "notes": "Wording checked against the California State Library's text of the address, which says delivered 6 January; Wikipedia's Peter Burnett sourcing is thin. Some historians (Nokes; the California Research Bureau essay) date it 7 January. The sources read do not themselves make the speech the cause of the funding, so the card only sets them side by side. Wikipedia's $1.51 million names no author and is left off."
+      "notes": "Wording checked against the California State Library's text of the address, which says delivered 6 January; Wikipedia's Peter Burnett sourcing is thin. Some historians (Nokes; the California Research Bureau essay) date it 7 January. The sources read do not themselves make the speech the cause of the funding, so the card only sets them side by side. Wikipedia's $1.51 million names no author and is left off. 21D (2026-11-19): the debate over 'genocide' in California added, the term attributed (policy.md): Madley, An American Genocide (Yale, 2016), from Lauren Brand's H-Net review and UCLA's newsroom, his count (9,492 to 16,092 in Wikipedia's text, 16,094 in its infobox; 'as many as 16,000' at UCLA) through Wikipedia; Cook's 1943 count, Anderson's 'ethnic cleansing' and his 2,000, Ostler's reply and his definitional point (Oxford Research Encyclopedia of American History, 2015) through Wikipedia's California genocide article, those pages being unfetchable. No verdict. Not used for room: Michael Magliari's review of Madley (Wikipedia: some may find Madley's definition 'overly broad and elastic', epidemics the greater cause of death, yet genocide 'did in fact play a significant role'). Print: Anderson, Western Historical Quarterly 47.4 (2016) 407-433, with Madley's reply, pp. 449-461. Verifier's fix (partzzzzz21d) applied word for word."
+    },
+    {
+      "id": "na-e-223",
+      "type": "event",
+      "kind": "society.demography",
+      "title": "How many lived north of Mexico in 1492",
+      "qid": null,
+      "date": {
+        "year": 1492,
+        "month": null,
+        "day": null,
+        "precision": "year",
+        "circa": true
+      },
+      "place": {
+        "name": "North America",
+        "qid": "Q49",
+        "lon": -105,
+        "lat": 47,
+        "coord_source": "https://www.wikidata.org/wiki/Q49",
+        "approximate": true
+      },
+      "participants": [],
+      "statement": "How many people lived north of the Rio Grande when Europeans arrived is debated, and the estimates vary widely. James Mooney's figure of about 1.15 million, from 1928, was generally accepted until 1966, when the anthropologist Henry Dobyns argued for 9.8 to 12.25 million north of Mexico; in 1983 he raised it to 18 million, counting all of North America north of Mesoamerica. Scholars now agree that Mooney was far too low, the Cherokee anthropologist Russell Thornton wrote in 2005, and most think Dobyns too high, but there is little agreement on a higher figure. Douglas Ubelaker of the Smithsonian put it at around 2 million (1988), William Denevan at almost 4 million, and Thornton himself at slightly more than 7 million, somewhat more than 5 million of them in what is now the United States.",
+      "citations": [
+        {
+          "url": "https://kuscholarworks.ku.edu/server/api/core/bitstreams/5f02b6fa-e7ff-4db8-b714-c619ad751d5a/content",
+          "title": "Russell Thornton, 'Native American Demographic and Tribal Survival into the Twenty-first Century', American Studies 46:3/4 (2005) (KU ScholarWorks)",
+          "quote": "How drastic the decline was is debated since estimates of aboriginal population size for the area vary widely",
+          "kind": "scholarly"
+        },
+        {
+          "url": "https://kuscholarworks.ku.edu/server/api/core/bitstreams/5f02b6fa-e7ff-4db8-b714-c619ad751d5a/content",
+          "title": "Russell Thornton, 'Native American Demographic and Tribal Survival into the Twenty-first Century', American Studies 46:3/4 (2005) (KU ScholarWorks)",
+          "quote": "The classic estimate of aboriginal population size for this area is James Mooney's 1,152,000 million for North America north of the Rio Grande River at first (extensive) European contact (see Mooney 1928)",
+          "kind": "scholarly"
+        },
+        {
+          "url": "https://www.nationalacademies.org/read/9599/chapter/6",
+          "title": "Changing Numbers, Changing Needs: American Indian Demography and Public Health, ch. 6 (National Academies Press, 1996)",
+          "quote": "arriving at an estimate of 1,152,950 aboriginal people in that region of what would become North America (Mooney, 1910, 1928)",
+          "kind": "scholarly"
+        },
+        {
+          "url": "https://kuscholarworks.ku.edu/server/api/core/bitstreams/5f02b6fa-e7ff-4db8-b714-c619ad751d5a/content",
+          "title": "Russell Thornton, 'Native American Demographic and Tribal Survival into the Twenty-first Century', American Studies 46:3/4 (2005) (KU ScholarWorks)",
+          "quote": "Subsequent scholars generally accepted Mooney's estimate until 1966, when Henry Dobyns (1966) asserted an aboriginal population size for North America north of Mexico of between 9.8 and 12.25 million",
+          "kind": "scholarly"
+        },
+        {
+          "url": "https://kuscholarworks.ku.edu/server/api/core/bitstreams/5f02b6fa-e7ff-4db8-b714-c619ad751d5a/content",
+          "title": "Russell Thornton, 'Native American Demographic and Tribal Survival into the Twenty-first Century', American Studies 46:3/4 (2005) (KU ScholarWorks)",
+          "quote": "he increased his asserted size to 18 million (north of Mesoamerica)",
+          "kind": "scholarly"
+        },
+        {
+          "url": "https://kuscholarworks.ku.edu/server/api/core/bitstreams/5f02b6fa-e7ff-4db8-b714-c619ad751d5a/content",
+          "title": "Russell Thornton, 'Native American Demographic and Tribal Survival into the Twenty-first Century', American Studies 46:3/4 (2005) (KU ScholarWorks)",
+          "quote": "Scholars now agree that Mooney's population estimate significantly underestimated aboriginal population size for the area north of the Rio Grande River",
+          "kind": "scholarly"
+        },
+        {
+          "url": "https://kuscholarworks.ku.edu/server/api/core/bitstreams/5f02b6fa-e7ff-4db8-b714-c619ad751d5a/content",
+          "title": "Russell Thornton, 'Native American Demographic and Tribal Survival into the Twenty-first Century', American Studies 46:3/4 (2005) (KU ScholarWorks)",
+          "quote": "Most scholars also consider Dobyns's estimates to be excessive, although little consensus for a higher population figure exists",
+          "kind": "scholarly"
+        },
+        {
+          "url": "https://kuscholarworks.ku.edu/server/api/core/bitstreams/5f02b6fa-e7ff-4db8-b714-c619ad751d5a/content",
+          "title": "Russell Thornton, 'Native American Demographic and Tribal Survival into the Twenty-first Century', American Studies 46:3/4 (2005) (KU ScholarWorks)",
+          "quote": "Estimates vary from around 2 million by Douglas Ubelaker (1988) to almost 4 million (reduced from an earlier estimate of almost 4.5 million) by William M. Denevan",
+          "kind": "scholarly"
+        },
+        {
+          "url": "https://kuscholarworks.ku.edu/server/api/core/bitstreams/5f02b6fa-e7ff-4db8-b714-c619ad751d5a/content",
+          "title": "Russell Thornton, 'Native American Demographic and Tribal Survival into the Twenty-first Century', American Studies 46:3/4 (2005) (KU ScholarWorks)",
+          "quote": "the slightly more than 7 million estimate I arrived at and continue to use",
+          "kind": "scholarly"
+        },
+        {
+          "url": "https://kuscholarworks.ku.edu/server/api/core/bitstreams/5f02b6fa-e7ff-4db8-b714-c619ad751d5a/content",
+          "title": "Russell Thornton, 'Native American Demographic and Tribal Survival into the Twenty-first Century', American Studies 46:3/4 (2005) (KU ScholarWorks)",
+          "quote": "estimate includes somewhat more than 5 million people for the conterminous United States area",
+          "kind": "scholarly"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Henry_F._Dobyns",
+          "title": "Henry F. Dobyns (Wikipedia)",
+          "quote": "American anthropologist (1925–2009)",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Russell_Thornton",
+          "title": "Russell Thornton (Wikipedia)",
+          "quote": "is a Cherokee-American anthropologist and professor of anthropology at the University of California at Los Angeles",
+          "kind": "wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Douglas_H._Ubelaker",
+          "title": "Douglas H. Ubelaker (Wikipedia)",
+          "quote": "He works as a curator for the Smithsonian Institution",
+          "kind": "wikipedia"
+        }
+      ],
+      "confidence": "medium",
+      "notes": "21D (2026-11-19): new card for the blind check's gap 'Pre-contact population north of Mexico', joining the Contact stop after ex-e-17 (exploration-1400-1780). The estimates and their authors are from Russell Thornton's survey (American Studies 46:3/4, 2005, on KU ScholarWorks); Thornton prints Mooney's figure as '1,152,000 million', a slip, and the National Academies volume gives 1,152,950, so 'about 1.15 million'. Dobyns's 1983 figure covers north of Mesoamerica, so it includes northern Mexico. Thornton is himself one of the estimators; his summary of the field ('scholars now agree', 'most scholars') is attributed to him. Print: Mooney, The Aboriginal Population of America North of Mexico (Smithsonian, 1928); Dobyns, Current Anthropology 7 (1966) 395-416, and Their Number Become Thinned (1983); Ubelaker, American Journal of Physical Anthropology 77 (1988) 289-294; Denevan, The Native Population of the Americas in 1492 (2nd ed., 1992). Wikipedia's Population history article (2.5 to 7 million for most estimates) not used. Date is the conventional contact year, marked circa; the pin is Wikidata's point for North America (Q49 P625), approximate. No participants: the card is about the whole continent north of Mexico."
+    },
+    {
+      "id": "na-e-224",
+      "type": "event",
+      "kind": "society.demography",
+      "title": "The Native population at its lowest, around 1900",
+      "qid": null,
+      "date": {
+        "year": 1900,
+        "month": null,
+        "day": null,
+        "precision": "year",
+        "circa": false
+      },
+      "place": {
+        "name": "Washington, D.C. (Census Bureau and Office of Indian Affairs)",
+        "qid": "Q61",
+        "lon": -77.03667,
+        "lat": 38.895,
+        "coord_source": "https://www.wikidata.org/wiki/Q61",
+        "approximate": false
+      },
+      "participants": [
+        "usa"
+      ],
+      "statement": "By the turn of the century the Native population had fallen about as low as it would go. The Census Bureau counted 237,196 Indians in the United States outside Alaska in 1900, fewer than in 1890, before the count rose again to 265,683 in 1910; it counted as Indian anyone with an appreciable amount of Indian blood. The Office of Indian Affairs, keeping its own figures, had about 250,000 for 1900, leaving out freedmen and intermarried whites. For the United States, Canada and Greenland together the anthropologist Russell Thornton estimates the low at perhaps only 375,000, certainly no more than half a million, though Douglas Ubelaker argues for a higher figure. Thornton traces much of the decline to diseases brought, generally without intent, from Europe, Africa and Asia, but also to removal, war and massacre, and the undermining of Native economies.",
+      "citations": [
+        {
+          "url": "https://www2.census.gov/library/publications/decennial/1910/indian-population/indian-population-p2.pdf",
+          "title": "Indian Population in the United States and Alaska, 1910 (Bureau of the Census, 1915), Table 1 and text",
+          "quote": "1900...................................................... 237, 196",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www2.census.gov/library/publications/decennial/1910/indian-population/indian-population-p2.pdf",
+          "title": "Indian Population in the United States and Alaska, 1910 (Bureau of the Census, 1915), Table 1 and text",
+          "quote": "265, 683",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www2.census.gov/library/publications/decennial/1910/indian-population/indian-population-p2.pdf",
+          "title": "Indian Population in the United States and Alaska, 1910 (Bureau of the Census, 1915), Table 1 and text",
+          "quote": "the number of Indians in the United States decreased between 1890 and 1900 but increased during the last decade",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www2.census.gov/library/publications/decennial/1910/indian-population/indian-population-p2.pdf",
+          "title": "Indian Population in the United States and Alaska, 1910 (Bureau of the Census, 1915), Table 1 and text",
+          "quote": "together with :figures for the United States (exclusive of Alaska) derived from the reports of the Commissioner of Indian Affairs",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www2.census.gov/library/publications/decennial/1910/indian-population/indian-population-p2.pdf",
+          "title": "Indian Population in the United States and Alaska, 1910 (Bureau of the Census, 1915), Table 1 and text",
+          "quote": "It should be noted that all persons of mixed white and Indian blood who have any appreciable amount of Indian blood are counted as Indians",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www2.census.gov/library/publications/decennial/1910/indian-population/indian-population-p2.pdf",
+          "title": "Indian Population in the United States and Alaska, 1910 (Bureau of the Census, 1915), Table 1 and text",
+          "quote": "279,023 250,000 228,000 244,000 278,000",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www2.census.gov/library/publications/decennial/1910/indian-population/indian-population-p2.pdf",
+          "title": "Indian Population in the United States and Alaska, 1910 (Bureau of the Census, 1915), Table 1 and text",
+          "quote": "Figures are exclusive of freedmen and intermarried whites, as follows: 1910, 25,927",
+          "kind": "primary"
+        },
+        {
+          "url": "https://kuscholarworks.ku.edu/server/api/core/bitstreams/5f02b6fa-e7ff-4db8-b714-c619ad751d5a/content",
+          "title": "Russell Thornton, 'Native American Demographic and Tribal Survival into the Twenty-first Century', American Studies 46:3/4 (2005) (KU ScholarWorks)",
+          "quote": "The Native American population of the United States, Canada, and Greenland combined reached a nadir population of perhaps only 375,000 at around 1900",
+          "kind": "scholarly"
+        },
+        {
+          "url": "https://kuscholarworks.ku.edu/server/api/core/bitstreams/5f02b6fa-e7ff-4db8-b714-c619ad751d5a/content",
+          "title": "Russell Thornton, 'Native American Demographic and Tribal Survival into the Twenty-first Century', American Studies 46:3/4 (2005) (KU ScholarWorks)",
+          "quote": "although it may have been somewhat higher but certainly no more than .5 million (see Ubelaker 1988, for a higher nadir figure than I use)",
+          "kind": "scholarly"
+        },
+        {
+          "url": "https://kuscholarworks.ku.edu/server/api/core/bitstreams/5f02b6fa-e7ff-4db8-b714-c619ad751d5a/content",
+          "title": "Russell Thornton, 'Native American Demographic and Tribal Survival into the Twenty-first Century', American Studies 46:3/4 (2005) (KU ScholarWorks)",
+          "quote": "Certainly much of the decline in the American Indian population occurred because of the pathogens brought to this hemisphere from Europe, Africa, or Asia, generally introduced unintentionally",
+          "kind": "scholarly"
+        },
+        {
+          "url": "https://kuscholarworks.ku.edu/server/api/core/bitstreams/5f02b6fa-e7ff-4db8-b714-c619ad751d5a/content",
+          "title": "Russell Thornton, 'Native American Demographic and Tribal Survival into the Twenty-first Century', American Studies 46:3/4 (2005) (KU ScholarWorks)",
+          "quote": "Native American societies were removed and relocated, warred upon and massacred, sterilized, and undermined ecologically and economically",
+          "kind": "scholarly"
+        },
+        {
+          "url": "https://kuscholarworks.ku.edu/server/api/core/bitstreams/5f02b6fa-e7ff-4db8-b714-c619ad751d5a/content",
+          "title": "Russell Thornton, 'Native American Demographic and Tribal Survival into the Twenty-first Century', American Studies 46:3/4 (2005) (KU ScholarWorks)",
+          "quote": "All of these caused population decline due to fertility decreases as well as mortality increases",
+          "kind": "scholarly"
+        }
+      ],
+      "confidence": "medium",
+      "notes": "21D (2026-11-19): new card for the blind check's gap 'Native population nadir around 1900', joining the Wounded Knee stop after na-e-050. The census figures (1890 248,253; 1900 237,196; 1910 265,683, the United States without Alaska) are from the Census Bureau's 1915 report Indian Population in the United States and Alaska, 1910, Table 1, whose OCR separates the columns: the Indian Office's 1900 figure (250,000) is read from the row 279,023 / 250,000 / 228,000 / 244,000 / 278,000 in the order 1910 to 1870, which fits the report's sentence that those figures fell from 1870 to 1890 and rose by about as much in the next 20 years; its note puts the excluded freedmen and intermarried whites at an estimated 20,000 for 1900. The Bureau thought the 1900 and 1910 returns fairly comparable. Thornton's nadir is from his 2005 survey (citing his American Indian Holocaust and Survival, 1987, pp. 42-43); Ubelaker 1988 (print) argues for a higher one. Not used: 536,000 for the US by 1900 in Wikipedia's Dobyns article, which names no estimator. 'Sterilized' in Thornton's list refers to later policy and is not put on the card. Pin: Washington (Q61 P625), seat of both counting offices."
+    },
+    {
+      "id": "na-e-225",
+      "type": "event",
+      "kind": "environment.wildlife",
+      "title": "How many bison the Plains held",
+      "qid": null,
+      "date": {
+        "year": 1870,
+        "month": null,
+        "day": null,
+        "precision": "year",
+        "circa": true
+      },
+      "place": {
+        "name": "Great Plains",
+        "qid": "Q12707",
+        "lon": -100,
+        "lat": 40,
+        "coord_source": "https://www.wikidata.org/wiki/Q12707",
+        "approximate": true
+      },
+      "participants": [],
+      "statement": "How many bison the Plains held before the hide hunters came was always uncertain. From 1600 to 1870 observers wrote of countless numbers and of plains blackened with buffalo, and estimates since have ranged widely. The naturalist Ernest Thompson Seton, the first to reckon from the carrying capacity of the range, settled on at least 60 million. Since then, Shepard Krech III of Brown University notes, estimates have tended to come down, because the bison were unevenly spread and drought struck the Plains from time to time. The historian Dan Flores, extrapolating in 1991 from the 1910 census of livestock, argued that before the horse the Southern Plains could have supported about 8.2 million bison and the whole Great Plains perhaps 28 to 30 million, and that there were very likely never 100 million or even 60 million.",
+      "citations": [
+        {
+          "url": "https://nationalhumanitiescenter.org/tserve/nattrans/ntecoindian/essays/buffalo.htm",
+          "title": "Shepard Krech III, 'Buffalo Tales: The Near-Extermination of the American Bison' (TeacherServe, National Humanities Center)",
+          "quote": "From 1600 to 1870, the number of buffaloes was almost always uncertain",
+          "kind": "institution"
+        },
+        {
+          "url": "https://nationalhumanitiescenter.org/tserve/nattrans/ntecoindian/essays/buffalo.htm",
+          "title": "Shepard Krech III, 'Buffalo Tales: The Near-Extermination of the American Bison' (TeacherServe, National Humanities Center)",
+          "quote": "herds that blackened the plains",
+          "kind": "institution"
+        },
+        {
+          "url": "https://nationalhumanitiescenter.org/tserve/nattrans/ntecoindian/essays/buffalo.htm",
+          "title": "Shepard Krech III, 'Buffalo Tales: The Near-Extermination of the American Bison' (TeacherServe, National Humanities Center)",
+          "quote": "Estimates of numbers range widely",
+          "kind": "institution"
+        },
+        {
+          "url": "https://nationalhumanitiescenter.org/tserve/nattrans/ntecoindian/essays/buffalo.htm",
+          "title": "Shepard Krech III, 'Buffalo Tales: The Near-Extermination of the American Bison' (TeacherServe, National Humanities Center)",
+          "quote": "Ernest Thompson Seton, the naturalist, was the first to estimate population on the basis of what was called \"range allowance\" (or carrying capacity) and settled on at least 60 million",
+          "kind": "institution"
+        },
+        {
+          "url": "https://nationalhumanitiescenter.org/tserve/nattrans/ntecoindian/essays/buffalo.htm",
+          "title": "Shepard Krech III, 'Buffalo Tales: The Near-Extermination of the American Bison' (TeacherServe, National Humanities Center)",
+          "quote": "Since his day the tendency has been to lower the estimates because bison were unevenly distributed over their range and because drought periodically struck the Plains",
+          "kind": "institution"
+        },
+        {
+          "url": "https://nationalhumanitiescenter.org/tserve/nattrans/ntecoindian/essays/buffalo.htm",
+          "title": "Shepard Krech III, 'Buffalo Tales: The Near-Extermination of the American Bison' (TeacherServe, National Humanities Center)",
+          "quote": "Shepard Krech III, Brown University",
+          "kind": "institution"
+        },
+        {
+          "url": "https://nationalhumanitiescenter.org/tserve/nattrans/ntecoindian/essays/buffalo.htm",
+          "title": "Shepard Krech III, 'Buffalo Tales: The Near-Extermination of the American Bison' (TeacherServe, National Humanities Center)",
+          "quote": "According to Dan Flores, an historian, no more than 30 million bison roamed the Plains prior to the arrival of the horse",
+          "kind": "institution"
+        },
+        {
+          "url": "https://www.buffalofieldcampaign.org/images/get-involved/students-resource-about-bison/bison-conservation-papers/Flores-Bison-Bison-Ecology-and-Bison-Diplomacy-The-Southern-Plains-from-1800-to-1850-September-1991.pdf",
+          "title": "Dan Flores, 'Bison Ecology and Bison Diplomacy: The Southern Plains from 1800 to 1850', Journal of American History 78:2 (1991) (copy hosted by Buffalo Field Campaign)",
+          "quote": "The best technique for determining bison carrying capacity on the Southern Plains is to extrapolate from United States census data for livestock, and the best census for the extrapolation is that of 1910",
+          "kind": "scholarly"
+        },
+        {
+          "url": "https://www.buffalofieldcampaign.org/images/get-involved/students-resource-about-bison/bison-conservation-papers/Flores-Bison-Bison-Ecology-and-Bison-Diplomacy-The-Southern-Plains-from-1800-to-1850-September-1991.pdf",
+          "title": "Dan Flores, 'Bison Ecology and Bison Diplomacy: The Southern Plains from 1800 to 1850', Journal of American History 78:2 (1991) (copy hosted by Buffalo Field Campaign)",
+          "quote": "during prehorse times the Southern Plains might have supported an average of about 8.2 million bison, the entire Great Plains perhaps 28-30 million",
+          "kind": "scholarly"
+        },
+        {
+          "url": "https://www.buffalofieldcampaign.org/images/get-involved/students-resource-about-bison/bison-conservation-papers/Flores-Bison-Bison-Ecology-and-Bison-Diplomacy-The-Southern-Plains-from-1800-to-1850-September-1991.pdf",
+          "title": "Dan Flores, 'Bison Ecology and Bison Diplomacy: The Southern Plains from 1800 to 1850', Journal of American History 78:2 (1991) (copy hosted by Buffalo Field Campaign)",
+          "quote": "There very likely were never 100 million or even 60 million bison on the Plains during the present climate regime because the carrying capacity of the grasslands was not so high",
+          "kind": "scholarly"
+        }
+      ],
+      "confidence": "medium",
+      "notes": "21D (2026-11-19): new card for the blind check's gap 'Bison numbers before the slaughter', joining the stop of bh-e-01 (bison-hornaday-1870-1889, whose catalogue this tour only borrows) after it. Seton's figure and the trend since are from Shepard Krech III's essay for the National Humanities Center; Flores's from his Journal of American History article (78:2, 1991), read in a copy hosted by the Buffalo Field Campaign (the journal's own page is not open). Flores's figures are carrying-capacity averages for the time before the horse, not a count of any year, so they are not set against Hornaday's estimates for about 1870 on bh-e-01. Not used: Krech's '30 to 1000 million in A.D. 1500' (as printed; probably a slip) and the 'hundreds of millions or even billions' he calls clearly in error; Wikipedia's 60 million from Colonel Dodge's 1871 sighting (not fetched). Date is the eve of the slaughter, marked circa; pin is Wikidata's point for the Great Plains (Q12707 P625), approximate."
     }
   ]
 }

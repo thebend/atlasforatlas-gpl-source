@@ -4,7 +4,7 @@
 
 Everything here is licensed under the GPL-3.0 (see `LICENSE`), except the inputs listed under "Other inputs", which keep their own licences.
 
-Exported from the atlas's main repository at commit `0ae6e516` by `app/scripts/gpl_export.py`. The rest of the atlas is not GPL-licensed and is not in this repository.
+Exported from the atlas's main repository at commit `520e1d33` by `app/scripts/gpl_export.py`. The rest of the atlas is not GPL-licensed and is not in this repository.
 
 ## Build
 
@@ -106,4 +106,5 @@ The build downloads these; none is copied into this repository except where note
 - `app/research/north-america-1492-1900.verification.partz1.json`
 - `app/research/north-america-1492-1900.verification.partzz1.json`
 - `app/research/north-america-1492-1900.verification.partzzzzF.json`
+- `app/research/north-america-1492-1900.verification.partzzzzz21d.json`
 - `app/src/lib/themes.ts`

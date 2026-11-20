@@ -1,0 +1,51 @@
+{
+ "meta": {
+  "method": "Independent verifier (role 3), assignment 21d, by Claude Opus 5.5. Each card the editor changed or made today read against HEAD (git show, read-only) and against every cited page, fetched once through etl.research.verify_quotes.source_text (pages kept in scratchpad/21d/work-verify-g02/pages), each quote checked (all found or fuzzy; the fuzzy ones are Wikipedia's Alexander page, reworded since) and each fact read in context past the quote's end. Checked in particular: attribution to the right person and work, no verdict, tolls and populations as ranges with estimators, contested terms attributed beside named disputers, new cards' date, Wikidata point (P625) and stop. Fix quotes were run through the quote checker (all found).",
+  "date": "2026-11-19"
+ },
+ "items": {
+  "na-e-157": {
+   "status": "verified",
+   "note": "NPS (nearly 14,000; over 4,000 died of cold, disease and hunger) and the Encyclopedia of Oklahoma History (more than one-fourth died on the trek) rightly attributed. Ostler (Oxford Research Encyclopedia of American History, 2015, quoted in Wikipedia's reference): about 5,000 Cherokee dead in the 1830s removals. But his point on where deaths fell is about the removals as a whole (2,000 Choctaws, 4,500 Creeks, 5,000 Cherokees): 'the majority of deaths occurred in internment camps ... and in the first few years after relocation'. The card applies it to the Cherokee dead alone ('most of them'). Range now 4,000 to about 5,000 with estimators. Fix applied word for word (2026-11-19).",
+   "fields_unsupported": [
+    "statement: 'most of them' (Ostler's majority is across all the removals)"
+   ],
+   "fix": "Replace 'The historian Jeffrey Ostler gives about 5,000 Cherokee dead in the removals of the 1830s, most of them not on the road west but in the camps beforehand and in the first years after arrival.' with 'The historian Jeffrey Ostler gives about 5,000 Cherokee dead in the removals of the 1830s, and finds that across the removals most deaths came not on the road west but in the camps beforehand and in the first years after arrival.'",
+   "fixed": [
+    "statement"
+   ],
+   "sha": "bc63107753d81027"
+  },
+  "na-e-222": {
+   "status": "verified",
+   "note": "Genocide debate checked on California genocide (body, past each quote): Madley (UCLA; An American Genocide, Yale 2016, per Brand's H-Net review, 'proving how and why these events should be labeled as genocide') counts at least 9,492 to 16,092 killed by non-Indians, 1846-73 (UCLA newsroom: 'as many as 16,000'); Cook 1943: 4,556 killings, 1847-65; Anderson (University of Oklahoma) 'ethnic cleansing' and no more than 2,000; Ostler: Anderson's figure 'at least five times too low'. The term is attributed to Madley, Anderson's rival term and count are given, no verdict; range 2,000 (Anderson) to 16,092 (Madley) with estimators. One shortening: Ostler's strict definition needs a federal or state intention to kill all California Indians and an outcome in which most deaths came from direct killing; the card drops the second condition and the 'variety of means' of the looser one, and no cited quote carries the definitions themselves. Add the two quotes (both found). Fix applied word for word (2026-11-19).",
+   "fields_unsupported": [
+    "statement: Ostler's two definitions (unquoted; strict one shortened)"
+   ],
+   "fix": "Replace 'For Ostler the answer turns on the definition: genocide does not seem to apply if it needs a government's intent to kill every California Indian, and seems apt if settlers' intent to destroy a large part of them is enough.' with 'For Ostler the answer turns on the definition: genocide does not seem to apply if it needs a federal or state intent to kill all California Indians and most deaths to come from direct killing, and seems apt if settlers' intent to destroy a large part of them, by means from dispossession to killing, is enough.' Add citations to https://en.wikipedia.org/wiki/California_genocide: 'a federal or state government intention to kill all California Indians and an outcome in which the majority of deaths were from direct killing' and 'only settler intention to destroy a substantial portion of California Indians using a variety of means ranging from dispossession to systematic killing'.",
+   "fixed": [
+    "statement",
+    "citations"
+   ],
+   "sha": "60834263fd276c2f"
+  },
+  "na-e-223": {
+   "status": "verified",
+   "note": "Thornton (American Studies 46:3/4, 2005, KU ScholarWorks) read in full context: Mooney 1928 (the '1,152,000 million' slip; NAP gives 1,152,950, so 'about 1.15 million' is right); accepted until Dobyns 1966, 9.8-12.25 million north of Mexico; 18 million in 1983, north of Mesoamerica; 'Scholars now agree ... significantly underestimated' and 'Most scholars also consider Dobyns's estimates to be excessive', both attributed to Thornton as the card does ('far too low' is a fair rendering of 'significantly'); Ubelaker about 2 million (1988), Denevan almost 4 million, Thornton slightly more than 7 million, somewhat more than 5 million in the conterminous US. Range with estimators, no verdict. Roles quoted (Cherokee anthropologist; Smithsonian curator; anthropologist). Date 1492 circa; Q49 P625 (47, -105) matches; joins the Contact stop after ex-e-17 (Columbus at Guanahani).",
+   "fields_unsupported": [],
+   "sha": "afd02ca6d9dc95eb"
+  },
+  "na-e-224": {
+   "status": "verified",
+   "note": "Census Bureau 1915 report, Table 1 and text read in the PDF: 265,683 (1910), 237,196 (1900), 248,253 (1890); the Indian Office column 279,023 / 250,000 / 228,000 / 244,000 / 278,000 is in the order 1910 to 1870, which the text confirms (fell 1870-90, rose by about as much in the next 20 years; 279,023 named as the 1910 figure); its footnote excludes freedmen and intermarried whites (1900: 20,000, estimate). 'Any appreciable amount of Indian blood' quoted. Thornton's nadir (perhaps only 375,000 around 1900 for the US, Canada and Greenland; certainly no more than .5 million; Ubelaker higher) and his causes (pathogens generally introduced unintentionally; removal, war and massacre, ecological and economic undermining) read in context; the card keeps his disease point without his 'This was not genocide' gloss, which is fine as no term is used. Q61 P625 matches; joins the Wounded Knee stop after na-e-050.",
+   "fields_unsupported": [],
+   "sha": "114d520fb6f160d7"
+  },
+  "na-e-225": {
+   "status": "verified",
+   "note": "Krech (National Humanities Center essay): uncertainty 1600-1870, 'herds that blackened the plains', estimates range widely, Seton first to use range allowance and settled on at least 60 million, the tendency since to lower estimates (uneven distribution, drought). Flores (Journal of American History 78:2, 1991, Buffalo Field Campaign copy): extrapolation from the 1910 livestock census; prehorse Southern Plains about 8.2 million, Great Plains perhaps 28-30 million; very likely never 100 million or even 60 million. Range with estimators, no verdict. Q12707 P625 (40, -100) matches; date 1870 circa; joins the bison stop after bh-e-01.",
+   "fields_unsupported": [],
+   "sha": "c9a2b937b059d612"
+  }
+ }
+}
