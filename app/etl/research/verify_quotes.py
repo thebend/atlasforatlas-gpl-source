@@ -24,13 +24,14 @@ import urllib.parse
 
 from etl import net
 from etl.common import CACHE, RCACHE, RESEARCH, write_json
-from etl.research import dating
+from etl.research import dating, nolink
 
 import sys
 NAME = sys.argv[1] if len(sys.argv) > 1 else "northeast-1790-1820"
 RAW = RESEARCH / f"{NAME}.raw.json"
 OUTP = RCACHE / f"{NAME}.quotes.json"
 FETCH = CACHE / "fetch"
+KEEP = True     # False while a listed book is read (etl/research/nolink.py): nothing of it is written to the cache
 
 
 def norm(s: str) -> str:
@@ -75,7 +76,7 @@ def fetch(url: str) -> str | None:
     FETCH.mkdir(parents=True, exist_ok=True)
     key = re.sub(r"[^A-Za-z0-9]+", "_", url)[:180]
     p = FETCH / key
-    if p.exists():
+    if KEEP and p.exists():
         text = p.read_text(errors="replace")
         # a page kept still gzip-compressed by an older run (the Wayback Machine sends some that way
         # whatever is asked): not text, so fetched again
@@ -90,7 +91,8 @@ def fetch(url: str) -> str | None:
         return None                 # a bot check, not the page: not kept, so a later run asks again
     except (urllib.error.URLError, OSError, ValueError, EOFError, http.client.HTTPException):
         body = ""                   # gone, refused or unreachable after retries: kept as nothing
-    p.write_text(body)
+    if KEEP:
+        p.write_text(body)
     return body or None
 
 
@@ -124,6 +126,17 @@ def archive_text(ident: str) -> str | None:
         return None
     body = fetch(f"https://archive.org/download/{ident}/{urllib.parse.quote(names[0])}") if names else None
     return to_text(body) if body else None
+
+
+def archive_all(ident: str) -> str | None:
+    """Every OCR text file of an archive.org item, joined: a book in several volumes is one item of many files."""
+    meta = fetch(f"https://archive.org/metadata/{ident}/files")
+    try:
+        names = [f["name"] for f in json.loads(meta or "{}").get("result", []) if f["name"].endswith("_djvu.txt")]
+    except ValueError:
+        return None
+    bodies = [fetch(f"https://archive.org/download/{ident}/{urllib.parse.quote(n)}") for n in names]
+    return "\n".join(to_text(x) for x in bodies if x) or None
 
 
 def source_text(url: str) -> str | None:
@@ -181,15 +194,45 @@ def check(quote: str, text: str) -> str:
     return "missing"
 
 
+def book_check(b: dict, quote: str, kept: dict, books: dict) -> str:
+    """A listed book's quote (etl/research/nolink.py): its kept verdict, else the book read once, in memory,
+    and only the verdict and the quote's own words around it kept."""
+    key = f"{b['id']}|{norm(quote)}"
+    if key in kept:
+        return kept[key]["check"]
+    if b["id"] not in books:
+        global KEEP
+        KEEP = False
+        try:
+            texts = [source_text(b["copy"])] if b.get("copy") else [archive_all(i) for i in nolink.copy_items(b)]
+        finally:
+            KEEP = True
+        books[b["id"]] = "\n".join(t for t in texts if t) or None
+    text = books[b["id"]]
+    if text is None:
+        return "unfetchable"
+    st = check(quote, text)
+    if st in ("found", "fuzzy"):   # a quote not found is read again next time, not remembered as missing
+        kept[key] = {"check": st, "words": nolink.window(norm(quote), norm(text)) if st == "found" else ""}
+    return st
+
+
 def main() -> None:
     cat = json.loads(RAW.read_text())
     cache: dict[str, str | None] = {}
+    kept, books = nolink.load_kept(), {}
+    n_kept = len(kept)
     summary = {}
     for item in cat.get("claims", []) + cat.get("events", []):
         res = []
         # (a date in dispute: each position's citation too, etl/research/dating.py)
         for c in dating.citations(item):
             src = c.get("url", "")
+            b = nolink.book_for(src)
+            if b:
+                c["quote_check"] = st = book_check(b, c.get("quote", ""), kept, books)
+                res.append(st)
+                continue
             if src not in cache:
                 cache[src] = source_text(src)
             text = cache[src]
@@ -198,6 +241,9 @@ def main() -> None:
             res.append(st)
         summary[item["id"]] = res
     write_json(OUTP, cat)
+    if len(kept) != n_kept:
+        nolink.save_kept(kept)
+    books.clear()
     flat = [s for v in summary.values() for s in v]
     print({k: flat.count(k) for k in ("found", "fuzzy", "missing", "unfetchable")},
           "items with >=1 found/fuzzy:", sum(1 for v in summary.values() if any(s in ("found", "fuzzy") for s in v)),

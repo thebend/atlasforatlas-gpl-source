@@ -23,7 +23,7 @@ from collections import Counter
 import sys
 
 from etl.common import CATALOGUE, RCACHE, RESEARCH, write_json
-from etl.research import dating, review
+from etl.research import dating, nolink, review
 from etl.research.stamp import text_sha
 
 SERVED = ("verified", "partially-verified", "awaiting-recheck")   # the statuses a card is served with
@@ -61,6 +61,8 @@ def main() -> None:
     if bad:
         raise SystemExit("dating problems (etl/research/dating.py):\n  " + "\n  ".join(bad))
     for item in cat.get("claims", []) + cat.get("events", []):
+        for c in dating.citations(item):   # a book we may cite but never link (etl/research/nolink.py)
+            nolink.rewrite(c)
         checks = [c.get("quote_check") for c in dating.citations(item)]
         # the latest verdict sealed on this card's text as it stands; else the latest of all (checked below)
         sha = text_sha(item)

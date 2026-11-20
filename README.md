@@ -4,7 +4,7 @@
 
 Everything here is licensed under the GPL-3.0 (see `LICENSE`), except the inputs listed under "Other inputs", which keep their own licences.
 
-Exported from the atlas's main repository at commit `b16e5ec5` by `app/scripts/gpl_export.py`. The rest of the atlas is not GPL-licensed and is not in this repository.
+Exported from the atlas's main repository at commit `0ae6e516` by `app/scripts/gpl_export.py`. The rest of the atlas is not GPL-licensed and is not in this repository.
 
 ## Build
 
@@ -81,6 +81,7 @@ The build downloads these; none is copied into this repository except where note
 - `app/etl/research/__init__.py`
 - `app/etl/research/dating.py`
 - `app/etl/research/merge.py`
+- `app/etl/research/nolink.py`
 - `app/etl/research/review.py`
 - `app/etl/research/stamp.py`
 - `app/etl/research/verify_quotes.py`
