@@ -47,7 +47,7 @@ def load_top(meta: dict, variant: str, year) -> tuple[np.ndarray, np.ndarray]:
 
 
 # a polity's name in a given year where it changed inside the scene window (manifest etl.era_names:
-# side -> [[until_year, name], ...])
+# side -> [[until_year, name], ...]; a null name leaves those years to the source's own names)
 ERA_NAMES = CFG.get("era_names", {})
 
 
@@ -77,7 +77,9 @@ SOURCE_NAMES = source_names()
 def era_name(side: str, y: float) -> str | None:
     for until, name in ERA_NAMES.get(side, []):
         if y < until:
-            return name
+            if name:
+                return name
+            break
     rows = [n for y0, y1, n in SOURCE_NAMES.get(side, []) if y0 <= y < y1]
     return max(set(rows), key=rows.count) if rows else None
 
