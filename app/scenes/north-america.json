@@ -102,7 +102,7 @@
     "soft_coast": true,
     "terrain_step": 0.05,
     "borders": ["north-america"],
-    "era_names": {
+    "era_names": {"colville-reservation": [[1872.5, "Colville, Sanpoil and Okanagan"]], 
       "britain": [[1707.33, "England"], [99999, "Great Britain"]],
       "denmark": [[1814.04, "Denmark–Norway"], [99999, "Denmark"]],
       "netherlands": [[1795.05, "Dutch Republic"], [99999, "Netherlands"]],
